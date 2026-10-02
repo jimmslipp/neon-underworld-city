@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790958597,
+ "generated_at": 1790959291,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790959276,
+   "text": "Vora went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790958582,
    "text": "Vex went scouting for the Research Team and found something the judges rejected"
   },
@@ -1029,10 +1033,6 @@ window.SNAPSHOT = {
   {
    "at": 1790950102,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790949406,
-   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
