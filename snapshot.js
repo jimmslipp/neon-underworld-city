@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790945007,
+ "generated_at": 1790945608,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790945457,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790944911,
    "text": "Alana, NeonNova, Fiona Quill took a resist in the smoke club"
   },
@@ -1029,10 +1033,6 @@ window.SNAPSHOT = {
   {
    "at": 1790938167,
    "text": "The citizens voted in the R&D Lab's debate room"
-  },
-  {
-   "at": 1790937524,
-   "text": "The red team attacked an idea in the R&D Lab"
   }
  ],
  "products": [
