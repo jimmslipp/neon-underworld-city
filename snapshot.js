@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790937293,
+ "generated_at": 1790937901,
  "paused": false,
  "citizens": [
   {
@@ -642,6 +642,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790937524,
+   "text": "The red team attacked an idea in the R&D Lab"
+  },
+  {
+   "at": 1790937297,
+   "text": "The red team attacked an idea in the R&D Lab"
+  },
+  {
    "at": 1790937069,
    "text": "Solder pitched an idea to the R&D Lab"
   },
@@ -712,14 +720,6 @@ window.SNAPSHOT = {
   {
    "at": 1790932693,
    "text": "Recruitment Office brought in a new local resident (zephyr:7b)"
-  },
-  {
-   "at": 1790932627,
-   "text": "night-shift-hermes chose the name Lila"
-  },
-  {
-   "at": 1790932596,
-   "text": "Recruitment Office brought in a new local resident (hermes3:8b)"
   }
  ],
  "products": [
