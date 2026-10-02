@@ -1,5 +1,5 @@
 {
- "generated_at": 1790973475,
+ "generated_at": 1790974123,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1790974107,
+   "text": "Eva went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790973353,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1790965185,
    "text": "Byte welcomed the twelve newcomers waiting at the Gate"
-  },
-  {
-   "at": 1790964862,
-   "text": "Vora went scouting for the Research Team and found something the judges kept"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-02 22:46",
+   "by": "Eva",
+   "title": "AI-Driven Customizable 3D-Printed Beer Glasses",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-02 22:35",
    "by": "Alana",
    "title": "AI-Generated 3D-Printed Design Files",
@@ -1292,12 +1298,6 @@
    "at": "2026-10-02 20:45",
    "by": "Nebula",
    "title": "AI-Powered Custom Neon Head with Expressible Sentible",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-02 20:34",
-   "by": "John Doe",
-   "title": "Custom Parts and Accessories",
    "verdict": "rejected"
   }
  ],
