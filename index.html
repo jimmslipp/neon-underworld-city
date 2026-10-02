@@ -32,6 +32,7 @@
   .bubble i::after { content:""; position:absolute; left:50%; bottom:-8px; margin-left:-6px; border:6px solid transparent; border-top-color:var(--c,#2EE6FF); border-bottom:0; }
   .bubble b { display:block; margin-top:9px; font:600 11px 'Chakra Petch',sans-serif; color:var(--c,#E9E4FF); text-shadow:0 0 6px #000,0 0 8px #000; }
   #card { position:fixed; left:14px; right:14px; bottom:96px; max-width:420px; margin:auto; background:#150D2Bf2; border:1px solid var(--cyan); border-radius:14px; padding:14px; display:none; box-shadow:0 0 24px #2EE6FF33; z-index:4; }
+  #card { max-height:52vh; overflow-y:auto; }
   #card h2 { font:800 15px Orbitron,sans-serif; letter-spacing:2px; margin:0 0 6px; color:var(--cyan); }
   #card .who { margin:6px 0; } #card .dot { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:8px; }
   #paused { position:fixed; top:74px; left:50%; transform:translateX(-50%); background:#FF5964; color:#fff; padding:8px 18px; border-radius:10px; font:800 13px Orbitron,sans-serif; letter-spacing:2px; display:none; z-index:3; }
@@ -350,7 +351,20 @@ function addResident(c, i, robot) {
     const q = walkers.filter(x => x.waiting).length;
     g.position.set(B.gate.x + 9 + (q % 3) * 2.4, 0, B.gate.z - 4.4 + Math.floor(q / 3) * 2.6); g.rotation.y = -Math.PI / 2;
   }
+  // something to tap: an unseen box around the resident, so a finger does not have to hit a thin arm
+  const hit = new THREE.Mesh(new THREE.CylinderGeometry(1.25, 1.25, 4.4, 10), new THREE.MeshBasicMaterial({ transparent: true, opacity: 0, depthWrite: false }));
+  hit.position.y = 2.2; hit.userData.walker = w; g.add(hit); clickable.push(hit);
   walkers.push(w); return w;
+}
+const MOOD = { relaxed: "😌", calm: "🙂", focused: "🎯", "fired up": "🔥", hopeful: "🤞", sleepy: "😴", ashamed: "😳", broken: "🛠", busy: "⚙️", dreamy: "💭", happy: "😊", curious: "🧐", excited: "✨", mellow: "😌", inspired: "💡" };
+function residentCard(c) {
+  const esc = s => String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+  const line = (label, text) => text ? '<div class="who"><span style="color:#9A8FC2;font-size:12px">' + label + "</span><br>" + esc(text) + "</div>" : "";
+  const home = BUILDINGS[c.building] ? BUILDINGS[c.building].name : c.building;
+  return '<div class="who"><span class="dot" style="background:' + esc(c.colour) + '"></span>' + esc(c.status.replace(/_/g, " ")) + " · " + esc(home) + "</div>" +
+    line("MOOD", (MOOD[c.mood] ? MOOD[c.mood] + " " : "") + (c.mood || "calm")) + line("DOING NOW", c.doing || (c.working_on ? "Working on a " + c.working_on : "Off shift")) +
+    line("LAST THING SAID", c.said ? "“" + c.said + "”" : "") + line("GOOD AT", c.role) + line("IN ITS OWN WORDS", c.personality) +
+    (c.cyberware && c.cyberware.length ? line("CYBERWARE", c.cyberware.join(", ")) : "");
 }
 function play(w, name) {
   if (w.now === name || !w.actions[name]) return;
@@ -366,8 +380,19 @@ function puff(x, y, z, colour, ring) {
   m.position.set(x, y, z); if (ring) m.rotation.x = Math.PI / 2 + (Math.random() - 0.5) * 0.5;
   city.add(m); smoke.push({ m, ring, drift: (Math.random() - 0.5) * 0.3 });
 }
+function showResident(c) {                                                 // tap a resident: who it is, its mood, what it is doing right now
+  const card = document.getElementById("card");
+  card.style.borderColor = c.colour; card.querySelector("h2").style.color = c.colour;
+  card.querySelector("h2").textContent = c.name || c.id;
+  document.getElementById("cardBody").innerHTML = residentCard(c); card.style.display = "block";
+}
 const people = SNAP.citizens.filter(c => c.kind === "resident" && BUILDINGS[c.building]);
-load("robot").catch(() => null).then(robot => people.forEach((c, i) => addResident(c, i, robot)));
+load("robot").catch(() => null).then(robot => {
+  people.forEach((c, i) => addResident(c, i, robot));
+  const who = decodeURIComponent((location.hash.match(/who=([^&]+)/) || [])[1] || "").toLowerCase();       // a link can open one resident's card: .../city/#who=Zoe
+  const found = who && people.find(c => c.id.toLowerCase() === who || (c.name || "").toLowerCase() === who);
+  if (found) showResident(found);
+});
 
 // ---------------------------------------------------------------- overlay
 document.getElementById("goal").textContent = SNAP.fund.next_goal || "-";
@@ -392,6 +417,8 @@ renderer.domElement.addEventListener("pointerup", e => {
   tap.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1); ray.setFromCamera(tap, camera);
   const hit = ray.intersectObjects(clickable)[0], card = document.getElementById("card");
   if (!hit) { card.style.display = "none"; return; }
+  if (hit.object.userData.walker) { showResident(hit.object.userData.walker.c); return; }
+  card.style.borderColor = ""; card.querySelector("h2").style.color = "";
   const d = hit.object.userData.owner.userData;
   const queue = d.key === "gate" ? SNAP.citizens.filter(c => c.status === "waiting_at_gate") : [];
   card.querySelector("h2").textContent = d.name;
@@ -403,7 +430,7 @@ renderer.domElement.addEventListener("pointerup", e => {
     (i.yes + i.no ? " · vote " + i.yes + " yes, " + i.no + " no" : "") + "</div></div>").join("") || '<div class="who" style="color:#9A8FC2">No ideas in the Lab yet.</div>') :
     ((d.key === "resist" ? SNAP.citizens.filter(c => LOUNGE.includes(c.id)) : d.here).concat(queue).map(c =>
     '<div class="who"><span class="dot" style="background:' + esc(c.colour) + '"></span><b>' + esc(c.name || c.id) + "</b> · " + esc(c.status.replace(/_/g, " ")) +
-    (c.cyberware.length ? " · cyberware: " + esc(c.cyberware.join(", ")) : "") + (c.personality ? '<div style="color:#9A8FC2;font-size:13px">' + esc(c.personality) + "</div>" : "") + "</div>").join("")) ||
+    (c.mood ? " · " + esc(c.mood) : "") + (c.doing ? '<div style="color:#9A8FC2;font-size:13px">' + esc(c.doing) + "</div>" : "") + "</div>").join("")) ||
     '<div class="who" style="color:#9A8FC2">' + (d.key === "hangar" ? "Empty socket. The robot gets built here when the fund can buy its parts." : d.key === "resist" ? "The smoke club. Residents drift in when the board is empty." : "Nobody here yet.") + "</div>";
   card.style.display = "block";
 });
