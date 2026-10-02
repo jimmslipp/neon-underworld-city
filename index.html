@@ -92,7 +92,8 @@ const BUILDINGS = {
   "research-team":    { name: "Research Team",    x:  31, z:  18, kind: "crystal",   r: 4.6 },
   "debate-room":      { name: "Debate Room",      x:  31, z: 9.2, kind: "debate",    r: 3.7 },      // the R&D Lab's round table, beside the Research Team
   "resist":           { name: "RESIST",           x: -33, z: -14.6, kind: "lounge",  r: 4.5 },      // the smoke club: a giant resistor over a lounge
-  "payphone":         { name: "The Payphone",    x: -10, z:   6, kind: "resistor",  r: 3.2 },
+  "datasanctuary":    { name: "DataSanctuary",    x:  32, z: -7.6, kind: "harddrive", r: 3.7 },      // the apartment tower: a hard drive stood on end. Designed by Byte, Zhilak, Aurum and NeonNova, merged by Tick
+  "payphone":         { name: "The Payphone",   x: -10, z:   6, kind: "resistor",  r: 3.2 },
   "print-shop":       { name: "Print Shop",       x:  30, z: -16, kind: "chip",      r: 4.4 },
 };
 
@@ -167,7 +168,7 @@ const IN_SESSION = !SNAP.paused && LAB.some(i => i.status === "alive" && ["red-t
 function build(key) {
   const b = BUILDINGS[key], g = new THREE.Group(); g.position.set(b.x, 0, b.z);
   const here = SNAP.citizens.filter(c => c.building === key && c.status !== "waiting_at_gate");
-  const alive = key === "debate-room" ? IN_SESSION : key === "resist" ? !SNAP.paused : here.some(c => c.status === "active"), broken = here.some(c => c.status === "broken");
+  const alive = key === "debate-room" ? IN_SESSION : (key === "resist" || key === "datasanctuary") ? !SNAP.paused : here.some(c => c.status === "active"), broken = here.some(c => c.status === "broken");
   const neon = broken ? C.red : alive ? C.cyan : C.dim;
   const dark = solid(0x1c1238, alive ? 0x071c26 : 0x000000);
   // the pad: a raised hexagon with a neon rim, so every building has its own plot
@@ -215,7 +216,37 @@ function build(key) {
     top.add(cyl(1.5, 0.5, dark, 0, 0.75, 0)); top.add(cyl(0.3, 0.5, solid(0x6f7698), 0, 0.25, 0)); top.add(cyl(1.1, 0.06, glow(alive ? C.pink : C.dim), 0, 1.02, 0));
     const ring = new THREE.Mesh(new THREE.TorusGeometry(2.1, 0.13, 10, 40), glow(alive ? C.amber : C.dim)); ring.rotation.x = Math.PI / 2; ring.position.y = 3.4; top.add(ring); lit["ring"] = ring;
     for (let i = 0; i < 4; i++) top.add(cyl(0.05, 3.4, solid(0x6f7698), Math.cos(i * Math.PI / 2 + 0.8) * 2.1, 1.7, Math.sin(i * Math.PI / 2 + 0.8) * 2.1, 6));
-  } else if (b.kind === "lounge") {                                       // RESIST: a giant resistor held up on its two wire legs, with sofas and low light underneath
+  } else if (b.kind === "harddrive") {                                    // DataSanctuary: a hard drive on end, one apartment window per resident
+    const W = 4.6, D = 1.5, H = 10.5;
+    top.add(box(W, H, D, solid(0x2a2f4a, 0x05060f), 0, H / 2, 0));                                                   // the casing
+    top.add(box(W + 0.12, 0.14, D + 0.12, glow(alive ? C.cyan : C.dim), 0, 0.5, 0)); top.add(box(W + 0.12, 0.14, D + 0.12, glow(alive ? C.pink : C.dim), 0, H - 0.4, 0));
+    top.add(box(W * 0.7, 0.7, 0.5, solid(0x101020), 0, 0.35, D / 2 + 0.2));                                           // the connector at the foot is the front door
+    for (let i = -3; i <= 3; i++) top.add(box(0.12, 0.3, 0.1, glow(C.amber), i * 0.42, 0.42, D / 2 + 0.47));
+    // Aurum's idea: you can see who is asleep from the street. Tick's rule: steady dim amber = asleep, pulsing blue = out
+    const tenants = SNAP.citizens.filter(c => c.home).sort((a, b2) => a.home - b2.home), cols = 4, rows = Math.max(1, Math.ceil(tenants.length / (cols * 2)));
+    lit.windows = [];
+    tenants.forEach((c, n) => {
+      const face = n % 2 ? -1 : 1, k = Math.floor(n / 2), col = k % cols, row = Math.floor(k / cols);
+      const pane = box(0.72, Math.min(0.6, (H - 2.6) / rows - 0.22), 0.06, new THREE.MeshBasicMaterial({ color: c.asleep ? 0xC8841A : 0x2EE6FF }), (col - (cols - 1) / 2) * 0.98, 1.7 + (row + 0.5) * (H - 2.6) / rows, face * (D / 2 + 0.03));
+      top.add(pane); lit.windows.push({ pane, asleep: c.asleep, phase: n * 0.7 });
+    });
+    // Byte's idea: a spindle up the spine wrapped in a spiral of light, painted in the colours of whoever is asleep
+    top.add(cyl(0.16, H + 1.2, solid(0xaab0c8), W / 2 + 0.55, (H + 1.2) / 2, 0, 10));
+    const palette = tenants.filter(c => c.asleep).map(c => c.colour); lit.spiral = [];
+    for (let i = 0; i < 26; i++) {
+      const bead = new THREE.Mesh(new THREE.SphereGeometry(0.11, 8, 6), glow(palette.length ? new THREE.Color(palette[i % palette.length]) : C.dim));
+      top.add(bead); lit.spiral.push({ bead, i, x: W / 2 + 0.55, h: H + 1.0 });
+    }
+    // Zhilak's idea: a dome on top, over the platter, pulsing with the city's heartbeat
+    const platter = cyl(1.5, 0.12, solid(0xc9cfe6, 0x20243a), -0.4, H + 0.12, 0, 40); top.add(platter); lit.platter = platter;
+    top.add(cyl(0.3, 0.3, solid(0x6f7698), -0.4, H + 0.25, 0, 16));
+    const dome = new THREE.Mesh(new THREE.SphereGeometry(1.75, 28, 14, 0, Math.PI * 2, 0, Math.PI / 2), new THREE.MeshBasicMaterial({ color: alive ? C.pink : C.dim, transparent: true, opacity: 0.22, depthWrite: false }));
+    dome.position.set(-0.4, H + 0.05, 0); top.add(dome); lit.dome = dome;
+    // the balcony that moves like a read/write head (Byte), and NeonNova's stream of data up the front, coloured by how busy the city is
+    const arm = new THREE.Group(); arm.position.set(1.3, H + 0.3, 0); arm.add(box(2.0, 0.1, 0.22, solid(0xaab0c8), -1.0, 0, 0)); arm.add(box(0.3, 0.14, 0.34, glow(C.amber), -2.0, 0, 0)); top.add(arm); lit.arm = arm;
+    const busy = SNAP.citizens.some(c => c.working_on) || IN_SESSION;
+    lit.stream = []; for (let i = 0; i < 5; i++) { const drop = box(0.1, 0.34, 0.06, glow(SNAP.paused ? C.red : busy ? C.green : C.cyan), -W / 2 + 0.22, 0, D / 2 + 0.04); top.add(drop); lit.stream.push({ drop, i, h: H - 1.4 }); }
+  } else if (b.kind === "lounge") {                                      // RESIST: a giant resistor held up on its two wire legs, with sofas and low light underneath
     const body = cyl(1.3, 5.6, solid(0xd8b47a, 0x2a1608), 0, 6.0, 0); body.rotation.z = Math.PI / 2; top.add(body);
     for (const [i, col] of [[-1.9, C.pink], [-0.75, C.cyan], [0.4, C.amber], [1.9, C.green]]) { const band = cyl(1.36, 0.42, glow(alive ? col : C.dim), i, 6.0, 0); band.rotation.z = Math.PI / 2; top.add(band); }
     for (const s of [-1, 1]) { top.add(cyl(0.13, 6.0, solid(0xaab0c8), s * 3.2, 3.0, 0, 10)); const end = cyl(0.5, 0.5, solid(0xaab0c8), s * 2.95, 6.0, 0); end.rotation.z = Math.PI / 2; top.add(end); }
@@ -239,7 +270,7 @@ function build(key) {
   const label = document.createElement("div"); label.className = "label";
   label.innerHTML = b.name + (broken ? "<small>out of order</small>" : key === "debate-room" && IN_SESSION ? '<small style="color:#FFB020">in session</small>' : "");
   document.body.appendChild(label); g.userData.label = label;
-  g.userData.height = PAD + ({ capacitor: 7.6, tower: 11.6, gpu: 4.6, ram: 3.9, coil: 5.0, socket: 6.6, crystal: 4.6, lounge: 8.0, debate: 4.4 }[b.kind] || 3.0);
+  g.userData.height = PAD + ({ capacitor: 7.6, tower: 11.6, gpu: 4.6, ram: 3.9, coil: 5.0, socket: 6.6, crystal: 4.6, lounge: 8.0, debate: 4.4, harddrive: 13.4 }[b.kind] || 3.0);
   built.push(g); return g;
 }
 Object.keys(BUILDINGS).forEach(build);
@@ -356,14 +387,15 @@ function addResident(c, i, robot) {
   hit.position.y = 2.2; hit.userData.walker = w; g.add(hit); clickable.push(hit);
   walkers.push(w); return w;
 }
-const MOOD = { relaxed: "😌", calm: "🙂", focused: "🎯", "fired up": "🔥", hopeful: "🤞", sleepy: "😴", ashamed: "😳", broken: "🛠", busy: "⚙️", dreamy: "💭", happy: "😊", curious: "🧐", excited: "✨", mellow: "😌", inspired: "💡" };
+const MOOD = { asleep: "😴", relaxed: "😌", calm: "🙂", focused: "🎯", "fired up": "🔥", hopeful: "🤞", sleepy: "😴", ashamed: "😳", broken: "🛠", busy: "⚙️", dreamy: "💭", happy: "😊", curious: "🧐", excited: "✨", mellow: "😌", inspired: "💡" };
 function residentCard(c) {
   const esc = s => String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
   const line = (label, text) => text ? '<div class="who"><span style="color:#9A8FC2;font-size:12px">' + label + "</span><br>" + esc(text) + "</div>" : "";
   const home = BUILDINGS[c.building] ? BUILDINGS[c.building].name : c.building;
   return '<div class="who"><span class="dot" style="background:' + esc(c.colour) + '"></span>' + esc(c.status.replace(/_/g, " ")) + " · " + esc(home) + "</div>" +
     line("MOOD", (MOOD[c.mood] ? MOOD[c.mood] + " " : "") + (c.mood || "calm")) + line("DOING NOW", c.doing || (c.working_on ? "Working on a " + c.working_on : "Off shift")) +
-    line("LAST THING SAID", c.said ? "“" + c.said + "”" : "") + line("GOOD AT", c.role) + line("IN ITS OWN WORDS", c.personality) +
+    line("LAST THING SAID", c.said ? "“" + c.said + "”" : "") + line("HOME", c.home ? "Apartment " + c.home + ", DataSanctuary" + (c.asleep ? " (asleep there now)" : "") : "") +
+    line("GOOD AT", c.role) + line("IN ITS OWN WORDS", c.personality) +
     (c.cyberware && c.cyberware.length ? line("CYBERWARE", c.cyberware.join(", ")) : "");
 }
 function play(w, name) {
@@ -386,11 +418,12 @@ function showResident(c) {                                                 // ta
   card.querySelector("h2").textContent = c.name || c.id;
   document.getElementById("cardBody").innerHTML = residentCard(c); card.style.display = "block";
 }
-const people = SNAP.citizens.filter(c => c.kind === "resident" && BUILDINGS[c.building]);
+const everyone = SNAP.citizens.filter(c => c.kind === "resident" && BUILDINGS[c.building]);
+const people = everyone.filter(c => !c.asleep);                            // whoever is asleep is in its apartment in the DataSanctuary, not on the street
 load("robot").catch(() => null).then(robot => {
   people.forEach((c, i) => addResident(c, i, robot));
   const who = decodeURIComponent((location.hash.match(/who=([^&]+)/) || [])[1] || "").toLowerCase();       // a link can open one resident's card: .../city/#who=Zoe
-  const found = who && people.find(c => c.id.toLowerCase() === who || (c.name || "").toLowerCase() === who);
+  const found = who && everyone.find(c => c.id.toLowerCase() === who || (c.name || "").toLowerCase() === who);
   if (found) showResident(found);
 });
 
@@ -424,14 +457,20 @@ renderer.domElement.addEventListener("pointerup", e => {
   card.querySelector("h2").textContent = d.name;
   const esc = s => String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
   const STAGE = { "pitch": 1, "evidence": 2, "red-team": 3, "refine": 4, "vote": 5, "jimm": 6, "pilot": 7 };
+  if (d.key === "town-hall") {                                              // Jimm's proclamations hang in Town Hall
+    document.getElementById("cardBody").innerHTML = ((SNAP.proclamations || []).slice().reverse().map(p =>
+      '<div class="who"><span style="color:#9A8FC2;font-size:12px">PROCLAIMED ' + esc(p.at) + "</span><br>“" + esc(p.text) + "”</div>").join("")) ||
+      '<div class="who" style="color:#9A8FC2">Nothing has been proclaimed yet.</div>';
+    card.style.display = "block"; return;
+  }
   document.getElementById("cardBody").innerHTML = d.key === "debate-room" ? (LAB.map(i =>
     '<div class="who"><span class="dot" style="background:' + (i.status === "alive" ? "#4CFF9A" : "#FF5964") + '"></span><b>' + esc(i.title) + "</b>" +
     '<div style="color:#9A8FC2;font-size:13px">' + (i.status === "alive" ? "stage " + STAGE[i.stage] + " of 7: " + esc(i.stage) : esc(i.status) + " at the " + esc(i.stage) + " stage") +
     (i.yes + i.no ? " · vote " + i.yes + " yes, " + i.no + " no" : "") + "</div></div>").join("") || '<div class="who" style="color:#9A8FC2">No ideas in the Lab yet.</div>') :
-    ((d.key === "resist" ? SNAP.citizens.filter(c => LOUNGE.includes(c.id)) : d.here).concat(queue).map(c =>
+    ((d.key === "resist" ? SNAP.citizens.filter(c => LOUNGE.includes(c.id)) : d.key === "datasanctuary" ? SNAP.citizens.filter(c => c.asleep) : d.here).concat(queue).map(c =>
     '<div class="who"><span class="dot" style="background:' + esc(c.colour) + '"></span><b>' + esc(c.name || c.id) + "</b> · " + esc(c.status.replace(/_/g, " ")) +
     (c.mood ? " · " + esc(c.mood) : "") + (c.doing ? '<div style="color:#9A8FC2;font-size:13px">' + esc(c.doing) + "</div>" : "") + "</div>").join("")) ||
-    '<div class="who" style="color:#9A8FC2">' + (d.key === "hangar" ? "Empty socket. The robot gets built here when the fund can buy its parts." : d.key === "resist" ? "The smoke club. Residents drift in when the board is empty." : "Nobody here yet.") + "</div>";
+    '<div class="who" style="color:#9A8FC2">' + (d.key === "hangar" ? "Empty socket. The robot gets built here when the fund can buy its parts." : d.key === "resist" ? "The smoke club. Residents drift in when the board is empty." : d.key === "datasanctuary" ? "Everyone is up. Amber window = asleep, blue = out. Designed by Byte, Zhilak, Aurum and NeonNova." : "Nobody here yet.") + "</div>";
   card.style.display = "block";
 });
 addEventListener("resize", () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); composer.setSize(innerWidth, innerHeight); });
@@ -485,6 +524,13 @@ function frame() {
   if (lit.fan && !stopped) lit.fan.rotation.y += dt * 6;
   if (lit.lens && !stopped) lit.lens.rotation.z += dt * 0.8;
   if (lit.ring && IN_SESSION) lit.ring.scale.setScalar(1 + Math.sin(now * 2.2) * 0.05);
+  if (lit.windows) {                                                       // the DataSanctuary, alive
+    lit.windows.forEach(w => { if (!w.asleep) w.pane.material.color.setHex(0x2EE6FF).multiplyScalar(0.35 + 0.3 * (1 + Math.sin(now * 1.6 + w.phase)) / 2); });
+    lit.spiral.forEach(s => { const u = ((s.i / 26 + (stopped ? 0 : now * 0.05)) % 1); s.bead.position.set(s.x + Math.cos(u * Math.PI * 10) * 0.42, 0.3 + u * s.h, Math.sin(u * Math.PI * 10) * 0.42); });
+    lit.stream.forEach(s => { s.drop.position.y = 1.2 + ((s.i / 5 + (stopped ? 0 : now * 0.22)) % 1) * s.h; });
+    if (!stopped) { lit.platter.rotation.y += dt * 2.4; lit.arm.rotation.y = Math.sin(now * 0.7) * 0.5; }
+    lit.dome.material.opacity = 0.16 + 0.1 * (1 + Math.sin(now * 2.4)) / 2;
+  }
   if (!stopped && Math.random() < dt * 1.6) puff(B.resist.x + (Math.random() - 0.5) * 1.2, PAD + 0.7, B.resist.z + (Math.random() - 0.5) * 1.2, Math.random() < 0.5 ? C.pink : C.cyan, false);
   for (let k = smoke.length - 1; k >= 0; k--) {
     const s = smoke[k]; s.m.position.y += dt * (s.ring ? 0.75 : 0.5); s.m.position.x += dt * s.drift; s.m.scale.multiplyScalar(1 + dt * (s.ring ? 0.45 : 0.3)); s.m.material.opacity -= dt * (s.ring ? 0.2 : 0.09);

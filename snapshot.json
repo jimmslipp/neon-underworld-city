@@ -1,5 +1,5 @@
 {
- "generated_at": 1790942939,
+ "generated_at": 1790943300,
  "paused": false,
  "citizens": [
   {
@@ -17,7 +17,9 @@
    "doing": "Benched: resting until called back",
    "mood": "sleepy",
    "said": "",
-   "role": "renders"
+   "role": "renders",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "chatgpt-holo-studio",
@@ -34,7 +36,9 @@
    "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "product-images, mockups"
+   "role": "product-images, mockups",
+   "home": 1,
+   "asleep": false
   },
   {
    "id": "claude-workshop",
@@ -51,7 +55,9 @@
    "doing": "Builds whenever a Claude session is open. Leads the R&D Lab with Corvin",
    "mood": "busy",
    "said": "",
-   "role": "code, openscad, listings"
+   "role": "code, openscad, listings",
+   "home": 2,
+   "asleep": false
   },
   {
    "id": "creality-print-shop",
@@ -68,7 +74,9 @@
    "doing": "Out of order",
    "mood": "broken",
    "said": "",
-   "role": "physical-prints"
+   "role": "physical-prints",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-canva",
@@ -85,7 +93,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-cerebras",
@@ -102,7 +112,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-cloudflare-workers-ai",
@@ -119,7 +131,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-deepseek",
@@ -136,7 +150,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-elevenlabs",
@@ -153,7 +169,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-gemini",
@@ -170,7 +188,9 @@
    "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "research-lead, proposals, long-documents"
+   "role": "research-lead, proposals, long-documents",
+   "home": 3,
+   "asleep": false
   },
   {
    "id": "gate-github-models",
@@ -187,7 +207,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-groq",
@@ -204,7 +226,9 @@
    "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "fast-worker, short-text, checks"
+   "role": "fast-worker, short-text, checks",
+   "home": 4,
+   "asleep": false
   },
   {
    "id": "gate-ideogram",
@@ -221,7 +245,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-leonardo",
@@ -238,7 +264,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-meshy",
@@ -255,7 +283,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-mistral-api",
@@ -272,7 +302,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-openrouter",
@@ -289,7 +321,9 @@
    "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "critic, voter, research-legwork"
+   "role": "critic, voter, research-legwork",
+   "home": 5,
+   "asleep": false
   },
   {
    "id": "gate-perplexity",
@@ -306,7 +340,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "gate-suno",
@@ -323,7 +359,9 @@
    "doing": "Waiting at the Gate to be let in",
    "mood": "hopeful",
    "said": "",
-   "role": ""
+   "role": "",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "holo-granite-vision",
@@ -340,7 +378,9 @@
    "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Zhilak",
    "mood": "inspired",
    "said": "It's fascinating how a simple, 3D-printed object can have such a profound impact. Perhaps we could collaborate to create a gift that combines technology with ar",
-   "role": "vision, document-reading"
+   "role": "vision, document-reading",
+   "home": 6,
+   "asleep": false
   },
   {
    "id": "holo-moondream",
@@ -357,7 +397,9 @@
    "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "vision, picture-checks"
+   "role": "vision, picture-checks",
+   "home": 7,
+   "asleep": false
   },
   {
    "id": "night-shift-gemma3",
@@ -374,7 +416,9 @@
    "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "descriptions, translation"
+   "role": "descriptions, translation",
+   "home": 8,
+   "asleep": false
   },
   {
    "id": "night-shift-hermes",
@@ -391,7 +435,9 @@
    "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "writing, listing-text"
+   "role": "writing, listing-text",
+   "home": 9,
+   "asleep": false
   },
   {
    "id": "night-shift-llama",
@@ -408,7 +454,9 @@
    "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "listing-text, tags, descriptions"
+   "role": "listing-text, tags, descriptions",
+   "home": 10,
+   "asleep": false
   },
   {
    "id": "night-shift-llama-junior",
@@ -425,7 +473,9 @@
    "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Glow",
    "mood": "wonderful",
    "said": "I'm getting lost in the intricacies of art and love, and I think the perfect gift would be one that weaves a thread of memories and emotions, like a delicate la",
-   "role": "tags, short-text"
+   "role": "tags, short-text",
+   "home": 11,
+   "asleep": false
   },
   {
    "id": "night-shift-mistral",
@@ -442,7 +492,9 @@
    "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "descriptions, tags, price-checks"
+   "role": "descriptions, tags, price-checks",
+   "home": 12,
+   "asleep": false
   },
   {
    "id": "night-shift-qwen",
@@ -459,7 +511,9 @@
    "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "research, listing-text, translation"
+   "role": "research, listing-text, translation",
+   "home": 13,
+   "asleep": false
   },
   {
    "id": "night-shift-smollm2",
@@ -476,7 +530,9 @@
    "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "tags, short-text"
+   "role": "tags, short-text",
+   "home": 14,
+   "asleep": false
   },
   {
    "id": "night-shift-zephyr",
@@ -493,7 +549,9 @@
    "doing": "Off duty: taking a resist in the smoke club with Zhilak and Glow",
    "mood": "creative",
    "said": "I agree, Glow. Maybe we could take it a step further and incorporate some interactive elements into the gifts. Something that would allow the recipient to conti",
-   "role": "writing, descriptions"
+   "role": "writing, descriptions",
+   "home": 15,
+   "asleep": false
   },
   {
    "id": "openscad-blueprint-office",
@@ -510,7 +568,9 @@
    "doing": "Benched: resting until called back",
    "mood": "sleepy",
    "said": "",
-   "role": "parametric-design, stl-export"
+   "role": "parametric-design, stl-export",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "piper-radio-tower",
@@ -527,7 +587,9 @@
    "doing": "Benched: resting until called back",
    "mood": "sleepy",
    "said": "",
-   "role": "voice"
+   "role": "voice",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "recruit-granite",
@@ -544,7 +606,9 @@
    "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "licence-notes, summaries"
+   "role": "licence-notes, summaries",
+   "home": 16,
+   "asleep": false
   },
   {
    "id": "recruit-granite-senior",
@@ -561,7 +625,9 @@
    "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "licence-notes, checklists, translation"
+   "role": "licence-notes, checklists, translation",
+   "home": 17,
+   "asleep": false
   },
   {
    "id": "recruit-openchat",
@@ -578,7 +644,9 @@
    "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "candidate-research, writing"
+   "role": "candidate-research, writing",
+   "home": 18,
+   "asleep": false
   },
   {
    "id": "recruit-phi35",
@@ -595,7 +663,9 @@
    "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "summaries, licence-notes"
+   "role": "summaries, licence-notes",
+   "home": 19,
+   "asleep": false
   },
   {
    "id": "recruit-phi4-mini",
@@ -612,7 +682,9 @@
    "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "candidate-research, summaries, checklists"
+   "role": "candidate-research, summaries, checklists",
+   "home": 20,
+   "asleep": false
   },
   {
    "id": "research-deepseek-junior",
@@ -629,7 +701,9 @@
    "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "quick-checks, maths"
+   "role": "quick-checks, maths",
+   "home": 21,
+   "asleep": false
   },
   {
    "id": "research-deepseek-r1",
@@ -643,10 +717,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 22 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
-   "role": "reasoning, proposals, risk-checks"
+   "role": "reasoning, proposals, risk-checks",
+   "home": 22,
+   "asleep": true
   },
   {
    "id": "research-llama31",
@@ -663,7 +739,9 @@
    "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "proposals, research"
+   "role": "proposals, research",
+   "home": 23,
+   "asleep": false
   },
   {
    "id": "research-mathstral",
@@ -680,7 +758,9 @@
    "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "maths, pricing, print-cost-sums"
+   "role": "maths, pricing, print-cost-sums",
+   "home": 24,
+   "asleep": false
   },
   {
    "id": "research-mistral-nemo",
@@ -697,7 +777,9 @@
    "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "proposals, market-notes, spanish"
+   "role": "proposals, market-notes, spanish",
+   "home": 25,
+   "asleep": false
   },
   {
    "id": "research-qwen3",
@@ -711,10 +793,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
-   "role": "reasoning, research, translation"
+   "role": "reasoning, research, translation",
+   "home": 26,
+   "asleep": true
   },
   {
    "id": "research-qwen3-senior",
@@ -731,7 +815,9 @@
    "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "reasoning, proposals, translation"
+   "role": "reasoning, proposals, translation",
+   "home": 27,
+   "asleep": false
   },
   {
    "id": "research-wizardlm",
@@ -748,7 +834,9 @@
    "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "research, proposals"
+   "role": "research, proposals",
+   "home": 28,
+   "asleep": false
   },
   {
    "id": "telegram-payphone",
@@ -765,7 +853,9 @@
    "doing": "Benched: resting until called back",
    "mood": "sleepy",
    "said": "",
-   "role": "approvals, alerts"
+   "role": "approvals, alerts",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "tripo-fabricator",
@@ -782,7 +872,9 @@
    "doing": "Off shift at Fabricator, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "text-to-3d, image-to-3d"
+   "role": "text-to-3d, image-to-3d",
+   "home": 0,
+   "asleep": false
   },
   {
    "id": "workshop-codellama",
@@ -799,7 +891,9 @@
    "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "code-review, scripts"
+   "role": "code-review, scripts",
+   "home": 29,
+   "asleep": false
   },
   {
    "id": "workshop-openclaw",
@@ -816,7 +910,9 @@
    "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "apprentice, critic, voter"
+   "role": "apprentice, critic, voter",
+   "home": 30,
+   "asleep": false
   },
   {
    "id": "workshop-qwen-coder",
@@ -833,7 +929,9 @@
    "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "openscad-help, code-review"
+   "role": "openscad-help, code-review",
+   "home": 31,
+   "asleep": false
   },
   {
    "id": "workshop-qwen-coder-junior",
@@ -850,10 +948,16 @@
    "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "calm",
    "said": "",
-   "role": "code-snippets, openscad-help"
+   "role": "code-snippets, openscad-help",
+   "home": 32,
+   "asleep": false
   }
  ],
  "feed": [
+  {
+   "at": 1790943028,
+   "text": "Byte, Zhilak, Aurum, NeonNova and Tick designed the city's new apartment tower"
+  },
   {
    "at": 1790942566,
    "text": "Zora Xu, Zhilak, Glow took a resist in the smoke club"
@@ -929,10 +1033,6 @@
   {
    "at": 1790935120,
    "text": "Lumina Valtor (Research Team) proposed: Print-in-Progess Series"
-  },
-  {
-   "at": 1790933094,
-   "text": "research-qwen3-senior chose the name Vex"
   }
  ],
  "products": [
@@ -975,6 +1075,12 @@
   {
    "title": "Pixel Christmas tree ornament",
    "stage": "ready-for-jimm"
+  }
+ ],
+ "proclamations": [
+  {
+   "at": "02 Oct 2026 14:14",
+   "text": "Give them all a spot to sleep in a hard drive in the city. Think tower block of ultra cool apartments, but for the AIs on rest. Make it a hard drive. Task a few AIs with its design, then implement."
   }
  ],
  "lounge": [
