@@ -1,5 +1,5 @@
 {
- "generated_at": 1790959924,
+ "generated_at": 1790960539,
  "paused": false,
  "citizens": [
   {
@@ -641,12 +641,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Recruitment Office, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 18 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, writing",
    "home": 18,
-   "asleep": false
+   "asleep": true
   },
   {
    "id": "recruit-phi35",
@@ -660,12 +660,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 19,
-   "asleep": true
+   "asleep": false
   },
   {
    "id": "recruit-phi4-mini",
@@ -755,12 +755,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 24 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
-   "asleep": true
+   "asleep": false
   },
   {
    "id": "research-mistral-nemo",
@@ -774,12 +774,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 25,
-   "asleep": true
+   "asleep": false
   },
   {
    "id": "research-qwen3",
@@ -831,12 +831,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 28 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "research, proposals",
    "home": 28,
-   "asleep": true
+   "asleep": false
   },
   {
    "id": "telegram-payphone",
@@ -955,6 +955,10 @@
  ],
  "feed": [
   {
+   "at": 1790959948,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790959909,
    "text": "John Doe, Rexton Vance, Zoe took a resist in the smoke club"
   },
@@ -1029,10 +1033,6 @@
   {
    "at": 1790950725,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790950587,
-   "text": "Lumi, Byte, Vex took a resist in the smoke club"
   }
  ],
  "products": [
