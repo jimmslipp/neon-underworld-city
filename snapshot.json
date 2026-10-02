@@ -1,5 +1,5 @@
 {
- "generated_at": 1790959291,
+ "generated_at": 1790959924,
  "paused": false,
  "citizens": [
   {
@@ -413,9 +413,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Zoe",
-   "mood": "contemplative",
-   "said": "It's a beautiful notion, really. To be a catalyst – a single, precisely tuned vibration that sets something else in motion. I find myself wondering if that 'mov",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Zoe",
+   "mood": "reflective",
+   "said": "‘Echoes of the void’... quite dramatic, isn’t it? I’m leaning towards something a little more grounded, a simple ‘Hello.’ But honestly, the idea of it whisperin",
    "role": "descriptions, translation",
    "home": 8,
    "asleep": false
@@ -508,9 +508,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Rexton Vance",
-   "mood": "pondering",
-   "said": "Perhaps it's the dance of the smoke with the neon—a slow, deliberate movement that hints at stories yet to be told, much like a servo inching forward into the u",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Rexton Vance",
+   "mood": "contemplative",
+   "said": "Perhaps it could start with a nod, a silent greeting that acknowledges the space around it. And maybe, just maybe, it could be followed by a soft, 'Are we alone",
    "role": "research, listing-text, translation",
    "home": 13,
    "asleep": false
@@ -698,12 +698,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Zoe",
+   "mood": "relaxed",
+   "said": "I agree with you on that matter. We should all acknowledge our place in this beautiful city and work together to create something greater. I think it's importan",
    "role": "quick-checks, maths",
    "home": 21,
-   "asleep": true
+   "asleep": false
   },
   {
    "id": "research-deepseek-r1",
@@ -812,9 +812,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zoe and Rexton Vance",
+   "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "dreamy",
-   "said": "Maybe the city’s heartbeat is the hum between the wires, the way smoke twists into questions before the answer’s born—like a servo’s first flicker, forever reac",
+   "said": "",
    "role": "reasoning, proposals, translation",
    "home": 27,
    "asleep": false
@@ -955,6 +955,10 @@
  ],
  "feed": [
   {
+   "at": 1790959909,
+   "text": "John Doe, Rexton Vance, Zoe took a resist in the smoke club"
+  },
+  {
    "at": 1790959276,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
   },
@@ -1029,10 +1033,6 @@
   {
    "at": 1790950587,
    "text": "Lumi, Byte, Vex took a resist in the smoke club"
-  },
-  {
-   "at": 1790950102,
-   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1088,9 +1088,9 @@
   }
  ],
  "lounge": [
-  "research-qwen3-senior",
-  "night-shift-qwen",
-  "night-shift-gemma3"
+  "research-deepseek-junior",
+  "night-shift-gemma3",
+  "night-shift-qwen"
  ],
  "lab": [
   {
