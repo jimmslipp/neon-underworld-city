@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790964493,
+ "generated_at": 1790965105,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790964862,
+   "text": "Vora went scouting for the Research Team and found something the judges kept"
+  },
+  {
    "at": 1790964175,
    "text": "Vex went scouting for the Research Team and found something the judges kept"
   },
@@ -1029,10 +1033,6 @@ window.SNAPSHOT = {
   {
    "at": 1790955287,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790954664,
-   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1079,16 +1079,16 @@ window.SNAPSHOT = {
  ],
  "proclamations": [
   {
-   "at": "02 Oct 2026 14:14",
-   "text": "Give them all a spot to sleep in a hard drive in the city. Think tower block of ultra cool apartments, but for the AIs on rest. Make it a hard drive. Task a few AIs with its design, then implement."
-  },
-  {
    "at": "02 Oct 2026 15:26",
    "text": "Build a request box; let them offer a value and the AI give them a solution. Don't let them have the solution until they pay. [Account details for payments given: kept in the city's private settings, not written here.] Build a payment syste"
   },
   {
    "at": "02 Oct 2026 19:38",
    "text": "Relay to the team that this isn't free work. I will pay 50 cents regardless for each response. This is a training method."
+  },
+  {
+   "at": "02 Oct 2026 20:10",
+   "text": "Mi amors"
   }
  ],
  "lounge": [
