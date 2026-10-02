@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790935142,
+ "generated_at": 1790935750,
  "paused": false,
  "citizens": [
   {
@@ -642,6 +642,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790935275,
+   "text": "City resumed via telegram"
+  },
+  {
    "at": 1790935120,
    "text": "Lumina Valtor (Research Team) proposed: Print-in-Progess Series"
   },
@@ -716,10 +720,6 @@ window.SNAPSHOT = {
   {
    "at": 1790932449,
    "text": "workshop-qwen-coder-junior chose the name Luna"
-  },
-  {
-   "at": 1790932435,
-   "text": "Recruitment Office brought in a new local resident (qwen2.5-coder:1.5b)"
   }
  ],
  "products": [
