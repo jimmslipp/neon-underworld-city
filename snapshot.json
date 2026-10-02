@@ -1,5 +1,5 @@
 {
- "generated_at": 1790962670,
+ "generated_at": 1790963277,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@
  ],
  "feed": [
   {
+   "at": 1790962732,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790962105,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges kept"
   },
@@ -1029,10 +1033,6 @@
   {
    "at": 1790953374,
    "text": "Vex went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790952693,
-   "text": "Eva went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1085,6 +1085,10 @@
   {
    "at": "02 Oct 2026 15:26",
    "text": "Build a request box; let them offer a value and the AI give them a solution. Don't let them have the solution until they pay. [Account details for payments given: kept in the city's private settings, not written here.] Build a payment syste"
+  },
+  {
+   "at": "02 Oct 2026 19:38",
+   "text": "Relay to the team that this isn't free work. I will pay 50 cents regardless for each response. This is a training method."
   }
  ],
  "lounge": [
