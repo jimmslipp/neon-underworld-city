@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790965594,
+ "generated_at": 1790966188,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790966112,
+   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790965481,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1790957163,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790956546,
-   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-02 20:34",
+   "by": "John Doe",
+   "title": "Custom Parts and Accessories",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-02 20:24",
    "by": "Fiona Quill",
    "title": "Custom Bar Decor Kits",
@@ -1292,12 +1298,6 @@ window.SNAPSHOT = {
    "at": "2026-10-02 18:28",
    "by": "Vex",
    "title": "AI-Generated Functional Items",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-02 18:16",
-   "by": "Eva",
-   "title": "AI-Generated Custom Neon Bar Signs",
    "verdict": "rejected"
   }
  ],
