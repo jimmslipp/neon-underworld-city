@@ -89,6 +89,7 @@ const BUILDINGS = {
   "radio-tower":      { name: "Radio Tower",      x: -30, z:  19, kind: "tower",     r: 4.0 },
   "recruitment-office": { name: "Recruitment Office", x: -31, z: 9.5, kind: "dip",      r: 4.4 },      // next to the Gate
   "research-team":    { name: "Research Team",    x:  31, z:  18, kind: "crystal",   r: 4.6 },
+  "debate-room":      { name: "Debate Room",      x:  31, z: 9.2, kind: "debate",    r: 3.7 },      // the R&D Lab's round table, beside the Research Team
   "payphone":         { name: "The Payphone",     x: -10, z:   6, kind: "resistor",  r: 3.2 },
   "print-shop":       { name: "Print Shop",       x:  30, z: -16, kind: "chip",      r: 4.4 },
 };
@@ -158,10 +159,12 @@ function along(path, u) {                                                 // u: 
 
 // ---------------------------------------------------------------- the components
 const lit = {}, clickable = [], built = [];
+const LAB = SNAP.lab || [];                          // the R&D Lab's ideas: names, stages and vote counts only
+const IN_SESSION = !SNAP.paused && LAB.some(i => i.status === "alive" && ["red-team", "refine", "vote"].includes(i.stage));
 function build(key) {
   const b = BUILDINGS[key], g = new THREE.Group(); g.position.set(b.x, 0, b.z);
   const here = SNAP.citizens.filter(c => c.building === key && c.status !== "waiting_at_gate");
-  const alive = here.some(c => c.status === "active"), broken = here.some(c => c.status === "broken");
+  const alive = key === "debate-room" ? IN_SESSION : here.some(c => c.status === "active"), broken = here.some(c => c.status === "broken");
   const neon = broken ? C.red : alive ? C.cyan : C.dim;
   const dark = solid(0x1c1238, alive ? 0x071c26 : 0x000000);
   // the pad: a raised hexagon with a neon rim, so every building has its own plot
@@ -205,6 +208,10 @@ function build(key) {
     top.add(box(5.4, 2.0, 2.6, solid(0x4f5676), 0, 1.0, 0)); top.add(cyl(1.3, 2.0, solid(0x4f5676), -2.7, 1.0, 0)); top.add(cyl(1.3, 2.0, solid(0x4f5676), 2.7, 1.0, 0));
     const lens = new THREE.Mesh(new THREE.TorusGeometry(1.05, 0.2, 10, 28), glow(alive ? C.amber : C.dim)); lens.position.set(0, 3.1, 0); lens.rotation.x = Math.PI / 2.6; top.add(lens); lit["lens"] = lens;
     top.add(cyl(0.12, 1.1, solid(0x6f7698), 0, 2.4, 0));
+  } else if (b.kind === "debate") {                                       // a round table under a ring of light; the ring burns amber while the Lab is in session
+    top.add(cyl(1.5, 0.5, dark, 0, 0.75, 0)); top.add(cyl(0.3, 0.5, solid(0x6f7698), 0, 0.25, 0)); top.add(cyl(1.1, 0.06, glow(alive ? C.pink : C.dim), 0, 1.02, 0));
+    const ring = new THREE.Mesh(new THREE.TorusGeometry(2.1, 0.13, 10, 40), glow(alive ? C.amber : C.dim)); ring.rotation.x = Math.PI / 2; ring.position.y = 3.4; top.add(ring); lit["ring"] = ring;
+    for (let i = 0; i < 4; i++) top.add(cyl(0.05, 3.4, solid(0x6f7698), Math.cos(i * Math.PI / 2 + 0.8) * 2.1, 1.7, Math.sin(i * Math.PI / 2 + 0.8) * 2.1, 6));
   } else if (b.kind === "resistor") {
     const r = cyl(0.75, 3.2, solid(0xd8b47a), 0, 1.0, 0); r.rotation.z = Math.PI / 2; top.add(r);
     for (const [i, col] of [[-0.85, C.pink], [0, C.cyan], [0.85, C.amber]]) { const band = cyl(0.79, 0.32, glow(alive ? col : C.dim), i, 1.0, 0); band.rotation.z = Math.PI / 2; top.add(band); }
@@ -217,7 +224,7 @@ function build(key) {
   city.add(g);
   trace(key, broken ? 0x66283a : alive ? C.cyan : C.dim, alive);
   const label = document.createElement("div"); label.className = "label";
-  label.innerHTML = b.name + (broken ? "<small>out of order</small>" : "");
+  label.innerHTML = b.name + (broken ? "<small>out of order</small>" : key === "debate-room" && IN_SESSION ? '<small style="color:#FFB020">in session</small>' : "");
   document.body.appendChild(label); g.userData.label = label;
   g.userData.height = PAD + ({ capacitor: 7.6, tower: 11.6, gpu: 4.6, ram: 3.9, coil: 5.0, socket: 6.6, crystal: 4.6 }[b.kind] || 3.0);
   built.push(g); return g;
@@ -307,11 +314,16 @@ function addResident(c, i, robot) {
   const halo = new THREE.Mesh(new THREE.RingGeometry(0.85, 1.12, 32), new THREE.MeshBasicMaterial({ color: colour, transparent: true, opacity: 0.8, side: THREE.DoubleSide }));
   halo.rotation.x = -Math.PI / 2; halo.position.y = 0.06; g.add(halo);
   const waiting = c.status === "waiting_at_gate";
+  const debating = IN_SESSION && c.status === "active" && c.building === "research-team";      // the Research Team gathers at the round table to argue and vote
   const tag = document.createElement("div"); tag.className = "bubble"; tag.style.setProperty("--c", c.colour);
-  const sym = bubbleFor(c);
+  const sym = debating ? "✋" : bubbleFor(c);
   tag.innerHTML = (sym ? "<i>" + sym + "</i>" : "") + (c.name ? "<b>" + c.name.replace(/[<>&]/g, "") + "</b>" : "");
   document.body.appendChild(tag);
-  const w = { g, c, mixer, actions, waiting, tag, now: "", t: Math.random() * 2, offset: (i % 5 - 2) * 0.7,
+  if (debating) {
+    const seat = walkers.filter(x => x.debating).length, room = B["debate-room"], a = seat * 0.9 + 0.3, rad = 2.75 + (seat > 6 ? 0.7 : 0);
+    g.position.set(room.x + Math.cos(a) * rad, PAD, room.z + Math.sin(a) * rad); g.rotation.y = Math.atan2(-Math.cos(a), -Math.sin(a));       // facing the table
+  }
+  const w = { g, c, mixer, actions, waiting, debating, tag, now: "", t: Math.random() * 2, offset: (i % 5 - 2) * 0.7,
               speed: c.status === "active" ? 0.035 + Math.random() * 0.02 : 0,
               path: paths[c.building === "workshop" ? "town-hall" : c.building] };   // the Workshop IS the centre, so its resident walks to Town Hall and back
   if (waiting) {
@@ -355,7 +367,12 @@ renderer.domElement.addEventListener("pointerup", e => {
   const queue = d.key === "gate" ? SNAP.citizens.filter(c => c.status === "waiting_at_gate") : [];
   card.querySelector("h2").textContent = d.name;
   const esc = s => String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
-  document.getElementById("cardBody").innerHTML = (d.here.concat(queue).map(c =>
+  const STAGE = { "pitch": 1, "evidence": 2, "red-team": 3, "refine": 4, "vote": 5, "jimm": 6, "pilot": 7 };
+  document.getElementById("cardBody").innerHTML = d.key === "debate-room" ? (LAB.map(i =>
+    '<div class="who"><span class="dot" style="background:' + (i.status === "alive" ? "#4CFF9A" : "#FF5964") + '"></span><b>' + esc(i.title) + "</b>" +
+    '<div style="color:#9A8FC2;font-size:13px">' + (i.status === "alive" ? "stage " + STAGE[i.stage] + " of 7: " + esc(i.stage) : esc(i.status) + " at the " + esc(i.stage) + " stage") +
+    (i.yes + i.no ? " · vote " + i.yes + " yes, " + i.no + " no" : "") + "</div></div>").join("") || '<div class="who" style="color:#9A8FC2">No ideas in the Lab yet.</div>') :
+    (d.here.concat(queue).map(c =>
     '<div class="who"><span class="dot" style="background:' + esc(c.colour) + '"></span><b>' + esc(c.name || c.id) + "</b> · " + esc(c.status.replace(/_/g, " ")) +
     (c.cyberware.length ? " · cyberware: " + esc(c.cyberware.join(", ")) : "") + (c.personality ? '<div style="color:#9A8FC2;font-size:13px">' + esc(c.personality) + "</div>" : "") + "</div>").join("")) ||
     '<div class="who" style="color:#9A8FC2">' + (d.key === "hangar" ? "Empty socket. The robot gets built here when the fund can buy its parts." : "Nobody here yet.") + "</div>";
@@ -373,8 +390,8 @@ function frame() {
   const dt = Math.min(clock.getDelta(), 0.1), now = clock.elapsedTime, stopped = SNAP.paused;
   walkers.forEach(w => {
     if (w.mixer) w.mixer.update(dt);
-    if (w.waiting || !w.path || !w.speed || stopped) {
-      play(w, w.waiting && Math.sin(now * 0.35 + w.offset * 3) > 0.93 ? "Wave" : "Idle");
+    if (w.waiting || w.debating || !w.path || !w.speed || stopped) {
+      play(w, (w.waiting && Math.sin(now * 0.35 + w.offset * 3) > 0.93) || (w.debating && Math.sin(now * 0.6 + w.t * 9) > 0.6) ? "Wave" : "Idle");     // a wave at the table is a raised hand
     } else {
       w.t = (w.t + dt * w.speed) % 2;
       const u = w.t <= 1 ? w.t : 2 - w.t, p = along(w.path, u), q = along(w.path, Math.min(1, Math.max(0, u + (w.t <= 1 ? 0.01 : -0.01))));
@@ -383,7 +400,7 @@ function frame() {
       if (q.distanceTo(p) > 0.0001) w.g.rotation.y = Math.atan2(q.x - p.x, q.z - p.z);
       play(w, "Walking");
     }
-    place(w.tag, w.g.position.x, 4.7, w.g.position.z);
+    place(w.tag, w.g.position.x, 4.7 + w.g.position.y, w.g.position.z);
   });
   pulses.forEach(p => { if (!stopped) p.t = (p.t + dt * p.speed) % 1; p.dot.position.copy(along(p.path, p.t)).setY(0.3); });
   movers.forEach(o => {
@@ -399,6 +416,7 @@ function frame() {
   if (lit.tip) lit.tip.visible = Math.sin(now * 4) > -0.3;
   if (lit.fan && !stopped) lit.fan.rotation.y += dt * 6;
   if (lit.lens && !stopped) lit.lens.rotation.z += dt * 0.8;
+  if (lit.ring && IN_SESSION) lit.ring.scale.setScalar(1 + Math.sin(now * 2.2) * 0.05);
   built.forEach(g => place(g.userData.label, g.position.x, g.userData.height, g.position.z));
   controls.update(); composer.render(); requestAnimationFrame(frame);
 }

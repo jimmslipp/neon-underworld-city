@@ -1,5 +1,5 @@
 {
- "generated_at": 1790936685,
+ "generated_at": 1790937293,
  "paused": false,
  "citizens": [
   {
@@ -642,6 +642,18 @@
  ],
  "feed": [
   {
+   "at": 1790937069,
+   "text": "Solder pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1790937069,
+   "text": "Solder pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1790937069,
+   "text": "Solder pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1790935275,
    "text": "City resumed via telegram"
   },
@@ -708,18 +720,6 @@
   {
    "at": 1790932596,
    "text": "Recruitment Office brought in a new local resident (hermes3:8b)"
-  },
-  {
-   "at": 1790932526,
-   "text": "workshop-codellama chose the name Ellie"
-  },
-  {
-   "at": 1790932509,
-   "text": "Recruitment Office brought in a new local resident (codellama:7b)"
-  },
-  {
-   "at": 1790932449,
-   "text": "workshop-qwen-coder-junior chose the name Luna"
   }
  ],
  "products": [
