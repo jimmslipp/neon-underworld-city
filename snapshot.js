@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790935027,
+ "generated_at": 1790935142,
  "paused": false,
  "citizens": [
   {
@@ -642,6 +642,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790935120,
+   "text": "Lumina Valtor (Research Team) proposed: Print-in-Progess Series"
+  },
+  {
    "at": 1790933094,
    "text": "research-qwen3-senior chose the name Vex"
   },
@@ -716,10 +720,6 @@ window.SNAPSHOT = {
   {
    "at": 1790932435,
    "text": "Recruitment Office brought in a new local resident (qwen2.5-coder:1.5b)"
-  },
-  {
-   "at": 1790932417,
-   "text": "Alana (Research Team) proposed: Local 3D-Printed Signage and Parts"
   }
  ],
  "products": [
