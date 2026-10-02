@@ -1,5 +1,5 @@
 {
- "generated_at": 1790949815,
+ "generated_at": 1790950420,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@
  ],
  "feed": [
   {
+   "at": 1790950102,
+   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790949406,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   },
@@ -1029,10 +1033,6 @@
   {
    "at": 1790942566,
    "text": "Zora Xu, Zhilak, Glow took a resist in the smoke club"
-  },
-  {
-   "at": 1790942566,
-   "text": "Glow (from a chat in Resist) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
