@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790963887,
+ "generated_at": 1790964493,
  "paused": false,
  "citizens": [
   {
@@ -508,12 +508,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 13 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 13,
-   "asleep": true
+   "asleep": false
   },
   {
    "id": "night-shift-smollm2",
@@ -641,12 +641,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "candidate-research, writing",
    "home": 18,
-   "asleep": true
+   "asleep": false
   },
   {
    "id": "recruit-phi35",
@@ -717,12 +717,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 22 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 22,
-   "asleep": false
+   "asleep": true
   },
   {
    "id": "research-llama31",
@@ -793,12 +793,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "peaceful",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 26,
-   "asleep": false
+   "asleep": true
   },
   {
    "id": "research-qwen3-senior",
@@ -955,6 +955,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790964175,
+   "text": "Vex went scouting for the Research Team and found something the judges kept"
+  },
+  {
    "at": 1790963614,
    "text": "Zylac, Zora Xu, Fiona Quill took a resist in the smoke club"
   },
@@ -1029,10 +1033,6 @@ window.SNAPSHOT = {
   {
    "at": 1790954664,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790954343,
-   "text": "red, Alana, Lumina Valtor took a resist in the smoke club"
   }
  ],
  "products": [
