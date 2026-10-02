@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790943475,
+ "generated_at": 1790944078,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790944007,
+   "text": "The residents chose how they will vote on spending their purse: ranked, proposed by Glow"
+  },
+  {
    "at": 1790943028,
    "text": "Byte, Zhilak, Aurum, NeonNova and Tick designed the city's new apartment tower"
   },
@@ -1029,10 +1033,6 @@ window.SNAPSHOT = {
   {
    "at": 1790935275,
    "text": "City resumed via telegram"
-  },
-  {
-   "at": 1790935120,
-   "text": "Lumina Valtor (Research Team) proposed: Print-in-Progess Series"
   }
  ],
  "products": [
