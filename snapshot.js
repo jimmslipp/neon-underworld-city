@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790961765,
+ "generated_at": 1790962377,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790962105,
+   "text": "Lumina Valtor went scouting for the Research Team and found something the judges kept"
+  },
+  {
    "at": 1790961750,
    "text": "Luminara, Lumi, Luna took a resist in the smoke club"
   },
@@ -1029,10 +1033,6 @@ window.SNAPSHOT = {
   {
    "at": 1790952693,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790952503,
-   "text": "Vora, Vex, Luminara took a resist in the smoke club"
   }
  ],
  "products": [
