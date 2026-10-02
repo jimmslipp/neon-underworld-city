@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790971623,
+ "generated_at": 1790972226,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790972105,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790971471,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1790963489,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790962732,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-02 22:14",
+   "by": "Nebula",
+   "title": "3D-Printed Animatronic Head with Servo Control",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-02 21:52",
    "by": "Fiona Quill",
    "title": "Neon Cityscape Wall Art",
@@ -1296,12 +1302,6 @@ window.SNAPSHOT = {
    "at": "2026-10-02 20:13",
    "by": "Vora",
    "title": "Custom 3D-Printed Beer Tasting Note Cards",
-   "verdict": "kept"
-  },
-  {
-   "at": "2026-10-02 20:01",
-   "by": "Vex",
-   "title": "AI-Generated 3D-Printed Design Files",
    "verdict": "kept"
   }
  ],
