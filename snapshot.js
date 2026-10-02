@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790951639,
+ "generated_at": 1790952240,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790951967,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790951351,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   },
@@ -1029,10 +1033,6 @@ window.SNAPSHOT = {
   {
    "at": 1790944726,
    "text": "City resumed via console"
-  },
-  {
-   "at": 1790944263,
-   "text": "City PAUSED via console"
   }
  ],
  "products": [
