@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790969174,
+ "generated_at": 1790969775,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790969427,
+   "text": "Vex went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790969159,
    "text": "Zhilak, Lila, Lumina Valtor took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1790960845,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790959948,
-   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-02 21:29",
+   "by": "Vex",
+   "title": "AI-Generated Custom Keychains",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-02 21:16",
    "by": "Eva",
    "title": "AI-Generated Custom Neon Bar Signs with LED Lighting",
@@ -1303,12 +1309,6 @@ window.SNAPSHOT = {
    "by": "Lumina Valtor",
    "title": "Custom Bar Decor",
    "verdict": "kept"
-  },
-  {
-   "at": "2026-10-02 19:17",
-   "by": "Nebula",
-   "title": "AI-Controlled Animatronic Head Module",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
