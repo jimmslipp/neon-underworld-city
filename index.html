@@ -44,6 +44,7 @@
   <div><h1>NEON UNDERWORLD</h1><div id="sub">Motherboard City</div></div>
   <div id="districts">
     <button data-d="downtown" class="on">Downtown</button><button data-d="docks">The Docks</button><button data-d="alley">Neon Alley</button>
+    <button id="askBtn" style="color:#FFB020;border-color:#FFB020" title="Ask the city to solve something">Ask the city</button>
     <button id="consoleBtn" style="display:none;color:#FF3DCB;border-color:#FF3DCB">Console</button>
   </div>
 </div>
@@ -434,7 +435,9 @@ document.getElementById("tick").textContent = (SNAP.feed.length ? SNAP.feed.map(
 const COUNT = SNAP.count || { citizens: SNAP.citizens.filter(c => c.status !== "waiting_at_gate").length, target: 100 };
 document.getElementById("sub").textContent = "Motherboard City · " + COUNT.citizens + " of " + COUNT.target + " citizens · " + SNAP.citizens.filter(c => c.status === "waiting_at_gate").length + " at the Gate";
 if (SNAP.paused) document.getElementById("paused").style.display = "block";
-if (window.CONSOLE_URL) {                 // only set when the Boss Console itself serves this page (private, over Tailscale). The public site never has it.
+// The request box. This page cannot change anything in the city: the button only opens a chat with the city's Telegram bot, where a request and an offer can be made.
+document.getElementById("askBtn").onclick = () => { window.open("https://t.me/Neonunderworld_bot?start=request", "_blank", "noopener"); };
+if (window.CONSOLE_URL) {                // only set when the Boss Console itself serves this page (private, over Tailscale). The public site never has it.
   const cb = document.getElementById("consoleBtn"); cb.style.display = ""; cb.onclick = () => { location.href = window.CONSOLE_URL; };
 }
 document.querySelectorAll("#districts button[data-d]").forEach(btn => btn.onclick = () => {

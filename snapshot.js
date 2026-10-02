@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790947445,
+ "generated_at": 1790947631,
  "paused": false,
  "citizens": [
   {
@@ -1081,6 +1081,10 @@ window.SNAPSHOT = {
   {
    "at": "02 Oct 2026 14:14",
    "text": "Give them all a spot to sleep in a hard drive in the city. Think tower block of ultra cool apartments, but for the AIs on rest. Make it a hard drive. Task a few AIs with its design, then implement."
+  },
+  {
+   "at": "02 Oct 2026 15:26",
+   "text": "Build a request box; let them offer a value and the AI give them a solution. Don't let them have the solution until they pay. [Account details for payments given: kept in the city's private settings, not written here.] Build a payment syste"
   }
  ],
  "lounge": [
