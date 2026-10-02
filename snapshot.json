@@ -1,5 +1,5 @@
 {
- "generated_at": 1790966188,
+ "generated_at": 1790966795,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1790966749,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790966112,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1790957914,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790957163,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-02 20:45",
+   "by": "Nebula",
+   "title": "AI-Powered Custom Neon Head with Expressible Sentible",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-02 20:34",
    "by": "John Doe",
    "title": "Custom Parts and Accessories",
@@ -1292,12 +1298,6 @@
    "at": "2026-10-02 18:39",
    "by": "Vora",
    "title": "Custom 3D Drink Holders for Bars",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-02 18:28",
-   "by": "Vex",
-   "title": "AI-Generated Functional Items",
    "verdict": "rejected"
   }
  ],
