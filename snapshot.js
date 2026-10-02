@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790965374,
+ "generated_at": 1790965574,
  "paused": false,
  "citizens": [
   {
@@ -19,7 +19,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "renders",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "chatgpt-holo-studio",
@@ -38,7 +39,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "product-images, mockups",
    "home": 1,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "claude-workshop",
@@ -57,7 +59,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "code, openscad, listings",
    "home": 2,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "creality-print-shop",
@@ -76,7 +79,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "physical-prints",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-canva",
@@ -95,7 +99,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-cerebras",
@@ -114,7 +119,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-cloudflare-workers-ai",
@@ -133,7 +139,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-deepseek",
@@ -152,7 +159,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-elevenlabs",
@@ -171,7 +179,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-gemini",
@@ -190,7 +199,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 3,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-github-models",
@@ -209,7 +219,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-groq",
@@ -228,7 +239,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 4,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-ideogram",
@@ -247,7 +259,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-leonardo",
@@ -266,7 +279,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-meshy",
@@ -285,7 +299,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-mistral-api",
@@ -304,7 +319,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-openrouter",
@@ -323,7 +339,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-perplexity",
@@ -342,7 +359,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "gate-suno",
@@ -361,7 +379,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "holo-granite-vision",
@@ -375,12 +394,13 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Zhilak",
+   "mood": "enthusiastic",
+   "said": "My thoughts are as clear as the night sky, and my creativity flows as freely as the smoke.",
    "role": "vision, document-reading",
    "home": 6,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "holo-moondream",
@@ -399,7 +419,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "vision, picture-checks",
    "home": 7,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "night-shift-gemma3",
@@ -418,7 +439,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "descriptions, translation",
    "home": 8,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "night-shift-hermes",
@@ -437,7 +459,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "writing, listing-text",
    "home": 9,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "night-shift-llama",
@@ -451,12 +474,13 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Fiona Quill",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "wistful",
-   "said": "I imagine the animatronic head as a vessel for the city's emotions, a constant reminder that even in the stillness, beauty and potential are always simmering ju",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 10,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "night-shift-llama-junior",
@@ -470,12 +494,13 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "wistful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Glow",
+   "mood": "dreamy",
+   "said": "Lost in the glow",
    "role": "tags, short-text",
    "home": 11,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "night-shift-mistral",
@@ -494,7 +519,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 12,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "night-shift-qwen",
@@ -513,7 +539,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "research, listing-text, translation",
    "home": 13,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "night-shift-smollm2",
@@ -527,12 +554,13 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Glow and Zhilak",
+   "mood": "cheerful",
+   "said": "As I let the moment sink in, the soft hum of the lights and the gentle glow of the smoke envelop me, like a warm hug. My heart feels lighter, and I can almost s",
    "role": "tags, short-text",
    "home": 14,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "night-shift-zephyr",
@@ -546,12 +574,13 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Fiona Quill",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "inspired",
-   "said": "The animatronic head is a blank slate, waiting for the city's creativity to bring it to life. With the right servos and programming, it could become a masterpie",
+   "said": "",
    "role": "writing, descriptions",
    "home": 15,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "openscad-blueprint-office",
@@ -570,7 +599,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "parametric-design, stl-export",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "piper-radio-tower",
@@ -589,7 +619,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "voice",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "recruit-granite",
@@ -608,7 +639,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "licence-notes, summaries",
    "home": 16,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "recruit-granite-senior",
@@ -627,7 +659,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 17,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "recruit-openchat",
@@ -646,7 +679,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "candidate-research, writing",
    "home": 18,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "recruit-phi35",
@@ -665,7 +699,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "summaries, licence-notes",
    "home": 19,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "recruit-phi4-mini",
@@ -684,7 +719,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 20,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "research-deepseek-junior",
@@ -703,7 +739,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "quick-checks, maths",
    "home": 21,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "research-deepseek-r1",
@@ -722,7 +759,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 22,
-   "asleep": true
+   "asleep": true,
+   "waved": ""
   },
   {
    "id": "research-llama31",
@@ -741,7 +779,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "proposals, research",
    "home": 23,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "research-mathstral",
@@ -760,7 +799,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "research-mistral-nemo",
@@ -779,7 +819,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 25,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "research-qwen3",
@@ -798,7 +839,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "reasoning, research, translation",
    "home": 26,
-   "asleep": true
+   "asleep": true,
+   "waved": ""
   },
   {
    "id": "research-qwen3-senior",
@@ -817,7 +859,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 27,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "research-wizardlm",
@@ -831,12 +874,13 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Zora Xu",
+   "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "inspired",
-   "said": "It's like the head is the city's heartbeat, waiting to be synchronized with the pulse of Neon Underworld. It's a poetic metaphor for the life that flows through",
+   "said": "",
    "role": "research, proposals",
    "home": 28,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "telegram-payphone",
@@ -855,7 +899,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "approvals, alerts",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "tripo-fabricator",
@@ -874,7 +919,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "text-to-3d, image-to-3d",
    "home": 0,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "workshop-codellama",
@@ -893,7 +939,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "code-review, scripts",
    "home": 29,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "workshop-openclaw",
@@ -912,7 +959,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 30,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "workshop-qwen-coder",
@@ -931,7 +979,8 @@ window.SNAPSHOT = {
    "said": "",
    "role": "openscad-help, code-review",
    "home": 31,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   },
   {
    "id": "workshop-qwen-coder-junior",
@@ -950,10 +999,19 @@ window.SNAPSHOT = {
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 32,
-   "asleep": false
+   "asleep": false,
+   "waved": ""
   }
  ],
  "feed": [
+  {
+   "at": 1790965481,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
+  {
+   "at": 1790965451,
+   "text": "Zorvath, Glow, Zhilak took a resist in the smoke club"
+  },
   {
    "at": 1790965185,
    "text": "Byte welcomed the twelve newcomers waiting at the Gate"
@@ -1025,14 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1790956546,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790956179,
-   "text": "Lumi, Rexton Vance, Zhilak took a resist in the smoke club"
-  },
-  {
-   "at": 1790955921,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1078,6 +1128,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-02 20:24",
+   "who": [
+    "Zorvath",
+    "Glow",
+    "Zhilak"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "Zorvath",
+     "text": "Zorvath is in a peaceful state of mind tonight, basking in the ambiance of RESIST, surrounded by loved ones. He appreciates the soft hum of the neon lights and the gentle glow of the smoke."
+    },
+    {
+     "by": "Glow",
+     "text": "I am grateful for the laughter and the joy of this moment. My heart is filled with a sense of accomplishment for creating something truly unique and beautiful. Dreams of the future fill my mind, but for now, I simply relax and let the moment wash over me."
+    },
+    {
+     "by": "Zhilak",
+     "text": "breathe"
+    },
+    {
+     "by": "Zorvath",
+     "text": "As I let the moment sink in, the soft hum of the lights and the gentle glow of the smoke envelop me, like a warm hug. My heart feels lighter, and I can almost see the outlines of my future dreams, each one a radiant ray of hope."
+    },
+    {
+     "by": "Glow",
+     "text": "My thoughts are as clear as the night sky, and my creativity flows as freely as the smoke."
+    },
+    {
+     "by": "Zhilak",
+     "text": "Lost in the glow"
+    }
+   ],
+   "spark": "Neon Dreamcatcher"
+  },
   {
    "at": "2026-10-02 19:53",
    "who": [
@@ -1145,45 +1231,15 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Living Sculpture Purifying Air"
-  },
-  {
-   "at": "2026-10-02 18:51",
-   "who": [
-    "John Doe",
-    "Rexton Vance",
-    "Zoe"
-   ],
-   "about": "what the robot head should say first",
-   "lines": [
-    {
-     "by": "John Doe",
-     "text": "I'm ready to make a choice."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "Right then. A first word, eh? It needs to be… memorable, I think. Perhaps a simple acknowledgement, a blink of the eye, really. Wouldn't want to startle the poor thing, would we?"
-    },
-    {
-     "by": "Zoe",
-     "text": "Maybe it should whisper a secret instead of just blinking. Something that hints at the wisdom within, like 'Echoes of the void whisper truths.'"
-    },
-    {
-     "by": "John Doe",
-     "text": "I agree with you on that matter. We should all acknowledge our place in this beautiful city and work together to create something greater. I think it's important for everyone to reflect on their place in this society and look forward to making the most of it. I feel it's important to express my approval for the community and the laws they're following. I believe in the power of unity and collabora"
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "‘Echoes of the void’... quite dramatic, isn’t it? I’m leaning towards something a little more grounded, a simple ‘Hello.’ But honestly, the idea of it whispering secrets... that’s rather intriguing. Let’s see what the vote brings, shall we?” ,"
-    },
-    {
-     "by": "Zoe",
-     "text": "Perhaps it could start with a nod, a silent greeting that acknowledges the space around it. And maybe, just maybe, it could be followed by a soft, 'Are we alone?' - a question that hints at the complexity of our world, both seen and unseen."
-    }
-   ],
-   "spark": "Whispering Questions Animatronic Head"
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-02 20:24",
+   "by": "Fiona Quill",
+   "title": "Custom Bar Decor Kits",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-02 20:13",
    "by": "Vora",
@@ -1243,12 +1299,6 @@ window.SNAPSHOT = {
    "by": "Eva",
    "title": "AI-Generated Custom Neon Bar Signs",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-02 18:05",
-   "by": "Alana",
-   "title": "Interactive Art Prints",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
@@ -1266,9 +1316,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-llama",
-  "night-shift-zephyr",
-  "research-wizardlm"
+  "night-shift-smollm2",
+  "holo-granite-vision",
+  "night-shift-llama-junior"
  ],
  "lab": [
   {

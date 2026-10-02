@@ -66,6 +66,7 @@ document.getElementById("who-title").textContent = "The residents (" + inside.le
 document.getElementById("who").innerHTML = inside.map(c => card(
   '<span class="dot" style="color:' + esc(c.colour) + '"></span><b>' + esc(c.name || c.id) + '</b> <span class="tag dim">' + esc(c.mood || "calm") + "</span>" +
   '<div class="sub" style="margin-top:5px">' + esc(c.doing || "") + "</div>" + (c.said ? '<div class="sub" style="color:#E9E4FF">&ldquo;' + esc(c.said) + "&rdquo;</div>" : "") +
+  (c.waved ? '<div class="sub amber">&#128075; waved at by ' + esc(c.waved) + "</div>" : "") +
   (c.home ? '<div class="sub">Apartment ' + c.home + ", DataSanctuary</div>" : ""))).join("");
 document.getElementById("stamp").textContent = "As of " + new Date((S.generated_at || 0) * 1000).toLocaleString() + ". This page refreshes itself; the city updates it about every ten minutes.";
 setTimeout(() => location.reload(), 5 * 60 * 1000);

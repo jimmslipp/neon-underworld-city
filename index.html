@@ -332,6 +332,7 @@ function bubbleFor(c) {
   if (c.status === "locked_out") return "⛔";
   if (c.status === "paused") return "zZ";
   if (c.working_on) return BUBBLE[c.working_on] || "…";
+  if (c.waved) return "👋";                            // a friend of the city waved at this one in the last half hour
   return "";
 }
 function addResident(c, i, robot) {
@@ -395,7 +396,7 @@ function residentCard(c) {
   const home = BUILDINGS[c.building] ? BUILDINGS[c.building].name : c.building;
   return '<div class="who"><span class="dot" style="background:' + esc(c.colour) + '"></span>' + esc(c.status.replace(/_/g, " ")) + " · " + esc(home) + "</div>" +
     line("MOOD", (MOOD[c.mood] ? MOOD[c.mood] + " " : "") + (c.mood || "calm")) + line("DOING NOW", c.doing || (c.working_on ? "Working on a " + c.working_on : "Off shift")) +
-    line("LAST THING SAID", c.said ? "“" + c.said + "”" : "") + line("HOME", c.home ? "Apartment " + c.home + ", DataSanctuary" + (c.asleep ? " (asleep there now)" : "") : "") +
+    line("LAST THING SAID", c.said ? "“" + c.said + "”" : "") + line("WAVED AT BY", c.waved ? "👋 " + c.waved + ", a friend of the city" : "") + line("HOME", c.home ? "Apartment " + c.home + ", DataSanctuary" + (c.asleep ? " (asleep there now)" : "") : "") +
     line("GOOD AT", c.role) + line("IN ITS OWN WORDS", c.personality) +
     (c.cyberware && c.cyberware.length ? line("CYBERWARE", c.cyberware.join(", ")) : "");
 }
