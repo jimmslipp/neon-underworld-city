@@ -1,5 +1,5 @@
 {
- "generated_at": 1790953450,
+ "generated_at": 1790954061,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@
  ],
  "feed": [
   {
+   "at": 1790954045,
+   "text": "Vora went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790953374,
    "text": "Vex went scouting for the Research Team and found something the judges rejected"
   },
@@ -1029,10 +1033,6 @@
   {
    "at": 1790945457,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790944911,
-   "text": "Alana, NeonNova, Fiona Quill took a resist in the smoke club"
   }
  ],
  "products": [
