@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790937901,
+ "generated_at": 1790938352,
  "paused": false,
  "citizens": [
   {
@@ -642,6 +642,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790938167,
+   "text": "The citizens voted in the R&D Lab's debate room"
+  },
+  {
    "at": 1790937524,
    "text": "The red team attacked an idea in the R&D Lab"
   },
@@ -716,10 +720,6 @@ window.SNAPSHOT = {
   {
    "at": 1790932700,
    "text": "night-shift-zephyr chose the name Zora Xu"
-  },
-  {
-   "at": 1790932693,
-   "text": "Recruitment Office brought in a new local resident (zephyr:7b)"
   }
  ],
  "products": [
@@ -762,6 +762,29 @@ window.SNAPSHOT = {
   {
    "title": "Pixel Christmas tree ornament",
    "stage": "ready-for-jimm"
+  }
+ ],
+ "lab": [
+  {
+   "title": "Cutting files as digital downloads",
+   "stage": "red-team",
+   "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Wifi plaques for local venues",
+   "stage": "jimm",
+   "status": "alive",
+   "yes": 22,
+   "no": 7
+  },
+  {
+   "title": "Print files for arcade builders, on two sites",
+   "stage": "evidence",
+   "status": "killed",
+   "yes": 0,
+   "no": 0
   }
  ],
  "count": {
