@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790941922,
+ "generated_at": 1790942531,
  "paused": false,
  "citizens": [
   {
@@ -855,6 +855,18 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790942252,
+   "text": "The red team attacked an idea in the R&D Lab"
+  },
+  {
+   "at": 1790942044,
+   "text": "Tick pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1790942042,
+   "text": "Corvin pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1790941870,
    "text": "Tick's licence is green: its work may now go into products"
   },
@@ -921,18 +933,6 @@ window.SNAPSHOT = {
   {
    "at": 1790932983,
    "text": "night-shift-llama-junior chose the name Zhilak"
-  },
-  {
-   "at": 1790932980,
-   "text": "Recruitment Office brought in a new local resident (llama3.2:1b)"
-  },
-  {
-   "at": 1790932958,
-   "text": "recruit-granite-senior chose the name Byte"
-  },
-  {
-   "at": 1790932946,
-   "text": "Recruitment Office brought in a new local resident (granite3.3:8b)"
   }
  ],
  "products": [
@@ -991,14 +991,28 @@ window.SNAPSHOT = {
    "no": 0
   },
   {
+   "title": "Modular 3D-Printed Draft Tap Handles for Craft Bars and Homebrewers",
+   "stage": "red-team",
+   "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
    "title": "Wifi plaques for local venues",
-   "stage": "jimm",
+   "stage": "pilot",
    "status": "alive",
    "yes": 22,
    "no": 7
   },
   {
    "title": "Print files for arcade builders, on two sites",
+   "stage": "evidence",
+   "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "QR-Linked 3D-Printed Cocktail Stirrers",
    "stage": "evidence",
    "status": "killed",
    "yes": 0,
