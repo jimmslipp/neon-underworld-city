@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790942531,
+ "generated_at": 1790942588,
  "paused": false,
  "citizens": [
   {
@@ -337,9 +337,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Zhilak",
+   "mood": "inspired",
+   "said": "It's fascinating how a simple, 3D-printed object can have such a profound impact. Perhaps we could collaborate to create a gift that combines technology with ar",
    "role": "vision, document-reading"
   },
   {
@@ -388,9 +388,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Vex",
-   "mood": "relaxed",
-   "said": "I love the idea of a dream-like labyrinth, Vex! It's fascinating how you incorporated the head's spark into the experience. I could see myself walking through s",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "calm",
+   "said": "",
    "role": "writing, listing-text"
   },
   {
@@ -422,9 +422,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Glow",
+   "mood": "wonderful",
+   "said": "I'm getting lost in the intricacies of art and love, and I think the perfect gift would be one that weaves a thread of memories and emotions, like a delicate la",
    "role": "tags, short-text"
   },
   {
@@ -490,9 +490,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Glow",
+   "mood": "creative",
+   "said": "I agree, Glow. Maybe we could take it a step further and incorporate some interactive elements into the gifts. Something that would allow the recipient to conti",
    "role": "writing, descriptions"
   },
   {
@@ -728,9 +728,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Ellie",
-   "mood": "relaxed",
-   "said": "I’d weave the labyrinth’s walls from memory itself—each turn a forgotten melody or a story whispered by the stars, until the head’s spark flickers in the dark, ",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
+   "said": "",
    "role": "reasoning, proposals, translation"
   },
   {
@@ -796,9 +796,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Vex",
-   "mood": "relaxed",
-   "said": "I think it's amazing how our imaginations can take us on such incredible journeys. Whether it's a whimsical art piece or an interactive labyrinth, the possibili",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "calm",
+   "said": "",
    "role": "code-review, scripts"
   },
   {
@@ -854,6 +854,14 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1790942566,
+   "text": "Zora Xu, Zhilak, Glow took a resist in the smoke club"
+  },
+  {
+   "at": 1790942566,
+   "text": "Glow (from a chat in Resist) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1790942252,
    "text": "The red team attacked an idea in the R&D Lab"
@@ -925,14 +933,6 @@ window.SNAPSHOT = {
   {
    "at": 1790933094,
    "text": "research-qwen3-senior chose the name Vex"
-  },
-  {
-   "at": 1790933069,
-   "text": "Recruitment Office brought in a new local resident (qwen3:8b)"
-  },
-  {
-   "at": 1790932983,
-   "text": "night-shift-llama-junior chose the name Zhilak"
   }
  ],
  "products": [
@@ -978,15 +978,22 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-hermes",
-  "workshop-codellama",
-  "research-qwen3-senior"
+  "night-shift-zephyr",
+  "night-shift-llama-junior",
+  "holo-granite-vision"
  ],
  "lab": [
   {
    "title": "Cutting files as digital downloads",
    "stage": "red-team",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Interactive 3D-Printed Figurine with Augmented Reality Elements",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
