@@ -1,5 +1,5 @@
 {
- "generated_at": 1790947631,
+ "generated_at": 1790948244,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@
  ],
  "feed": [
   {
+   "at": 1790948093,
+   "text": "Vex went scouting for the Research Team and found something the judges kept"
+  },
+  {
    "at": 1790947429,
    "text": "Eva (scouted) pitched an idea to the R&D Lab"
   },
@@ -1029,10 +1033,6 @@
   {
    "at": 1790941870,
    "text": "Tick's licence is green: its work may now go into products"
-  },
-  {
-   "at": 1790941795,
-   "text": "A new resident moved into the Workshop and chose the name NeonNova"
   }
  ],
  "products": [
