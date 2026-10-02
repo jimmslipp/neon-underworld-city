@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790956562,
+ "generated_at": 1790957178,
  "paused": false,
  "citizens": [
   {
@@ -394,12 +394,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "relaxed",
    "said": "",
    "role": "vision, picture-checks",
    "home": 7,
-   "asleep": true
+   "asleep": false
   },
   {
    "id": "night-shift-gemma3",
@@ -698,12 +698,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "quick-checks, maths",
    "home": 21,
-   "asleep": false
+   "asleep": true
   },
   {
    "id": "research-deepseek-r1",
@@ -755,12 +755,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "curious",
+   "doing": "Asleep in apartment 24 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
-   "asleep": false
+   "asleep": true
   },
   {
    "id": "research-mistral-nemo",
@@ -774,12 +774,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 25 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 25,
-   "asleep": false
+   "asleep": true
   },
   {
    "id": "research-qwen3",
@@ -831,12 +831,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "inspired",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, proposals",
    "home": 28,
-   "asleep": false
+   "asleep": true
   },
   {
    "id": "telegram-payphone",
@@ -907,12 +907,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "optimistic",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 30,
-   "asleep": true
+   "asleep": false
   },
   {
    "id": "workshop-qwen-coder",
@@ -926,12 +926,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 31 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 31,
-   "asleep": true
+   "asleep": false
   },
   {
    "id": "workshop-qwen-coder-junior",
@@ -945,15 +945,19 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 32,
-   "asleep": true
+   "asleep": false
   }
  ],
  "feed": [
+  {
+   "at": 1790957163,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
   {
    "at": 1790956546,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
@@ -1029,10 +1033,6 @@ window.SNAPSHOT = {
   {
    "at": 1790948697,
    "text": "Alana (from a chat in Resist) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1790948093,
-   "text": "Vex went scouting for the Research Team and found something the judges kept"
   }
  ],
  "products": [
