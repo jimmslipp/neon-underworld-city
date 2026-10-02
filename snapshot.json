@@ -1,5 +1,5 @@
 {
- "generated_at": 1790960539,
+ "generated_at": 1790961148,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@
  ],
  "feed": [
   {
+   "at": 1790960845,
+   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790959948,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   },
@@ -1029,10 +1033,6 @@
   {
    "at": 1790951351,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790950725,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
