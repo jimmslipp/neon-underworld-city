@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790967932,
+ "generated_at": 1790968540,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790967994,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790967371,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges kept"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1790959276,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790958582,
-   "text": "Vex went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-02 21:06",
+   "by": "Alana",
+   "title": "AI-Powered Bar Decor",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-02 20:55",
    "by": "Lumina Valtor",
    "title": "Customizable 3D-Printed Beer Tasting Note Cards",
@@ -1292,12 +1298,6 @@ window.SNAPSHOT = {
    "at": "2026-10-02 19:17",
    "by": "Nebula",
    "title": "AI-Controlled Animatronic Head Module",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-02 18:52",
-   "by": "Fiona Quill",
-   "title": "Custom Bar Decor Kits",
    "verdict": "rejected"
   }
  ],
