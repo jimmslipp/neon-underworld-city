@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790935750,
+ "generated_at": 1790936077,
  "paused": false,
  "citizens": [
   {
@@ -122,14 +122,14 @@ window.SNAPSHOT = {
   {
    "id": "gate-gemini",
    "kind": "resident",
-   "name": "",
-   "personality": "",
-   "colour": "#9A8FC2",
+   "name": "Corvin",
+   "personality": "I synthesize complex market data into rigorous, meticulously structured proposals with quiet precision and unfaltering clarity.",
+   "colour": "#2EE6FF",
    "district": "downtown",
-   "building": "gate",
+   "building": "research-team",
    "tier": "free",
    "cyberware": [],
-   "status": "waiting_at_gate",
+   "status": "active",
    "working_on": ""
   },
   {
@@ -765,7 +765,7 @@ window.SNAPSHOT = {
   }
  ],
  "count": {
-  "citizens": 34,
+  "citizens": 35,
   "target": 100
  },
  "fund": {
