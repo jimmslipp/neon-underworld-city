@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790977166,
+ "generated_at": 1790977767,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790977358,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790976727,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1790967994,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790967371,
-   "text": "Lumina Valtor went scouting for the Research Team and found something the judges kept"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-02 23:42",
+   "by": "Nebula",
+   "title": "AI-Controlled Animatronic Head with Radio",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-02 23:31",
    "by": "John Doe",
    "title": "Neon Control: A Digital Leap",
@@ -1293,12 +1299,6 @@ window.SNAPSHOT = {
    "by": "Vora",
    "title": "AI-Generated Bar Memory Tokens",
    "verdict": "kept"
-  },
-  {
-   "at": "2026-10-02 21:29",
-   "by": "Vex",
-   "title": "AI-Generated Custom Keychains",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
