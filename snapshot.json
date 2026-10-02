@@ -1,5 +1,5 @@
 {
- "generated_at": 1790957178,
+ "generated_at": 1790957929,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@
  ],
  "feed": [
   {
+   "at": 1790957914,
+   "text": "Eva went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790957163,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
   },
@@ -1029,10 +1033,6 @@
   {
    "at": 1790948697,
    "text": "Vora, Rexton Vance, Alana took a resist in the smoke club"
-  },
-  {
-   "at": 1790948697,
-   "text": "Alana (from a chat in Resist) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
