@@ -1,5 +1,5 @@
 {
- "generated_at": 1790941716,
+ "generated_at": 1790941922,
  "paused": false,
  "citizens": [
   {
@@ -802,6 +802,23 @@
    "role": "code-review, scripts"
   },
   {
+   "id": "workshop-openclaw",
+   "kind": "resident",
+   "name": "NeonNova",
+   "personality": "Innovative and detail-oriented, always striving for excellence.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "workshop",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "calm",
+   "said": "",
+   "role": "apprentice, critic, voter"
+  },
+  {
    "id": "workshop-qwen-coder",
    "kind": "resident",
    "name": "Mira",
@@ -837,6 +854,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1790941870,
+   "text": "Tick's licence is green: its work may now go into products"
+  },
+  {
+   "at": 1790941795,
+   "text": "A new resident moved into the Workshop and chose the name NeonNova"
+  },
   {
    "at": 1790940725,
    "text": "Lila, Ellie, Vex took a resist in the smoke club"
@@ -908,14 +933,6 @@
   {
    "at": 1790932946,
    "text": "Recruitment Office brought in a new local resident (granite3.3:8b)"
-  },
-  {
-   "at": 1790932872,
-   "text": "recruit-openchat chose the name Aurum"
-  },
-  {
-   "at": 1790932864,
-   "text": "holo-moondream chose the name red"
   }
  ],
  "products": [
@@ -989,21 +1006,21 @@
   },
   {
    "title": "Smart Bazaar Assistant",
-   "stage": "pitch",
-   "status": "alive",
+   "stage": "evidence",
+   "status": "killed",
    "yes": 0,
    "no": 0
   },
   {
    "title": "The Memory Labyrinth: A Dreamwalk of Light and Starlit Stories",
-   "stage": "pitch",
-   "status": "alive",
+   "stage": "evidence",
+   "status": "killed",
    "yes": 0,
    "no": 0
   }
  ],
  "count": {
-  "citizens": 37,
+  "citizens": 38,
   "target": 100
  },
  "fund": {
