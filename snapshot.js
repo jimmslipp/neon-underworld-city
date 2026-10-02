@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790954679,
+ "generated_at": 1790955303,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790955287,
+   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1790954664,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   },
@@ -1029,10 +1033,6 @@ window.SNAPSHOT = {
   {
    "at": 1790946808,
    "text": "Lila, Byte, Vex took a resist in the smoke club"
-  },
-  {
-   "at": 1790946704,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
