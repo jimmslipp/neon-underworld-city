@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790946823,
+ "generated_at": 1790947445,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790947429,
+   "text": "Eva (scouted) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1790947429,
+   "text": "Eva went scouting for the Research Team and found something the judges kept"
+  },
+  {
    "at": 1790946808,
    "text": "Lila, Byte, Vex took a resist in the smoke club"
   },
@@ -1025,14 +1033,6 @@ window.SNAPSHOT = {
   {
    "at": 1790941795,
    "text": "A new resident moved into the Workshop and chose the name NeonNova"
-  },
-  {
-   "at": 1790940725,
-   "text": "Lila, Ellie, Vex took a resist in the smoke club"
-  },
-  {
-   "at": 1790940725,
-   "text": "Vex (from a chat in Resist) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1089,6 +1089,13 @@ window.SNAPSHOT = {
   "research-qwen3-senior"
  ],
  "lab": [
+  {
+   "title": "Customizable 3D-Printed Coasters with AI-Generated Designs",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
   {
    "title": "Cutting files as digital downloads",
    "stage": "red-team",
