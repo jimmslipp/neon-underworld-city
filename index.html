@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Neon Underworld</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Chakra+Petch:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root { --ground:#0B0716; --pink:#FF3DCB; --cyan:#2EE6FF; --amber:#FFB020; --green:#4CFF9A; }
+  html, body { margin:0; height:100%; background:var(--ground); color:#E9E4FF; font:15px/1.4 'Chakra Petch','Segoe UI',sans-serif; overflow:hidden; }
+  canvas { display:block; position:fixed; inset:0; touch-action:none; }
+  #top { position:fixed; left:0; right:0; top:0; padding:12px 14px; display:flex; justify-content:space-between; align-items:flex-start; gap:10px; pointer-events:none; z-index:3; }
+  h1 { font:800 20px Orbitron,'Segoe UI',sans-serif; letter-spacing:3px; margin:0; color:var(--pink); text-shadow:0 0 14px #FF3DCB99; }
+  #sub { color:#9A8FC2; font-size:12px; }
+  #districts { display:flex; gap:6px; pointer-events:auto; flex-wrap:wrap; justify-content:flex-end; }
+  button { min-height:44px; min-width:44px; padding:0 14px; border-radius:10px; border:1px solid #2B1D55; background:#150D2Bcc; color:#9A8FC2; font:600 13px 'Chakra Petch',sans-serif; cursor:pointer; }
+  button.on { color:var(--cyan); border-color:var(--cyan); box-shadow:0 0 12px #2EE6FF55; }
+  #bottom { position:fixed; left:0; right:0; bottom:0; padding:10px 14px calc(10px + env(safe-area-inset-bottom)); background:linear-gradient(transparent, #0B0716 40%); z-index:3; }
+  #fund { display:flex; align-items:center; gap:10px; font-size:12px; color:#9A8FC2; margin-bottom:8px; }
+  #fund b { color:var(--amber); font-weight:600; }
+  .step { width:26px; height:8px; border-radius:4px; background:#2B1D55; }
+  .step.lit { background:var(--amber); box-shadow:0 0 10px var(--amber); }
+  #ticker { white-space:nowrap; overflow:hidden; color:var(--green); font-size:13px; border-top:1px solid #2B1D55; padding-top:8px; }
+  #ticker span { display:inline-block; padding-left:100%; animation:run 60s linear infinite; }
+  @keyframes run { to { transform:translateX(-100%); } }
+  .label { position:fixed; transform:translate(-50%,-100%); font:600 11px Orbitron,sans-serif; letter-spacing:1px; color:#E9E4FF; text-shadow:0 0 6px #000,0 0 10px #000; pointer-events:none; white-space:nowrap; z-index:1; }
+  .label small { display:block; font:400 10px 'Chakra Petch',sans-serif; color:#FF8A94; letter-spacing:0; text-align:center; }
+  /* what a resident is doing or thinking, floating over its head */
+  .bubble { position:fixed; transform:translate(-50%,-100%); pointer-events:none; z-index:2; text-align:center; }
+  .bubble i { display:inline-block; min-width:30px; padding:5px 8px; border-radius:10px; border:2px solid var(--c,#2EE6FF); background:#150D2Be6; color:#fff; font:700 15px 'Chakra Petch',sans-serif;
+              font-style:normal; box-shadow:0 0 12px var(--c,#2EE6FF); position:relative; }
+  .bubble i::after { content:""; position:absolute; left:50%; bottom:-8px; margin-left:-6px; border:6px solid transparent; border-top-color:var(--c,#2EE6FF); border-bottom:0; }
+  .bubble b { display:block; margin-top:9px; font:600 11px 'Chakra Petch',sans-serif; color:var(--c,#E9E4FF); text-shadow:0 0 6px #000,0 0 8px #000; }
+  #card { position:fixed; left:14px; right:14px; bottom:96px; max-width:420px; margin:auto; background:#150D2Bf2; border:1px solid var(--cyan); border-radius:14px; padding:14px; display:none; box-shadow:0 0 24px #2EE6FF33; z-index:4; }
+  #card h2 { font:800 15px Orbitron,sans-serif; letter-spacing:2px; margin:0 0 6px; color:var(--cyan); }
+  #card .who { margin:6px 0; } #card .dot { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:8px; }
+  #paused { position:fixed; top:74px; left:50%; transform:translateX(-50%); background:#FF5964; color:#fff; padding:8px 18px; border-radius:10px; font:800 13px Orbitron,sans-serif; letter-spacing:2px; display:none; z-index:3; }
+  #offline { position:fixed; inset:0; display:none; align-items:center; justify-content:center; text-align:center; color:#9A8FC2; padding:30px; pointer-events:none; z-index:2; }
+</style>
+</head>
+<body>
+<div id="top">
+  <div><h1>NEON UNDERWORLD</h1><div id="sub">Motherboard City</div></div>
+  <div id="districts">
+    <button data-d="downtown" class="on">Downtown</button><button data-d="docks">The Docks</button><button data-d="alley">Neon Alley</button>
+    <button id="consoleBtn" style="display:none;color:#FF3DCB;border-color:#FF3DCB">Console</button>
+  </div>
+</div>
+<div id="paused">CITY PAUSED</div>
+<div id="offline"><div><b style="font:800 16px Orbitron,sans-serif;color:#FFB020;letter-spacing:2px">BOARD NOT POWERED</b><br><br>This district opens in a later phase.</div></div>
+<div id="card"><h2></h2><div id="cardBody"></div></div>
+<div id="bottom">
+  <div id="fund"><span>Robot fund</span><span id="steps" style="display:flex;gap:4px"></span><span>next: <b id="goal"></b></span></div>
+  <div id="ticker"><span id="tick"></span></div>
+</div>
+<!-- three.js r147, pinned. Models: assets/models.js (all CC0, see assets/CREDITS.md). Data: snapshot.js (no money, no account details). -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/utils/SkeletonUtils.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/shaders/CopyShader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/Pass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/ShaderPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/MaskPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/EffectComposer.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/RenderPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+<script src="assets/models.js"></script>
+<script src="snapshot.js"></script>
+<script>
+const SNAP = window.SNAPSHOT || { citizens: [], feed: [], fund: { next_goal: "", progress_steps_of_5: 0 }, paused: false };
+const MODELS = window.MODELS || {};
+const C = { ground: 0x0B0716, board: 0x1B0F3A, pink: 0xFF3DCB, cyan: 0x2EE6FF, amber: 0xFFB020, green: 0x4CFF9A, dim: 0x3A2B66, red: 0xFF5964 };
+const PAD = 0.7;                                     // every building stands on a raised hex pad this high
+
+// Buildings are electronic components. x, z = place on the board; kind = what it is drawn as; r = size of its pad.
+const BUILDINGS = {
+  "workshop":         { name: "The Workshop",     x:   0, z:   0, kind: "cpu",       r: 8.6 },
+  "night-shift":      { name: "Night Shift",      x: -18, z:  12, kind: "ram",       r: 7.2 },
+  "holo-studio":      { name: "Holo Studio",      x:  18, z:  12, kind: "gpu",       r: 7.4 },
+  "fabricator":       { name: "The Fabricator",   x:  19, z: -11, kind: "coil",      r: 5.4 },
+  "town-hall":        { name: "Town Hall",        x:  -7, z: -14, kind: "capacitor", r: 4.6 },
+  "gate":             { name: "The Gate",         x: -31, z:   0, kind: "usb",       r: 5.2 },
+  "bazaar":           { name: "The Bazaar",       x:   0, z:  18, kind: "header",    r: 6.4 },
+  "hangar":           { name: "The Hangar",       x: -20, z: -12, kind: "socket",    r: 7.0 },
+  "blueprint-office": { name: "Blueprint Office", x:   8, z: -16, kind: "chip",      r: 4.4 },
+  "render-studio":    { name: "Render Studio",    x:  30, z:   1, kind: "chip",      r: 4.4 },
+  "radio-tower":      { name: "Radio Tower",      x: -30, z:  19, kind: "tower",     r: 4.0 },
+  "recruitment-office": { name: "Recruitment Office", x: -31, z: 9.5, kind: "dip",      r: 4.4 },      // next to the Gate
+  "research-team":    { name: "Research Team",    x:  31, z:  18, kind: "crystal",   r: 4.6 },
+  "payphone":         { name: "The Payphone",     x: -10, z:   6, kind: "resistor",  r: 3.2 },
+  "print-shop":       { name: "Print Shop",       x:  30, z: -16, kind: "chip",      r: 4.4 },
+};
+
+// ---------------------------------------------------------------- scene, light, glow
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(C.ground);
+scene.fog = new THREE.Fog(C.ground, 75, 170);
+const camera = new THREE.PerspectiveCamera(48, innerWidth / innerHeight, 0.1, 500);
+camera.position.set(-6, 40, 58);
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+document.body.prepend(renderer.domElement);
+const controls = new THREE.OrbitControls(camera, renderer.domElement);      // drag to rotate, pinch or scroll to zoom
+controls.enableDamping = true; controls.maxPolarAngle = Math.PI * 0.47; controls.minDistance = 16; controls.maxDistance = 120; controls.target.set(0, 1, 0);
+scene.add(new THREE.HemisphereLight(0xb9a8ff, 0x1a0f3a, 0.95));
+const sun = new THREE.DirectionalLight(0xffffff, 1.05); sun.position.set(26, 46, 22); sun.castShadow = true;
+sun.shadow.mapSize.set(2048, 2048); Object.assign(sun.shadow.camera, { left: -52, right: 52, top: 40, bottom: -40, near: 1, far: 130 }); sun.shadow.bias = -0.0006; scene.add(sun);
+const pinkLamp = new THREE.PointLight(C.pink, 1.2, 70); pinkLamp.position.set(-26, 12, -18); scene.add(pinkLamp);
+const cyanLamp = new THREE.PointLight(C.cyan, 1.2, 70); cyanLamp.position.set(28, 12, 20); scene.add(cyanLamp);
+// neon glow: only the bright neon parts bloom, the lit plastic does not
+const composer = new THREE.EffectComposer(renderer);
+composer.addPass(new THREE.RenderPass(scene, camera));
+const bloom = new THREE.UnrealBloomPass(new THREE.Vector2(innerWidth, innerHeight), 0.7, 0.5, 0.9);
+composer.addPass(bloom);
+
+const city = new THREE.Group(); scene.add(city);
+const glow = (colour) => new THREE.MeshBasicMaterial({ color: colour });
+const solid = (colour, emissive) => new THREE.MeshStandardMaterial({ color: colour, emissive: emissive || 0x000000, roughness: 0.6, metalness: 0.25 });
+const shade = (m) => { m.castShadow = true; m.receiveShadow = true; return m; };
+const box = (w, h, d, mat, x, y, z) => { const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), mat); m.position.set(x || 0, y || 0, z || 0); return mat.isMeshStandardMaterial ? shade(m) : m; };
+const cyl = (r, h, mat, x, y, z, seg) => { const m = new THREE.Mesh(new THREE.CylinderGeometry(r, r, h, seg || 24), mat); m.position.set(x || 0, y || 0, z || 0); return mat.isMeshStandardMaterial ? shade(m) : m; };
+
+// ---------------------------------------------------------------- the desk it sits on, and the board
+const desk = new THREE.Mesh(new THREE.PlaneGeometry(420, 420), new THREE.MeshStandardMaterial({ color: 0x0d0820, roughness: 0.9 }));
+desk.rotation.x = -Math.PI / 2; desk.position.y = -1.6; desk.receiveShadow = true; scene.add(desk);
+const grid = new THREE.GridHelper(420, 70, 0x2B1D55, 0x1a1036); grid.position.y = -1.58; scene.add(grid);
+city.add(box(76, 1.5, 50, solid(C.board), 0, -0.75, 0));
+const edge = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(76, 1.5, 50)), new THREE.LineBasicMaterial({ color: C.pink }));
+edge.position.y = -0.75; city.add(edge);
+for (let i = -35; i <= 35; i += 5) for (let j = -22; j <= 22; j += 5.5) city.add(cyl(0.16, 0.05, glow(C.dim), i, 0.03, j, 10));       // solder pads
+for (const [x, z] of [[-36, -23], [36, -23], [-36, 23], [36, 23]]) { city.add(cyl(1.1, 0.2, solid(0x565c7a), x, 0.1, z)); city.add(cyl(0.5, 0.25, solid(0x06040e), x, 0.12, z)); }   // mounting holes
+
+// ---------------------------------------------------------------- traces, and the light that runs along them
+const paths = {}, pulses = [];
+function trace(key, colour, live) {
+  const b = BUILDINGS[key];
+  const pts = [new THREE.Vector3(b.x, 0.08, b.z), new THREE.Vector3(b.x, 0.08, 0), new THREE.Vector3(0, 0.08, 0)];
+  paths[key] = pts;
+  for (let i = 0; i < pts.length - 1; i++) {
+    const a = pts[i], c = pts[i + 1];
+    if (a.distanceTo(c) < 0.01) continue;
+    city.add(box(Math.abs(c.x - a.x) + 0.34, 0.07, Math.abs(c.z - a.z) + 0.34, glow(colour), (a.x + c.x) / 2, 0.05, (a.z + c.z) / 2));
+  }
+  if (live) for (let n = 0; n < 2; n++) {                                  // data travelling to and from the CPU
+    const dot = new THREE.Mesh(new THREE.SphereGeometry(0.32, 10, 8), glow(0xffffff)); city.add(dot);
+    pulses.push({ dot, path: pts, t: Math.random(), speed: 0.10 + Math.random() * 0.08 });
+  }
+}
+function along(path, u) {                                                 // u: 0 at the building, 1 at the CPU
+  const d0 = path[0].distanceTo(path[1]), d1 = path[1].distanceTo(path[2]);
+  let d = u * (d0 + d1);
+  return d <= d0 ? path[0].clone().lerp(path[1], d0 ? d / d0 : 0) : path[1].clone().lerp(path[2], d1 ? (d - d0) / d1 : 0);
+}
+
+// ---------------------------------------------------------------- the components
+const lit = {}, clickable = [], built = [];
+function build(key) {
+  const b = BUILDINGS[key], g = new THREE.Group(); g.position.set(b.x, 0, b.z);
+  const here = SNAP.citizens.filter(c => c.building === key && c.status !== "waiting_at_gate");
+  const alive = here.some(c => c.status === "active"), broken = here.some(c => c.status === "broken");
+  const neon = broken ? C.red : alive ? C.cyan : C.dim;
+  const dark = solid(0x1c1238, alive ? 0x071c26 : 0x000000);
+  // the pad: a raised hexagon with a neon rim, so every building has its own plot
+  const pad = shade(new THREE.Mesh(new THREE.CylinderGeometry(b.r, b.r + 0.5, PAD, 6), solid(0x24184a))); pad.position.y = PAD / 2; g.add(pad);
+  const rim = new THREE.Mesh(new THREE.CylinderGeometry(b.r + 0.05, b.r + 0.05, 0.12, 6, 1, true), glow(neon)); rim.position.y = PAD + 0.02; g.add(rim);
+  const top = new THREE.Group(); top.position.y = PAD; g.add(top);
+  if (b.kind === "cpu") {
+    top.add(box(9, 1.8, 9, dark, 0, 0.9, 0)); top.add(box(6.2, 0.3, 6.2, glow(alive ? C.pink : C.dim), 0, 1.95, 0)); top.add(box(4.4, 0.34, 4.4, solid(0x120a26), 0, 1.96, 0));
+    for (let i = -4; i <= 4; i += 1) for (const s of [-1, 1]) { top.add(box(0.3, 0.45, 0.9, glow(C.amber), i, 0.22, s * 4.9)); top.add(box(0.9, 0.45, 0.3, glow(C.amber), s * 4.9, 0.22, i)); }
+  } else if (b.kind === "gpu") {
+    top.add(box(10, 0.9, 5.2, dark, 0, 0.45, 0));
+    for (let i = -4; i <= 4; i += 0.8) top.add(box(0.32, 2.4, 4.4, solid(0x3a2f78, alive ? 0x101040 : 0), i, 2.05, 0));       // heatsink fins
+    top.add(box(10.2, 0.22, 0.3, glow(neon), 0, 1.0, 2.7));
+    const fan = cyl(1.5, 0.2, solid(0x120a26), 3, 3.4, 0); top.add(fan); lit["fan"] = fan; fan.add(box(2.8, 0.08, 0.3, glow(alive ? C.cyan : C.dim), 0, 0.12, 0));
+  } else if (b.kind === "ram") {
+    const awake = here.filter(c => c.status === "active").length;
+    for (let i = 0; i < 4; i++) { top.add(box(8.4, 2.8, 0.55, dark, 0, 1.4, -2.7 + i * 1.8)); top.add(box(7.8, 0.28, 0.6, glow(i < awake ? C.green : C.dim), 0, 2.35, -2.7 + i * 1.8)); }
+  } else if (b.kind === "coil") {
+    top.add(cyl(2.3, 0.7, dark, 0, 0.35, 0));
+    for (let i = 0; i < 6; i++) { const t = new THREE.Mesh(new THREE.TorusGeometry(1.75, 0.24, 10, 28), glow(i % 2 ? C.amber : neon)); t.rotation.x = Math.PI / 2; t.position.y = 1.0 + i * 0.52; top.add(t); }
+  } else if (b.kind === "capacitor") {
+    top.add(cyl(2.5, 6.4, solid(0x34277a, 0x0a0830), 0, 3.2, 0)); top.add(cyl(2.56, 0.32, glow(C.pink), 0, 6.0, 0)); top.add(cyl(2.56, 0.32, glow(C.cyan), 0, 0.6, 0)); top.add(cyl(2.3, 0.2, solid(0x6f7698), 0, 6.5, 0));
+  } else if (b.kind === "usb") {
+    top.add(box(4.2, 2.1, 6.2, solid(0x6f7698), 0, 1.05, 0)); top.add(box(1.3, 1.25, 4.8, solid(0x06040e), -1.5, 1.05, 0)); top.add(box(0.3, 0.3, 4.2, glow(C.cyan), -1.6, 0.8, 0));
+  } else if (b.kind === "header") {
+    top.add(box(10, 0.9, 2.4, dark, 0, 0.45, 0));
+    for (let i = -4; i <= 4; i += 1.2) for (const s of [-0.55, 0.55]) top.add(box(0.26, 1.9, 0.26, glow(C.amber), i, 1.3, s));
+  } else if (b.kind === "socket") {
+    top.add(box(8.2, 0.7, 8.2, solid(0x1f6b60, 0x04201c), 0, 0.35, 0)); top.add(box(6.6, 0.1, 6.6, solid(0x06040e), 0, 0.72, 0));
+    top.add(box(0.45, 0.45, 6.2, solid(0xaab0c8), 4.5, 0.7, 0));                                                     // the lever, up: nothing fitted yet
+    const o = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(5.4, 5, 5.4)), new THREE.LineDashedMaterial({ color: C.pink, dashSize: 0.5, gapSize: 0.4 }));
+    o.computeLineDistances(); o.position.y = 3.3; top.add(o);                                                         // dashed outline of the robot to come
+  } else if (b.kind === "tower") {
+    top.add(cyl(1.0, 1.1, dark, 0, 0.55, 0)); top.add(cyl(0.14, 9.5, solid(0x6f7698), 0, 5.6, 0));
+    const tip = cyl(0.4, 0.4, glow(neon), 0, 10.5, 0); top.add(tip); lit["tip"] = tip;
+  } else if (b.kind === "dip") {                                          // a bank of switches: one flips on for each recruit
+    top.add(box(6.2, 1.3, 3.2, solid(0xb0283c, alive ? 0x300810 : 0), 0, 0.65, 0));
+    const inside = SNAP.citizens.filter(c => c.status !== "waiting_at_gate").length;
+    for (let i = 0; i < 8; i++) { const on = i < Math.ceil(inside / 100 * 8); top.add(box(0.45, 0.5, 1.0, on ? glow(C.green) : solid(0xe8e8f0), -2.45 + i * 0.7, 1.45, on ? -0.6 : 0.6)); }
+  } else if (b.kind === "crystal") {                                      // a crystal oscillator can with a lens on top: the city's eye on the outside world
+    top.add(box(5.4, 2.0, 2.6, solid(0x4f5676), 0, 1.0, 0)); top.add(cyl(1.3, 2.0, solid(0x4f5676), -2.7, 1.0, 0)); top.add(cyl(1.3, 2.0, solid(0x4f5676), 2.7, 1.0, 0));
+    const lens = new THREE.Mesh(new THREE.TorusGeometry(1.05, 0.2, 10, 28), glow(alive ? C.amber : C.dim)); lens.position.set(0, 3.1, 0); lens.rotation.x = Math.PI / 2.6; top.add(lens); lit["lens"] = lens;
+    top.add(cyl(0.12, 1.1, solid(0x6f7698), 0, 2.4, 0));
+  } else if (b.kind === "resistor") {
+    const r = cyl(0.75, 3.2, solid(0xd8b47a), 0, 1.0, 0); r.rotation.z = Math.PI / 2; top.add(r);
+    for (const [i, col] of [[-0.85, C.pink], [0, C.cyan], [0.85, C.amber]]) { const band = cyl(0.79, 0.32, glow(alive ? col : C.dim), i, 1.0, 0); band.rotation.z = Math.PI / 2; top.add(band); }
+  } else {
+    top.add(box(5.2, 1.3, 4.2, dark, 0, 0.65, 0)); top.add(box(3.5, 0.2, 2.5, glow(neon), 0, 1.4, 0));
+    for (let i = -2; i <= 2; i += 1) for (const s of [-1, 1]) top.add(box(0.3, 0.3, 0.7, glow(C.amber), i, 0.15, s * 2.4));
+  }
+  g.userData = { key, name: b.name, here, broken, top };
+  g.traverse(o => { if (o.isMesh) { o.userData.owner = g; clickable.push(o); } });
+  city.add(g);
+  trace(key, broken ? 0x66283a : alive ? C.cyan : C.dim, alive);
+  const label = document.createElement("div"); label.className = "label";
+  label.innerHTML = b.name + (broken ? "<small>out of order</small>" : "");
+  document.body.appendChild(label); g.userData.label = label;
+  g.userData.height = PAD + ({ capacitor: 7.6, tower: 11.6, gpu: 4.6, ram: 3.9, coil: 5.0, socket: 6.6, crystal: 4.6 }[b.kind] || 3.0);
+  built.push(g); return g;
+}
+Object.keys(BUILDINGS).forEach(build);
+
+// ---------------------------------------------------------------- downloaded models (all CC0)
+const loader = new THREE.GLTFLoader();
+function load(name) {
+  return new Promise((resolve, reject) => {
+    if (!MODELS[name]) return reject(new Error("no model " + name));
+    const bin = atob(MODELS[name]), bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    loader.parse(bytes.buffer, "", resolve, reject);
+  });
+}
+function prop(gltf, height, x, y, z, turn) {                              // put a model down, resized to `height`, standing on y
+  const m = gltf.scene.clone(true), size = new THREE.Box3().setFromObject(m).getSize(new THREE.Vector3());
+  m.scale.setScalar(height / (size.y || 1));
+  m.rotation.y = turn || 0;
+  const fitted = new THREE.Box3().setFromObject(m), mid = fitted.getCenter(new THREE.Vector3());    // some models are not drawn around their own middle
+  m.position.set(x - mid.x, y - fitted.min.y, z - mid.z);
+  m.traverse(o => { if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; } });
+  city.add(m); return m;
+}
+const B = BUILDINGS, movers = [];
+const scenery = [   // model, height, x, z, turn, on its building's pad?
+  ["gate_complex", 5.2, B.gate.x + 6.2, B.gate.z, Math.PI / 2, false],
+  ["satelliteDish_large", 3.2, B["radio-tower"].x + 2.4, B["radio-tower"].z + 1.4, 0.6, true],
+  ["hangar_largeA", 4.2, B.hangar.x - 1, B.hangar.z - 10.5, 0, false],
+  ["machine_generatorLarge", 2.6, B.fabricator.x - 3.2, B.fabricator.z + 2.6, 0.4, true],
+  ["machine_wireless", 2.4, B.payphone.x + 1.6, B.payphone.z - 1.5, -0.5, true],
+  ["desk_computer", 1.5, B["night-shift"].x - 3.2, B["night-shift"].z + 5.2, Math.PI, true],
+  ["desk_computer", 1.5, B["night-shift"].x, B["night-shift"].z + 5.6, Math.PI, true],
+  ["desk_computer", 1.5, B["night-shift"].x + 3.2, B["night-shift"].z + 5.2, Math.PI, true],
+  ["barrels", 1.5, B.bazaar.x - 4.4, B.bazaar.z + 2.6, 0.3, true],
+  ["machine_barrelLarge", 2.2, B.bazaar.x + 4.2, B.bazaar.z + 2.4, 0, true],
+  ["structure_detailed", 4.2, B["print-shop"].x + 0.4, B["print-shop"].z + 0.2, 0.2, true],       // scaffolding: under repair
+  ["rock_crystalsLargeA", 5.0, -44, -30, 0.5, false], ["rock_crystals", 3.0, 46, -22, 1.2, false],
+  ["rock_crystalsLargeA", 4.2, 44, 30, 2.1, false], ["rock_crystals", 3.2, -46, 26, 0.2, false], ["rock_crystals", 2.4, -8, 31, 2.6, false],
+];
+Promise.all([...new Set(scenery.map(s => s[0])), "rover", "craft_speederA"].map(n => load(n).then(g => [n, g]).catch(() => [n, null]))).then(found => {
+  const kit = Object.fromEntries(found);
+  scenery.forEach(([name, h, x, z, turn, onPad]) => {
+    if (!kit[name]) return;
+    const m = prop(kit[name], h, x, onPad ? PAD : (Math.abs(x) > 38 || Math.abs(z) > 25 ? -1.6 : 0), z, turn);
+    if (name.startsWith("rock_crystals")) m.traverse(o => {                // the crystals outside the board glow in the city's colours
+      if (o.isMesh) { o.material = o.material.clone(); o.material.emissive = new THREE.Color(Math.abs(x + z) % 2 < 1 ? C.pink : C.cyan); o.material.emissiveIntensity = 0.55; }
+    });
+  });
+  if (kit.rover) movers.push({ m: prop(kit.rover, 1.5, 0, 0, 0, 0), kind: "rover", t: 0 });                 // a courier doing laps of the board
+  if (kit.craft_speederA) movers.push({ m: prop(kit.craft_speederA, 1.6, 0, 0, 0, 0), kind: "flyer", t: 0 });
+});
+
+// ---------------------------------------------------------------- residents
+const BUBBLE = { listing: "✎", design: "✦", render: "◈", research: "⌕" };
+const walkers = [];
+function bubbleFor(c) {
+  if (c.status === "waiting_at_gate") return "?";
+  if (c.status === "locked_out") return "⛔";
+  if (c.status === "paused") return "zZ";
+  if (c.working_on) return BUBBLE[c.working_on] || "…";
+  return "";
+}
+function addResident(c, i, robot) {
+  const colour = new THREE.Color(c.colour), g = new THREE.Group(); city.add(g);
+  let mixer = null, actions = {};
+  if (robot) {
+    const body = THREE.SkeletonUtils.clone(robot.scene);
+    const h = new THREE.Box3().setFromObject(body).getSize(new THREE.Vector3()).y || 1;
+    body.scale.setScalar(3.6 / h);
+    body.traverse(o => {
+      if (!o.isMesh) return;
+      o.castShadow = true; o.frustumCulled = false;
+      if (o.material && o.material.name === "Main") {                     // each resident wears the colour it chose
+        o.material = o.material.clone(); o.material.color.copy(colour); o.material.emissive = colour.clone().multiplyScalar(0.22);
+      } else if (o.material) {                                              // keep the white and grey parts from blowing out under the lamps
+        o.material = o.material.clone(); o.material.color.multiplyScalar(0.62);
+      }
+    });
+    g.add(body);
+    mixer = new THREE.AnimationMixer(body);
+    robot.animations.forEach(clip => { actions[clip.name] = mixer.clipAction(clip); });
+  } else {                                                                 // no model available: a simple glowing figure
+    g.add(cyl(0.09, 1.2, glow(colour), 0, 1.3, 0)); const head = new THREE.Mesh(new THREE.SphereGeometry(0.32, 14, 12), glow(colour)); head.position.y = 2.2; g.add(head);
+  }
+  const halo = new THREE.Mesh(new THREE.RingGeometry(0.85, 1.12, 32), new THREE.MeshBasicMaterial({ color: colour, transparent: true, opacity: 0.8, side: THREE.DoubleSide }));
+  halo.rotation.x = -Math.PI / 2; halo.position.y = 0.06; g.add(halo);
+  const waiting = c.status === "waiting_at_gate";
+  const tag = document.createElement("div"); tag.className = "bubble"; tag.style.setProperty("--c", c.colour);
+  const sym = bubbleFor(c);
+  tag.innerHTML = (sym ? "<i>" + sym + "</i>" : "") + (c.name ? "<b>" + c.name.replace(/[<>&]/g, "") + "</b>" : "");
+  document.body.appendChild(tag);
+  const w = { g, c, mixer, actions, waiting, tag, now: "", t: Math.random() * 2, offset: (i % 5 - 2) * 0.7,
+              speed: c.status === "active" ? 0.035 + Math.random() * 0.02 : 0,
+              path: paths[c.building === "workshop" ? "town-hall" : c.building] };   // the Workshop IS the centre, so its resident walks to Town Hall and back
+  if (waiting) {
+    const q = walkers.filter(x => x.waiting).length;
+    g.position.set(B.gate.x + 9 + (q % 3) * 2.4, 0, B.gate.z - 4.4 + Math.floor(q / 3) * 2.6); g.rotation.y = -Math.PI / 2;
+  }
+  walkers.push(w); return w;
+}
+function play(w, name) {
+  if (w.now === name || !w.actions[name]) return;
+  if (w.actions[w.now]) w.actions[w.now].fadeOut(0.3);
+  w.actions[name].reset().fadeIn(0.3).play(); w.now = name;
+}
+const people = SNAP.citizens.filter(c => c.kind === "resident" && BUILDINGS[c.building]);
+load("robot").catch(() => null).then(robot => people.forEach((c, i) => addResident(c, i, robot)));
+
+// ---------------------------------------------------------------- overlay
+document.getElementById("goal").textContent = SNAP.fund.next_goal || "-";
+document.getElementById("steps").innerHTML = [0, 1, 2, 3, 4].map(i => '<span class="step' + (i < SNAP.fund.progress_steps_of_5 ? " lit" : "") + '"></span>').join("");
+document.getElementById("tick").textContent = (SNAP.feed.length ? SNAP.feed.map(f => f.text) : ["The city is quiet."]).join("   ◆   ");
+const COUNT = SNAP.count || { citizens: SNAP.citizens.filter(c => c.status !== "waiting_at_gate").length, target: 100 };
+document.getElementById("sub").textContent = "Motherboard City · " + COUNT.citizens + " of " + COUNT.target + " citizens · " + SNAP.citizens.filter(c => c.status === "waiting_at_gate").length + " at the Gate";
+if (SNAP.paused) document.getElementById("paused").style.display = "block";
+if (window.CONSOLE_URL) {                 // only set when the Boss Console itself serves this page (private, over Tailscale). The public site never has it.
+  const cb = document.getElementById("consoleBtn"); cb.style.display = ""; cb.onclick = () => { location.href = window.CONSOLE_URL; };
+}
+document.querySelectorAll("#districts button[data-d]").forEach(btn => btn.onclick = () => {
+  document.querySelectorAll("#districts button[data-d]").forEach(x => x.classList.toggle("on", x === btn));
+  const down = btn.dataset.d === "downtown";
+  city.visible = down; document.getElementById("offline").style.display = down ? "none" : "flex";
+  document.querySelectorAll(".label, .bubble").forEach(l => l.style.visibility = down ? "visible" : "hidden"); document.getElementById("card").style.display = "none";
+});
+const ray = new THREE.Raycaster(), tap = new THREE.Vector2(); let downAt = null;                    // tap a building: who lives there
+renderer.domElement.addEventListener("pointerdown", e => { downAt = [e.clientX, e.clientY]; });
+renderer.domElement.addEventListener("pointerup", e => {
+  if (!downAt || Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 8 || !city.visible) return;       // a drag is not a tap
+  tap.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1); ray.setFromCamera(tap, camera);
+  const hit = ray.intersectObjects(clickable)[0], card = document.getElementById("card");
+  if (!hit) { card.style.display = "none"; return; }
+  const d = hit.object.userData.owner.userData;
+  const queue = d.key === "gate" ? SNAP.citizens.filter(c => c.status === "waiting_at_gate") : [];
+  card.querySelector("h2").textContent = d.name;
+  const esc = s => String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
+  document.getElementById("cardBody").innerHTML = (d.here.concat(queue).map(c =>
+    '<div class="who"><span class="dot" style="background:' + esc(c.colour) + '"></span><b>' + esc(c.name || c.id) + "</b> · " + esc(c.status.replace(/_/g, " ")) +
+    (c.cyberware.length ? " · cyberware: " + esc(c.cyberware.join(", ")) : "") + (c.personality ? '<div style="color:#9A8FC2;font-size:13px">' + esc(c.personality) + "</div>" : "") + "</div>").join("")) ||
+    '<div class="who" style="color:#9A8FC2">' + (d.key === "hangar" ? "Empty socket. The robot gets built here when the fund can buy its parts." : "Nobody here yet.") + "</div>";
+  card.style.display = "block";
+});
+addEventListener("resize", () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); composer.setSize(innerWidth, innerHeight); });
+
+// ---------------------------------------------------------------- every frame
+const clock = new THREE.Clock(), v = new THREE.Vector3();
+function place(el, x, y, z) {
+  v.set(x, y, z).project(camera);
+  el.style.left = (v.x + 1) / 2 * innerWidth + "px"; el.style.top = (1 - v.y) / 2 * innerHeight + "px"; el.style.display = v.z < 1 ? "block" : "none";
+}
+function frame() {
+  const dt = Math.min(clock.getDelta(), 0.1), now = clock.elapsedTime, stopped = SNAP.paused;
+  walkers.forEach(w => {
+    if (w.mixer) w.mixer.update(dt);
+    if (w.waiting || !w.path || !w.speed || stopped) {
+      play(w, w.waiting && Math.sin(now * 0.35 + w.offset * 3) > 0.93 ? "Wave" : "Idle");
+    } else {
+      w.t = (w.t + dt * w.speed) % 2;
+      const u = w.t <= 1 ? w.t : 2 - w.t, p = along(w.path, u), q = along(w.path, Math.min(1, Math.max(0, u + (w.t <= 1 ? 0.01 : -0.01))));
+      const alongX = Math.abs(q.x - p.x) > Math.abs(q.z - p.z);
+      w.g.position.set(p.x + (alongX ? 0 : w.offset), 0, p.z + (alongX ? w.offset : 0));
+      if (q.distanceTo(p) > 0.0001) w.g.rotation.y = Math.atan2(q.x - p.x, q.z - p.z);
+      play(w, "Walking");
+    }
+    place(w.tag, w.g.position.x, 4.7, w.g.position.z);
+  });
+  pulses.forEach(p => { if (!stopped) p.t = (p.t + dt * p.speed) % 1; p.dot.position.copy(along(p.path, p.t)).setY(0.3); });
+  movers.forEach(o => {
+    if (!stopped) o.t += dt;
+    if (o.kind === "rover") {                                             // laps just inside the edge of the board
+      const lap = 36 * 2 + 23 * 2, d = (o.t * 4) % (lap * 2), X = 36, Z = 23;
+      const seg = d < 2 * X ? [-X + d, -Z, 0] : d < 2 * X + 2 * Z ? [X, -Z + (d - 2 * X), 1] : d < 4 * X + 2 * Z ? [X - (d - 2 * X - 2 * Z), Z, 2] : [-X, Z - (d - 4 * X - 2 * Z), 3];
+      o.m.position.x = seg[0]; o.m.position.z = seg[1]; o.m.rotation.y = [Math.PI / 2, 0, -Math.PI / 2, Math.PI][seg[2]];
+    } else {
+      o.m.position.set(Math.cos(o.t * 0.35) * 30, 13 + Math.sin(o.t * 0.9) * 1.2, Math.sin(o.t * 0.35) * 20); o.m.rotation.y = -o.t * 0.35;
+    }
+  });
+  if (lit.tip) lit.tip.visible = Math.sin(now * 4) > -0.3;
+  if (lit.fan && !stopped) lit.fan.rotation.y += dt * 6;
+  if (lit.lens && !stopped) lit.lens.rotation.z += dt * 0.8;
+  built.forEach(g => place(g.userData.label, g.position.x, g.userData.height, g.position.z));
+  controls.update(); composer.render(); requestAnimationFrame(frame);
+}
+frame();
+</script>
+</body>
+</html>

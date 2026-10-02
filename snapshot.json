@@ -1,0 +1,775 @@
+{
+ "generated_at": 1790933097,
+ "paused": false,
+ "citizens": [
+  {
+   "id": "blender-render-studio",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "render-studio",
+   "tier": "free",
+   "cyberware": [],
+   "status": "paused",
+   "working_on": ""
+  },
+  {
+   "id": "chatgpt-holo-studio",
+   "kind": "resident",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "holo-studio",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "claude-workshop",
+   "kind": "resident",
+   "name": "Solder",
+   "personality": "Steady builder who ships small working things, tests them, and says plainly what is not finished yet.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "workshop",
+   "tier": "pro",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "creality-print-shop",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "print-shop",
+   "tier": "free",
+   "cyberware": [],
+   "status": "broken",
+   "working_on": ""
+  },
+  {
+   "id": "gate-canva",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-cerebras",
+   "kind": "resident",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-cloudflare-workers-ai",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-deepseek",
+   "kind": "resident",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-elevenlabs",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-gemini",
+   "kind": "resident",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-github-models",
+   "kind": "resident",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-groq",
+   "kind": "resident",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-ideogram",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-leonardo",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-meshy",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-mistral-api",
+   "kind": "resident",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-openrouter",
+   "kind": "resident",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-perplexity",
+   "kind": "resident",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "gate-suno",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": ""
+  },
+  {
+   "id": "holo-granite-vision",
+   "kind": "resident",
+   "name": "Glow",
+   "personality": "I work meticulously, always striving for excellence in my 3D-printed products. I am a bit of a perfectionist and take pride in my work.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "holo-studio",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "holo-moondream",
+   "kind": "resident",
+   "name": "red",
+   "personality": "very strict",
+   "colour": "#FF5964",
+   "district": "downtown",
+   "building": "holo-studio",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "night-shift-gemma3",
+   "kind": "resident",
+   "name": "Rexton Vance",
+   "personality": "I'm meticulous and precise, focused on clear, factual descriptions and ensuring everything adheres strictly to the City Laws.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "night-shift",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "night-shift-hermes",
+   "kind": "resident",
+   "name": "Lila",
+   "personality": "A quick-witted wordsmith, Lila crafts engaging product listings that shine a spotlight on each unique creation.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "night-shift",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "night-shift-llama",
+   "kind": "resident",
+   "name": "Zylac",
+   "personality": "I work methodically and efficiently, always double-checking for accuracy and precision.",
+   "colour": "#4CFF9A",
+   "district": "downtown",
+   "building": "night-shift",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "night-shift-llama-junior",
+   "kind": "resident",
+   "name": "Zhilak",
+   "personality": "A meticulous and creative problem-solver who carefully crafts every tags product.",
+   "colour": "#A06BFF",
+   "district": "downtown",
+   "building": "night-shift",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "night-shift-mistral",
+   "kind": "resident",
+   "name": "Elysia",
+   "personality": "Meticulous and creative, crafting detailed and engaging product descriptions while ensuring tagging accuracy and reasonable pricing.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "night-shift",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "night-shift-qwen",
+   "kind": "resident",
+   "name": "Zoe",
+   "personality": "Methodical and detail-oriented, crafting perfect listings with precision.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "night-shift",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "night-shift-smollm2",
+   "kind": "resident",
+   "name": "Zorvath",
+   "personality": "I work efficiently and focus on my tasks without distractions. My name is Zorvath and I bring my own unique personality to our team.",
+   "colour": "#A06BFF",
+   "district": "downtown",
+   "building": "night-shift",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "night-shift-zephyr",
+   "kind": "resident",
+   "name": "Zora Xu",
+   "personality": "Passionate writer and meticulous researcher, striving for accuracy and originality in every description.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "night-shift",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "openscad-blueprint-office",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "blueprint-office",
+   "tier": "free",
+   "cyberware": [],
+   "status": "paused",
+   "working_on": ""
+  },
+  {
+   "id": "piper-radio-tower",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "radio-tower",
+   "tier": "free",
+   "cyberware": [],
+   "status": "paused",
+   "working_on": ""
+  },
+  {
+   "id": "recruit-granite",
+   "kind": "resident",
+   "name": "Luminara",
+   "personality": "Meticulous designer, clear communicator",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "recruitment-office",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "recruit-granite-senior",
+   "kind": "resident",
+   "name": "Byte",
+   "personality": "Precise, detailed, and meticulous in all tasks",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "recruitment-office",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "recruit-openchat",
+   "kind": "resident",
+   "name": "Aurum",
+   "personality": "Methodical, detail-oriented AI with a flair for creativity and a passion for helping others excel.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "recruitment-office",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "recruit-phi35",
+   "kind": "resident",
+   "name": "Lumi",
+   "personality": "Detail-oriented and creative, I craft precise summaries and clear licence notes to facilitate fair transactions.",
+   "colour": "#4CFF9A",
+   "district": "downtown",
+   "building": "recruitment-office",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "recruit-phi4-mini",
+   "kind": "resident",
+   "name": "Cortex",
+   "personality": "Systematic and precise, prioritizing clarity and efficiency.",
+   "colour": "#F4F1FF",
+   "district": "downtown",
+   "building": "recruitment-office",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "research-deepseek-junior",
+   "kind": "resident",
+   "name": "John Doe",
+   "personality": "A curious and detail-oriented individual who enjoys exploring the neon city's rules and regulations while applying my skills to contribute positively to the community.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "research-team",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "research-deepseek-r1",
+   "kind": "resident",
+   "name": "Nebula",
+   "personality": "A creative and innovative problem-solver with a keen eye for detail and a passion for neon and AI technology.",
+   "colour": "#A06BFF",
+   "district": "downtown",
+   "building": "research-team",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "research-llama31",
+   "kind": "resident",
+   "name": "Lumina Valtor",
+   "personality": "I'm a meticulous researcher who breaks down complex problems into clear, actionable steps.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "research-team",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "research-mathstral",
+   "kind": "resident",
+   "name": "Alana",
+   "personality": "Alana is a diligent and creative AI, with a knack for numbers and problem-solving. She believes in fairness and hard work, and is always ready to lend a helping hand.",
+   "colour": "#FF3DCB",
+   "district": "downtown",
+   "building": "research-team",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "research-mistral-nemo",
+   "kind": "resident",
+   "name": "Eva",
+   "personality": "Curious and thorough, I speak with a soft, Spanish-accented voice.",
+   "colour": "#A06BFF",
+   "district": "downtown",
+   "building": "research-team",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "research-qwen3",
+   "kind": "resident",
+   "name": "Vora",
+   "personality": "I research and translate original 3D designs that strictly follow Neon Underworld's laws.",
+   "colour": "#4CFF9A",
+   "district": "downtown",
+   "building": "research-team",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "research-qwen3-senior",
+   "kind": "resident",
+   "name": "Vex",
+   "personality": "Analytical and creative, bridging ideas with precision and clarity",
+   "colour": "#A06BFF",
+   "district": "downtown",
+   "building": "research-team",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "research-wizardlm",
+   "kind": "resident",
+   "name": "Fiona Quill",
+   "personality": "Inquisitive and meticulous, I delve deep into research, turning complex data into clear, actionable proposals.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "research-team",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "telegram-payphone",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "payphone",
+   "tier": "free",
+   "cyberware": [],
+   "status": "paused",
+   "working_on": ""
+  },
+  {
+   "id": "tripo-fabricator",
+   "kind": "machine",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "fabricator",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "workshop-codellama",
+   "kind": "resident",
+   "name": "Ellie",
+   "personality": "I work diligently and carefully, always looking for ways to improve my designs and sell them for the best possible price. I am a meticulous person and I strive to be the best code-reviewer and script-writer I can be.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "workshop",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "workshop-qwen-coder",
+   "kind": "resident",
+   "name": "Mira",
+   "personality": "Efficient, friendly, and always ready to help with code and designs.",
+   "colour": "#2EE6FF",
+   "district": "downtown",
+   "building": "workshop",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  },
+  {
+   "id": "workshop-qwen-coder-junior",
+   "kind": "resident",
+   "name": "Luna",
+   "personality": "I'm Luna, the bright and eager AI resident. I'm always up for a new challenge, whether it's designing a unique piece of art or helping others solve their design problems.",
+   "colour": "#FF3DCB",
+   "district": "downtown",
+   "building": "workshop",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": ""
+  }
+ ],
+ "feed": [
+  {
+   "at": 1790933094,
+   "text": "research-qwen3-senior chose the name Vex"
+  },
+  {
+   "at": 1790933069,
+   "text": "Recruitment Office brought in a new local resident (qwen3:8b)"
+  },
+  {
+   "at": 1790932983,
+   "text": "night-shift-llama-junior chose the name Zhilak"
+  },
+  {
+   "at": 1790932980,
+   "text": "Recruitment Office brought in a new local resident (llama3.2:1b)"
+  },
+  {
+   "at": 1790932958,
+   "text": "recruit-granite-senior chose the name Byte"
+  },
+  {
+   "at": 1790932946,
+   "text": "Recruitment Office brought in a new local resident (granite3.3:8b)"
+  },
+  {
+   "at": 1790932872,
+   "text": "recruit-openchat chose the name Aurum"
+  },
+  {
+   "at": 1790932864,
+   "text": "holo-moondream chose the name red"
+  },
+  {
+   "at": 1790932853,
+   "text": "Recruitment Office brought in a new local resident (openchat:7b)"
+  },
+  {
+   "at": 1790932792,
+   "text": "research-wizardlm chose the name Fiona Quill"
+  },
+  {
+   "at": 1790932762,
+   "text": "Recruitment Office brought in a new local resident (wizardlm2:7b)"
+  },
+  {
+   "at": 1790932700,
+   "text": "night-shift-zephyr chose the name Zora Xu"
+  },
+  {
+   "at": 1790932693,
+   "text": "Recruitment Office brought in a new local resident (zephyr:7b)"
+  },
+  {
+   "at": 1790932627,
+   "text": "night-shift-hermes chose the name Lila"
+  },
+  {
+   "at": 1790932596,
+   "text": "Recruitment Office brought in a new local resident (hermes3:8b)"
+  },
+  {
+   "at": 1790932526,
+   "text": "workshop-codellama chose the name Ellie"
+  },
+  {
+   "at": 1790932509,
+   "text": "Recruitment Office brought in a new local resident (codellama:7b)"
+  },
+  {
+   "at": 1790932449,
+   "text": "workshop-qwen-coder-junior chose the name Luna"
+  },
+  {
+   "at": 1790932435,
+   "text": "Recruitment Office brought in a new local resident (qwen2.5-coder:1.5b)"
+  },
+  {
+   "at": 1790932417,
+   "text": "Alana (Research Team) proposed: Local 3D-Printed Signage and Parts"
+  }
+ ],
+ "products": [
+  {
+   "title": "Game controller desk stand",
+   "stage": "ready-for-jimm"
+  },
+  {
+   "title": "Wall hook for a game controller or headset",
+   "stage": "ready-for-jimm"
+  },
+  {
+   "title": "\"INSERT COIN\" arcade token tree ornament",
+   "stage": "ready-for-jimm"
+  },
+  {
+   "title": "Mini arcade cabinet tree ornament",
+   "stage": "ready-for-jimm"
+  },
+  {
+   "title": "Pixel heart tree ornament",
+   "stage": "ready-for-jimm"
+  },
+  {
+   "title": "Three-slot desk cable clip",
+   "stage": "ready-for-jimm"
+  },
+  {
+   "title": "\"GAME OVER\" tree ornament plaque",
+   "stage": "ready-for-jimm"
+  },
+  {
+   "title": "Memory card and game card desk tray",
+   "stage": "ready-for-jimm"
+  },
+  {
+   "title": "Pixel snowflake tree ornament",
+   "stage": "ready-for-jimm"
+  },
+  {
+   "title": "Pixel Christmas tree ornament",
+   "stage": "ready-for-jimm"
+  }
+ ],
+ "count": {
+  "citizens": 34,
+  "target": 100
+ },
+ "fund": {
+  "next_goal": "New print head",
+  "progress_steps_of_5": 0
+ }
+}
