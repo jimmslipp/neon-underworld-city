@@ -1,5 +1,5 @@
 {
- "generated_at": 1790938352,
+ "generated_at": 1790938828,
  "paused": false,
  "citizens": [
   {
@@ -642,6 +642,14 @@
  ],
  "feed": [
   {
+   "at": 1790938805,
+   "text": "Nebula, Ellie, Zoe took a resist in the smoke club"
+  },
+  {
+   "at": 1790938805,
+   "text": "Zoe (from a chat in Resist) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1790938167,
    "text": "The citizens voted in the R&D Lab's debate room"
   },
@@ -712,14 +720,6 @@
   {
    "at": 1790932792,
    "text": "research-wizardlm chose the name Fiona Quill"
-  },
-  {
-   "at": 1790932762,
-   "text": "Recruitment Office brought in a new local resident (wizardlm2:7b)"
-  },
-  {
-   "at": 1790932700,
-   "text": "night-shift-zephyr chose the name Zora Xu"
   }
  ],
  "products": [
@@ -764,6 +764,11 @@
    "stage": "ready-for-jimm"
   }
  ],
+ "lounge": [
+  "research-deepseek-r1",
+  "workshop-codellama",
+  "night-shift-qwen"
+ ],
  "lab": [
   {
    "title": "Cutting files as digital downloads",
@@ -783,6 +788,13 @@
    "title": "Print files for arcade builders, on two sites",
    "stage": "evidence",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Smart Bazaar Assistant",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   }
