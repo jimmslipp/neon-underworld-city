@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790944078,
+ "generated_at": 1790944726,
  "paused": false,
  "citizens": [
   {
@@ -955,6 +955,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790944726,
+   "text": "City resumed via console"
+  },
+  {
+   "at": 1790944263,
+   "text": "City PAUSED via console"
+  },
+  {
    "at": 1790944007,
    "text": "The residents chose how they will vote on spending their purse: ranked, proposed by Glow"
   },
@@ -1025,14 +1033,6 @@ window.SNAPSHOT = {
   {
    "at": 1790937069,
    "text": "Solder pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1790937069,
-   "text": "Solder pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1790935275,
-   "text": "City resumed via telegram"
   }
  ],
  "products": [
