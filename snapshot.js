@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790989944,
+ "generated_at": 1790990552,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1790990400,
+   "text": "Vex went scouting for the Research Team and found something the judges kept"
+  },
+  {
    "at": 1790989733,
    "text": "Elysia went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1790973353,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790972858,
-   "text": "Zhilak, Glow, Nebula took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 03:19",
+   "by": "Vex",
+   "title": "AI-Neon Custom Kits",
+   "verdict": "kept"
+  },
+  {
    "at": "2026-10-03 03:07",
    "by": "Elysia",
    "title": "AI-Driven Customizable Neon Light Installations",
@@ -1302,12 +1308,6 @@ window.SNAPSHOT = {
    "at": "2026-10-02 22:25",
    "by": "Lumina Valtor",
    "title": "AI-Generated Custom Beer Tasting Logbook",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-02 22:14",
-   "by": "Nebula",
-   "title": "3D-Printed Animatronic Head with Servo Control",
    "verdict": "rejected"
   }
  ],
