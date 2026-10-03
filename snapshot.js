@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791051846,
+ "generated_at": 1791052527,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791052512,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791051603,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791042831,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791042212,
-   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1296,12 +1296,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 18:41",
    "by": "Fiona Quill",
    "title": "Neon City Bar Code System",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 18:16",
-   "by": "Vex",
-   "title": "AI-Generated 3D Bar Souvenirs",
    "verdict": "rejected"
   }
  ],
