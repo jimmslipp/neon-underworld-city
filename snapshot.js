@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791045666,
+ "generated_at": 1791046276,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791045684,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791045651,
    "text": "Rexton Vance, Lumina Valtor, Lila took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791036723,
    "text": "Vex (grow the stake) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791036294,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 18:41",
+   "by": "Fiona Quill",
+   "title": "Neon City Bar Code System",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 18:16",
    "by": "Vex",
    "title": "AI-Generated 3D Bar Souvenirs",
@@ -1292,12 +1298,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 16:35",
    "by": "Eva",
    "title": "Customizable LED Coasters with AI-Generated Designs",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 16:25",
-   "by": "Alana",
-   "title": "AI-Driven Customizable Neon Light Installations",
    "verdict": "rejected"
   }
  ],
