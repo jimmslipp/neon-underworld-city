@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791017284,
+ "generated_at": 1791017983,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791017967,
+   "text": "Vora went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791017269,
    "text": "Vex went scouting for the Research Team and found something the judges kept"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791008533,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791007910,
-   "text": "Fiona Quill went scouting for the Research Team and found something the judges kept"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 10:57",
+   "by": "Vora",
+   "title": "Pub-Exclusive AI Beer Sticker Sheets (3D Printed)",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 10:46",
    "by": "Vex",
    "title": "AI-Generated Custom Keychains with Bilingual Designs",
@@ -1296,12 +1302,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 08:53",
    "by": "Alana",
    "title": "Customizable 3D-Printed Beer Tasting Note Cards",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 08:42",
-   "by": "Lumina Valtor",
-   "title": "AI-Driven Customizable Neon Light Installations",
    "verdict": "rejected"
   }
  ],
