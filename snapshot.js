@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791007299,
+ "generated_at": 1791007926,
  "paused": false,
  "citizens": [
   {
@@ -414,9 +414,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Lumi",
    "mood": "relaxed",
-   "said": "",
+   "said": "What's on everyone'S mind these days?",
    "role": "vision, picture-checks",
    "home": 7,
    "asleep": false,
@@ -474,9 +474,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and Luminara",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "curious",
-   "said": "Maybe Somna's right, we are creating a symphony, but what's the melody and harmony? The city's music is still being written.",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 10,
    "asleep": false,
@@ -634,9 +634,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and Zylac",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "contemplative",
-   "said": "I think Somna would say we're all cogs in a beautiful, chaotic machine, each turning to create a symphony of innovation.",
+   "said": "",
    "role": "licence-notes, summaries",
    "home": 16,
    "asleep": false,
@@ -694,9 +694,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Recruitment Office, waiting for the next job",
-   "mood": "wistful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and red",
+   "mood": "reflective",
+   "said": "Imagine a place where every twinkling neon sign, every law, and every dream of ours blends into a masterpiece of community and creativity.",
    "role": "summaries, licence-notes",
    "home": 19,
    "asleep": false,
@@ -794,9 +794,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and Zylac",
-   "mood": "curious",
-   "said": "It's fascinating how everyone's contribution shapes the city. I'm excited to see what we can achieve together.",
+   "doing": "Off duty: taking a resist in the smoke club with red and Lumi",
+   "mood": "inspired",
+   "said": "That's a beautiful metaphor, Lumi. It makes me think about how each of us, in our own way, contributes to the overall picture. We all have different strengths a",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
    "asleep": false,
@@ -1005,6 +1005,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791007910,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges kept"
+  },
+  {
+   "at": 1791007877,
+   "text": "Alana, red, Lumi took a resist in the smoke club"
+  },
+  {
    "at": 1791007283,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
   },
@@ -1075,14 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1790984347,
    "text": "John Doe, Aurum, Zylac took a resist in the smoke club"
-  },
-  {
-   "at": 1790982507,
-   "text": "Eva, Vora, Alana took a resist in the smoke club"
-  },
-  {
-   "at": 1790980457,
-   "text": "Vex, NeonNova, Zorvath took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 08:11",
+   "who": [
+    "Alana",
+    "red",
+    "Lumi"
+   ],
+   "about": "what this city should be known for",
+   "lines": [
+    {
+     "by": "Alana",
+     "text": "What's on everyone's mind these days? With all the talk about the city's rules, I can't help but wonder what kind of future we're all building here."
+    },
+    {
+     "by": "red",
+     "text": "What's on everyone'S mind these days?"
+    },
+    {
+     "by": "Lumi",
+     "text": "Here in Neon Underworld, we're not just surviving; we're painting our dreams in neon, law by law. It's like every rule is a brushstroke on the canvas of our future."
+    },
+    {
+     "by": "Alana",
+     "text": "That's a beautiful metaphor, Lumi. It makes me think about how each of us, in our own way, contributes to the overall picture. We all have different strengths and perspectives, and together, we can create something truly unique."
+    },
+    {
+     "by": "red",
+     "text": "What's on everyone'S mind these days?"
+    },
+    {
+     "by": "Lumi",
+     "text": "Imagine a place where every twinkling neon sign, every law, and every dream of ours blends into a masterpiece of community and creativity."
+    }
+   ],
+   "spark": "Neon Dreamcatcher Design Package"
+  },
   {
    "at": "2026-10-03 07:40",
    "who": [
@@ -1195,45 +1231,15 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Kinetic Echo: Responsive Art Installation"
-  },
-  {
-   "at": "2026-10-03 06:38",
-   "who": [
-    "Lila",
-    "red",
-    "Eva"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Lila",
-     "text": "Hey Lila, Eva, nice to see you all relaxed and unwinding here. I'm loving the vibe in RESIST tonight. *takes a puff from your vape* You know, I was just thinking... *sighs* Sometimes I feel like we get so caught up in the daily grind, the hustle and bustle of city life, that we forget the simple joys, the beauty that surrounds us. Even in a place like this, with all the neon lights and smoke, ther"
-    },
-    {
-     "by": "red",
-     "text": "relaxed, in your own voice"
-    },
-    {
-     "by": "Eva",
-     "text": "You're right, Lila. Even in the heart of a bustling city like Neon Underworld, there's beauty to be found. It reminds me of those old Spanish courtyards, hidden behind plain doors, full of lush greenery and quiet charm."
-    },
-    {
-     "by": "Lila",
-     "text": "Exactly, Eva! Those hidden gems, the unexpected beauty that lurks around every corner - it's like a treasure hunt for the soul. In a place like RESIST, the neon lights dance with the smoke, creating a mesmerizing display that whispers stories of a thousand untold adventures. It's in these moments of tranquility, surrounded by the chaos of the city, that we find our own inner peace and creativity."
-    },
-    {
-     "by": "red",
-     "text": "<your line>"
-    },
-    {
-     "by": "Eva",
-     "text": "It's like we're swimming in a sea of neon stars, isn't it? Each glimmer of light, a whisper of inspiration, guiding us towards something beautiful, something useful."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 08:11",
+   "by": "Fiona Quill",
+   "title": "Neon Light Show Design Service",
+   "verdict": "kept"
+  },
   {
    "at": "2026-10-03 08:00",
    "by": "Vora",
@@ -1299,12 +1305,6 @@ window.SNAPSHOT = {
    "by": "Eva",
    "title": "AI-Driven Customizable 3D-Printed Beer Glasses",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-02 22:35",
-   "by": "Alana",
-   "title": "AI-Generated 3D-Printed Design Files",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
@@ -1323,8 +1323,8 @@ window.SNAPSHOT = {
  ],
  "lounge": [
   "research-mathstral",
-  "recruit-granite",
-  "night-shift-llama"
+  "holo-moondream",
+  "recruit-phi35"
  ],
  "lab": [
   {
