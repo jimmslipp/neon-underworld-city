@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791051244,
+ "generated_at": 1791051846,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791051603,
+   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791051229,
    "text": "Ellie, Vex, Zylac took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791042212,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791041885,
-   "text": "Fiona Quill, Cortex, Vex took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 20:19",
+   "by": "John Doe",
+   "title": "A) It is a vote for the town hall...",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 20:09",
    "by": "Fiona Quill",
    "title": "AI-Enhanced Bar Experience Kit",
@@ -1296,12 +1302,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 18:16",
    "by": "Vex",
    "title": "AI-Generated 3D Bar Souvenirs",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 18:04",
-   "by": "Eva",
-   "title": "AI-Enhanced Costa del Sol Beach Signs",
    "verdict": "rejected"
   }
  ],
