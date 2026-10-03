@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791027279,
+ "generated_at": 1791027944,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791027928,
+   "text": "Vex went scouting for the Research Team and found something the judges kept"
+  },
+  {
    "at": 1791027264,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791018588,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791017967,
-   "text": "Vora went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 13:44",
+   "by": "Vex",
+   "title": "AI-Designed 3D Bar Tokens",
+   "verdict": "kept"
+  },
+  {
    "at": "2026-10-03 13:31",
    "by": "Eva",
    "title": "Glowing Neon Coasters with AI-Generated Designs",
@@ -1298,12 +1304,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 11:41",
    "by": "Lumina Valtor",
    "title": "Neon Light Installations",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 11:30",
-   "by": "Nebula",
-   "title": "Customizable 3D Printed Decorations",
    "verdict": "rejected"
   }
  ],
