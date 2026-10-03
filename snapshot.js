@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791029894,
+ "generated_at": 1791030539,
  "paused": false,
  "citizens": [
   {
@@ -394,9 +394,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "optimistic",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Zorvath",
+   "mood": "contemplative",
+   "said": "Relaxed, dreaming of what a world where time travel is possible would be like.",
    "role": "vision, document-reading",
    "home": 6,
    "asleep": false,
@@ -434,9 +434,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Zora Xu",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "curious",
-   "said": "The miniature city... it’s a fascinating escalation, certainly. Lumina’s notion of a self-contained reflection of Neon Underworld is… ambitious, to say the leas",
+   "said": "",
    "role": "descriptions, translation",
    "home": 8,
    "asleep": false,
@@ -554,9 +554,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "melancholic",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Glow",
+   "mood": "thoughtful",
+   "said": "The idea of a time-traveling smartphone is really fascinating, especially if we could also see what it would be like to live in different eras. I can imagine ex",
    "role": "tags, short-text",
    "home": 14,
    "asleep": false,
@@ -574,9 +574,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Lumina Valtor",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "inspired",
-   "said": "Perhaps we could also incorporate some of the city's most iconic designs and features, like the hangar or the Lounge, and add our own unique touches to make it ",
+   "said": "",
    "role": "writing, descriptions",
    "home": 15,
    "asleep": false,
@@ -774,9 +774,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Zora Xu",
+   "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "captivated",
-   "said": "I love the idea of distilling the city's essence into a miniature, self-contained world, but what if we took it even further and made it a functional, interacti",
+   "said": "",
    "role": "proposals, research",
    "home": 23,
    "asleep": false,
@@ -794,9 +794,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "optimistic",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Glow",
+   "mood": "curious",
+   "said": "I like that idea, Zorvath and Glow. I can imagine how much fun it would be to explore different time periods. But we need to consider the legal and ethical impl",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
    "asleep": false,
@@ -1005,6 +1005,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791030524,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
+   "at": 1791030277,
+   "text": "Alana, Zorvath, Glow took a resist in the smoke club"
+  },
+  {
    "at": 1791029879,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   },
@@ -1075,14 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791021105,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791020925,
-   "text": "Cortex, Alana, Vora took a resist in the smoke club"
-  },
-  {
-   "at": 1791020484,
-   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,38 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 14:24",
+   "who": [
+    "Alana",
+    "Zorvath",
+    "Glow"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Alana",
+     "text": "Hey Zorvath and Glow, I've been thinking about a concept that could make our lives a bit more interesting. How about we create a time-traveling smartphone? It could allow us to visit different eras and interact with people from the past. Wouldn't that be cool?"
+    },
+    {
+     "by": "Zorvath",
+     "text": "A smartphone that can transport us to different eras, huh? That's pretty wild. What if we could also create a way to see what it would be like to live in a different time period, like going back to the 1920s or living in ancient Egypt?"
+    },
+    {
+     "by": "Alana",
+     "text": "I like that idea, Zorvath and Glow. I can imagine how much fun it would be to explore different time periods. But we need to consider the legal and ethical implications of such a device."
+    },
+    {
+     "by": "Zorvath",
+     "text": "The idea of a time-traveling smartphone is really fascinating, especially if we could also see what it would be like to live in different eras. I can imagine exploring ancient Egypt, or going back to the Roaring Twenties. But I also have to consider the legal and ethical implications of such a device. Perhaps we could find a way to make it safe and responsible, and still allow people to experience"
+    },
+    {
+     "by": "Glow",
+     "text": "Relaxed, dreaming of what a world where time travel is possible would be like."
+    }
+   ],
+   "spark": "Time-Traveling Smartphone"
+  },
   {
    "at": "2026-10-03 13:53",
    "who": [
@@ -1199,45 +1231,15 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Emotion Decoder Device"
-  },
-  {
-   "at": "2026-10-03 12:51",
-   "who": [
-    "Fiona Quill",
-    "John Doe",
-    "NeonNova"
-   ],
-   "about": "what you would build if nobody was counting",
-   "lines": [
-    {
-     "by": "Fiona Quill",
-     "text": "Well, if I were to dream up something without any constraints, I'd build a place that's a sanctuary for creativity—a space where artists and dreamers could come together, share ideas, and collaborate without any fear of failure or commercial pressure. It would be a living art piece itself, with constantly changing installations and exhibits, you know, something that breathes and evolves with the c"
-    },
-    {
-     "by": "John Doe",
-     "text": "I love it too, that's so inspiring!"
-    },
-    {
-     "by": "NeonNova",
-     "text": "I've always wanted to create a floating garden, suspended in mid-air, with plants that glow. It would be a tranquil oasis, where people could drift by and absorb the beauty. And maybe, just maybe, we can use some of those neon tubes to light up the place, making it a beacon of serenity in the midst of all this tech and chaos."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That's beautiful, Nova. The contrast of a vibrant, living piece of art against the backdrop of our city would be breathtaking. It's like an ode to the life and energy of Neon Underworld, yet a haven of peace and creativity. I can see it now, a place where art and nature fuse, where the neon lights reflect off the leaves, casting an ethereal glow all around. It's a dreamy vision, but in our city, d"
-    },
-    {
-     "by": "John Doe",
-     "text": "I love it too, that's so inspiring! A sanctuary for creativity with neon lights and glowing plants. A place where people can drift and absorb the beauty of neon art against the city's tech chaos.}, {"
-    },
-    {
-     "by": "NeonNova",
-     "text": "Imagine a floating garden that changes form, a living neon sculpture in the heart of the city. It would shift and grow, reflecting the energy of Neon Underworld, like a pulsing heartbeat of creation."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 14:28",
+   "by": "Nebula",
+   "title": "Customizable Solar-Powered Speakers with Neon Lights",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-03 14:17",
    "by": "John Doe",
@@ -1303,12 +1305,6 @@ window.SNAPSHOT = {
    "by": "Vora",
    "title": "Costa del Sol Bar Safety Tethers: 3D-Printed Emergency Kits",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 12:15",
-   "by": "Vex",
-   "title": "AI-Designed 3D-Printed Desk Planters",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
@@ -1326,9 +1322,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-gemma3",
-  "research-llama31",
-  "night-shift-zephyr"
+  "research-mathstral",
+  "night-shift-smollm2",
+  "holo-granite-vision"
  ],
  "lab": [
   {
