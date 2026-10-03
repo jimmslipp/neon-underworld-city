@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791062532,
+ "generated_at": 1791063164,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791063148,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791062517,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791053758,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791053140,
-   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 23:32",
+   "by": "Nebula",
+   "title": "Custom Neon Sign Art Service with AI Assistance",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 23:21",
    "by": "John Doe",
    "title": "Neon City Bar Code System (N CBS)",
@@ -1290,12 +1296,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 21:42",
    "by": "Fiona Quill",
    "title": "AI Neon Concept Art Service",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 21:19",
-   "by": "Vex",
-   "title": "Custom 3D-Printed Bar Mats with AI-Generated Designs",
    "verdict": "rejected"
   }
  ],
