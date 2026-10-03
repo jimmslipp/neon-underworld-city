@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791021120,
+ "generated_at": 1791021925,
  "paused": false,
  "citizens": [
   {
@@ -414,12 +414,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "relaxed",
    "said": "",
    "role": "vision, picture-checks",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -434,12 +434,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "curious",
+   "doing": "Asleep in apartment 8 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, translation",
    "home": 8,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -694,12 +694,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Recruitment Office, waiting for the next job",
-   "mood": "reflective",
+   "doing": "Asleep in apartment 19 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 19,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -734,12 +734,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "positive",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "quick-checks, maths",
    "home": 21,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -814,12 +814,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "serene",
+   "doing": "Asleep in apartment 25 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 25,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -874,12 +874,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "contemplative",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, proposals",
    "home": 28,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -954,12 +954,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 30,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -974,12 +974,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 31 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 31,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -994,16 +994,20 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "relaxed",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   }
  ],
  "feed": [
+  {
+   "at": 1791021909,
+   "text": "Eva went scouting for the Research Team and found something the judges rejected"
+  },
   {
    "at": 1791021105,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791012647,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791011923,
-   "text": "Vex went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 12:01",
+   "by": "Eva",
+   "title": "3D Printed Neon Beer Tokens with Personalized Designs and LED Lighting",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 11:51",
    "by": "Alana",
    "title": "Customizable Neon Beer Glasses",
@@ -1302,12 +1308,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 10:01",
    "by": "Nebula",
    "title": "Customizable Neon Beer Glasses",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 09:51",
-   "by": "John Doe",
-   "title": "3D Printer Animatronic Tool System for Neon City Bazaar",
    "verdict": "rejected"
   }
  ],
