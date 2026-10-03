@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791049381,
+ "generated_at": 1791049994,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791049675,
+   "text": "Vex went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791049366,
    "text": "Zorvath, Mira, Aurum took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791040328,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791039995,
-   "text": "Glow, Nebula, Alana took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 19:46",
+   "by": "Vex",
+   "title": "AI-Generated Unique Wall Art",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 19:33",
    "by": "Eva",
    "title": "Personalized 3D-Printed Bar Countertop Display with AI-Generated Desig",
@@ -1292,12 +1298,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 17:43",
    "by": "Lumina Valtor",
    "title": "Local Legend Pin Badges",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 17:32",
-   "by": "Nebula",
-   "title": "Interactive 3D-Printed Neon Drink Holder with Augmented Reality",
    "verdict": "rejected"
   }
  ],
