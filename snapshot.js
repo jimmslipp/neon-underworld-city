@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791006662,
+ "generated_at": 1791007299,
  "paused": false,
  "citizens": [
   {
@@ -34,12 +34,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 1 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "product-images, mockups",
    "home": 1,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -194,12 +194,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 3 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 3,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -234,12 +234,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 4 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 4,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -334,12 +334,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 5 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -394,12 +394,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 6 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "optimistic",
    "said": "",
    "role": "vision, document-reading",
    "home": 6,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -414,12 +414,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "relaxed",
    "said": "",
    "role": "vision, picture-checks",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -434,12 +434,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 8 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "descriptions, translation",
    "home": 8,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -454,12 +454,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 9 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "writing, listing-text",
    "home": 9,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -494,12 +494,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 11 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "tags, short-text",
    "home": 11,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -514,12 +514,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 12 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 12,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -534,12 +534,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 13 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 13,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -554,12 +554,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 14 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "glowing",
    "said": "",
    "role": "tags, short-text",
    "home": 14,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -574,12 +574,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 15 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "writing, descriptions",
    "home": 15,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -654,12 +654,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 17 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 17,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -674,12 +674,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
+   "mood": "content",
    "said": "",
    "role": "candidate-research, writing",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -694,12 +694,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 19,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -714,12 +714,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 20 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 20,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -734,12 +734,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "deliberate",
    "said": "",
    "role": "quick-checks, maths",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -774,12 +774,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 23 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "proposals, research",
    "home": 23,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -814,12 +814,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "serene",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 25,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -854,12 +854,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 27,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -874,12 +874,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 28 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "research, proposals",
    "home": 28,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -934,12 +934,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "hopeful",
    "said": "",
    "role": "code-review, scripts",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -954,12 +954,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 30,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -974,12 +974,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 31 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 31,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -994,16 +994,20 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   }
  ],
  "feed": [
+  {
+   "at": 1791007283,
+   "text": "Vora went scouting for the Research Team and found something the judges rejected"
+  },
   {
    "at": 1791006040,
    "text": "Alana, Luminara, Zylac took a resist in the smoke club"
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1790980457,
    "text": "Vex, NeonNova, Zorvath took a resist in the smoke club"
-  },
-  {
-   "at": 1790978552,
-   "text": "Nebula, Eva, Zhilak took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 08:00",
+   "by": "Vora",
+   "title": "3D-Printed Beer Tasting Note Cards with Personalized QR Codes and Neon",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 03:19",
    "by": "Vex",
    "title": "AI-Neon Custom Kits",
@@ -1298,12 +1304,6 @@ window.SNAPSHOT = {
    "at": "2026-10-02 22:35",
    "by": "Alana",
    "title": "AI-Generated 3D-Printed Design Files",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-02 22:25",
-   "by": "Lumina Valtor",
-   "title": "AI-Generated Custom Beer Tasting Logbook",
    "verdict": "rejected"
   }
  ],
