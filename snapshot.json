@@ -1,5 +1,5 @@
 {
- "generated_at": 1790989628,
+ "generated_at": 1790989903,
  "paused": false,
  "citizens": [
   {
@@ -234,12 +234,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "On the night shift: scouting for ways the city can earn, and judging what the others found",
-   "mood": "focused",
+   "doing": "Asleep in apartment 4 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 4,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -434,12 +434,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "On the night shift: scouting for ways the city can earn, and judging what the others found",
-   "mood": "reflective",
+   "doing": "Asleep in apartment 8 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, translation",
    "home": 8,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -454,12 +454,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "On the night shift: scouting for ways the city can earn, and judging what the others found",
-   "mood": "amused",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, listing-text",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -474,12 +474,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "On the night shift: scouting for ways the city can earn, and judging what the others found",
-   "mood": "serenity",
+   "doing": "Asleep in apartment 10 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 10,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -494,12 +494,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "On the night shift: scouting for ways the city can earn, and judging what the others found",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 11 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "tags, short-text",
    "home": 11,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -514,12 +514,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "On the night shift: scouting for ways the city can earn, and judging what the others found",
-   "mood": "inspired",
+   "doing": "Asleep in apartment 12 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 12,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -534,12 +534,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "On the night shift: scouting for ways the city can earn, and judging what the others found",
-   "mood": "nostalgic",
+   "doing": "Asleep in apartment 13 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 13,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -554,12 +554,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "On the night shift: scouting for ways the city can earn, and judging what the others found",
-   "mood": "relaxed",
+   "doing": "Asleep in apartment 14 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "tags, short-text",
    "home": 14,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -574,12 +574,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "On the night shift: scouting for ways the city can earn, and judging what the others found",
-   "mood": "reflective",
+   "doing": "Asleep in apartment 15 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, descriptions",
    "home": 15,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -734,12 +734,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "On duty with the Research Team: scouting for valid ways to add to the robot fund",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -754,12 +754,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 22 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "On duty with the Research Team: scouting for valid ways to add to the robot fund",
+   "mood": "curious",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 22,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -794,12 +794,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 24 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "On duty with the Research Team: scouting for valid ways to add to the robot fund",
+   "mood": "thoughtful",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -814,12 +814,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "On duty with the Research Team: scouting for valid ways to add to the robot fund",
+   "mood": "inspired",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 25,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -874,12 +874,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 28 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "On duty with the Research Team: scouting for valid ways to add to the robot fund",
+   "mood": "inspired",
    "said": "",
    "role": "research, proposals",
    "home": 28,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1005,6 +1005,14 @@
  ],
  "feed": [
   {
+   "at": 1790989733,
+   "text": "Elysia went scouting for the Research Team and found something the judges rejected"
+  },
+  {
+   "at": 1790989678,
+   "text": "The Night Shift wrote the sales kit for the wifi plaque pilot, and Tick found venues to show it to"
+  },
+  {
    "at": 1790989038,
    "text": "Zylac went scouting for the Research Team and found something the judges rejected"
   },
@@ -1075,14 +1083,6 @@
   {
    "at": 1790972858,
    "text": "Zhilak, Glow, Nebula took a resist in the smoke club"
-  },
-  {
-   "at": 1790972731,
-   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790972105,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-03 03:07",
+   "by": "Elysia",
+   "title": "AI-Driven Customizable Neon Light Installations",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 02:57",
    "by": "Zylac",
    "title": "AI-Generated Custom Beer Tasting Notes Cards",
@@ -1307,16 +1313,16 @@
  ],
  "proclamations": [
   {
-   "at": "02 Oct 2026 19:38",
-   "text": "Relay to the team that this isn't free work. I will pay 50 cents regardless for each response. This is a training method."
-  },
-  {
    "at": "02 Oct 2026 20:10",
    "text": "Mi amors"
   },
   {
    "at": "02 Oct 2026 20:19",
    "text": "There is 12 at the gate, can we please welcome our new friends and ask what they need to settle in."
+  },
+  {
+   "at": "03 Oct 2026 03:11",
+   "text": "If there is no need, don't wake them. They spent the day claiming night shift and the night shift was offline: that is dead weight. As my lieutenant, Solder will ask them tomorrow to provide a schedule they'll all work to, and I'll check th"
   }
  ],
  "lounge": [
