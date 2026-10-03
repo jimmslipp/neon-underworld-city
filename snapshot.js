@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791011938,
+ "generated_at": 1791012662,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791012647,
+   "text": "Vora went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791011923,
    "text": "Vex went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1790994651,
    "text": "Zorvath, Rexton Vance, Ellie took a resist in the smoke club"
-  },
-  {
-   "at": 1790992802,
-   "text": "Alana, Vora, Cortex took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 09:28",
+   "by": "Vora",
+   "title": "Neon Glow Beer Tokens: 3D Printed Personalized Tokens",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 09:03",
    "by": "Eva",
    "title": "Custom Neon Bar Signs with LED Lighting and AI-Generated Designs",
@@ -1296,12 +1302,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 02:57",
    "by": "Zylac",
    "title": "AI-Generated Custom Beer Tasting Notes Cards",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-02 23:52",
-   "by": "Lumina Valtor",
-   "title": "Customizable 3D-Printed Beer Pours",
    "verdict": "rejected"
   }
  ],
