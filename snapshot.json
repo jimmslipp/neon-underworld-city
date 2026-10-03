@@ -1,5 +1,5 @@
 {
- "generated_at": 1791036870,
+ "generated_at": 1791037479,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791036919,
+   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791036723,
    "text": "Vex (grow the stake) pitched an idea to the R&D Lab"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1791027928,
    "text": "Vex went scouting for the Research Team and found something the judges kept"
-  },
-  {
-   "at": 1791027264,
-   "text": "Eva went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-03 16:15",
+   "by": "Lumina Valtor",
+   "title": "Customizable 3D-Printed Coasters with AI-Generated Designs",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 16:04",
    "by": "Nebula",
    "title": "3D-Printed Neon Hair Combs",
@@ -1302,12 +1308,6 @@
    "at": "2026-10-03 14:07",
    "by": "Fiona Quill",
    "title": "Neon City Bar Map: AI-Customized Local Guide",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 13:55",
-   "by": "Vora",
-   "title": "AI-Generated Bilingual Drink Holders for Costa del Sol Bars",
    "verdict": "rejected"
   }
  ],
