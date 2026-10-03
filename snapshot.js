@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791023977,
+ "generated_at": 1791024600,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791024584,
+   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791023962,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791015163,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791014535,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 12:49",
+   "by": "John Doe",
+   "title": "Costume for Bar Makers",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 12:39",
    "by": "Fiona Quill",
    "title": "Neon City Sign Kits",
@@ -1299,12 +1305,6 @@ window.SNAPSHOT = {
    "by": "Vex",
    "title": "AI-Generated Custom Keychains with Bilingual Designs",
    "verdict": "kept"
-  },
-  {
-   "at": "2026-10-03 10:33",
-   "by": "Eva",
-   "title": "AI-Driven Neon Sign Fabrication Service",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
