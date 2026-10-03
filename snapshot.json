@@ -1,5 +1,5 @@
 {
- "generated_at": 1791053774,
+ "generated_at": 1791054554,
  "paused": false,
  "citizens": [
   {
@@ -34,12 +34,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 1 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "product-images, mockups",
    "home": 1,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -194,12 +194,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -234,12 +234,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 4 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 4,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -334,12 +334,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Recruitment Office, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 5 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -474,12 +474,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "nostalgic",
+   "doing": "Asleep in apartment 10 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 10,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -494,12 +494,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 11 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "tags, short-text",
    "home": 11,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -754,12 +754,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 22 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 22,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -774,12 +774,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "intrigued",
+   "doing": "Asleep in apartment 23 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "proposals, research",
    "home": 23,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -834,12 +834,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 26 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 26,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791054539,
+   "text": "Eva went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791053758,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1791045015,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791044317,
-   "text": "Vex went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-03 21:06",
+   "by": "Eva",
+   "title": "Interactive 3D-Printed Beach Signs with Augmented Reality",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 20:55",
    "by": "Alana",
    "title": "Custom 3D-Printed Art for Bars and Home Decor",
@@ -1296,12 +1302,6 @@
    "at": "2026-10-03 19:02",
    "by": "Nebula",
    "title": "Custom 3D-Printed Art for Bars and Home Decor",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 18:51",
-   "by": "John Doe",
-   "title": "Artificial Intelligence as a Profitable Tool",
    "verdict": "rejected"
   }
  ],
