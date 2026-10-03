@@ -1,5 +1,5 @@
 {
- "generated_at": 1791014550,
+ "generated_at": 1791015179,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791015163,
+   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791014535,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1791004202,
    "text": "Zoe (from a chat in Resist) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791002339,
-   "text": "Lila, red, Eva took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-03 10:12",
+   "by": "Lumina Valtor",
+   "title": "Neon Light Installations",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 10:01",
    "by": "Nebula",
    "title": "Customizable Neon Beer Glasses",
@@ -1297,12 +1303,6 @@
    "by": "Fiona Quill",
    "title": "Neon Light Show Design Service",
    "verdict": "kept"
-  },
-  {
-   "at": "2026-10-03 08:00",
-   "by": "Vora",
-   "title": "3D-Printed Beer Tasting Note Cards with Personalized QR Codes and Neon",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
