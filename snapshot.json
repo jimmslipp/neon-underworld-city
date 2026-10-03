@@ -1,5 +1,5 @@
 {
- "generated_at": 1791009806,
+ "generated_at": 1791010427,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791010411,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791009791,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1790989733,
    "text": "Elysia went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1790989678,
-   "text": "The Night Shift wrote the sales kit for the wifi plaque pilot, and Tick found venues to show it to"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-03 08:53",
+   "by": "Alana",
+   "title": "Customizable 3D-Printed Beer Tasting Note Cards",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 08:42",
    "by": "Lumina Valtor",
    "title": "AI-Driven Customizable Neon Light Installations",
@@ -1302,12 +1308,6 @@
    "at": "2026-10-02 23:31",
    "by": "John Doe",
    "title": "Neon Control: A Digital Leap",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-02 23:21",
-   "by": "Fiona Quill",
-   "title": "AI-Customized Pub Games",
    "verdict": "rejected"
   }
  ],
