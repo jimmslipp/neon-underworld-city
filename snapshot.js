@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791028651,
+ "generated_at": 1791029278,
  "paused": false,
  "citizens": [
   {
@@ -534,12 +534,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 13 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "hopeful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 13,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -674,12 +674,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
+   "mood": "thoughtful",
    "said": "",
    "role": "candidate-research, writing",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -754,12 +754,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "flowing",
+   "doing": "Asleep in apartment 22 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 22,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -834,12 +834,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791029263,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791028636,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791019860,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791019217,
-   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 14:07",
+   "by": "Fiona Quill",
+   "title": "Neon City Bar Map: AI-Customized Local Guide",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 13:55",
    "by": "Vora",
    "title": "AI-Generated Bilingual Drink Holders for Costa del Sol Bars",
@@ -1302,12 +1308,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 12:01",
    "by": "Eva",
    "title": "3D Printed Neon Beer Tokens with Personalized Designs and LED Lighting",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 11:51",
-   "by": "Alana",
-   "title": "Customizable Neon Beer Glasses",
    "verdict": "rejected"
   }
  ],
