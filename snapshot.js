@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791046276,
+ "generated_at": 1791046876,
  "paused": false,
  "citizens": [
   {
@@ -534,12 +534,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "nostalgic",
+   "doing": "Asleep in apartment 13 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 13,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -674,12 +674,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Recruitment Office, waiting for the next job",
-   "mood": "thoughtful",
+   "doing": "Asleep in apartment 18 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, writing",
    "home": 18,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -694,12 +694,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 19,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -734,12 +734,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "kindness",
    "said": "",
    "role": "quick-checks, maths",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -794,12 +794,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 24 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -814,12 +814,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "whimsical",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 25,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -874,12 +874,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 28 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "research, proposals",
    "home": 28,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791046315,
+   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791045684,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791036919,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791036723,
-   "text": "Vex (grow the stake) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 18:51",
+   "by": "John Doe",
+   "title": "Artificial Intelligence as a Profitable Tool",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 18:41",
    "by": "Fiona Quill",
    "title": "Neon City Bar Code System",
@@ -1292,12 +1298,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 16:48",
    "by": "Vex",
    "title": "AI-Crafted Bar Accessory Set",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 16:35",
-   "by": "Eva",
-   "title": "Customizable LED Coasters with AI-Generated Designs",
    "verdict": "rejected"
   }
  ],
