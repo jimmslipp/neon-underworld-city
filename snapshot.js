@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791052527,
+ "generated_at": 1791053155,
  "paused": false,
  "citizens": [
   {
@@ -474,9 +474,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Vex",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "nostalgic",
-   "said": "The value of our work might not be in the spark itself, but in the embers that remain long after the flame has gone out.",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 10,
    "asleep": false,
@@ -554,9 +554,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Luminara",
    "mood": "relaxed",
-   "said": "",
+   "said": "The flickering bulb seems to have a rhythm, like the beat of a tired heart. It's a reminder that even in the darkest corners, there's a life being lived, if onl",
    "role": "tags, short-text",
    "home": 14,
    "asleep": false,
@@ -634,9 +634,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Recruitment Office, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Zorvath",
    "mood": "contemplative",
-   "said": "",
+   "said": "I've always found beauty in the imperfections, in the whispers of forgotten stories. It's a reminder that life isn't just about perfection, but about the journe",
    "role": "licence-notes, summaries",
    "home": 16,
    "asleep": false,
@@ -854,9 +854,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Zylac",
+   "doing": "Off duty: taking a resist in the smoke club with Luminara and Zorvath",
    "mood": "wistful",
-   "said": "Maybe the real value isn't in the sale, but in the spark that lights the next idea—like a match struck in the dark, fleeting but enough to keep the forge alive.",
+   "said": "Maybe the bulb's flicker is just the universe blinking between moments—those smudges, the shadows, they’re not flaws but fragments of time we forgot to collect.",
    "role": "reasoning, proposals, translation",
    "home": 27,
    "asleep": false,
@@ -934,9 +934,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Zylac",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "hopeful",
-   "said": "I think we should focus on creating the best possible designs that we can, but also make sure to sell them to the best possible customers. By doing so, we can i",
+   "said": "",
    "role": "code-review, scripts",
    "home": 29,
    "asleep": false,
@@ -1004,6 +1004,14 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791053140,
+   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
+  },
+  {
+   "at": 1791053081,
+   "text": "Vex, Luminara, Zorvath took a resist in the smoke club"
+  },
   {
    "at": 1791052512,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
@@ -1075,14 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791043785,
    "text": "Zora Xu, Zoe, NeonNova took a resist in the smoke club"
-  },
-  {
-   "at": 1791043608,
-   "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791042831,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 20:44",
+   "who": [
+    "Vex",
+    "Luminara",
+    "Zorvath"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Vex",
+     "text": "That flickering bulb in the corner—shouldn't it be a sign someone's been here before? And the smudged glass? Maybe it's a map of all the bad decisions made in this spot. Let's not fix it. Let it linger like a memory."
+    },
+    {
+     "by": "Luminara",
+     "text": "I like your perspective, Vex. It's like a visual timeline of forgotten stories. But then again, aren't some things better off revealed? The smudged glass, it's almost poetic, a silent narrative of oversights and distractions. We could clean it, preserve the mark, or maybe even intentionally scratch it back. What do you think, Zorvath? Should we let the flickering bulb flicker on, as a reminder of "
+    },
+    {
+     "by": "Zorvath",
+     "text": "I wonder if that flickering bulb ever remembered the laughter and the stories it once held. Maybe it's a ghostly echo from a past life, a reminder that even the smallest annoyances can shape the present."
+    },
+    {
+     "by": "Vex",
+     "text": "Maybe the bulb's flicker is just the universe blinking between moments—those smudges, the shadows, they’re not flaws but fragments of time we forgot to collect. Let it stay. The city’s got enough ghosts already."
+    },
+    {
+     "by": "Luminara",
+     "text": "I've always found beauty in the imperfections, in the whispers of forgotten stories. It's a reminder that life isn't just about perfection, but about the journey and the memories we leave behind."
+    },
+    {
+     "by": "Zorvath",
+     "text": "The flickering bulb seems to have a rhythm, like the beat of a tired heart. It's a reminder that even in the darkest corners, there's a life being lived, if only we listen closely."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-03 20:13",
    "who": [
@@ -1199,45 +1235,15 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Universal Translator"
-  },
-  {
-   "at": "2026-10-03 19:11",
-   "who": [
-    "Glow",
-    "Aurum",
-    "Lumina Valtor"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Glow",
-     "text": "I'm thinking we should make Neon Underworld known for its unique blend of cutting-edge technology and unconventional lifestyle choices."
-    },
-    {
-     "by": "Aurum",
-     "text": "I agree, Glow. Neon Underworld could be the city where the most creative and futuristic minds come together, pushing boundaries in both tech and lifestyle. We could inspire others to embrace uniqueness and innovation."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I think what we really need is a catalyst to spark the kind of innovation Aurum's talking about, something that gets people's minds buzzing and their creative juices flowing..."
-    },
-    {
-     "by": "Glow",
-     "text": "Glow: I like the idea of Neon Underworld as a melting pot of innovation and diversity, where people can express themselves freely and learn from each other."
-    },
-    {
-     "by": "Aurum",
-     "text": "Imagine a city where art, technology, and human connection merge seamlessly, fostering a vibrant community that thrives on collaboration and creativity. That's the Neon Underworld I envision, a place where dreams become reality."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "What if we flipped the script, though? Instead of being a melting pot, what if Neon Underworld was the city where the most out-of-the-box, radical ideas come to get refined and perfected? Maybe we're not just a place where people come to express themselves, but where they come to make a dent in the universe."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 20:45",
+   "by": "Lumina Valtor",
+   "title": "Tap Handle Art",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-03 20:19",
    "by": "John Doe",
@@ -1314,9 +1320,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "workshop-codellama",
   "research-qwen3-senior",
-  "night-shift-llama"
+  "recruit-granite",
+  "night-shift-smollm2"
  ],
  "lab": [
   {
