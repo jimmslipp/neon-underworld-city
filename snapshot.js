@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791040011,
+ "generated_at": 1791040616,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791040328,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791039995,
    "text": "Glow, Nebula, Alana took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791031144,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791030524,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1231,6 +1231,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 17:11",
+   "by": "Fiona Quill",
+   "title": "Custom Neon Bar Sign Kit",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 17:00",
    "by": "Vora",
    "title": "Custom Coastal Event Stakes",
@@ -1294,12 +1300,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 14:59",
    "by": "Eva",
    "title": "Customized Neon Bar Wall Decor",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 14:49",
-   "by": "Alana",
-   "title": "AI-Designed 3D Bar Tokens",
    "verdict": "rejected"
   }
  ],
