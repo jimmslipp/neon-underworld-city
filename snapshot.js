@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791021925,
+ "generated_at": 1791022625,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791022610,
+   "text": "Vex went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791021909,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791013281,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791012647,
-   "text": "Vora went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 12:15",
+   "by": "Vex",
+   "title": "AI-Designed 3D-Printed Desk Planters",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 12:01",
    "by": "Eva",
    "title": "3D Printed Neon Beer Tokens with Personalized Designs and LED Lighting",
@@ -1302,12 +1308,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 10:12",
    "by": "Lumina Valtor",
    "title": "Neon Light Installations",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 10:01",
-   "by": "Nebula",
-   "title": "Customizable Neon Beer Glasses",
    "verdict": "rejected"
   }
  ],
