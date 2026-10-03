@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791019875,
+ "generated_at": 1791020499,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791020484,
+   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791019860,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791011200,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791010411,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 11:41",
+   "by": "Lumina Valtor",
+   "title": "Neon Light Installations",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 11:30",
    "by": "Nebula",
    "title": "Customizable 3D Printed Decorations",
@@ -1302,12 +1308,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 09:40",
    "by": "Fiona Quill",
    "title": "Neon Signage Design Service with AI Personalization",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 09:28",
-   "by": "Vora",
-   "title": "Neon Glow Beer Tokens: 3D Printed Personalized Tokens",
    "verdict": "rejected"
   }
  ],
