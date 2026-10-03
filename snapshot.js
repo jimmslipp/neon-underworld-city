@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791025868,
+ "generated_at": 1791026487,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791026471,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791025852,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791017124,
    "text": "Byte, Fiona Quill, Cortex took a resist in the smoke club"
-  },
-  {
-   "at": 1791016591,
-   "text": "Eva went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 13:21",
+   "by": "Alana",
+   "title": "AI-Driven Customizable Neon Light Installations",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 13:10",
    "by": "Lumina Valtor",
    "title": "LED Coasters",
@@ -1298,12 +1304,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 11:20",
    "by": "John Doe",
    "title": "City's Money System: The Secret and Only Guide You'll Ever Need",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 11:09",
-   "by": "Fiona Quill",
-   "title": "AI-Customized Neon Bar Menu Boards",
    "verdict": "rejected"
   }
  ],
