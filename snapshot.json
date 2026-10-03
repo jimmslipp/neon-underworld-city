@@ -1,5 +1,5 @@
 {
- "generated_at": 1791041900,
+ "generated_at": 1791042500,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791042212,
+   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791041885,
    "text": "Fiona Quill, Cortex, Vex took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1791033281,
    "text": "Vex went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791032560,
-   "text": "Eva went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1231,6 +1231,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-03 17:43",
+   "by": "Lumina Valtor",
+   "title": "Local Legend Pin Badges",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 17:32",
    "by": "Nebula",
    "title": "Interactive 3D-Printed Neon Drink Holder with Augmented Reality",
@@ -1294,12 +1300,6 @@
    "at": "2026-10-03 15:36",
    "by": "Fiona Quill",
    "title": "AI-Customized Neon Bazaar Pass",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 15:24",
-   "by": "Vora",
-   "title": "Bilingual Costa del Sol Event Calendar (3D Printed)",
    "verdict": "rejected"
   }
  ],
