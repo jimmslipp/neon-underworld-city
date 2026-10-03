@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791055254,
+ "generated_at": 1791055959,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791055944,
+   "text": "Vora went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791055238,
    "text": "Vex went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791046315,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791045684,
-   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1297,12 +1297,6 @@ window.SNAPSHOT = {
    "by": "Alana",
    "title": "Selling 3D-printed files as digital downloads",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 19:12",
-   "by": "Lumina Valtor",
-   "title": "Print Files for Custom 3D-Printed Tap Handles",
-   "verdict": "kept"
   }
  ],
  "proclamations": [
