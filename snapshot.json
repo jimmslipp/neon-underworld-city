@@ -1,5 +1,5 @@
 {
- "generated_at": 1791012662,
+ "generated_at": 1791013297,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791013281,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791012647,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1790996501,
    "text": "Mira, Lumi, John Doe took a resist in the smoke club"
-  },
-  {
-   "at": 1790994651,
-   "text": "Zorvath, Rexton Vance, Ellie took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-03 09:40",
+   "by": "Fiona Quill",
+   "title": "Neon Signage Design Service with AI Personalization",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 09:28",
    "by": "Vora",
    "title": "Neon Glow Beer Tokens: 3D Printed Personalized Tokens",
@@ -1296,12 +1302,6 @@
    "at": "2026-10-03 03:07",
    "by": "Elysia",
    "title": "AI-Driven Customizable Neon Light Installations",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 02:57",
-   "by": "Zylac",
-   "title": "AI-Generated Custom Beer Tasting Notes Cards",
    "verdict": "rejected"
   }
  ],
