@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791048134,
+ "generated_at": 1791048737,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791048191,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791047573,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges kept"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791039006,
    "text": "Vex went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791038315,
-   "text": "Eva went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 19:23",
+   "by": "Alana",
+   "title": "Selling 3D-printed files as digital downloads",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 19:12",
    "by": "Lumina Valtor",
    "title": "Print Files for Custom 3D-Printed Tap Handles",
@@ -1292,12 +1298,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 17:22",
    "by": "John Doe",
    "title": "A vote for the town hall",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 17:11",
-   "by": "Fiona Quill",
-   "title": "Custom Neon Bar Sign Kit",
    "verdict": "rejected"
   }
  ],
