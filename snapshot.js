@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791038739,
+ "generated_at": 1791039340,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791039006,
+   "text": "Vex went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791038315,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791029879,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791029263,
-   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 16:48",
+   "by": "Vex",
+   "title": "AI-Crafted Bar Accessory Set",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 16:35",
    "by": "Eva",
    "title": "Customizable LED Coasters with AI-Generated Designs",
@@ -1302,12 +1308,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 14:38",
    "by": "Lumina Valtor",
    "title": "Neon Coasters",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 14:28",
-   "by": "Nebula",
-   "title": "Customizable Solar-Powered Speakers with Neon Lights",
    "verdict": "rejected"
   }
  ],
