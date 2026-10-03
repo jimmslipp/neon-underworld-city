@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791043800,
+ "generated_at": 1791044408,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791044317,
+   "text": "Vex went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791043785,
    "text": "Zora Xu, Zoe, NeonNova took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791035231,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791034608,
-   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1231,6 +1231,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 18:16",
+   "by": "Vex",
+   "title": "AI-Generated 3D Bar Souvenirs",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 18:04",
    "by": "Eva",
    "title": "AI-Enhanced Costa del Sol Beach Signs",
@@ -1294,12 +1300,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 16:15",
    "by": "Lumina Valtor",
    "title": "Customizable 3D-Printed Coasters with AI-Generated Designs",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 16:04",
-   "by": "Nebula",
-   "title": "3D-Printed Neon Hair Combs",
    "verdict": "rejected"
   }
  ],
