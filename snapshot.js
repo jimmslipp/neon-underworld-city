@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791015798,
+ "generated_at": 1791016607,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791016591,
+   "text": "Eva went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791015783,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791007283,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791006040,
-   "text": "Alana, Luminara, Zylac took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 10:33",
+   "by": "Eva",
+   "title": "AI-Driven Neon Sign Fabrication Service",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 10:22",
    "by": "Alana",
    "title": "AI-Driven Customizable Neon Light Installations",
@@ -1296,12 +1302,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 08:32",
    "by": "Nebula",
    "title": "Customizable Neon Beer Sign with 3D-Printed Head",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 08:21",
-   "by": "John Doe",
-   "title": "3D Printer Servo Controller",
    "verdict": "rejected"
   }
  ],
