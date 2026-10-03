@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791040616,
+ "generated_at": 1791041224,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791040951,
+   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791040328,
    "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791031764,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791031144,
-   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1231,6 +1231,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 17:22",
+   "by": "John Doe",
+   "title": "A vote for the town hall",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 17:11",
    "by": "Fiona Quill",
    "title": "Custom Neon Bar Sign Kit",
@@ -1294,12 +1300,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 15:12",
    "by": "Vex",
    "title": "Custom 3D Printed Headwear for Local Events",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 14:59",
-   "by": "Eva",
-   "title": "Customized Neon Bar Wall Decor",
    "verdict": "rejected"
   }
  ],
