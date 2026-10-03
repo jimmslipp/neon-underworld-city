@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791059151,
+ "generated_at": 1791059941,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791059925,
+   "text": "Eva went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791059135,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791050363,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791049675,
-   "text": "Vex went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 22:35",
+   "by": "Eva",
+   "title": "Customized 3D-Printed Bar Furniture with AI-Generated Designs",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 22:25",
    "by": "Alana",
    "title": "AI-Enhanced Costa del Sol Beach Signs",
@@ -1280,12 +1286,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 20:45",
    "by": "Lumina Valtor",
    "title": "Tap Handle Art",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 20:19",
-   "by": "John Doe",
-   "title": "A) It is a vote for the town hall...",
    "verdict": "rejected"
   }
  ],
