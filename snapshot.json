@@ -1,5 +1,5 @@
 {
- "generated_at": 1791049994,
+ "generated_at": 1791050606,
  "paused": false,
  "citizens": [
   {
@@ -534,12 +534,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 13 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Night Shift, waiting for the next job",
+   "mood": "nostalgic",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 13,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -754,12 +754,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "excited",
+   "doing": "Asleep in apartment 22 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 22,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -834,12 +834,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791050363,
+   "text": "Vora went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791049675,
    "text": "Vex went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1791040951,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791040328,
-   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-03 19:58",
+   "by": "Vora",
+   "title": "Costa del Sol Folklore Drink Tokens (AI-Generated)",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 19:46",
    "by": "Vex",
    "title": "AI-Generated Unique Wall Art",
@@ -1292,12 +1298,6 @@
    "at": "2026-10-03 17:53",
    "by": "Alana",
    "title": "AI-Driven Customizable Neon Light Installations",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 17:43",
-   "by": "Lumina Valtor",
-   "title": "Local Legend Pin Badges",
    "verdict": "rejected"
   }
  ],
