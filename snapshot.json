@@ -1,5 +1,5 @@
 {
- "generated_at": 1791030539,
+ "generated_at": 1791031160,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791031144,
+   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791030524,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1791021909,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791021105,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-03 14:38",
+   "by": "Lumina Valtor",
+   "title": "Neon Coasters",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 14:28",
    "by": "Nebula",
    "title": "Customizable Solar-Powered Speakers with Neon Lights",
@@ -1298,12 +1304,6 @@
    "at": "2026-10-03 12:39",
    "by": "Fiona Quill",
    "title": "Neon City Sign Kits",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 12:26",
-   "by": "Vora",
-   "title": "Costa del Sol Bar Safety Tethers: 3D-Printed Emergency Kits",
    "verdict": "rejected"
   }
  ],
