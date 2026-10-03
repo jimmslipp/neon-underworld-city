@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791061295,
+ "generated_at": 1791061915,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791061900,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791061279,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791052512,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791051603,
-   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 23:11",
+   "by": "Fiona Quill",
+   "title": "Neon Sign Customization Service",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 23:00",
    "by": "Vora",
    "title": "Costa del Sol Custom 3D-Printed Wine Bottle Holders",
@@ -1286,12 +1292,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 21:06",
    "by": "Eva",
    "title": "Interactive 3D-Printed Beach Signs with Augmented Reality",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 20:55",
-   "by": "Alana",
-   "title": "Custom 3D-Printed Art for Bars and Home Decor",
    "verdict": "rejected"
   }
  ],
