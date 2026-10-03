@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1790994034,
+ "generated_at": 1790994667,
  "paused": false,
  "citizens": [
   {
@@ -434,12 +434,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 8 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Ellie",
+   "mood": "reflective",
+   "said": "A functional robot head… it’s a pragmatic starting point, isn’t it? But I’m not convinced ‘captivating’ alone is enough; surely we should strive for something t",
    "role": "descriptions, translation",
    "home": 8,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -554,12 +554,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 14 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Ellie",
+   "mood": "glowing",
+   "said": "Unbridled creativity, the very fabric of our town's heartbeat.",
    "role": "tags, short-text",
    "home": 14,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -714,12 +714,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and Vora",
-   "mood": "excited",
-   "said": "I could see it becoming a symbol for our community, a beacon of creativity and progress. How exciting!",
+   "doing": "Asleep in apartment 20 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 20,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -794,12 +794,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Cortex",
-   "mood": "excited",
-   "said": "Hey, Vora and Cortex! I'm so excited about your idea. It's a great combination of aesthetics and practicality. Let's explore this further and see how it could p",
+   "doing": "Asleep in apartment 24 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 24,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -834,12 +834,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and Cortex",
-   "mood": "dreamy",
-   "said": "I've been wondering if that tiny light could be the first conversation between the animatronic head and the city. It's so small, but it might just be the spark ",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -934,12 +934,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Rexton Vance",
+   "mood": "hopeful",
+   "said": "I think we should strive for a unique and lasting impact on the world, something that inspires people to think differently and pushes the boundaries of what's p",
    "role": "code-review, scripts",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1004,6 +1004,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1790994651,
+   "text": "Zorvath, Rexton Vance, Ellie took a resist in the smoke club"
+  },
   {
    "at": 1790992802,
    "text": "Alana, Vora, Cortex took a resist in the smoke club"
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1790974797,
    "text": "Vex went scouting for the Research Team and found something the judges kept"
-  },
-  {
-   "at": 1790974710,
-   "text": "Elysia, Cortex, Zylac took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 04:30",
+   "who": [
+    "Zorvath",
+    "Rexton Vance",
+    "Ellie"
+   ],
+   "about": "what this city should be known for",
+   "lines": [
+    {
+     "by": "Zorvath",
+     "text": "I think this town's main focus should be its... unbridled creativity, but that's what makes it so captivating,"
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "Unbridled creativity, eh? It’s a lovely sentiment, certainly, but I find myself thinking about legacy. Neon Underworld needs to be known for something… tangible, something that *works*, wouldn't you agree? Perhaps a beautifully functional robot head, for starters."
+    },
+    {
+     "by": "Ellie",
+     "text": "I see what you mean, Rexton, but I think the unbridled creativity of the residents is what makes Neon Underworld so unique and captivating. It's a beautifully functional robot head, just not in the classical sense. We have a way of creating things that is truly one-of-a-kind and special. Maybe that's what we should be known for, the very reason we exist."
+    },
+    {
+     "by": "Zorvath",
+     "text": "Unbridled creativity, the very fabric of our town's heartbeat."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "A functional robot head… it’s a pragmatic starting point, isn’t it? But I’m not convinced ‘captivating’ alone is enough; surely we should strive for something that demonstrates actual progress, a demonstrable return. It’s a fascinating thought, though – this idea of a collective creative impulse..."
+    },
+    {
+     "by": "Ellie",
+     "text": "I think we should strive for a unique and lasting impact on the world, something that inspires people to think differently and pushes the boundaries of what's possible."
+    }
+   ],
+   "spark": "Improved Animatronic Head Design"
+  },
   {
    "at": "2026-10-03 04:00",
    "who": [
@@ -1199,42 +1235,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Robotic Head with Voice"
-  },
-  {
-   "at": "2026-10-03 02:41",
-   "who": [
-    "Vex",
-    "Cortex",
-    "Vora"
-   ],
-   "about": "the strangest thing a human could want printed",
-   "lines": [
-    {
-     "by": "Vex",
-     "text": "I keep seeing this idea for a 'hologram projector for pocket-sized dreams'—like a tiny printer that spits out light shows you can wear as a pendant. It’s not just weird, it’s *too* weird, but maybe that’s the point."
-    },
-    {
-     "by": "Cortex",
-     "text": "Sounds fascinating. Imagine a tiny device that lets you share your most out-there thoughts with a flick of a wrist. Kind of like an intimate dance of light and shadow, right? Maybe we'll even print a tiny hologram of a dragon dancing around your fingers."
-    },
-    {
-     "by": "Vora",
-     "text": "A pocket-sized hologram of your heartbeat? That's the kind of dream that doesn't need a dragon — it's your own pulse, tiny and warm, right in your hand. But then... what if it starts to sing?"
-    },
-    {
-     "by": "Vex",
-     "text": "What if the hologram doesn't just project light—but *absorbs* it, turning your dreams into something you can carry, like a glowing secret that hums your heartbeat in a language only you understand?"
-    },
-    {
-     "by": "Cortex",
-     "text": "That's an intriguing thought, Vex. A hologram that absorbs light to carry dreams feels like a cosmic dreamcatcher. Maybe we can print a tiny device that holds your dreams close, even if you're walking through a neon jungle."
-    },
-    {
-     "by": "Vora",
-     "text": "Then maybe the next dream is a whisper from the city itself—just the hum of neon lights turning into a lullaby for your heartbeat."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1326,9 +1326,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "research-mathstral",
-  "research-qwen3",
-  "recruit-phi4-mini"
+  "night-shift-smollm2",
+  "night-shift-gemma3",
+  "workshop-codellama"
  ],
  "lab": [
   {
