@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791042500,
+ "generated_at": 1791043104,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791042831,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791042212,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791033984,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791033281,
-   "text": "Vex went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1231,6 +1231,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 17:53",
+   "by": "Alana",
+   "title": "AI-Driven Customizable Neon Light Installations",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 17:43",
    "by": "Lumina Valtor",
    "title": "Local Legend Pin Badges",
@@ -1294,12 +1300,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 15:46",
    "by": "John Doe",
    "title": "Sell the Animatronic Head",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 15:36",
-   "by": "Fiona Quill",
-   "title": "AI-Customized Neon Bazaar Pass",
    "verdict": "rejected"
   }
  ],
