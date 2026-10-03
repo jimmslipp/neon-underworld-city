@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791036268,
+ "generated_at": 1791036870,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791036723,
+   "text": "Vex (grow the stake) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791036294,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791036253,
    "text": "Nebula, Eva, Zylac took a resist in the smoke club"
   },
@@ -1075,14 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791027264,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791026572,
-   "text": "Zora Xu, Lumina Valtor, Cortex took a resist in the smoke club"
-  },
-  {
-   "at": 1791026471,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 16:04",
+   "by": "Nebula",
+   "title": "3D-Printed Neon Hair Combs",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 15:46",
    "by": "John Doe",
    "title": "Sell the Animatronic Head",
@@ -1303,12 +1309,6 @@ window.SNAPSHOT = {
    "by": "Vora",
    "title": "AI-Generated Bilingual Drink Holders for Costa del Sol Bars",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 13:44",
-   "by": "Vex",
-   "title": "AI-Designed 3D Bar Tokens",
-   "verdict": "kept"
   }
  ],
  "proclamations": [
@@ -1412,6 +1412,13 @@ window.SNAPSHOT = {
    "title": "The Memory Labyrinth: A Dreamwalk of Light and Starlit Stories",
    "stage": "evidence",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "USB-C to HDMI Adapter Flip",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   }
