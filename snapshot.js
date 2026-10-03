@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791019232,
+ "generated_at": 1791019875,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791019860,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791019217,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791010411,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791009791,
-   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1238,6 +1238,12 @@ window.SNAPSHOT = {
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 11:30",
+   "by": "Nebula",
+   "title": "Customizable 3D Printed Decorations",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-03 11:20",
    "by": "John Doe",
