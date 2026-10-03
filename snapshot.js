@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791000277,
+ "generated_at": 1791000883,
  "paused": false,
  "citizens": [
   {
@@ -1325,8 +1325,8 @@ window.SNAPSHOT = {
  "lab": [
   {
    "title": "City's First Living Heartbeat",
-   "stage": "pitch",
-   "status": "alive",
+   "stage": "evidence",
+   "status": "killed",
    "yes": 0,
    "no": 0
   },
