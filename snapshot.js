@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791047525,
+ "generated_at": 1791048134,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791047573,
+   "text": "Lumina Valtor went scouting for the Research Team and found something the judges kept"
+  },
+  {
    "at": 1791047509,
    "text": "Glow, Aurum, Lumina Valtor took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791038315,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791038109,
-   "text": "Alana, Ellie, Fiona Quill took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 19:12",
+   "by": "Lumina Valtor",
+   "title": "Print Files for Custom 3D-Printed Tap Handles",
+   "verdict": "kept"
+  },
+  {
    "at": "2026-10-03 19:02",
    "by": "Nebula",
    "title": "Custom 3D-Printed Art for Bars and Home Decor",
@@ -1292,12 +1298,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 17:11",
    "by": "Fiona Quill",
    "title": "Custom Neon Bar Sign Kit",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 17:00",
-   "by": "Vora",
-   "title": "Custom Coastal Event Stakes",
    "verdict": "rejected"
   }
  ],
