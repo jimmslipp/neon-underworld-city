@@ -1,5 +1,5 @@
 {
- "generated_at": 1791055959,
+ "generated_at": 1791056579,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791056563,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791055944,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1791046951,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791046315,
-   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-03 21:42",
+   "by": "Fiona Quill",
+   "title": "AI Neon Concept Art Service",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 21:19",
    "by": "Vex",
    "title": "Custom 3D-Printed Bar Mats with AI-Generated Designs",
@@ -1290,12 +1296,6 @@
    "at": "2026-10-03 19:33",
    "by": "Eva",
    "title": "Personalized 3D-Printed Bar Countertop Display with AI-Generated Desig",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 19:23",
-   "by": "Alana",
-   "title": "Selling 3D-printed files as digital downloads",
    "verdict": "rejected"
   }
  ],
