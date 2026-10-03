@@ -1,5 +1,5 @@
 {
- "generated_at": 1791063164,
+ "generated_at": 1791063784,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791063768,
+   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791063148,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1791054539,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791053758,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1238,6 +1238,12 @@
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-03 23:42",
+   "by": "Lumina Valtor",
+   "title": "3D-Printed Tap Handle Fittings",
+   "verdict": "rejected"
+  },
   {
    "at": "2026-10-03 23:32",
    "by": "Nebula",
