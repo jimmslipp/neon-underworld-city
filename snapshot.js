@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791034034,
+ "generated_at": 1791034638,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791034608,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791034019,
    "text": "Luna, Lila, Luminara took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791025222,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791024710,
-   "text": "Fiona Quill, John Doe, NeonNova took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1235,6 +1235,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-03 15:36",
+   "by": "Fiona Quill",
+   "title": "AI-Customized Neon Bazaar Pass",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-03 15:24",
    "by": "Vora",
    "title": "Bilingual Costa del Sol Event Calendar (3D Printed)",
@@ -1298,12 +1304,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 13:31",
    "by": "Eva",
    "title": "Glowing Neon Coasters with AI-Generated Designs",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 13:21",
-   "by": "Alana",
-   "title": "AI-Driven Customizable Neon Light Installations",
    "verdict": "rejected"
   }
  ],
