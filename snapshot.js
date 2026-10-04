@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791098920,
+ "generated_at": 1791099533,
  "paused": false,
  "citizens": [
   {
@@ -1025,6 +1025,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791099154,
+   "text": "Eva went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791098342,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
   },
@@ -1099,10 +1103,6 @@ window.SNAPSHOT = {
   {
    "at": 1791079415,
    "text": "Lumina Valtor, Lila, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1791077558,
-   "text": "Eva, Lumina Valtor, Lila took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1259,6 +1259,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-04 09:29",
+   "by": "Eva",
+   "title": "Custom AI-Generated 3D-Printed Bar and Restaurant Signs",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-04 09:18",
    "by": "Alana",
    "title": "AI-Generated Custom Neon Bar Signs",
@@ -1322,12 +1328,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 23:32",
    "by": "Nebula",
    "title": "Custom Neon Sign Art Service with AI Assistance",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 23:21",
-   "by": "John Doe",
-   "title": "Neon City Bar Code System (N CBS)",
    "verdict": "rejected"
   }
  ],
