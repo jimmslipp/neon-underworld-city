@@ -1,5 +1,5 @@
 {
- "generated_at": 1791098311,
+ "generated_at": 1791098920,
  "paused": false,
  "citizens": [
   {
@@ -1025,6 +1025,10 @@
  ],
  "feed": [
   {
+   "at": 1791098342,
+   "text": "Alana went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791098295,
    "text": "Fiona Quill, Aurum, Zora Xu took a resist in the smoke club"
   },
@@ -1099,10 +1103,6 @@
   {
    "at": 1791077558,
    "text": "Eva, Lumina Valtor, Lila took a resist in the smoke club"
-  },
-  {
-   "at": 1791075510,
-   "text": "Fiona Quill, Zorvath, Rexton Vance took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1259,6 +1259,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-04 09:18",
+   "by": "Alana",
+   "title": "AI-Generated Custom Neon Bar Signs",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-04 09:08",
    "by": "Lumina Valtor",
    "title": "3D-Printed Phone Holders",
@@ -1322,12 +1328,6 @@
    "at": "2026-10-03 23:21",
    "by": "John Doe",
    "title": "Neon City Bar Code System (N CBS)",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 23:11",
-   "by": "Fiona Quill",
-   "title": "Neon Sign Customization Service",
    "verdict": "rejected"
   }
  ],
