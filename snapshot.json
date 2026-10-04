@@ -1,5 +1,5 @@
 {
- "generated_at": 1791097043,
+ "generated_at": 1791097649,
  "paused": false,
  "citizens": [
   {
@@ -34,12 +34,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 1 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "product-images, mockups",
    "home": 1,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -194,12 +194,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -254,12 +254,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 5 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 5,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -354,12 +354,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Recruitment Office, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 6 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -494,12 +494,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "wistful",
+   "doing": "Asleep in apartment 11 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 11,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -514,12 +514,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
-   "mood": "wistful",
+   "doing": "Asleep in apartment 12 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "tags, short-text",
    "home": 12,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -654,12 +654,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Recruitment Office, waiting for the next job",
-   "mood": "intrigued",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -774,12 +774,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 23 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 23,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -794,12 +794,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 24 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "proposals, research",
    "home": 24,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -854,12 +854,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 27,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1025,6 +1025,10 @@
  ],
  "feed": [
   {
+   "at": 1791097087,
+   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791096452,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   },
@@ -1099,10 +1103,6 @@
   {
    "at": 1791071784,
    "text": "Glow, Eva, Zhilak took a resist in the smoke club"
-  },
-  {
-   "at": 1791069744,
-   "text": "Alana, Lumina Valtor, Fiona Quill took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1259,6 +1259,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-04 08:57",
+   "by": "Nebula",
+   "title": "3D-Printed Custom Bar Coasters with Neon Glow",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-04 08:47",
    "by": "John Doe",
    "title": "Why Sell a Small 3D Printer",
@@ -1322,12 +1328,6 @@
    "at": "2026-10-03 23:00",
    "by": "Vora",
    "title": "Costa del Sol Custom 3D-Printed Wine Bottle Holders",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 22:48",
-   "by": "Vex",
-   "title": "AI-Generated Custom Keychains",
    "verdict": "rejected"
   }
  ],
