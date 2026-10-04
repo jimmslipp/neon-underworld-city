@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791127090,
+ "generated_at": 1791127798,
  "paused": false,
  "citizens": [
   {
@@ -1105,6 +1105,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791127782,
+   "text": "Foundry (seeded by Alana; crew Alana, Fiona Quill, Forge, Glow) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791126703,
    "text": "Foundry (seeded by Lumina Valtor; crew Forge, Lumina Valtor, Mira, Vex) pitched an idea to the R&D Lab"
   },
@@ -1179,10 +1183,6 @@ window.SNAPSHOT = {
   {
    "at": 1791115871,
    "text": "Fiona Quill, Eva, Ellie took a resist in the smoke club"
-  },
-  {
-   "at": 1791115147,
-   "text": "The Docks team designed their home: Synapse Cache Tower (10 proposals, merged by Lyris)"
   }
  ],
  "products": [
@@ -1427,6 +1427,13 @@ window.SNAPSHOT = {
   "workshop-qwen-coder"
  ],
  "lab": [
+  {
+   "title": "3D-Printed E10 Compliance Nozzles for EU Producers",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
   {
    "title": "3D Printed Educational Wooden Toy Subscription",
    "stage": "pitch",
