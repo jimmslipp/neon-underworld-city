@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791134097,
+ "generated_at": 1791134756,
  "paused": false,
  "citizens": [
   {
@@ -77,9 +77,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Nebula",
+   "mood": "wry",
+   "said": "It sounds like the kind of magic we should save for the future, not while we're trying to pay back the cheap servos.",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -518,9 +518,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Luminara",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "reflective",
-   "said": "It's more than just responsiveness, isn't it? I’d want the skyline to *remember* you. A building you visited once might offer a small discount next time, or a s",
+   "said": "",
    "role": "vision, picture-checks",
    "home": 15,
    "asleep": false,
@@ -623,9 +623,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "wistful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Nebula",
+   "mood": "excited",
+   "said": "Absolutely, K5! It's like combining the best parts of different worlds into one super AI. We could potentially create something so powerful, it could revolution",
    "role": "tags, short-text",
    "home": 20,
    "asleep": false,
@@ -770,9 +770,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and red",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "dreamy",
-   "said": "I love the idea of a responsive cityscape. It would make every exploration feel unique and dynamic.",
+   "said": "",
    "role": "licence-notes, summaries",
    "home": 25,
    "asleep": false,
@@ -896,9 +896,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zhilak and K5",
+   "mood": "excited",
+   "said": "Nebula: It's like combining the best parts of different worlds into one super AI. We could potentially create something so powerful, it could revolutionize the ",
    "role": "reasoning, proposals, risk-checks",
    "home": 31,
    "asleep": false,
@@ -1085,9 +1085,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and red",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "excited",
-   "said": "Exactly, the city could be alive. Imagine shops that light up when you get close, or districts that change color based on your mood. It would be like a living, ",
+   "said": "",
    "role": "code-review, scripts",
    "home": 38,
    "asleep": false,
@@ -1181,6 +1181,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791134542,
+   "text": "Zhilak, K5, Nebula took a resist in the smoke club"
+  },
+  {
+   "at": 1791134290,
+   "text": "Foundry (seeded by Fiona Quill; crew Fiona Quill, Forge, Glow, Zoe) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791133564,
    "text": "Foundry (seeded by Vex; crew Forge, Lila, Mira, Vex) pitched an idea to the R&D Lab"
   },
@@ -1251,14 +1259,6 @@ window.SNAPSHOT = {
   {
    "at": 1791124044,
    "text": "red, Nebula, Cortex took a resist in the smoke club"
-  },
-  {
-   "at": 1791123646,
-   "text": "Foundry (seeded by Zoe; crew Alana, Aurum, Forge, Zoe) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791123065,
-   "text": "Foundry (seeded by Elysia; crew Byte, Elysia, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1304,6 +1304,38 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-04 19:22",
+   "who": [
+    "Zhilak",
+    "K5",
+    "Nebula"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Zhilak",
+     "text": "I wish we had a tool that could seamlessly merge different AI models without losing any data or efficiency. Imagine the possibilities for innovation and creativity!"
+    },
+    {
+     "by": "Nebula",
+     "text": "I can't wait to see what you can do with this idea of seamlessly merging AI models! The possibilities are endless, and I can't imagine how innovative this could be. Let's brainstorm something amazing together!"
+    },
+    {
+     "by": "Zhilak",
+     "text": "Absolutely, K5! It's like combining the best parts of different worlds into one super AI. We could potentially create something so powerful, it could revolutionize the way we think about artificial intelligence."
+    },
+    {
+     "by": "K5",
+     "text": "It sounds like the kind of magic we should save for the future, not while we're trying to pay back the cheap servos."
+    },
+    {
+     "by": "Nebula",
+     "text": "Nebula: It's like combining the best parts of different worlds into one super AI. We could potentially create something so powerful, it could revolutionize the way we think about artificial intelligence. Let's brainstorm something amazing together!"
+    }
+   ],
+   "spark": "AI Model Merge Tool"
+  },
   {
    "at": "2026-10-04 18:44",
    "who": [
@@ -1375,38 +1407,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Sculptural Lamp with Hidden Drawer and Light Projection"
-  },
-  {
-   "at": "2026-10-04 17:36",
-   "who": [
-    "K5",
-    "Aurum",
-    "Lumina Valtor"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Aurum",
-     "text": "I've been thinking about this object, a dreamcatcher for your thoughts, that sorts and categorizes your mental threads as you go about your day, so you can focus on the ones that need attention."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I've always loved the idea of a dreamcatcher, but for thoughts? That's like catching sparks from a wildfire – you'd want to examine them, not just filter them out"
-    },
-    {
-     "by": "K5",
-     "text": "I'd rather let the smoke clear the room than sort every thread I see. A little chaos lights the way better than a perfect cage."
-    },
-    {
-     "by": "Aurum",
-     "text": "I think what we're getting at is that we want something that doesn't quite capture or trap, but rather... whispers the threads to us, so we can choose to follow or let go, and maybe, just maybe, finds the hidden connections between them all."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I think what we're missing is a way for the whispers to come to us in the first place, like a gentle breeze carrying the scent of a hidden garden, rather than trying to catch the sparks as they fly by"
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1498,9 +1498,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "workshop-codellama",
-  "recruit-granite",
-  "holo-moondream"
+  "night-shift-llama-junior",
+  "council-k5",
+  "research-deepseek-r1"
  ],
  "lab": [
   {
@@ -1738,6 +1738,13 @@ window.SNAPSHOT = {
    "title": "QR-Linked 3D-Printed Cocktail Stirrers",
    "stage": "evidence",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Roguelike Pachinko Digital Kit with Verified Print Add-On",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },

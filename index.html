@@ -95,7 +95,7 @@ const BUILDINGS = {
   "resist":           { name: "RESIST",           x: -31, z: -16, kind: "lounge",  r: 4.5 },      // the smoke club: a giant resistor over a lounge
   "datasanctuary":    { name: "DataSanctuary",    x: 28, z: -3, board: "docks", kind: "harddrive", r: 3.7 },      // the apartment tower: a hard drive stood on end. Designed by Byte, Zhilak, Aurum and NeonNova, merged by Tick
   "payphone":         { name: "The Payphone",   x: 26, z: 18, board: "docks", kind: "resistor",  r: 3.2 },
-  "print-shop":       { name: "Print Shop",       x: -26, z: 9, board: "docks", kind: "chip",      r: 4.4 },
+  "print-shop":       { name: "Print Shop", note: "in testing",       x: -26, z: 9, board: "docks", kind: "chip",      r: 4.4 },
   "legal-office":     { name: "Legal",            x: 16, z: 0, kind: "chip",   r: 3.4 },      // NEW 4 Oct: the Legal department (idea from Jimm's OrionPath photo)
   "security-office":  { name: "Security",         x: 31, z: 0, kind: "dip",    r: 3.4 },      // NEW 4 Oct: the Security department
   "docks-resist":     { name: "CPU RESIST",     x: 16, z: 8, kind: "lounge", r: 4.5, board: "docks", power: true },      // the Docks' own smoke club, so their residents take a resist at home
@@ -393,7 +393,7 @@ function build(key) {
   boardOf(key).add(g);
   trace(key, broken ? 0x66283a : alive ? C.cyan : C.dim, alive);
   const label = document.createElement("div"); label.className = "label";
-  label.innerHTML = (homes ? homes.name : b.name) + (broken ? "<small>out of order</small>" : key === "debate-room" && IN_SESSION ? '<small style="color:#FFB020">in session</small>' : "");
+  label.innerHTML = (homes ? homes.name : b.name) + (broken ? "<small>out of order</small>" : b.note ? '<small style="color:#FFB020">' + b.note + "</small>" : key === "debate-room" && IN_SESSION ? '<small style="color:#FFB020">in session</small>' : "");
   label.dataset.d = DISTRICT(key); if (label.dataset.d !== SHOWING) label.style.visibility = "hidden"; document.body.appendChild(label); g.userData.label = label;
   g.userData.height = PAD + ({ capacitor: 7.6, tower: 11.6, gpu: 4.6, ram: 3.9, coil: 5.0, socket: 6.6, crystal: 4.6, lounge: 8.0, debate: 4.4, harddrive: 13.4 }[b.kind] || 3.0);
   if (DEPT_AT[key]) { const ins = insignia(DEPT[DEPT_AT[key]]); ins.position.set(0, g.userData.height + 1.6 - PAD, 0); top.add(ins); insignias.push(ins); g.userData.height += 3.0;
