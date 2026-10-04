@@ -1,5 +1,5 @@
 {
- "generated_at": 1791128408,
+ "generated_at": 1791129094,
  "paused": false,
  "citizens": [
   {
@@ -1105,6 +1105,10 @@
  ],
  "feed": [
   {
+   "at": 1791129078,
+   "text": "Foundry (seeded by Eva; crew Ellie, Eva, Forge, red) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791128196,
    "text": "K5, Aurum, Lumina Valtor took a resist in the smoke club"
   },
@@ -1179,10 +1183,6 @@
   {
    "at": 1791117778,
    "text": "Zorvath, Luminara, Zoe took a resist in the smoke club"
-  },
-  {
-   "at": 1791117323,
-   "text": "Foundry (seeded by Eva; crew Eva, Fiona Quill, Forge, Mira) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1409,16 +1409,16 @@
  ],
  "proclamations": [
   {
-   "at": "04 Oct 2026 15:47",
-   "text": "Can you give this to the team please, using ElevenLabs in the city to create us a voice pack. [Context added by Solder, 4 Oct: 'this' is Solder's speaking voice on the Bridge. Jimm wants a smooth, natural, human-sounding Australian voice fo"
-  },
-  {
    "at": "04 Oct 2026 16:46",
    "text": "The main one I want to suggest for the team to research is making ChatGPT plugins. That's something I myself saw and know will give us some traction. [Context added by Solder, 4 Oct: the original ChatGPT plugins were retired by OpenAI in 20"
   },
   {
    "at": "04 Oct 2026 16:58",
    "text": "Two things: I want to make Python bots that can day trade for me, and add them as a district in the town. I also want to turn old arcade games into AR reality apps for AR and VR headsets, so they can play arcade games like Mario but jumping"
+  },
+  {
+   "at": "04 Oct 2026 17:47",
+   "text": "We don't have to make Mario. Make arcade characters that have the same physics and gameplay as Mario, but so the AR character can react to furniture. We change mushrooms for stars, add some different enemies. All these ideas need to be spre"
   }
  ],
  "lounge": [
@@ -1427,6 +1427,13 @@
   "research-llama31"
  ],
  "lab": [
+  {
+   "title": "3D FlightLog Globe: Interactive Aviation History Tool",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
   {
    "title": "3D-Printed E10 Compliance Nozzles for EU Producers",
    "stage": "pitch",
