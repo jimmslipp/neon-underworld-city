@@ -96,6 +96,7 @@ const BUILDINGS = {
   "datasanctuary":    { name: "DataSanctuary",    x:  32, z: -7.6, kind: "harddrive", r: 3.7 },      // the apartment tower: a hard drive stood on end. Designed by Byte, Zhilak, Aurum and NeonNova, merged by Tick
   "payphone":         { name: "The Payphone",   x: -10, z:   6, kind: "resistor",  r: 3.2 },
   "print-shop":       { name: "Print Shop",       x:  30, z: -16, kind: "chip",      r: 4.4 },
+  "docks":            { name: "The Docks",        x: -19.5, z: -0.3, kind: "dip",    r: 3.6 },      // the small models' station (Jimm, 4 Oct); its own machine, arcade004, later
 };
 
 // ---------------------------------------------------------------- scene, light, glow
@@ -321,7 +322,11 @@ Promise.all([...new Set(scenery.map(s => s[0])), "rover", "craft_speederA"].map(
     });
   });
   if (kit.rover) movers.push({ m: prop(kit.rover, 1.5, 0, 0, 0, 0), kind: "rover", t: 0 });                 // a courier doing laps of the board
-  if (kit.craft_speederA) movers.push({ m: prop(kit.craft_speederA, 1.6, 0, 0, 0, 0), kind: "flyer", t: 0 });
+  if (kit.craft_speederA) {                                               // Solder's ship: Jimm's gift to the jefa, 3 Oct 2026, to lead the team from above
+    const tag = document.createElement("div"); tag.className = "label"; tag.innerHTML = 'Solder<small style="color:#2EE6FF">jefa</small>';
+    document.body.appendChild(tag);
+    movers.push({ m: prop(kit.craft_speederA, 1.6, 0, 0, 0, 0), kind: "flyer", t: 0, tag });
+  }
 });
 
 // ---------------------------------------------------------------- residents
@@ -523,6 +528,7 @@ function frame() {
     } else {
       o.m.position.set(Math.cos(o.t * 0.35) * 30, 13 + Math.sin(o.t * 0.9) * 1.2, Math.sin(o.t * 0.35) * 20); o.m.rotation.y = -o.t * 0.35;
     }
+    if (o.tag) place(o.tag, o.m.position.x, o.m.position.y + 1.6, o.m.position.z);
   });
   if (lit.tip) lit.tip.visible = Math.sin(now * 4) > -0.3;
   if (lit.fan && !stopped) lit.fan.rotation.y += dt * 6;
