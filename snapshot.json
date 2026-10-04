@@ -1,5 +1,5 @@
 {
- "generated_at": 1791117122,
+ "generated_at": 1791117516,
  "paused": false,
  "citizens": [
   {
@@ -1105,6 +1105,10 @@
  ],
  "feed": [
   {
+   "at": 1791117323,
+   "text": "Foundry (seeded by Eva; crew Eva, Fiona Quill, Forge, Mira) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791115871,
    "text": "Fiona Quill, Eva, Ellie took a resist in the smoke club"
   },
@@ -1179,10 +1183,6 @@
   {
    "at": 1791102003,
    "text": "Foundry (seeded by Zoe; crew Byte, Forge, Nebula, Zoe) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791100969,
-   "text": "Foundry (seeded by Lila; crew Byte, Forge, Lila, Zoe) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1547,6 +1547,13 @@
    "title": "Print files for arcade builders, on two sites",
    "stage": "evidence",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Print2Arcade: Verified 3D Printed Arcade Parts with Live Shop Streams",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
