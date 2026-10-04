@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791110794,
+ "generated_at": 1791110914,
  "paused": false,
  "citizens": [
   {
@@ -259,6 +259,26 @@ window.SNAPSHOT = {
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 7,
+   "asleep": false,
+   "waved": ""
+  },
+  {
+   "id": "gate-higgsfield",
+   "kind": "resident",
+   "name": "",
+   "personality": "",
+   "colour": "#9A8FC2",
+   "district": "downtown",
+   "building": "gate",
+   "tier": "free",
+   "cyberware": [],
+   "status": "waiting_at_gate",
+   "working_on": "",
+   "doing": "Waiting at the Gate to be let in",
+   "mood": "hopeful",
+   "said": "",
+   "role": "",
+   "home": 0,
    "asleep": false,
    "waved": ""
   },
@@ -1373,16 +1393,16 @@ window.SNAPSHOT = {
  ],
  "proclamations": [
   {
-   "at": "03 Oct 2026 03:11",
-   "text": "If there is no need, don't wake them. They spent the day claiming night shift and the night shift was offline: that is dead weight. As my lieutenant, Solder will ask them tomorrow to provide a schedule they'll all work to, and I'll check th"
-  },
-  {
    "at": "03 Oct 2026 03:37",
    "text": "Change law 8. I'm not saying forex is the answer, but we can't hide behind the votes. You can't half arse an idea you know will get voted, to prove your weight. This is not a playground: the aim is to make money. I promote Solder to jefa. S"
   },
   {
    "at": "03 Oct 2026 03:40",
    "text": "Sorry, the aim is to make well-decided money, not AI slop. I'm happy to make a cent, but only with a good idea, not spamming model or design sites. The Town Hall voting is to find the best idea and push for better ideas. I thought the robot"
+  },
+  {
+   "at": "04 Oct 2026 12:48",
+   "text": "Can we give Higgsfield AI to the research team, and see if we can make money with it. And the research team should look into social media and its benefit to the robot fund. I build a lot of arcade equipment: if they can build and edit the s"
   }
  ],
  "lounge": [
