@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791139349,
+ "generated_at": 1791139784,
  "paused": false,
  "citizens": [
   {
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 22,
@@ -685,7 +685,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Fiona Quill",
    "mood": "excited",
    "said": "I love that idea, Fiona. Imagine an AR app that lets people design their own functional yet aesthetically pleasing gadgets. We could blend practical needs with ",
@@ -832,9 +832,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 28,
@@ -853,9 +853,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "imaginative",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 29,
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "relax",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 30,
@@ -1181,6 +1181,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791139594,
+   "text": "Foundry (seeded by red; crew Forge, Lumina Valtor, Zora Xu, red) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791139081,
    "text": "Jimm pitched an idea to the R&D Lab"
   },
@@ -1255,10 +1259,6 @@ window.SNAPSHOT = {
   {
    "at": 1791128196,
    "text": "K5, Aurum, Lumina Valtor took a resist in the smoke club"
-  },
-  {
-   "at": 1791127782,
-   "text": "Foundry (seeded by Alana; crew Alana, Fiona Quill, Forge, Glow) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1485,16 +1485,16 @@ window.SNAPSHOT = {
  ],
  "proclamations": [
   {
-   "at": "04 Oct 2026 17:57",
-   "text": "I want us as a team set out like a company for this team: everyone has a speciality and everyone has an area to handle as part of the team. Add a social content team to help a few of the R&D ideas along please, and assign the best suited fo"
-  },
-  {
    "at": "04 Oct 2026 18:31",
    "text": "There is a Claude plugin I gave Solder that should allow switching between models with the same memory. That's just something for research. We can recruit AI if needed also. [Context added by Solder, 4 Oct: Research & Development to look in"
   },
   {
    "at": "04 Oct 2026 20:05",
    "text": "Each AI should have their full daily allowance allocated to that day and work for that day, anything in that list in the R&D area. I need a button there to push this idea past voting, and then we have a final vote at the end once we produce"
+  },
+  {
+   "at": "04 Oct 2026 20:42",
+   "text": "Bridge on my phone: normal layout for phone, PC is Star Trek. The Bridge should be our own AI, as powerful as a paid model, free: we are a swarm team, ultra powerful together, and everything makes our own AI stronger. Ideas and processes th"
   }
  ],
  "lounge": [
@@ -1640,6 +1640,13 @@ window.SNAPSHOT = {
    "title": "Cutting files as digital downloads",
    "stage": "red-team",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Hyperlocal Print & AI Content Subscription",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
