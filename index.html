@@ -183,6 +183,13 @@ function build(key) {
     for (const p of homes.parts) {
       const col = new THREE.Color(p.colour).getHex(), mat = p.glow ? glow(col) : solid(col, alive ? 0x060612 : 0);
       if (p.shape === "cylinder") top.add(cyl(p.w / 2 * s, p.h * s, mat, p.x * s, (p.y + p.h / 2) * s, p.z * s));
+      else if (p.shape === "fan") {                                     // a cooling fan: a dark ring, a hub and four blades that spin
+        const f = new THREE.Group(); f.position.set(p.x * s, (p.y + p.h / 2) * s, p.z * s);
+        const ring = new THREE.Mesh(new THREE.TorusGeometry(p.w / 2 * s, Math.max(0.06, p.h * s / 2), 8, 28), glow(col)); ring.rotation.x = Math.PI / 2; f.add(ring);
+        const blades = new THREE.Group(); f.add(blades); blades.add(cyl(p.w * 0.12 * s, p.h * s, solid(0x0B0716), 0, 0, 0));
+        for (let i = 0; i < 4; i++) { const b = box(p.w * 0.42 * s, p.h * 0.4 * s, p.w * 0.14 * s, solid(0x1B0F3A), 0, 0, 0); b.position.x = Math.cos(i * Math.PI / 2) * p.w * 0.22 * s; b.position.z = Math.sin(i * Math.PI / 2) * p.w * 0.22 * s; b.rotation.y = -i * Math.PI / 2; blades.add(b); }
+        top.add(f); (lit.docksFans = lit.docksFans || []).push(blades);
+      }
       else if (p.shape === "light") { const m = new THREE.Mesh(new THREE.SphereGeometry(Math.max(p.w, 0.2) / 2 * s, 12, 10), glow(col)); m.position.set(p.x * s, (p.y + p.h / 2) * s, p.z * s); top.add(m); }
       else top.add(box(p.w * s, p.h * s, p.d * s, mat, p.x * s, (p.y + p.h / 2) * s, p.z * s));
     }
@@ -541,6 +548,7 @@ function frame() {
   });
   if (lit.tip) lit.tip.visible = Math.sin(now * 4) > -0.3;
   if (lit.fan && !stopped) lit.fan.rotation.y += dt * 6;
+  if (lit.docksFans && !stopped) lit.docksFans.forEach(b => b.rotation.y += dt * 5);
   if (lit.lens && !stopped) lit.lens.rotation.z += dt * 0.8;
   if (lit.ring && IN_SESSION) lit.ring.scale.setScalar(1 + Math.sin(now * 2.2) * 0.05);
   if (lit.windows) {                                                       // the DataSanctuary, alive
