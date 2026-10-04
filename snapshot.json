@@ -1,5 +1,5 @@
 {
- "generated_at": 1791100542,
+ "generated_at": 1791101003,
  "paused": false,
  "citizens": [
   {
@@ -34,12 +34,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 1 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "product-images, mockups",
    "home": 1,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -194,12 +194,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 3 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 3,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -234,12 +234,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 4 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, critic, planning",
    "home": 4,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -254,12 +254,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 5 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 5,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -374,12 +374,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -434,12 +434,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "doing": "Asleep in apartment 8 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "vision, document-reading",
    "home": 8,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -494,12 +494,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "doing": "Asleep in apartment 11 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, listing-text",
    "home": 11,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -514,12 +514,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 12 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 12,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -534,12 +534,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 13 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "tags, short-text",
    "home": 13,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -554,12 +554,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "thoughtful",
+   "doing": "Asleep in apartment 14 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 14,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -614,12 +614,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, descriptions",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -674,12 +674,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "intrigued",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -694,12 +694,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "intrigued",
+   "doing": "Asleep in apartment 19 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 19,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -754,12 +754,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "relaxed",
+   "doing": "Asleep in apartment 22 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 22,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -814,12 +814,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "proposals, research",
    "home": 25,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -894,12 +894,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -974,12 +974,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "curious",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-review, scripts",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -1054,16 +1054,20 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 35 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 35,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   }
  ],
  "feed": [
+  {
+   "at": 1791100969,
+   "text": "Foundry (seeded by Lila; crew Byte, Forge, Lila, Zoe) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791100403,
    "text": "Lumi, Zorvath, Nebula took a resist in the smoke club"
@@ -1139,10 +1143,6 @@
   {
    "at": 1791087017,
    "text": "Elysia, Luminara, Lumina Valtor took a resist in the smoke club"
-  },
-  {
-   "at": 1791085159,
-   "text": "Eva, Rexton Vance, Alana took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1391,6 +1391,13 @@
   "research-deepseek-r1"
  ],
  "lab": [
+  {
+   "title": "App & Accessory Overhaul (Revised)",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
   {
    "title": "City's First Living Heartbeat",
    "stage": "evidence",
