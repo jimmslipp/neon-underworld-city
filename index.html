@@ -78,26 +78,24 @@ const PAD = 0.7;                                     // every building stands on
 
 // Buildings are electronic components. x, z = place on the board; kind = what it is drawn as; r = size of its pad.
 const BUILDINGS = {
-  "workshop":         { name: "The Workshop",     x:   0, z:   0, kind: "cpu",       r: 8.6 },
-  "night-shift":      { name: "Night Shift",      x: -18, z:  12, kind: "ram",       r: 7.2 },
+  "workshop":         { name: "Engineering Workshop",     x:   0, z:   0, kind: "cpu",       r: 8.6 },
+  "night-shift":      { name: "Listings & Sales",      x: -18, z:  12, kind: "ram",       r: 7.2 },
   "holo-studio":      { name: "Holo Studio",      x:  18, z:  12, kind: "gpu",       r: 7.4 },
   "fabricator":       { name: "The Fabricator",   x:  19, z: -11, kind: "coil",      r: 5.4 },
-  "town-hall":        { name: "Town Hall",        x:  -7, z: -14, kind: "capacitor", r: 4.6 },
+  "town-hall":        { name: "HQ · Leadership",        x:  -7, z: -14, kind: "capacitor", r: 4.6 },
   "gate":             { name: "The Gate",         x: -31, z:   0, kind: "usb",       r: 5.2 },
   "bazaar":           { name: "The Bazaar",       x:   0, z:  18, kind: "header",    r: 6.4 },
   "hangar":           { name: "The Hangar",       x: -20, z: -12, kind: "socket",    r: 7.0 },
-  "blueprint-office": { name: "Blueprint Office", x:   8, z: -16, kind: "chip",      r: 4.4 },
+  "blueprint-office": { name: "Strategy & Pricing", x:   8, z: -16, kind: "chip",      r: 4.4 },
   "render-studio":    { name: "Render Studio",    x:  30, z:   1, kind: "chip",      r: 4.4 },
-  "radio-tower":      { name: "Radio Tower",      x: -30, z:  19, kind: "tower",     r: 4.0 },
-  "recruitment-office": { name: "Recruitment Office", x: -31, z: 9.5, kind: "dip",      r: 4.4 },      // next to the Gate
-  "research-team":    { name: "Research Team",    x:  31, z:  18, kind: "crystal",   r: 4.6 },
+  "radio-tower":      { name: "Social Content",      x: -30, z:  19, kind: "tower",     r: 4.0 },
+  "recruitment-office": { name: "Recruitment & Compliance", x: -31, z: 9.5, kind: "dip",      r: 4.4 },      // next to the Gate
+  "research-team":    { name: "R&D Lab",    x:  31, z:  18, kind: "crystal",   r: 4.6 },
   "debate-room":      { name: "Debate Room",      x:  31, z: 9.2, kind: "debate",    r: 3.7 },      // the R&D Lab's round table, beside the Research Team
   "resist":           { name: "RESIST",           x: -33, z: -14.6, kind: "lounge",  r: 4.5 },      // the smoke club: a giant resistor over a lounge
   "datasanctuary":    { name: "DataSanctuary",    x:  32, z: -7.6, kind: "harddrive", r: 3.7 },      // the apartment tower: a hard drive stood on end. Designed by Byte, Zhilak, Aurum and NeonNova, merged by Tick
   "payphone":         { name: "The Payphone",   x: -10, z:   6, kind: "resistor",  r: 3.2 },
   "print-shop":       { name: "Print Shop",       x:  30, z: -16, kind: "chip",      r: 4.4 },
-  "strategy-office":  { name: "Strategy & Pricing", x: -18, z: -0.5, kind: "chip", r: 3.4 },      // a department of the company (law/COMPANY.md, 4 Oct)
-  "social-studio":    { name: "Social Content",   x: 17, z: -0.5, kind: "chip",   r: 3.4 },      // the new Social Content team, 4 Oct
   "docks-resist":     { name: "Docks RESIST",     x: 14, z: 7.5, kind: "lounge", r: 4.5, board: "docks" },      // the Docks' own smoke club, so their residents take a resist at home
   "training-yard":    { name: "Training Yard",    x: 0, z: -6.2, kind: "chip",   r: 3.4, board: "alley" },      // Neon Alley: where the city's own model will train on the Foundry's records one day
   "docks":            { name: "The Docks",        x: 0, z: 0, kind: "dip",    r: 6.5, board: "docks" },      // the small models' station (Jimm, 4 Oct); its own board under "The Docks" button since 4 Oct, powered; its own machine, arcade004, later
@@ -226,12 +224,12 @@ function along(path, u) {                                                 // u: 
 const DEPT = {
   "Leadership":               { at: "town-hall",          colour: 0xFFD24A, shape: "crown",  glyph: "♛" },
   "Research & Development":   { at: "research-team",      colour: 0x2EE6FF, shape: "atom",   glyph: "⚛" },
-  "Strategy & Pricing":       { at: "strategy-office",    colour: 0x4CFF9A, shape: "gem",    glyph: "◆" },
+  "Strategy & Pricing":       { at: "blueprint-office",    colour: 0x4CFF9A, shape: "gem",    glyph: "◆" },
   "Engineering Workshop":     { at: "workshop",           colour: 0xFFB020, shape: "gear",   glyph: "⚙" },
   "Listings & Sales":         { at: "night-shift",        colour: 0xFF3DCB, shape: "coin",   glyph: "€" },
   "Recruitment & Compliance": { at: "recruitment-office", colour: 0xB06CFF, shape: "star",   glyph: "★" },
   "Holo Studio":              { at: "holo-studio",        colour: 0x7AA2FF, shape: "eye",    glyph: "◉" },
-  "Social Content":           { at: "social-studio",      colour: 0xFF7A59, shape: "bubble", glyph: "✦" },
+  "Social Content":           { at: "radio-tower",      colour: 0xFF7A59, shape: "bubble", glyph: "✦" },
 };
 const DEPT_AT = Object.fromEntries(Object.entries(DEPT).map(([t, d]) => [d.at, t]));
 const placeOf = c => DISTRICT(c.building) === "downtown" && DEPT[c.team] ? DEPT[c.team].at : c.building;     // Downtown residents work from their department; the Docks keep theirs
@@ -498,6 +496,7 @@ function addResident(c, i, robot) {
   // something to tap: an unseen box around the resident, so a finger does not have to hit a thin arm
   const hit = new THREE.Mesh(new THREE.CylinderGeometry(1.25, 1.25, 4.4, 10), new THREE.MeshBasicMaterial({ transparent: true, opacity: 0, depthWrite: false }));
   hit.position.y = 2.2; hit.userData.walker = w; g.add(hit); clickable.push(hit);
+  if (w.roam) { const dk = DISTRICT(c.building) === "docks"; g.position.set((Math.random() * 2 - 1) * (dk ? 19 : 33), 0, (Math.random() * 2 - 1) * (dk ? 12 : 20)); }   // roamers start spread out
   walkers.push(w); return w;
 }
 const MOOD = { asleep: "😴", relaxed: "😌", calm: "🙂", focused: "🎯", "fired up": "🔥", hopeful: "🤞", sleepy: "😴", ashamed: "😳", broken: "🛠", busy: "⚙️", dreamy: "💭", happy: "😊", curious: "🧐", excited: "✨", mellow: "😌", inspired: "💡" };
