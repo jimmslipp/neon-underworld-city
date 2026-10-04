@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791103223,
+ "generated_at": 1791103889,
  "paused": false,
  "citizens": [
   {
@@ -1065,6 +1065,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791103873,
+   "text": "Foundry (seeded by Byte; crew Alana, Byte, Forge, Nebula) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791103017,
    "text": "Foundry (seeded by Zora Xu; crew Aurum, Forge, Lumina Valtor, Zora Xu) pitched an idea to the R&D Lab"
   },
@@ -1139,10 +1143,6 @@ window.SNAPSHOT = {
   {
    "at": 1791093778,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791092703,
-   "text": "NeonNova, Ellie, Byte took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1479,6 +1479,13 @@ window.SNAPSHOT = {
    "title": "QR-Linked 3D-Printed Cocktail Stirrers",
    "stage": "evidence",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "SecureMac Data Access Service",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
