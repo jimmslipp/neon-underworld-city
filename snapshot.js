@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791105475,
+ "generated_at": 1791106104,
  "paused": false,
  "citizens": [
   {
@@ -1065,6 +1065,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791106088,
+   "text": "Foundry (seeded by Lumina Valtor; crew Eva, Fiona Quill, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791105459,
    "text": "Foundry (seeded by Nebula; crew Alana, Forge, Nebula, Vex) pitched an idea to the R&D Lab"
   },
@@ -1139,10 +1143,6 @@ window.SNAPSHOT = {
   {
    "at": 1791095154,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791094554,
-   "text": "John Doe, Rexton Vance, Elysia took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1403,6 +1403,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "Custom 3D-Printed Sustainable Advent Doors",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Custom Bioprinting Models with Pre-Validated Thermoset Profiles",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
