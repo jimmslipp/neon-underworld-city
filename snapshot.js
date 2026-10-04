@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791129094,
+ "generated_at": 1791129706,
  "paused": false,
  "citizens": [
   {
@@ -154,12 +154,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 4 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -334,12 +334,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 11 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "decisions, critic, voter",
    "home": 11,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -494,12 +494,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 15 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "vision, picture-checks",
    "home": 15,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -514,12 +514,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "contemplative",
+   "doing": "Asleep in apartment 16 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, translation",
    "home": 16,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -774,12 +774,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "doing": "Asleep in apartment 27 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 27,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -814,12 +814,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "relax",
+   "doing": "Asleep in apartment 29 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "quick-checks, maths",
    "home": 29,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -874,12 +874,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "enthused",
+   "doing": "Asleep in apartment 32 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 32,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -894,12 +894,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreaming",
+   "doing": "Asleep in apartment 33 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 33,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -954,12 +954,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "doing": "Asleep in apartment 36 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, proposals",
    "home": 36,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -1034,12 +1034,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1054,12 +1054,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 39 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "creative",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 39,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1074,12 +1074,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 40 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 40,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1409,16 +1409,16 @@ window.SNAPSHOT = {
  ],
  "proclamations": [
   {
-   "at": "04 Oct 2026 16:46",
-   "text": "The main one I want to suggest for the team to research is making ChatGPT plugins. That's something I myself saw and know will give us some traction. [Context added by Solder, 4 Oct: the original ChatGPT plugins were retired by OpenAI in 20"
-  },
-  {
    "at": "04 Oct 2026 16:58",
    "text": "Two things: I want to make Python bots that can day trade for me, and add them as a district in the town. I also want to turn old arcade games into AR reality apps for AR and VR headsets, so they can play arcade games like Mario but jumping"
   },
   {
    "at": "04 Oct 2026 17:47",
    "text": "We don't have to make Mario. Make arcade characters that have the same physics and gameplay as Mario, but so the AR character can react to furniture. We change mushrooms for stars, add some different enemies. All these ideas need to be spre"
+  },
+  {
+   "at": "04 Oct 2026 17:57",
+   "text": "I want us as a team set out like a company for this team: everyone has a speciality and everyone has an area to handle as part of the team. Add a social content team to help a few of the R&D ideas along please, and assign the best suited fo"
   }
  ],
  "lounge": [

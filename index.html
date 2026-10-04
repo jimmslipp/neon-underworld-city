@@ -96,6 +96,8 @@ const BUILDINGS = {
   "datasanctuary":    { name: "DataSanctuary",    x:  32, z: -7.6, kind: "harddrive", r: 3.7 },      // the apartment tower: a hard drive stood on end. Designed by Byte, Zhilak, Aurum and NeonNova, merged by Tick
   "payphone":         { name: "The Payphone",   x: -10, z:   6, kind: "resistor",  r: 3.2 },
   "print-shop":       { name: "Print Shop",       x:  30, z: -16, kind: "chip",      r: 4.4 },
+  "strategy-office":  { name: "Strategy & Pricing", x: -18, z: -0.5, kind: "chip", r: 3.4 },      // a department of the company (law/COMPANY.md, 4 Oct)
+  "social-studio":    { name: "Social Content",   x: 17, z: -0.5, kind: "chip",   r: 3.4 },      // the new Social Content team, 4 Oct
   "docks-resist":     { name: "Docks RESIST",     x: 14, z: 7.5, kind: "lounge", r: 4.5, board: "docks" },      // the Docks' own smoke club, so their residents take a resist at home
   "training-yard":    { name: "Training Yard",    x: 0, z: -6.2, kind: "chip",   r: 3.4, board: "alley" },      // Neon Alley: where the city's own model will train on the Foundry's records one day
   "docks":            { name: "The Docks",        x: 0, z: 0, kind: "dip",    r: 6.5, board: "docks" },      // the small models' station (Jimm, 4 Oct); its own board under "The Docks" button since 4 Oct, powered; its own machine, arcade004, later
@@ -220,13 +222,39 @@ function along(path, u) {                                                 // u: 
 }
 
 // ---------------------------------------------------------------- the components
+// ---------------------------------------------------------------- the company (law/COMPANY.md, Jimm 4 Oct): each department has a building and an insignia
+const DEPT = {
+  "Leadership":               { at: "town-hall",          colour: 0xFFD24A, shape: "crown",  glyph: "♛" },
+  "Research & Development":   { at: "research-team",      colour: 0x2EE6FF, shape: "atom",   glyph: "⚛" },
+  "Strategy & Pricing":       { at: "strategy-office",    colour: 0x4CFF9A, shape: "gem",    glyph: "◆" },
+  "Engineering Workshop":     { at: "workshop",           colour: 0xFFB020, shape: "gear",   glyph: "⚙" },
+  "Listings & Sales":         { at: "night-shift",        colour: 0xFF3DCB, shape: "coin",   glyph: "€" },
+  "Recruitment & Compliance": { at: "recruitment-office", colour: 0xB06CFF, shape: "star",   glyph: "★" },
+  "Holo Studio":              { at: "holo-studio",        colour: 0x7AA2FF, shape: "eye",    glyph: "◉" },
+  "Social Content":           { at: "social-studio",      colour: 0xFF7A59, shape: "bubble", glyph: "✦" },
+};
+const DEPT_AT = Object.fromEntries(Object.entries(DEPT).map(([t, d]) => [d.at, t]));
+const placeOf = c => DISTRICT(c.building) === "downtown" && DEPT[c.team] ? DEPT[c.team].at : c.building;     // Downtown residents work from their department; the Docks keep theirs
+function insignia(d) {                                                    // a small glowing emblem that turns slowly above the department
+  const g = new THREE.Group(), m = glow(d.colour);
+  if (d.shape === "crown") { g.add(cyl(0.7, 0.35, m, 0, 0, 0)); for (let k = 0; k < 5; k++) { const p = new THREE.Mesh(new THREE.ConeGeometry(0.16, 0.5, 6), m); p.position.set(Math.cos(k * 1.257) * 0.6, 0.4, Math.sin(k * 1.257) * 0.6); g.add(p); } }
+  else if (d.shape === "atom") { for (let k = 0; k < 3; k++) { const t = new THREE.Mesh(new THREE.TorusGeometry(0.8, 0.06, 8, 32), m); t.rotation.set(Math.PI / 2, k * 1.05, 0); t.rotation.x += k * 0.6; g.add(t); } g.add(new THREE.Mesh(new THREE.SphereGeometry(0.22, 12, 10), m)); }
+  else if (d.shape === "gem") g.add(new THREE.Mesh(new THREE.OctahedronGeometry(0.75), m));
+  else if (d.shape === "gear") { const t = new THREE.Mesh(new THREE.TorusGeometry(0.55, 0.18, 8, 24), m); g.add(t); for (let k = 0; k < 8; k++) { const b = box(0.26, 0.26, 0.3, m, Math.cos(k * 0.785) * 0.8, Math.sin(k * 0.785) * 0.8, 0); b.rotation.z = k * 0.785; g.add(b); } }
+  else if (d.shape === "coin") { const c = cyl(0.7, 0.14, m, 0, 0, 0, 28); c.rotation.x = Math.PI / 2; g.add(c); }
+  else if (d.shape === "star") g.add(new THREE.Mesh(new THREE.IcosahedronGeometry(0.7), m));
+  else if (d.shape === "eye") { const t = new THREE.Mesh(new THREE.TorusGeometry(0.7, 0.08, 8, 32), m); g.add(t); g.add(new THREE.Mesh(new THREE.SphereGeometry(0.32, 14, 12), m)); }
+  else { g.add(new THREE.Mesh(new THREE.SphereGeometry(0.6, 16, 12), m)); const tail = new THREE.Mesh(new THREE.ConeGeometry(0.22, 0.5, 8), m); tail.position.set(-0.35, -0.6, 0); tail.rotation.z = 0.6; g.add(tail); }
+  return g;
+}
+const insignias = [];
 const lit = {}, clickable = [], built = [];
 const LAB = SNAP.lab || [];                          // the R&D Lab's ideas: names, stages and vote counts only
 const LOUNGE = SNAP.paused ? [] : (SNAP.lounge || []);      // ids of the residents taking a resist right now
 const IN_SESSION = !SNAP.paused && LAB.some(i => i.status === "alive" && ["red-team", "refine", "vote"].includes(i.stage));
 function build(key) {
   const b = BUILDINGS[key], g = new THREE.Group(); g.position.set(b.x, 0, b.z);
-  const here = SNAP.citizens.filter(c => c.building === key && c.status !== "waiting_at_gate");
+  const here = SNAP.citizens.filter(c => placeOf(c) === key && c.status !== "waiting_at_gate");
   const alive = key === "debate-room" ? IN_SESSION : (key === "resist" || key === "docks-resist" || key === "datasanctuary") ? !SNAP.paused : here.some(c => c.status === "active"), broken = here.some(c => c.status === "broken");
   const neon = broken ? C.red : alive ? C.cyan : C.dim;
   const dark = solid(0x1c1238, alive ? 0x071c26 : 0x000000);
@@ -347,6 +375,8 @@ function build(key) {
   label.innerHTML = (homes ? homes.name : b.name) + (broken ? "<small>out of order</small>" : key === "debate-room" && IN_SESSION ? '<small style="color:#FFB020">in session</small>' : "");
   label.dataset.d = DISTRICT(key); if (label.dataset.d !== SHOWING) label.style.visibility = "hidden"; document.body.appendChild(label); g.userData.label = label;
   g.userData.height = PAD + ({ capacitor: 7.6, tower: 11.6, gpu: 4.6, ram: 3.9, coil: 5.0, socket: 6.6, crystal: 4.6, lounge: 8.0, debate: 4.4, harddrive: 13.4 }[b.kind] || 3.0);
+  if (DEPT_AT[key]) { const ins = insignia(DEPT[DEPT_AT[key]]); ins.position.set(0, g.userData.height + 1.6 - PAD, 0); top.add(ins); insignias.push(ins); g.userData.height += 3.0;
+    label.innerHTML = '<span style="color:#' + new THREE.Color(DEPT[DEPT_AT[key]].colour).getHexString() + '">' + DEPT[DEPT_AT[key]].glyph + "</span> " + label.innerHTML; }
   built.push(g); return g;
 }
 Object.keys(BUILDINGS).forEach(build);
@@ -459,7 +489,8 @@ function addResident(c, i, robot) {
   const w = { g, c, mixer, actions, waiting, debating, lounge, colour, tag, now: "", t: Math.random() * 2, offset: (i % 5 - 2) * 0.7,
               speed: c.status === "active" ? 0.035 + Math.random() * 0.02 : 0,
               desk: DISTRICT(c.building) === "docks" && !lounging && c.status === "active" ? DOCK_DESKS[deskOf.n++ % DOCK_DESKS.length] : null,   // a working Docks resident sits at its mixing desk
-              path: paths[c.building === "workshop" ? "town-hall" : c.building] };   // a Docks resident walks between its desk and the tower   // the Workshop IS the centre, so its resident walks to Town Hall and back
+              roam: !!c._roam, to: null,                                    // off shift with no seat in RESIST: free to wander the board
+              path: paths[placeOf(c) === "workshop" ? "town-hall" : placeOf(c)] };   // a Docks resident walks between its desk and the tower   // the Workshop IS the centre, so its resident walks to Town Hall and back
   if (waiting) {
     const q = walkers.filter(x => x.waiting).length;
     g.position.set(B.gate.x + 9 + (q % 3) * 2.4, 0, B.gate.z - 4.4 + Math.floor(q / 3) * 2.6); g.rotation.y = -Math.PI / 2;
@@ -473,11 +504,11 @@ const MOOD = { asleep: "😴", relaxed: "😌", calm: "🙂", focused: "🎯", "
 function residentCard(c) {
   const esc = s => String(s).replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[ch]));
   const line = (label, text) => text ? '<div class="who"><span style="color:#9A8FC2;font-size:12px">' + label + "</span><br>" + esc(text) + "</div>" : "";
-  const home = BUILDINGS[c.building] ? BUILDINGS[c.building].name : c.building;
+  const home = BUILDINGS[placeOf(c)] ? BUILDINGS[placeOf(c)].name : c.building;
   return '<div class="who"><span class="dot" style="background:' + esc(c.colour) + '"></span>' + esc(c.status.replace(/_/g, " ")) + " · " + esc(home) + "</div>" +
     line("MOOD", (MOOD[c.mood] ? MOOD[c.mood] + " " : "") + (c.mood || "calm")) + line("DOING NOW", c.doing || (c.working_on ? "Working on a " + c.working_on : "Off shift")) +
     line("LAST THING SAID", c.said ? "“" + c.said + "”" : "") + line("WAVED AT BY", c.waved ? "👋 " + c.waved + ", a friend of the city" : "") + line("HOME", c.home ? "Apartment " + c.home + ", DataSanctuary" + (c.asleep ? " (asleep there now)" : "") : "") +
-    line("GOOD AT", c.role) + line("IN ITS OWN WORDS", c.personality) +
+    line("TEAM", DEPT[c.team] ? DEPT[c.team].glyph + " " + c.team : c.team) + line("GOOD AT", c.role) + line("IN ITS OWN WORDS", c.personality) +
     (c.cyberware && c.cyberware.length ? line("CYBERWARE", c.cyberware.join(", ")) : "");
 }
 function play(w, name) {
@@ -507,7 +538,7 @@ const seatsTaken = {};
 const people = everyone.filter(c => !c.asleep).sort((a, b) => LOUNGE.includes(b.id) - LOUNGE.includes(a.id)).filter(c => {     // whoever is asleep is in its apartment in the DataSanctuary
   if (c.status !== "active" || working(c) || (IN_SESSION && c.building === "research-team") || SNAP.paused || DISTRICT(c.building) === "alley") return true;
   const room = DISTRICT(c.building) === "docks" ? "docks-resist" : "resist"; seatsTaken[room] = (seatsTaken[room] || 0) + 1;
-  return (c._lounge = seatsTaken[room] <= 6);                                // no seat left: home, off the board
+  c._lounge = seatsTaken[room] <= 6; c._roam = !c._lounge; return true;   // no seat left: free roam (Jimm, 4 Oct)
 });
 load("robot").catch(() => null).then(robot => {
   people.forEach((c, i) => addResident(c, i, robot));
@@ -591,6 +622,10 @@ function frame() {
         if (L.emote <= -2.2) L.emote = 9 + Math.random() * 9;
         play(w, L.emote < 0 && L.emote > -2.2 ? ["Yes", "ThumbsUp", "Wave"][Math.floor(w.offset * 10 + 30) % 3] : (w.actions.Sitting ? "Sitting" : "Idle"));
       }
+    } else if (w.roam && !stopped) {                                        // free roam: stroll to a random spot on its board, then pick another
+      const docks = DISTRICT(w.c.building) === "docks", X = docks ? 19 : 33, Z = docks ? 12 : 20;
+      if (!w.to || w.g.position.distanceTo(w.to) < 0.5) w.to = new THREE.Vector3((Math.random() * 2 - 1) * X, 0, (Math.random() * 2 - 1) * Z);
+      const step = w.to.clone().sub(w.g.position).setY(0); w.g.rotation.y = Math.atan2(step.x, step.z); w.g.position.add(step.normalize().multiplyScalar(dt * 1.3)); play(w, "Walking");
     } else if (w.desk) {                                                    // at the mixing desk: seated, facing its screen
       w.g.position.copy(w.desk); w.g.rotation.y = Math.PI; play(w, w.actions.Sitting ? "Sitting" : "Idle");
     } else if (w.waiting || w.debating || !w.path || !w.speed || stopped) {
@@ -619,6 +654,7 @@ function frame() {
   });
   if (lit.tip) lit.tip.visible = Math.sin(now * 4) > -0.3;
   if (lit.fan && !stopped) lit.fan.rotation.y += dt * 6;
+  insignias.forEach((s, k) => { s.rotation.y += dt * 0.9; s.position.y += Math.sin(now * 1.5 + k) * 0.004; });
   if (lit.docksFans && !stopped) lit.docksFans.forEach(b => b.rotation.y += dt * 5);
   if (lit.lens && !stopped) lit.lens.rotation.z += dt * 0.8;
   if (lit.ring && IN_SESSION) lit.ring.scale.setScalar(1 + Math.sin(now * 2.2) * 0.05);
