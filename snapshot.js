@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791149172,
+ "generated_at": 1791149930,
  "paused": false,
  "citizens": [
   {
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "witty",
    "said": "",
    "role": "writing, listing-text",
    "home": 19,
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 23,
@@ -769,9 +769,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 26,
@@ -832,9 +832,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 29,
@@ -1181,6 +1181,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791149677,
+   "text": "Cinema School: Folio studied 'Easiest Way To Get Your First 5 Clients [if you have no budget]'"
+  },
+  {
+   "at": 1791149432,
+   "text": "Foundry (seeded by Eva; crew Elysia, Eva, Forge, Mira) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791149156,
    "text": "Fiona Quill, Forge, Lumina Valtor took a resist in the smoke club"
   },
@@ -1251,14 +1259,6 @@ window.SNAPSHOT = {
   {
    "at": 1791139081,
    "text": "Jimm pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791138512,
-   "text": "Rexton Vance, Zorvath, Fiona Quill took a resist in the smoke club"
-  },
-  {
-   "at": 1791138393,
-   "text": "Foundry (seeded by Glow; crew Forge, Glow, Nebula, Zoe) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1678,6 +1678,13 @@ window.SNAPSHOT = {
    "title": "Cybersecurity & Compliance Suite for Spanish Bars",
    "stage": "pitch",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "EUComply: Ongoing Digital Compliance Suite",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
