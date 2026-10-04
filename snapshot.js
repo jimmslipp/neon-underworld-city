@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791102034,
+ "generated_at": 1791102360,
  "paused": false,
  "citizens": [
   {
@@ -124,7 +124,7 @@ window.SNAPSHOT = {
   },
   {
    "id": "gate-cloudflare-workers-ai",
-   "kind": "machine",
+   "kind": "resident",
    "name": "",
    "personality": "",
    "colour": "#9A8FC2",
