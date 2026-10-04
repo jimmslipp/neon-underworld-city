@@ -1,5 +1,5 @@
 {
- "generated_at": 1791122853,
+ "generated_at": 1791123662,
  "paused": false,
  "citizens": [
   {
@@ -1105,6 +1105,14 @@
  ],
  "feed": [
   {
+   "at": 1791123646,
+   "text": "Foundry (seeded by Zoe; crew Alana, Aurum, Forge, Zoe) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791123065,
+   "text": "Foundry (seeded by Elysia; crew Byte, Elysia, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791122428,
    "text": "Foundry (seeded by Lila; crew Forge, Lila, Nebula, Zora Xu) pitched an idea to the R&D Lab"
   },
@@ -1175,14 +1183,6 @@
   {
    "at": 1791111765,
    "text": "Jimm's new kit: 20 old brains retired. Every resident keeps its name; the brains under them change."
-  },
-  {
-   "at": 1791111609,
-   "text": "Foundry (seeded by Eva; crew Eva, Fiona Quill, Forge, Mira) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791110778,
-   "text": "Eva, Lila, Alana took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1568,6 +1568,13 @@
    "no": 0
   },
   {
+   "title": "Modular 3D-Printed Repair Kits for Coastal Spanish Rentals",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
    "title": "Neon Phoenix Hub",
    "stage": "pitch",
    "status": "alive",
@@ -1597,6 +1604,13 @@
   },
   {
    "title": "Print2Arcade: Verified 3D Printed Arcade Parts with Live Shop Streams",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "PyramidCraft: Original 3D-Scanned Ancient Sites for Education",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
