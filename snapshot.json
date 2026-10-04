@@ -1,5 +1,5 @@
 {
- "generated_at": 1791120391,
+ "generated_at": 1791121000,
  "paused": false,
  "citizens": [
   {
@@ -1105,6 +1105,10 @@
  ],
  "feed": [
   {
+   "at": 1791120741,
+   "text": "Foundry (seeded by Glow; crew Byte, Elysia, Forge, Glow) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791119969,
    "text": "Foundry (seeded by Mira; crew Forge, Mira, Zoe, red) pitched an idea to the R&D Lab"
   },
@@ -1179,10 +1183,6 @@
   {
    "at": 1791106805,
    "text": "Aurum, Zhilak, Mira took a resist in the smoke club"
-  },
-  {
-   "at": 1791106088,
-   "text": "Foundry (seeded by Lumina Valtor; crew Eva, Fiona Quill, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1505,6 +1505,13 @@
    "title": "Cutting files as digital downloads",
    "stage": "red-team",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "India Digital Signage Content",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
