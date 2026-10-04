@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791130919,
+ "generated_at": 1791131528,
  "paused": false,
  "citizens": [
   {
@@ -1429,16 +1429,16 @@ window.SNAPSHOT = {
  ],
  "proclamations": [
   {
-   "at": "04 Oct 2026 16:58",
-   "text": "Two things: I want to make Python bots that can day trade for me, and add them as a district in the town. I also want to turn old arcade games into AR reality apps for AR and VR headsets, so they can play arcade games like Mario but jumping"
-  },
-  {
    "at": "04 Oct 2026 17:47",
    "text": "We don't have to make Mario. Make arcade characters that have the same physics and gameplay as Mario, but so the AR character can react to furniture. We change mushrooms for stars, add some different enemies. All these ideas need to be spre"
   },
   {
    "at": "04 Oct 2026 17:57",
    "text": "I want us as a team set out like a company for this team: everyone has a speciality and everyone has an area to handle as part of the team. Add a social content team to help a few of the R&D ideas along please, and assign the best suited fo"
+  },
+  {
+   "at": "04 Oct 2026 18:31",
+   "text": "There is a Claude plugin I gave Solder that should allow switching between models with the same memory. That's just something for research. We can recruit AI if needed also. [Context added by Solder, 4 Oct: Research & Development to look in"
   }
  ],
  "lounge": [
