@@ -1,5 +1,5 @@
 {
- "generated_at": 1791094570,
+ "generated_at": 1791095185,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791095154,
+   "text": "Vora went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791094554,
    "text": "John Doe, Rexton Vance, Elysia took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1791064391,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791064185,
-   "text": "Luminara, Glow, Nebula took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@
  ],
  "scouting": [
   {
+   "at": "2026-10-04 08:24",
+   "by": "Vora",
+   "title": "Costa del Sol Eco-Drink Dispensers",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-04 08:13",
    "by": "Vex",
    "title": "AI-Generated Custom 3D-Printed Collectibles",
@@ -1302,12 +1308,6 @@
    "at": "2026-10-03 22:25",
    "by": "Alana",
    "title": "AI-Enhanced Costa del Sol Beach Signs",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 22:15",
-   "by": "Lumina Valtor",
-   "title": "Custom 3D-Printed Tap Handles",
    "verdict": "rejected"
   }
  ],
