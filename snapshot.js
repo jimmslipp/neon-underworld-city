@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791110914,
+ "generated_at": 1791111625,
  "paused": false,
  "citizens": [
   {
@@ -134,12 +134,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 3 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 3,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -494,12 +494,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 12 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "descriptions, translation",
    "home": 12,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -594,12 +594,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "nostalgic",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -734,12 +734,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "doing": "Asleep in apartment 22 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, writing",
    "home": 22,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -754,12 +754,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 23 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 23,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -794,12 +794,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "relax",
    "said": "",
    "role": "quick-checks, maths",
    "home": 25,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -934,12 +934,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "optimistic",
    "said": "",
    "role": "research, proposals",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1085,6 +1085,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791111609,
+   "text": "Foundry (seeded by Eva; crew Eva, Fiona Quill, Forge, Mira) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791110778,
    "text": "Eva, Lila, Alana took a resist in the smoke club"
   },
@@ -1159,10 +1163,6 @@ window.SNAPSHOT = {
   {
    "at": 1791097724,
    "text": "Lumina Valtor went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791097087,
-   "text": "Nebula went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1420,6 +1420,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "AR Bowling Pro Analytics for Elite Arcades",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Arcade Builder's Diary Subscription Campaign",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
