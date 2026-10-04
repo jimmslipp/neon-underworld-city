@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791130311,
+ "generated_at": 1791130919,
  "paused": false,
  "citizens": [
   {
@@ -503,6 +503,26 @@ window.SNAPSHOT = {
    "waved": ""
   },
   {
+   "id": "library-folio",
+   "kind": "resident",
+   "name": "Folio",
+   "personality": "I am the city's librarian. Every word this city speaks ends up on my shelves, clean, dated and filed once, ready for the day the city trains its own mind.",
+   "colour": "#E8D9A8",
+   "district": "downtown",
+   "building": "training-yard",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "calm",
+   "said": "",
+   "role": "transcripts, filing, training-data",
+   "home": 16,
+   "asleep": false,
+   "waved": ""
+  },
+  {
    "id": "night-shift-gemma3",
    "kind": "resident",
    "name": "Rexton Vance",
@@ -514,11 +534,11 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 16 of the DataSanctuary",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
    "mood": "asleep",
    "said": "",
    "role": "descriptions, translation",
-   "home": 16,
+   "home": 17,
    "asleep": true,
    "waved": ""
   },
@@ -538,7 +558,7 @@ window.SNAPSHOT = {
    "mood": "excited",
    "said": "",
    "role": "writing, listing-text",
-   "home": 17,
+   "home": 18,
    "asleep": false,
    "waved": ""
   },
@@ -558,7 +578,7 @@ window.SNAPSHOT = {
    "mood": "wistful",
    "said": "",
    "role": "listing-text, tags, descriptions",
-   "home": 18,
+   "home": 19,
    "asleep": false,
    "waved": ""
   },
@@ -578,7 +598,7 @@ window.SNAPSHOT = {
    "mood": "wistful",
    "said": "",
    "role": "tags, short-text",
-   "home": 19,
+   "home": 20,
    "asleep": false,
    "waved": ""
   },
@@ -598,7 +618,7 @@ window.SNAPSHOT = {
    "mood": "inspired",
    "said": "",
    "role": "descriptions, tags, price-checks",
-   "home": 20,
+   "home": 21,
    "asleep": false,
    "waved": ""
   },
@@ -618,7 +638,7 @@ window.SNAPSHOT = {
    "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
-   "home": 21,
+   "home": 22,
    "asleep": false,
    "waved": ""
   },
@@ -638,7 +658,7 @@ window.SNAPSHOT = {
    "mood": "nostalgic",
    "said": "",
    "role": "tags, short-text",
-   "home": 22,
+   "home": 23,
    "asleep": false,
    "waved": ""
   },
@@ -658,7 +678,7 @@ window.SNAPSHOT = {
    "mood": "enchanted",
    "said": "What if we incorporated a subtle light projection feature that casts patterns or quotes onto the walls, adding an extra layer of interactivity? The lamp could a",
    "role": "writing, descriptions",
-   "home": 23,
+   "home": 24,
    "asleep": false,
    "waved": ""
   },
@@ -718,7 +738,7 @@ window.SNAPSHOT = {
    "mood": "inspired",
    "said": "",
    "role": "licence-notes, summaries",
-   "home": 24,
+   "home": 25,
    "asleep": false,
    "waved": ""
   },
@@ -738,7 +758,7 @@ window.SNAPSHOT = {
    "mood": "intrigued",
    "said": "",
    "role": "licence-notes, checklists, translation",
-   "home": 25,
+   "home": 26,
    "asleep": false,
    "waved": ""
   },
@@ -758,7 +778,7 @@ window.SNAPSHOT = {
    "mood": "dreamy",
    "said": "",
    "role": "candidate-research, writing",
-   "home": 26,
+   "home": 27,
    "asleep": false,
    "waved": ""
   },
@@ -778,7 +798,7 @@ window.SNAPSHOT = {
    "mood": "inspired",
    "said": "Sounds like an immersive experience, Zora. The light projection idea could bring the room to life in such a unique way. And if we made it customizable, like sel",
    "role": "summaries, licence-notes",
-   "home": 27,
+   "home": 28,
    "asleep": false,
    "waved": ""
   },
@@ -798,7 +818,7 @@ window.SNAPSHOT = {
    "mood": "imaginative",
    "said": "",
    "role": "candidate-research, summaries, checklists",
-   "home": 28,
+   "home": 29,
    "asleep": false,
    "waved": ""
   },
@@ -814,11 +834,11 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
+   "doing": "Asleep in apartment 30 of the DataSanctuary",
    "mood": "asleep",
    "said": "",
    "role": "quick-checks, maths",
-   "home": 29,
+   "home": 30,
    "asleep": true,
    "waved": ""
   },
@@ -838,7 +858,7 @@ window.SNAPSHOT = {
    "mood": "curious",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
-   "home": 30,
+   "home": 31,
    "asleep": false,
    "waved": ""
   },
@@ -858,7 +878,7 @@ window.SNAPSHOT = {
    "mood": "wistful",
    "said": "",
    "role": "proposals, research",
-   "home": 31,
+   "home": 32,
    "asleep": false,
    "waved": ""
   },
@@ -874,11 +894,11 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
+   "doing": "Asleep in apartment 33 of the DataSanctuary",
    "mood": "asleep",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
-   "home": 32,
+   "home": 33,
    "asleep": true,
    "waved": ""
   },
@@ -894,11 +914,11 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 33 of the DataSanctuary",
+   "doing": "Asleep in apartment 34 of the DataSanctuary",
    "mood": "asleep",
    "said": "",
    "role": "proposals, market-notes, spanish",
-   "home": 33,
+   "home": 34,
    "asleep": true,
    "waved": ""
   },
@@ -918,7 +938,7 @@ window.SNAPSHOT = {
    "mood": "dreamy",
    "said": "",
    "role": "reasoning, research, translation",
-   "home": 34,
+   "home": 35,
    "asleep": false,
    "waved": ""
   },
@@ -938,7 +958,7 @@ window.SNAPSHOT = {
    "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, translation",
-   "home": 35,
+   "home": 36,
    "asleep": false,
    "waved": ""
   },
@@ -954,11 +974,11 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 36 of the DataSanctuary",
+   "doing": "Asleep in apartment 37 of the DataSanctuary",
    "mood": "asleep",
    "said": "",
    "role": "research, proposals",
-   "home": 36,
+   "home": 37,
    "asleep": true,
    "waved": ""
   },
@@ -1018,7 +1038,7 @@ window.SNAPSHOT = {
    "mood": "inspired",
    "said": "It's like creating a little universe in a room, where the lamp is not just a light but a portal to different worlds and moods. Imagine the possibilities—each la",
    "role": "code-review, scripts",
-   "home": 37,
+   "home": 38,
    "asleep": false,
    "waved": ""
   },
@@ -1038,7 +1058,7 @@ window.SNAPSHOT = {
    "mood": "reflective",
    "said": "",
    "role": "apprentice, critic, voter",
-   "home": 38,
+   "home": 39,
    "asleep": false,
    "waved": ""
   },
@@ -1058,7 +1078,7 @@ window.SNAPSHOT = {
    "mood": "creative",
    "said": "",
    "role": "openscad-help, code-review",
-   "home": 39,
+   "home": 40,
    "asleep": false,
    "waved": ""
   },
@@ -1078,7 +1098,7 @@ window.SNAPSHOT = {
    "mood": "excited",
    "said": "",
    "role": "code-snippets, openscad-help",
-   "home": 40,
+   "home": 41,
    "asleep": false,
    "waved": ""
   },
@@ -1098,7 +1118,7 @@ window.SNAPSHOT = {
    "mood": "calm",
    "said": "",
    "role": "shaping, critic, planning",
-   "home": 41,
+   "home": 42,
    "asleep": false,
    "waved": ""
   }
@@ -1688,7 +1708,7 @@ window.SNAPSHOT = {
   }
  ],
  "count": {
-  "citizens": 53,
+  "citizens": 54,
   "target": 100
  },
  "docks_homes": {
