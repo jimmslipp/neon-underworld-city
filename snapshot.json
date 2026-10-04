@@ -1,5 +1,5 @@
 {
- "generated_at": 1791106820,
+ "generated_at": 1791107430,
  "paused": false,
  "citizens": [
   {
@@ -1065,6 +1065,10 @@
  ],
  "feed": [
   {
+   "at": 1791106962,
+   "text": "Foundry (seeded by Alana; crew Alana, Ellie, Forge, Vex) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791106805,
    "text": "Aurum, Zhilak, Mira took a resist in the smoke club"
   },
@@ -1139,10 +1143,6 @@
   {
    "at": 1791096418,
    "text": "Fiona Quill, Vex, Elysia took a resist in the smoke club"
-  },
-  {
-   "at": 1791095780,
-   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1389,6 +1389,13 @@
  "lab": [
   {
    "title": "App & Accessory Overhaul (Revised)",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AR Bowling Pro Analytics for Elite Arcades",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
