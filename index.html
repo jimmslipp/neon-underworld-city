@@ -96,6 +96,7 @@ const BUILDINGS = {
   "datasanctuary":    { name: "DataSanctuary",    x:  32, z: -7.6, kind: "harddrive", r: 3.7 },      // the apartment tower: a hard drive stood on end. Designed by Byte, Zhilak, Aurum and NeonNova, merged by Tick
   "payphone":         { name: "The Payphone",   x: -10, z:   6, kind: "resistor",  r: 3.2 },
   "print-shop":       { name: "Print Shop",       x:  30, z: -16, kind: "chip",      r: 4.4 },
+  "training-yard":    { name: "Training Yard",    x: 0, z: -6.2, kind: "chip",   r: 3.4, board: "alley" },      // Neon Alley: where the city's own model will train on the Foundry's records one day
   "docks":            { name: "The Docks",        x: 0, z: 0, kind: "dip",    r: 6.5, board: "docks" },      // the small models' station (Jimm, 4 Oct); its own board under "The Docks" button since 4 Oct, powered; its own machine, arcade004, later
 };
 
@@ -140,31 +141,47 @@ edge.position.y = -0.75; city.add(edge);
 for (let i = -35; i <= 35; i += 5) for (let j = -22; j <= 22; j += 5.5) city.add(cyl(0.16, 0.05, glow(C.dim), i, 0.03, j, 10));       // solder pads
 for (const [x, z] of [[-36, -23], [36, -23], [-36, 23], [36, 23]]) { city.add(cyl(1.1, 0.2, solid(0x565c7a), x, 0.1, z)); city.add(cyl(0.5, 0.25, solid(0x06040e), x, 0.12, z)); }   // mounting holes
 
-// ---------------------------------------------------------------- the Docks: their own smaller board, shown by "The Docks" button (Jimm, 4 Oct: power it and move the AI in)
-const dock = new THREE.Group(); dock.visible = false; scene.add(dock);
-dock.add(box(46, 1.5, 32, solid(C.board), 0, -0.75, 0));
-const dockEdge = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(46, 1.5, 32)), new THREE.LineBasicMaterial({ color: C.amber }));
-dockEdge.position.y = -0.75; dock.add(dockEdge);
-for (let i = -20; i <= 20; i += 5) for (let j = -13; j <= 13; j += 5.2) dock.add(cyl(0.16, 0.05, glow(C.dim), i, 0.03, j, 10));
-for (const [x, z] of [[-21, -14], [21, -14], [-21, 14], [21, 14]]) { dock.add(cyl(1.1, 0.2, solid(0x565c7a), x, 0.1, z)); dock.add(cyl(0.5, 0.25, solid(0x06040e), x, 0.12, z)); }
-const DOCK_POWER = [-19, 11];                         // the power jack the Docks draw from; the live rail runs from here to the tower
-dock.add(box(3.2, 2.2, 3.6, solid(0x2a2a3a), DOCK_POWER[0], 1.1, DOCK_POWER[1]));
-const jack = cyl(0.9, 0.5, glow(C.amber), DOCK_POWER[0] + 1.7, 1.2, DOCK_POWER[1]); jack.rotation.z = Math.PI / 2; dock.add(jack);
-const dockLamp = new THREE.PointLight(C.amber, 1.4, 40); dockLamp.position.set(0, 10, 4); dock.add(dockLamp);
-const dockGlow = new THREE.PointLight(C.cyan, 1.0, 40); dockGlow.position.set(14, 8, -8); dock.add(dockGlow);
+// ---------------------------------------------------------------- side districts: each its own powered board, shown by its button at the top
+// The Docks (Jimm, 4 Oct: "power it and move the AI in") and Neon Alley (Jimm, 4 Oct: "show it as a city"; HP laptop B in the brief, home of the city's own model one day)
 let SHOWING = "downtown";                             // which board is on screen
-const jackTag = document.createElement("div"); jackTag.className = "label"; jackTag.dataset.d = "docks"; jackTag.style.visibility = "hidden";
-jackTag.innerHTML = 'Power<small style="color:#FFB020">live</small>'; document.body.appendChild(jackTag);
+const BOARDS = { downtown: city }, POWER = {}, jackTags = [];
+function sideBoard(d, w, depth, edge, jackAt, lamps) {
+  const g = new THREE.Group(); g.visible = false; scene.add(g); BOARDS[d] = g;
+  g.add(box(w, 1.5, depth, solid(C.board), 0, -0.75, 0));
+  const e = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(w, 1.5, depth)), new THREE.LineBasicMaterial({ color: edge })); e.position.y = -0.75; g.add(e);
+  for (let i = -w / 2 + 3; i <= w / 2 - 3; i += 5) for (let j = -depth / 2 + 3; j <= depth / 2 - 3; j += 5.2) g.add(cyl(0.16, 0.05, glow(C.dim), i, 0.03, j, 10));
+  for (const [x, z] of [[-w / 2 + 2, -depth / 2 + 2], [w / 2 - 2, -depth / 2 + 2], [-w / 2 + 2, depth / 2 - 2], [w / 2 - 2, depth / 2 - 2]]) { g.add(cyl(1.1, 0.2, solid(0x565c7a), x, 0.1, z)); g.add(cyl(0.5, 0.25, solid(0x06040e), x, 0.12, z)); }
+  POWER[d] = { at: jackAt, colour: edge };                                // the jack the district draws from; the live rail runs from here to its building
+  g.add(box(3.2, 2.2, 3.6, solid(0x2a2a3a), jackAt[0], 1.1, jackAt[1]));
+  const j = cyl(0.9, 0.5, glow(edge), jackAt[0] + 1.7, 1.2, jackAt[1]); j.rotation.z = Math.PI / 2; g.add(j);
+  lamps.forEach(([col, x, y, z]) => { const l = new THREE.PointLight(col, 1.3, 40); l.position.set(x, y, z); g.add(l); });
+  const t = document.createElement("div"); t.className = "label"; t.dataset.d = d; t.style.visibility = "hidden";
+  t.innerHTML = 'Power<small style="color:#' + new THREE.Color(edge).getHexString() + '">live</small>'; document.body.appendChild(t); jackTags.push([t, jackAt]);
+  return g;
+}
+const dock = sideBoard("docks", 46, 32, C.amber, [-19, 11], [[C.amber, 0, 10, 4], [C.cyan, 14, 8, -8]]);
+const alley = sideBoard("alley", 62, 20, C.pink, [-27, 6], [[C.pink, -14, 7, 0], [C.cyan, 14, 7, 0], [C.amber, 0, 9, 6]]);
+// Neon Alley's street: a glowing lane down the middle and two rows of shopfronts with neon signs. Scenery only: nobody lives here yet.
+alley.add(box(56, 0.06, 3.2, glow(0x2a1650), 0, 0.04, 0)); alley.add(box(56, 0.08, 0.18, glow(C.pink), 0, 0.06, 1.7)); alley.add(box(56, 0.08, 0.18, glow(C.cyan), 0, 0.06, -1.7));
+const SIGNS = [C.pink, C.cyan, C.amber, C.green, 0xB06CFF];
+for (const side of [-1, 1]) for (let i = 0; i < 9; i++) {
+  const x = -24 + i * 6 + (side > 0 ? 3 : 0); if (side < 0 && Math.abs(x) < 6) continue;             // leave room for the Training Yard
+  const h = 3 + ((i * 7 + (side > 0 ? 3 : 0)) % 5) * 1.1, z = side * 6.2, col = SIGNS[(i + (side > 0 ? 2 : 0)) % SIGNS.length];
+  alley.add(box(4.6, h, 4.2, solid(0x1c1238, 0x05030c), x, h / 2, z));
+  alley.add(box(3.2, 0.5, 0.12, glow(col), x, h - 0.9, z - side * 2.16));                            // the shop sign, facing the street
+  alley.add(box(2.4, 1.5, 0.1, glow(new THREE.Color(col).multiplyScalar(0.35).getHex()), x, 1.0, z - side * 2.16));   // a lit window
+  if (i % 2) { const lamp = cyl(0.08, 3.6, solid(0x565c7a), x + 2.6, 1.8, side * 3.4, 8); alley.add(lamp); const bulb = new THREE.Mesh(new THREE.SphereGeometry(0.28, 10, 8), glow(col)); bulb.position.set(x + 2.6, 3.7, side * 3.4); alley.add(bulb); }
+}
 const DISTRICT = (key) => (BUILDINGS[key] && BUILDINGS[key].board) || "downtown";
-const boardOf = (key) => DISTRICT(key) === "docks" ? dock : city;
+const boardOf = (key) => BOARDS[DISTRICT(key)];
 
 // ---------------------------------------------------------------- traces, and the light that runs along them
 const paths = {}, pulses = [];
 function trace(key, colour, live) {
-  const b = BUILDINGS[key], P = boardOf(key), docks = DISTRICT(key) === "docks";
-  const pts = docks ? [new THREE.Vector3(0, 0.08, b.r + 0.6), new THREE.Vector3(0, 0.08, DOCK_POWER[1]), new THREE.Vector3(DOCK_POWER[0] + 2, 0.08, DOCK_POWER[1])]   // the Docks: a power rail from the jack
-                    : [new THREE.Vector3(b.x, 0.08, b.z), new THREE.Vector3(b.x, 0.08, 0), new THREE.Vector3(0, 0.08, 0)];
-  if (docks) colour = C.amber;                                             // power, not data
+  const b = BUILDINGS[key], P = boardOf(key), pw = POWER[DISTRICT(key)], docks = !!pw;      // `docks`: any side district, fed by a power rail
+  const pts = pw ? [new THREE.Vector3(b.x, 0.08, b.z + b.r + 0.6), new THREE.Vector3(b.x, 0.08, pw.at[1]), new THREE.Vector3(pw.at[0] + 2, 0.08, pw.at[1])]   // a power rail from the jack
+                 : [new THREE.Vector3(b.x, 0.08, b.z), new THREE.Vector3(b.x, 0.08, 0), new THREE.Vector3(0, 0.08, 0)];
+  if (pw) { colour = pw.colour; live = true; }                             // power, not data: a side district's rail is always on
   paths[key] = pts;
   for (let i = 0; i < pts.length - 1; i++) {
     const a = pts[i], c = pts[i + 1];
@@ -485,16 +502,16 @@ if (window.CONSOLE_URL) {                // only set when the Boss Console itsel
 }
 document.querySelectorAll("#districts button[data-d]").forEach(btn => btn.onclick = () => {
   document.querySelectorAll("#districts button[data-d]").forEach(x => x.classList.toggle("on", x === btn));
-  const d = btn.dataset.d, live = d === "downtown" || d === "docks"; SHOWING = d;
-  if (d === "docks") camera.position.set(-4, 24, 32); else camera.position.set(-6, 40, 58); controls.target.set(0, 1, 0);
-  city.visible = d === "downtown"; dock.visible = d === "docks"; document.getElementById("offline").style.display = live ? "none" : "flex";
+  const d = btn.dataset.d, live = !!BOARDS[d]; SHOWING = d;
+  if (d === "docks") camera.position.set(-4, 24, 32); else if (d === "alley") camera.position.set(-10, 22, 34); else camera.position.set(-6, 40, 58); controls.target.set(0, 1, 0);
+  Object.entries(BOARDS).forEach(([k, g]) => g.visible = k === d); document.getElementById("offline").style.display = live ? "none" : "flex";
   document.querySelectorAll(".label, .bubble").forEach(l => l.style.visibility = (l.dataset.d || "downtown") === d ? "visible" : "hidden"); document.getElementById("card").style.display = "none";
 });
-if (/docks/.test(location.hash)) document.querySelector('#districts button[data-d="docks"]').click();      // a link can open the Docks: .../city/#docks
+const opening = (location.hash.match(/^#(docks|alley)/) || [])[1]; if (opening) document.querySelector('#districts button[data-d="' + opening + '"]').click();      // a link can open a district: .../city/#docks or #alley
 const ray = new THREE.Raycaster(), tap = new THREE.Vector2(); let downAt = null;                    // tap a building: who lives there
 renderer.domElement.addEventListener("pointerdown", e => { downAt = [e.clientX, e.clientY]; });
 renderer.domElement.addEventListener("pointerup", e => {
-  if (!downAt || Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 8 || !(city.visible || dock.visible)) return;       // a drag is not a tap
+  if (!downAt || Math.hypot(e.clientX - downAt[0], e.clientY - downAt[1]) > 8 || !BOARDS[SHOWING]) return;       // a drag is not a tap
   tap.set(e.clientX / innerWidth * 2 - 1, -(e.clientY / innerHeight) * 2 + 1); ray.setFromCamera(tap, camera);
   const shown = o => { for (; o; o = o.parent) if (!o.visible) return false; return true; };
   const hit = ray.intersectObjects(clickable).find(h => shown(h.object)), card = document.getElementById("card");
@@ -519,7 +536,7 @@ renderer.domElement.addEventListener("pointerup", e => {
     ((d.key === "resist" ? SNAP.citizens.filter(c => LOUNGE.includes(c.id)) : d.key === "datasanctuary" ? SNAP.citizens.filter(c => c.asleep) : d.here).concat(queue).map(c =>
     '<div class="who"><span class="dot" style="background:' + esc(c.colour) + '"></span><b>' + esc(c.name || c.id) + "</b> · " + esc(c.status.replace(/_/g, " ")) +
     (c.mood ? " · " + esc(c.mood) : "") + (c.doing ? '<div style="color:#9A8FC2;font-size:13px">' + esc(c.doing) + "</div>" : "") + "</div>").join("")) ||
-    '<div class="who" style="color:#9A8FC2">' + (d.key === "hangar" ? "Empty socket. The robot gets built here when the fund can buy its parts." : d.key === "resist" ? "The smoke club. Residents drift in when the board is empty." : d.key === "datasanctuary" ? "Everyone is up. Amber window = asleep, blue = out. Designed by Byte, Zhilak, Aurum and NeonNova." : "Nobody here yet.") + "</div>";
+    '<div class="who" style="color:#9A8FC2">' + (d.key === "training-yard" ? "Neon Alley's Training Yard. The city's own model will train here one day, on the Foundry's records. Nobody lives in the Alley yet." : d.key === "hangar" ? "Empty socket. The robot gets built here when the fund can buy its parts." : d.key === "resist" ? "The smoke club. Residents drift in when the board is empty." : d.key === "datasanctuary" ? "Everyone is up. Amber window = asleep, blue = out. Designed by Byte, Zhilak, Aurum and NeonNova." : "Nobody here yet.") + "</div>";
   card.style.display = "block";
 });
 addEventListener("resize", () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); composer.setSize(innerWidth, innerHeight); });
@@ -587,7 +604,7 @@ function frame() {
     const s = smoke[k]; s.m.position.y += dt * (s.ring ? 0.75 : 0.5); s.m.position.x += dt * s.drift; s.m.scale.multiplyScalar(1 + dt * (s.ring ? 0.45 : 0.3)); s.m.material.opacity -= dt * (s.ring ? 0.2 : 0.09);
     if (s.m.material.opacity <= 0) { city.remove(s.m); s.m.geometry.dispose(); s.m.material.dispose(); smoke.splice(k, 1); }
   }
-  place(jackTag, DOCK_POWER[0], 3.4, DOCK_POWER[1]);
+  jackTags.forEach(([t, at]) => place(t, at[0], 3.4, at[1]));
   built.forEach(g => place(g.userData.label, g.position.x, g.userData.height, g.position.z));
   controls.update(); composer.render(); requestAnimationFrame(frame);
 }
