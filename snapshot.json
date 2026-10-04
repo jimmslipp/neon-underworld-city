@@ -1,5 +1,5 @@
 {
- "generated_at": 1791118915,
+ "generated_at": 1791119516,
  "paused": false,
  "citizens": [
   {
@@ -1105,6 +1105,10 @@
  ],
  "feed": [
   {
+   "at": 1791119401,
+   "text": "Foundry (seeded by Ellie; crew Ellie, Elysia, Forge, Glow) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791118877,
    "text": "Foundry (seeded by Fiona Quill; crew Fiona Quill, Forge, Mira, red) pitched an idea to the R&D Lab"
   },
@@ -1179,10 +1183,6 @@
   {
    "at": 1791104810,
    "text": "Elysia, Zylac, Lila took a resist in the smoke club"
-  },
-  {
-   "at": 1791103873,
-   "text": "Foundry (seeded by Byte; crew Alana, Byte, Forge, Nebula) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1431,6 +1431,13 @@
   "night-shift-qwen"
  ],
  "lab": [
+  {
+   "title": "3D Printed Educational Wooden Toy Subscription",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
   {
    "title": "App & Accessory Overhaul (Revised)",
    "stage": "pitch",
