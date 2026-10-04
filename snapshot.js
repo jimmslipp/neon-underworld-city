@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791095185,
+ "generated_at": 1791095796,
  "paused": false,
  "citizens": [
   {
@@ -1005,6 +1005,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791095780,
+   "text": "Fiona Quill went scouting for the Research Team and found something the judges rejected"
+  },
+  {
    "at": 1791095154,
    "text": "Vora went scouting for the Research Team and found something the judges rejected"
   },
@@ -1079,10 +1083,6 @@ window.SNAPSHOT = {
   {
    "at": 1791066033,
    "text": "Fiona Quill, Elysia, Cortex took a resist in the smoke club"
-  },
-  {
-   "at": 1791064391,
-   "text": "Alana went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1239,6 +1239,12 @@ window.SNAPSHOT = {
  ],
  "scouting": [
   {
+   "at": "2026-10-04 08:36",
+   "by": "Fiona Quill",
+   "title": "AI-Crafted Bar Experience Enhancer Kit",
+   "verdict": "rejected"
+  },
+  {
    "at": "2026-10-04 08:24",
    "by": "Vora",
    "title": "Costa del Sol Eco-Drink Dispensers",
@@ -1302,12 +1308,6 @@ window.SNAPSHOT = {
    "at": "2026-10-03 22:35",
    "by": "Eva",
    "title": "Customized 3D-Printed Bar Furniture with AI-Generated Designs",
-   "verdict": "rejected"
-  },
-  {
-   "at": "2026-10-03 22:25",
-   "by": "Alana",
-   "title": "AI-Enhanced Costa del Sol Beach Signs",
    "verdict": "rejected"
   }
  ],
