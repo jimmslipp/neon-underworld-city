@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791141017,
+ "generated_at": 1791141467,
  "paused": false,
  "citizens": [
   {
@@ -559,9 +559,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, translation",
    "home": 17,
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 18,
@@ -622,7 +622,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Mira and Folio",
    "mood": "inspired",
    "said": "Sounds intriguing. Combining both could lead to some groundbreaking creations. Imagine a digital garden where every plant's growth and appearance is influenced ",
@@ -1105,9 +1105,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 39,
@@ -1180,6 +1180,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791141238,
+   "text": "Foundry (seeded by Elysia; crew Aurum, Elysia, Eva, Forge) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791140685,
    "text": "Mira, Zhilak, Folio took a resist in the smoke club"
@@ -1255,10 +1259,6 @@ window.SNAPSHOT = {
   {
    "at": 1791132234,
    "text": "Glow went to the Print Shop to watch the city's first print"
-  },
-  {
-   "at": 1791130279,
-   "text": "Zora Xu, Lumi, Ellie took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1647,6 +1647,13 @@ window.SNAPSHOT = {
    "title": "Cutting files as digital downloads",
    "stage": "red-team",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "GDPR+Security Suite for Spanish Micro-Businesses",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
