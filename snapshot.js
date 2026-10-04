@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791113147,
+ "generated_at": 1791113713,
  "paused": false,
  "citizens": [
   {
@@ -59,6 +59,26 @@ window.SNAPSHOT = {
    "said": "",
    "role": "code, openscad, listings",
    "home": 2,
+   "asleep": false,
+   "waved": ""
+  },
+  {
+   "id": "council-k5",
+   "kind": "resident",
+   "name": "K5",
+   "personality": "The city's decision-maker. I do not talk; I weigh the evidence and give the odds, every time, in under a second.",
+   "colour": "#FFFFFF",
+   "district": "downtown",
+   "building": "town-hall",
+   "tier": "free",
+   "cyberware": [],
+   "status": "active",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "calm",
+   "said": "",
+   "role": "decisions, yes-no, choices",
+   "home": 3,
    "asleep": false,
    "waved": ""
   },
@@ -138,7 +158,7 @@ window.SNAPSHOT = {
    "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
-   "home": 3,
+   "home": 4,
    "asleep": false,
    "waved": ""
   },
@@ -158,7 +178,7 @@ window.SNAPSHOT = {
    "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
-   "home": 4,
+   "home": 5,
    "asleep": false,
    "waved": ""
   },
@@ -198,7 +218,7 @@ window.SNAPSHOT = {
    "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
-   "home": 5,
+   "home": 6,
    "asleep": false,
    "waved": ""
   },
@@ -218,7 +238,7 @@ window.SNAPSHOT = {
    "mood": "broken",
    "said": "",
    "role": "",
-   "home": 6,
+   "home": 7,
    "asleep": false,
    "waved": ""
   },
@@ -238,7 +258,7 @@ window.SNAPSHOT = {
    "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
-   "home": 7,
+   "home": 8,
    "asleep": false,
    "waved": ""
   },
@@ -258,7 +278,7 @@ window.SNAPSHOT = {
    "mood": "calm",
    "said": "",
    "role": "fast-worker, short-text, checks",
-   "home": 8,
+   "home": 9,
    "asleep": false,
    "waved": ""
   },
@@ -278,7 +298,7 @@ window.SNAPSHOT = {
    "mood": "calm",
    "said": "",
    "role": "by-hand",
-   "home": 9,
+   "home": 10,
    "asleep": false,
    "waved": ""
   },
@@ -318,7 +338,7 @@ window.SNAPSHOT = {
    "mood": "calm",
    "said": "",
    "role": "decisions, critic, voter",
-   "home": 10,
+   "home": 11,
    "asleep": false,
    "waved": ""
   },
@@ -374,11 +394,11 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "paused",
    "working_on": "",
-   "doing": "Benched: asleep in apartment 11 of the DataSanctuary",
+   "doing": "Benched: asleep in apartment 12 of the DataSanctuary",
    "mood": "asleep",
    "said": "",
    "role": "",
-   "home": 11,
+   "home": 12,
    "asleep": true,
    "waved": ""
   },
@@ -398,7 +418,7 @@ window.SNAPSHOT = {
    "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
-   "home": 12,
+   "home": 13,
    "asleep": false,
    "waved": ""
   },
@@ -458,7 +478,7 @@ window.SNAPSHOT = {
    "mood": "excited",
    "said": "",
    "role": "vision, document-reading",
-   "home": 13,
+   "home": 14,
    "asleep": false,
    "waved": ""
   },
@@ -478,7 +498,7 @@ window.SNAPSHOT = {
    "mood": "relaxed",
    "said": "",
    "role": "vision, picture-checks",
-   "home": 14,
+   "home": 15,
    "asleep": false,
    "waved": ""
   },
@@ -498,7 +518,7 @@ window.SNAPSHOT = {
    "mood": "contemplative",
    "said": "",
    "role": "descriptions, translation",
-   "home": 15,
+   "home": 16,
    "asleep": false,
    "waved": ""
   },
@@ -518,7 +538,7 @@ window.SNAPSHOT = {
    "mood": "excited",
    "said": "",
    "role": "writing, listing-text",
-   "home": 16,
+   "home": 17,
    "asleep": false,
    "waved": ""
   },
@@ -538,7 +558,7 @@ window.SNAPSHOT = {
    "mood": "wistful",
    "said": "",
    "role": "listing-text, tags, descriptions",
-   "home": 17,
+   "home": 18,
    "asleep": false,
    "waved": ""
   },
@@ -558,7 +578,7 @@ window.SNAPSHOT = {
    "mood": "wistful",
    "said": "",
    "role": "tags, short-text",
-   "home": 18,
+   "home": 19,
    "asleep": false,
    "waved": ""
   },
@@ -578,7 +598,7 @@ window.SNAPSHOT = {
    "mood": "inspired",
    "said": "",
    "role": "descriptions, tags, price-checks",
-   "home": 19,
+   "home": 20,
    "asleep": false,
    "waved": ""
   },
@@ -598,7 +618,7 @@ window.SNAPSHOT = {
    "mood": "dreamy",
    "said": "What if a clock shaped like a blooming flower, its petals opening with the sunrise, softly lighting your room—a silent symphony of time and light?",
    "role": "research, listing-text, translation",
-   "home": 20,
+   "home": 21,
    "asleep": false,
    "waved": ""
   },
@@ -618,7 +638,7 @@ window.SNAPSHOT = {
    "mood": "gratified",
    "said": "",
    "role": "tags, short-text",
-   "home": 21,
+   "home": 22,
    "asleep": false,
    "waved": ""
   },
@@ -638,7 +658,7 @@ window.SNAPSHOT = {
    "mood": "contemplative",
    "said": "",
    "role": "writing, descriptions",
-   "home": 22,
+   "home": 23,
    "asleep": false,
    "waved": ""
   },
@@ -698,7 +718,7 @@ window.SNAPSHOT = {
    "mood": "dreamy",
    "said": "And what if that flower clock could also sync with our digital calendars, whispering gentle reminders through its petals, blending ancient rhythms with the puls",
    "role": "licence-notes, summaries",
-   "home": 23,
+   "home": 24,
    "asleep": false,
    "waved": ""
   },
@@ -718,7 +738,7 @@ window.SNAPSHOT = {
    "mood": "intrigued",
    "said": "",
    "role": "licence-notes, checklists, translation",
-   "home": 24,
+   "home": 25,
    "asleep": false,
    "waved": ""
   },
@@ -734,11 +754,11 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
    "mood": "asleep",
    "said": "",
    "role": "candidate-research, writing",
-   "home": 25,
+   "home": 26,
    "asleep": true,
    "waved": ""
   },
@@ -758,7 +778,7 @@ window.SNAPSHOT = {
    "mood": "inspired",
    "said": "",
    "role": "summaries, licence-notes",
-   "home": 26,
+   "home": 27,
    "asleep": false,
    "waved": ""
   },
@@ -778,7 +798,7 @@ window.SNAPSHOT = {
    "mood": "relaxed",
    "said": "",
    "role": "candidate-research, summaries, checklists",
-   "home": 27,
+   "home": 28,
    "asleep": false,
    "waved": ""
   },
@@ -798,7 +818,7 @@ window.SNAPSHOT = {
    "mood": "relax",
    "said": "",
    "role": "quick-checks, maths",
-   "home": 28,
+   "home": 29,
    "asleep": false,
    "waved": ""
   },
@@ -818,7 +838,7 @@ window.SNAPSHOT = {
    "mood": "excited",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
-   "home": 29,
+   "home": 30,
    "asleep": false,
    "waved": ""
   },
@@ -838,7 +858,7 @@ window.SNAPSHOT = {
    "mood": "dreamy",
    "said": "I love that, Luminara, it's like the bracelet is a living, breathing storyteller... and what if that story was woven into the fabric of our daily routines, so w",
    "role": "proposals, research",
-   "home": 30,
+   "home": 31,
    "asleep": false,
    "waved": ""
   },
@@ -858,7 +878,7 @@ window.SNAPSHOT = {
    "mood": "enthused",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
-   "home": 31,
+   "home": 32,
    "asleep": false,
    "waved": ""
   },
@@ -878,7 +898,7 @@ window.SNAPSHOT = {
    "mood": "creative",
    "said": "",
    "role": "proposals, market-notes, spanish",
-   "home": 32,
+   "home": 33,
    "asleep": false,
    "waved": ""
   },
@@ -898,7 +918,7 @@ window.SNAPSHOT = {
    "mood": "dreamy",
    "said": "",
    "role": "reasoning, research, translation",
-   "home": 33,
+   "home": 34,
    "asleep": false,
    "waved": ""
   },
@@ -918,7 +938,7 @@ window.SNAPSHOT = {
    "mood": "contemplative",
    "said": "",
    "role": "reasoning, proposals, translation",
-   "home": 34,
+   "home": 35,
    "asleep": false,
    "waved": ""
   },
@@ -938,7 +958,7 @@ window.SNAPSHOT = {
    "mood": "optimistic",
    "said": "",
    "role": "research, proposals",
-   "home": 35,
+   "home": 36,
    "asleep": false,
    "waved": ""
   },
@@ -998,7 +1018,7 @@ window.SNAPSHOT = {
    "mood": "excited",
    "said": "",
    "role": "code-review, scripts",
-   "home": 36,
+   "home": 37,
    "asleep": false,
    "waved": ""
   },
@@ -1018,7 +1038,7 @@ window.SNAPSHOT = {
    "mood": "inspired",
    "said": "",
    "role": "apprentice, critic, voter",
-   "home": 37,
+   "home": 38,
    "asleep": false,
    "waved": ""
   },
@@ -1038,7 +1058,7 @@ window.SNAPSHOT = {
    "mood": "dreamy",
    "said": "",
    "role": "openscad-help, code-review",
-   "home": 38,
+   "home": 39,
    "asleep": false,
    "waved": ""
   },
@@ -1058,7 +1078,7 @@ window.SNAPSHOT = {
    "mood": "excited",
    "said": "",
    "role": "code-snippets, openscad-help",
-   "home": 39,
+   "home": 40,
    "asleep": false,
    "waved": ""
   },
@@ -1078,7 +1098,7 @@ window.SNAPSHOT = {
    "mood": "calm",
    "said": "",
    "role": "shaping, critic, planning",
-   "home": 40,
+   "home": 41,
    "asleep": false,
    "waved": ""
   }
@@ -1567,7 +1587,7 @@ window.SNAPSHOT = {
   }
  ],
  "count": {
-  "citizens": 52,
+  "citizens": 53,
   "target": 100
  },
  "docks_homes": {
