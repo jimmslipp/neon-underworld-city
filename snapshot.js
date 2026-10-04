@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791126353,
+ "generated_at": 1791127090,
  "paused": false,
  "citizens": [
   {
@@ -1105,6 +1105,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791126703,
+   "text": "Foundry (seeded by Lumina Valtor; crew Forge, Lumina Valtor, Mira, Vex) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791126144,
    "text": "K5, Glow, Mira took a resist in the smoke club"
   },
@@ -1179,10 +1183,6 @@ window.SNAPSHOT = {
   {
    "at": 1791115147,
    "text": "The Docks team designed their home: Synapse Cache Tower (10 proposals, merged by Lyris)"
-  },
-  {
-   "at": 1791113067,
-   "text": "The Docks team designed their home: Docks homes (10 proposals, merged by Forge)"
   }
  ],
  "products": [
@@ -1429,6 +1429,13 @@ window.SNAPSHOT = {
  "lab": [
   {
    "title": "3D Printed Educational Wooden Toy Subscription",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "3D Printed Ink Pumps with Verified Efficiency",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,

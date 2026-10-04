@@ -185,7 +185,11 @@ for (let i = 0; i < 10; i++) {
   for (const kz of [-14.2, -13.4]) { dock.add(cyl(0.34, 0.32, solid(0x2a2a3a), x + 0.75, 0.66, kz, 14)); dock.add(box(0.08, 0.06, 0.3, glow(col), x + 0.75, 0.84, kz - 0.12)); }
   for (let v = 0; v < 5; v++) dock.add(box(0.36, 0.14, 0.36, glow(v < 3 ? C.green : v < 4 ? C.amber : C.red), x + 0.75, 0.56, -11.9 + v * 0.55));   // VU meter
   dock.add(box(2.6, 1.6, 0.14, solid(0x0b0716), x, 1.55, -15.1)); dock.add(box(2.3, 1.3, 0.05, glow(new THREE.Color(col).multiplyScalar(0.45).getHex()), x, 1.55, -15.0));   // the resident's screen
-  DOCK_DESKS.push([new THREE.Vector3(x, 0.08, -8.6), new THREE.Vector3(x, 0.08, -7.4), new THREE.Vector3(0, 0.08, -7.4)]);       // desk -> tower
+  dock.add(cyl(0.7, 0.55, solid(0x2a2a3a), x, 0.28, -8.4, 16)); dock.add(cyl(0.75, 0.1, glow(col), x, 0.58, -8.4, 16));          // the resident's stool
+  dock.add(box(2.2, 0.12, 0.8, solid(0x0b0716), x - 0.2, 0.56, -9.7)); dock.add(box(2.0, 0.04, 0.6, glow(new THREE.Color(col).multiplyScalar(0.3).getHex()), x - 0.2, 0.64, -9.7));   // keyboard
+  dock.add(cyl(0.05, 1.6, solid(0x8a90a8), x + 1.25, 1.05, -10.0, 8));   // mic stand
+  { const m = new THREE.Mesh(new THREE.SphereGeometry(0.2, 10, 8), solid(0x2a2a3a)); m.position.set(x + 1.25, 1.9, -10.0); dock.add(m); }
+  DOCK_DESKS.push(new THREE.Vector3(x, 0.6, -8.4));                                               // where its resident sits, facing its screen
 }
 const deskOf = { n: 0 };
 const DISTRICT = (key) => (BUILDINGS[key] && BUILDINGS[key].board) || "downtown";
@@ -437,7 +441,7 @@ function addResident(c, i, robot) {
   const waiting = c.status === "waiting_at_gate";
   const debating = IN_SESSION && c.status === "active" && c.building === "research-team";      // the Research Team gathers at the round table to argue and vote
   const tag = document.createElement("div"); tag.className = "bubble"; tag.style.setProperty("--c", c.colour); tag.dataset.d = DISTRICT(c.building); if (tag.dataset.d !== SHOWING) tag.style.visibility = "hidden";
-  const lounging = !debating && c.status === "active" && LOUNGE.includes(c.id) && DISTRICT(c.building) !== "alley";                // off duty, taking a resist in the smoke club
+  const lounging = !debating && !!c._lounge;                // off duty, taking a resist in the smoke club
   const sym = debating ? "✋" : lounging ? "☁" : bubbleFor(c);
   tag.innerHTML = (sym ? "<i>" + sym + "</i>" : "") + (c.name ? "<b>" + c.name.replace(/[<>&]/g, "") + "</b>" : "");
   document.body.appendChild(tag);
@@ -454,7 +458,8 @@ function addResident(c, i, robot) {
   }
   const w = { g, c, mixer, actions, waiting, debating, lounge, colour, tag, now: "", t: Math.random() * 2, offset: (i % 5 - 2) * 0.7,
               speed: c.status === "active" ? 0.035 + Math.random() * 0.02 : 0,
-              path: DISTRICT(c.building) === "docks" && !lounging ? DOCK_DESKS[deskOf.n++ % DOCK_DESKS.length] : paths[c.building === "workshop" ? "town-hall" : c.building] };   // a Docks resident walks between its desk and the tower   // the Workshop IS the centre, so its resident walks to Town Hall and back
+              desk: DISTRICT(c.building) === "docks" && !lounging && c.status === "active" ? DOCK_DESKS[deskOf.n++ % DOCK_DESKS.length] : null,   // a working Docks resident sits at its mixing desk
+              path: paths[c.building === "workshop" ? "town-hall" : c.building] };   // a Docks resident walks between its desk and the tower   // the Workshop IS the centre, so its resident walks to Town Hall and back
   if (waiting) {
     const q = walkers.filter(x => x.waiting).length;
     g.position.set(B.gate.x + 9 + (q % 3) * 2.4, 0, B.gate.z - 4.4 + Math.floor(q / 3) * 2.6); g.rotation.y = -Math.PI / 2;
@@ -496,7 +501,14 @@ function showResident(c) {                                                 // ta
   document.getElementById("cardBody").innerHTML = residentCard(c); card.style.display = "block";
 }
 const everyone = SNAP.citizens.filter(c => c.kind === "resident" && BUILDINGS[c.building]);
-const people = everyone.filter(c => !c.asleep);                            // whoever is asleep is in its apartment in the DataSanctuary, not on the street
+// Jimm, 4 Oct: "the circuit board is for the active". Working residents are on the board; off shift they take a resist (6 seats per lounge) or are at home.
+const OFF = /^(Off shift|Off duty|Asleep|Benched|Resting)/i, working = c => !!c.working_on || !OFF.test(c.doing || "");
+const seatsTaken = {};
+const people = everyone.filter(c => !c.asleep).sort((a, b) => LOUNGE.includes(b.id) - LOUNGE.includes(a.id)).filter(c => {     // whoever is asleep is in its apartment in the DataSanctuary
+  if (c.status !== "active" || working(c) || (IN_SESSION && c.building === "research-team") || SNAP.paused || DISTRICT(c.building) === "alley") return true;
+  const room = DISTRICT(c.building) === "docks" ? "docks-resist" : "resist"; seatsTaken[room] = (seatsTaken[room] || 0) + 1;
+  return (c._lounge = seatsTaken[room] <= 6);                                // no seat left: home, off the board
+});
 load("robot").catch(() => null).then(robot => {
   people.forEach((c, i) => addResident(c, i, robot));
   const who = decodeURIComponent((location.hash.match(/who=([^&]+)/) || [])[1] || "").toLowerCase();       // a link can open one resident's card: .../city/#who=Zoe
@@ -579,6 +591,8 @@ function frame() {
         if (L.emote <= -2.2) L.emote = 9 + Math.random() * 9;
         play(w, L.emote < 0 && L.emote > -2.2 ? ["Yes", "ThumbsUp", "Wave"][Math.floor(w.offset * 10 + 30) % 3] : (w.actions.Sitting ? "Sitting" : "Idle"));
       }
+    } else if (w.desk) {                                                    // at the mixing desk: seated, facing its screen
+      w.g.position.copy(w.desk); w.g.rotation.y = Math.PI; play(w, w.actions.Sitting ? "Sitting" : "Idle");
     } else if (w.waiting || w.debating || !w.path || !w.speed || stopped) {
       play(w, (w.waiting && Math.sin(now * 0.35 + w.offset * 3) > 0.93) || (w.debating && Math.sin(now * 0.6 + w.t * 9) > 0.6) ? "Wave" : "Idle");     // a wave at the table is a raised hand
     } else {
