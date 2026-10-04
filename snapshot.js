@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791131814,
+ "generated_at": 1791132125,
  "paused": false,
  "citizens": [
   {
@@ -981,7 +981,7 @@ window.SNAPSHOT = {
    "status": "active",
    "working_on": "",
    "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
+   "mood": "intrigued",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 35,
