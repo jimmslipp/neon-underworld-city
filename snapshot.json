@@ -1,5 +1,5 @@
 {
- "generated_at": 1791143559,
+ "generated_at": 1791143666,
  "paused": false,
  "citizens": [
   {
@@ -160,9 +160,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
@@ -181,9 +181,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -223,13 +223,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 6 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 6,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,13 +286,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 9 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 9,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Security"
   },
@@ -832,9 +832,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 28,
@@ -1485,16 +1485,16 @@
  ],
  "proclamations": [
   {
-   "at": "04 Oct 2026 20:42",
-   "text": "Bridge on my phone: normal layout for phone, PC is Star Trek. The Bridge should be our own AI, as powerful as a paid model, free: we are a swarm team, ultra powerful together, and everything makes our own AI stronger. Ideas and processes th"
-  },
-  {
    "at": "04 Oct 2026 21:03",
    "text": "Agree with the new tabs. Use Qwen during down periods, when RAM on the PC isn't needed: free and local, tasks for her queued for low-RAM periods. The aim is the level of a paid subscription without spending the money, at least until we make"
   },
   {
    "at": "04 Oct 2026 21:10",
    "text": "Use free image generation until we get ChatGPT. The aim should be subscription costs now, before the print head or at the same time. Ideas stagnate, so they need to be pushed until they can't anymore or are finished."
+  },
+  {
+   "at": "04 Oct 2026 21:54",
+   "text": "Run this like a business. Focus on the top 3 ideas only: all AI focus on them, none idle; they use their allocated time and tokens for work, then relax when off shift, efficiently and fairly. If it's the good idea, social media makes posts "
   }
  ],
  "lounge": [
