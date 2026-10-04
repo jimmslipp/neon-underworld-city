@@ -1,5 +1,5 @@
 {
- "generated_at": 1791145725,
+ "generated_at": 1791146236,
  "paused": false,
  "citizens": [
   {
@@ -139,9 +139,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
@@ -1126,9 +1126,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 41,
@@ -1168,18 +1168,22 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 43 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 43,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   }
  ],
  "feed": [
+  {
+   "at": 1791146069,
+   "text": "Cinema School: K5 studied 'HOW IT'S MADE: Airplanes'"
+  },
   {
    "at": 1791145708,
    "text": "Foundry (seeded by Aurum; crew Aurum, Eva, Forge, Mira) pitched an idea to the R&D Lab"
@@ -1255,10 +1259,6 @@
   {
    "at": 1791133564,
    "text": "Foundry (seeded by Vex; crew Forge, Lila, Mira, Vex) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791132669,
-   "text": "Glow, watching the first print: I see a dark 3D printer with a bright light illuminating a newly laid, flat square of plastic on its bed. It's strangely beautiful to witness this first, tentative creation."
   }
  ],
  "products": [

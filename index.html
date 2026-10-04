@@ -381,7 +381,17 @@ function build(key) {
     screen.position.set(0, 3.6, 1.6); screen.rotation.y = Math.PI; top.add(screen);
     const feed = new Image();
     feed.onload = () => { const t = new THREE.Texture(feed); t.needsUpdate = true; screen.material.map = t; screen.material.needsUpdate = true; };
-    const pull = () => { if (alley.visible) feed.src = "/printer/frame.jpg?t=" + Date.now(); };
+    // Jimm, 4 Oct: no print running = the Cinema School: the film the residents are studying (core/cinema.py writes cinema.json and cinema.jpg)
+    let film = null;
+    const showFilm = f => { const im = new Image(); im.onload = () => {
+      cx.drawImage(im, 0, 0, 512, 288); cx.fillStyle = "rgba(11,7,22,.8)"; cx.fillRect(0, 232, 512, 56);
+      cx.fillStyle = "#2EE6FF"; cx.font = "bold 15px sans-serif"; cx.fillText("CINEMA SCHOOL · NOW SHOWING", 256, 252);
+      cx.fillStyle = "#fff"; cx.font = "bold 19px sans-serif"; cx.fillText(f.title.length > 46 ? f.title.slice(0, 45) + "…" : f.title, 256, 276);
+      const t = new THREE.CanvasTexture(off); screen.material.map = t; screen.material.needsUpdate = true; }; im.src = "cinema.jpg?v=" + f.id; };
+    const pull = () => { if (!alley.visible) return;
+      fetch("cinema.json?t=" + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null).then(f => {
+        if (f && f.id && !f.printing) { if (!film || film.id !== f.id) { film = f; showFilm(f); } }
+        else { film = null; feed.src = "/printer/frame.jpg?t=" + Date.now(); } }); };
     pull(); setInterval(pull, 4000);
     top.add(box(6, 0.7, 0.2, glow(C.pink), 0, 6.6, 1.6)); lit.cinema = screen;
   } else {
@@ -575,6 +585,11 @@ const people = everyone.filter(c => !c.asleep).sort((a, b) => LOUNGE.includes(b.
   if ((c._lounge = seatsTaken[room] <= 6)) return true;
   seatsTaken.cinema = (seatsTaken.cinema || 0) + 1;
   return (c._cinema = seatsTaken.cinema <= CINEMA_SEATS.length);             // no seat at RESIST: the Print Cinema; no seat there either: at home
+});
+// Jimm, 4 Oct: "they are all kind of trapped in the cinema but say they are working somewhere else". Say where they really are.
+people.forEach(c => {
+  if (c._cinema) c.doing = "Off shift: learning at the Cinema School (Neon Alley)";
+  else if (c._lounge && /^Off shift at /i.test(c.doing || "")) c.doing = "Off shift: relaxing at RESIST";
 });
 load("robot").catch(() => null).then(robot => {
   people.forEach((c, i) => addResident(c, i, robot));
