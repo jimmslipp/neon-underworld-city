@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791149930,
+ "generated_at": 1791150568,
  "paused": false,
  "citizens": [
   {
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "witty",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 19,
@@ -769,9 +769,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 26,
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "relax",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 31,
@@ -1181,6 +1181,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791150373,
+   "text": "Foundry (seeded by Vex; crew Forge, Glow, Vex, Zora Xu) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791149677,
    "text": "Cinema School: Folio studied 'Easiest Way To Get Your First 5 Clients [if you have no budget]'"
   },
@@ -1255,10 +1259,6 @@ window.SNAPSHOT = {
   {
    "at": 1791139594,
    "text": "Foundry (seeded by red; crew Forge, Lumina Valtor, Zora Xu, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791139081,
-   "text": "Jimm pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1678,6 +1678,13 @@ window.SNAPSHOT = {
    "title": "Cybersecurity & Compliance Suite for Spanish Bars",
    "stage": "pitch",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Digital Armor for Spanish Bars",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
