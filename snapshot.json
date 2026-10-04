@@ -1,5 +1,5 @@
 {
- "generated_at": 1791147702,
+ "generated_at": 1791148561,
  "paused": false,
  "citizens": [
   {
@@ -538,13 +538,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -601,9 +601,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "chill",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 20,
@@ -1181,6 +1181,10 @@
  ],
  "feed": [
   {
+   "at": 1791148544,
+   "text": "Foundry (seeded by Alana; crew Alana, Ellie, Forge, Lila) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791147684,
    "text": "Foundry (seeded by Lumina Valtor; crew Fiona Quill, Forge, Lumina Valtor, red) pitched an idea to the R&D Lab"
   },
@@ -1255,10 +1259,6 @@
   {
    "at": 1791136457,
    "text": "Luminara, Aurum, Rexton Vance took a resist in the smoke club"
-  },
-  {
-   "at": 1791136272,
-   "text": "Foundry (seeded by Mira; crew Byte, Forge, Lila, Mira) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1815,6 +1815,13 @@
    "title": "Roguelike Pachinko Digital Kit with Verified Print Add-On",
    "stage": "pitch",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Secure Compliance Platform for Spanish Bars",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
