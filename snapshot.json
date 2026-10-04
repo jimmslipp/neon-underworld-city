@@ -1,5 +1,5 @@
 {
- "generated_at": 1791125128,
+ "generated_at": 1791125750,
  "paused": false,
  "citizens": [
   {
@@ -1105,6 +1105,10 @@
  ],
  "feed": [
   {
+   "at": 1791125711,
+   "text": "Foundry (seeded by Aurum; crew Alana, Aurum, Fiona Quill, Forge) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791125112,
    "text": "Foundry (seeded by Byte; crew Byte, Forge, Lumina Valtor, Vex) pitched an idea to the R&D Lab"
   },
@@ -1179,10 +1183,6 @@
   {
    "at": 1791112848,
    "text": "The new kit is in: 9 residents moved onto their new brains (DeepSeek-R1 14B, Gemma 3 12B, Ministral 3 8B, Qwen2.5-Coder 14B)."
-  },
-  {
-   "at": 1791112839,
-   "text": "Lumina Valtor, Zoe, Luminara took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1409,16 +1409,16 @@
  ],
  "proclamations": [
   {
-   "at": "04 Oct 2026 12:48",
-   "text": "Can we give Higgsfield AI to the research team, and see if we can make money with it. And the research team should look into social media and its benefit to the robot fund. I build a lot of arcade equipment: if they can build and edit the s"
-  },
-  {
    "at": "04 Oct 2026 13:21",
    "text": "Change to the new kit, delete the old and welcome the new. Set them where they should be, and ask the new Docks team to design and build their accommodation as a first district task. Then we will watch their output, and advise and correct w"
   },
   {
    "at": "04 Oct 2026 15:47",
    "text": "Can you give this to the team please, using ElevenLabs in the city to create us a voice pack. [Context added by Solder, 4 Oct: 'this' is Solder's speaking voice on the Bridge. Jimm wants a smooth, natural, human-sounding Australian voice fo"
+  },
+  {
+   "at": "04 Oct 2026 16:46",
+   "text": "The main one I want to suggest for the team to research is making ChatGPT plugins. That's something I myself saw and know will give us some traction. [Context added by Solder, 4 Oct: the original ChatGPT plugins were retired by OpenAI in 20"
   }
  ],
  "lounge": [
@@ -1485,6 +1485,13 @@
   },
   {
    "title": "Custom 3D-Printed Arcade Cabinet Parts with Retro Aesthetics",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Custom 3D-Printed Promotional Items for Spanish Small Businesses",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
