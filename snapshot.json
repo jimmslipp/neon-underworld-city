@@ -1,5 +1,5 @@
 {
- "generated_at": 1791101613,
+ "generated_at": 1791102034,
  "paused": false,
  "citizens": [
   {
@@ -1065,6 +1065,10 @@
  ],
  "feed": [
   {
+   "at": 1791102003,
+   "text": "Foundry (seeded by Zoe; crew Byte, Forge, Nebula, Zoe) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791100969,
    "text": "Foundry (seeded by Lila; crew Byte, Forge, Lila, Zoe) pitched an idea to the R&D Lab"
   },
@@ -1139,10 +1143,6 @@
   {
    "at": 1791088948,
    "text": "NeonNova, Lila, Vex took a resist in the smoke club"
-  },
-  {
-   "at": 1791087017,
-   "text": "Elysia, Luminara, Lumina Valtor took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1430,6 +1430,13 @@
    "title": "Kinetic Echo: Responsive Art Installation",
    "stage": "pitch",
    "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Live-Stream 3D Print Shop with Premium Add-Ons",
+   "stage": "pitch",
+   "status": "killed",
    "yes": 0,
    "no": 0
   },
