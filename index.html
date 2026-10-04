@@ -177,7 +177,16 @@ function build(key) {
   const pad = shade(new THREE.Mesh(new THREE.CylinderGeometry(b.r, b.r + 0.5, PAD, 6), solid(0x24184a))); pad.position.y = PAD / 2; g.add(pad);
   const rim = new THREE.Mesh(new THREE.CylinderGeometry(b.r + 0.05, b.r + 0.05, 0.12, 6, 1, true), glow(neon)); rim.position.y = PAD + 0.02; g.add(rim);
   const top = new THREE.Group(); top.position.y = PAD; g.add(top);
-  if (b.kind === "cpu") {
+  const homes = key === "docks" && SNAP.docks_homes && (SNAP.docks_homes.parts || []).length ? SNAP.docks_homes : null;
+  if (homes) {                                                           // the Docks team's own design (core/docks_homes.py), built exactly as Forge merged it
+    const s = b.r / 3.5;
+    for (const p of homes.parts) {
+      const col = new THREE.Color(p.colour).getHex(), mat = p.glow ? glow(col) : solid(col, alive ? 0x060612 : 0);
+      if (p.shape === "cylinder") top.add(cyl(p.w / 2 * s, p.h * s, mat, p.x * s, (p.y + p.h / 2) * s, p.z * s));
+      else if (p.shape === "light") { const m = new THREE.Mesh(new THREE.SphereGeometry(Math.max(p.w, 0.2) / 2 * s, 12, 10), glow(col)); m.position.set(p.x * s, (p.y + p.h / 2) * s, p.z * s); top.add(m); }
+      else top.add(box(p.w * s, p.h * s, p.d * s, mat, p.x * s, (p.y + p.h / 2) * s, p.z * s));
+    }
+  } else if (b.kind === "cpu") {
     top.add(box(9, 1.8, 9, dark, 0, 0.9, 0)); top.add(box(6.2, 0.3, 6.2, glow(alive ? C.pink : C.dim), 0, 1.95, 0)); top.add(box(4.4, 0.34, 4.4, solid(0x120a26), 0, 1.96, 0));
     for (let i = -4; i <= 4; i += 1) for (const s of [-1, 1]) { top.add(box(0.3, 0.45, 0.9, glow(C.amber), i, 0.22, s * 4.9)); top.add(box(0.9, 0.45, 0.3, glow(C.amber), s * 4.9, 0.22, i)); }
   } else if (b.kind === "gpu") {
@@ -270,7 +279,7 @@ function build(key) {
   city.add(g);
   trace(key, broken ? 0x66283a : alive ? C.cyan : C.dim, alive);
   const label = document.createElement("div"); label.className = "label";
-  label.innerHTML = b.name + (broken ? "<small>out of order</small>" : key === "debate-room" && IN_SESSION ? '<small style="color:#FFB020">in session</small>' : "");
+  label.innerHTML = (homes ? homes.name : b.name) + (broken ? "<small>out of order</small>" : key === "debate-room" && IN_SESSION ? '<small style="color:#FFB020">in session</small>' : "");
   document.body.appendChild(label); g.userData.label = label;
   g.userData.height = PAD + ({ capacitor: 7.6, tower: 11.6, gpu: 4.6, ram: 3.9, coil: 5.0, socket: 6.6, crystal: 4.6, lounge: 8.0, debate: 4.4, harddrive: 13.4 }[b.kind] || 3.0);
   built.push(g); return g;
