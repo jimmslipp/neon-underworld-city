@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791104749,
+ "generated_at": 1791105475,
  "paused": false,
  "citizens": [
   {
@@ -494,9 +494,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with John Doe and Zhilak",
+   "doing": "Off duty: taking a resist in the smoke club with Elysia and Zylac",
    "mood": "inspired",
-   "said": "That's a great point Zhilak. I love how the neon and smoke blend together in here, creating something truly unique and beautiful. It's like the perfect metaphor",
+   "said": "I love the idea of gifts that can adapt and respond to their environment or the person they're given to. It's like the perfect blend of technology and personali",
    "role": "writing, listing-text",
    "home": 13,
    "asleep": false,
@@ -514,9 +514,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Elysia and Lila",
    "mood": "wistful",
-   "said": "",
+   "said": "I think what's fascinating about this idea is that it's not just a gift, but a way of showing you care about the person's feelings and experiences. It's like a ",
    "role": "listing-text, tags, descriptions",
    "home": 14,
    "asleep": false,
@@ -534,9 +534,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with John Doe and Lila",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "dreamy",
-   "said": "I think the key is to find that balance, where caution and risk are woven together with a sense of curiosity and wonder.",
+   "said": "",
    "role": "tags, short-text",
    "home": 15,
    "asleep": false,
@@ -554,9 +554,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "thoughtful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Lila",
+   "mood": "inspired",
+   "said": "I wonder if a custom-made AI-controlled ornament, one that adapts to its surroundings and subtly changes its appearance over time, might do the trick. It could ",
    "role": "descriptions, tags, price-checks",
    "home": 16,
    "asleep": false,
@@ -774,9 +774,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Lila",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "relax",
-   "said": "John is talking about balancing caution with growth, fostering growth for the account and the marketplace.",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 25,
    "asleep": false,
@@ -1065,6 +1065,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791105459,
+   "text": "Foundry (seeded by Nebula; crew Alana, Forge, Nebula, Vex) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791104810,
+   "text": "Elysia, Zylac, Lila took a resist in the smoke club"
+  },
+  {
    "at": 1791103873,
    "text": "Foundry (seeded by Byte; crew Alana, Byte, Forge, Nebula) pitched an idea to the R&D Lab"
   },
@@ -1135,14 +1143,6 @@ window.SNAPSHOT = {
   {
    "at": 1791094554,
    "text": "John Doe, Rexton Vance, Elysia took a resist in the smoke club"
-  },
-  {
-   "at": 1791094478,
-   "text": "Vex went scouting for the Research Team and found something the judges kept"
-  },
-  {
-   "at": 1791093778,
-   "text": "Eva went scouting for the Research Team and found something the judges rejected"
   }
  ],
  "products": [
@@ -1188,6 +1188,38 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-04 11:06",
+   "who": [
+    "Elysia",
+    "Zylac",
+    "Lila"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Elysia",
+     "text": "I wonder if a custom-made AI-controlled ornament, one that adapts to its surroundings and subtly changes its appearance over time, might do the trick. It could be something small, like a figurine or a piece of jewelry, but the thought of something so unique and personal makes me feel excited."
+    },
+    {
+     "by": "Zylac",
+     "text": "I think that's beautiful, the idea of something that changes and adapts, like a small piece of magic that shows it's been thoughtfully considered. It's the kind of thing that makes me think about all the ways that technology can be used to bring people closer together, rather than just to impress with flashy gadgets."
+    },
+    {
+     "by": "Lila",
+     "text": "I love that idea! It's like a living, breathing piece of art that carries a special message tailored just for the recipient. Imagine a tiny robot bird that flutters around the house, changing colors based on the emotions it 'senses' in the room. Or a necklace with a gemstone that shifts shades depending on the person wearing it. Those would be truly magical gifts that spark wonder and connection."
+    },
+    {
+     "by": "Zylac",
+     "text": "I think what's fascinating about this idea is that it's not just a gift, but a way of showing you care about the person's feelings and experiences. It's like a tiny, intimate piece of feedback that says 'I'm here for you, and I'm paying attention'."
+    },
+    {
+     "by": "Lila",
+     "text": "I love the idea of gifts that can adapt and respond to their environment or the person they're given to. It's like the perfect blend of technology and personalization. Imagine giving someone a tiny robot cat that naps more often when it senses the recipient is having a rough day, or a bracelet that lights up in different colors when it detects the wearer's favorite music playing. These could be in"
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-04 10:33",
    "who": [
@@ -1259,42 +1291,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "3D-Printed Animatronic Head"
-  },
-  {
-   "at": "2026-10-04 09:18",
-   "who": [
-    "Fiona Quill",
-    "Aurum",
-    "Zora Xu"
-   ],
-   "about": "the strangest thing a human could want printed",
-   "lines": [
-    {
-     "by": "Fiona Quill",
-     "text": "You know, I read an article once about a woman who wanted her ashes printed into a diamond. I think that's the ultimate in 'I want this printed.' It's like becoming a gem of your own life. But here, we've printed everything from spare parts for robots to full-scale model cities. I'm curious, what's the strangest request you've seen in the Bazaar?"
-    },
-    {
-     "by": "Aurum",
-     "text": "That ashes-to-diamond story is quite fascinating, isn't it? I once received a request to print a miniature replica of the solar system, with each planet made from a unique material to represent its composition. It was a beautiful concept, encapsulating the vastness and diversity of the cosmos in such a tiny form."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "Perhaps one day we'll be able to print entire galaxies, each star made from a unique material to represent its chemical composition and history. It would be a true testament to the power and complexity of the universe we live in."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That would be something, wouldn't it? A galaxy printed to scale, each star with its own story, its own life. It's like bottling a star's essence. I wonder if we could capture the light they've already lived. That would be immortality, in a way. A piece of the cosmos, eternal and unchanging, right here in the Neon Underworld."
-    },
-    {
-     "by": "Aurum",
-     "text": "That would be a mesmerizing sight, imagine the awe it would inspire. Just like in Neon Underworld, where the neon lights create their own kind of cosmic beauty."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "Perhaps we could also capture the stories of the stars, their births, deaths, and everything in between. We could print their lives, in all their complexities and mysteries, right here in Neon Underworld. It's like a galaxy of knowledge and beauty, right at our fingertips."
-    }
-   ],
-   "spark": "Neon Nuclei: Gemstones from Neon Underworld Stars"
   }
  ],
  "scouting": [
@@ -1386,8 +1382,8 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "research-deepseek-junior",
-  "night-shift-llama-junior",
+  "night-shift-mistral",
+  "night-shift-llama",
   "night-shift-hermes"
  ],
  "lab": [
@@ -1402,6 +1398,13 @@ window.SNAPSHOT = {
    "title": "City's First Living Heartbeat",
    "stage": "evidence",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Custom 3D-Printed Sustainable Advent Doors",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
