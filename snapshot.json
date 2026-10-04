@@ -1,5 +1,5 @@
 {
- "generated_at": 1791131528,
+ "generated_at": 1791131814,
  "paused": false,
  "citizens": [
   {
@@ -20,7 +20,8 @@
    "role": "renders",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "chatgpt-holo-studio",
@@ -40,7 +41,8 @@
    "role": "product-images, mockups",
    "home": 1,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Holo Studio"
   },
   {
    "id": "claude-workshop",
@@ -60,7 +62,8 @@
    "role": "code, openscad, listings",
    "home": 2,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Leadership"
   },
   {
    "id": "council-k5",
@@ -80,7 +83,8 @@
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": true,
-   "waved": ""
+   "waved": "",
+   "team": "Leadership"
   },
   {
    "id": "creality-print-shop",
@@ -100,7 +104,8 @@
    "role": "physical-prints",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "gate-canva",
@@ -120,7 +125,8 @@
    "role": "by-hand",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "gate-cerebras",
@@ -140,7 +146,8 @@
    "role": "",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "gate-cloudflare-workers-ai",
@@ -160,7 +167,8 @@
    "role": "critic, voter, research-legwork",
    "home": 4,
    "asleep": true,
-   "waved": ""
+   "waved": "",
+   "team": "Research & Development"
   },
   {
    "id": "gate-deepseek",
@@ -180,7 +188,8 @@
    "role": "critic, voter, research-legwork",
    "home": 5,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Research & Development"
   },
   {
    "id": "gate-elevenlabs",
@@ -200,7 +209,8 @@
    "role": "",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "gate-gemini",
@@ -220,7 +230,8 @@
    "role": "research-lead, proposals, long-documents",
    "home": 6,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Research & Development"
   },
   {
    "id": "gate-github-models",
@@ -240,7 +251,8 @@
    "role": "",
    "home": 7,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "gate-glm",
@@ -260,7 +272,8 @@
    "role": "research, critic, planning",
    "home": 8,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Research & Development"
   },
   {
    "id": "gate-groq",
@@ -280,7 +293,8 @@
    "role": "fast-worker, short-text, checks",
    "home": 9,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Research & Development"
   },
   {
    "id": "gate-higgsfield",
@@ -300,7 +314,8 @@
    "role": "by-hand",
    "home": 10,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Social Content"
   },
   {
    "id": "gate-ideogram",
@@ -320,7 +335,8 @@
    "role": "by-hand",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "gate-jev",
@@ -340,7 +356,8 @@
    "role": "decisions, critic, voter",
    "home": 11,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Research & Development"
   },
   {
    "id": "gate-leonardo",
@@ -360,7 +377,8 @@
    "role": "by-hand",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "gate-meshy",
@@ -380,7 +398,8 @@
    "role": "by-hand",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "gate-mistral-api",
@@ -400,7 +419,8 @@
    "role": "",
    "home": 12,
    "asleep": true,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "gate-openrouter",
@@ -420,7 +440,8 @@
    "role": "critic, voter, research-legwork",
    "home": 13,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Research & Development"
   },
   {
    "id": "gate-perplexity",
@@ -440,7 +461,8 @@
    "role": "",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "gate-suno",
@@ -460,7 +482,8 @@
    "role": "by-hand",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "holo-granite-vision",
@@ -480,7 +503,8 @@
    "role": "vision, document-reading",
    "home": 14,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Holo Studio"
   },
   {
    "id": "holo-moondream",
@@ -500,7 +524,8 @@
    "role": "vision, picture-checks",
    "home": 15,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Holo Studio"
   },
   {
    "id": "library-folio",
@@ -520,7 +545,8 @@
    "role": "transcripts, filing, training-data",
    "home": 16,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Research & Development"
   },
   {
    "id": "night-shift-gemma3",
@@ -540,7 +566,8 @@
    "role": "descriptions, translation",
    "home": 17,
    "asleep": true,
-   "waved": ""
+   "waved": "",
+   "team": "Listings & Sales"
   },
   {
    "id": "night-shift-hermes",
@@ -560,7 +587,8 @@
    "role": "writing, listing-text",
    "home": 18,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Social Content"
   },
   {
    "id": "night-shift-llama",
@@ -580,7 +608,8 @@
    "role": "listing-text, tags, descriptions",
    "home": 19,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Listings & Sales"
   },
   {
    "id": "night-shift-llama-junior",
@@ -600,7 +629,8 @@
    "role": "tags, short-text",
    "home": 20,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Listings & Sales"
   },
   {
    "id": "night-shift-mistral",
@@ -620,7 +650,8 @@
    "role": "descriptions, tags, price-checks",
    "home": 21,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Listings & Sales"
   },
   {
    "id": "night-shift-qwen",
@@ -640,7 +671,8 @@
    "role": "research, listing-text, translation",
    "home": 22,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Listings & Sales"
   },
   {
    "id": "night-shift-smollm2",
@@ -660,7 +692,8 @@
    "role": "tags, short-text",
    "home": 23,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Listings & Sales"
   },
   {
    "id": "night-shift-zephyr",
@@ -680,7 +713,8 @@
    "role": "writing, descriptions",
    "home": 24,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Social Content"
   },
   {
    "id": "openscad-blueprint-office",
@@ -700,7 +734,8 @@
    "role": "parametric-design, stl-export",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "piper-radio-tower",
@@ -720,7 +755,8 @@
    "role": "voice",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "recruit-granite",
@@ -740,7 +776,8 @@
    "role": "licence-notes, summaries",
    "home": 25,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Recruitment & Compliance"
   },
   {
    "id": "recruit-granite-senior",
@@ -760,7 +797,8 @@
    "role": "licence-notes, checklists, translation",
    "home": 26,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Recruitment & Compliance"
   },
   {
    "id": "recruit-openchat",
@@ -780,7 +818,8 @@
    "role": "candidate-research, writing",
    "home": 27,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Recruitment & Compliance"
   },
   {
    "id": "recruit-phi35",
@@ -800,7 +839,8 @@
    "role": "summaries, licence-notes",
    "home": 28,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Recruitment & Compliance"
   },
   {
    "id": "recruit-phi4-mini",
@@ -820,7 +860,8 @@
    "role": "candidate-research, summaries, checklists",
    "home": 29,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Recruitment & Compliance"
   },
   {
    "id": "research-deepseek-junior",
@@ -840,7 +881,8 @@
    "role": "quick-checks, maths",
    "home": 30,
    "asleep": true,
-   "waved": ""
+   "waved": "",
+   "team": "Strategy & Pricing"
   },
   {
    "id": "research-deepseek-r1",
@@ -860,7 +902,8 @@
    "role": "reasoning, proposals, risk-checks",
    "home": 31,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Strategy & Pricing"
   },
   {
    "id": "research-llama31",
@@ -880,7 +923,8 @@
    "role": "proposals, research",
    "home": 32,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Strategy & Pricing"
   },
   {
    "id": "research-mathstral",
@@ -900,7 +944,8 @@
    "role": "maths, pricing, print-cost-sums",
    "home": 33,
    "asleep": true,
-   "waved": ""
+   "waved": "",
+   "team": "Strategy & Pricing"
   },
   {
    "id": "research-mistral-nemo",
@@ -920,7 +965,8 @@
    "role": "proposals, market-notes, spanish",
    "home": 34,
    "asleep": true,
-   "waved": ""
+   "waved": "",
+   "team": "Social Content"
   },
   {
    "id": "research-qwen3",
@@ -940,7 +986,8 @@
    "role": "reasoning, research, translation",
    "home": 35,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Strategy & Pricing"
   },
   {
    "id": "research-qwen3-senior",
@@ -960,7 +1007,8 @@
    "role": "reasoning, proposals, translation",
    "home": 36,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Strategy & Pricing"
   },
   {
    "id": "research-wizardlm",
@@ -980,7 +1028,8 @@
    "role": "research, proposals",
    "home": 37,
    "asleep": true,
-   "waved": ""
+   "waved": "",
+   "team": "Strategy & Pricing"
   },
   {
    "id": "telegram-payphone",
@@ -1000,7 +1049,8 @@
    "role": "approvals, alerts",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "tripo-fabricator",
@@ -1020,7 +1070,8 @@
    "role": "text-to-3d, image-to-3d",
    "home": 0,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": ""
   },
   {
    "id": "workshop-codellama",
@@ -1040,7 +1091,8 @@
    "role": "code-review, scripts",
    "home": 38,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Social Content"
   },
   {
    "id": "workshop-openclaw",
@@ -1060,7 +1112,8 @@
    "role": "apprentice, critic, voter",
    "home": 39,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Engineering Workshop"
   },
   {
    "id": "workshop-qwen-coder",
@@ -1080,7 +1133,8 @@
    "role": "openscad-help, code-review",
    "home": 40,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Engineering Workshop"
   },
   {
    "id": "workshop-qwen-coder-junior",
@@ -1100,7 +1154,8 @@
    "role": "code-snippets, openscad-help",
    "home": 41,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Engineering Workshop"
   },
   {
    "id": "workshop-qwen3-14b",
@@ -1120,7 +1175,8 @@
    "role": "shaping, critic, planning",
    "home": 42,
    "asleep": false,
-   "waved": ""
+   "waved": "",
+   "team": "Engineering Workshop"
   }
  ],
  "feed": [
