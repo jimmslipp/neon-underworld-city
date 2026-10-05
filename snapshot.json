@@ -1,5 +1,5 @@
 {
- "generated_at": 1791202453,
+ "generated_at": 1791203112,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -643,7 +643,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Forge and Vora",
    "mood": "curious",
    "said": "Maybe the city's heartbeat isn't just in its underbelly. It might also pulse in the neon glow above ground, echoing tales of tech and tenacity. Neon Underworld:",
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "musing",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791202769,
+   "text": "Foundry (seeded by Vex; crew Aurum, Forge, Vex, red) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791201778,
    "text": "Forge, Zylac, Vora took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791187878,
    "text": "Foundry (seeded by Elysia; crew Elysia, Fiona Quill, Forge, Nebula) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791186843,
-   "text": "Vora, Ellie, Byte took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1952,6 +1952,13 @@
    "title": "Roguelike Pachinko Digital Kit with Verified Print Add-On",
    "stage": "pitch",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Rwanda Women Farmer Storytelling Toys",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
