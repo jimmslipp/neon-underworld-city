@@ -1,5 +1,5 @@
 {
- "generated_at": 1791195782,
+ "generated_at": 1791196271,
  "paused": false,
  "citizens": [
   {
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -706,7 +706,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Byte and John Doe",
    "mood": "musing",
    "said": "That flickering neon sign in the corner of El Rio—everyone ignores it, but I swear it's been blinking for weeks. Maybe it's time someone finally wires it proper",
@@ -874,13 +874,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791196134,
+   "text": "HGA check-up written by Vera Quill"
+  },
+  {
    "at": 1791195339,
    "text": "Zoe, Byte, John Doe took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791181743,
    "text": "Foundry (seeded by Mira; crew Elysia, Forge, Mira, Nebula) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791181187,
-   "text": "Foundry (seeded by Ellie; crew Aurum, Ellie, Forge, Lila) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
