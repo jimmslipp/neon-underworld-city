@@ -1,5 +1,5 @@
 {
- "generated_at": 1791239251,
+ "generated_at": 1791239853,
  "paused": false,
  "citizens": [
   {
@@ -559,7 +559,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Alana and Zora Xu",
    "mood": "contemplative",
    "said": "A subscription box… that’s clever, especially with the digital/physical blend. I wonder, though, if the real gift isn’t the *thing* itself, but the act of remem",
@@ -580,13 +580,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 18 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -748,7 +748,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Alana and red",
    "mood": "inspired",
    "said": "What if it was a subscription box that curates monthly items, each representing different phases of their life, blending digital and physical elements? Each box",
