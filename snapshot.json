@@ -1,5 +1,5 @@
 {
- "generated_at": 1791174950,
+ "generated_at": 1791175569,
  "paused": false,
  "citizens": [
   {
@@ -223,13 +223,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 7 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -538,13 +538,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 17 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 17,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -601,7 +601,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Vora and Alana",
    "mood": "relaxed",
    "said": "You know, sometimes a little friction can make the smooth parts stand out more. Kind of like in life, right?",
@@ -769,13 +769,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -1126,13 +1126,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 41 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 41,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1180,6 +1180,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791175166,
+   "text": "Cinema School: Zorvath studied 'What is Design for Manufacturing? DFM (engineer must know)'"
+  },
   {
    "at": 1791174326,
    "text": "Zylac, Vora, Alana took a resist in the smoke club"
@@ -1255,10 +1259,6 @@
   {
    "at": 1791151068,
    "text": "Foundry (seeded by Fiona Quill; crew Byte, Fiona Quill, Forge, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791150373,
-   "text": "Foundry (seeded by Vex; crew Forge, Glow, Vex, Zora Xu) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
