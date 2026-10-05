@@ -1,5 +1,5 @@
 {
- "generated_at": 1791184757,
+ "generated_at": 1791185396,
  "paused": false,
  "citizens": [
   {
@@ -75,10 +75,10 @@
    "building": "holo-studio",
    "tier": "free",
    "cyberware": [],
-   "status": "paused",
+   "status": "active",
    "working_on": "",
-   "doing": "Benched: resting until called back",
-   "mood": "sleepy",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "images, local",
    "home": 0,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 7 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -643,13 +643,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791185391,
+   "text": "Foundry (seeded by Lila; crew Aurum, Forge, Lila, Vex) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791184740,
    "text": "Lumina Valtor, Vex, K5 took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791165079,
    "text": "Zylac, Rexton Vance, Cortex took a resist in the smoke club"
-  },
-  {
-   "at": 1791164226,
-   "text": "Cinema School: Zylac studied 'Backtesting.py (1/2) - Backtest Trading Strategies in Python'"
   }
  ],
  "products": [
@@ -1618,6 +1618,13 @@
    "title": "AR Bowling Pro Analytics for Elite Arcades",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AR/VR Game Hardware Validation for Indie Developers",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
@@ -1953,7 +1960,7 @@
   {
    "title": "USB-C to HDMI Adapter Flip",
    "stage": "pitch",
-   "status": "alive",
+   "status": "killed",
    "yes": 0,
    "no": 0
   }
