@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791221684,
+ "generated_at": 1791222436,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -706,13 +706,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 24 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspiring",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -958,9 +958,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "satisfied",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791222417,
+   "text": "Foundry (seeded by Byte; crew Byte, Forge, Lila, Vex) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791220901,
    "text": "Aurum, Luna, Zorvath took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791204342,
    "text": "Foundry (seeded by Fiona Quill; crew Fiona Quill, Forge, Lila, Nebula) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791203863,
-   "text": "K5, Zhilak, Byte took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1664,6 +1664,13 @@ window.SNAPSHOT = {
    "title": "AI-Powered Compliance & Content Suite for Spanish E-Commerce",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI Sales Assistant for Spanish SMEs",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
