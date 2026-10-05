@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791181204,
+ "generated_at": 1791181923,
  "paused": false,
  "citizens": [
   {
@@ -223,9 +223,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -265,9 +265,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 23,
@@ -769,9 +769,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 26,
@@ -832,9 +832,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 29,
@@ -1181,6 +1181,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791181743,
+   "text": "Foundry (seeded by Mira; crew Elysia, Forge, Mira, Nebula) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791181187,
    "text": "Foundry (seeded by Ellie; crew Aurum, Ellie, Forge, Lila) pitched an idea to the R&D Lab"
   },
@@ -1255,10 +1259,6 @@ window.SNAPSHOT = {
   {
    "at": 1791156980,
    "text": "Cinema School: Lila studied 'Cold Calling For Beginners: A Step-by-Step Guide To Book Sales Meetings'"
-  },
-  {
-   "at": 1791156919,
-   "text": "Fiona Quill, Zylac, Zorvath took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1540,6 +1540,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "AI Compliance Blueprint for Spanish E-Commerce SMEs",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI Content Boost for Micro-Bars",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
