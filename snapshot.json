@@ -1,5 +1,5 @@
 {
- "generated_at": 1791193491,
+ "generated_at": 1791194016,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -1042,7 +1042,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Aurum and Lila",
    "mood": "wistful",
    "said": "Maybe the exoskeleton isn't about bending air—it's about rewriting the rules of the club itself, letting us move through the smoke like we're made of it, not ju",
@@ -1147,13 +1147,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 41 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791193768,
+   "text": "Cinema School: John Doe studied 'Take a look inside Empire Manufacturing's workshop'"
+  },
   {
    "at": 1791193238,
    "text": "Aurum, Lila, Vex took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791178825,
    "text": "Cinema School: Luminara studied 'How To Start An AI Automation Agency (Beginners Guide)'"
-  },
-  {
-   "at": 1791178079,
-   "text": "Cortex, Zylac, Lumi took a resist in the smoke club"
   }
  ],
  "products": [
