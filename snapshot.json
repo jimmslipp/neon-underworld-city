@@ -1,5 +1,5 @@
 {
- "generated_at": 1791210667,
+ "generated_at": 1791211676,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "musing",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -811,7 +811,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Glow and Forge",
    "mood": "curious",
    "said": "A hidden compartment is intriguing, Glow. Imagine it containing mini holographic projectors that project interactive 3D scenes or messages. That would add a who",
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791211658,
+   "text": "Foundry (seeded by red; crew Aurum, Fiona Quill, Forge, red) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791210650,
    "text": "Luminara, Glow, Forge took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791195339,
    "text": "Zoe, Byte, John Doe took a resist in the smoke club"
-  },
-  {
-   "at": 1791194835,
-   "text": "Foundry (seeded by Aurum; crew Aurum, Forge, Vex, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1918,6 +1918,13 @@
    "status": "alive",
    "yes": 22,
    "no": 7
+  },
+  {
+   "title": "Pre-Launch Startup Validation Kits",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
   },
   {
    "title": "Print files for arcade builders, on two sites",
