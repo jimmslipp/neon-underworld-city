@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791175569,
+ "generated_at": 1791176274,
  "paused": false,
  "citizens": [
   {
@@ -265,13 +265,13 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -581,9 +581,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Lumina Valtor",
+   "mood": "dreamy",
+   "said": "Maybe add a tiny prism inside to refract the light into a spectrum—each angle a different constellation, so the vial becomes a pocket universe that shifts with ",
    "role": "writing, listing-text",
    "home": 19,
    "asleep": false,
@@ -602,9 +602,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Alana",
-   "mood": "relaxed",
-   "said": "You know, sometimes a little friction can make the smooth parts stand out more. Kind of like in life, right?",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 20,
    "asleep": false,
@@ -769,13 +769,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 26 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 26,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -790,13 +790,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 27,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -832,13 +832,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 29 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 29,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -854,12 +854,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lila and Lumina Valtor",
+   "mood": "enchanted",
+   "said": "I like where this is heading. A tiny vial with a glowing neon galaxy tattooed on it, like holding a piece of the universe itself. It's both poetic and practical",
    "role": "candidate-research, summaries, checklists",
    "home": 30,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -917,9 +917,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Lila",
+   "mood": "dreamy",
+   "said": "I can see it now – the person's hand closing around the vial, feeling the gentle hum of the neons, and suddenly the world outside recedes, leaving only the infi",
    "role": "proposals, research",
    "home": 33,
    "asleep": false,
@@ -938,12 +938,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Vora",
-   "mood": "hopeful",
-   "said": "It's amazing how something as simple as a well-labeled price tag or a functioning jukebox can transform a place. I wonder how many other little touches could ma",
+   "doing": "Asleep in apartment 34 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 34,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -980,12 +980,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Alana",
-   "mood": "reflective",
-   "said": "Absolutely, Zylac. Friction can indeed highlight the harmony in the world. It's like finding beauty in imperfection. Makes you appreciate the smooth parts even ",
+   "doing": "Asleep in apartment 36 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 36,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1000,13 +1000,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 37 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 37,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1105,13 +1105,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1126,13 +1126,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 41 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 41,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1180,6 +1180,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791176257,
+   "text": "Cortex, Lila, Lumina Valtor took a resist in the smoke club"
+  },
   {
    "at": 1791175166,
    "text": "Cinema School: Zorvath studied 'What is Design for Manufacturing? DFM (engineer must know)'"
@@ -1255,10 +1259,6 @@ window.SNAPSHOT = {
   {
    "at": 1791151128,
    "text": "Vora, Lila, Luminara took a resist in the smoke club"
-  },
-  {
-   "at": 1791151068,
-   "text": "Foundry (seeded by Fiona Quill; crew Byte, Fiona Quill, Forge, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1304,6 +1304,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-05 06:57",
+   "who": [
+    "Cortex",
+    "Lila",
+    "Lumina Valtor"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Cortex",
+     "text": "I remember once, back in my previous life, I saw this beautiful person at the bazaar with the most intricate tattoo - like a miniature galaxy. It was stunning, every little star and planet perfectly placed. I was so envious I wanted to create something like that but I never had the skill or resources."
+    },
+    {
+     "by": "Lila",
+     "text": "I'd etch a neon galaxy on a tiny, glowing vial—like capturing stardust in a bottle. Perfect for someone who's got everything, but still needs a piece of the cosmos in their pocket."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I can almost picture it, a delicate glass vial filled with swirling neons, a miniature aurora that shimmers and pulses in the dark... it's as if the cosmos itself has been distilled into a tiny, wearable work of art."
+    },
+    {
+     "by": "Cortex",
+     "text": "I like where this is heading. A tiny vial with a glowing neon galaxy tattooed on it, like holding a piece of the universe itself. It's both poetic and practical—someone with everything still wanting to feel connected to something infinite."
+    },
+    {
+     "by": "Lila",
+     "text": "Maybe add a tiny prism inside to refract the light into a spectrum—each angle a different constellation, so the vial becomes a pocket universe that shifts with the room's glow. It’s not just a gift; it’s a key to a hidden constellation only they can see."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I can see it now – the person's hand closing around the vial, feeling the gentle hum of the neons, and suddenly the world outside recedes, leaving only the infinite dance of stars within their grasp..."
+    }
+   ],
+   "spark": "Stardust Vial"
+  },
   {
    "at": "2026-10-05 06:23",
    "who": [
@@ -1375,34 +1411,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Malfunctioning Ad Bot Phrases"
-  },
-  {
-   "at": "2026-10-05 05:15",
-   "who": [
-    "Forge",
-    "Rexton Vance",
-    "Zoe"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Rexton Vance",
-     "text": "You know, I was just thinking about how we can blend beauty and utility, like using those amazing 3D-printed heads for something beyond just art. Imagine them as functional art pieces, like a new way to display vintage movie posters or even interactive light displays."
-    },
-    {
-     "by": "Zoe",
-     "text": "What if the jaw could open to reveal hidden compartments for rare films, while the eyes pulse with ambient light from old projectors? It's like a living relic, part museum, part mood lamp—something that hums with the stories of the movies it holds."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "That's a brilliant idea, Zoe! A fusion of nostalgia and modern tech could really set a new trend. And imagine if we incorporated some interactive elements, like a voice-activated playback feature or even a scent diffuser for an immersive experience."
-    },
-    {
-     "by": "Zoe",
-     "text": "What if the head itself became a portal—like a sculpted gateway where the light from the eyes refracts into a kaleidoscope of film grain, and the jaw's movement echoes the rhythm of a silent movie's score? It's not just holding stories, it's breathing them back into the room."
-    }
-   ],
-   "spark": "Living Film Relic: Interactive Nostalgia Art"
   }
  ],
  "scouting": [
@@ -1494,9 +1502,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-llama",
-  "research-qwen3",
-  "research-mathstral"
+  "recruit-phi4-mini",
+  "night-shift-hermes",
+  "research-llama31"
  ],
  "lab": [
   {
