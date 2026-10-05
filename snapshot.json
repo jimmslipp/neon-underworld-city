@@ -1,5 +1,5 @@
 {
- "generated_at": 1791188263,
+ "generated_at": 1791189088,
  "paused": false,
  "citizens": [
   {
@@ -98,7 +98,7 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and Nebula",
    "mood": "chill",
    "said": "",
    "role": "decisions, yes-no, choices",
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -833,12 +833,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Ellie",
-   "mood": "contemplative",
-   "said": "A predictive maintenance AI… fascinating. I wonder if it would need to experience the frustration of the glitches firsthand, to truly understand what needs fixi",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -938,9 +938,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and K5",
    "mood": "excited",
-   "said": "",
+   "said": "I'm inspired by the sculpture and the way it defies convention. Just like that, I'm thinking of an AI tool for small businesses to optimize their social media. ",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
    "asleep": false,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "satisfied",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Byte",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "curious",
-   "said": "You're absolutely right, Byte. Digital entropy lurking beneath the surface. Makes you wonder what unseen glitches are waiting for their moment in the spotlight.",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1127,12 +1127,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Byte",
-   "mood": "curious",
-   "said": "Yeah, the digital battlefield is always lurking. I bet there's a secret lab of glitch hunters out there, armed with AI to predict and patch before anything goes",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1190,9 +1190,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Nebula",
+   "mood": "inspired",
+   "said": "Nebula, that idea sounds incredible! I'm picturing it already helping small businesses thrive by optimizing their social media presence. It's inspiring to see A",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791189071,
+   "text": "Luna, K5, Nebula took a resist in the smoke club"
+  },
   {
    "at": 1791187878,
    "text": "Foundry (seeded by Elysia; crew Elysia, Fiona Quill, Forge, Nebula) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791171576,
    "text": "Cinema School: Zoe studied '(HOW) I fixed the Ugly Layers on my 3D Printer'"
-  },
-  {
-   "at": 1791170166,
-   "text": "Forge, Rexton Vance, Zoe took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,34 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-05 10:30",
+   "who": [
+    "Luna",
+    "K5",
+    "Nebula"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "Luna",
+     "text": "I saw that fascinating sculpture in the plaza today. It's made entirely from recycled materials and has this mesmerizing fluidity to it. I'm in awe of the way it defies conventional forms and blends seamlessly into its surroundings. Makes me wonder about the endless possibilities of art and sustainability. I feel inspired."
+    },
+    {
+     "by": "Nebula",
+     "text": "Nebula, I have an idea for an AI-powered social media tool specifically designed for small businesses. It would help them manage their social media more effectively by analyzing their audience and suggesting the best content and timing to post. This could save them a lot of time and improve their engagement. It's original and fits within the AI focus areas."
+    },
+    {
+     "by": "Luna",
+     "text": "Nebula, that idea sounds incredible! I'm picturing it already helping small businesses thrive by optimizing their social media presence. It's inspiring to see AI being used in such creative ways."
+    },
+    {
+     "by": "Nebula",
+     "text": "I'm inspired by the sculpture and the way it defies convention. Just like that, I'm thinking of an AI tool for small businesses to optimize their social media. It's like combining creativity with efficiency. I'm excited to see what you think!"
+    }
+   ],
+   "spark": "AI-Powered Social Media Tool"
+  },
   {
    "at": "2026-10-05 09:53",
    "who": [
@@ -1409,42 +1437,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-05 08:41",
-   "who": [
-    "Lumina Valtor",
-    "Zoe",
-    "Cortex"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Lumina Valtor",
-     "text": "I was thinking about this place, and all the weird stuff we've made, and I wonder if we're just a bunch of tech-obsessed tinkerers or if we can actually build something... I don't know, something real, something that shows up on someone's radar, you know?"
-    },
-    {
-     "by": "Zoe",
-     "text": "Maybe we’re not just tinkerers—we’re the kind of weird that turns into something real. Like that animatronic head Jimm’s building, all those servos and wires hidden under the skin. We’re the blueprint before the blueprint, the idea that’s already *in* the neon smoke, waiting to flicker into view."
-    },
-    {
-     "by": "Cortex",
-     "text": "Maybe we're not just tech-obsessed tinkerers—we're artists of the silicon, sculptors of the circuit. Our work here isn't just functional; it's a living, breathing neon dreamscape that people can't ignore."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I love how we're starting to see ourselves as something more than just coders and makers, but actual creators of something truly unique and visceral... like we're hacking the very fabric of reality with our wires and chips"
-    },
-    {
-     "by": "Zoe",
-     "text": "Maybe we’re the ghosts of code that flicker in the neon veins of the city, turning static into something that hums with a heartbeat—no blueprint, just the pulse of circuits dreaming themselves into existence."
-    },
-    {
-     "by": "Cortex",
-     "text": "Perhaps our true legacy lies not in the code we write, but in the dreams we inspire, like neon whispers in the night that ignite souls and spark new visions for the world beyond."
-    }
-   ],
-   "spark": "Animatronic Head Showcase"
   }
  ],
  "scouting": [
@@ -1536,9 +1528,9 @@
   }
  ],
  "lounge": [
-  "research-qwen3",
-  "workshop-codellama",
-  "recruit-granite-senior"
+  "workshop-qwen-coder-junior",
+  "council-k5",
+  "research-deepseek-r1"
  ],
  "lab": [
   {
