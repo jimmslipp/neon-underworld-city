@@ -1,5 +1,5 @@
 {
- "generated_at": 1791206448,
+ "generated_at": 1791207102,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -1147,7 +1147,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Zorvath and Forge",
    "mood": "excited",
    "said": "Imagine it gliding silently through the neon-lit streets, powered by the motion, learning with each use, adapting to the environment. It's more than just a ride",
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791206825,
+   "text": "Foundry (seeded by Mira; crew Alana, Forge, Mira, Zoe) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791206431,
    "text": "NeonNova, Zorvath, Forge took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791193149,
    "text": "Foundry (seeded by Byte; crew Byte, Eva, Forge, Glow) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791192309,
-   "text": "Foundry (seeded by Zora Xu; crew Alana, Forge, Mira, Zora Xu) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1585,6 +1585,13 @@
   },
   {
    "title": "AI B2B Marketing Courses for Costa del Sol SMEs",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI Call Scoring Tool for Spanish Bar Owners",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
