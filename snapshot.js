@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791189944,
+ "generated_at": 1791190570,
  "paused": false,
  "citizens": [
   {
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "enlightened",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791190039,
+   "text": "Cinema School: Cortex studied 'How to make shorts that go viral every time'"
+  },
   {
    "at": 1791189071,
    "text": "Luna, K5, Nebula took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791172091,
    "text": "Luminara, John Doe, red took a resist in the smoke club"
-  },
-  {
-   "at": 1791171576,
-   "text": "Cinema School: Zoe studied '(HOW) I fixed the Ugly Layers on my 3D Printer'"
   }
  ],
  "products": [
