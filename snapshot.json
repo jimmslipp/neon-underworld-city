@@ -1,5 +1,5 @@
 {
- "generated_at": 1791170797,
+ "generated_at": 1791171592,
  "paused": false,
  "citizens": [
   {
@@ -517,13 +517,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 16 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "vision, picture-checks",
    "home": 16,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -538,13 +538,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 17 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 17,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -580,13 +580,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 19,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -790,13 +790,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 27,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -874,13 +874,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "quick-checks, maths",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1084,13 +1084,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 39 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "code-review, scripts",
    "home": 39,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1181,6 +1181,10 @@
  ],
  "feed": [
   {
+   "at": 1791171576,
+   "text": "Cinema School: Zoe studied '(HOW) I fixed the Ugly Layers on my 3D Printer'"
+  },
+  {
    "at": 1791170166,
    "text": "Forge, Rexton Vance, Zoe took a resist in the smoke club"
   },
@@ -1255,10 +1259,6 @@
   {
    "at": 1791149432,
    "text": "Foundry (seeded by Eva; crew Elysia, Eva, Forge, Mira) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791149156,
-   "text": "Fiona Quill, Forge, Lumina Valtor took a resist in the smoke club"
   }
  ],
  "products": [
