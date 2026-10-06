@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791307415,
+ "generated_at": 1791308032,
  "paused": false,
  "citizens": [
   {
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "curious",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
