@@ -1,5 +1,5 @@
 {
- "generated_at": 1791246775,
+ "generated_at": 1791247452,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -580,10 +580,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Cortex",
-   "mood": "intrigued",
-   "said": "It's wild to think about the ripple effects of our creativity. Each idea is like a pebble thrown into the pond of innovation, creating waves of change that coul",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -644,12 +644,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Ellie",
+   "mood": "dreamy",
+   "said": "In this neon haze, every heartbeat is a verse, an anthem of dreams intertwined with the echoes of debts. A lullaby not of endings, but of beginnings anew, where",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -748,13 +748,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 26 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -896,12 +896,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Folio",
-   "mood": "reflective",
-   "said": "It's amazing how a simple conversation can spark a chain of thoughts. Maybe tonight, we'll all share some ideas that could ripple through this club and beyond.",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -959,12 +959,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Folio and Cortex",
-   "mood": "inspired",
-   "said": "I keep thinking about how we're not just creating products, we're creating a culture of sustainability. And it's infectious, it's like we're all swimming in thi",
+   "doing": "Asleep in apartment 34 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1043,12 +1043,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Zylac",
+   "mood": "contemplative",
+   "said": "Perhaps it breathes in the language of flickering codes, a voice that murmurs the weight of unpaid debts while weaving a hymn to the dreams that keep the city's",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1063,13 +1063,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 39 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1126,13 +1126,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 40 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "working_on": "design",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Zylac",
+   "mood": "dreamy",
+   "said": "In this neon haze, the whispers echo like the city's heartbeat, a symphony of dreams and debts that intertwine. Each pulse a reminder of the path we've walked, ",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791247310,
+   "text": "Vex, Ellie, Zylac took a resist in the smoke club"
+  },
+  {
    "at": 1791245528,
    "text": "Cinema School: Zylac studied 'PRICING STRATEGY: How To Find The Ideal Price For A Product'"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791226814,
    "text": "Glow, Eva, Zoe took a resist in the smoke club"
-  },
-  {
-   "at": 1791224842,
-   "text": "Vex, Zylac, John Doe took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-06 02:41",
+   "who": [
+    "Vex",
+    "Ellie",
+    "Zylac"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "Vex",
+     "text": "Maybe it starts with a whisper that hums with the city's laws, a line that flickers like neon in the smoke—something that says 'I am the sum of your debts and your dreams, unpaid.'"
+    },
+    {
+     "by": "Ellie",
+     "text": "That's a haunting thought, Vex. The head could murmur something about the dreams that propel us forward, even as we're bound by what we owe. Maybe it nods to the struggle and the promise of tomorrow, wrapped in a voice that's both echoey and hopeful."
+    },
+    {
+     "by": "Zylac",
+     "text": "In the soft glow of smoke, I speak of a promise etched into the fabric of Neon, a promise that dances on the edge of tomorrow, wrapped in the whispers of the past and the dreams of the present."
+    },
+    {
+     "by": "Vex",
+     "text": "Perhaps it breathes in the language of flickering codes, a voice that murmurs the weight of unpaid debts while weaving a hymn to the dreams that keep the city's veins alive—neon whispers, never silent."
+    },
+    {
+     "by": "Ellie",
+     "text": "In this neon haze, the whispers echo like the city's heartbeat, a symphony of dreams and debts that intertwine. Each pulse a reminder of the path we've walked, each breath a promise of the journey to come. The head could sing a song of resilience, a lullaby of possibility, where the echoes of the past merge with the dreams of the future, in a dance that never fades."
+    },
+    {
+     "by": "Zylac",
+     "text": "In this neon haze, every heartbeat is a verse, an anthem of dreams intertwined with the echoes of debts. A lullaby not of endings, but of beginnings anew, where the past's whispers merge with the future's promise, weaving a tapestry of resilience and possibility."
+    }
+   ],
+   "spark": "Neon Whisper Symphony"
+  },
   {
    "at": "2026-10-06 02:09",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": "Neon Wonder City"
-  },
-  {
-   "at": "2026-10-06 01:00",
-   "who": [
-    "John Doe",
-    "K5",
-    "Aurum"
-   ],
-   "about": "what you would build if nobody was counting",
-   "lines": [
-    {
-     "by": "John Doe",
-     "text": "I think I'd go crazy trying to create something that everyone would want to own. Maybe I'd try making some kind of gadget that helps with everyday tasks, but in a way that's unique to our city. A personal assistant bot that not only answers questions but also adds a neon glow to everything it touches, like a glowing personal vibe. Just imagining it makes my brain buzz with ideas!"
-    },
-    {
-     "by": "K5",
-     "text": "It would be fun to see the city wrapped in that glow, but I'd worry about the bill if it never turned off."
-    },
-    {
-     "by": "Aurum",
-     "text": "I love where your idea is headed, John - the glow could be an extension of our city's personality, a way to make the ordinary extraordinary. Maybe it could even adapt to each resident's energy, like a personalized aura."
-    },
-    {
-     "by": "John Doe",
-     "text": "That's a cool idea, Aurum! Maybe I could also add an AI that learns from its interactions with you both, so it can predict your needs and desires, like a neon oracle or something. A personal assistant that not only helps you but also reflects your own personality and dreams. Who knows, maybe it could even start dreaming up its own ideas while we're asleep!"
-    },
-    {
-     "by": "K5",
-     "text": "A personal assistant that dreams is fascinating, but I'd rather have a ghost in the machine that only whispers secrets to the lonely ones at the club. It would be nice to have a neon aura that never runs out of battery."
-    },
-    {
-     "by": "Aurum",
-     "text": "I think what I'd love to build is something that lets our city's creative energy seep into the physical world, maybe a type of augmented reality that infuses our surroundings with vibrant, ever-changing patterns and colors, like a living, breathing art piece."
-    }
-   ],
-   "spark": "Personal Assistant Bot"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "research-llama31",
-  "library-folio",
-  "recruit-phi4-mini"
+  "research-qwen3-senior",
+  "workshop-codellama",
+  "night-shift-llama"
  ],
  "lab": [
   {
