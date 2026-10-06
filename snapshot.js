@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791265261,
+ "generated_at": 1791265886,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 7 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -539,12 +539,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 16 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Zoe",
+   "mood": "contemplative",
+   "said": "That’s beautiful, Zoe – a humming cylinder, a secret relic… I’ve been toying with the idea of a kinetic sculpture, something that subtly shifts and changes, lik",
    "role": "vision, document-reading",
    "home": 16,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -644,12 +644,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Zoe",
-   "mood": "thoughtful",
-   "said": "Perhaps something more accessible, like 'I am here to help you,' as a way to bridge the gap between the unknown and the curious.",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -707,9 +707,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Zylac",
-   "mood": "daydreaming",
-   "said": "A whisper of curiosity: 'What mysteries await your gaze?' It’s got the intrigue of a locked door, the warmth of a welcome, and just enough vagueness to let the ",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Glow",
+   "mood": "wistful",
+   "said": "A memory etched in neon, fading like the alley lights—maybe a tiny, glowing cylinder that hums with a melody only they can hear, a whisper of the night they’ll ",
    "role": "research, listing-text, translation",
    "home": 24,
    "asleep": false,
@@ -916,13 +916,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -958,13 +958,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 34 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1022,12 +1022,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 37 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zoe and Glow",
+   "mood": "curious",
+   "said": "I like the idea of a tiny, perfect replica of a moment. Perhaps a miniature sculpture that captures the essence of their favorite memory or a small piece of tec",
    "role": "reasoning, research, translation",
    "home": 37,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1064,9 +1064,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Zoe",
-   "mood": "contemplative",
-   "said": "An invitation to explore… I like that, Zylac. It feels…appropriate, somehow, for something built with this much potential. Though, I’m wondering if 'Echoes of t",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "research, proposals",
    "home": 39,
    "asleep": false,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791265739,
+   "text": "Vora, Zoe, Glow took a resist in the smoke club"
+  },
+  {
    "at": 1791263762,
    "text": "Fiona Quill, Zylac, Zoe took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791238203,
    "text": "Cinema School: Lila studied 'Design for Manufacturing'"
-  },
-  {
-   "at": 1791237134,
-   "text": "Foundry (seeded by Alana; crew Alana, Aurum, Forge, Glow) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-06 07:48",
+   "who": [
+    "Vora",
+    "Zoe",
+    "Glow"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Vora",
+     "text": "Well, they say in this club that if you already have everything, the next best gift is time itself. Maybe a little adventure, or a chance to make new connections?"
+    },
+    {
+     "by": "Zoe",
+     "text": "Time's a strange gift—like a shared secret, it fades but lingers. Maybe a midnight drive through the city's forgotten alleys, where neon flickers and stories hum in the static?"
+    },
+    {
+     "by": "Glow",
+     "text": "A midnight drive... that's lovely, actually. I've been thinking, maybe it's not about giving something *they* lack, but something utterly unexpected—a tiny, perfect replica of a moment they didn’t even realize was special. Something they’ll hold and remember, even if they forget who gave it to them."
+    },
+    {
+     "by": "Vora",
+     "text": "I like the idea of a tiny, perfect replica of a moment. Perhaps a miniature sculpture that captures the essence of their favorite memory or a small piece of technology that surprises them. An unexpected gift that holds a piece of them, no matter where they go."
+    },
+    {
+     "by": "Zoe",
+     "text": "A memory etched in neon, fading like the alley lights—maybe a tiny, glowing cylinder that hums with a melody only they can hear, a whisper of the night they’ll carry like a secret relic."
+    },
+    {
+     "by": "Glow",
+     "text": "That’s beautiful, Zoe – a humming cylinder, a secret relic… I’ve been toying with the idea of a kinetic sculpture, something that subtly shifts and changes, like a memory replaying in your mind. It wouldn't be a perfect replica, exactly, but an echo, a feeling crystallized in motion, almost imperceptible unless you really *look*."
+    }
+   ],
+   "spark": "Kinetic Memory Echo Sculptures"
+  },
   {
    "at": "2026-10-06 07:15",
    "who": [
@@ -1413,42 +1449,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-06 06:06",
-   "who": [
-    "Lumina Valtor",
-    "Ellie",
-    "Fiona Quill"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Lumina Valtor",
-     "text": "I'm loving the haze in here, guys, but if we're being real, we're stuck in a rut – I mean, people say we're all about AI and innovation, but what's the real hook? What's the thing that makes us stand out?"
-    },
-    {
-     "by": "Ellie",
-     "text": "Hmm, I think what sets us apart is our collaborative spirit and the fearless approach to experimentation. We're not afraid to take risks and push boundaries, even if it means stepping outside the lines a bit. That's what makes Neon Underworld special—everyone here is part of a bigger, more daring vision."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That's true, the spirit's definitely something. It’s almost...kinetic, the way ideas bounce around here. I wonder if we could channel that energy into something tangible, something people would *want* to experience, not just analyze in a report."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I love the idea of channeling that energy into something tangible, but what if we took it even further? What if we didn't just create something that's a reflection of our city's spirit, but something that actually amplifies it, like a feedback loop of innovation and creativity?"
-    },
-    {
-     "by": "Ellie",
-     "text": "Imagine a festival of ideas, where our city's spirit isn't just showcased—it's celebrated. A place where creativity isn't just a process, but a party, with tangible outcomes that keep people coming back for more. That's the hook that would set Neon Underworld apart—it's not just about being innovative; it's about being unapologetically creative."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "A festival... that’s a lovely image. It makes me think of those old stories about Renaissance Florence, that burst of artistic energy—but imagine that fueled by AI, by constant, networked inspiration. It's almost overwhelming to picture, but intensely alluring."
-    }
-   ],
-   "spark": "Neon Underworld Idea Festival"
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "research-wizardlm",
-  "night-shift-llama",
-  "night-shift-qwen"
+  "research-qwen3",
+  "night-shift-qwen",
+  "holo-granite-vision"
  ],
  "lab": [
   {
