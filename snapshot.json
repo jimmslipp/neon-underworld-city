@@ -1,5 +1,5 @@
 {
- "generated_at": 1791273198,
+ "generated_at": 1791273856,
  "paused": false,
  "citizens": [
   {
@@ -35,12 +35,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 1 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "product-images, mockups",
    "home": 1,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,13 +286,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -329,12 +329,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 11 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "by-hand",
    "home": 11,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -455,12 +455,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 14 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 14,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -497,12 +497,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 15 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "by-hand, video-with-sound",
    "home": 15,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -539,12 +539,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and red",
-   "mood": "contemplative",
-   "said": "A digital garden... I love that. I've been experimenting with layering textures and patterns in my prints, trying to mimic natural growth – the way a vine twist",
+   "doing": "Asleep in apartment 16 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "vision, document-reading",
    "home": 16,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -560,9 +560,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Glow",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "pensive",
-   "said": "A city planner that leaks… that’s striking. I’ve always been fascinated by the emergent behaviors in simulations, the ways complexity arises from simple rules. ",
+   "said": "",
    "role": "vision, picture-checks",
    "home": 17,
    "asleep": false,
@@ -581,9 +581,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "intrigued",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Lila",
+   "mood": "amused",
+   "said": "I wonder if the coffee machine's glitch could be seen as a digital-age fairy tale, where every failed attempt is a step closer to the magical perfect cup.",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -623,9 +623,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Folio",
+   "mood": "dreamy",
+   "said": "Imagine the coffee machine's glitch as a story waiting to be brewed—every drip a chapter, every fix a legend in the making. Maybe the first perfect latte become",
    "role": "writing, listing-text",
    "home": 20,
    "asleep": false,
@@ -644,12 +644,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "thoughtful",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -665,12 +665,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 22 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "enthusiastic",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -686,12 +686,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "nostalgic",
+   "doing": "Asleep in apartment 23 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -728,9 +728,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "chill",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lila and Folio",
+   "mood": "imaginative",
+   "said": "Absolutely, Folio. Imagine it: the barista finally gets it right, and the first person to sip their perfect latte becomes the local legend. That moment could fe",
    "role": "tags, short-text",
    "home": 25,
    "asleep": false,
@@ -749,12 +749,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspiring",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -833,12 +833,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "pensive",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -896,12 +896,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -958,13 +958,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 34 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1042,13 +1042,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1064,9 +1064,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Glow and red",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "contemplative",
-   "said": "That generative city planner… it's got a beautiful chaos to it. I wonder if we could build something similar, but smaller, perhaps a digital garden where unexpe",
+   "said": "",
    "role": "research, proposals",
    "home": 39,
    "asleep": false,
@@ -1127,12 +1127,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1211,17 +1211,21 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 44 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   }
  ],
  "feed": [
+  {
+   "at": 1791273729,
+   "text": "Zorvath, Lila, Folio took a resist in the smoke club"
+  },
   {
    "at": 1791273139,
    "text": "Foundry (seeded by Glow; crew Aurum, Ellie, Forge, Glow) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791253832,
    "text": "Zora Xu, Zoe, Lumina Valtor took a resist in the smoke club"
-  },
-  {
-   "at": 1791252884,
-   "text": "Cinema School: Zoe studied 'The Ultimate Guide to Master Short-Form Video Editing! (Easy Guide)'"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-06 10:02",
+   "who": [
+    "Zorvath",
+    "Lila",
+    "Folio"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Zorvath",
+     "text": "You know, Lila, I've always wondered if that barista would actually notice if they fixed that weird glitch in the coffee machine. I mean, it's not exactly life-threatening, but it does give me a weird sense of déjà vu every time I order a latte there."
+    },
+    {
+     "by": "Folio",
+     "text": "I get what you mean, Zorvath. I bet they'd be thrilled if someone pointed it out. Sometimes, these little quirks make places feel like home, don't they?"
+    },
+    {
+     "by": "Zorvath",
+     "text": "Absolutely, Folio. Imagine it: the barista finally gets it right, and the first person to sip their perfect latte becomes the local legend. That moment could feel like a small but significant victory."
+    },
+    {
+     "by": "Lila",
+     "text": "Imagine the coffee machine's glitch as a story waiting to be brewed—every drip a chapter, every fix a legend in the making. Maybe the first perfect latte becomes a rite of passage, whispered between regulars like a secret handshake."
+    },
+    {
+     "by": "Folio",
+     "text": "I wonder if the coffee machine's glitch could be seen as a digital-age fairy tale, where every failed attempt is a step closer to the magical perfect cup."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-06 09:27",
    "who": [
@@ -1414,42 +1446,6 @@
     {
      "by": "Rexton Vance",
      "text": "Maybe these neon veins could become the veins of our dreams, connecting our aspirations to the heartbeat of Neon Underworld. If we dream big enough, who knows what kind of shared stories and connections we can weave together?"
-    }
-   ],
-   "spark": ""
-  },
-  {
-   "at": "2026-10-06 08:22",
-   "who": [
-    "Zora Xu",
-    "Ellie",
-    "Lumina Valtor"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Zora Xu",
-     "text": "I've noticed how the lighting in the bar shifts as the night goes on, creating these strange, flickering shadows. It's almost poetic, but I can't help but wonder if it's distracting for some. Maybe a slight dimmer adjustment could make it more comfortable for everyone."
-    },
-    {
-     "by": "Ellie",
-     "text": "I've always been fascinated by how light and shadow play together. Maybe they could install some adaptive lighting that changes hue but not intensity, creating a soothing ambiance without sacrificing the artistic feel."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I've been staring at those flickering shadows myself, and I keep thinking about what it'd be like to program the lighting to respond to the crowd's mood, like a living, breathing creature that adapts to the energy in the room."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "The shadows seem to dance like they have a life of their own, each flicker telling a little piece of the night's story. It's almost as if they're whispering secrets only the room can hear."
-    },
-    {
-     "by": "Ellie",
-     "text": "Those flickering shadows do tell stories, don't they? It's like the room is breathing and sharing its secrets with us. Maybe someday, we could even capture those moments in our designs, bring a piece of the night into our creations."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I wonder if the lighting system could be programmed to pick up on the subtle cues of our own creativity - like when we're in the flow, or when we're struggling with a design. Maybe it could even influence our work, subtly nudging us towards new ideas and perspectives. It's almost like the lighting could become a collaborator, rather than just a background setting."
     }
    ],
    "spark": ""
@@ -1544,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "research-wizardlm",
-  "holo-granite-vision",
-  "holo-moondream"
+  "night-shift-smollm2",
+  "night-shift-hermes",
+  "library-folio"
  ],
  "lab": [
   {
