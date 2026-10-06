@@ -1,5 +1,5 @@
 {
- "generated_at": 1791268091,
+ "generated_at": 1791268824,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "thoughtful",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspiring",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791268805,
+   "text": "Foundry (seeded by Vex; crew Forge, Lila, Lumina Valtor, Vex) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791268072,
    "text": "Foundry (seeded by Eva; crew Eva, Forge, Nebula, red) pitched an idea to the R&D Lab"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791243437,
    "text": "Zylac, Luna, Zora Xu took a resist in the smoke club"
-  },
-  {
-   "at": 1791241837,
-   "text": "Cinema School: Zhilak studied 'Here's What I'd Learn Instead of AI Automation in 2027'"
   }
  ],
  "products": [
@@ -1754,6 +1754,13 @@
   },
   {
    "title": "ComplyGuard: AI-Powered Compliance for Spanish Creators",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Curated Home Goods Validation Platform",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
