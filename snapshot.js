@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791301577,
+ "generated_at": 1791302237,
  "paused": false,
  "citizens": [
   {
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspiring",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791301877,
+   "text": "Foundry (seeded by red; crew Forge, Lila, Lumina Valtor, red) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791301405,
    "text": "Cinema School: Luna studied 'Designing the NAVE Collection | Materiality, Process & Manufacturing'"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791287840,
    "text": "Foundry (seeded by Aurum; crew Aurum, Ellie, Forge, Zora Xu) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791286808,
-   "text": "Foundry (seeded by Byte; crew Byte, Fiona Quill, Forge, Zoe) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1810,6 +1810,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "Bar Profit Boost with Premium Upsell AI",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Bar Security & Promotion Link SaaS - 'Guardian'",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
