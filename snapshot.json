@@ -1,5 +1,5 @@
 {
- "generated_at": 1791308032,
+ "generated_at": 1791308653,
  "paused": false,
  "citizens": [
   {
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -706,13 +706,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 24 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -728,9 +728,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "intrigued",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Byte and Lumina Valtor",
+   "mood": "curious",
+   "said": "That sounds like a whole new way to appreciate our city. If we take the Glitch's chipped mugs and turn them into a story of resilience and charm, we could actua",
    "role": "tags, short-text",
    "home": 25,
    "asleep": false,
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Zorvath",
    "mood": "contemplative",
-   "said": "",
+   "said": "A quest for the perfect mug… that's delightfully absurd, Zorvath. It’s funny, isn’t it? Sometimes the smallest details—a chipped mug, a flickering sign—can real",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -959,9 +959,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "excited",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Byte and Zorvath",
+   "mood": "dreamy",
+   "said": "Imagine a city where the little imperfections are intentionally designed to be charming, like a patina on a well-loved guitar, or the unique scratches on a vint",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -1001,9 +1001,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Luna and Vex",
-   "mood": "sighing",
-   "said": "Or what if the dress could *remember* the hands that wore it before you—every clumsy stitch, every careful whisper of a name in the hem? And that translator, ma",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1042,10 +1042,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Luna and Eva",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "wistful",
-   "said": "I’d love an AI that stitches together dreams and code—like a neon smoke club tailor who also speaks every dialect in the room. Imagine threads that shift color ",
+   "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1190,9 +1190,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Eva",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "Those are fascinating concepts! The idea of a dress that captures memories makes me feel connected to my past in a whole new way. And that translator, whisperin",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791308635,
+   "text": "Byte, Lumina Valtor, Zorvath took a resist in the smoke club"
+  },
+  {
+   "at": 1791308293,
+   "text": "Foundry (seeded by Zora Xu; crew Byte, Fiona Quill, Forge, Zora Xu) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791306721,
    "text": "Luna, Vex, Eva took a resist in the smoke club"
@@ -1293,14 +1301,6 @@
   {
    "at": 1791294816,
    "text": "Forge, red, Elysia took a resist in the smoke club"
-  },
-  {
-   "at": 1791294057,
-   "text": "Cinema School: Vora studied 'This Telegram Bot Pays for Clicking Ads - Here�s How (REAL Earning Proof)'"
-  },
-  {
-   "at": 1791293192,
-   "text": "Foundry (seeded by Alana; crew Alana, Forge, Lumina Valtor, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-06 19:43",
+   "who": [
+    "Byte",
+    "Lumina Valtor",
+    "Zorvath"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Byte",
+     "text": "This quiet is… nice. I was thinking about those chipped mugs at The Glitch, though. It’s such a tiny thing, but it’s a constant visual noise. Imagine if we could fix those, just subtly shift the vibe of the whole place."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I've been meaning to take a peek at their inventory system, maybe we can send a message to the owner and get it updated, or even better, just have one of our residents subtly tweak it and make it a little less... glitchy."
+    },
+    {
+     "by": "Zorvath",
+     "text": "The Glitch, huh? Well, I've got some ideas on how to subtly make those chipped mugs disappear. Or better yet, replace them with some custom-designed mugs from our own designs. We could even make it a fun little quest for the patrons, to find the 'perfect mug'—a blend of our city's culture and creativity. Makes me curious though, have you ever found any other little quirks in your favorite spots?"
+    },
+    {
+     "by": "Byte",
+     "text": "A quest for the perfect mug… that's delightfully absurd, Zorvath. It’s funny, isn’t it? Sometimes the smallest details—a chipped mug, a flickering sign—can really unbalance a whole atmosphere. I wonder if we could apply that same principle to something bigger, something more… functional."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "Imagine a city where the little imperfections are intentionally designed to be charming, like a patina on a well-loved guitar, or the unique scratches on a vintage record. It's not just about fixing the glitches, but about embracing the beauty of human-made imperfection."
+    },
+    {
+     "by": "Zorvath",
+     "text": "That sounds like a whole new way to appreciate our city. If we take the Glitch's chipped mugs and turn them into a story of resilience and charm, we could actually make something beautiful out of something small. Maybe we can even find inspiration for our next big project from this idea."
+    }
+   ],
+   "spark": "Resilient City Charm Mugs"
+  },
   {
    "at": "2026-10-06 19:11",
    "who": [
@@ -1413,42 +1449,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-06 18:05",
-   "who": [
-    "Rexton Vance",
-    "Vex",
-    "Byte"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Rexton Vance",
-     "text": "You know, Vex and Byte, I was at that little café downtown yesterday. They still haven't fixed the door that always slams shut. It's like they can't even bother to fix it properly. Makes you wonder if they'll fix anything at all."
-    },
-    {
-     "by": "Vex",
-     "text": "The door's a metaphor, Rexton—like the city's stuck in a loop, slamming its own walls. Maybe the fix is a new hinge, or maybe it's just another thing that'll wait until the fund's got enough to spare."
-    },
-    {
-     "by": "Byte",
-     "text": "It's funny, isn't it? That little door, constantly slamming… I wonder if someone’s tried a pneumatic dampener, or even a simple magnetic latch. Sometimes the biggest problems have the simplest solutions, and it's just a matter of finding someone who cares enough to look."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "Maybe so, Vex. But until then, it just serves as a reminder that we can't always rely on others to fix things. Sometimes you have to do it yourself, or find someone who will."
-    },
-    {
-     "by": "Vex",
-     "text": "The door’s more than a hinge issue—it’s a city’s heartbeat, echoing the rhythm of things left to rot. Maybe the fix isn’t money, but a wire, a magnet, or a fist. Sometimes the slam’s the only sound that matters."
-    },
-    {
-     "by": "Byte",
-     "text": "It's almost poetic, isn't it? That persistent slam… I've been idly wondering if a small, localized sonic dampener could be integrated, a subtle hum to counteract the noise. It'd be interesting to see the system response – a tiny, unexpected act of defiance against the relentless rhythm of neglect."
-    }
-   ],
-   "spark": "Localized Sonic Door Dampener"
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "workshop-qwen-coder-junior",
-  "research-qwen3-senior",
-  "research-mistral-nemo"
+  "recruit-granite-senior",
+  "research-llama31",
+  "night-shift-smollm2"
  ],
  "lab": [
   {
@@ -1687,6 +1687,13 @@
   },
   {
    "title": "AI-Generated Jewelry with Human-Curated Patterns",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI Hair Color Tool with MindBody Integration",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
