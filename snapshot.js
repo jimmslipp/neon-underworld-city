@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791295682,
+ "generated_at": 1791296434,
  "paused": false,
  "citizens": [
   {
@@ -181,9 +181,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -244,9 +244,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,13 +286,13 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 9 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "amused",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -622,13 +622,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 20 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791296414,
+   "text": "Foundry (seeded by Vex; crew Elysia, Eva, Forge, Vex) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791295662,
    "text": "Foundry (seeded by Eva; crew Alana, Eva, Forge, Lila) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791282456,
    "text": "Cinema School: Lumina Valtor studied 'Alex Hormozi's Advice on Cold Calling'"
-  },
-  {
-   "at": 1791281454,
-   "text": "Eva, John Doe, NeonNova took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2149,6 +2149,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "Secure Compliance Platform for Spanish Bars",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Secure Tap-Order & Email Guard for Bars",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
