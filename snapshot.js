@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791304857,
+ "generated_at": 1791305489,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -307,8 +307,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -874,13 +874,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,14 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791305468,
+   "text": "Foundry (seeded by Elysia; crew Elysia, Eva, Forge, Zoe) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791305235,
+   "text": "Cinema School: Mira studied 'How to Start an AI Automation Agency (Beginners Guide)'"
+  },
   {
    "at": 1791304839,
    "text": "red, Lila, Vex took a resist in the smoke club"
@@ -1293,14 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791290620,
    "text": "Foundry (seeded by Lumina Valtor; crew Forge, Glow, Lumina Valtor, Nebula) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791290449,
-   "text": "Cinema School: Vex studied 'How To Backtest A Trading Strategy in Python'"
-  },
-  {
-   "at": 1791290289,
-   "text": "Luna, Ellie, Forge took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1838,6 +1838,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "BarSafe: Security & Marketing for Costa del Sol Bars",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "BarStaffSecure: AI Compliance Training for Costa del Sol Bars",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
