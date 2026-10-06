@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791299495,
+ "generated_at": 1791300193,
  "paused": false,
  "citizens": [
   {
@@ -307,8 +307,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -958,9 +958,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1147,13 +1147,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 41 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1168,13 +1168,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 42 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791300173,
+   "text": "Foundry (seeded by Mira; crew Byte, Ellie, Forge, Mira) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791298851,
    "text": "Lila, Ellie, Vex took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791286037,
    "text": "Forge, Fiona Quill, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1791285760,
-   "text": "Foundry (seeded by Zora Xu; crew Elysia, Forge, Vex, Zora Xu) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1722,6 +1722,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "AI Sales Assistant for Spanish SMEs",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI Skincare Analyzer for Professionals",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
