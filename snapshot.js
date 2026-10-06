@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791245401,
+ "generated_at": 1791246038,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -307,8 +307,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -1126,13 +1126,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 40 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791245528,
+   "text": "Cinema School: Zylac studied 'PRICING STRATEGY: How To Find The Ideal Price For A Product'"
+  },
+  {
    "at": 1791245383,
    "text": "Lumina Valtor, Folio, Cortex took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791224842,
    "text": "Vex, Zylac, John Doe took a resist in the smoke club"
-  },
-  {
-   "at": 1791222797,
-   "text": "Cortex, Rexton Vance, Mira took a resist in the smoke club"
   }
  ],
  "products": [
