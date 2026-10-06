@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791288166,
+ "generated_at": 1791288973,
  "paused": false,
  "citizens": [
   {
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "thoughtful",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791288954,
+   "text": "Foundry (seeded by Nebula; crew Byte, Forge, Mira, Nebula) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791287876,
    "text": "Rexton Vance, Zhilak, Lumina Valtor took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791274059,
    "text": "Foundry (seeded by red; crew Forge, Mira, Nebula, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791273729,
-   "text": "Zorvath, Lila, Folio took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1582,6 +1582,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "AI-Assisted Legal Translation with Human Review for Spanish Tenancy",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI Audit Bot for Indian SMEs",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
