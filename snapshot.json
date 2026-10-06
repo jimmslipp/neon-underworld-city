@@ -1,5 +1,5 @@
 {
- "generated_at": 1791317530,
+ "generated_at": 1791318208,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -559,9 +559,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "melancholy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791317893,
+   "text": "Foundry (seeded by Nebula; crew Alana, Forge, Glow, Nebula) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791316864,
    "text": "Alana, Zora Xu, K5 took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791301877,
    "text": "Foundry (seeded by red; crew Forge, Lila, Lumina Valtor, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791301405,
-   "text": "Cinema School: Luna studied 'Designing the NAVE Collection | Materiality, Process & Manufacturing'"
   }
  ],
  "products": [
@@ -1833,6 +1833,13 @@
    "title": "Autonomous Compliance & Logistics Suite for Spanish Beverage Producers",
    "stage": "pitch",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Ayurvedic Wellness Video Studio",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
