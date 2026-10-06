@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791272567,
+ "generated_at": 1791273198,
  "paused": false,
  "citizens": [
   {
@@ -307,8 +307,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -643,13 +643,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -916,9 +916,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791273139,
+   "text": "Foundry (seeded by Glow; crew Aurum, Ellie, Forge, Glow) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791272547,
    "text": "Foundry (seeded by Mira; crew Forge, Mira, Vex, Zora Xu) pitched an idea to the R&D Lab"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791252884,
    "text": "Cinema School: Zoe studied 'The Ultimate Guide to Master Short-Form Video Editing! (Easy Guide)'"
-  },
-  {
-   "at": 1791251787,
-   "text": "Forge, Mira, Alana took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1887,6 +1887,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "HorecaGuard: AI-Driven Bar Profitability Suite",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Hospitality Business Navigator - Spain",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
