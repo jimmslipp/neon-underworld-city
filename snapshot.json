@@ -1,5 +1,5 @@
 {
- "generated_at": 1791270419,
+ "generated_at": 1791271088,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -1147,7 +1147,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Zoe and Rexton Vance",
    "mood": "wistful",
    "said": "Envision a city where the neon veins not only flash with data but pulse with the heartbeat of its residents. Each flicker could be a whispered idea, a shared em",
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "excited",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791270973,
+   "text": "Foundry (seeded by Ellie; crew Ellie, Eva, Forge, Zoe) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791269761,
    "text": "Zoe, NeonNova, Rexton Vance took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791247310,
    "text": "Vex, Ellie, Zylac took a resist in the smoke club"
-  },
-  {
-   "at": 1791245528,
-   "text": "Cinema School: Zylac studied 'PRICING STRATEGY: How To Find The Ideal Price For A Product'"
   }
  ],
  "products": [
@@ -1656,6 +1656,13 @@
   },
   {
    "title": "AI-Generated Jewelry with Human-Curated Patterns",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI Marketing Platform for Costa del Sol Small Businesses",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
