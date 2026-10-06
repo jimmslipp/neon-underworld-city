@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791302873,
+ "generated_at": 1791303482,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -307,8 +307,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspiring",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -874,13 +874,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 30 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -916,13 +916,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -958,9 +958,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "excited",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1042,7 +1042,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Byte",
    "mood": "wistful",
    "said": "The door’s more than a hinge issue—it’s a city’s heartbeat, echoing the rhythm of things left to rot. Maybe the fix isn’t money, but a wire, a magnet, or a fist",
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791303129,
+   "text": "Foundry (seeded by Lila; crew Alana, Elysia, Forge, Lila) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791302757,
    "text": "Rexton Vance, Vex, Byte took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791288954,
    "text": "Foundry (seeded by Nebula; crew Byte, Forge, Mira, Nebula) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791287876,
-   "text": "Rexton Vance, Zhilak, Lumina Valtor took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1733,6 +1733,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "AI Skincare Analyzer for Professionals",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI Social Scheduler for Spanish SMEs",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
