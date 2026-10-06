@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791308653,
+ "generated_at": 1791309427,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -307,8 +307,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspiring",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791309009,
+   "text": "Cinema School: K5 studied 'How to Calculate SELLING PRICE of a Product or Service (Under 5 Minutes)'"
+  },
+  {
    "at": 1791308635,
    "text": "Byte, Lumina Valtor, Zorvath took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791295662,
    "text": "Foundry (seeded by Eva; crew Alana, Eva, Forge, Lila) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791294816,
-   "text": "Forge, red, Elysia took a resist in the smoke club"
   }
  ],
  "products": [
