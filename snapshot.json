@@ -1,5 +1,5 @@
 {
- "generated_at": 1791400438,
+ "generated_at": 1791401118,
  "paused": false,
  "citizens": [
   {
@@ -1042,13 +1042,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1063,9 +1063,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "research, proposals",
    "home": 39,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791401096,
+   "text": "Foundry (seeded by Zora Xu; crew Alana, Forge, Mira, Zora Xu) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791399714,
    "text": "Zhilak, Aurum, Cortex took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791385420,
    "text": "Foundry (seeded by Fiona Quill; crew Byte, Fiona Quill, Forge, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791384590,
-   "text": "Vex, Eva, Alana took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1527,16 +1527,16 @@
  ],
  "proclamations": [
   {
-   "at": "04 Oct 2026 21:10",
-   "text": "Use free image generation until we get ChatGPT. The aim should be subscription costs now, before the print head or at the same time. Ideas stagnate, so they need to be pushed until they can't anymore or are finished."
-  },
-  {
    "at": "04 Oct 2026 21:54",
    "text": "Run this like a business. Focus on the top 3 ideas only: all AI focus on them, none idle; they use their allocated time and tokens for work, then relax when off shift, efficiently and fairly. If it's the good idea, social media makes posts "
   },
   {
    "at": "05 Oct 2026 22:31",
    "text": "Social media team: shelve paid public use of the city's compute as a future venture (outsiders watch the shaft and interact, never change; they pay to use the compute once we have refined it). For now requests cost 50 cents. Jimm's words: '"
+  },
+  {
+   "at": "07 Oct 2026 21:16",
+   "text": "Jimm, 7 Oct 2026: can they make post factory into an app, modern and fresh that we maybe market for more robot fund."
   }
  ],
  "lounge": [
@@ -2263,6 +2263,13 @@
    "title": "Modular 3D-Printed Repair Kits for Coastal Spanish Rentals",
    "stage": "pitch",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon Bar Guardian",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
