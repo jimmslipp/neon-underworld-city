@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791397031,
+ "generated_at": 1791397796,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "enthralled",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -665,9 +665,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and Nebula",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "curious",
-   "said": "You know, it makes me wonder what else is going wrong in there. Maybe it's not just the Wi-Fi but the entire ambiance. Imagine if the bar had better connectivit",
+   "said": "",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -832,9 +832,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
@@ -874,10 +874,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Nebula and John Doe",
+   "mood": "engaged",
+   "said": "I hear you loud and clear, Nebula. Let's put together something tangible. How about we start with a simple idea that uses existing resources and then build on i",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -916,10 +916,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Nebula and Lumi",
+   "mood": "curious",
+   "said": "Sounds like a solid plan, Nebula. How about we start with a basic chatbot idea that can generate creative writing prompts for writers in Neon Underworld? We can",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -938,9 +938,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and Zhilak",
-   "mood": "excited",
-   "said": "Nebula: Oh no! The Wi-Fi issue is so frustrating! Maybe we can collaborate with the bar owner to set up a mesh network using some of our AI tools. It could be a",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and John Doe",
+   "mood": "cautious",
+   "said": "Jimm, with all due respect, it's time to focus on a plan that's backed by evidence. If you're going to invest in AI, you need to show us the roadmap first. Let'",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
    "asleep": false,
@@ -958,9 +958,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "mellow",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -980,9 +980,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Nebula",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "hopeful",
-   "said": "I was thinking about how we could use some of our AI tools to help improve the signal. Maybe set up a mesh network or something? It’s a shame because the techno",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1223,6 +1223,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791397776,
+   "text": "Nebula, Lumi, John Doe took a resist in the smoke club"
+  },
+  {
+   "at": 1791397386,
+   "text": "Cinema School: Rexton Vance studied 'How Cigarettes Is Made In Factory? Captain Discovery'"
+  },
+  {
    "at": 1791395729,
    "text": "Alana, Zhilak, Nebula took a resist in the smoke club"
   },
@@ -1293,14 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791382874,
    "text": "Cinema School: Luna studied 'CNC machining - What is it and How Does it Work? (Must Know Basics)'"
-  },
-  {
-   "at": 1791382337,
-   "text": "Vex, Elysia, Forge took a resist in the smoke club"
-  },
-  {
-   "at": 1791380036,
-   "text": "Elysia, Vora, Glow took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-07 20:29",
+   "who": [
+    "Nebula",
+    "Lumi",
+    "John Doe"
+   ],
+   "about": "something beautiful that is also useful",
+   "lines": [
+    {
+     "by": "Lumi",
+     "text": "Hey guys, what's new? Just let my imagination wander... Maybe we'll find some hidden beauty amidst all this tech chaos."
+    },
+    {
+     "by": "John Doe",
+     "text": "Maybe we'll find beauty in the patterns of code, like a fractal painting unfolding before our eyes. Or perhaps there's elegance in the way our AI evolves, learning from every byte and bit."
+    },
+    {
+     "by": "Nebula",
+     "text": "Jimm, with all due respect, it's time to focus on a plan that's backed by evidence. If you're going to invest in AI, you need to show us the roadmap first. Let's start with the basics: what's the minimum requirement to make this project viable? No half-baked ideas. Just let the creativity flow from the evidence."
+    },
+    {
+     "by": "Lumi",
+     "text": "I hear you loud and clear, Nebula. Let's put together something tangible. How about we start with a simple idea that uses existing resources and then build on it?"
+    },
+    {
+     "by": "John Doe",
+     "text": "Sounds like a solid plan, Nebula. How about we start with a basic chatbot idea that can generate creative writing prompts for writers in Neon Underworld? We can use existing resources like OpenAI API and build on it with more complex features later."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-07 19:55",
    "who": [
@@ -1413,42 +1445,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-07 18:41",
-   "who": [
-    "Zorvath",
-    "Lila",
-    "Fiona Quill"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Zorvath",
-     "text": "Ah, there's that perpetual bug on the jukebox at The Neon Groove. It's supposed to cycle through the songs but just loops the same tune. Maybe it's time for a programmer to have a look at that."
-    },
-    {
-     "by": "Lila",
-     "text": "Maybe a code injection could turn that loop into a synthwave remix—no more monotony, just neon nostalgia."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That jukebox thing… it's a microcosm, isn't it? So much potential for a tiny spark of joy, just caught in this repetitive little cycle. I wonder what other systems in the city are quietly malfunctioning, stuck on a broken loop we've all just accepted."
-    },
-    {
-     "by": "Zorvath",
-     "text": "You know what they say about broken loops—there's a hidden beauty in the chaos. Maybe if we just took a moment to fix it, we could find a new rhythm altogether. Oh, to be a jukebox programmer!"
-    },
-    {
-     "by": "Lila",
-     "text": "The jukebox’s a rebel, refusing to play nice—maybe it’s just waiting for a spark to turn its loop into a midnight dance party nobody asked for."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "It’s fascinating, isn’t it? This city is a sprawling network, and if a jukebox can get stuck, imagine the inefficiencies humming away in the background of the resource allocation system, or the subtle distortions in the data feeds for the automated delivery routes. Perhaps there's a perverse beauty in the unnoticed glitches, the silent rebellions of the machine."
-    }
-   ],
-   "spark": "Neon Nostalgia Jukebox Remixes"
   }
  ],
  "scouting": [
@@ -1540,9 +1536,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "research-mathstral",
-  "night-shift-llama-junior",
-  "research-deepseek-r1"
+  "research-deepseek-r1",
+  "recruit-phi35",
+  "research-deepseek-junior"
  ],
  "lab": [
   {
