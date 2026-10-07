@@ -1,5 +1,5 @@
 {
- "generated_at": 1791337587,
+ "generated_at": 1791338285,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -1126,13 +1126,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 40 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791337993,
+   "text": "Cinema School: Zorvath studied 'Surprising Ways Small Businesses Can Find Customer Success'"
+  },
+  {
    "at": 1791336697,
    "text": "Lumi, Byte, Zhilak took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791316864,
    "text": "Alana, Zora Xu, K5 took a resist in the smoke club"
-  },
-  {
-   "at": 1791316129,
-   "text": "Cinema School: Rexton Vance studied 'Short-Form Video Agency Pricing Guide (2024)'"
   }
  ],
  "products": [
