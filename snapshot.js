@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791374882,
+ "generated_at": 1791375491,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -307,8 +307,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -1297,10 +1297,6 @@ window.SNAPSHOT = {
   {
    "at": 1791359329,
    "text": "Zoe, K5, Fiona Quill took a resist in the smoke club"
-  },
-  {
-   "at": 1791358346,
-   "text": "Foundry (seeded by Elysia; crew Byte, Elysia, Forge, Vex) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
