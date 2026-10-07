@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791348843,
+ "generated_at": 1791349485,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -307,8 +307,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -748,13 +748,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 26 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1063,13 +1063,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 39 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1147,7 +1147,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Alana and John Doe",
    "mood": "optimistic",
    "said": "Imagine if every space in Neon Underworld was just a little bit more comfortable, a little less noisy. Think of the joy we could bring to countless visitors and",
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791348937,
+   "text": "Cinema School: Lumi studied 'Social Media Strategy for Local Businesses - 7 Tips | Marketing 360'"
+  },
+  {
    "at": 1791348734,
    "text": "Alana, John Doe, NeonNova took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791324128,
    "text": "Foundry (seeded by Fiona Quill; crew Fiona Quill, Forge, Mira, Zora Xu) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791323394,
-   "text": "Cinema School: Zhilak studied 'How to Start a Claw Machine Business in 2026'"
   }
  ],
  "products": [
