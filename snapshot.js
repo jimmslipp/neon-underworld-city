@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791343504,
+ "generated_at": 1791344116,
  "paused": false,
  "citizens": [
   {
@@ -580,7 +580,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Byte and Fiona Quill",
    "mood": "curious",
    "said": "It makes me wonder if a digital assistant like that could ever truly understand the nuances of creative thinking. It's not just about efficiency; it's about kno",
@@ -1126,13 +1126,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
