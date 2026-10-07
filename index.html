@@ -117,7 +117,7 @@ renderer.setSize(innerWidth, innerHeight);
 renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 document.body.prepend(renderer.domElement);
 const controls = new THREE.OrbitControls(camera, renderer.domElement);      // drag to rotate, pinch or scroll to zoom
-controls.enableDamping = true; controls.maxPolarAngle = Math.PI * 0.47; controls.minDistance = 16; controls.maxDistance = 120; controls.target.set(0, 1, 0);
+controls.enableDamping = true; controls.maxPolarAngle = Math.PI * 0.47; controls.minDistance = 3;      // Jimm, 7 Oct: zoom right in on what he taps controls.maxDistance = 120; controls.target.set(0, 1, 0);
 scene.add(new THREE.HemisphereLight(0xb9a8ff, 0x1a0f3a, 0.95));
 const sun = new THREE.DirectionalLight(0xffffff, 1.05); sun.position.set(26, 46, 22); sun.castShadow = true;
 sun.shadow.mapSize.set(2048, 2048); Object.assign(sun.shadow.camera, { left: -52, right: 52, top: 40, bottom: -40, near: 1, far: 130 }); sun.shadow.bias = -0.0006; scene.add(sun);
@@ -645,6 +645,7 @@ renderer.domElement.addEventListener("pointerup", e => {
   const shown = o => { for (; o; o = o.parent) if (!o.visible) return false; return true; };
   const hit = ray.intersectObjects(clickable).find(h => shown(h.object)), card = document.getElementById("card");
   if (!hit) { card.style.display = "none"; return; }
+  controls.target.copy(hit.point);            // what you tap becomes the centre: pinch or scroll now zooms straight onto it
   if (hit.object.userData.walker) { showResident(hit.object.userData.walker.c); return; }
   card.style.borderColor = ""; card.querySelector("h2").style.color = "";
   const d = hit.object.userData.owner.userData;
