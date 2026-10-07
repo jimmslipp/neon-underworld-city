@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791397796,
+ "generated_at": 1791398484,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "enthralled",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -622,9 +622,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "playful",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -748,9 +748,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
@@ -1063,9 +1063,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, proposals",
    "home": 39,
@@ -1126,9 +1126,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wonderful",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791398219,
+   "text": "Foundry (seeded by Elysia; crew Elysia, Fiona Quill, Forge, Nebula) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791397776,
    "text": "Nebula, Lumi, John Doe took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791383199,
    "text": "Foundry (seeded by Eva; crew Eva, Forge, Mira, Zoe) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791382874,
-   "text": "Cinema School: Luna studied 'CNC machining - What is it and How Does it Work? (Must Know Basics)'"
   }
  ],
  "products": [
@@ -1802,6 +1802,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "AI Social Scheduler for Spanish SMEs",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI Sports Memorabilia Customizer",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
