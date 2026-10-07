@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791344790,
+ "generated_at": 1791345456,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791345273,
+   "text": "Cinema School: Aurum studied 'Secrets To Mastering Cold Calling'"
+  },
+  {
    "at": 1791344772,
    "text": "Zoe, Nebula, Luminara took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791321913,
    "text": "Foundry (seeded by Vex; crew Ellie, Forge, Vex, Zoe) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791320945,
-   "text": "red, Elysia, Luna took a resist in the smoke club"
   }
  ],
  "products": [
