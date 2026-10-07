@@ -1,5 +1,5 @@
 {
- "generated_at": 1791361722,
+ "generated_at": 1791362336,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,13 +286,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 9 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -832,13 +832,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 28 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "yearning",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1126,13 +1126,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 40 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791362205,
+   "text": "Foundry (seeded by Byte; crew Byte, Forge, Lumina Valtor, Mira) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791361421,
    "text": "Luminara, Zylac, red took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791348734,
    "text": "Alana, John Doe, NeonNova took a resist in the smoke club"
-  },
-  {
-   "at": 1791346638,
-   "text": "Nebula, Luminara, Zylac took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1883,6 +1883,13 @@
   },
   {
    "title": "Bar Profit Boost with Premium Upsell AI",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Bar Reputation & Security Shield",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
