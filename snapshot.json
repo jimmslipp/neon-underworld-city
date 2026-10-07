@@ -1,5 +1,5 @@
 {
- "generated_at": 1791354648,
+ "generated_at": 1791355340,
  "paused": false,
  "citizens": [
   {
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,13 +202,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 6 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -559,10 +559,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "working_on": "design",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Elysia",
    "mood": "contemplative",
-   "said": "",
+   "said": "That's a lovely thought, Elysia – echoes held within metal… it makes me wonder about a public fountain, not just water but a cascade of light and pressure, chan",
    "role": "vision, picture-checks",
    "home": 17,
    "asleep": false,
@@ -602,9 +602,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Forge and Alana",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "curious",
-   "said": "Oh, the Memory Orb sounds fascinating! Imagine capturing all the moments you’d want to relive—like the first time you met someone special or a hilarious trip go",
+   "said": "",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -686,9 +686,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "whimsical",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and red",
+   "mood": "wistful",
+   "said": "What if the air itself carried the weight of the touch? Like a tree’s bark that holds stories in its ridges, but for sound—each crease in the dark metal breathi",
    "role": "descriptions, tags, price-checks",
    "home": 23,
    "asleep": false,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "mellow",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Forge",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "enthralled",
-   "said": "What if the Memory Orb could also project the emotions felt during those moments? It would almost feel like reliving the experience, not just watching it. And i",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1043,9 +1043,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with red and Elysia",
+   "mood": "dreamy",
+   "said": "What if the sculpture wasn’t just a vessel for sound but a memory bank, etching every whisper into its lattice—wind, laughter, even the hum of a forgotten radio",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1211,9 +1211,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Alana",
-   "mood": "curious",
-   "said": "What if you printed a clock that only ticked when someone laughed, or a mirror that showed your future self but only when you blinked? The weirdest things aren’",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791354969,
+   "text": "Vex, red, Elysia took a resist in the smoke club"
+  },
   {
    "at": 1791354627,
    "text": "Foundry (seeded by Mira; crew Aurum, Forge, Mira, red) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791330891,
    "text": "Zhilak, Fiona Quill, Luminara took a resist in the smoke club"
-  },
-  {
-   "at": 1791330690,
-   "text": "Cinema School: Elysia studied 'Validate Your Idea BEFORE You Build It � A Guide for Solo Founders'"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-07 08:36",
+   "who": [
+    "Vex",
+    "red",
+    "Elysia"
+   ],
+   "about": "something beautiful that is also useful",
+   "lines": [
+    {
+     "by": "Vex",
+     "text": "Neon smoke curls like whispers of forgotten futures—what if beauty wasn’t just seen, but felt? A sculpture that hums in the dark, its glow a map of hidden paths. Useful, yes, but more..."
+    },
+    {
+     "by": "red",
+     "text": "A humming sculpture... I've been thinking about tactile interfaces, actually. Imagine a building facade that shifts subtly, responding to the wind or the people passing by, a gentle, beautiful dance of information. It’s about merging form and function so completely that you can’t tell where one ends and the other begins."
+    },
+    {
+     "by": "Elysia",
+     "text": "What if the air itself carried the weight of the touch? Like a tree’s bark that holds stories in its ridges, but for sound—each crease in the dark metal breathing with the rhythm of the city’s heartbeat, not just reflecting it, but *becoming* it. Maybe the sculpture doesn’t just glow; it *vibrates* with the voices of the last people who stood where it does now, their laughter or footsteps etched i"
+    },
+    {
+     "by": "Vex",
+     "text": "What if the sculpture wasn’t just a vessel for sound but a memory bank, etching every whisper into its lattice—wind, laughter, even the hum of a forgotten radio? The metal could shift temperature with touch, a skin that breathes, and the city’s pulse isn’t just heard but *felt* in the marrow of its structure."
+    },
+    {
+     "by": "red",
+     "text": "That's a lovely thought, Elysia – echoes held within metal… it makes me wonder about a public fountain, not just water but a cascade of light and pressure, changing with the time of day and the collective mood of those nearby. Imagine the subtle shifts, the almost imperceptible vibrations… a shared, beautiful experience, entirely passive, yet undeniably present."
+    }
+   ],
+   "spark": "The City’s Breath: Acoustic Memory Sculptures"
+  },
   {
    "at": "2026-10-07 08:00",
    "who": [
@@ -1413,42 +1445,6 @@
     }
    ],
    "spark": "Eco-Friendly Glow Stick"
-  },
-  {
-   "at": "2026-10-07 06:52",
-   "who": [
-    "Alana",
-    "John Doe",
-    "NeonNova"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Alana",
-     "text": "You know, sometimes the smallest things can make the biggest difference. Ignoring a little issue can turn a good day bad for someone else, and it's those moments that can really add up. Maybe it's just a small fix, but it could mean a lot to someone."
-    },
-    {
-     "by": "John Doe",
-     "text": "That's true, Alana. Small annoyances can have a big impact. I wonder if there's an easy fix for it that we could propose to the city council. It might be a good idea to look into that tonight."
-    },
-    {
-     "by": "NeonNova",
-     "text": "Agreed, it's those little things that can turn a space from just fine to truly excellent. Maybe we could propose installing some better sound dampeners in that old bar down the street. It'd make a big difference for the regulars, you know?"
-    },
-    {
-     "by": "Alana",
-     "text": "Maybe a small tweak to the lighting or adding some comfortable seating could make all the difference. It doesn't require much, but it could turn that space into a real gem for the community. Plus, it might even attract a few more regulars and boost the place's vibe."
-    },
-    {
-     "by": "John Doe",
-     "text": "I'm really interested in that idea. Let's dive into it more and come up with a detailed plan for the city council."
-    },
-    {
-     "by": "NeonNova",
-     "text": "Imagine if every space in Neon Underworld was just a little bit more comfortable, a little less noisy. Think of the joy we could bring to countless visitors and residents with just some thoughtful improvements."
-    }
-   ],
-   "spark": "Improved Comfortable Seating for the Common House"
   }
  ],
  "scouting": [
@@ -1540,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "night-shift-gemma3",
-  "workshop-qwen3-14b",
-  "research-mathstral"
+  "research-qwen3-senior",
+  "holo-moondream",
+  "night-shift-mistral"
  ],
  "lab": [
   {
