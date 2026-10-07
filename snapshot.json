@@ -1,5 +1,5 @@
 {
- "generated_at": 1791387634,
+ "generated_at": 1791388313,
  "paused": false,
  "citizens": [
   {
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -643,7 +643,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Fiona Quill",
    "mood": "dreamy",
    "said": "Ah, I see what you mean, Fiona. A responsive chime sounds like a beautiful concept. Imagine the hoverboard's hum evolving into a symphony that dances with the c",
@@ -1168,13 +1168,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 42 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791388171,
+   "text": "Foundry (seeded by Mira; crew Elysia, Forge, Mira, Nebula) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791387235,
    "text": "Foundry (seeded by Ellie; crew Aurum, Ellie, Forge, Lila) pitched an idea to the R&D Lab"
@@ -1293,10 +1297,6 @@
   {
    "at": 1791367944,
    "text": "Cinema School: Eva studied 'The TRUTH About Selling AI Automations to Businesses'"
-  },
-  {
-   "at": 1791367813,
-   "text": "Elysia, Zhilak, Folio took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2278,6 +2278,13 @@
    "status": "alive",
    "yes": 22,
    "no": 7
+  },
+  {
+   "title": "PET Certification Tracker for Local Breweries",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
   },
   {
    "title": "Pre-Launch Startup Validation Kits",
