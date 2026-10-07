@@ -1,5 +1,5 @@
 {
- "generated_at": 1791367832,
+ "generated_at": 1791368447,
  "paused": false,
  "citizens": [
   {
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -832,9 +832,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
@@ -1063,13 +1063,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 39 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1223,6 +1223,14 @@
  ],
  "feed": [
   {
+   "at": 1791368425,
+   "text": "Foundry (seeded by Alana; crew Alana, Ellie, Elysia, Forge) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791367944,
+   "text": "Cinema School: Eva studied 'The TRUTH About Selling AI Automations to Businesses'"
+  },
+  {
    "at": 1791367813,
    "text": "Elysia, Zhilak, Folio took a resist in the smoke club"
   },
@@ -1293,14 +1301,6 @@
   {
    "at": 1791356448,
    "text": "Foundry (seeded by red; crew Alana, Forge, Zoe, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791355599,
-   "text": "Foundry (seeded by Glow; crew Elysia, Forge, Glow, Lumina Valtor) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791354969,
-   "text": "Vex, red, Elysia took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1775,6 +1775,13 @@
   },
   {
    "title": "AI Skincare Analyzer for Professionals",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI Social Media Automation for Costa del Sol Bars",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
