@@ -1,5 +1,5 @@
 {
- "generated_at": 1791386917,
+ "generated_at": 1791387634,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -580,13 +580,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "mellow",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1147,13 +1147,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 41 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1168,13 +1168,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 42 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791387235,
+   "text": "Foundry (seeded by Ellie; crew Aurum, Ellie, Forge, Lila) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791386897,
    "text": "Zylac, Zora Xu, Fiona Quill took a resist in the smoke club"
@@ -1293,10 +1297,6 @@
   {
    "at": 1791367813,
    "text": "Elysia, Zhilak, Folio took a resist in the smoke club"
-  },
-  {
-   "at": 1791367285,
-   "text": "HGA check-up written by Vera Quill"
   }
  ],
  "products": [
@@ -2344,6 +2344,13 @@
   },
   {
    "title": "Secure Compliance Platform for Spanish Bars",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Secure Email Auth Guard (SEAG) for Spanish Venues",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
