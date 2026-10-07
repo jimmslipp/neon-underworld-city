@@ -1,5 +1,5 @@
 {
- "generated_at": 1791358005,
+ "generated_at": 1791358710,
  "paused": false,
  "citizens": [
   {
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 7 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -559,9 +559,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -1063,9 +1063,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, proposals",
    "home": 39,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791358346,
+   "text": "Foundry (seeded by Elysia; crew Byte, Elysia, Forge, Vex) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791357438,
    "text": "Foundry (seeded by Lila; crew Eva, Forge, Lila, Zora Xu) pitched an idea to the R&D Lab"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791340693,
    "text": "John Doe, Zora Xu, Zoe took a resist in the smoke club"
-  },
-  {
-   "at": 1791338632,
-   "text": "Zylac, NeonNova, Luna took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2173,6 +2173,13 @@
   },
   {
    "title": "Neon Content Forge for Spanish Bars",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon Exit-Val: AI-Driven Bar Valuation Reports",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
