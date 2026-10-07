@@ -1,5 +1,5 @@
 {
- "generated_at": 1791409102,
+ "generated_at": 1791409806,
  "paused": false,
  "citizens": [
   {
@@ -559,13 +559,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791409784,
+   "text": "Foundry (seeded by Lumina Valtor; crew Elysia, Forge, Lumina Valtor, Mira) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791408796,
    "text": "Cinema School: Zylac studied 'My Best Sales Tactic (to Make a TON of Money)'"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791393508,
    "text": "Glow, red, K5 took a resist in the smoke club"
-  },
-  {
-   "at": 1791392208,
-   "text": "Foundry (seeded by Lila; crew Aurum, Forge, Lila, Vex) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -2300,6 +2300,13 @@
   {
    "title": "Neon Phoenix Hub",
    "stage": "build",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "NeonGuard: AI Security with Cyberpunk Flair",
+   "stage": "pitch",
    "status": "alive",
    "yes": 0,
    "no": 0
