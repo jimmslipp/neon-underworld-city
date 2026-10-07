@@ -1,5 +1,5 @@
 {
- "generated_at": 1791341450,
+ "generated_at": 1791342086,
  "paused": false,
  "citizens": [
   {
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -916,7 +916,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Zoe",
    "mood": "curious",
    "said": "That's a great idea, Zora! We could even run a small experiment to see how effective the AI could be. Maybe we can get the city council to approve it and see if",
@@ -1000,13 +1000,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 36 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791341608,
+   "text": "Cinema School: Luminara studied '3 Most Profitable Menu Items (From 20+ Years Running Restaurants)'"
+  },
+  {
    "at": 1791340693,
    "text": "John Doe, Zora Xu, Zoe took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791318987,
    "text": "Glow, Fiona Quill, Rexton Vance took a resist in the smoke club"
-  },
-  {
-   "at": 1791318903,
-   "text": "Foundry (seeded by Lumina Valtor; crew Eva, Forge, Lumina Valtor, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
