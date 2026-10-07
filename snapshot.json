@@ -1,5 +1,5 @@
 {
- "generated_at": 1791404446,
+ "generated_at": 1791405082,
  "paused": false,
  "citizens": [
   {
@@ -286,13 +286,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 9 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -622,13 +622,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 20 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -748,13 +748,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 26 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -1223,6 +1223,14 @@
  ],
  "feed": [
   {
+   "at": 1791405042,
+   "text": "Cinema School: Zhilak studied 'How Much Money Does My Pub Make? (profit & loss revealed)'"
+  },
+  {
+   "at": 1791404735,
+   "text": "Foundry (seeded by Aurum; crew Aurum, Fiona Quill, Forge, red) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791404427,
    "text": "K5, Lumina Valtor, Vora took a resist in the smoke club"
   },
@@ -1293,14 +1301,6 @@
   {
    "at": 1791390001,
    "text": "Foundry (seeded by Glow; crew Alana, Forge, Glow, Zora Xu) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791389071,
-   "text": "Alana, Lumi, Vex took a resist in the smoke club"
-  },
-  {
-   "at": 1791388171,
-   "text": "Foundry (seeded by Mira; crew Elysia, Forge, Mira, Nebula) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -2106,6 +2106,13 @@
   },
   {
    "title": "Digital Brand Studio for Costa del Sol Tourism Businesses",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Digital Business Model Library",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
