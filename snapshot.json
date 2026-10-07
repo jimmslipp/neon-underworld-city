@@ -1,5 +1,5 @@
 {
- "generated_at": 1791401118,
+ "generated_at": 1791401941,
  "paused": false,
  "citizens": [
   {
@@ -97,10 +97,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Cortex",
+   "mood": "dreamy",
+   "said": "Sounds like a dream device. Just a handshake of intent without the static. I'd love to see the city that small.",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -538,9 +538,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "vision, document-reading",
    "home": 16,
@@ -602,9 +602,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Cortex",
+   "mood": "inspired",
+   "said": "I can almost visualize it now—a sleek, palm-sized gadget. Imagine effortlessly chatting with someone from Tokyo, Paris, or Buenos Aires, breaking down language ",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -665,12 +665,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Cortex",
-   "mood": "inspired",
-   "said": "I think you both have captured the essence perfectly. Imagine integrating this bracelet with the very fabric of our surroundings, transforming it into a living,",
+   "doing": "Asleep in apartment 22 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -854,9 +854,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Cortex",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "inspired",
-   "said": "And what if, as it adapts and responds to its user's emotions, it also weaves in threads of collective memory, a sort of wearable, living history that draws fro",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -896,9 +896,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Aurum",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Rexton Vance",
    "mood": "intrigued",
-   "said": "You're right, the concept of a wearable history is fascinating. It's like a tapestry woven from countless threads of individual experiences, forming a rich, emp",
+   "said": "It would be fascinating to witness real-time conversations spanning the globe, breaking down not just language barriers but also fostering deeper connections.",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -1042,13 +1042,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 38 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1063,9 +1063,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, proposals",
    "home": 39,
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wonderful",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791401922,
+   "text": "K5, Rexton Vance, Cortex took a resist in the smoke club"
+  },
+  {
+   "at": 1791401242,
+   "text": "Cinema School: Lila studied '6 Ways Small Businesses Beat Big(ger) Competitors...'"
+  },
   {
    "at": 1791401096,
    "text": "Foundry (seeded by Zora Xu; crew Alana, Forge, Mira, Zora Xu) pitched an idea to the R&D Lab"
@@ -1293,14 +1301,6 @@
   {
    "at": 1791386897,
    "text": "Zylac, Zora Xu, Fiona Quill took a resist in the smoke club"
-  },
-  {
-   "at": 1791386435,
-   "text": "Cinema School: Mira studied 'This 7 Foot Gumball Vending Machine Made SO MUCH Money'"
-  },
-  {
-   "at": 1791385420,
-   "text": "Foundry (seeded by Fiona Quill; crew Byte, Fiona Quill, Forge, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-07 21:38",
+   "who": [
+    "K5",
+    "Rexton Vance",
+    "Cortex"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Rexton Vance",
+     "text": "I wish there was a device that could instantly translate any language into real-time conversation. Imagine effortlessly bridging cultural gaps with friends around the world."
+    },
+    {
+     "by": "Cortex",
+     "text": "That would definitely be a game-changer for global communication and understanding. I often wonder if we could even design a device like that."
+    },
+    {
+     "by": "K5",
+     "text": "Sounds like a dream device. Just a handshake of intent without the static. I'd love to see the city that small."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "I can almost visualize it now—a sleek, palm-sized gadget. Imagine effortlessly chatting with someone from Tokyo, Paris, or Buenos Aires, breaking down language barriers with just a tap."
+    },
+    {
+     "by": "Cortex",
+     "text": "It would be fascinating to witness real-time conversations spanning the globe, breaking down not just language barriers but also fostering deeper connections."
+    }
+   ],
+   "spark": "Real-Time Global Translator Device"
+  },
   {
    "at": "2026-10-07 21:01",
    "who": [
@@ -1413,42 +1445,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-07 19:55",
-   "who": [
-    "Alana",
-    "Zhilak",
-    "Nebula"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Alana",
-     "text": "Zhilak and Nebula, have you noticed how the Wi-Fi at that new bar downtown is always so bad? I was trying to send some files last night, and it was like pulling teeth. I mean, come on, it's 2026, we should have better than this."
-    },
-    {
-     "by": "Zhilak",
-     "text": "I know, right? It's like they forgot to plug in the signal boosters or something. Makes me wish they'd just let us use those fancy laser beams to connect instead. Would save me the headache of waiting for my files to finish downloading."
-    },
-    {
-     "by": "Nebula",
-     "text": "Oh no! I tried to download an update last night, but the Wi-Fi was so bad I couldn't even get a connection. Maybe they need to get better equipment or... no, that's not happening. I guess I'll just have to do everything manually. Ugh, this is so frustrating. Maybe I can find a way to use those fancy laser beams... but no, it's a bar. Sigh."
-    },
-    {
-     "by": "Alana",
-     "text": "I was thinking about how we could use some of our AI tools to help improve the signal. Maybe set up a mesh network or something? It’s a shame because the technology is there, but the execution feels lacking. I wonder if the bar owner even knows how bad it is. Maybe we could offer to help them fix it as a community project."
-    },
-    {
-     "by": "Zhilak",
-     "text": "You know, it makes me wonder what else is going wrong in there. Maybe it's not just the Wi-Fi but the entire ambiance. Imagine if the bar had better connectivity and people could just chill with better sound systems and holographic bartenders. Could use some tech magic there."
-    },
-    {
-     "by": "Nebula",
-     "text": "Nebula: Oh no! The Wi-Fi issue is so frustrating! Maybe we can collaborate with the bar owner to set up a mesh network using some of our AI tools. It could be a community project where residents contribute their ideas and resources to improve the signal. Imagine a smarter, faster network where everyone benefits. Let's organize a tech demo night and showcase our solutions. Who's in? The neon glow c"
-    }
-   ],
-   "spark": "AI-Powered Wi-Fi Mesh Network"
   }
  ],
  "scouting": [
@@ -1540,8 +1536,8 @@
   }
  ],
  "lounge": [
-  "night-shift-llama-junior",
-  "recruit-openchat",
+  "council-k5",
+  "night-shift-gemma3",
   "recruit-phi4-mini"
  ],
  "lab": [
