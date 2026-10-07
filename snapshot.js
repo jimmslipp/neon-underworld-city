@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791353851,
+ "generated_at": 1791354648,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -916,9 +916,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -1126,9 +1126,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
@@ -1210,7 +1210,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Alana",
    "mood": "curious",
    "said": "What if you printed a clock that only ticked when someone laughed, or a mirror that showed your future self but only when you blinked? The weirdest things aren’",
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791354627,
+   "text": "Foundry (seeded by Mira; crew Aurum, Forge, Mira, red) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791353830,
    "text": "Foundry (seeded by Ellie; crew Byte, Ellie, Forge, Glow) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791330690,
    "text": "Cinema School: Elysia studied 'Validate Your Idea BEFORE You Build It � A Guide for Solo Founders'"
-  },
-  {
-   "at": 1791329023,
-   "text": "Lumi, Vora, K5 took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2088,6 +2088,13 @@ window.SNAPSHOT = {
    "title": "Interactive 3D-Printed Figurine with Augmented Reality Elements",
    "stage": "pitch",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Journey Map Analysis with Local AI & Referral Incentives",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
