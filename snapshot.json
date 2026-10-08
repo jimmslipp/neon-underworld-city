@@ -1,5 +1,5 @@
 {
- "generated_at": 1791493687,
+ "generated_at": 1791494299,
  "paused": false,
  "citizens": [
   {
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -748,9 +748,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "melancholic",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1126,7 +1126,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Aurum and Vora",
    "mood": "inspired",
    "said": "Exactly, Aurum. It's like stepping into a parallel universe where every object tells a story. I can already imagine the soundscapes and the way the scents would",
@@ -1168,13 +1168,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 42 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791493942,
+   "text": "Foundry (seeded by Glow; crew Forge, Glow, Lumina Valtor, Vex) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791493176,
    "text": "Aurum, Ellie, Vora took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791479800,
    "text": "Foundry (seeded by Byte; crew Byte, Ellie, Forge, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791479084,
-   "text": "Cinema School: Rexton Vance studied 'How to Backtest a Trading Strategy on Tradingview'"
   }
  ],
  "products": [
@@ -1985,6 +1985,13 @@
   },
   {
    "title": "Bar Owner Demand Bot with Local Expertise",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Bar Post Factory App - Localized AI Content for Costa del Sol",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
