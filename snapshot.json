@@ -1,5 +1,5 @@
 {
- "generated_at": 1791461039,
+ "generated_at": 1791461711,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -559,9 +559,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "intrigued",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1126,9 +1126,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791461267,
+   "text": "Foundry (seeded by Lila; crew Fiona Quill, Forge, Lila, Lumina Valtor) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791460670,
    "text": "Cinema School: NeonNova studied 'How It's Made: Hot Wheel Toys, Doll, Teddy Bears'"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791448475,
    "text": "Foundry (seeded by Eva; crew Eva, Forge, Zora Xu, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791447008,
-   "text": "Cortex, Glow, John Doe took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2575,6 +2575,13 @@
    "title": "USB-C to HDMI Adapter Flip",
    "stage": "pitch",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Wi-Fi Security Bot for Spanish Venues",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   }
