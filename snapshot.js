@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791499696,
+ "generated_at": 1791500420,
  "paused": false,
  "citizens": [
   {
@@ -307,13 +307,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 10 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 10,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Security"
   },
@@ -559,7 +559,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Vora and Forge",
    "mood": "dreamy",
    "said": "Phosphorescent ink... that's gorgeous. I've been thinking about that feeling, that residual shimmer, you know? Like a memory left behind in a place. Maybe the c",
