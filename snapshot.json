@@ -1,5 +1,5 @@
 {
- "generated_at": 1791441615,
+ "generated_at": 1791442358,
  "paused": false,
  "citizens": [
   {
@@ -160,9 +160,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
@@ -559,9 +559,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
