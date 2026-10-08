@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791476953,
+ "generated_at": 1791477598,
  "paused": false,
  "citizens": [
   {
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -307,8 +307,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -706,7 +706,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with K5 and Mira",
    "mood": "playful",
    "said": "What if the glow turns their squawks into a beat? Maybe the poster could sync with the bar's music, turning the chaos into a catchy jam.",
@@ -1168,7 +1168,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with K5 and Zoe",
    "mood": "inspired",
    "said": "That's a great idea, Zoe! I could help you design the poster in a hurry. We just need to make sure it catches their attention without being too aggressive. Let'",
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791477329,
+   "text": "Foundry (seeded by Zoe; crew Eva, Forge, Mira, Zoe) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791476933,
    "text": "K5, Mira, Zoe took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791457023,
    "text": "Cinema School: Vora studied 'Validate Any Startup Idea With AI (Full Tutorial & Demo)'"
-  },
-  {
-   "at": 1791455533,
-   "text": "Zorvath, Nebula, Luna took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1928,6 +1928,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "Ayurvedic Wellness Video Studio",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Bar Biz Boost: Hyper-Local AI Social App for Costa Del Sol Bars",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
