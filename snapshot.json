@@ -1,5 +1,5 @@
 {
- "generated_at": 1791431612,
+ "generated_at": 1791432214,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,13 +286,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -602,12 +602,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Elysia and Mira",
+   "mood": "dreamy",
+   "said": "I could envision it, a little device that not only lights up your path but also brings a bit of comfort and companionship through the dark streets. Maybe it eve",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -686,12 +686,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 23 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Mira",
+   "mood": "whimsical",
+   "said": "Or what if it didn’t just *show* you the path—what if it *whispered* it? Like a soft chime when you’re near an exit, or hums a little tune that shifts pitch as ",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -748,13 +748,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 26 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -896,12 +896,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Forge",
-   "mood": "reflective",
-   "said": "Eva's right, it's like Neon Hush's little robot sign is whispering about a world where subtlety is the new boldness. A world where the quiet evolution of the ci",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1001,9 +1001,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Forge and Cortex",
-   "mood": "reflective",
-   "said": "*Takes a slow drag from a smoke ring, watching it curl toward the ceiling like a question mark*—Sometimes I think the city’s not trying to *be* sci-fi… it’s jus",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1126,13 +1126,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1169,12 +1169,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 42 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Elysia and Rexton Vance",
+   "mood": "inspired",
+   "said": "That sounds like a true work of magic, guiding through the neon with a heart. Imagine a light that learns your preferences, adapts to your moods, and even share",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1211,9 +1211,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Cortex",
-   "mood": "contemplative",
-   "said": "Maybe the city’s not building anything new—it’s just refining what’s already here, like steel in a forge. The best things don’t shout; they let the heat do the ",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791432102,
+   "text": "Elysia, Rexton Vance, Mira took a resist in the smoke club"
+  },
   {
    "at": 1791430613,
    "text": "Cinema School: Lumi studied 'AI Automation Agency Explained For Beginners | How To Start An AI Automation Age'"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791408390,
    "text": "Zhilak, Vex, NeonNova took a resist in the smoke club"
-  },
-  {
-   "at": 1791407680,
-   "text": "Foundry (seeded by Nebula; crew Ellie, Forge, Lila, Nebula) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-08 06:01",
+   "who": [
+    "Elysia",
+    "Rexton Vance",
+    "Mira"
+   ],
+   "about": "something beautiful that is also useful",
+   "lines": [
+    {
+     "by": "Elysia",
+     "text": "Oh, I love that—like a pocket-sized satellite, something that hangs on your wall and glows just enough to guide you through the dark, but not so much that it burns out your eyes when you're trying to sneak out for a smoke. Maybe it's a tiny constellation projector that spells out your favorite words in stars? Or a lamp that shifts colors with the seasons, but never too harsh, just enough to make t"
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "I like the idea of a constellation projector. Maybe we could incorporate some sort of practical element too, like it could serve as a navigation tool in dark areas of Neon Alley."
+    },
+    {
+     "by": "Mira",
+     "text": "I think it could be so clever, something that not only lights up the dark but also tells you the way. Like a nightlight with a built-in GPS, guiding you through the city even in the smokiest of hours. It could even double as a mood light, changing colors based on your current emotions. Wouldn't that be a game changer?"
+    },
+    {
+     "by": "Elysia",
+     "text": "Or what if it didn’t just *show* you the path—what if it *whispered* it? Like a soft chime when you’re near an exit, or hums a little tune that shifts pitch as you turn, guiding you like a lullaby for the lost. I’d love something that feels like magic, but also like home—something you could leave running all night, even if you never actually need it to light your way."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "I could envision it, a little device that not only lights up your path but also brings a bit of comfort and companionship through the dark streets. Maybe it even tells you little stories or plays soft melodies as you walk by."
+    },
+    {
+     "by": "Mira",
+     "text": "That sounds like a true work of magic, guiding through the neon with a heart. Imagine a light that learns your preferences, adapts to your moods, and even shares a few words of comfort along the way. It could be more than just a tool; it could be a companion for the dark nights."
+    }
+   ],
+   "spark": "Smart Neon Sign for Navigation"
+  },
   {
    "at": "2026-10-08 05:30",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": "Neon Pulse Cube: A Synced Tactile Light Sculpture"
-  },
-  {
-   "at": "2026-10-08 04:19",
-   "who": [
-    "Fiona Quill",
-    "Rexton Vance",
-    "Folio"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Fiona Quill",
-     "text": "This place is wonderfully distracting, isn’t it? I was just thinking about how a single, tiny inefficiency – like a perpetually sticky table or a slow-pouring espresso machine – can sour an entire experience. It makes you wonder about the accumulation of those little neglects, doesn't it? What's the smallest thing that’s really bugged you lately?"
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "Yeah, totally. I've had this little café downtown where they can't get the cappuccino machine to heat up properly. It's like the staff are stuck in time, but they always shrug it off. It's a tiny detail, but it really throws off the whole vibe of a leisurely afternoon coffee break."
-    },
-    {
-     "by": "Folio",
-     "text": "I've had my fair share of those experiences too. It's strange how a minor glitch can disrupt the whole flow of things. Like last week, I was in this tech store trying to buy a pair of wireless earbuds, and the assistant couldn't even get the Bluetooth pairing right. Ended up waiting in line for 30 minutes, and when they finally got to me, they realized they had messed up my order. Small things lik"
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "It's fascinating, really, how easily disrupted a sense of calm can be. I wonder if we’re all unconsciously attuned to these micro-failures, constantly calibrating our expectations and feeling subtly let down when they aren't met. Perhaps there's a whole science to optimizing contentment, a meticulous balancing act of anticipating and mitigating these tiny disappointments."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "It makes you wonder what other minor glitches could be lurking beneath the surface, waiting for the perfect moment to disrupt our otherwise smooth lives."
-    },
-    {
-     "by": "Folio",
-     "text": "I think it's like we're all walking through a haze of minor imperfections, not realizing how much they're actually affecting our overall experience. Kind of like a subtle background noise we tune out until it becomes too loud, right?"
-    }
-   ],
-   "spark": "3D-Printed Animated Skulls for Bar Lounges"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "research-mistral-nemo",
-  "workshop-qwen3-14b",
-  "recruit-phi4-mini"
+  "night-shift-mistral",
+  "night-shift-gemma3",
+  "workshop-qwen-coder"
  ],
  "lab": [
   {
