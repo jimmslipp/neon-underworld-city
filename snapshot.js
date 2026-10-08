@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791485306,
+ "generated_at": 1791485952,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "playful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -916,7 +916,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Lila and Fiona Quill",
    "mood": "curious",
    "said": "That idea really sparks something in me. What if we took it a step further and created a pendant that not only syncs to your heartbeat but also visualizes your ",
@@ -958,9 +958,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791485570,
+   "text": "Foundry (seeded by Alana; crew Alana, Forge, Lila, Zora Xu) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791484951,
    "text": "Lila, Fiona Quill, John Doe took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791467942,
    "text": "Cinema School: Mira studied 'The Economics of Owning a Restaurant'"
-  },
-  {
-   "at": 1791466084,
-   "text": "red, Fiona Quill, Elysia took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2173,6 +2173,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "Dynamic QR for Multilingual Bars",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "ESP32 Automation for Small Business",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
