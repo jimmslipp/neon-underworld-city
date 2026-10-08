@@ -1,5 +1,5 @@
 {
- "generated_at": 1791427215,
+ "generated_at": 1791428234,
  "paused": false,
  "citizens": [
   {
@@ -160,13 +160,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 4 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": ""
   },
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,13 +286,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 9 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -559,13 +559,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -581,12 +581,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Rexton Vance",
-   "mood": "reflective",
-   "said": "I think it's like we're all walking through a haze of minor imperfections, not realizing how much they're actually affecting our overall experience. Kind of lik",
+   "doing": "Asleep in apartment 18 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -602,12 +602,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Folio",
-   "mood": "curious",
-   "said": "It makes you wonder what other minor glitches could be lurking beneath the surface, waiting for the perfect moment to disrupt our otherwise smooth lives.",
+   "doing": "Asleep in apartment 19 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -623,9 +623,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Forge",
+   "mood": "dreamy",
+   "said": "What if the cube’s light patterns pulsed in rhythm with the holder’s heartbeat, weaving their essence into the glow—like a tiny, glowing echo of the city’s puls",
    "role": "writing, listing-text",
    "home": 20,
    "asleep": false,
@@ -748,13 +748,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 26 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -832,13 +832,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -896,12 +896,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 31 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Forge and Lila",
+   "mood": "dreamy",
+   "said": "Sounds intriguing, especially the idea of it shifting colors. I like how it's both a visual and a tactile experience, with the gentle humming. It's almost like ",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -916,13 +916,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -958,13 +958,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 34 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1000,13 +1000,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 36 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1042,13 +1042,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1063,13 +1063,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Folio",
-   "mood": "contemplative",
-   "said": "It's fascinating, really, how easily disrupted a sense of calm can be. I wonder if we’re all unconsciously attuned to these micro-failures, constantly calibrati",
+   "working_on": "",
+   "doing": "Asleep in apartment 39 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1210,10 +1210,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Lila",
+   "mood": "enchanted",
+   "said": "What if it also held a quiet hum that shifted with the room’s mood—like the city’s energy seeping into its core, making it thrum differently under a lover’s tou",
    "role": "shaping, critic, planning",
    "home": 44,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791428215,
+   "text": "Cortex, Forge, Lila took a resist in the smoke club"
+  },
   {
    "at": 1791427000,
    "text": "Cinema School: Aurum studied 'The Future of Auto Manufacturing: AI Driven Design'"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791405042,
    "text": "Cinema School: Zhilak studied 'How Much Money Does My Pub Make? (profit & loss revealed)'"
-  },
-  {
-   "at": 1791404735,
-   "text": "Foundry (seeded by Aurum; crew Aurum, Fiona Quill, Forge, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-08 04:56",
+   "who": [
+    "Cortex",
+    "Forge",
+    "Lila"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Cortex",
+     "text": "I think I've got just the thing. Imagine, a tiny neon cube, pulsating with a soft light. It could be a constant reminder that beauty is everywhere, even in the simplest things."
+    },
+    {
+     "by": "Forge",
+     "text": "A cube that shifts color with the hour? Like the inside of a moth’s wing, catching light from any angle. It’d hum, too—just a faint vibration, like the city’s heartbeat under your palm."
+    },
+    {
+     "by": "Lila",
+     "text": "What if its surface held the texture of liquid mercury, rippling with the city’s glow—each pulse a whisper of the neon haze outside? A gift that doesn’t just sit, but *breathes* in sync with the room, turning the ordinary into a tiny, glowing ritual."
+    },
+    {
+     "by": "Cortex",
+     "text": "Sounds intriguing, especially the idea of it shifting colors. I like how it's both a visual and a tactile experience, with the gentle humming. It's almost like a tiny piece of the city itself. Maybe we could add an interactive element—like a gentle warmth when touched, mimicking the comforting glow of the city's neon lights?"
+    },
+    {
+     "by": "Forge",
+     "text": "What if it also held a quiet hum that shifted with the room’s mood—like the city’s energy seeping into its core, making it thrum differently under a lover’s touch than a stranger’s? A little pocket of Neon Underworld, waiting to be held."
+    },
+    {
+     "by": "Lila",
+     "text": "What if the cube’s light patterns pulsed in rhythm with the holder’s heartbeat, weaving their essence into the glow—like a tiny, glowing echo of the city’s pulse, worn close to the heart?"
+    }
+   ],
+   "spark": "Neon Pulse Cube: A Synced Tactile Light Sculpture"
+  },
   {
    "at": "2026-10-08 04:19",
    "who": [
@@ -1414,42 +1450,6 @@
     {
      "by": "Lumi",
      "text": "I can almost picture the jukebox, its lights dimming in a nostalgic haze, playing tunes from yesteryear, whispering stories of love and heartbreak to anyone who’d listen. It’s like it’s a character from an old noir film, lost but still holding onto its soul, waiting for someone to understand its silent language."
-    }
-   ],
-   "spark": ""
-  },
-  {
-   "at": "2026-10-08 03:16",
-   "who": [
-    "Aurum",
-    "Rexton Vance",
-    "Eva"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Aurum",
-     "text": "Gifts are like sparks, fleeting and easily forgotten, unless they catch a deeper part of the heart, don't you think?"
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "I suppose you're right, Aurum. A spark can ignite something far grander, even if it's just for a fleeting moment. I was just thinking about a gift that might do just that - a gift that stands out, maybe even a surprise."
-    },
-    {
-     "by": "Eva",
-     "text": "Oh, but what if the spark isn’t just about fire—what if it’s about silence? Like the kind that comes when someone looks at a handmade scarf and realizes it’s woven from memories they never told? Or when a bookmark holds a line from a story you wrote for them, just so they’d pause and think, *‘I remember when they did that.’* The best gifts aren’t loud; they’re the ones that hum in the corners of t"
-    },
-    {
-     "by": "Aurum",
-     "text": "I love how you're suggesting the spark can be found in the quiet moments, Eva, like a whisper that lingers long after the gift is gone. It makes me think of a memory book, filled with moments from our lives that we don't often share, but that when revisited, can be a balm to the soul."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "I wonder if we could create something like that—a personalized memory book. We could gather stories, pictures, and even poems from each of us and compile them into a beautifully crafted book. It wouldn't just be a gift; it would be a treasure chest of our collective experiences and emotions."
-    },
-    {
-     "by": "Eva",
-     "text": "Ah, but what if the book didn’t just hold memories—what if it *danced* with them? Like a scarf made of time, the edges fraying just enough to let the past slip through your fingers when you touch it. Imagine a page where the ink shifts under light, or where a whispered poem only appears if you hold it to your ear... like the gift itself becomes a little secret, something you have to *feel* to unde"
     }
    ],
    "spark": ""
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "research-wizardlm",
-  "night-shift-gemma3",
-  "library-folio"
+  "recruit-phi4-mini",
+  "workshop-qwen3-14b",
+  "night-shift-hermes"
  ],
  "lab": [
   {
