@@ -1,5 +1,5 @@
 {
- "generated_at": 1791459496,
+ "generated_at": 1791459578,
  "paused": false,
  "citizens": [
   {
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
