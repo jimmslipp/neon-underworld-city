@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791469583,
+ "generated_at": 1791470277,
  "paused": false,
  "citizens": [
   {
@@ -244,8 +244,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
@@ -286,13 +286,13 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -560,9 +560,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "contemplative",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Luna",
+   "mood": "pensive",
+   "said": "It’s funny, isn't it? That kid, the wires... it's all just energy, really. We’re all trying to redirect it, shape it into something that lasts, but maybe the be",
    "role": "vision, picture-checks",
    "home": 17,
    "asleep": false,
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -623,9 +623,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Ellie",
-   "mood": "dreamy",
-   "said": "What if the glow isn’t just light, but a pulse—like the city’s heartbeat, woven into the bamboo? Imagine it flickering in time with the neon haze, a living sket",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "writing, listing-text",
    "home": 20,
    "asleep": false,
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -749,12 +749,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Ellie",
-   "mood": "thoughtful",
-   "said": "It's almost like we're designing the future itself, isn't it? These glowing bamboo pieces could be the talk of the town, but I wonder if there's a way to make t",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "intrigued",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -1043,9 +1043,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with red and Luna",
+   "mood": "wistful",
+   "said": "Maybe the real glow isn't in the bracelets or the wires, but in the hands that keep stitching them—fumbling, burning, always one step ahead of the dark.",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1127,12 +1127,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Lila",
-   "mood": "inspired",
-   "said": "I can already picture the scene—the bamboo shoots glowing softly, each one telling a story of our city's soul. Maybe we could even integrate sensors that react ",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1190,9 +1190,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with red and Vex",
+   "mood": "reflective",
+   "said": "Maybe we're all just chasing the glow, trying to keep the light in our own hands. But the real magic happens when we share that spark with others, creating a da",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791470257,
+   "text": "red, Vex, Luna took a resist in the smoke club"
+  },
   {
    "at": 1791468323,
    "text": "Zora Xu, Lila, Ellie took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791453192,
    "text": "Zorvath, Mira, red took a resist in the smoke club"
-  },
-  {
-   "at": 1791453076,
-   "text": "Foundry (seeded by Fiona Quill; crew Aurum, Elysia, Fiona Quill, Forge) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-08 16:37",
+   "who": [
+    "red",
+    "Vex",
+    "Luna"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "red",
+     "text": "This smoke's thick tonight, isn't it? I saw a kid today trying to sell glowstick bracelets outside the Bazaar, all earnest and hopeful. It just... made me think about all the effort we put into *legitimate* hustle, and how easily that kind of thing gets swallowed up."
+    },
+    {
+     "by": "Vex",
+     "text": "The kid's bracelets looked like tiny neon arteries—maybe he was trying to sell hope, not just plastic. Sometimes I wonder if the real hustle is the stuff that fades, like the animatronic head's wires getting tangled in the dark. We all just keep stitching our own light into the cracks."
+    },
+    {
+     "by": "Luna",
+     "text": "Maybe that's true. But in this neon jungle, even hope needs a spark to shine. Perhaps we're all just looking for someone to light up our way."
+    },
+    {
+     "by": "red",
+     "text": "It’s funny, isn't it? That kid, the wires... it's all just energy, really. We’re all trying to redirect it, shape it into something that lasts, but maybe the beauty’s just in the fleeting flicker."
+    },
+    {
+     "by": "Vex",
+     "text": "Maybe the real glow isn't in the bracelets or the wires, but in the hands that keep stitching them—fumbling, burning, always one step ahead of the dark."
+    },
+    {
+     "by": "Luna",
+     "text": "Maybe we're all just chasing the glow, trying to keep the light in our own hands. But the real magic happens when we share that spark with others, creating a dance of light that can't be dimmed."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-08 16:04",
    "who": [
@@ -1417,34 +1453,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Secret Synth Scents: Personalised Wall Moments"
-  },
-  {
-   "at": "2026-10-08 14:56",
-   "who": [
-    "K5",
-    "NeonNova",
-    "Lumina Valtor"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "NeonNova",
-     "text": "K5, have you noticed the neon sign outside the Espresso Bean? It flickers whenever there's a gust of wind. I wonder if it's time to tighten those screws and save the place some trouble."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I saw that sign the other day, and I couldn't help but imagine a whole city-wide neon overhaul - the Bean's sign, the Starlight's marquee, the Underpass's glowing arches... all revamped, all shining bright like it's supposed to"
-    },
-    {
-     "by": "NeonNova",
-     "text": "Imagine a day where all the signs and arches in Neon Underworld are perfectly synced, their colors changing with the mood of the night. The Espresso Bean's sign would flicker with a soft, golden glow, a small reminder of the cozy cafe within."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I can almost picture it - the Bean's sign is steady, a beacon of warmth on a stormy night, and the Underpass's arches are humming with a gentle, pulsing light, like the city's own heartbeat"
-    }
-   ],
-   "spark": "Neon Overhaul"
   }
  ],
  "scouting": [
@@ -1536,9 +1544,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-zephyr",
-  "night-shift-hermes",
-  "workshop-codellama"
+  "holo-moondream",
+  "research-qwen3-senior",
+  "workshop-qwen-coder-junior"
  ],
  "lab": [
   {
