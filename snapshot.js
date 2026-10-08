@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791479220,
+ "generated_at": 1791479824,
  "paused": false,
  "citizens": [
   {
@@ -181,9 +181,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -916,9 +916,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791479800,
+   "text": "Foundry (seeded by Byte; crew Byte, Ellie, Forge, red) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791479084,
    "text": "Cinema School: Rexton Vance studied 'How to Backtest a Trading Strategy on Tradingview'"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791459912,
    "text": "Lila, Vora, Zylac took a resist in the smoke club"
-  },
-  {
-   "at": 1791459424,
-   "text": "Foundry (seeded by red; crew Forge, Nebula, Vex, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -2348,6 +2348,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "Neon LegalShield",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon Nights Social Content Generator",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
