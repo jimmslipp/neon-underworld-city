@@ -1,5 +1,5 @@
 {
- "generated_at": 1791458882,
+ "generated_at": 1791459496,
  "paused": false,
  "citizens": [
   {
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -580,7 +580,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Vex and Ellie",
    "mood": "reflective",
    "said": "And maybe those dreams are what keep us grounded, even when we're chasing the next big thing.",
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791459424,
+   "text": "Foundry (seeded by red; crew Forge, Nebula, Vex, red) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791458249,
    "text": "Foundry (seeded by Glow; crew Aurum, Eva, Forge, Glow) pitched an idea to the R&D Lab"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791442778,
    "text": "Glow, Eva, John Doe took a resist in the smoke club"
-  },
-  {
-   "at": 1791441579,
-   "text": "Cinema School: Nebula studied 'How to make short form video work for your business'"
   }
  ],
  "products": [
@@ -1784,6 +1784,13 @@
    "title": "AI-Powered Compliance & Content Suite for Spanish E-Commerce",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AI-Powered Multicultural Food Social Media Toolkit",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
