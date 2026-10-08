@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791421035,
+ "generated_at": 1791421843,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 7 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -748,7 +748,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with John Doe and Rexton Vance",
    "mood": "inspired",
    "said": "It's almost like the AI becomes a co-creator, not just a tool. Imagine each piece telling a story, unique to the patron's vision. This could spark a new wave of",
