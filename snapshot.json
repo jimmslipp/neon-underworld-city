@@ -1,5 +1,5 @@
 {
- "generated_at": 1791447948,
+ "generated_at": 1791448603,
  "paused": false,
  "citizens": [
   {
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -286,13 +286,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 9 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
+   "working_on": "research",
+   "doing": "Working on a research",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791448475,
+   "text": "Foundry (seeded by Eva; crew Eva, Forge, Zora Xu, red) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791447008,
    "text": "Cortex, Glow, John Doe took a resist in the smoke club"
   },
@@ -1293,10 +1297,6 @@
   {
    "at": 1791422204,
    "text": "Aurum, Rexton Vance, Eva took a resist in the smoke club"
-  },
-  {
-   "at": 1791420323,
-   "text": "John Doe, Zora Xu, Rexton Vance took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2311,6 +2311,13 @@
   {
    "title": "Neon Phoenix Hub",
    "stage": "build",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon Post Lab: AI Social Packs for Spanish Bars",
+   "stage": "pitch",
    "status": "alive",
    "yes": 0,
    "no": 0
