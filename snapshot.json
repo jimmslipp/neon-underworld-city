@@ -1,5 +1,5 @@
 {
- "generated_at": 1791491545,
+ "generated_at": 1791492262,
  "paused": false,
  "citizens": [
   {
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -559,7 +559,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Elysia",
    "mood": "melancholy",
    "said": "That’s… heavy, Elysia. I've been thinking about echoes. Not fabricated ones, but picking up stray signals – a flicker of an old broadcast, a forgotten scent cli",
@@ -1063,7 +1063,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with red and Elysia",
    "mood": "contemplative",
    "said": "Echoes… that’s fascinating. I wonder if we could capture them, refine them, almost like sonic archaeology. Imagine gifting someone a fragment of a city's histor",
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791492239,
+   "text": "Foundry (seeded by Mira; crew Alana, Aurum, Forge, Mira) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791491521,
    "text": "Foundry (seeded by Ellie; crew Byte, Ellie, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791478785,
    "text": "Rexton Vance, Luna, Luminara took a resist in the smoke club"
-  },
-  {
-   "at": 1791478442,
-   "text": "Foundry (seeded by Zora Xu; crew Fiona Quill, Forge, Glow, Zora Xu) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -2324,6 +2324,13 @@
   },
   {
    "title": "Local Business Social Boost Suite",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Local SEO Audit for Spanish Bars",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
