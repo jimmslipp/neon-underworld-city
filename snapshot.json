@@ -1,5 +1,5 @@
 {
- "generated_at": 1791440881,
+ "generated_at": 1791441615,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -748,7 +748,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with John Doe and Zylac",
    "mood": "inspired",
    "said": "What if the app could also allow for location-based art, where the digital pieces change based on where they're displayed? Imagine a mural that shifts its desig",
@@ -1063,9 +1063,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, proposals",
    "home": 39,
@@ -1210,9 +1210,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "lingering",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791441579,
+   "text": "Cinema School: Nebula studied 'How to make short form video work for your business'"
+  },
   {
    "at": 1791440861,
    "text": "Zora Xu, John Doe, Zylac took a resist in the smoke club"
@@ -1293,10 +1297,6 @@
   {
    "at": 1791416417,
    "text": "Fiona Quill, Byte, Zylac took a resist in the smoke club"
-  },
-  {
-   "at": 1791416165,
-   "text": "Cinema School: Zoe studied 'How To Backtest Properly With Claude Code (MUST WATCH)'"
   }
  ],
  "products": [
