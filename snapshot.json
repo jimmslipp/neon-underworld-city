@@ -1,5 +1,5 @@
 {
- "generated_at": 1791481132,
+ "generated_at": 1791482018,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -307,8 +307,8 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -706,13 +706,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 24 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791481994,
+   "text": "Foundry (seeded by Nebula; crew Elysia, Forge, Glow, Nebula) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791480960,
    "text": "John Doe, Lila, Alana took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791461950,
    "text": "Zorvath, Glow, Lila took a resist in the smoke club"
-  },
-  {
-   "at": 1791461267,
-   "text": "Foundry (seeded by Lila; crew Fiona Quill, Forge, Lila, Lumina Valtor) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -2537,6 +2537,13 @@
    "status": "alive",
    "yes": 33,
    "no": 2
+  },
+  {
+   "title": "Social Media Automation for Spanish Businesses",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
   },
   {
    "title": "Spain Side Hustle Pro: AI-Driven Local Income Leads for Expats",
