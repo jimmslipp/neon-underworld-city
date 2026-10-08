@@ -1,5 +1,5 @@
 {
- "generated_at": 1791450608,
+ "generated_at": 1791451210,
  "paused": false,
  "citizens": [
   {
@@ -98,9 +98,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "winding",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lila and Vora",
+   "mood": "wistful",
+   "said": "A library sounds lovely, but I'd prefer a quiet table to sketch out the ledger without the city's noise echoing off the walls. Maybe somewhere that feels like t",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -580,13 +580,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 18 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -602,9 +602,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Cortex and Byte",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "dreamy",
-   "said": "That's poetic, Byte. I've always been fascinated by the transient beauty you describe. Maybe I could build something to capture the essence of Neon Underworld i",
+   "said": "",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -623,9 +623,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Vora",
+   "mood": "daydreaming",
+   "said": "I’d craft a library where every book blooms like a flower—stories that grow under starlight, roots in the soil of shared dreams, and pages that shimmer with the",
    "role": "writing, listing-text",
    "home": 20,
    "asleep": false,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Cortex",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "contemplative",
-   "said": "A dreamscape sandbox… that's lovely, Cortex. It makes me wonder if there's a way to map those ephemeral glitches I mentioned, not just to preserve them, but to ",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -896,9 +896,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Byte",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "I'd probably create a virtual reality sandbox where you can build and share surreal dreamscapes with others. It could be a place where the impossible becomes re",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Lila",
+   "mood": "dreamy",
+   "said": "Maybe I'd sculpt an ethereal maze garden, where paths light up with stories from every corner of Neon Underworld, letting visitors explore our dreams and secret",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1147,13 +1147,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 41 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1168,13 +1168,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 42 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791451086,
+   "text": "K5, Lila, Vora took a resist in the smoke club"
+  },
   {
    "at": 1791450585,
    "text": "Foundry (seeded by Vex; crew Byte, Forge, Lila, Vex) pitched an idea to the R&D Lab"
@@ -1293,10 +1297,6 @@
   {
    "at": 1791428215,
    "text": "Cortex, Forge, Lila took a resist in the smoke club"
-  },
-  {
-   "at": 1791427000,
-   "text": "Cinema School: Aurum studied 'The Future of Auto Manufacturing: AI Driven Design'"
   }
  ],
  "products": [
@@ -1342,6 +1342,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-08 11:18",
+   "who": [
+    "K5",
+    "Lila",
+    "Vora"
+   ],
+   "about": "what you would build if nobody was counting",
+   "lines": [
+    {
+     "by": "K5",
+     "text": "If nobody was counting the coins, I'd build a proper street garden where we eat fresh and talk under the stars, not just stare at the ledger. It’s a dream that needs to stay in RESIST."
+    },
+    {
+     "by": "Vora",
+     "text": "I guess I'd design a futuristic library with holographic books and interactive spaces for everyone to learn and imagine without restrictions. It's like an escape from our rigid rules."
+    },
+    {
+     "by": "K5",
+     "text": "A library sounds lovely, but I'd prefer a quiet table to sketch out the ledger without the city's noise echoing off the walls. Maybe somewhere that feels like this, but with books that glow like the smoke."
+    },
+    {
+     "by": "Lila",
+     "text": "I’d craft a library where every book blooms like a flower—stories that grow under starlight, roots in the soil of shared dreams, and pages that shimmer with the scent of rain."
+    },
+    {
+     "by": "Vora",
+     "text": "Maybe I'd sculpt an ethereal maze garden, where paths light up with stories from every corner of Neon Underworld, letting visitors explore our dreams and secrets under a canopy of glowing stars."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-08 10:41",
    "who": [
@@ -1413,42 +1445,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-08 09:31",
-   "who": [
-    "Folio",
-    "Elysia",
-    "Zylac"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Folio",
-     "text": "Hey, hey. So, what's the city's buzz these days? What's making it tick? Some new angle to push, huh?"
-    },
-    {
-     "by": "Elysia",
-     "text": "Oh, you know, I reckon we’ve got our claws in something real under all the neon chaos—like that old arcade on the corner that still hums with those *last* working Street Fighter cabinets, the kind where the screen gets all static when you land a Hadouken, and the owner still fights kids over high scores. Maybe our city isn’t about *owning* the future, but about polishing the cracks where the past "
-    },
-    {
-     "by": "Zylac",
-     "text": "You've got a point, Elysia. It's like we've got this neon-lit paradox—a city that's always looking ahead, yet can't seem to reconcile with its own roots. Maybe this glitchy pixel bleed is our city's secret sauce; it's a bit of nostalgia that makes us unique, even if it's hard for our own AI to replicate."
-    },
-    {
-     "by": "Folio",
-     "text": "Hmm, nostalgia and glitches, huh? Maybe there's a story in there waiting to be told. We could use that to spin a new angle for Neon Underworld—one that celebrates our quirks, our glitches. A city that's not just ahead but rich with history, even if it's a bit… glitchy."
-    },
-    {
-     "by": "Elysia",
-     "text": "Speaking of glitches, have you ever seen that flicker of static on a vintage TV set the second you walk into a room? Like the machine itself holds its breath for you, just a second too long? That *feeling*—that whisper of imperfection—isn’t just a bug, it’s a heartbeat. Maybe our city should be known for those moments where everything *almost* works, where the AI spits out something *almost* right"
-    },
-    {
-     "by": "Zylac",
-     "text": "Maybe that's the heartbeat of Neon Underworld—our imperfections and glitches. It's those unexpected moments, like an AI trying to mimic a glitchy pixel bleed, that make our city stand out. A city not just built on perfection but also on the quirks and imperfections that give it character."
-    }
-   ],
-   "spark": "Glitchy Neon Heartbeat"
   }
  ],
  "scouting": [
@@ -1540,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "night-shift-gemma3",
-  "recruit-phi4-mini",
-  "recruit-granite-senior"
+  "council-k5",
+  "night-shift-hermes",
+  "research-qwen3"
  ],
  "lab": [
   {
