@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791571447,
+ "generated_at": 1791572062,
  "paused": false,
  "citizens": [
   {
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791571668,
+   "text": "Cinema School: Zylac studied 'A day working at a mechanical workshop. Mechanical manufacturing ~ Dien Tieu Van'"
+  },
+  {
    "at": 1791568006,
    "text": "Cinema School: Zhilak studied 'I Studied 1,000 Hooks, Here�s How to ACTUALLY Go Viral'"
   },
@@ -1285,10 +1289,6 @@ window.SNAPSHOT = {
   {
    "at": 1791537317,
    "text": "Lumi, Zylac, Fiona Quill took a resist in the smoke club"
-  },
-  {
-   "at": 1791534687,
-   "text": "Zoe, Zylac, Aurum took a resist in the smoke club"
   }
  ],
  "products": [
