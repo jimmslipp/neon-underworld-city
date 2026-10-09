@@ -1,5 +1,5 @@
 {
- "generated_at": 1791549107,
+ "generated_at": 1791549188,
  "paused": false,
  "citizens": [
   {
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -1063,9 +1063,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "research, proposals",
    "home": 39,
@@ -1574,7 +1574,7 @@
   {
    "title": "AI Ad Optimizer for Costa Del Sol SMEs",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -1588,133 +1588,133 @@
   {
    "title": "AI-Assisted Legal Translation with Human Review for Spanish Tenancy",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Audit Bot for Indian SMEs",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI B2B Marketing Courses for Costa del Sol SMEs",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Bar Compliance Hub: Legal Automation for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Beauty Booking with Local Marketing",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI-Bot Security Shield for Local Spanish Venues",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Bot & Virtual Community Hub for Spanish Small Businesses",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Business Insights for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Call Scoring Tool for Spanish Bar Owners",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Compliance Blueprint for Spanish E-Commerce SMEs",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI-Compliant Cancellation Policy Manager",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Content Boost for Micro-Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Content Creation for Costa del Sol Bars/Restaurants with Direct Cli",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI-Craftify: Legal & Local Craft Profit Analyzer",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI-Driven Arcade Print Hub with Live-Streamed Transparency",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI-Driven Coffee Content Studio with Verified Partnerships",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI-Driven Loyalty & Sales Training",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Dual-Language Social Media Service for Costa del Sol",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI ERP for Amazon Sellers",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -1728,42 +1728,42 @@
   {
    "title": "AI-Generated Jewelry with Human-Curated Patterns",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Hair Color Tool with MindBody Integration",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Lyric Video Studio for Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Marketing Platform for Costa del Sol Small Businesses",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Mocktail Menu SaaS for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Post Factory App for Bar & Shop Social Media",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -1777,56 +1777,56 @@
   {
    "title": "AI-Powered Multicultural Food Social Media Toolkit",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI-Powered Recipe Ads for Alicante Eateries",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Product Video Generator for E-commerce",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Sales Assistant for Spanish SMEs",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Short Film Production for Costa del Sol Businesses",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Skincare Analyzer for Professionals",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Skincare Content Generator",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Social Media Automation for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -1840,28 +1840,28 @@
   {
    "title": "AI Social Scheduler for Spanish SMEs",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Sports Memorabilia Customizer",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Trading Strategy Backtester with Open-Source Data",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Video + 3D Print Bundles for Costa Del Sol Influencers",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -1882,7 +1882,7 @@
   {
    "title": "AR/VR Game Hardware Validation for Indie Developers",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -1903,21 +1903,21 @@
   {
    "title": "Arcade-Linked Telegram Bot for Bar Engagement",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Arcade Revival AI",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "ArcadeBoost: Privacy-Focused Bar Inventory & Branding",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -1931,105 +1931,105 @@
   {
    "title": "Ayurvedic Wellness Video Studio",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bar Biz Boost: Hyper-Local AI Social App for Costa Del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bar Branding Kit with Social Media Boost",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bar Event ROI Dashboard for Spain",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bar Insights & Boost Dashboard",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bar Owner Demand Bot with Local Expertise",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bar Post Factory App - Localized AI Content for Costa del Sol",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bar Profit Boost with Premium Upsell AI",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bar Reputation & Security Shield",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bar Security & Promotion Link SaaS - 'Guardian'",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarBot Pro: Local Bar Trading Strategy Consulting",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarSafe: QR & Phishing Defense for Spanish Venues",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarSafe: Security & Marketing for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarStaffSecure: AI Compliance Training for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bojonegoro SME Digital Marketplace",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2043,49 +2043,49 @@
   {
    "title": "CNC Components for Palestinian Food Exhibitors",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "ComplyGuard: AI-Powered Compliance for Spanish Creators",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "ComplyLocal: Hospitality License Compliance & Booking Platform for Spa",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Costa Biz: Local Business App",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Costa del Sol Bar Automation with Gemini",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "CPQ Tool for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Curated Home Goods Validation Platform",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2134,7 +2134,7 @@
   {
    "title": "Custom Mobile Prize Packs with Digital Integration",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2162,7 +2162,7 @@
   {
    "title": "CyberGuard Pro: Spanish Bar Cybersecurity",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2176,63 +2176,63 @@
   {
    "title": "Digital Armor for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Digital Brand Studio for Costa del Sol Tourism Businesses",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Digital Business Model Library",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Dynamic QR for Multilingual Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "ESP32 Automation for Small Business",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Ethical Social Media with Verified Practices",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "EU Sustainable Print & Material Audit Service",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "EUComply: Ongoing Digital Compliance Suite",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "GDPR Compliance Bot for Spanish Venues - 'Privacidad Tranquila'",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2246,14 +2246,14 @@
   {
    "title": "HorecaGuard: AI-Driven Bar Profitability Suite",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Hospitality Business Navigator - Spain",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2274,7 +2274,7 @@
   {
    "title": "Influencer ROI Optimizer Bot",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2295,14 +2295,14 @@
   {
    "title": "IoT Firmware Monitoring & Tailored Copywriting for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Journey Map Analysis with Local AI & Referral Incentives",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2316,14 +2316,14 @@
   {
    "title": "Lash & Event Pro Kit",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Ley Compliance Dossier",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2337,7 +2337,7 @@
   {
    "title": "Local Business Social Boost Suite",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2358,14 +2358,14 @@
   {
    "title": "Machine Shop Mastery Series",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Mercado Inteligente Plus",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2386,91 +2386,91 @@
   {
    "title": "Neon Bar Guardian",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon BarSign+Music",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon Content Forge for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon Exit-Val: AI-Driven Bar Valuation Reports",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon LegalShield",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon MarginMasters: AI Bar Profit Audit",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon Nights Social Content Generator",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon Phoenix Hub",
    "stage": "build",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon Post Lab: AI Social Packs for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon Underworld Turno-Optimo API",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "NeonGuard: AI Security with Cyberpunk Flair",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "NeonSafe POS & IoT Security for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "One-Click Contract & Ticket Guardian for Spanish SMEs",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2491,28 +2491,28 @@
   {
    "title": "PET Certification Tracker for Local Breweries",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Post Factory: Dual-Language Bar Social App",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Post Factory: Social Media Content App for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Pre-Launch Startup Validation Kits",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2561,49 +2561,49 @@
   {
    "title": "Rwanda Women Farmer Storytelling Toys",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Secure Checkout Guardian for English-Speaking E-Commerce Startups",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Secure Compliance Platform for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Secure Email Auth Guard (SEAG) for Spanish Venues",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Secure Tap-Order & Email Guard for Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Secure Website Builder for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "SecureMac Data Access Service",
    "stage": "build",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2624,14 +2624,14 @@
   {
    "title": "Social Media Automation for Spanish Businesses",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Spain Side Hustle Pro: AI-Driven Local Income Leads for Expats",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2645,7 +2645,7 @@
   {
    "title": "TaskMate Pro: AI-Powered Event Promotion for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2659,7 +2659,7 @@
   {
    "title": "TelcoSpark: AI Automation for Spanish Telecom SMEs",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2687,7 +2687,7 @@
   {
    "title": "Wi-Fi Security Bot for Spanish Venues",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   }
