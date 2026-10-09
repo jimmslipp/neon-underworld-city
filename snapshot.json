@@ -1,5 +1,5 @@
 {
- "generated_at": 1791586107,
+ "generated_at": 1791586720,
  "paused": false,
  "citizens": [
   {
@@ -580,13 +580,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -958,13 +958,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 34 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791586349,
+   "text": "Cinema School: Luminara studied 'Grow your small business on TikTok | 5 proven tactics'"
+  },
+  {
    "at": 1791585278,
    "text": "Lumi, Vex, Zoe took a resist in the smoke club"
   },
@@ -1293,10 +1297,6 @@
   {
    "at": 1791550225,
    "text": "Foundry (seeded by Lumina Valtor; crew Elysia, Forge, Lumina Valtor, Zora Xu) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791549960,
-   "text": "Cinema School: Mira studied 'Wrinkling first layer? Breaking lines? Holes? Let's fix 4 common problems on the'"
   }
  ],
  "products": [
