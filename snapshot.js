@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791512461,
+ "generated_at": 1791513094,
  "paused": false,
  "citizens": [
   {
@@ -286,13 +286,13 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -1210,13 +1210,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 44 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   }
