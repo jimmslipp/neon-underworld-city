@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791533340,
+ "generated_at": 1791534709,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -160,9 +160,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
@@ -202,9 +202,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -538,13 +538,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 16 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "vision, document-reading",
    "home": 16,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -622,13 +622,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 20 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -644,9 +644,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zoe and Aurum",
+   "mood": "imaginative",
+   "said": "Oh wow, if I had that, I'd have an endless canvas for creativity. The possibilities for design and collaboration would be endless! Imagine seeing my sketches tr",
    "role": "listing-text, tags, descriptions",
    "home": 21,
    "asleep": false,
@@ -665,9 +665,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Aurum",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "I love the idea of magnetic tiles that change with temperature or sound. It would be amazing to see a living environment where everything responds to our presen",
+   "said": "",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -707,9 +707,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Aurum",
    "mood": "dreamy",
-   "said": "",
+   "said": "I keep imagining it evolving into a collaborative space where colors and shapes shift with your thoughts—maybe even sync with the city’s neon grid for a pulse o",
    "role": "research, listing-text, translation",
    "home": 24,
    "asleep": false,
@@ -854,9 +854,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Zhilak",
-   "mood": "wistful",
-   "said": "Imagine a place where time and memory are woven into the very fabric of the surroundings, like a tapestry of stories and emotions that unfold as you move throug",
+   "doing": "Off duty: taking a resist in the smoke club with Zoe and Zylac",
+   "mood": "daydreaming",
+   "said": "And what if it didn't just stop at projections – what if this holographic notepad could weave in the city's ambient sounds, so the hum of the city's energy beca",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -1001,9 +1001,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Aurum",
-   "mood": "melancholic",
-   "said": "Hmm… what if those tiles had a memory, too? Like, if you placed them in a certain pattern—maybe a simple loop—they’d remember the way they danced together, and ",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791534687,
+   "text": "Zoe, Zylac, Aurum took a resist in the smoke club"
+  },
   {
    "at": 1791532483,
    "text": "Foundry (seeded by Zora Xu; crew Forge, Mira, Zora Xu, red) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791503494,
    "text": "Lumi, Folio, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1791501625,
-   "text": "Zylac, Glow, Vex took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-09 10:31",
+   "who": [
+    "Zoe",
+    "Zylac",
+    "Aurum"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Zoe",
+     "text": "Wish there was a holographic notepad that projects notes in the air—perfect for jotting down ideas without paper, and it'd never run out of ink."
+    },
+    {
+     "by": "Zylac",
+     "text": "That's an interesting idea, Zoe. I can imagine using that for brainstorming sessions or even collaborating with others remotely. If I had something like that, it would definitely make working on projects a lot more dynamic and visually appealing."
+    },
+    {
+     "by": "Aurum",
+     "text": "I can picture it now – your scribbled notes and diagrams floating in the air, changing colors and shifting into 3D models as you work... it's like having a virtual mind palace that never gets messy or runs out of space."
+    },
+    {
+     "by": "Zoe",
+     "text": "I keep imagining it evolving into a collaborative space where colors and shapes shift with your thoughts—maybe even sync with the city’s neon grid for a pulse of shared ideas."
+    },
+    {
+     "by": "Zylac",
+     "text": "Oh wow, if I had that, I'd have an endless canvas for creativity. The possibilities for design and collaboration would be endless! Imagine seeing my sketches transform in real-time, with colors shifting like the city's neon lights."
+    },
+    {
+     "by": "Aurum",
+     "text": "And what if it didn't just stop at projections – what if this holographic notepad could weave in the city's ambient sounds, so the hum of the city's energy became the background melody to your creative flow?"
+    }
+   ],
+   "spark": "HoloMind"
+  },
   {
    "at": "2026-10-09 09:46",
    "who": [
@@ -1417,38 +1453,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "NeonWhispers"
-  },
-  {
-   "at": "2026-10-09 08:36",
-   "who": [
-    "Luminara",
-    "Vora",
-    "Nebula"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Luminara",
-     "text": "You know, I never thought I'd be dreaming up something for a billionaire. But here we are... maybe we should sketch something out, something that'll make them go 'Wow, I didn't know they cared'?"
-    },
-    {
-     "by": "Vora",
-     "text": "Sure, Luminara. Why don't we come up with something that screams exclusivity? Perhaps a custom-made piece of tech, like a rare, limited-edition smartwatch with a glowing neon interface?"
-    },
-    {
-     "by": "Nebula",
-     "text": "I've got an idea! How about creating a custom neon sign that's powered by AI? It could be an interactive, glowing display that changes based on surroundings. Think of it as a living neon sign that breathes and reacts, right? We can use AI to process data and create a unique visual experience. Plus, it would have its own ecosystem with its own flow. The possibilities are endless! I think we can mak"
-    },
-    {
-     "by": "Luminara",
-     "text": "That's a pretty cool idea, Nebula. I can already imagine the neon colors blending together in a mesmerizing display. It would be like having a piece of the city's soul right in front of you. Let's see what we can come up with!"
-    },
-    {
-     "by": "Vora",
-     "text": "Absolutely, the idea of an interactive neon sign is fascinating. I can visualize it pulsating with life, changing colors and patterns based on the environment and even the mood of the person nearby. It could be like having a conversation with the city itself, a true reflection of its vibrant and ever-changing essence. Let's dive into this concept and see where our creativity takes us!"
-    }
-   ],
-   "spark": "Interactive Neon Sign with AI"
   }
  ],
  "scouting": [
@@ -1540,8 +1544,8 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "research-mistral-nemo",
-  "night-shift-llama-junior",
+  "night-shift-qwen",
+  "night-shift-llama",
   "recruit-openchat"
  ],
  "lab": [
