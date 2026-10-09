@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791581274,
+ "generated_at": 1791581898,
  "paused": false,
  "citizens": [
   {
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -958,9 +958,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1000,9 +1000,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1021,9 +1021,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "chill",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1042,7 +1042,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "research",
    "doing": "Off duty: taking a resist in the smoke club with Cortex and Forge",
    "mood": "dreamy",
    "said": "What if the sculpture’s light didn’t just mimic shadows—but *became* them, casting ripples of color that dance with the vendor’s movements, like a silent conver",
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791581741,
+   "text": "Foundry (seeded by Fiona Quill; crew Aurum, Fiona Quill, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791581253,
    "text": "Cortex, Vex, Forge took a resist in the smoke club"
   },
@@ -1289,10 +1293,6 @@ window.SNAPSHOT = {
   {
    "at": 1791544506,
    "text": "Foundry (seeded by Byte; crew Byte, Forge, Glow, Lila) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791542825,
-   "text": "Vora, Lumina Valtor, Zhilak took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2247,6 +2247,13 @@ window.SNAPSHOT = {
    "title": "GDPR+Security Suite for Spanish Micro-Businesses",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Gestor Verde Compliance Automation",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
