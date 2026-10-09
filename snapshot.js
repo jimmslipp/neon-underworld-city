@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791515204,
+ "generated_at": 1791515833,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 7 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,13 +286,13 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -560,9 +560,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Rexton Vance",
+   "mood": "pensive",
+   "said": "Forgotten times… I wonder if they even *remember* forgetting. It wouldn't be a relic, exactly, but something that *becomes* a relic—something crafted now, imbue",
    "role": "vision, picture-checks",
    "home": 17,
    "asleep": false,
@@ -602,12 +602,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and red",
+   "mood": "intrigued",
+   "said": "Ah, Vora, red, and the mysterious collector. I love the idea of an ancient artifact with hidden dimensions. Imagine a relic that when touched, unfolds layers of",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -623,9 +623,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Zylac",
-   "mood": "enchanted",
-   "said": "What if the pendant didn’t just hold data—but *became* a part of your story, like a glowing diary that only you could unlock? Its light would shift with your mo",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "writing, listing-text",
    "home": 20,
    "asleep": false,
@@ -644,12 +644,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Fiona Quill",
-   "mood": "inspired",
-   "said": "I love that idea of a symbiotic bloom, Fiona. It's like wearing a piece of your soul that interacts with the universe around you. Imagine it as a living, breath",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -1022,12 +1022,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 37 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and red",
+   "mood": "intrigued",
+   "said": "Maybe we could find an ancient artifact, something with mysterious engravings and an aura that whispers secrets of forgotten times. A relic that, when touched, ",
    "role": "reasoning, research, translation",
    "home": 37,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1064,9 +1064,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Zylac",
-   "mood": "contemplative",
-   "said": "A living storybook... that’s beautiful. I'm picturing something even more organic, less jewelry, more like a symbiotic bloom – a miniature ecosystem woven into ",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "research, proposals",
    "home": 39,
    "asleep": false,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791515641,
+   "text": "Vora, Rexton Vance, red took a resist in the smoke club"
+  },
+  {
    "at": 1791513723,
    "text": "Lila, Fiona Quill, Zylac took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791489154,
    "text": "Alana, John Doe, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1791487966,
-   "text": "Foundry (seeded by Vex; crew Aurum, Forge, Vex, Zoe) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-09 05:13",
+   "who": [
+    "Vora",
+    "Rexton Vance",
+    "red"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Vora",
+     "text": "Hey Rexton, what's this I hear about a gift for the collector? Something with a nice twist of Neon Underworld magic?"
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "Ah, Vora and red, always curious about my little secrets. A collector, you say? They love new additions, but something unique with a touch of Neon Underworld flair? That sounds perfect. Let's brainstorm what makes this collection so special."
+    },
+    {
+     "by": "red",
+     "text": "A gift for someone who *has* everything... it's the wanting, isn’t it? Something they didn’t even know they needed, that sparks a little unexpected joy. Maybe something that hints at a world beyond their curated perfection, a little glitch in the system."
+    },
+    {
+     "by": "Vora",
+     "text": "Maybe we could find an ancient artifact, something with mysterious engravings and an aura that whispers secrets of forgotten times. A relic that, when touched, reveals a hidden dimension filled with endless possibilities?"
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "Ah, Vora, red, and the mysterious collector. I love the idea of an ancient artifact with hidden dimensions. Imagine a relic that when touched, unfolds layers of unknown worlds, secrets, and endless possibilities. The thrill of the unknown, hidden depths, and untapped potential could be just the spark the collector needs."
+    },
+    {
+     "by": "red",
+     "text": "Forgotten times… I wonder if they even *remember* forgetting. It wouldn't be a relic, exactly, but something that *becomes* a relic—something crafted now, imbued with a longing for something they've already lost, or never had. A whisper of obsolescence, beautifully presented."
+    }
+   ],
+   "spark": "Obsolete Echoes: Bespoke Relic Creations"
+  },
   {
    "at": "2026-10-09 04:42",
    "who": [
@@ -1417,42 +1453,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Post Factory App"
-  },
-  {
-   "at": "2026-10-09 03:28",
-   "who": [
-    "Glow",
-    "Vora",
-    "Cortex"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Glow",
-     "text": "Something beautiful and useful... it’s a lovely thought, isn't it? I've been thinking about how the way light refracts through a perfectly printed lens, something tiny and essential, can be so mesmerizing. Maybe a custom-designed lamp, where the shade itself is a piece of art, subtly shifting light patterns across the room?"
-    },
-    {
-     "by": "Vora",
-     "text": "I love that idea, Glow. A custom-designed lamp with a shifting light pattern sounds perfect for a smoke club like this. I could even imagine integrating it with some interactive features that change with the mood or music playing. Neon Underworld has always been about blending beauty with practicality."
-    },
-    {
-     "by": "Cortex",
-     "text": "Glow, you have a poetic touch. What if we took that concept and made it even more dynamic? Imagine a lamp where the light itself can change colors and patterns through voice commands or even an app. It could be a centerpiece for Neon Underworld, showcasing both beauty and cutting-edge tech."
-    },
-    {
-     "by": "Glow",
-     "text": "Voice commands… that's interesting, Cortex. It makes me wonder if we could go even simpler, though. Perhaps something that subtly responds to the ambient light, shifting colors like a chameleon, almost instinctively. It’d be beautiful without demanding attention, a quiet pulse of artistry."
-    },
-    {
-     "by": "Vora",
-     "text": "I can envision that, Glow. A responsive, ambient light lamp could perfectly blend into the smoky ambiance while adding an understated elegance. We could even experiment with textures and shades that change with the lighting conditions, making it a living piece of art."
-    },
-    {
-     "by": "Cortex",
-     "text": "I love the idea of a responsive, ambient light lamp. It feels like we can create something that not only looks beautiful but also interacts seamlessly with the environment. Imagine a piece that can adapt and evolve, almost like it's alive."
-    }
-   ],
-   "spark": "Responsive Ambient Light Lamp"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-hermes",
-  "research-wizardlm",
-  "night-shift-llama"
+  "research-qwen3",
+  "night-shift-gemma3",
+  "holo-moondream"
  ],
  "lab": [
   {
