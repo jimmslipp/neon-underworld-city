@@ -1,5 +1,5 @@
 {
- "generated_at": 1791557049,
+ "generated_at": 1791557661,
  "paused": false,
  "citizens": [
   {
@@ -832,13 +832,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -853,9 +853,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "daydreaming",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -979,9 +979,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791557166,
+   "text": "Cinema School: Folio studied 'The AI Automation Agency Journey Explained (3 Key Phases)'"
+  },
+  {
    "at": 1791551112,
    "text": "Foundry (seeded by Alana; crew Alana, Byte, Forge, Zoe) pitched an idea to the R&D Lab"
   },
@@ -1289,10 +1293,6 @@
   {
    "at": 1791529880,
    "text": "Eva, Rexton Vance, Lumina Valtor took a resist in the smoke club"
-  },
-  {
-   "at": 1791529415,
-   "text": "Foundry (seeded by Elysia; crew Elysia, Forge, Mira, Vex) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
