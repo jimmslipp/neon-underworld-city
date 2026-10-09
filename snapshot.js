@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791560169,
+ "generated_at": 1791560810,
  "paused": false,
  "citizens": [
   {
@@ -580,13 +580,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 18 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -601,9 +601,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791560790,
+   "text": "Cinema School: Rexton Vance studied 'How to Sell Value vs. Price'"
+  },
+  {
    "at": 1791557166,
    "text": "Cinema School: Folio studied 'The AI Automation Agency Journey Explained (3 Key Phases)'"
   },
@@ -1289,10 +1293,6 @@ window.SNAPSHOT = {
   {
    "at": 1791531982,
    "text": "Eva, Zhilak, Aurum took a resist in the smoke club"
-  },
-  {
-   "at": 1791529880,
-   "text": "Eva, Rexton Vance, Lumina Valtor took a resist in the smoke club"
   }
  ],
  "products": [
