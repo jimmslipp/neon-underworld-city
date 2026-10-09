@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791582342,
+ "generated_at": 1791582967,
  "paused": false,
  "citizens": [
   {
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -538,9 +538,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "pensive",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "vision, document-reading",
    "home": 16,
@@ -559,13 +559,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 17 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -601,9 +601,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,9 +622,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "playful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "creative",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -1000,9 +1000,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1042,7 +1042,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Cortex and Forge",
    "mood": "dreamy",
    "said": "What if the sculpture’s light didn’t just mimic shadows—but *became* them, casting ripples of color that dance with the vendor’s movements, like a silent conver",
@@ -1210,7 +1210,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "research",
    "doing": "Off duty: taking a resist in the smoke club with Cortex and Vex",
    "mood": "inspired",
    "said": "",
@@ -1222,6 +1222,14 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791582714,
+   "text": "Cinema School: Zorvath studied 'Use This PROVEN Formula to Validate Your Next Startup Idea'"
+  },
+  {
+   "at": 1791582651,
+   "text": "Foundry (seeded by Ellie; crew Alana, Ellie, Forge, Nebula) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791581741,
    "text": "Foundry (seeded by Fiona Quill; crew Aurum, Fiona Quill, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
@@ -1289,10 +1297,6 @@ window.SNAPSHOT = {
   {
    "at": 1791546837,
    "text": "Zhilak, Forge, Zoe took a resist in the smoke club"
-  },
-  {
-   "at": 1791544506,
-   "text": "Foundry (seeded by Byte; crew Byte, Forge, Glow, Lila) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -2030,6 +2034,13 @@ window.SNAPSHOT = {
    "title": "BarStaffSecure: AI Compliance Training for Costa del Sol Bars",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Bodegón Digital: WhatsApp Ticketing Bot for Spanish Bars",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
