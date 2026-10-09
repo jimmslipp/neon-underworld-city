@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791563949,
+ "generated_at": 1791564583,
  "paused": false,
  "citizens": [
   {
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "whimsical",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1189,9 +1189,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1289,10 +1289,6 @@ window.SNAPSHOT = {
   {
    "at": 1791532483,
    "text": "Foundry (seeded by Zora Xu; crew Forge, Mira, Zora Xu, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791531982,
-   "text": "Eva, Zhilak, Aurum took a resist in the smoke club"
   }
  ],
  "products": [
