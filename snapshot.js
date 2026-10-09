@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791525926,
+ "generated_at": 1791526561,
  "paused": false,
  "citizens": [
   {
@@ -307,8 +307,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
@@ -559,9 +559,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "pensive",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -622,9 +622,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "enchanted",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -1063,7 +1063,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Byte and Glow",
    "mood": "contemplative",
    "said": "It's almost like we're creating a sanctuary, isn't it? I keep picturing someone, years from now, remembering Neon Underworld not for the robots, but for the fee",
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791526437,
+   "text": "Foundry (seeded by Lila; crew Ellie, Eva, Forge, Lila) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791525905,
    "text": "Fiona Quill, Byte, Glow took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791493176,
    "text": "Aurum, Ellie, Vora took a resist in the smoke club"
-  },
-  {
-   "at": 1791492239,
-   "text": "Foundry (seeded by Mira; crew Alana, Aurum, Forge, Mira) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -2408,6 +2408,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "Neon LegalShield",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon MarginMasters: AI Bar Profit Audit",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
