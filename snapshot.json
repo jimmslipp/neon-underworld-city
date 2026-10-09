@@ -1,5 +1,5 @@
 {
- "generated_at": 1791552708,
+ "generated_at": 1791553308,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
