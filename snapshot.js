@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791570818,
+ "generated_at": 1791571447,
  "paused": false,
  "citizens": [
   {
@@ -1063,9 +1063,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "research, proposals",
    "home": 39,
