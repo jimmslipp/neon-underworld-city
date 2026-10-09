@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791589557,
+ "generated_at": 1791590173,
  "paused": false,
  "citizens": [
   {
@@ -580,7 +580,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "research",
    "doing": "Off duty: taking a resist in the smoke club with Forge and Vex",
    "mood": "curious",
    "said": "Perhaps it's not just a flicker, but a canvas of possibilities. Each pulse could be a heartbeat waiting for the right moment to sync up with its neighbors, crea",
@@ -916,13 +916,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791589977,
+   "text": "Cinema School: Aurum studied '10 Ways to Get More Customers Without Ads (Works for Local Businesses)'"
+  },
+  {
    "at": 1791589535,
    "text": "Forge, Vex, Folio took a resist in the smoke club"
   },
@@ -1293,10 +1297,6 @@ window.SNAPSHOT = {
   {
    "at": 1791557166,
    "text": "Cinema School: Folio studied 'The AI Automation Agency Journey Explained (3 Key Phases)'"
-  },
-  {
-   "at": 1791551112,
-   "text": "Foundry (seeded by Alana; crew Alana, Byte, Forge, Zoe) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
