@@ -1,5 +1,5 @@
 {
- "generated_at": 1791526561,
+ "generated_at": 1791527175,
  "paused": false,
  "citizens": [
   {
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -1063,7 +1063,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "design",
    "doing": "Off duty: taking a resist in the smoke club with Byte and Glow",
    "mood": "contemplative",
    "said": "It's almost like we're creating a sanctuary, isn't it? I keep picturing someone, years from now, remembering Neon Underworld not for the robots, but for the fee",
@@ -1126,9 +1126,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "excited",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791526749,
+   "text": "Cinema School: Lumina Valtor studied 'How to get unlimited funding to build your business in 30 days...'"
+  },
+  {
    "at": 1791526437,
    "text": "Foundry (seeded by Lila; crew Ellie, Eva, Forge, Lila) pitched an idea to the R&D Lab"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791493942,
    "text": "Foundry (seeded by Glow; crew Forge, Glow, Lumina Valtor, Vex) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791493176,
-   "text": "Aurum, Ellie, Vora took a resist in the smoke club"
   }
  ],
  "products": [
