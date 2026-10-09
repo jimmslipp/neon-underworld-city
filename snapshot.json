@@ -1,5 +1,5 @@
 {
- "generated_at": 1791581898,
+ "generated_at": 1791582342,
  "paused": false,
  "citizens": [
   {
@@ -1147,13 +1147,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 41 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
