@@ -1,5 +1,5 @@
 {
- "generated_at": 1791540806,
+ "generated_at": 1791541665,
  "paused": false,
  "citizens": [
   {
@@ -160,9 +160,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791541286,
+   "text": "HGA check-up written by Vera Quill"
+  },
+  {
    "at": 1791540782,
    "text": "Zylac, Fiona Quill, Eva took a resist in the smoke club"
   },
@@ -1293,10 +1297,6 @@
   {
    "at": 1791513723,
    "text": "Lila, Fiona Quill, Zylac took a resist in the smoke club"
-  },
-  {
-   "at": 1791511770,
-   "text": "Folio, Alana, Zora Xu took a resist in the smoke club"
   }
  ],
  "products": [
