@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791575140,
+ "generated_at": 1791575759,
  "paused": false,
  "citizens": [
   {
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791575245,
+   "text": "Cinema School: Elysia studied 'First Time Servicing Our New Wittern Combo Vending Machine! How Much Money Did W'"
+  },
   {
    "at": 1791571668,
    "text": "Cinema School: Zylac studied 'A day working at a mechanical workshop. Mechanical manufacturing ~ Dien Tieu Van'"
