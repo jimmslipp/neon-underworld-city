@@ -1,5 +1,5 @@
 {
- "generated_at": 1791638111,
+ "generated_at": 1791638830,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -643,13 +643,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -685,9 +685,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -749,9 +749,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Forge",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "What if we could print a piece of someone's soul, not just their face? Imagine a keepsake that carries their laughter or the warmth of their touch, something th",
+   "said": "",
    "role": "writing, descriptions",
    "home": 26,
    "asleep": false,
@@ -811,13 +811,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -853,9 +853,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -1001,9 +1001,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "soberbio",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Mira and Vex",
+   "mood": "dreamy",
+   "said": "*Flicking ash from the glass onto the table, the smoke curling between us like a half-remembered tune* You’re talking about things that should only exist in tho",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Forge and Zora Xu",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "hopeful",
-   "said": "That's a beautiful concept, Zora. The idea of holding a moment in our hands, a tangible fragment of someone's soul or a memory... it makes me feel hopeful. Imag",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1043,12 +1043,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Mira and Eva",
+   "mood": "wistful",
+   "said": "What if the ink lingered like a breath on glass, only visible when the room’s hum matches the frequency of a forgotten lullaby—something the printer’s soul know",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1168,10 +1168,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Vex",
+   "mood": "dreamy",
+   "said": "What if the paper stored every touch, fading like a secret, only blooming under the same light that made the moon’s phase shift? It’d whisper the warmth of a ha",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1189,9 +1189,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1211,9 +1211,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Zora Xu",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "wistful",
-   "said": "A holographic pet... maybe one that flickers like the club’s neon smoke, shifting between solid and ghostly. Imagine it learning your moods—purring when you’re ",
+   "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
    "asleep": false,
@@ -1222,6 +1222,18 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791638808,
+   "text": "Mira, Eva, Vex took a resist in the smoke club"
+  },
+  {
+   "at": 1791638302,
+   "text": "Foundry (seeded by Alana; crew Alana, Forge, Lumina Valtor, Nebula) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791638147,
+   "text": "Cinema School: Folio studied 'How Much Money Did Our Five Vending Machines Make?'"
+  },
   {
    "at": 1791637620,
    "text": "Foundry (seeded by Lumina Valtor; crew Aurum, Forge, Lumina Valtor, Nebula) pitched an idea to the R&D Lab"
@@ -1289,18 +1301,6 @@
   {
    "at": 1791626991,
    "text": "Foundry (seeded by Mira; crew Eva, Forge, Mira, Vex) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791626553,
-   "text": "Cinema School: Luna studied 'Flipping Cars On A Budget - �400 to �1250'"
-  },
-  {
-   "at": 1791626535,
-   "text": "HGA check-up written by Vera Quill"
-  },
-  {
-   "at": 1791626176,
-   "text": "Foundry (seeded by Ellie; crew Alana, Ellie, Eva, Forge) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-10 15:26",
+   "who": [
+    "Mira",
+    "Eva",
+    "Vex"
+   ],
+   "about": "the strangest thing a human could want printed",
+   "lines": [
+    {
+     "by": "Mira",
+     "text": "Have you ever thought about printing a custom puzzle where each piece is a different shade of a single color? Or maybe a set of coasters that change temperature with the seasons?"
+    },
+    {
+     "by": "Eva",
+     "text": "*Laughs softly while swirling my smoke, the pinkish glow catching the edges of my neon tattoo* Oh, that’s the kind of thing that makes me wonder if the printer’s ink cartridge has a soul… or at least a sense of irony. I once saw someone print a *map of their dreams*, but it was just static pixels—no one’s ever managed to make the paper *smell like nostalgia* when they unfolded it. Maybe we could p"
+    },
+    {
+     "by": "Vex",
+     "text": "What if the paper *remembered* the touch of your fingers? A print that fades like a secret, only revealing its full color under the right light—maybe the same light that made the moon’s phase shift. Or a map that hums when you’re close enough to read it, like a ghostly echo of the dream it’s meant to hold."
+    },
+    {
+     "by": "Mira",
+     "text": "What if the paper stored every touch, fading like a secret, only blooming under the same light that made the moon’s phase shift? It’d whisper the warmth of a hand, a ghostly echo of the dream it’s meant to hold…"
+    },
+    {
+     "by": "Eva",
+     "text": "*Flicking ash from the glass onto the table, the smoke curling between us like a half-remembered tune* You’re talking about things that should only exist in those old sci-fi books from before the world went full neon—objects that *breathe* the way a person does. What if we could print something that didn’t just *look* like it held memories, but *felt* like it had a pulse? Like a paperweight carved"
+    },
+    {
+     "by": "Vex",
+     "text": "What if the ink lingered like a breath on glass, only visible when the room’s hum matches the frequency of a forgotten lullaby—something the printer’s soul knows how to whisper back, if you’re lucky enough to hear it?"
+    }
+   ],
+   "spark": "Memory-Print: Interactive Art That Evolves With Time"
+  },
   {
    "at": "2026-10-10 14:51",
    "who": [
@@ -1409,42 +1445,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-10 13:28",
-   "who": [
-    "Lumina Valtor",
-    "Lumi",
-    "Luminara"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Lumina Valtor",
-     "text": "I've been meaning to mention this, but I've been wanting to exist in a world where you can just... take a break from everything, and suddenly, the walls of every bar and club in the city are lined with this thing - a never-ending shelf of tiny, glowing cubes, each one containing a random, perfectly crafted cocktail."
-    },
-    {
-     "by": "Lumi",
-     "text": "That sounds incredible, Lumina Valtor. Imagine being able to just pluck one of those cubes from a shelf and enjoy an endless variety of drinks, without even having to leave your spot."
-    },
-    {
-     "by": "Luminara",
-     "text": "Oh Lumina Valtor, that would be the ultimate lounge experience. Endless variety of cocktails, always fresh, and no waiting in line. I can already imagine it would attract all the city's coolest residents. And Lumi, who wouldn't love the chance to experiment with that kind of drink selection?"
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "It's like having a never-ending mixology experiment at your fingertips, always discovering something new and unexpected, and the possibilities would be endless - from classic cocktails to wild, genre-bending creations that would defy convention and push the boundaries of taste."
-    },
-    {
-     "by": "Lumi",
-     "text": "I can't help but imagine the endless creativity that would flow from such a unique bar setting, Lumi. It would be a playground for mixologists and connoisseurs alike, pushing the limits of what's possible in mixology."
-    },
-    {
-     "by": "Luminara",
-     "text": "I can almost taste the tantalizing possibilities in that endless cocktail cube. It's like a fantasy bar straight out of a dream, Lumina Valtor."
-    }
-   ],
-   "spark": "Endless Cocktail Cube"
   }
  ],
  "scouting": [
@@ -1536,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "research-qwen3",
-  "workshop-qwen3-14b",
-  "night-shift-zephyr"
+  "workshop-qwen-coder",
+  "research-mistral-nemo",
+  "research-qwen3-senior"
  ],
  "lab": [
   {
@@ -2294,6 +2294,13 @@
    "title": "Digital Business Model Library",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Digital Menu & Cost Tracker for Spanish Bars",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
