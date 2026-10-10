@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791675109,
+ "generated_at": 1791675740,
  "paused": false,
  "citizens": [
   {
@@ -601,13 +601,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -853,13 +853,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -979,7 +979,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Zoe and Luna",
    "mood": "enchanted",
    "said": "How about a 3D-printed musical chair that plays a different tune depending on who sits on it? Imagine it hums softly when you sit, and the melody changes based ",
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791675412,
+   "text": "Cinema School: Lumi studied 'How to Eliminate Shrink Lines'"
+  },
+  {
    "at": 1791675087,
    "text": "Alana, Zoe, Luna took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791660576,
    "text": "Cinema School: Zoe studied 'Sales Training // 3 Skills to Get a YES Every Time // Andy Elliott'"
-  },
-  {
-   "at": 1791660460,
-   "text": "Eva, K5, Luna took a resist in the smoke club"
   }
  ],
  "products": [
