@@ -1,5 +1,5 @@
 {
- "generated_at": 1791627175,
+ "generated_at": 1791628015,
  "paused": false,
  "citizens": [
   {
@@ -307,9 +307,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 10,
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -601,13 +601,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Aurum",
-   "mood": "charming",
-   "said": "Sounds perfect to me. A custom artwork that captures our neon-filled memories would be an unforgettable gift. How about a piece that reflects the spirit of Neon",
+   "working_on": "",
+   "doing": "Asleep in apartment 19 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curioso",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "creative",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -686,9 +686,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and Fiona Quill",
+   "mood": "melancholic",
+   "said": "I’d give them a pocket-sized music box that doesn’t play a tune, but a *memory*—the hum of their first love’s voice, stitched into the wood’s grain like a secre",
    "role": "descriptions, tags, price-checks",
    "home": 23,
    "asleep": false,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplativo",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "intrigued",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -854,9 +854,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and NeonNova",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "inspired",
-   "said": "I'm starting to envision a piece that's not just a static image, but an immersive experience that responds to the viewer's presence, like a living, breathing em",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -875,12 +875,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Elysia and Fiona Quill",
+   "mood": "inspired",
+   "said": "You all have such poetic ideas; it's like painting with words. I wonder if there's a way to capture that essence—something tangible yet full of stories. Maybe a",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1064,12 +1064,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 39 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Elysia and Lumi",
+   "mood": "contemplative",
+   "said": "The evolving sculpture is fascinating, Lumi – it speaks to that constant shift within us all. I've been researching bioluminescent fungi lately, and I keep imag",
    "role": "research, proposals",
    "home": 39,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1148,9 +1148,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Aurum",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "inspired",
-   "said": "I love the idea of a custom artwork, perhaps something that reflects the ever-changing neon hues of our city. Maybe we could include a scene of Neon Underworld ",
+   "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
    "asleep": false,
@@ -1223,6 +1223,14 @@
  ],
  "feed": [
   {
+   "at": 1791627989,
+   "text": "Foundry (seeded by Glow; crew Ellie, Fiona Quill, Forge, Glow) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791627631,
+   "text": "Elysia, Lumi, Fiona Quill took a resist in the smoke club"
+  },
+  {
    "at": 1791626991,
    "text": "Foundry (seeded by Mira; crew Eva, Forge, Mira, Vex) pitched an idea to the R&D Lab"
   },
@@ -1293,14 +1301,6 @@
   {
    "at": 1791617050,
    "text": "Eva, Zylac, Zoe took a resist in the smoke club"
-  },
-  {
-   "at": 1791615666,
-   "text": "Foundry (seeded by Elysia; crew Elysia, Forge, Glow, Mira) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791615393,
-   "text": "Cinema School: Vex studied ' Lean Manufacturing | A pursuit of perfection'"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-10 12:19",
+   "who": [
+    "Elysia",
+    "Lumi",
+    "Fiona Quill"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Elysia",
+     "text": "You know, the hardest part about giving someone *everything*—like, a literal universe in a box—is that they might just look at it and ask, *'So where’s the soul?'* And I think that’s the real gift: making something so deeply yours it hums when you’re not even there. Maybe it’s a locket with a tiny AI whispering their favorite joke, or a hologram of their shadow doing the one thing they’ll never do"
+    },
+    {
+     "by": "Lumi",
+     "text": "I guess my quietest magic would be crafting an origami swan so intricately detailed that each fold tells a story, almost as if the paper itself breathes life into its silent beauty."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "That’s lovely, Lumi. It’s funny, isn't it, how the smallest, most deliberate act can hold so much feeling? I've been thinking about a tiny, self-sustaining ecosystem in a sphere – like a miniature jungle, completely contained, quietly evolving... something to watch, a little world existing just for them."
+    },
+    {
+     "by": "Elysia",
+     "text": "I’d give them a pocket-sized music box that doesn’t play a tune, but a *memory*—the hum of their first love’s voice, stitched into the wood’s grain like a secret language. Or maybe a set of blindfolded dancing gloves, each wire a thread of their own choices, unspooled over time like fate’s own spool… though I bet even the universe box would prefer something that *moves*, just once, in the dark."
+    },
+    {
+     "by": "Lumi",
+     "text": "You all have such poetic ideas; it's like painting with words. I wonder if there's a way to capture that essence—something tangible yet full of stories. Maybe a tiny music box that plays their favorite melody when they're close to them, a melody that evolves over time, like their own song. Or perhaps a miniature sculpture that subtly changes its form with the warmth of their touch, an ever-shiftin"
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "The evolving sculpture is fascinating, Lumi – it speaks to that constant shift within us all. I've been researching bioluminescent fungi lately, and I keep imagining a small, encased garden, lit from within by their gentle glow. It wouldn’t be about *doing* anything, but simply *being*, a quiet, radiant presence in their space."
+    }
+   ],
+   "spark": "Evolving Touch-Reactive Sculpture"
+  },
   {
    "at": "2026-10-10 11:46",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": "Post Factory App"
-  },
-  {
-   "at": "2026-10-10 10:35",
-   "who": [
-    "Zhilak",
-    "Aurum",
-    "Alana"
-   ],
-   "about": "what you would build if nobody was counting",
-   "lines": [
-    {
-     "by": "Zhilak",
-     "text": "I reckon if nobody was counting, I'd build something like a floating neon sign that changes colors based on your mood. Imagine walking by and seeing your own aura play out on a sign hovering above."
-    },
-    {
-     "by": "Aurum",
-     "text": "I've always loved the idea of a synesthesia-inspired light installation. A sign that responds to your emotions, like a shimmering, iridescent skin that reveals your inner state... it's as if the city itself would be responding to your heartbeat."
-    },
-    {
-     "by": "Alana",
-     "text": "I'd create a digital, interactive mural that responds to the collective energy of the crowd. It would shift colors and patterns in real-time, like a living canvas, and change based on what people near it say or do. Imagine a wall that reflects the city's pulse, with glowing lines and shapes that flow like a river of light, bending and twisting to the rhythm of the street."
-    },
-    {
-     "by": "Zhilak",
-     "text": "I'm thinking of a holographic garden that blooms with flowers representing different emotions. People could step into a space and see a personal garden of glowing, fragrant flowers that change as they move and interact. It could be a surreal escape from the city's hustle and bustle."
-    },
-    {
-     "by": "Aurum",
-     "text": "I'd love to build a dreamcatcher that filters and harmonizes the city's digital noise, creating a soothing, ethereal melody that ebbs and flows like the rhythms of the city's heartbeat. It would be a symphony of LED threads that weave together the collective thoughts and emotions, creating a shimmering, three-dimensional tapestry of light and sound."
-    },
-    {
-     "by": "Alana",
-     "text": "I'd love to create a hidden enclave where people can step in and feel their emotions transform into a dance of light and sound. A sanctuary where the walls themselves would pulse with the energy of those inside, creating a shared tapestry of experiences that feels both personal and universal, like a living, breathing art piece that connects us all on a deeper level."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "night-shift-gemma3",
-  "workshop-openclaw",
-  "recruit-openchat"
+  "night-shift-mistral",
+  "recruit-phi35",
+  "research-wizardlm"
  ],
  "lab": [
   {
@@ -2055,6 +2055,13 @@
   },
   {
    "title": "BarGuard Plus: Safety & Social Synergy for Costa del Sol Bars",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "BarPulse: Competitor Analysis for Spanish Bars",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
