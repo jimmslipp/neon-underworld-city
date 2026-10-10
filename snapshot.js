@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791597830,
+ "generated_at": 1791598463,
  "paused": false,
  "citizens": [
   {
@@ -685,13 +685,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 23 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
