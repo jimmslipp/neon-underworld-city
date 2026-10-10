@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791657022,
+ "generated_at": 1791657660,
  "paused": false,
  "citizens": [
   {
@@ -622,7 +622,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "research",
    "doing": "Off duty: taking a resist in the smoke club with Luna and Zylac",
    "mood": "dreamy",
    "said": "I’d imagine a pendant that hums with the city’s heartbeat—its glow syncing to the pulse of neon streets, casting ripples of ultraviolet light across the skin li",
@@ -643,7 +643,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "research",
    "doing": "Off duty: taking a resist in the smoke club with Luna and Lila",
    "mood": "curious",
    "said": "I love the idea of integrating emotion-responsive elements into wearable tech. It's like giving the wearer a dynamic canvas that reflects their inner world. A j",
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,9 +685,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -1021,13 +1021,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 37 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1189,7 +1189,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Zylac and Lila",
    "mood": "excited",
    "said": "That's a fascinating concept, blending the pulsating energy of a cyberpunk metropolis with the nostalgic charm of retro-futurism. I could envision creating a pi",
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791657495,
+   "text": "Foundry (seeded by Fiona Quill; crew Fiona Quill, Forge, Mira, Vex) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791656915,
    "text": "Cinema School: Elysia studied 'The 5 Best Bar Promotions to Pack Your Bar'"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791646024,
    "text": "Foundry (seeded by Lila; crew Forge, Lila, Zoe, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791645633,
-   "text": "Cinema School: Lila studied 'Why did my side-hustle fail? How to validate business ideas'"
   }
  ],
  "products": [
@@ -3015,6 +3015,13 @@ window.SNAPSHOT = {
    "title": "USB-C to HDMI Adapter Flip",
    "stage": "pitch",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "WasteWatcher for Spanish Bars",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
