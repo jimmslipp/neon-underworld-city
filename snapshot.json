@@ -1,5 +1,5 @@
 {
- "generated_at": 1791671041,
+ "generated_at": 1791671660,
  "paused": false,
  "citizens": [
   {
@@ -97,13 +97,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Leadership"
   },
