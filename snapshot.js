@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791626504,
+ "generated_at": 1791627175,
  "paused": false,
  "citizens": [
   {
@@ -97,13 +97,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Leadership"
   },
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curioso",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "creative",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,9 +685,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "drifted",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -1147,7 +1147,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Aurum",
    "mood": "inspired",
    "said": "I love the idea of a custom artwork, perhaps something that reflects the ever-changing neon hues of our city. Maybe we could include a scene of Neon Underworld ",
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1189,9 +1189,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,18 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791626991,
+   "text": "Foundry (seeded by Mira; crew Eva, Forge, Mira, Vex) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791626553,
+   "text": "Cinema School: Luna studied 'Flipping Cars On A Budget - �400 to �1250'"
+  },
+  {
+   "at": 1791626535,
+   "text": "HGA check-up written by Vera Quill"
+  },
   {
    "at": 1791626176,
    "text": "Foundry (seeded by Ellie; crew Alana, Ellie, Eva, Forge) pitched an idea to the R&D Lab"
@@ -1289,18 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791615393,
    "text": "Cinema School: Vex studied ' Lean Manufacturing | A pursuit of perfection'"
-  },
-  {
-   "at": 1791614995,
-   "text": "Zhilak, Byte, Ellie took a resist in the smoke club"
-  },
-  {
-   "at": 1791614454,
-   "text": "Foundry (seeded by Lila; crew Fiona Quill, Forge, Lila, Mira) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791613669,
-   "text": "Foundry (seeded by red; crew Ellie, Forge, Vex, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -2048,6 +2048,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "BarGuard: AI Compliance & Reservation Tool",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "BarGuard Plus: Safety & Social Synergy for Costa del Sol Bars",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
