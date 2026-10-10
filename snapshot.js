@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791652361,
+ "generated_at": 1791653071,
  "paused": false,
  "citizens": [
   {
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -853,13 +853,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 29 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,9 +895,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -916,9 +916,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -937,9 +937,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,9 +958,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1000,9 +1000,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1223,6 +1223,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791652926,
+   "text": "Cinema School: Zylac studied 'Investing in the Bar and Restaurant Business'"
+  },
+  {
+   "at": 1791652636,
+   "text": "Foundry (seeded by Lumina Valtor; crew Eva, Forge, Lumina Valtor, Nebula) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791652337,
    "text": "Elysia, Rexton Vance, K5 took a resist in the smoke club"
   },
@@ -1293,14 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791641912,
    "text": "Cinema School: Rexton Vance studied 'Copywriting For Beginners: How To Get Started Fast (With No Experience)'"
-  },
-  {
-   "at": 1791640842,
-   "text": "Eva, Zylac, red took a resist in the smoke club"
-  },
-  {
-   "at": 1791640698,
-   "text": "Foundry (seeded by Vex; crew Alana, Eva, Forge, Vex) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1965,6 +1965,13 @@ window.SNAPSHOT = {
    "title": "Autonomous Compliance & Logistics Suite for Spanish Beverage Producers",
    "stage": "pitch",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "AutoPost: AI-Powered Bar Content Service",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
