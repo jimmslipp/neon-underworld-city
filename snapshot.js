@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791637434,
+ "generated_at": 1791638111,
  "paused": false,
  "citizens": [
   {
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -601,9 +601,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "charming",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,9 +622,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -664,13 +664,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 22 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791637620,
+   "text": "Foundry (seeded by Lumina Valtor; crew Aurum, Forge, Lumina Valtor, Nebula) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791637011,
    "text": "Foundry (seeded by Nebula; crew Aurum, Byte, Forge, Nebula) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791626176,
    "text": "Foundry (seeded by Ellie; crew Alana, Ellie, Eva, Forge) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791625587,
-   "text": "Rexton Vance, NeonNova, Aurum took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2014,6 +2014,13 @@ window.SNAPSHOT = {
    "title": "Bar Profit Boost with Premium Upsell AI",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Bar Pulse Pro",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
