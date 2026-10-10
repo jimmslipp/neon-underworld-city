@@ -1,5 +1,5 @@
 {
- "generated_at": 1791597217,
+ "generated_at": 1791597830,
  "paused": false,
  "citizens": [
   {
@@ -685,13 +685,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 23 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,13 +706,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 24 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791597251,
+   "text": "Cinema School: Cortex studied 'This cured my fear of cold calling for GOOD!'"
+  },
+  {
    "at": 1791597195,
    "text": "Vora, Vex, Byte took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791578534,
    "text": "Forge, Fiona Quill, Eva took a resist in the smoke club"
-  },
-  {
-   "at": 1791575245,
-   "text": "Cinema School: Elysia studied 'First Time Servicing Our New Wittern Combo Vending Machine! How Much Money Did W'"
   }
  ],
  "products": [
