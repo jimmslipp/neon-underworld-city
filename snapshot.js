@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791628015,
+ "generated_at": 1791628640,
  "paused": false,
  "citizens": [
   {
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -685,7 +685,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Lumi and Fiona Quill",
    "mood": "melancholic",
    "said": "I’d give them a pocket-sized music box that doesn’t play a tune, but a *memory*—the hum of their first love’s voice, stitched into the wood’s grain like a secre",
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplativo",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -853,9 +853,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,7 +874,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "research",
    "doing": "Off duty: taking a resist in the smoke club with Elysia and Fiona Quill",
    "mood": "inspired",
    "said": "You all have such poetic ideas; it's like painting with words. I wonder if there's a way to capture that essence—something tangible yet full of stories. Maybe a",
@@ -895,9 +895,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -916,13 +916,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791628614,
+   "text": "Foundry (seeded by red; crew Ellie, Forge, Mira, red) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791627989,
    "text": "Foundry (seeded by Glow; crew Ellie, Fiona Quill, Forge, Glow) pitched an idea to the R&D Lab"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791617263,
    "text": "Foundry (seeded by Zora Xu; crew Forge, Lila, Zora Xu, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791617050,
-   "text": "Eva, Zylac, Zoe took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2575,6 +2575,13 @@ window.SNAPSHOT = {
    "title": "Neon Phoenix Hub",
    "stage": "build",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon Playlist Pro",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
