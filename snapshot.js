@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791617425,
+ "generated_at": 1791618053,
  "paused": false,
  "citizens": [
   {
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,9 +895,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -916,9 +916,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -1000,7 +1000,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "research",
    "doing": "Off duty: taking a resist in the smoke club with Zylac and Zoe",
    "mood": "soberbio",
    "said": "Oye, ¿y si lo primero que saliera fuera el chiste más raro que nunca se le ocurrió a un humano borracho en un cybercafé de los 80? *‘El robot despertó y su cere",
@@ -1021,9 +1021,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "nostalgic",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1042,13 +1042,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "intrigued",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791617938,
+   "text": "Foundry (seeded by Byte; crew Byte, Elysia, Forge, Lila) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791617263,
    "text": "Foundry (seeded by Zora Xu; crew Forge, Lila, Zora Xu, red) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791601151,
    "text": "Lila, Luna, Mira took a resist in the smoke club"
-  },
-  {
-   "at": 1791601065,
-   "text": "Cinema School: John Doe studied '5 BEST Marketing Strategies For Small Business 2026 (PROVEN & PROFITABLE)'"
   }
  ],
  "products": [
@@ -2645,6 +2645,13 @@ window.SNAPSHOT = {
    "title": "QR-Linked 3D-Printed Cocktail Stirrers",
    "stage": "evidence",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "QR-Safe: Fraud-Checking Bot for Spanish Bars",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
