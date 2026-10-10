@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791650587,
+ "generated_at": 1791651429,
  "paused": false,
  "citizens": [
   {
@@ -97,13 +97,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Leadership"
   },
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,9 +685,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "flickering",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -1223,6 +1223,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791651403,
+   "text": "Foundry (seeded by Nebula; crew Alana, Aurum, Forge, Nebula) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791650741,
+   "text": "Foundry (seeded by Aurum; crew Aurum, Byte, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791650225,
    "text": "Foundry (seeded by Byte; crew Byte, Forge, Nebula, Zora Xu) pitched an idea to the R&D Lab"
   },
@@ -1293,14 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791639816,
    "text": "Foundry (seeded by Eva; crew Alana, Eva, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791638808,
-   "text": "Mira, Eva, Vex took a resist in the smoke club"
-  },
-  {
-   "at": 1791638302,
-   "text": "Foundry (seeded by Alana; crew Alana, Forge, Lumina Valtor, Nebula) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -2103,6 +2103,13 @@ window.SNAPSHOT = {
    "no": 0
   },
   {
+   "title": "BarChat+ Social Suite for Costa del Sol",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
    "title": "BarComply: Costa del Sol Allergen Compliance Tool",
    "stage": "pitch",
    "status": "alive",
@@ -2601,6 +2608,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "Neon Bar Sync Pro",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon BarBoost AI Content Hub",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
