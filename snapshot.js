@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791653071,
+ "generated_at": 1791653863,
  "paused": false,
  "citizens": [
   {
@@ -97,7 +97,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "research",
    "doing": "Off duty: taking a resist in the smoke club with Elysia and Rexton Vance",
    "mood": "wistful",
    "said": "",
@@ -916,9 +916,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -1021,9 +1021,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "hopeful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1189,9 +1189,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791653836,
+   "text": "Foundry (seeded by Alana; crew Alana, Forge, Lumina Valtor, Vex) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791652926,
    "text": "Cinema School: Zylac studied 'Investing in the Bar and Restaurant Business'"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791642540,
    "text": "Foundry (seeded by Ellie; crew Ellie, Fiona Quill, Forge, Vex) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791641912,
-   "text": "Cinema School: Rexton Vance studied 'Copywriting For Beginners: How To Get Started Fast (With No Experience)'"
   }
  ],
  "products": [
@@ -2826,6 +2826,13 @@ window.SNAPSHOT = {
    "title": "QR-Linked 3D-Printed Cocktail Stirrers",
    "stage": "evidence",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "QR-Linked AI Social Boost for Costa del Sol Bars",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
