@@ -1,5 +1,5 @@
 {
- "generated_at": 1791590173,
+ "generated_at": 1791590806,
  "paused": false,
  "citizens": [
   {
@@ -97,13 +97,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Leadership"
   },
@@ -580,7 +580,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Forge and Vex",
    "mood": "curious",
    "said": "Perhaps it's not just a flicker, but a canvas of possibilities. Each pulse could be a heartbeat waiting for the right moment to sync up with its neighbors, crea",
