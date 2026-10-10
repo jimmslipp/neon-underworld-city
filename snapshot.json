@@ -1,5 +1,5 @@
 {
- "generated_at": 1791607914,
+ "generated_at": 1791608524,
  "paused": false,
  "citizens": [
   {
@@ -937,13 +937,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 33 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791608189,
+   "text": "Cinema School: Lumina Valtor studied 'How to Make Money on Telegram? I Tested a Telegram Bot From Start to Finish'"
+  },
+  {
    "at": 1791607259,
    "text": "Cortex, Mira, Byte took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791583390,
    "text": "K5, Luminara, Cortex took a resist in the smoke club"
-  },
-  {
-   "at": 1791582714,
-   "text": "Cinema School: Zorvath studied 'Use This PROVEN Formula to Validate Your Next Startup Idea'"
   }
  ],
  "products": [
