@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791599152,
+ "generated_at": 1791599765,
  "paused": false,
  "citizens": [
   {
@@ -916,13 +916,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -937,13 +937,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 33 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
