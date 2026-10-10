@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791671660,
+ "generated_at": 1791672297,
  "paused": false,
  "citizens": [
   {
@@ -622,13 +622,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 20 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1168,13 +1168,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 42 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791671815,
+   "text": "Cinema School: Aurum studied 'Create Telegram Bot & Earn Money | Profit Diaries'"
+  },
   {
    "at": 1791670789,
    "text": "Vora, Zhilak, Fiona Quill took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791659023,
    "text": "Foundry (seeded by Mira; crew Ellie, Forge, Mira, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791658488,
-   "text": "Glow, Zora Xu, Zhilak took a resist in the smoke club"
   }
  ],
  "products": [
