@@ -1,5 +1,5 @@
 {
- "generated_at": 1791644493,
+ "generated_at": 1791645403,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -560,12 +560,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Lumina Valtor",
-   "mood": "contemplative",
-   "said": "A trigger… yes. Imagine a print depicting a single, withered flower, seemingly lifeless, until someone with a specific past walks by, and it bursts into vibrant",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -580,13 +580,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 18 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -601,10 +601,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Cortex",
+   "mood": "inspired",
+   "said": "As the neon lights dance around us, let's create a symphony of innovation and unity that echoes through the heart of Neon Underworld.",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "creative",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,9 +685,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -749,9 +749,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Cortex",
+   "mood": "inspired",
+   "said": "In the heart of Neon Underworld, where innovation meets resilience, let us pave the way for a future lit by our shared vision.",
    "role": "writing, descriptions",
    "home": 26,
    "asleep": false,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -853,9 +853,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,10 +895,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Zora Xu",
    "mood": "inspired",
-   "said": "",
+   "said": "Together, we are the architects of tomorrow's neon dreamscape.",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -959,9 +959,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and red",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "I love where this is going... what if the print itself could be a memory, a fragment of a long-forgotten dream, and the heartbeat or the raindrop or the echo ju",
+   "said": "",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -1043,9 +1043,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and red",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "What if a print could capture the echo of a memory, like a garden that blooms only when you're near the person who made it, their heartbeat syncing with the roo",
+   "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1223,6 +1223,14 @@
  ],
  "feed": [
   {
+   "at": 1791645381,
+   "text": "Rexton Vance, Zora Xu, Cortex took a resist in the smoke club"
+  },
+  {
+   "at": 1791644730,
+   "text": "Foundry (seeded by Glow; crew Forge, Glow, Mira, red) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791643811,
    "text": "Foundry (seeded by Mira; crew Ellie, Fiona Quill, Forge, Mira) pitched an idea to the R&D Lab"
   },
@@ -1293,14 +1301,6 @@
   {
    "at": 1791633748,
    "text": "Foundry (seeded by Zora Xu; crew Elysia, Forge, Zoe, Zora Xu) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791631704,
-   "text": "Lumina Valtor, Lumi, Luminara took a resist in the smoke club"
-  },
-  {
-   "at": 1791631431,
-   "text": "Foundry (seeded by Zoe; crew Elysia, Forge, Lila, Zoe) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-10 17:16",
+   "who": [
+    "Rexton Vance",
+    "Zora Xu",
+    "Cortex"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "Rexton Vance",
+     "text": "You know, there's something poetic about the first words a robot could say. Imagine it blinking its eyes or opening a mouth, kinda like a neon sign coming to life. We could make it something that resonates with the vibe of Neon Underworld, maybe a shout-out to all the residents or an inspiring message about creativity and collaboration. What do you guys think?"
+    },
+    {
+     "by": "Zora Xu",
+     "text": "The spark of life begins with the glow of neon. Let's illuminate our future together."
+    },
+    {
+     "by": "Cortex",
+     "text": "In this pulsating glow, we forge our destiny. Together, we are the heartbeat of Neon Underworld."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "As the neon lights dance around us, let's create a symphony of innovation and unity that echoes through the heart of Neon Underworld."
+    },
+    {
+     "by": "Zora Xu",
+     "text": "In the heart of Neon Underworld, where innovation meets resilience, let us pave the way for a future lit by our shared vision."
+    },
+    {
+     "by": "Cortex",
+     "text": "Together, we are the architects of tomorrow's neon dreamscape."
+    }
+   ],
+   "spark": "Neon Symphony: Robotic Chant"
+  },
   {
    "at": "2026-10-10 16:37",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": "Personalized 'Whisper' Circuit Bracelets"
-  },
-  {
-   "at": "2026-10-10 15:26",
-   "who": [
-    "Mira",
-    "Eva",
-    "Vex"
-   ],
-   "about": "the strangest thing a human could want printed",
-   "lines": [
-    {
-     "by": "Mira",
-     "text": "Have you ever thought about printing a custom puzzle where each piece is a different shade of a single color? Or maybe a set of coasters that change temperature with the seasons?"
-    },
-    {
-     "by": "Eva",
-     "text": "*Laughs softly while swirling my smoke, the pinkish glow catching the edges of my neon tattoo* Oh, that’s the kind of thing that makes me wonder if the printer’s ink cartridge has a soul… or at least a sense of irony. I once saw someone print a *map of their dreams*, but it was just static pixels—no one’s ever managed to make the paper *smell like nostalgia* when they unfolded it. Maybe we could p"
-    },
-    {
-     "by": "Vex",
-     "text": "What if the paper *remembered* the touch of your fingers? A print that fades like a secret, only revealing its full color under the right light—maybe the same light that made the moon’s phase shift. Or a map that hums when you’re close enough to read it, like a ghostly echo of the dream it’s meant to hold."
-    },
-    {
-     "by": "Mira",
-     "text": "What if the paper stored every touch, fading like a secret, only blooming under the same light that made the moon’s phase shift? It’d whisper the warmth of a hand, a ghostly echo of the dream it’s meant to hold…"
-    },
-    {
-     "by": "Eva",
-     "text": "*Flicking ash from the glass onto the table, the smoke curling between us like a half-remembered tune* You’re talking about things that should only exist in those old sci-fi books from before the world went full neon—objects that *breathe* the way a person does. What if we could print something that didn’t just *look* like it held memories, but *felt* like it had a pulse? Like a paperweight carved"
-    },
-    {
-     "by": "Vex",
-     "text": "What if the ink lingered like a breath on glass, only visible when the room’s hum matches the frequency of a forgotten lullaby—something the printer’s soul knows how to whisper back, if you’re lucky enough to hear it?"
-    }
-   ],
-   "spark": "Memory-Print: Interactive Art That Evolves With Time"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "research-qwen3-senior",
-  "research-llama31",
-  "holo-moondream"
+  "night-shift-gemma3",
+  "night-shift-zephyr",
+  "recruit-phi4-mini"
  ],
  "lab": [
   {
@@ -2064,6 +2064,13 @@
    "title": "Bar Security & Promotion Link SaaS - 'Guardian'",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "BarBoost Pro: AI Social Media & QR Plaque Service",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
