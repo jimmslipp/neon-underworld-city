@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791645403,
+ "generated_at": 1791646050,
  "paused": false,
  "citizens": [
   {
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -853,9 +853,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -937,9 +937,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,9 +958,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1000,9 +1000,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1021,9 +1021,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "hopeful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1223,6 +1223,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791646024,
+   "text": "Foundry (seeded by Lila; crew Forge, Lila, Zoe, red) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791645633,
+   "text": "Cinema School: Lila studied 'Why did my side-hustle fail? How to validate business ideas'"
+  },
+  {
    "at": 1791645381,
    "text": "Rexton Vance, Zora Xu, Cortex took a resist in the smoke club"
   },
@@ -1293,14 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791634536,
    "text": "Cinema School: K5 studied 'Machine Shop Tour || INHERITANCE MACHINING'"
-  },
-  {
-   "at": 1791634350,
-   "text": "K5, Alana, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1791633748,
-   "text": "Foundry (seeded by Zora Xu; crew Elysia, Forge, Zoe, Zora Xu) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -2895,6 +2895,13 @@ window.SNAPSHOT = {
   },
   {
    "title": "Spanish Bar Legal & Social AI Tool",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Spanish Bar Music Licensing SaaS with Risk Disclosure",
    "stage": "pitch",
    "status": "alive",
    "yes": 0,
