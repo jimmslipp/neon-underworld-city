@@ -1,5 +1,5 @@
 {
- "generated_at": 1791603921,
+ "generated_at": 1791604545,
  "paused": false,
  "citizens": [
   {
@@ -97,13 +97,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Leadership"
   },
@@ -874,13 +874,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791604490,
+   "text": "Cinema School: Nebula studied 'Backtesting Stock Trading Strategies in Python'"
+  },
+  {
    "at": 1791603299,
    "text": "Alana, Luna, Vora took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791581741,
    "text": "Foundry (seeded by Fiona Quill; crew Aurum, Fiona Quill, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791581253,
-   "text": "Cortex, Vex, Forge took a resist in the smoke club"
   }
  ],
  "products": [
