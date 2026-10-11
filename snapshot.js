@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791685880,
+ "generated_at": 1791686520,
  "paused": false,
  "citizens": [
   {
@@ -853,13 +853,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 29 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791686499,
+   "text": "Cinema School: Nebula studied 'How to Flip Used Golf Clubs for Profit (Beginner's Guide)'"
+  },
+  {
    "at": 1791685205,
    "text": "Zhilak, Luna, Folio took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791665047,
    "text": "Foundry (seeded by Aurum; crew Aurum, Eva, Forge, Nebula) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791664438,
-   "text": "Cinema School: Zorvath studied 'How I Manage Social Media  As A Small Business Owner '"
   }
  ],
  "products": [
