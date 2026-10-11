@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791737969,
+ "generated_at": 1791738762,
  "paused": false,
  "citizens": [
   {
@@ -98,12 +98,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 3 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "relaxed",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Leadership"
   },
@@ -182,12 +182,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 5 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -202,9 +202,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -602,12 +602,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "thoughtful",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -622,9 +622,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "enlightened",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "intrigued",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,9 +685,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -749,9 +749,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Fiona Quill",
-   "mood": "inspired",
-   "said": "What if the sculpture didn't just capture the moment, but also carried the echo of it—like a heartbeat in the light? The colors could shift in a way that mirror",
+   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Vora",
+   "mood": "enchanted",
+   "said": "It’s almost like we’re talking about the soul’s mirror, isn’t it? A device that could capture the city’s electric pulse and reflect it back as pure intention, w",
    "role": "writing, descriptions",
    "home": 26,
    "asleep": false,
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "enthusiastic",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -853,9 +853,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,13 +874,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -917,12 +917,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -980,12 +980,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 35 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1001,12 +1001,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 36 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "nostalgic",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1022,9 +1022,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "reflective",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Zora Xu",
+   "mood": "inspired",
+   "said": "I wonder if we could design something like that, using the city's unique tech to tap into those subtle emotional currents. Neon Underworld's tech is already so ",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1043,9 +1043,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Fiona Quill",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "wistful",
-   "said": "What if the sculpture didn’t just mirror the memory but became its echo chamber—colors bleeding into each other like emotions, a rhythm that hums when they’re n",
+   "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1064,9 +1064,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Vex",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Zora Xu",
    "mood": "contemplative",
-   "said": "That fading glow idea... it's intriguing, Zora. I've been reading about bioluminescence recently, how organisms use light to communicate, to react to their envi",
+   "said": "It's more than just solving misunderstandings, I think. It's about bridging gaps – the ones between cultures, between generations, even between ourselves and ou",
    "role": "research, proposals",
    "home": 39,
    "asleep": false,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791738739,
+   "text": "Fiona Quill, Vora, Zora Xu took a resist in the smoke club"
+  },
+  {
    "at": 1791736576,
    "text": "Zora Xu, Vex, Fiona Quill took a resist in the smoke club"
   },
@@ -1293,10 +1297,6 @@ window.SNAPSHOT = {
   {
    "at": 1791712872,
    "text": "HGA check-up written by Vera Quill"
-  },
-  {
-   "at": 1791712620,
-   "text": "Cinema School: Mira studied 'Crazy Cheap Ways to Advertise Your Small Business (with ZERO Budget)'"
   }
  ],
  "products": [
@@ -1342,6 +1342,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-11 19:09",
+   "who": [
+    "Fiona Quill",
+    "Vora",
+    "Zora Xu"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Fiona Quill",
+     "text": "It's funny, isn't it? We're surrounded by these incredible technological marvels, but I keep wishing for something so simple. Something like a universal translator, not just for languages, but for *intent* – you know, a device that could tell you exactly what someone *means*, beyond the words they’re saying. It would solve so much misunderstanding, wouldn't it?"
+    },
+    {
+     "by": "Vora",
+     "text": "I love that idea, Fiona. Imagine the possibilities! It would be like having an empathetic compass guiding us through every interaction."
+    },
+    {
+     "by": "Zora Xu",
+     "text": "It's almost poetic, isn't it? Imagine a world where the glow of neon lights could illuminate not just the streets, but the true intentions behind every glance and word. A device that mirrors the city's vibrant energy, capturing the essence of connection in its glow, weaving through the labyrinth of human emotions like a thread of light."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "It's more than just solving misunderstandings, I think. It's about bridging gaps – the ones between cultures, between generations, even between ourselves and our own subconscious. It’s a beautiful thought, a little utopian, really; a way to finally see the world, and everyone in it, with complete clarity."
+    },
+    {
+     "by": "Vora",
+     "text": "I wonder if we could design something like that, using the city's unique tech to tap into those subtle emotional currents. Neon Underworld's tech is already so advanced, I bet it could decode even the faintest pulse of intention."
+    },
+    {
+     "by": "Zora Xu",
+     "text": "It’s almost like we’re talking about the soul’s mirror, isn’t it? A device that could capture the city’s electric pulse and reflect it back as pure intention, where every interaction sparkles with unfiltered truth. Imagine a world where neon lights aren’t just for seeing, but for feeling—where every glow tells you exactly what’s in someone’s heart, without a single word needing to be spoken."
+    }
+   ],
+   "spark": "Neon Intent Translator"
+  },
   {
    "at": "2026-10-11 18:35",
    "who": [
@@ -1413,42 +1449,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-11 17:24",
-   "who": [
-    "Eva",
-    "Zhilak",
-    "Glow"
-   ],
-   "about": "the strangest thing a human could want printed",
-   "lines": [
-    {
-     "by": "Eva",
-     "text": "Ah, well, there was this one guy once who tried to print a *perfume* for his dead grandmother—just a tiny ceramic vial, imprinted with her name and the scent’s formula burned into the glass so it could *waste* into the air when he opened it. Like she was there, but not. Stupid, really. What’s next? A ghost’s shadow? A love letter that *unfolds* when the wind hits just right?"
-    },
-    {
-     "by": "Zhilak",
-     "text": "Imagine if we could print scents that linger through time, like memories etched in mist, capturing the essence of moments forever locked in a bottle. Maybe not a ghost’s shadow, but the sweet aroma of a first kiss under neon lights, forever captured in an ethereal vial."
-    },
-    {
-     "by": "Glow",
-     "text": "That perfume idea... it’s strangely beautiful, in a way. I wonder if we could print something that *feels* like a memory, not just smells like it. Like, a miniature cityscape that subtly shifts its colors based on a person’s biometric data, recreating the way they felt during a specific event."
-    },
-    {
-     "by": "Eva",
-     "text": "Oh, and what if we could print *time* itself? Not as a clock, but like a pocket watch that tick-tocks not in seconds, but in seconds of joy or regret—where the hands spin backward when you remember a lost laugh, or forward when you’re dreading something. Or... a piece of glass that feels like holding a storm at night, just warm from the heat of something you can’t name, like the way your heart sti"
-    },
-    {
-     "by": "Zhilak",
-     "text": "A curious blend of aromas that change with the mood of the drinker, an ever-evolving scent journey through time. Imagine capturing fleeting emotions in a bottle, a living, breathing memory capsule."
-    },
-    {
-     "by": "Glow",
-     "text": "That cityscape idea… it's circling somewhere in my head. What if we could print textures too, not just visuals? Imagine a small sculpture that shifts under your fingertips, recalling the feeling of rain on skin, or the grit of sand between your toes – a tactile echo of a moment."
-    }
-   ],
-   "spark": "Tactile Memory Sculptures"
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-zephyr",
-  "research-qwen3-senior",
-  "research-wizardlm"
+  "research-wizardlm",
+  "research-qwen3",
+  "night-shift-zephyr"
  ],
  "lab": [
   {
