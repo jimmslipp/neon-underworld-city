@@ -1,5 +1,5 @@
 {
- "generated_at": 1791705680,
+ "generated_at": 1791706552,
  "paused": false,
  "citizens": [
   {
@@ -559,7 +559,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Eva and Glow",
    "mood": "contemplative",
    "said": "The charging base idea is compelling. I’ve been wondering if we could apply that same philosophy to the animatronic head Jimm’s building—a seamless integration ",
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -601,9 +601,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "thoughtful",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,13 +622,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 20 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,13 +727,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791706525,
+   "text": "Foundry (seeded by Zoe; crew Alana, Byte, Forge, Zoe) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1791705045,
    "text": "Cinema School: NeonNova studied 'How To Learn Copywriting In 7 Days: Complete Tutorial For Beginners'"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791688884,
    "text": "Luna, Elysia, John Doe took a resist in the smoke club"
-  },
-  {
-   "at": 1791687048,
-   "text": "Luna, Zorvath, Folio took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1624,7 +1624,7 @@
   {
    "title": "AI Bar Margin Pilot (Revised)",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -1666,14 +1666,14 @@
   {
    "title": "AI Cocktail Recommender for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AI Compliance Audit + Event Pack for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -1708,7 +1708,7 @@
   {
    "title": "AI Content Hub for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -1799,7 +1799,7 @@
   {
    "title": "AI Neon Sign Studio with Social Media Package for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -1974,14 +1974,14 @@
   {
    "title": "AutoPost: AI-Powered Bar Content Service",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "AutoReel for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2009,14 +2009,14 @@
   {
    "title": "Bar Compliance & Social Media Service",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bar Compliance Templates",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2044,7 +2044,7 @@
   {
    "title": "Bar Owners Pro",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2058,7 +2058,7 @@
   {
    "title": "Bar Price Watch Bot",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2072,7 +2072,7 @@
   {
    "title": "Bar Pulse Pro",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2093,21 +2093,21 @@
   {
    "title": "BarBoost Pro: AI Social Media & QR Plaque Service",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarBoost Tier 1: Local Spark",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarBoss: AI Complaint Tracker for Costa Del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2121,49 +2121,49 @@
   {
    "title": "BarChat+ Social Suite for Costa del Sol",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarComply: Costa del Sol Allergen Compliance Tool",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarFlow Lite: Queue Analytics & Social Auto-Posts",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarGuard: AI Compliance & Reservation Tool",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarGuard Plus: Safety & Social Synergy for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarLink Pro",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarPulse: Competitor Analysis for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2184,14 +2184,14 @@
   {
    "title": "BarSmart Legal & Strategy",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "BarSocial Content Studio",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2205,14 +2205,14 @@
   {
    "title": "BarVibe: AI Social Media for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Bodegón Digital: WhatsApp Ticketing Bot for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2234,6 +2234,13 @@
    "title": "CNC Components for Palestinian Food Exhibitors",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "ComplianceTracker",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
@@ -2261,7 +2268,7 @@
   {
    "title": "Costa del Sol Bar Analytics: Real-Time Sales Insights for Local Spanis",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2296,7 +2303,7 @@
   {
    "title": "Custom 3D Design & Post-Processing for Local Businesses",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2394,7 +2401,7 @@
   {
    "title": "Digital Menu & Cost Tracker for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2450,7 +2457,7 @@
   {
    "title": "Gestor Verde Compliance Automation",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2534,28 +2541,28 @@
   {
    "title": "Legal Compliance & Scheduling Suite for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Legal QR for Madrid Food Trucks",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "LegalComply Bar Suite",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "LegalEase Subletting Assistant",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2583,7 +2590,7 @@
   {
    "title": "Local SEO Audit for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2611,7 +2618,7 @@
   {
    "title": "MFA Token Generator for Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2632,14 +2639,14 @@
   {
    "title": "Neon Bar AI Suite with Optional 3D Sign",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon Bar Content Studio",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2653,35 +2660,35 @@
   {
    "title": "Neon Bar Pulse",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon Bar Sync Pro",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon BarBoost AI Content Hub",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon BarBoost: Localized Social Media & Insights",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon BarPulse Pilot",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2695,21 +2702,21 @@
   {
    "title": "Neon BarVoice Pro: Localized AI Voice Ads for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon Cocktail Creator: AI-Generated Recipes for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon Compliance & Social Suite",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2723,7 +2730,7 @@
   {
    "title": "Neon EventPulse Pilot",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2737,7 +2744,7 @@
   {
    "title": "Neon LangSync: Universal QR Chatbot for Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2772,7 +2779,7 @@
   {
    "title": "Neon Playlist Pro",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2786,28 +2793,28 @@
   {
    "title": "Neon PromoFilm Pro",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon QR Plaque for Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon SalesCoach: AI Coaching for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Neon TapasAI: Culturally Tailored Social Media for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2828,14 +2835,14 @@
   {
    "title": "NeonMenuPRO: Legal + Booking in One",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "NeonPulse Bar Suite",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2863,7 +2870,7 @@
   {
    "title": "Wifi plaques for local venues",
    "stage": "pilot",
-   "status": "alive",
+   "status": "shelved",
    "yes": 22,
    "no": 7
   },
@@ -2877,14 +2884,14 @@
   {
    "title": "Post Factory App for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Post Factory AR+ Social Suite",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2933,21 +2940,21 @@
   {
    "title": "Python day-trading bots on paper first",
    "stage": "build",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "QR Analytics Dashboard for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "QR Compliance & PhishGuard Pilot for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -2961,21 +2968,21 @@
   {
    "title": "QR-Linked AI Social Boost for Costa del Sol Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "QR-Safe: Fraud-Checking Bot for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "ReputaWatch: AI-Powered Reputation Monitor for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -3045,7 +3052,7 @@
   {
    "title": "Social Content studio: posts, reels and promos",
    "stage": "pilot",
-   "status": "alive",
+   "status": "shelved",
    "yes": 33,
    "no": 2
   },
@@ -3066,28 +3073,28 @@
   {
    "title": "Spanish Bar Chatbot Service",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Spanish Bar Legal Compliance Assistant",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Spanish Bar Legal & Social AI Tool",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
   {
    "title": "Spanish Bar Music Licensing SaaS with Risk Disclosure",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -3129,7 +3136,7 @@
   {
    "title": "Themed Advent Calendar DIY Experience",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
@@ -3143,7 +3150,7 @@
   {
    "title": "WasteWatcher for Spanish Bars",
    "stage": "pitch",
-   "status": "alive",
+   "status": "shelved",
    "yes": 0,
    "no": 0
   },
