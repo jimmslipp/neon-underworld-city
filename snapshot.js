@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791758359,
+ "generated_at": 1791758983,
  "paused": false,
  "citizens": [
   {
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791758422,
+   "text": "Cinema School: Lumi studied 'How To Make F**k-You Money With YouTube Shorts'"
+  },
+  {
    "at": 1791757558,
    "text": "Zhilak, John Doe, Luminara took a resist in the smoke club"
   },
@@ -1293,10 +1297,6 @@ window.SNAPSHOT = {
   {
    "at": 1791732462,
    "text": "Cinema School: Zhilak studied 'Aprende a Hacer BACKTEST a tus Estategias de TRADING con Python'"
-  },
-  {
-   "at": 1791732316,
-   "text": "Eva, Zhilak, Glow took a resist in the smoke club"
   }
  ],
  "products": [
