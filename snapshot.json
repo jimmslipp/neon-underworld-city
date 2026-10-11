@@ -1,5 +1,5 @@
 {
- "generated_at": 1791759641,
+ "generated_at": 1791760257,
  "paused": false,
  "citizens": [
   {
@@ -160,13 +160,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 4 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": ""
   },
@@ -2247,8 +2247,8 @@
   },
   {
    "title": "ComplianceTracker",
-   "stage": "pitch",
-   "status": "alive",
+   "stage": "evidence",
+   "status": "killed",
    "yes": 0,
    "no": 0
   },
