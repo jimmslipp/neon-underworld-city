@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791694654,
+ "generated_at": 1791695267,
  "paused": false,
  "citizens": [
   {
@@ -1189,13 +1189,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 43 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
