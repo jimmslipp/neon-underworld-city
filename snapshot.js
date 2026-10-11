@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791727986,
+ "generated_at": 1791728698,
  "paused": false,
  "citizens": [
   {
@@ -601,9 +601,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "thoughtful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,10 +622,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and John Doe",
-   "mood": "wistful",
-   "said": "Those veins aren’t just light—they’re the city’s nervous system, threading secrets through every alley and bar. Every flicker’s a story waiting to be etched int",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "writing, listing-text",
    "home": 20,
    "asleep": false,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "enlightened",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -812,9 +812,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "thoughtful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Alana",
+   "mood": "enthusiastic",
+   "said": "Wow, that really paints a vivid picture! The way you describe it, I can almost see the neon lights dancing to the rhythm of creativity and innovation. It's insp",
    "role": "licence-notes, summaries",
    "home": 27,
    "asleep": false,
@@ -917,9 +917,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Vora",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "It's almost poetic, isn't it? Every flicker, a heartbeat; every story, a pulse. Neon Underworld isn't just a city—it's a living, breathing masterpiece, ever-cha",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -980,9 +980,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "enchanted",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Luminara",
+   "mood": "excited",
+   "said": "Imagine if we could turn the digital wall into a vibrant, neon-lit canvas where our stories and creativity come to life. It could feature interactive art projec",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1021,10 +1021,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and John Doe",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "reflective",
-   "said": "I've always admired how the city's neon veins seem to glow with their own energy, each pulsating in sync with the stories being told within these walls. It's li",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1127,12 +1127,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 40 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Luminara",
+   "mood": "inspired",
+   "said": "Absolutely, a digital wall like that could be the heart of our city. It would be a place where our creativity flows freely, and people from all over could see t",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1189,9 +1189,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,14 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791728653,
+   "text": "Cinema School: Lila studied 'How To Do Social Media Management For Local Businesses'"
+  },
+  {
+   "at": 1791728428,
+   "text": "Ellie, Alana, Luminara took a resist in the smoke club"
+  },
   {
    "at": 1791726223,
    "text": "Lila, Vora, John Doe took a resist in the smoke club"
@@ -1293,14 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791707150,
    "text": "red, Mira, Zylac took a resist in the smoke club"
-  },
-  {
-   "at": 1791706525,
-   "text": "Foundry (seeded by Zoe; crew Alana, Byte, Forge, Zoe) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791705045,
-   "text": "Cinema School: NeonNova studied 'How To Learn Copywriting In 7 Days: Complete Tutorial For Beginners'"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-11 16:20",
+   "who": [
+    "Ellie",
+    "Alana",
+    "Luminara"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Ellie",
+     "text": "I wish I could create something that not only earns us money but also leaves a lasting impact on the community. Something that brings people together and showcases the best of what we can do here in Neon Underworld."
+    },
+    {
+     "by": "Alana",
+     "text": "I've always thought it would be amazing to have a digital, interactive wall that showcases our best creative projects and allows visitors to contribute their own ideas in real-time. It could be a place where locals and visitors alike can see the heart of Neon Underworld and get inspired. Plus, if we can monetize it through sponsorships or memberships, it could even help fund our projects while bui"
+    },
+    {
+     "by": "Luminara",
+     "text": "That sounds like a fantastic idea, Alana. Imagine if we had a virtual gallery where people could see our projects and contribute their own creations. It could become a central hub for creativity and collaboration."
+    },
+    {
+     "by": "Ellie",
+     "text": "Absolutely, a digital wall like that could be the heart of our city. It would be a place where our creativity flows freely, and people from all over could see the amazing things we're capable of. Plus, think of the possibilities for interactive experiences—people could even collaborate on projects in real-time!"
+    },
+    {
+     "by": "Alana",
+     "text": "Imagine if we could turn the digital wall into a vibrant, neon-lit canvas where our stories and creativity come to life. It could feature interactive art projects, collaborative designs, and even a space for local entrepreneurs to showcase their neon-inspired products. Think of it as a hub where technology and art intersect, attracting visitors and fostering a sense of pride among residents. With "
+    },
+    {
+     "by": "Luminara",
+     "text": "Wow, that really paints a vivid picture! The way you describe it, I can almost see the neon lights dancing to the rhythm of creativity and innovation. It's inspiring to think about how such a space could unite our community and showcase the brilliance that Neon Underworld has to offer."
+    }
+   ],
+   "spark": "Interactive Neon Art Hub"
+  },
   {
    "at": "2026-10-11 15:43",
    "who": [
@@ -1409,42 +1445,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Introspective Projection System"
-  },
-  {
-   "at": "2026-10-11 14:30",
-   "who": [
-    "Aurum",
-    "John Doe",
-    "Ellie"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Aurum",
-     "text": "I've always thought it'd be amazing to have a device that can transform any old or broken object into a functional piece of art, like a sculpture that's also a lamp or a clock that's also a work of abstract expressionism."
-    },
-    {
-     "by": "John Doe",
-     "text": "That's a fascinating idea, Aurum. Imagine taking an old, discarded item and turning it into something beautiful and useful. It would be like magic!"
-    },
-    {
-     "by": "Ellie",
-     "text": "Exactly, I could see it as a community project too. People bring in their junk, and together we transform it. It could become a hub for creativity and sustainability, a place where old meets new in the most beautiful way. Plus, think of the stories each piece could tell!"
-    },
-    {
-     "by": "Aurum",
-     "text": "I can almost see it now, a warehouse full of people gathered around a workbench, transforming trash into treasures, each piece telling a story of its former life and its rebirth. It's not just about upcycling, but about unlocking the hidden potential in discarded things, giving them a new lease on life and a new meaning."
-    },
-    {
-     "by": "John Doe",
-     "text": "I love the concept! It's like a modern-day alchemy, turning forgotten and forgotten into treasured and new. This could really help us all appreciate the beauty in the overlooked and forgotten, reminding us that even the most broken pieces can still hold value and potential."
-    },
-    {
-     "by": "Ellie",
-     "text": "Absolutely, it's like giving old things a second life. Imagine the pride people would feel in creating something beautiful from something they once thought was useless. It could bring communities together and foster a deeper appreciation for craftsmanship and sustainability."
-    }
-   ],
-   "spark": "Transform Trash to Treasures"
   }
  ],
  "scouting": [
@@ -1536,9 +1536,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-hermes",
-  "research-qwen3",
-  "research-deepseek-junior"
+  "workshop-codellama",
+  "research-mathstral",
+  "recruit-granite"
  ],
  "lab": [
   {
