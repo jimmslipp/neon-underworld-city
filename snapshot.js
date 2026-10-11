@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791679188,
+ "generated_at": 1791679824,
  "paused": false,
  "citizens": [
   {
@@ -622,13 +622,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 20 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -664,13 +664,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 22 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791679230,
+   "text": "Cinema School: Cortex studied 'How to Price a Product or Service - The Winning Formula for Success'"
+  },
+  {
    "at": 1791679165,
    "text": "Nebula, Luminara, Forge took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791662598,
    "text": "Foundry (seeded by Zoe; crew Forge, Nebula, Zoe, Zora Xu) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791662383,
-   "text": "NeonNova, Eva, Vora took a resist in the smoke club"
   }
  ],
  "products": [
