@@ -1,5 +1,5 @@
 {
- "generated_at": 1791743428,
+ "generated_at": 1791744124,
  "paused": false,
  "citizens": [
   {
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "enthusiastic",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -895,9 +895,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "chill",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -937,13 +937,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 33 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "daydreaming",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791743496,
+   "text": "Cinema School: Zoe studied 'How To Price Your Product or Service'"
+  },
+  {
    "at": 1791742761,
    "text": "Elysia, K5, Zhilak took a resist in the smoke club"
   },
@@ -1293,10 +1297,6 @@
   {
    "at": 1791717659,
    "text": "Luna, Zhilak, Zorvath took a resist in the smoke club"
-  },
-  {
-   "at": 1791716360,
-   "text": "Cinema School: K5 studied '10 Reasons Why Your Small Business Will Fail - and How To Avoid These Tragic Mis'"
   }
  ],
  "products": [
