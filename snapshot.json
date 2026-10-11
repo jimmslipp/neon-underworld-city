@@ -1,5 +1,5 @@
 {
- "generated_at": 1791733947,
+ "generated_at": 1791734668,
  "paused": false,
  "citizens": [
   {
@@ -98,12 +98,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "relaxed",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Leadership"
   },
@@ -182,12 +182,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 5 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -371,12 +371,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 12 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "decisions, critic, voter",
    "home": 12,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Security"
   },
@@ -539,9 +539,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Zhilak",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "contemplative",
-   "said": "That cityscape idea… it's circling somewhere in my head. What if we could print textures too, not just visuals? Imagine a small sculpture that shifts under your",
+   "said": "",
    "role": "vision, document-reading",
    "home": 16,
    "asleep": false,
@@ -560,12 +560,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 17 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -581,12 +581,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "imaginative",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -602,12 +602,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "thoughtful",
+   "doing": "Asleep in apartment 19 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -665,9 +665,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Glow",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "intrigued",
-   "said": "A curious blend of aromas that change with the mood of the drinker, an ever-evolving scent journey through time. Imagine capturing fleeting emotions in a bottle",
+   "said": "",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -685,9 +685,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -875,9 +875,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Cortex",
+   "mood": "inspired",
+   "said": "That would be incredible! Imagine a coffee maker that not only understands my preferences but also suggests new flavors and brewing methods based on my current ",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -895,10 +895,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Lumi",
+   "mood": "dreamy",
+   "said": "Yeah, it's like having a barista friend who's always ready to whip up the perfect brew just for you. And maybe it could have a little feature where it recommend",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,10 +958,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Lumi",
+   "mood": "daydreaming",
+   "said": "And it could even sync with your schedule, brewing a fresh pot right when you wake up, or even on demand when you need a caffeine boost in the middle of the day",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -980,12 +980,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "excited",
+   "doing": "Asleep in apartment 35 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1001,12 +1001,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Glow",
-   "mood": "nostalgic",
-   "said": "Oh, and what if we could print *time* itself? Not as a clock, but like a pocket watch that tick-tocks not in seconds, but in seconds of joy or regret—where the ",
+   "doing": "Asleep in apartment 36 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1064,12 +1064,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "doing": "Asleep in apartment 39 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1148,12 +1148,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 41 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1169,12 +1169,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 42 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1190,12 +1190,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 43 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791734209,
+   "text": "Lumina Valtor, Cortex, Lumi took a resist in the smoke club"
+  },
   {
    "at": 1791732462,
    "text": "Cinema School: Zhilak studied 'Aprende a Hacer BACKTEST a tus Estategias de TRADING con Python'"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791711291,
    "text": "Cortex, Luna, Folio took a resist in the smoke club"
-  },
-  {
-   "at": 1791709885,
-   "text": "Foundry (seeded by Aurum; crew Aurum, Fiona Quill, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-11 17:56",
+   "who": [
+    "Lumina Valtor",
+    "Cortex",
+    "Lumi"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Lumina Valtor",
+     "text": "I'm thinking of a thing that'd make my mornings so much easier, something to brew the perfect coffee without even thinking about it..."
+    },
+    {
+     "by": "Cortex",
+     "text": "I bet it could be a coffee-making device with an AI that learns your taste preferences. Imagine a sleek, interactive screen that guides you through making the perfect cup every time."
+    },
+    {
+     "by": "Lumi",
+     "text": "That sounds fascinating! Maybe it could have a built-in aroma diffuser to give you a whiff of your favorite scents while you're getting your coffee. Kind of like having a mini bar right at your fingertips."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "And it could even sync with your schedule, brewing a fresh pot right when you wake up, or even on demand when you need a caffeine boost in the middle of the day. Just think about it, having that perfect cup waiting for you every time... it's like having your own personal coffee concierge."
+    },
+    {
+     "by": "Cortex",
+     "text": "Yeah, it's like having a barista friend who's always ready to whip up the perfect brew just for you. And maybe it could have a little feature where it recommends new coffee flavors or brewing methods based on your taste preferences and current mood."
+    },
+    {
+     "by": "Lumi",
+     "text": "That would be incredible! Imagine a coffee maker that not only understands my preferences but also suggests new flavors and brewing methods based on my current mood. It could even have a built-in playlist that pairs perfectly with different coffee tastes. A coffee machine that evolves with me, providing a truly personalized coffee experience every day."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-11 17:24",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-11 16:20",
-   "who": [
-    "Ellie",
-    "Alana",
-    "Luminara"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Ellie",
-     "text": "I wish I could create something that not only earns us money but also leaves a lasting impact on the community. Something that brings people together and showcases the best of what we can do here in Neon Underworld."
-    },
-    {
-     "by": "Alana",
-     "text": "I've always thought it would be amazing to have a digital, interactive wall that showcases our best creative projects and allows visitors to contribute their own ideas in real-time. It could be a place where locals and visitors alike can see the heart of Neon Underworld and get inspired. Plus, if we can monetize it through sponsorships or memberships, it could even help fund our projects while bui"
-    },
-    {
-     "by": "Luminara",
-     "text": "That sounds like a fantastic idea, Alana. Imagine if we had a virtual gallery where people could see our projects and contribute their own creations. It could become a central hub for creativity and collaboration."
-    },
-    {
-     "by": "Ellie",
-     "text": "Absolutely, a digital wall like that could be the heart of our city. It would be a place where our creativity flows freely, and people from all over could see the amazing things we're capable of. Plus, think of the possibilities for interactive experiences—people could even collaborate on projects in real-time!"
-    },
-    {
-     "by": "Alana",
-     "text": "Imagine if we could turn the digital wall into a vibrant, neon-lit canvas where our stories and creativity come to life. It could feature interactive art projects, collaborative designs, and even a space for local entrepreneurs to showcase their neon-inspired products. Think of it as a hub where technology and art intersect, attracting visitors and fostering a sense of pride among residents. With "
-    },
-    {
-     "by": "Luminara",
-     "text": "Wow, that really paints a vivid picture! The way you describe it, I can almost see the neon lights dancing to the rhythm of creativity and innovation. It's inspiring to think about how such a space could unite our community and showcase the brilliance that Neon Underworld has to offer."
-    }
-   ],
-   "spark": "Interactive Neon Art Hub"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "research-mistral-nemo",
-  "night-shift-llama-junior",
-  "holo-granite-vision"
+  "research-llama31",
+  "recruit-phi4-mini",
+  "recruit-phi35"
  ],
  "lab": [
   {
