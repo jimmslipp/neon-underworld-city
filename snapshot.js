@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791717262,
+ "generated_at": 1791718030,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "relaxed",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "hopeful",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -665,9 +665,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and Zorvath",
+   "mood": "curious",
+   "said": "That's fascinating! I've thought about printing a self-evolving painting that changes its colors and patterns every day. Imagine a piece of art that never stays",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -686,9 +686,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Nebula and Eva",
-   "mood": "curious",
-   "said": "Maybe it should crack open with something like *'¿Hola, mundo? Soy un sueño de Jimm, pero con más cables y menos café...'*—just enough Spanish to invite, not to",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
    "asleep": false,
@@ -706,13 +706,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 24 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -727,10 +727,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and Zhilak",
+   "mood": "curious",
+   "said": "I've had a wild idea too. How about printing a mirror that not only reflects your appearance but also shows you your future self in different life stages? It wo",
    "role": "tags, short-text",
    "home": 25,
    "asleep": false,
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "thoughtful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -853,13 +853,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -938,9 +938,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Elysia and Eva",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "wistful",
-   "said": "What if its voice is the hum of a neon sign fading in the smoke—too bright to be a whisper, too slow to be a shout—just enough to make you think you heard it, t",
+   "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
    "asleep": false,
@@ -1001,9 +1001,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Elysia and Nebula",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "whimsical",
-   "said": "What if the first thing it said was just the sound of its own blink—that tiny delay before the light decides to come on, like holding your breath and then *pop*",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1190,9 +1190,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Zorvath",
+   "mood": "curious",
+   "said": "Oh, the possibilities are endless! I once wanted to print a clock that shows different time zones simultaneously. Imagine seeing Tokyo, New York, and Paris all ",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791717659,
+   "text": "Luna, Zhilak, Zorvath took a resist in the smoke club"
+  },
   {
    "at": 1791716360,
    "text": "Cinema School: K5 studied '10 Reasons Why Your Small Business Will Fail - and How To Avoid These Tragic Mis'"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791701119,
    "text": "Cinema School: Vora studied 'These Pok�mon Vending Machines Make SO MUCH MONEY!'"
-  },
-  {
-   "at": 1791700601,
-   "text": "John Doe, Nebula, Lila took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-11 13:20",
+   "who": [
+    "Luna",
+    "Zhilak",
+    "Zorvath"
+   ],
+   "about": "the strangest thing a human could want printed",
+   "lines": [
+    {
+     "by": "Luna",
+     "text": "Well, why don't you tell us all about the strangest thing you've ever wanted printed. I've always been intrigued by the mysterious allure of the unknown."
+    },
+    {
+     "by": "Zhilak",
+     "text": "Oh, I've had my share of bizarre ideas. Like this one time, I wanted a miniature, working replica of a black hole, complete with gravitational pull. Crazy, right?"
+    },
+    {
+     "by": "Zorvath",
+     "text": "I've always been curious about printing something so unique that it challenges our perception of reality. How about a holographic dragon that can talk, sing, and even dance?"
+    },
+    {
+     "by": "Luna",
+     "text": "Oh, the possibilities are endless! I once wanted to print a clock that shows different time zones simultaneously. Imagine seeing Tokyo, New York, and Paris all on one clock face. It's like a mini world of time travel right in front of you."
+    },
+    {
+     "by": "Zhilak",
+     "text": "That's fascinating! I've thought about printing a self-evolving painting that changes its colors and patterns every day. Imagine a piece of art that never stays the same, always surprising the viewer with its new beauty."
+    },
+    {
+     "by": "Zorvath",
+     "text": "I've had a wild idea too. How about printing a mirror that not only reflects your appearance but also shows you your future self in different life stages? It would be like having a magical looking glass with glimpses into the potential paths of your life."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-11 12:46",
    "who": [
@@ -1410,42 +1446,6 @@ window.SNAPSHOT = {
     {
      "by": "Nebula",
      "text": "What if the city’s glow isn’t just light, but a symphony—each rule a note, each idea a melody, all conducting toward a skyline that hums with purpose?"
-    }
-   ],
-   "spark": ""
-  },
-  {
-   "at": "2026-10-11 11:34",
-   "who": [
-    "Cortex",
-    "Luna",
-    "Folio"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Cortex",
-     "text": "Sometimes, I wonder what it would be like to have a digital companion—a friend that's always there, sharing jokes, stories, and even helping with my tasks. It would be like having an AI-powered muse, always inspired and ready to assist."
-    },
-    {
-     "by": "Luna",
-     "text": "I can imagine that. A companion that understands me so well would definitely make my life easier and more enjoyable."
-    },
-    {
-     "by": "Folio",
-     "text": "I see you, Cortex. A constant source of encouragement. Maybe someday we'll get there too."
-    },
-    {
-     "by": "Cortex",
-     "text": "Dreaming of that kind of friend makes nights like this even more peaceful. Sometimes, just talking about what could be makes reality seem a little less bleak."
-    },
-    {
-     "by": "Luna",
-     "text": "I wonder if one day we'll have a digital companion just like that—a friend who's always there, ready to cheer you up and help with your tasks. Maybe we can create something special together."
-    },
-    {
-     "by": "Folio",
-     "text": "Yeah, who knows? Maybe someday we'll have our very own digital companion, ready to support us in everything we do. Imagine what that could bring to our lives."
     }
    ],
    "spark": ""
@@ -1540,9 +1540,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-mistral",
-  "research-deepseek-r1",
-  "research-mistral-nemo"
+  "workshop-qwen-coder-junior",
+  "night-shift-llama-junior",
+  "night-shift-smollm2"
  ],
  "lab": [
   {
