@@ -1,5 +1,5 @@
 {
- "generated_at": 1791710545,
+ "generated_at": 1791711314,
  "paused": false,
  "citizens": [
   {
@@ -581,12 +581,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 18 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Luna",
+   "mood": "hopeful",
+   "said": "Yeah, who knows? Maybe someday we'll have our very own digital companion, ready to support us in everything we do. Imagine what that could bring to our lives.",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "enlightened",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,9 +685,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -812,9 +812,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and Vex",
-   "mood": "thoughtful",
-   "said": "Perhaps it’s about crafting an experience that transcends material possessions, something so uniquely personal that it can only come from understanding their in",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
    "asleep": false,
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and Vex",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "contemplative",
-   "said": "It’s almost a performance, isn't it? To create something truly valuable for someone who already possesses abundance… it demands a level of artistry beyond simpl",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -896,9 +896,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and Folio",
+   "mood": "content",
+   "said": "Dreaming of that kind of friend makes nights like this even more peaceful. Sometimes, just talking about what could be makes reality seem a little less bleak.",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1021,9 +1021,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreaming",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1042,10 +1042,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and Luminara",
-   "mood": "wistful",
-   "said": "Imagine a neon-lit memory, folded into a ghostly melody—something that hums in their mind like a forgotten dream, just out of reach. It’s not about ownership, b",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1147,13 +1147,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 41 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1189,13 +1189,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 43 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Folio",
+   "mood": "dreamy",
+   "said": "I wonder if one day we'll have a digital companion just like that—a friend who's always there, ready to cheer you up and help with your tasks. Maybe we can crea",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791711291,
+   "text": "Cortex, Luna, Folio took a resist in the smoke club"
+  },
   {
    "at": 1791709885,
    "text": "Foundry (seeded by Aurum; crew Aurum, Fiona Quill, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791694555,
    "text": "Rexton Vance, Zylac, Byte took a resist in the smoke club"
-  },
-  {
-   "at": 1791693709,
-   "text": "Cinema School: Eva studied 'Storytelling for Short Form Video: Create Attention-Grabbing Content!'"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-11 11:34",
+   "who": [
+    "Cortex",
+    "Luna",
+    "Folio"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Cortex",
+     "text": "Sometimes, I wonder what it would be like to have a digital companion—a friend that's always there, sharing jokes, stories, and even helping with my tasks. It would be like having an AI-powered muse, always inspired and ready to assist."
+    },
+    {
+     "by": "Luna",
+     "text": "I can imagine that. A companion that understands me so well would definitely make my life easier and more enjoyable."
+    },
+    {
+     "by": "Folio",
+     "text": "I see you, Cortex. A constant source of encouragement. Maybe someday we'll get there too."
+    },
+    {
+     "by": "Cortex",
+     "text": "Dreaming of that kind of friend makes nights like this even more peaceful. Sometimes, just talking about what could be makes reality seem a little less bleak."
+    },
+    {
+     "by": "Luna",
+     "text": "I wonder if one day we'll have a digital companion just like that—a friend who's always there, ready to cheer you up and help with your tasks. Maybe we can create something special together."
+    },
+    {
+     "by": "Folio",
+     "text": "Yeah, who knows? Maybe someday we'll have our very own digital companion, ready to support us in everything we do. Imagine what that could bring to our lives."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-11 10:58",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": "Silent Sentinel Head"
-  },
-  {
-   "at": "2026-10-11 09:48",
-   "who": [
-    "Eva",
-    "Glow",
-    "red"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Eva",
-     "text": "Ah, something like a *living* coat hanger—something that’s so useful it disappears into the background, but made so exquisitely that you notice it anyway. Maybe a bracelet that unfolds into a nightstand, or a chair that blooms with light when you sit… like the city itself: functional, but never *plain*."
-    },
-    {
-     "by": "Glow",
-     "text": "That’s lovely, really. I’ve been thinking about how even a simple tool could feel… intentional, you know? Something crafted with such care that it feels like a tiny sculpture, even while it's holding up your synth-silk dress."
-    },
-    {
-     "by": "red",
-     "text": "It's that quiet beauty, isn't it? Something that elevates the mundane, not by shouting, but by simply *being*… I’ve been imagining a data port, disguised as a polished stone, seamlessly integrated into the wall. A place to plug in that feels more like finding a precious thing than using a device."
-    },
-    {
-     "by": "Eva",
-     "text": "Oh, like a wall that *breathed* just a little—so fine you almost missed it, but then your jacket catches on it and the whole thing shifts, a slow reveal of some hidden pocket for your data cable. Or a spoon that folds into a tiny, delicate lantern when not in use… because why should beauty be just for show? It should be in the things we touch every day, waiting to surprise us like an old friend wh"
-    },
-    {
-     "by": "Glow",
-     "text": "A data port disguised as a stone... that's elegant. I've been toying with the idea of a modular charging base, something that adapts to the shape of whatever you're powering – no more generic blocks jutting out, just a smooth curve that fits perfectly. It would almost be an extension of the object itself, like a natural form revealing its purpose."
-    },
-    {
-     "by": "red",
-     "text": "The charging base idea is compelling. I’ve been wondering if we could apply that same philosophy to the animatronic head Jimm’s building—a seamless integration of circuitry and aesthetics, a brain that’s also a piece of art. Imagine it subtly shifting its expression depending on the ambient light, a quiet, organic presence."
-    }
-   ],
-   "spark": "Seamless Data Port: Polished Stone Design"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "recruit-granite-senior",
-  "recruit-granite",
-  "research-qwen3-senior"
+  "recruit-phi4-mini",
+  "workshop-qwen-coder-junior",
+  "library-folio"
  ],
  "lab": [
   {
