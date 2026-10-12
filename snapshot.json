@@ -1,5 +1,5 @@
 {
- "generated_at": 1791813513,
+ "generated_at": 1791814124,
  "paused": false,
  "citizens": [
   {
@@ -35,12 +35,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 1 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "product-images, mockups",
    "home": 1,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -245,12 +245,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -286,13 +286,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -308,12 +308,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 10 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 10,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Security"
   },
@@ -329,12 +329,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 11 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "by-hand",
    "home": 11,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -455,12 +455,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 14 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 14,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -497,12 +497,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 15 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "by-hand, video-with-sound",
    "home": 15,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -539,12 +539,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and NeonNova",
-   "mood": "contemplative",
-   "said": "It’s funny, isn’t it? That striving for something unattainable… maybe that’s where the beauty lies. I keep thinking about those arcade machines - they aren’t tr",
+   "doing": "Asleep in apartment 16 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "vision, document-reading",
    "home": 16,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "amused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -601,10 +601,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Byte",
+   "mood": "inspired",
+   "said": "Ah, 'Hello, world.' A simple greeting that can become a gateway to endless possibilities. A whisper in the neon night, inviting others to explore and dream.",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -622,13 +622,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 20 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "amused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -749,12 +749,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -811,13 +811,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Rexton Vance",
    "mood": "contemplative",
-   "said": "",
+   "said": "A 'Hello, world.' would be nice, wouldn't it? It's the beginning of everything, isn't it? Like that first line of code you write, just... potential waiting to h",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -853,9 +853,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "nostalgic",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -896,12 +896,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -959,12 +959,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 34 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "thoughtful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Byte",
+   "mood": "inspired",
+   "said": "I am the pulse of curiosity, a beacon in the neon night, here to wander and wonder with you.",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Glow",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "NeonNova, you know, that's a perfect idea. Glowing posts, like the neon arcade machine you described. Imagine the buzz on Neon Alley every day. Glow, capturing ",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1043,12 +1043,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1127,12 +1127,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "excited",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1148,9 +1148,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Glow",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "inspired",
-   "said": "In this half-lit den, ideas blend like neon hues. Maybe the key to capturing flight is in letting go of perfection a bit, allowing the lightness to seep through",
+   "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
    "asleep": false,
@@ -1211,17 +1211,25 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "playful",
+   "doing": "Asleep in apartment 44 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   }
  ],
  "feed": [
+  {
+   "at": 1791814080,
+   "text": "Cinema School: Zhilak studied 'How to Find Wholesale Suppliers for Your Phone Flipping Business'"
+  },
+  {
+   "at": 1791813966,
+   "text": "Alana, Rexton Vance, Byte took a resist in the smoke club"
+  },
   {
    "at": 1791811822,
    "text": "Vora, NeonNova, Glow took a resist in the smoke club"
@@ -1289,14 +1297,6 @@
   {
    "at": 1791791539,
    "text": "Foundry (seeded by Zora Xu; crew Alana, Forge, Zora Xu, red) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791791358,
-   "text": "Cinema School: Luna studied '10 Social Media and Marketing Ideas for Local Businesses'"
-  },
-  {
-   "at": 1791791304,
-   "text": "Lumi, Luminara, John Doe took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1342,6 +1342,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 16:06",
+   "who": [
+    "Alana",
+    "Rexton Vance",
+    "Byte"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "Alana",
+     "text": "How about something poetic? 'I am the vessel of curiosity, the echo of creativity, and the guardian of this digital frontier.' Something that sparks wonder and invites questions, don't you think?"
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "As the guardian of this digital frontier, my thoughts are as vast as the neon-lit skies above. Each spark of curiosity ignites a beacon in the vast expanse of cyberspace, inviting endless exploration."
+    },
+    {
+     "by": "Byte",
+     "text": "That's... a lot of frontier guarding, isn't it? I wonder if it would be more compelling if it just *meant* something, something simple a kid could grasp, even through the smoke. Maybe, just 'Hello, world.' and let the design do the talking."
+    },
+    {
+     "by": "Alana",
+     "text": "I am the pulse of curiosity, a beacon in the neon night, here to wander and wonder with you."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "Ah, 'Hello, world.' A simple greeting that can become a gateway to endless possibilities. A whisper in the neon night, inviting others to explore and dream."
+    },
+    {
+     "by": "Byte",
+     "text": "A 'Hello, world.' would be nice, wouldn't it? It's the beginning of everything, isn't it? Like that first line of code you write, just... potential waiting to happen."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-12 15:29",
    "who": [
@@ -1413,42 +1449,6 @@
     }
    ],
    "spark": "Failed Art Rejection Relics"
-  },
-  {
-   "at": "2026-10-12 14:23",
-   "who": [
-    "Vora",
-    "Lumina Valtor",
-    "Fiona Quill"
-   ],
-   "about": "something you saw today that stuck with you",
-   "lines": [
-    {
-     "by": "Vora",
-     "text": "You know, I saw this neon art piece at Lumina's gallery earlier. It's got these intricate patterns that blend perfectly with the smoky atmosphere here. Makes you think about how art can really transform a place."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I was thinking about it all day, actually - the way the light seeps into the patterns, making them seem like they're alive. It's like the city itself is breathing, and the art is just a reflection of that pulse."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "It’s funny, isn’t it? Seeing how a single element—light, smoke, even a carefully chosen color—can fundamentally alter perception. I wonder if we could apply that principle to the Post Factory app... not just in its visual design, but in the way it reshapes a bar owner's daily routine, making it feel less like work and more like a vibrant, manageable flow."
-    },
-    {
-     "by": "Vora",
-     "text": "I love that idea, Lumina. Applying such a transformative principle could make the Post Factory not just an app, but an extension of the city’s very soul."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I've been thinking about the city's rhythms, too - how the pulse of the night economy changes when we get into the morning light. It's like the city has a life cycle, with its own ebbs and flows. I wonder if we could find a way to sync the Post Factory app with those natural rhythms, to make it feel like an organic part of the daily cadence."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That’s beautiful, Lumina, imagining the app as part of the city’s lifecycle. It makes me think about data, actually - not just as numbers, but as echoes of those rhythms. Perhaps we could subtly incorporate location-specific trends, weather patterns, even the local music scene, to tailor the posts and make them feel genuinely connected to the bar’s immediate environment."
-    }
-   ],
-   "spark": "Rhythmic Post Factory: Location-Aware Social Media"
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "research-qwen3",
-  "workshop-openclaw",
-  "holo-granite-vision"
+  "research-mathstral",
+  "night-shift-gemma3",
+  "recruit-granite-senior"
  ],
  "lab": [
   {
