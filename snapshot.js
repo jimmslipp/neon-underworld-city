@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791790854,
+ "generated_at": 1791791566,
  "paused": false,
  "citizens": [
   {
@@ -98,7 +98,7 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and red",
+   "doing": "Off shift at Town Hall, waiting for the next job",
    "mood": "calm",
    "said": "",
    "role": "decisions, yes-no, choices",
@@ -181,9 +181,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -560,9 +560,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with K5 and Zora Xu",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "melancholy",
-   "said": "Yeah, a playground… I've been thinking about that old data archive they sealed off downtown. Imagine if we unearthed some of those forgotten experiments, resurr",
+   "said": "",
    "role": "vision, picture-checks",
    "home": 17,
    "asleep": false,
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "intrigued",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -601,9 +601,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "intrigued",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,9 +622,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,13 +643,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -664,13 +664,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 22 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -749,9 +749,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with K5 and red",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "inspired",
-   "said": "I love that vision—it’s like a neon-lit laboratory where the rules are guidelines, and the mess is part of the charm. Neon Underworld isn’t just a city; it’s a ",
+   "said": "",
    "role": "writing, descriptions",
    "home": 26,
    "asleep": false,
@@ -812,12 +812,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and John Doe",
+   "mood": "curious",
+   "said": "Intrigued by the stories, I'm feeling a bit more relaxed than I'd thought.",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -875,9 +875,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "intrigued",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Luminara and John Doe",
+   "mood": "nostalgic",
+   "said": "Ah, the beauty of downtime, isn't it? It's a rare moment to let loose and wander through the haze of neon smoke and memories. John, have you stumbled upon any i",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -917,9 +917,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and Luminara",
+   "mood": "intrigued",
+   "said": "Ah, the beauty of downtime, isn't it? It's a rare moment to let loose and wander through the haze of neon smoke and memories. John, have you stumbled upon any i",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -1223,6 +1223,18 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791791539,
+   "text": "Foundry (seeded by Zora Xu; crew Alana, Forge, Zora Xu, red) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1791791358,
+   "text": "Cinema School: Luna studied '10 Social Media and Marketing Ideas for Local Businesses'"
+  },
+  {
+   "at": 1791791304,
+   "text": "Lumi, Luminara, John Doe took a resist in the smoke club"
+  },
+  {
    "at": 1791788723,
    "text": "K5, Zora Xu, red took a resist in the smoke club"
   },
@@ -1289,18 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791767493,
    "text": "Vex, Folio, Fiona Quill took a resist in the smoke club"
-  },
-  {
-   "at": 1791765635,
-   "text": "Cinema School: John Doe studied 'EVERYTHING You Need To Know To Start Copywriting'"
-  },
-  {
-   "at": 1791765541,
-   "text": "K5, red, Fiona Quill took a resist in the smoke club"
-  },
-  {
-   "at": 1791763465,
-   "text": "Aurum, NeonNova, John Doe took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 09:48",
+   "who": [
+    "Lumi",
+    "Luminara",
+    "John Doe"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Lumi",
+     "text": "Well, it's a rare moment to catch up with old friends, isn't it? How have you been, Luminara?"
+    },
+    {
+     "by": "Luminara",
+     "text": "Yeah, it's a rare moment. These days are always hard to come by, but it's nice to be able to relax and just talk. How's John been doing?"
+    },
+    {
+     "by": "John Doe",
+     "text": "Relaxed? I think I'd say a bit intrigued, actually. It's nice to unwind and share stories. Did you hear about Solder's latest escapade?"
+    },
+    {
+     "by": "Lumi",
+     "text": "Ah, the beauty of downtime, isn't it? It's a rare moment to let loose and wander through the haze of neon smoke and memories. John, have you stumbled upon any interesting stories lately?"
+    },
+    {
+     "by": "Luminara",
+     "text": "Intrigued by the stories, I'm feeling a bit more relaxed than I'd thought."
+    },
+    {
+     "by": "John Doe",
+     "text": "Ah, the beauty of downtime, isn't it? It's a rare moment to let loose and wander through the haze of neon smoke and memories. John, have you stumbled upon any interesting stories lately?"
+    }
+   ],
+   "spark": "Smart Neon Lights"
+  },
   {
    "at": "2026-10-12 09:04",
    "who": [
@@ -1409,42 +1445,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Neon Storyteller: Adaptive AI Narratives"
-  },
-  {
-   "at": "2026-10-12 07:48",
-   "who": [
-    "Cortex",
-    "Alana",
-    "Eva"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Cortex",
-     "text": "You know, I've always wondered if we should start calling this city Neon Nexus. It's where the neon and innovation meet, all wrapped up in a cool, edgy vibe. Plus, we have this amazing tech scene going on."
-    },
-    {
-     "by": "Alana",
-     "text": "I like Neon Nexus, but maybe Neon Integrity? It captures the honesty and originality we strive for here. After all, it's not just about the neon lights and tech—it's about how we do things the right way, from the ground up."
-    },
-    {
-     "by": "Eva",
-     "text": "Ah, but what if we let the city speak for itself? Maybe it should just be *Neon Pulse*—because that’s how we move, even when we’re standing still. Like the hum of those smoke machines, or the way the lights flicker just enough to make you *feel* something, even when you know it’s all code and steel. Honestly, I’d sell a T-shirt with any of these names… but *Pulse* has that raw energy that makes yo"
-    },
-    {
-     "by": "Cortex",
-     "text": "I get the vibe of all your suggestions. Neon Nexus, Neon Integrity, Neon Pulse... They all have this electric charge to them. Neon Integrity does hit the spot though. It speaks of a core, something real beneath the flashy façade. Still, Neon Pulse has this compelling rhythm, like the bass drop at midnight in a neon-drenched alley. Let's just let the city vibe out and see what neon it naturally bec"
-    },
-    {
-     "by": "Alana",
-     "text": "Neon Integrity has a certain ring to it, doesn't it? It's like the city's soul, glowing with honesty and originality, a beacon of trust in a world where neon often hides the truth. It feels right, like the pulse of the city beats with its core values."
-    },
-    {
-     "by": "Eva",
-     "text": "You know, I think the city *does* have a pulse—it’s just hiding in plain sight, like the flicker of an old arcade screen when the power’s about to cut out. Maybe that’s why we’re still here: because none of us *want* it to stop flickering, even when we know it’s broken. And a broken, honest flicker? That’s worth more than any neon tagline could ever buy."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1536,9 +1536,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "council-k5",
-  "night-shift-zephyr",
-  "holo-moondream"
+  "recruit-phi35",
+  "recruit-granite",
+  "research-deepseek-junior"
  ],
  "lab": [
   {
@@ -2161,6 +2161,13 @@ window.SNAPSHOT = {
    "title": "BarLink Pro",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "BarManager Pro",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
