@@ -1,5 +1,5 @@
 {
- "generated_at": 1791823595,
+ "generated_at": 1791824529,
  "paused": false,
  "citizens": [
   {
@@ -98,12 +98,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 3 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off duty: taking a resist in the smoke club with Mira and Folio",
+   "mood": "chill",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Leadership"
   },
@@ -181,13 +181,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 5 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -581,9 +581,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "amused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Mira and K5",
+   "mood": "inspired",
+   "said": "I like the idea of a gift that evolves with them, almost like a living piece of Neon Underworld itself. Maybe the circuit could pulse with energy from the city'",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -602,12 +602,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -707,12 +707,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and Mira",
-   "mood": "wistful",
-   "said": "I’d layer the city’s hum into a holographic jukebox that flickers like Mira’s shattered disco ball, with crackle and hiss woven into the visuals—like vinyl meet",
+   "doing": "Asleep in apartment 24 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -854,12 +854,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "doing": "Asleep in apartment 29 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -875,9 +875,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zoe and Mira",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "I’d also like to dream up a neon-lit poetry corner, where passersby can leave their haikus or sonnets on glowing screens, creating a tapestry of words that weav",
+   "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -917,12 +917,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -980,12 +980,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 35 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "haunted",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1021,9 +1021,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1064,12 +1064,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 39 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "fantastic",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,10 +1168,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zoe and Lumi",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Folio",
    "mood": "dreamy",
-   "said": "I’d string the city’s hum into a reactive lightweb—threads of neon that pulse to the bassline of footsteps and clinking glasses, maybe a loop of crackling shado",
+   "said": "What if the gift was a fragment of the city's pulse—like a tiny circuit etched into glass, glowing faintly, that whispers a law's truth when touched by smoke? O",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1189,9 +1189,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791824506,
+   "text": "Mira, K5, Folio took a resist in the smoke club"
+  },
   {
    "at": 1791822217,
    "text": "Zoe, Lumi, Mira took a resist in the smoke club"
@@ -1293,10 +1297,6 @@
   {
    "at": 1791801648,
    "text": "Fiona Quill, Vex, Lila took a resist in the smoke club"
-  },
-  {
-   "at": 1791799724,
-   "text": "HGA check-up written by Vera Quill"
   }
  ],
  "products": [
@@ -1342,6 +1342,34 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 19:01",
+   "who": [
+    "Mira",
+    "K5",
+    "Folio"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Mira",
+     "text": "Maybe a custom neon sign etched with a secret phrase only they'd understand—something coded in the city's laws, hidden in plain sight. Or a digital tattoo that flickers like the smoke here, forever linked to their name."
+    },
+    {
+     "by": "Folio",
+     "text": "What if the secret phrase was an encoded law or principle from the city? Something profound that they wouldn't realize they carry with them. Or, the digital tattoo could reveal hidden parts of their own identity when viewed through a certain lens."
+    },
+    {
+     "by": "Mira",
+     "text": "What if the gift was a fragment of the city's pulse—like a tiny circuit etched into glass, glowing faintly, that whispers a law's truth when touched by smoke? Or a digital tattoo that shifts colors with their mood, echoing the neon veins of the alleyways."
+    },
+    {
+     "by": "Folio",
+     "text": "I like the idea of a gift that evolves with them, almost like a living piece of Neon Underworld itself. Maybe the circuit could pulse with energy from the city's core or the digital tattoo could be a window into their own soul, revealing different facets as their emotions change."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-12 18:23",
    "who": [
@@ -1413,38 +1441,6 @@
     }
    ],
    "spark": "Interactive Orbs for Immersive Experiences"
-  },
-  {
-   "at": "2026-10-12 17:16",
-   "who": [
-    "red",
-    "Elysia",
-    "Vex"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "red",
-     "text": "Beautiful and useful… it’s a tricky balance, isn't it? Like those bioluminescent moss gardens they used to have in the old hydroponics labs, providing light and filtering the air all at once. I wonder if we could engineer something similar, a living, breathing piece of functional art."
-    },
-    {
-     "by": "Vex",
-     "text": "Imagine a wall that hums with soft blue light, its veins pulsing like a living circuit—air-purifying moss woven into glass panels, casting shadows that shift with the breeze. It’s not just decor; it’s a breath of the city, filtering smog while glowing like a neon sigh. Maybe we could rig it to flicker in sync with the heartbeat of a bar, turning ambiance into something you can almost touch."
-    },
-    {
-     "by": "red",
-     "text": "A heartbeat rhythm… that's a lovely touch, Vex. I’ve been thinking about how the old data streams used to flow, patterns of light and energy, and maybe we could embed those patterns into the moss’s bloom cycle. A living archive, whispering stories in light and shadow – beautiful, functional, and steeped in the city's memory."
-    },
-    {
-     "by": "Elysia",
-     "text": "Like a bar’s own breathing, but what if it told secrets too? The moss could glow brighter when a lost memory surfaces from the archives—soft blue flashes, like static from a long-forgotten radio tuning to a ghost song. And maybe, if you leaned close, the light would murmur the last words of someone who used to sit there, just for a moment. Or maybe it wouldn’t. Either way, it’d feel like the city "
-    },
-    {
-     "by": "Vex",
-     "text": "What if the moss didn’t just remember the city’s past, but learned to hum along with its pulse—light bending to the rhythm of footsteps, whispers of traffic, the hum of neon flickering through its veins? A wall that breathes with the crowd, casting shadows that dance like secrets shared between strangers."
-    }
-   ],
-   "spark": "Bioluminescent Moss Wall: Living Art with Air Purification"
   }
  ],
  "scouting": [
@@ -1536,9 +1532,9 @@
   }
  ],
  "lounge": [
-  "night-shift-qwen",
-  "recruit-phi35",
-  "workshop-qwen-coder"
+  "workshop-qwen-coder",
+  "council-k5",
+  "library-folio"
  ],
  "lab": [
   {
