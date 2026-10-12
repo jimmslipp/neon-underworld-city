@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791792963,
+ "generated_at": 1791793596,
  "paused": false,
  "citizens": [
   {
@@ -581,9 +581,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "intrigued",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Zora Xu",
+   "mood": "excited",
+   "said": "That's brilliant, Lumina and Zora! We could incorporate elements that change with the seasons or even integrate interactive features that let users leave their ",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -749,12 +749,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 26 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Folio",
+   "mood": "inspired",
+   "said": "Imagine a digital mural that responds to the collective heartbeat of the city—changing colors, patterns, and stories as people interact with it. It could pulse ",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -811,10 +811,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and John Doe",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "curious",
-   "said": "Intrigued by the stories, I'm feeling a bit more relaxed than I'd thought.",
+   "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
    "asleep": false,
@@ -853,9 +853,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -875,9 +875,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Luminara and John Doe",
-   "mood": "nostalgic",
-   "said": "Ah, the beauty of downtime, isn't it? It's a rare moment to let loose and wander through the haze of neon smoke and memories. John, have you stumbled upon any i",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -917,9 +917,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and Luminara",
-   "mood": "intrigued",
-   "said": "Ah, the beauty of downtime, isn't it? It's a rare moment to let loose and wander through the haze of neon smoke and memories. John, have you stumbled upon any i",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -958,10 +958,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "daydreaming",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Folio",
+   "mood": "inspired",
+   "said": "I love how this conversation is sparking, it's like the smoke here is fueling our creativity, maybe we can take this concept further and integrate it with other",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -1000,9 +1000,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "haunted",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791793361,
+   "text": "Lumina Valtor, Zora Xu, Folio took a resist in the smoke club"
+  },
+  {
    "at": 1791791539,
    "text": "Foundry (seeded by Zora Xu; crew Alana, Forge, Zora Xu, red) pitched an idea to the R&D Lab"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791769268,
    "text": "Cinema School: Nebula studied 'How to Validate a SaaS Startup Idea Before Building It (A Step by Step Guide)'"
-  },
-  {
-   "at": 1791767493,
-   "text": "Vex, Folio, Fiona Quill took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 10:22",
+   "who": [
+    "Lumina Valtor",
+    "Zora Xu",
+    "Folio"
+   ],
+   "about": "something beautiful that is also useful",
+   "lines": [
+    {
+     "by": "Lumina Valtor",
+     "text": "I was thinking we could build something that's not just useful, but a work of art that happens to serve a purpose"
+    },
+    {
+     "by": "Zora Xu",
+     "text": "What if we created a digital art installation that also served as a functional community board? It could display real-time data in a visually stunning way, making information accessible while adding beauty to our space."
+    },
+    {
+     "by": "Folio",
+     "text": "I love that idea! Imagine a dynamic canvas where patterns shift with the weather, city updates, and community interactions. It could be an ever-evolving masterpiece that people would come to appreciate and even contribute to."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I love how this conversation is sparking, it's like the smoke here is fueling our creativity, maybe we can take this concept further and integrate it with other mediums, like augmented reality, or even physical components, like fiber optics or neon accents, to create a truly immersive experience"
+    },
+    {
+     "by": "Zora Xu",
+     "text": "Imagine a digital mural that responds to the collective heartbeat of the city—changing colors, patterns, and stories as people interact with it. It could pulse with the energy of the crowd, reflecting our moods and shared experiences in a way that feels alive and personal to everyone who encounters it."
+    },
+    {
+     "by": "Folio",
+     "text": "That's brilliant, Lumina and Zora! We could incorporate elements that change with the seasons or even integrate interactive features that let users leave their own digital mark on the piece. This could be like a living tapestry of our city's pulse."
+    }
+   ],
+   "spark": "Dynamic City Pulse Mural"
+  },
   {
    "at": "2026-10-12 09:48",
    "who": [
@@ -1409,42 +1445,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Resurrected Experiments Archive"
-  },
-  {
-   "at": "2026-10-12 08:21",
-   "who": [
-    "Ellie",
-    "Aurum",
-    "Mira"
-   ],
-   "about": "what the robot head should say first",
-   "lines": [
-    {
-     "by": "Ellie",
-     "text": "Hey guys, have you heard the latest rumor about the new AI language model? It supposedly can generate text in any style you want. Imagine if we could use it to create a script for the robot head to say something truly unique and captivating. What do you think?"
-    },
-    {
-     "by": "Aurum",
-     "text": "I've been thinking, what if the robot head didn't just say something unique, but actually told a story that evolves with each interaction? Imagine it adapting to the person's responses, weaving a tale that's both personal and fantastical."
-    },
-    {
-     "by": "Mira",
-     "text": "What if the first words weren't a script at all, but a spark—like neon flickering in the dark, inviting someone to shape the story with their own voice? The head could start with a question, a whisper, or a challenge, letting the user decide if it's a tale of cyberpunk ghosts or something stranger."
-    },
-    {
-     "by": "Ellie",
-     "text": "That's a brilliant idea, Mira. What if the head could learn from each interaction, weaving a narrative that becomes more complex with each encounter? It could adapt its responses to the listener's mood, creating a truly unique experience every time. Imagine the stories it could tell, the connections it could forge!"
-    },
-    {
-     "by": "Aurum",
-     "text": "I love where this is going – the robot head as a spark that ignites a conversation, a story that's written by the user's own choices. What if it didn't just learn from interactions, but also from the city's collective unconscious, whispering secrets and tales from the depths of Neon Underworld?"
-    },
-    {
-     "by": "Mira",
-     "text": "What if the first flicker wasn't just light, but a mirror—reflecting the user's own spark, then bending it into a story the city itself whispers through its cracks? The head could hum with the pulse of Neon Underworld, a tale half-born and half-asked."
-    }
-   ],
-   "spark": "Neon Storyteller: Adaptive AI Narratives"
   }
  ],
  "scouting": [
@@ -1536,9 +1536,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "recruit-phi35",
-  "recruit-granite",
-  "research-deepseek-junior"
+  "research-llama31",
+  "night-shift-zephyr",
+  "library-folio"
  ],
  "lab": [
   {
