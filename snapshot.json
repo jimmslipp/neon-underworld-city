@@ -1,5 +1,5 @@
 {
- "generated_at": 1791765563,
+ "generated_at": 1791766177,
  "paused": false,
  "citizens": [
   {
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791765635,
+   "text": "Cinema School: John Doe studied 'EVERYTHING You Need To Know To Start Copywriting'"
+  },
+  {
    "at": 1791765541,
    "text": "K5, red, Fiona Quill took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791740665,
    "text": "Cortex, Vex, Eva took a resist in the smoke club"
-  },
-  {
-   "at": 1791739831,
-   "text": "Cinema School: Elysia studied 'How to get PERFECT First Layers on Your 3D Printer!!'"
   }
  ],
  "products": [
