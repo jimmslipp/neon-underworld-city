@@ -1,5 +1,5 @@
 {
- "generated_at": 1791772388,
+ "generated_at": 1791773008,
  "paused": false,
  "citizens": [
   {
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791772874,
+   "text": "Cinema School: Lumina Valtor studied 'How to Validate a Business Idea Without Talking to Anyone'"
+  },
+  {
    "at": 1791771764,
    "text": "Rexton Vance, Vora, Zoe took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791747113,
    "text": "Cinema School: Zorvath studied 'My Top Tips For Buying Liquidation Pallets (Extreme Unboxing) For Resale'"
-  },
-  {
-   "at": 1791746973,
-   "text": "Zorvath, Forge, Folio took a resist in the smoke club"
   }
  ],
  "products": [
