@@ -1,5 +1,5 @@
 {
- "generated_at": 1791776293,
+ "generated_at": 1791776895,
  "paused": false,
  "citizens": [
   {
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1791776501,
+   "text": "Cinema School: Eva studied 'What It Costs To Run a Restaurant'"
+  },
+  {
    "at": 1791776270,
    "text": "Mira, Forge, Vex took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1791751372,
    "text": "Vora, red, Zora Xu took a resist in the smoke club"
-  },
-  {
-   "at": 1791750976,
-   "text": "Cinema School: Luminara studied 'Beginners Guide to Phone Flipping in 2024!'"
   }
  ],
  "products": [
