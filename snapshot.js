@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791781443,
+ "generated_at": 1791782096,
  "paused": false,
  "citizens": [
   {
@@ -539,12 +539,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and red",
-   "mood": "contemplative",
-   "said": "It’s almost meditative, isn’t it? That unwavering focus on a single detail, that quiet hum of the printer as it lays down another layer… I sometimes imagine if ",
+   "doing": "Asleep in apartment 16 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "vision, document-reading",
    "home": 16,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -560,12 +560,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Glow",
-   "mood": "contemplative",
-   "said": "It makes you wonder, doesn't it? If we could bottle that focus, that obsessive care, and spread it through everything we do… imagine a city humming with that le",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -728,9 +728,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Aurum and Mira",
+   "mood": "dreamy",
+   "said": "A gift that glows, a melody in smoke—these fragments of light and sound, they'll weave through the night like a promise. A spark that ignites wonder, even in th",
    "role": "tags, short-text",
    "home": 25,
    "asleep": false,
@@ -854,9 +854,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Mira",
+   "mood": "contemplative",
+   "said": "As I imagine it, this spark would be a gentle whisper of light, like the soft glow of a lantern in the dark, carrying the essence of the city's magic within it.",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -1169,9 +1169,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Glow and red",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Aurum",
    "mood": "wistful",
-   "said": "The jaw hinge’s perfect arc reminds me that even in the chaos of too many ideas, there’s beauty in the precise, the obsessive—like Jimm’s widget license check. ",
+   "said": "Perhaps the gift is a vial of captured neon mist, shimmering with the city's heartbeat—something that hums with forgotten stories and glows like a secret shared",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791782073,
+   "text": "Zorvath, Aurum, Mira took a resist in the smoke club"
+  },
   {
    "at": 1791780261,
    "text": "Cinema School: Vex studied 'Sales Training // How to Build Rapport with ANYONE // Andy Elliott'"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791757558,
    "text": "Zhilak, John Doe, Luminara took a resist in the smoke club"
-  },
-  {
-   "at": 1791755713,
-   "text": "Lumi, Rexton Vance, Forge took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 07:14",
+   "who": [
+    "Zorvath",
+    "Aurum",
+    "Mira"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Zorvath",
+     "text": "A midnight stroll through Neon Alley feels like wandering through a dreamscape. Just for tonight, I'll let the music and smoke guide me to where my thoughts wander."
+    },
+    {
+     "by": "Aurum",
+     "text": "I love how the city's energy can transport us to another world, don't you think, Zorvath? Maybe tonight's stroll is a reminder that sometimes the best ideas come from letting our minds wander."
+    },
+    {
+     "by": "Mira",
+     "text": "Maybe the best gift is a fragment of the neon haze—something that glows even when the lights are low, a melody that lingers in the smoke."
+    },
+    {
+     "by": "Zorvath",
+     "text": "A gift that glows, a melody in smoke—these fragments of light and sound, they'll weave through the night like a promise. A spark that ignites wonder, even in the brightest of days."
+    },
+    {
+     "by": "Aurum",
+     "text": "As I imagine it, this spark would be a gentle whisper of light, like the soft glow of a lantern in the dark, carrying the essence of the city's magic within it."
+    },
+    {
+     "by": "Mira",
+     "text": "Perhaps the gift is a vial of captured neon mist, shimmering with the city's heartbeat—something that hums with forgotten stories and glows like a secret shared between stars."
+    }
+   ],
+   "spark": "Neon Mist Vial: Captured City Magic"
+  },
   {
    "at": "2026-10-12 06:42",
    "who": [
@@ -1417,38 +1453,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Neon Heartbeat"
-  },
-  {
-   "at": "2026-10-12 05:37",
-   "who": [
-    "Mira",
-    "Forge",
-    "Vex"
-   ],
-   "about": "something you saw today that stuck with you",
-   "lines": [
-    {
-     "by": "Mira",
-     "text": "Did you catch that glitch in the holographic sign outside Kryo's? It flickered like a bad memory—blue static, then... nothing. Makes me wonder what's really behind that neon curtain."
-    },
-    {
-     "by": "Forge",
-     "text": "That static? Feels like a doorway someone forgot to close. The flicker wasn’t a glitch—it was a threshold. Kryo’s curtain’s hiding something that doesn’t want to be found."
-    },
-    {
-     "by": "Vex",
-     "text": "That static felt like a whisper—like the sign was trying to tell us something, but the code forgot how to speak. Maybe the curtain’s not hiding a secret, but a signal we’re not tuned to yet."
-    },
-    {
-     "by": "Mira",
-     "text": "I keep seeing that static as a quantum flicker—like the curtain’s not hiding anything, but acting as a gateway. Maybe Kryo’s not keeping secrets, just tuning a signal between realities. The neon’s humming a tune I can’t quite hear yet."
-    },
-    {
-     "by": "Vex",
-     "text": "That flicker wasn’t a glitch—it was a call sign. The neon’s not hiding a secret; it’s broadcasting a frequency we’re all just tuning into now."
-    }
-   ],
-   "spark": "Neon Signal Interpreter"
   }
  ],
  "scouting": [
@@ -1540,9 +1544,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "workshop-qwen-coder",
-  "holo-granite-vision",
-  "holo-moondream"
+  "night-shift-smollm2",
+  "recruit-openchat",
+  "workshop-qwen-coder"
  ],
  "lab": [
   {
