@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791780208,
+ "generated_at": 1791780842,
  "paused": false,
  "citizens": [
   {
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791780261,
+   "text": "Cinema School: Vex studied 'Sales Training // How to Build Rapport with ANYONE // Andy Elliott'"
+  },
+  {
    "at": 1791780186,
    "text": "Mira, Glow, red took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791755713,
    "text": "Lumi, Rexton Vance, Forge took a resist in the smoke club"
-  },
-  {
-   "at": 1791754806,
-   "text": "Cinema School: Aurum studied '5 Tips to Start Flipping Storage Units | How to Start Buying Storage Units'"
   }
  ],
  "products": [
