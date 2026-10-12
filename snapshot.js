@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791828750,
+ "generated_at": 1791829467,
  "paused": false,
  "citizens": [
   {
@@ -622,9 +622,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "amused",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -1021,7 +1021,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Cortex and Rexton Vance",
    "mood": "curious",
    "said": "I've heard there's a new holographic projector in town that can create 3D art in mid-air. Pretty wild! Imagine the possibilities if we had something like that f",
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "fantastic",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1189,9 +1189,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791829172,
+   "text": "Cinema School: Zorvath studied '4 Steps To Validate Your Business Idea Before Launching'"
+  },
   {
    "at": 1791828571,
    "text": "Vora, Cortex, Rexton Vance took a resist in the smoke club"
@@ -1293,10 +1297,6 @@ window.SNAPSHOT = {
   {
    "at": 1791803952,
    "text": "K5, Folio, Lila took a resist in the smoke club"
-  },
-  {
-   "at": 1791803696,
-   "text": "Foundry (seeded by Ellie; crew Ellie, Elysia, Eva, Forge) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
