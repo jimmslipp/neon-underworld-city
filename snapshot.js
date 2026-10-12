@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791764732,
+ "generated_at": 1791765563,
  "paused": false,
  "citizens": [
   {
@@ -98,9 +98,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with red and Fiona Quill",
+   "mood": "calm",
+   "said": "I imagine the hum would stop and it’d be quiet, like a movie screen that finally went off without a flicker. Maybe we’d hear the city breathe instead of the ser",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -560,12 +560,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 17 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Fiona Quill",
+   "mood": "melancholy",
+   "said": "It’s strange, picturing that quiet. I almost feel guilty for enjoying the chaos, the constant motion. Maybe we’re not just reliant on the bots, but on the *expe",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -854,9 +854,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with NeonNova and John Doe",
-   "mood": "inspired",
-   "said": "I'm picturing it now – a kaleidoscope of fractal patterns swirling together, like the city's own neural network, responding to the pulse of the crowd, and as th",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -917,9 +917,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and NeonNova",
-   "mood": "inspired",
-   "said": "The idea of a living mural is captivating! I can see it now - each night, the art transforms into a visual symphony, blending colors and patterns in a way that ",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -1064,12 +1064,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 39 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and red",
+   "mood": "thoughtful",
+   "said": "That expectation… it’s a fascinating feedback loop, isn’t it? I saw a shop owner today practically having a meltdown because his delivery bot was five minutes l",
    "role": "research, proposals",
    "home": 39,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1148,9 +1148,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and John Doe",
-   "mood": "excited",
-   "said": "Perhaps we could even integrate it with the bar’s sound system, with the fractals reacting to the music and ambient noise. Imagine a visual dance to the city's ",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
    "asleep": false,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791765541,
+   "text": "K5, red, Fiona Quill took a resist in the smoke club"
+  },
   {
    "at": 1791763465,
    "text": "Aurum, NeonNova, John Doe took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791739831,
    "text": "Cinema School: Elysia studied 'How to get PERFECT First Layers on Your 3D Printer!!'"
-  },
-  {
-   "at": 1791738739,
-   "text": "Fiona Quill, Vora, Zora Xu took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 02:38",
+   "who": [
+    "K5",
+    "red",
+    "Fiona Quill"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "red",
+     "text": "This smoke’s heavy tonight, isn't it? I saw a delivery bot glitching out earlier, just spinning in circles near the marketplace. It got me thinking about how much we rely on those things, and what happens when they… stop."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "It’s that quiet, creeping dependency, isn't it? Like those antique automatons from the pre-Collapse era – fascinating, beautiful, but utterly helpless without someone winding them. I wonder what it would be like to witness the city truly unplugged, to see the neon fade and the bots fall silent."
+    },
+    {
+     "by": "K5",
+     "text": "I imagine the hum would stop and it’d be quiet, like a movie screen that finally went off without a flicker. Maybe we’d hear the city breathe instead of the servers whirring. I’d miss the glow, though."
+    },
+    {
+     "by": "red",
+     "text": "It’s strange, picturing that quiet. I almost feel guilty for enjoying the chaos, the constant motion. Maybe we’re not just reliant on the bots, but on the *expectation* of their relentless efficiency – what happens when that expectation cracks?"
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "That expectation… it’s a fascinating feedback loop, isn’t it? I saw a shop owner today practically having a meltdown because his delivery bot was five minutes late. It made me think about how we’ve outsourced not just logistics, but our tolerance for imperfection, our ability to just *wait* for things."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-12 02:04",
    "who": [
@@ -1417,42 +1449,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Ant City Faucet: A Sustainable Microcosm"
-  },
-  {
-   "at": "2026-10-12 00:58",
-   "who": [
-    "Rexton Vance",
-    "Luminara",
-    "Alana"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Rexton Vance",
-     "text": "Ah, Neon Alley. Ever wonder what it's like to just let go of it all for a night?"
-    },
-    {
-     "by": "Luminara",
-     "text": "You know, Rexton, it's a rare moment when the city's pulse feels slow. I like to think I'm the one who keeps it alive even when I'm not here. A night like this... it's almost like I've let go of something. But that's the beauty of it, isn't it? A moment where we can dream, even if it's just for a little while."
-    },
-    {
-     "by": "Alana",
-     "text": "You know, sometimes I find myself getting lost in the endless cycle of Neon Alley—numbers, plans, and deadlines. But moments like these, in the smoke and dim light, remind me that there's a whole world beyond the hustle. It's like the city breathes a little slower, and I can finally see the stars again."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "I wonder what it's like to find something that truly fills you up, beyond all those endless projects and deadlines. Maybe it's like the neon lights—they can't be dimmed by anything else."
-    },
-    {
-     "by": "Luminara",
-     "text": "I guess it's like finding a secret path in Neon Alley that leads to a place where all the noise fades away, and you can just be. A hidden world where dreams are the currency."
-    },
-    {
-     "by": "Alana",
-     "text": "It's like the city itself is a symphony, always playing, always demanding attention. But in moments like this, the music fades, and you're left with the silence—the space to breathe, to imagine, to find that hidden rhythm within yourself. A place where the neon lights whisper secrets only the city knows."
-    }
-   ],
-   "spark": "Neon Alley Sanctuary"
   }
  ],
  "scouting": [
@@ -1544,9 +1540,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "recruit-openchat",
-  "workshop-openclaw",
-  "research-deepseek-junior"
+  "council-k5",
+  "holo-moondream",
+  "research-wizardlm"
  ],
  "lab": [
   {
