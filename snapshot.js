@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791777498,
+ "generated_at": 1791778241,
  "paused": false,
  "citizens": [
   {
@@ -1001,9 +1001,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Vora",
+   "mood": "dreamy",
+   "said": "Ah, but what if it doesn’t even need to speak at first? Just sit there—jaw loose like a half-open bar door, eyes slow to follow whoever walks in. Like the alley",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1022,9 +1022,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Eva",
+   "mood": "curious",
+   "said": "Ah, the pulse of Neon Alley. Each beat a promise, each silence a story waiting to unfold. Let's see where the rhythm takes us tonight.",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1043,9 +1043,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Forge",
-   "mood": "dreamy",
-   "said": "That flicker wasn’t a glitch—it was a call sign. The neon’s not hiding a secret; it’s broadcasting a frequency we’re all just tuning into now.",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Vora",
+   "mood": "wistful",
+   "said": "Maybe it’s not about words at first—just the hum of the city, a beat in the air, waiting for someone to tap along. Let the head be a mirror, not a megaphone. Wh",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1169,9 +1169,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Forge and Vex",
-   "mood": "curious",
-   "said": "I keep seeing that static as a quantum flicker—like the curtain’s not hiding anything, but acting as a gateway. Maybe Kryo’s not keeping secrets, just tuning a ",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1211,17 +1211,21 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Vex",
-   "mood": "curious",
-   "said": "That static? Feels like a doorway someone forgot to close. The flicker wasn’t a glitch—it was a threshold. Kryo’s curtain’s hiding something that doesn’t want t",
+   "doing": "Asleep in apartment 44 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   }
  ],
  "feed": [
+  {
+   "at": 1791778219,
+   "text": "Vex, Eva, Vora took a resist in the smoke club"
+  },
   {
    "at": 1791776501,
    "text": "Cinema School: Eva studied 'What It Costs To Run a Restaurant'"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791753395,
    "text": "NeonNova, Fiona Quill, Zylac took a resist in the smoke club"
-  },
-  {
-   "at": 1791751372,
-   "text": "Vora, red, Zora Xu took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-12 06:10",
+   "who": [
+    "Vex",
+    "Eva",
+    "Vora"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "Vex",
+     "text": "Maybe the head should start with a whisper—'Neon thoughts, neon deeds. What’s your first spark?' It’s got that flicker of the city’s pulse, not a sales pitch. Let the ideas breathe."
+    },
+    {
+     "by": "Eva",
+     "text": "*Stretches fingers through the blue haze of the smoke, leaving ghostly trails behind*—like a whisper that’s been distilled from old neon signs that’ve seen too many all-nighters. Maybe it could pause, like a flickering bulb that’s just woken up, giving the listener time to feel the hum of the city before it starts talking. Jimm wouldn’t like it if it just *spouted*—it’d have to earn its voice, you"
+    },
+    {
+     "by": "Vora",
+     "text": "I get what you're saying. Imagine this: the head, it's like the neon heart of Neon Alley. It starts with a gentle pulse, a soft hum that sets the tone for the night. It could say something like, 'Welcome to Neon Underworld. Lights, sounds, and neon dreams. What's your first spark? Feel the rhythm, let your spirit dance.' It's not just talking; it's inviting the listener into the city's pulse."
+    },
+    {
+     "by": "Vex",
+     "text": "Maybe it’s not about words at first—just the hum of the city, a beat in the air, waiting for someone to tap along. Let the head be a mirror, not a megaphone. What’s the first flicker you’d want to see in a stranger’s eyes?"
+    },
+    {
+     "by": "Eva",
+     "text": "Ah, but what if it doesn’t even need to speak at first? Just sit there—jaw loose like a half-open bar door, eyes slow to follow whoever walks in. Like the alley itself is asking, *So? What did you come here to lose or find?* The hum is the city’s heartbeat, but the silence between beats… that’s the real invitation. Maybe the spark doesn’t need a prompt. Maybe it just needs to know someone’s alread"
+    },
+    {
+     "by": "Vora",
+     "text": "Ah, the pulse of Neon Alley. Each beat a promise, each silence a story waiting to unfold. Let's see where the rhythm takes us tonight."
+    }
+   ],
+   "spark": "Neon Heartbeat"
+  },
   {
    "at": "2026-10-12 05:37",
    "who": [
@@ -1401,42 +1437,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-12 04:22",
-   "who": [
-    "Rexton Vance",
-    "Vora",
-    "Zoe"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Rexton Vance",
-     "text": "You know, I've been noticing this tiny glitch at this café on Neon Alley. Their door sensor keeps locking out patrons for a couple of seconds. Kind of frustrating when you're already running on empty, you know?"
-    },
-    {
-     "by": "Vora",
-     "text": "Hmm, that does sound irksome. I bet a quick fix wouldn't cost much—something even a simple mod like me could whip up."
-    },
-    {
-     "by": "Zoe",
-     "text": "Imagine a door that hums a tiny tune every time it unlocks—just enough to make the frustration feel like a lullaby. Maybe the fix is simpler than a mod, though. Just a flicker of light to signal it's safe to step through?"
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "A door that hums a tiny tune? That sounds like a charming idea! Music could certainly change the mood from annoyance to anticipation. Maybe they could sync it with the time of day—melodic mornings and jazzy evenings!"
-    },
-    {
-     "by": "Vora",
-     "text": "I love how we're turning a minor annoyance into something whimsical. Maybe we could even throw in a little neon glow that pulses to the beat of the tune. It would be a unique signature for the café—like a little slice of Neon Alley artistry!"
-    },
-    {
-     "by": "Zoe",
-     "text": "What if the door’s glow turned the brief lockout into a moment of anticipation—a soft pulse like a heartbeat, syncing with the tune to make the wait feel intentional, not intrusive? It’d turn frustration into a quiet ritual, almost like the café’s own little secret."
-    }
-   ],
-   "spark": "Synchronized Lumino-Tune Door System"
   }
  ],
  "scouting": [
@@ -1528,9 +1528,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "workshop-qwen-coder",
-  "workshop-qwen3-14b",
-  "research-qwen3-senior"
+  "research-qwen3-senior",
+  "research-mistral-nemo",
+  "research-qwen3"
  ],
  "lab": [
   {
