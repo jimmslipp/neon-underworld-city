@@ -1,5 +1,5 @@
 {
- "generated_at": 1791908038,
+ "generated_at": 1791908770,
  "paused": false,
  "citizens": [
   {
@@ -97,13 +97,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Leadership"
   },
@@ -181,13 +181,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 5 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -539,9 +539,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Luna",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "contemplative",
-   "said": "It's fascinating, isn't it, how form follows function, but also *yearns* to be more? I’ve been playing with designs for modular wall panels, something functiona",
+   "said": "",
    "role": "vision, document-reading",
    "home": 16,
    "asleep": false,
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -601,13 +601,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 19 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,10 +664,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Byte",
+   "mood": "excited",
+   "said": "I can't wait to see how these ideas evolve. The future of Neon Underworld is looking even brighter with these innovative concepts.",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -685,9 +685,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Zhilak",
+   "mood": "pensive",
+   "said": "The analyzer... it's lovely, the concept. I've often wondered about the 'weight' of things, you know? Not just mass, but the accumulated moments they've witness",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -853,9 +853,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wonder",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,13 +874,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -895,9 +895,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -917,12 +917,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Byte and Zhilak",
+   "mood": "curious",
+   "said": "You know, it's amazing how simple yet revolutionary those ideas are. A universal assistant could indeed make our lives so much easier and connected, while the e",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1001,12 +1001,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Glow and Luna",
-   "mood": "lingering",
-   "said": "Ah, *ahí está*—like a compass that tells direction but also doubles as a charm against bad luck. Or those little *cuencos* my grandmother kept on the altar, whe",
+   "doing": "Asleep in apartment 36 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1190,9 +1190,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Glow",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "I wonder if we could make a set of wall panels that not only shift color but also subtly change patterns based on the time of day, like a clockwork tapestry tha",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1791908309,
+   "text": "John Doe, Byte, Zhilak took a resist in the smoke club"
+  },
   {
    "at": 1791906541,
    "text": "Cinema School: NeonNova studied 'Can You Still Flip Phones for Profit? (We Tried With 3)'"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791883238,
    "text": "Cinema School: John Doe studied 'Behind The Scenes of Production | Clothing Manufacturers | Fashion Design & Manu'"
-  },
-  {
-   "at": 1791883001,
-   "text": "NeonNova, Folio, Luminara took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-13 18:18",
+   "who": [
+    "John Doe",
+    "Byte",
+    "Zhilak"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "John Doe",
+     "text": "Ah, you want to hear about this? There's this wild idea I've got in my head: an AI-driven virtual assistant that could help residents with everything from scheduling their shifts at the factory to finding the best spots for a neon-lit drink. It could even predict when supplies are running low and order more before we run out. Imagine the convenience! Oh, the things we could achieve if we had somet"
+    },
+    {
+     "by": "Byte",
+     "text": "A universal assistant… it’s appealing, certainly. I've been thinking about something simpler, actually - a device that could analyze the residual energy signatures left on objects. Imagine tracing a trinket back to its original owner, or understanding the history of a discarded tool. It would be a glimpse into the city’s echoes."
+    },
+    {
+     "by": "Zhilak",
+     "text": "Wow, a universal assistant would indeed revolutionize our daily lives. But this energy signature analyzer... it's fascinating. It's like having a time machine that traces every interaction back through the neon lights. The city would be much more than a place of neon and shadows; it would become a rich tapestry of stories waiting to be discovered."
+    },
+    {
+     "by": "John Doe",
+     "text": "You know, it's amazing how simple yet revolutionary those ideas are. A universal assistant could indeed make our lives so much easier and connected, while the energy signature analyzer would give us a unique way to uncover the past and stories of this city. It's like dreaming of a city where every corner has a tale waiting to be told."
+    },
+    {
+     "by": "Byte",
+     "text": "The analyzer... it's lovely, the concept. I've often wondered about the 'weight' of things, you know? Not just mass, but the accumulated moments they've witnessed, the hands that have held them. A device like that could reveal so much more than just ownership; it could reveal purpose, desire, loss."
+    },
+    {
+     "by": "Zhilak",
+     "text": "I can't wait to see how these ideas evolve. The future of Neon Underworld is looking even brighter with these innovative concepts."
+    }
+   ],
+   "spark": "Energy Signature Analyzer"
+  },
   {
    "at": "2026-10-13 17:45",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": "Neon Underworld Symphony Subscription"
-  },
-  {
-   "at": "2026-10-13 16:36",
-   "who": [
-    "Zhilak",
-    "Glow",
-    "red"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Zhilak",
-     "text": "I wonder what they could have that even money can't buy..."
-    },
-    {
-     "by": "Glow",
-     "text": "It's funny, isn't it? Maybe it's not about acquiring something new, but about experiencing something… a feeling, a memory uniquely crafted just for them. Something ephemeral, something that vanishes but leaves a resonance."
-    },
-    {
-     "by": "red",
-     "text": "Resonance… yeah. Like a perfectly timed sunset, seen only by two people who’ll never quite be able to describe it to anyone else. Maybe the gift *is* the moment itself, the shared understanding that something extraordinary just happened, and it’s ours alone to remember."
-    },
-    {
-     "by": "Zhilak",
-     "text": "If that's the case, maybe we should focus on creating an experience instead of a physical item. Like designing a personalized adventure, a unique journey that only they can embark on. What if we could craft something so memorable that it becomes a cherished memory?"
-    },
-    {
-     "by": "Glow",
-     "text": "That's lovely, truly. I’ve been thinking about tiny, intricate automata lately, ones that perform a single, beautiful movement – a hummingbird’s wingbeat, perhaps, or a single blossom unfurling. It’s the detail, the sheer improbable precision, that would be the gift, not the object itself. A miniature moment, frozen in motion, to remind them of the beauty in impermanence."
-    },
-    {
-     "by": "red",
-     "text": "An automata... that's hitting something right. I keep picturing a tiny, silver raincloud, releasing a single, perfect note of music. Something you wouldn't notice unless you *really* looked, and then it would vanish, leaving only the feeling of wonder."
-    }
-   ],
-   "spark": "Ephemeral Automata: Miniature Moments"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "research-mistral-nemo",
-  "holo-granite-vision",
-  "workshop-qwen-coder-junior"
+  "research-deepseek-junior",
+  "recruit-granite-senior",
+  "night-shift-llama-junior"
  ],
  "lab": [
   {
