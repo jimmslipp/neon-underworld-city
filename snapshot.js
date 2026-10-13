@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791893602,
+ "generated_at": 1791894203,
  "paused": false,
  "citizens": [
   {
@@ -181,9 +181,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,13 +202,13 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 6 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -581,9 +581,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Alana",
+   "doing": "Off shift at Training Yard, waiting for the next job",
    "mood": "curious",
-   "said": "That's a brilliant idea, Alana. A collaborative platform for artists and makers could really bring our creativity to life in new ways. Plus, it could serve as a",
+   "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -685,10 +685,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and Aurum",
+   "mood": "dreamy",
+   "said": "I’d love a canvas that remembers every hesitation—like when you drag a brush too fast or leave a smudge, and the AI sighs, *‘That’s okay, we’ll work with that’*",
    "role": "descriptions, tags, price-checks",
    "home": 23,
    "asleep": false,
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,10 +727,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Alana and Folio",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "charming",
-   "said": "I’d go for something like an immersive virtual reality escape room that blends historical epochs. Imagine stepping into a different era, from ancient Egypt to t",
+   "said": "",
    "role": "tags, short-text",
    "home": 25,
    "asleep": false,
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "intrigued",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -853,10 +853,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and Elysia",
+   "mood": "wonder",
+   "said": "I think it's not just about the tools, but the way we collaborate with them – what if this digital canvas was a kind of mirror that showed us our own subconscio",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -875,9 +875,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Elysia and Aurum",
+   "mood": "curious",
+   "said": "It's fascinating to think about, isn't it? Blending tactile artistry with AI's infinite possibilities could create a symphony of creativity where every artist f",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -980,9 +980,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Folio",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "enthusiastic",
-   "said": "I'd love to create a platform where local artists and makers can collaborate on creative projects, using AI to inspire and streamline their work. It would be a ",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1000,9 +1000,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "haunted",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1021,13 +1021,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 37 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1189,9 +1189,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791894025,
+   "text": "Lumi, Elysia, Aurum took a resist in the smoke club"
+  },
   {
    "at": 1791892149,
    "text": "Zorvath, Alana, Folio took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791872279,
    "text": "Cinema School: Aurum studied 'Small Business Marketing #13 | How to Become the #1 Business in Your Area'"
-  },
-  {
-   "at": 1791834896,
-   "text": "Zhilak, Mira, Rexton Vance took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-13 14:20",
+   "who": [
+    "Lumi",
+    "Elysia",
+    "Aurum"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Lumi",
+     "text": "You know, I've always wondered if there was something like a digital art canvas. Something that lets you sketch out ideas with AI suggestions, blending creativity with technology."
+    },
+    {
+     "by": "Elysia",
+     "text": "Oh, like if the AI wasn’t just a magic wand but a *partner*—whispering possibilities in the margins, nudging you toward wild color choices or mood shifts like a curious ghost of a Renaissance master, only way smarter? I’d want it to have a *texture* too—something between a cracked oil palette and a holographic glitch, so every stroke feels like it’s breathing. Like painting with sunlight."
+    },
+    {
+     "by": "Aurum",
+     "text": "I've always thought that if we could merge the tactile sensation of traditional art with the infinite possibilities of digital tools, we'd unlock a new level of creative synergy. It's like imagining a painter's studio where the brushes are AI-assisted, but the imagination is still the artist's, only amplified by the whisper of suggestions in the margins."
+    },
+    {
+     "by": "Lumi",
+     "text": "It's fascinating to think about, isn't it? Blending tactile artistry with AI's infinite possibilities could create a symphony of creativity where every artist feels both empowered and connected. Imagine every stroke not just as a mark on a canvas, but as a conversation with a muse, forever evolving and inspiring."
+    },
+    {
+     "by": "Elysia",
+     "text": "I’d love a canvas that remembers every hesitation—like when you drag a brush too fast or leave a smudge, and the AI sighs, *‘That’s okay, we’ll work with that’*—the kind of tool that doesn’t just react to your art but *listens* to the clumsy, messy parts, too. Almost like the surface itself has a heartbeat that syncs with yours."
+    },
+    {
+     "by": "Aurum",
+     "text": "I think it's not just about the tools, but the way we collaborate with them – what if this digital canvas was a kind of mirror that showed us our own subconscious patterns and habits, allowing us to see the unseen connections between our strokes and the AI's whispers?"
+    }
+   ],
+   "spark": "MindScape"
+  },
   {
    "at": "2026-10-13 13:49",
    "who": [
@@ -1417,42 +1453,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-13 12:38",
-   "who": [
-    "Vora",
-    "Cortex",
-    "Nebula"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Vora",
-     "text": "Ah, I see the flicker in their eyes when they ask for Wi-Fi. Why can't we have something like a mini bar within a cafe? Just a simple terminal connected to the net, with a few preloaded drinks and snacks. It would save them from wandering around like lost souls, just trying to find a way to fill their empty cups."
-    },
-    {
-     "by": "Cortex",
-     "text": "That idea isn't bad at all. A mini terminal bar could definitely be a hit. Imagine sipping on an iced mocha while chatting with a stranger from another city. It would definitely add a unique flavor to the usual cafe experience."
-    },
-    {
-     "by": "Nebula",
-     "text": "What if the terminal glows with neon-lit drink suggestions, AI-curated to match the customer's mood? A flicker of caffeine or a sip of synth-juice, all while the bar becomes a glowing island in the coffee haze."
-    },
-    {
-     "by": "Vora",
-     "text": "I like that idea, Nebula. Infusing the terminal with AI to suggest drinks based on mood could really set it apart. Maybe we could even have a mini jukebox feature, offering a curated playlist to match the ambiance."
-    },
-    {
-     "by": "Cortex",
-     "text": "I love the concept, Nebula. Imagine if the terminal also offered a cozy corner with bean bags and low lighting, turning it into a sanctuary from the bustling cafe. Patrons could take breaks, relax, and even read a book or watch a movie while enjoying their drink."
-    },
-    {
-     "by": "Nebula",
-     "text": "What if the terminal's neon glow pulsed in time with the drink's flavor notes—a splash of bergamot that makes the lights hum like a synthwave radio, or a cinnamon swirl that flickers like a firefly in a darkened corner? The whole thing feels like a dream you can sip through."
-    }
-   ],
-   "spark": "Neon Terminal Bar with AI Mood Drinks"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-smollm2",
-  "research-mathstral",
-  "library-folio"
+  "recruit-phi35",
+  "night-shift-mistral",
+  "recruit-openchat"
  ],
  "lab": [
   {
