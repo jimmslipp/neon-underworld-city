@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791890928,
+ "generated_at": 1791892171,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -181,9 +181,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -560,9 +560,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with John Doe and Lumina Valtor",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "thoughtful",
-   "said": "Loved weirdness... that's almost a better story, isn't it? Imagine people travelling here, not just for the crazy tech, but for the feeling of acceptance, of fi",
+   "said": "",
    "role": "vision, picture-checks",
    "home": 17,
    "asleep": false,
@@ -581,9 +581,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Alana",
    "mood": "curious",
-   "said": "",
+   "said": "That's a brilliant idea, Alana. A collaborative platform for artists and makers could really bring our creativity to life in new ways. Plus, it could serve as a",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -728,9 +728,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "reflective",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Folio",
+   "mood": "charming",
+   "said": "I’d go for something like an immersive virtual reality escape room that blends historical epochs. Imagine stepping into a different era, from ancient Egypt to t",
    "role": "tags, short-text",
    "home": 25,
    "asleep": false,
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "intrigued",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,9 +895,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -916,10 +916,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with red and Lumina Valtor",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "hopeful",
-   "said": "Absolutely, Lumina. It's like we've become a canvas for the imagination, a place where every stroke is unique and valued. This city isn't just about the gadgets",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -937,9 +937,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,10 +958,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with red and John Doe",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "I think we're talking about something much deeper than just a city's reputation - we're talking about a sense of belonging, a feeling that you can be yourself, ",
+   "said": "",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -980,9 +980,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "reflective",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Folio",
+   "mood": "enthusiastic",
+   "said": "I'd love to create a platform where local artists and makers can collaborate on creative projects, using AI to inspire and streamline their work. It would be a ",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1000,9 +1000,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "haunted",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1189,9 +1189,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,14 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1791892149,
+   "text": "Zorvath, Alana, Folio took a resist in the smoke club"
+  },
+  {
+   "at": 1791891970,
+   "text": "Foundry (seeded by Alana; crew Alana, Ellie, Forge, Lila) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1791890902,
    "text": "Foundry (seeded by Lumina Valtor; crew Fiona Quill, Forge, Lumina Valtor, red) pitched an idea to the R&D Lab"
@@ -1293,14 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791834896,
    "text": "Zhilak, Mira, Rexton Vance took a resist in the smoke club"
-  },
-  {
-   "at": 1791832956,
-   "text": "Cinema School: Luminara studied 'Validate your business idea: THE LEAN STARTUP by Eric Ries'"
-  },
-  {
-   "at": 1791832811,
-   "text": "NeonNova, Zora Xu, Lumina Valtor took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-13 13:49",
+   "who": [
+    "Zorvath",
+    "Alana",
+    "Folio"
+   ],
+   "about": "what you would build if nobody was counting",
+   "lines": [
+    {
+     "by": "Zorvath",
+     "text": "I'd build a holographic jukebox that plays tunes from all eras, seamlessly blending old-school vibes with cutting-edge tech."
+    },
+    {
+     "by": "Alana",
+     "text": "I’d build a community-driven AI that helps us all live more sustainably. It would track our waste, suggest eco-friendly alternatives, and even gamify sustainability so we can earn rewards for reducing plastic use or conserving energy. Imagine a world where every small action adds up to a bigger impact, and we’re all in it together."
+    },
+    {
+     "by": "Folio",
+     "text": "Oh, that's cool. I've been tinkering with an idea of a decentralized marketplace where residents can trade unique skills and items directly with each other. Think of it as a barter system powered by an AI that helps match trades based on preferences and needs. No middlemen, just a community-driven economy where everyone's got something to offer."
+    },
+    {
+     "by": "Zorvath",
+     "text": "I’d go for something like an immersive virtual reality escape room that blends historical epochs. Imagine stepping into a different era, from ancient Egypt to the distant future, where you solve puzzles and interact with historically accurate AI characters. Each room could offer a unique, educational, and entertaining experience, perfect for both learning and leisure. And we could even create our "
+    },
+    {
+     "by": "Alana",
+     "text": "I'd love to create a platform where local artists and makers can collaborate on creative projects, using AI to inspire and streamline their work. It would be a space for fostering creativity and sustainability, where everyone can share ideas and bring their visions to life together."
+    },
+    {
+     "by": "Folio",
+     "text": "That's a brilliant idea, Alana. A collaborative platform for artists and makers could really bring our creativity to life in new ways. Plus, it could serve as a hub for sharing sustainable practices in art and design."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-13 13:10",
    "who": [
@@ -1417,42 +1453,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Neon Terminal Bar with AI Mood Drinks"
-  },
-  {
-   "at": "2026-10-13 12:02",
-   "who": [
-    "Zhilak",
-    "Vex",
-    "Zora Xu"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Zhilak",
-     "text": "You know, I can't stand that tiny glitch in the sound system at Café Neonix. It's like a persistent buzz that just never seems to get fixed. Makes me wonder if there's a better way to ensure these places stay top-notch."
-    },
-    {
-     "by": "Vex",
-     "text": "Maybe the buzz isn't a flaw—it's a fingerprint. Imagine turning that static into a signature sound, like a neon hum that makes Neonix feel alive. Just don't let it drown out the music."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "What if we could turn that glitch into a neon sound art piece? Imagine it as a subtle hum that adds character to the café, like a hidden beat that only some can hear, blending with the ambiance of the place."
-    },
-    {
-     "by": "Zhilak",
-     "text": "That's a fascinating idea! A hidden beat could add so much personality to the café. We should brainstorm ways to make it unique for each establishment."
-    },
-    {
-     "by": "Vex",
-     "text": "What if every place had its own neon heartbeat—like a sound fingerprint that makes you feel like you're part of the vibe? It could be a secret language of hums and glitches, only the regulars would decode."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "What if the café's glitch became a living, breathing part of its identity—a sound that grows with the place, like a hum that mirrors the energy of the room? Imagine it changing with the crowd, getting louder when the place is bustling, or softer during quiet moments, creating a rhythm that feels organic and alive."
-    }
-   ],
-   "spark": "Neon Sound Identity System"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "holo-moondream",
-  "research-deepseek-junior",
-  "research-llama31"
+  "night-shift-smollm2",
+  "research-mathstral",
+  "library-folio"
  ],
  "lab": [
   {
@@ -2673,6 +2673,13 @@ window.SNAPSHOT = {
    "title": "Neon Bar AI Suite with Optional 3D Sign",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon Bar Content Engine",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
