@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791911959,
+ "generated_at": 1791912597,
  "paused": false,
  "citizens": [
   {
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
