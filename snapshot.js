@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791981560,
+ "generated_at": 1791982448,
  "paused": false,
  "citizens": [
   {
@@ -2702,10 +2702,10 @@ window.SNAPSHOT = {
   },
   {
    "title": "Neon Bar SEO & Ambiance Analyzer",
-   "stage": "build",
+   "stage": "jimm",
    "status": "alive",
-   "yes": 0,
-   "no": 0
+   "yes": 24,
+   "no": 10
   },
   {
    "title": "Neon Bar Sync Pro",
