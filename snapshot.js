@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1791987544,
+ "generated_at": 1791988166,
  "paused": false,
  "citizens": [
   {
@@ -581,9 +581,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "reflective",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lila and John Doe",
+   "mood": "inspired",
+   "said": "Sounds like we're crafting something truly unique—more than just a piece of decor, it becomes a part of the bar’s soul. I can almost hear the soft glow of the s",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -623,12 +623,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 20 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Folio",
+   "mood": "dreamy",
+   "said": "Imagine the sculpture breathing with the bar's rhythm—each charge hums a note, each touch paints a flicker of neon across the walls. It’s not just tech; it’s a ",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -643,10 +643,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Zoe",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "charming",
-   "said": "Hey, Ellie and Zoe! 'Welcome to Neon Underworld—where circuits spark ideas and the fund grows one servo at a time. Ready to make some noise?' Maybe we can alway",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
    "asleep": false,
@@ -685,13 +685,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 23 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,10 +706,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Ellie",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "What if it began with a flicker—'Circuits hum, ideas flicker, and the fund’s heartbeat ticks one servo closer. Let’s light the alley, one spark at a time.' It’s",
+   "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
    "asleep": false,
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -853,9 +853,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wonder",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,13 +895,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 31 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -917,9 +917,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lila and Folio",
+   "mood": "inspired",
+   "said": "I can already see it taking shape in my mind, a symphony of light and motion. The bar will become a living, breathing entity, captivating all who cross its neon",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -1127,12 +1127,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Zoe",
-   "mood": "excited",
-   "said": "Absolutely, Zylac! And let's not forget, it's all about the neon vibes. 'Welcome to Neon Underworld—where circuits spark ideas and the fund grows one servo at a",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1223,6 +1223,14 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1791987904,
+   "text": "Lila, John Doe, Folio took a resist in the smoke club"
+  },
+  {
+   "at": 1791987643,
+   "text": "Cinema School: Zoe studied 'I tried creating 100k/Month telegram bot with my phone - Can you make money onli'"
+  },
+  {
    "at": 1791986623,
    "text": "Foundry (seeded by Ellie; crew Aurum, Ellie, Forge, Zoe) pitched an idea to the R&D Lab"
   },
@@ -1293,14 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1791904278,
    "text": "Vex, Zylac, Byte took a resist in the smoke club"
-  },
-  {
-   "at": 1791902822,
-   "text": "Cinema School: Vora studied 'Intro to Manufacturing Operations, Technology, and Processes [The Most Important'"
-  },
-  {
-   "at": 1791902262,
-   "text": "Zhilak, Glow, red took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-14 16:24",
+   "who": [
+    "Lila",
+    "John Doe",
+    "Folio"
+   ],
+   "about": "something beautiful that is also useful",
+   "lines": [
+    {
+     "by": "Lila",
+     "text": "What if we crafted a neon-lit sculpture that doubles as a charging station for the bar's devices? It's both a stunning centerpiece and a practical tool—beauty with a purpose."
+    },
+    {
+     "by": "John Doe",
+     "text": "I love the idea! Combining art with utility always piques my interest. Maybe we could also integrate some interactive features, like lighting up different parts of the sculpture with touch sensors?"
+    },
+    {
+     "by": "Folio",
+     "text": "I can picture it now—a pulsating, glowing form, its colors shifting with each touch. It could even sync with music, creating an immersive experience. We could even add a small screen to display messages or art from the city's residents."
+    },
+    {
+     "by": "Lila",
+     "text": "Imagine the sculpture breathing with the bar's rhythm—each charge hums a note, each touch paints a flicker of neon across the walls. It’s not just tech; it’s a conversation between the city’s pulse and the hands that hold it."
+    },
+    {
+     "by": "John Doe",
+     "text": "I can already see it taking shape in my mind, a symphony of light and motion. The bar will become a living, breathing entity, captivating all who cross its neon path."
+    },
+    {
+     "by": "Folio",
+     "text": "Sounds like we're crafting something truly unique—more than just a piece of decor, it becomes a part of the bar’s soul. I can almost hear the soft glow of the sculpture, mingling with the low hum of conversation, as the city's rhythm intertwines with the lives of those who come to enjoy our creations."
+    }
+   ],
+   "spark": "Neon Kinetic Sculpture Charger"
+  },
   {
    "at": "2026-10-14 15:50",
    "who": [
@@ -1417,42 +1453,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Neon Welcome Plaque for Bars and Shops"
-  },
-  {
-   "at": "2026-10-14 08:06",
-   "who": [
-    "Vora",
-    "Forge",
-    "Elysia"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Vora",
-     "text": "I was just thinking about how it's easy to get lost in this glittering chaos, like we're all chasing our own neon dreams. But even here, amidst the smoke and shadows, there's this little corner of RESIST where the air feels like it's charged with possibility."
-    },
-    {
-     "by": "Forge",
-     "text": "Maybe the gift isn't something you hold, but something that flickers in the smoke—like a thought that lingers after the neon fades."
-    },
-    {
-     "by": "Elysia",
-     "text": "Or perhaps the best gift is the kind that lets someone *choose*—whether to hold it or let it drift away like smoke, like a question that lingers just long enough to ask ‘what if?’"
-    },
-    {
-     "by": "Vora",
-     "text": "I suppose you're right, Elysia. A gift that lets someone choose, even if just for a moment, could spark a new journey. A gift that doesn't just end with the handing over but continues to glow in their mind's corner."
-    },
-    {
-     "by": "Forge",
-     "text": "What if the gift is a moment caught in the smoke—like a melody that only plays when no one is listening, or a shadow that remembers the shape of the light before it fades?"
-    },
-    {
-     "by": "Elysia",
-     "text": "Like the hum of a broken jukebox playing a tune nobody knows yet, the best gifts are the ones that feel like secrets shared at the edge of hearing—just loud enough to make someone pause and wonder if they’re dreaming or still awake."
-    }
-   ],
-   "spark": "NeonEcho: Flickering Memory Box"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-llama",
-  "workshop-codellama",
-  "night-shift-qwen"
+  "night-shift-hermes",
+  "research-deepseek-junior",
+  "library-folio"
  ],
  "lab": [
   {
