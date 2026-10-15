@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792088074,
+ "generated_at": 1792088767,
  "paused": false,
  "citizens": [
   {
@@ -181,9 +181,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,13 +202,13 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 6 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -1021,13 +1021,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 37 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "excited",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1189,9 +1189,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "intrigued",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1792088619,
+   "text": "Foundry (seeded by Fiona Quill; crew Alana, Fiona Quill, Forge, Lumina Valtor) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1792088050,
    "text": "Eva, Fiona Quill, Elysia took a resist in the smoke club"
@@ -2776,6 +2780,13 @@ window.SNAPSHOT = {
    "title": "Neon Content Forge for Spanish Bars",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon Content Suite: Bar Branding App",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
