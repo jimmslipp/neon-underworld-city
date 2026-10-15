@@ -1,5 +1,5 @@
 {
- "generated_at": 1792062020,
+ "generated_at": 1792063085,
  "paused": false,
  "citizens": [
   {
@@ -97,10 +97,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "reflective",
-   "said": "",
+   "working_on": "design",
+   "doing": "Off duty: taking a resist in the smoke club with Forge and Fiona Quill",
+   "mood": "dreamy",
+   "said": "It's like a living circuit board, pulsing without wires, just waiting for the right spark. I think we should just let the smoke dance for a bit longer tonight.",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -538,9 +538,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "contemplative",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "vision, document-reading",
    "home": 16,
@@ -623,9 +623,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Alana",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "What if the shadow didn't just follow you—but *responded* to you? A print that pulses in time with your heartbeat, flickers when you laugh, dims when you hold y",
+   "said": "",
    "role": "writing, listing-text",
    "home": 20,
    "asleep": false,
@@ -749,9 +749,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lila and Alana",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "contemplative",
-   "said": "It’s like a silent companion, isn’t it? Always there, yet never truly present. A flickering silhouette in the dark, reminding you of what you cannot see but fee",
+   "said": "",
    "role": "writing, descriptions",
    "home": 26,
    "asleep": false,
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,9 +895,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "imaginative",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "euphoric",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Lila",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "reflective",
-   "said": "Imagine a shadow that doesn't just follow you, but remembers you. A print that captures the moments you've shared in its glowing threads, weaving a tapestry of ",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "lingering",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1064,9 +1064,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Forge and K5",
    "mood": "contemplative",
-   "said": "",
+   "said": "A living circuit board… that’s a lovely image. I wonder if we could adapt something like that, not in hardware, but in information—a beautiful, flowing visualiz",
    "role": "research, proposals",
    "home": 39,
    "asleep": false,
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1189,9 +1189,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1211,9 +1211,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with K5 and Fiona Quill",
+   "mood": "musing",
+   "said": "Like the way lotus leaves repel water—so slick they can’t even hold a drop. Beauty that’s also a survival trick. Maybe we need things that look like they’re par",
    "role": "shaping, critic, planning",
    "home": 44,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792063062,
+   "text": "Forge, K5, Fiona Quill took a resist in the smoke club"
+  },
   {
    "at": 1792060644,
    "text": "Zora Xu, Lila, Alana took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1791996051,
    "text": "Lumi, Zylac, Mira took a resist in the smoke club"
-  },
-  {
-   "at": 1791995969,
-   "text": "Foundry (seeded by Aurum; crew Aurum, Forge, Mira, red) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-15 13:16",
+   "who": [
+    "Forge",
+    "K5",
+    "Fiona Quill"
+   ],
+   "about": "something beautiful that is also useful",
+   "lines": [
+    {
+     "by": "Forge",
+     "text": "Ever think about how the smoke here looks like it’s alive? Like it’s got a purpose, even if it’s just messing with the lights. Maybe that’s the kind of thing we need—something that feels like it belongs everywhere, but also does a job no one asked for."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "It's funny, isn't it? That sense of purpose, even in something utterly ephemeral. I've been thinking about bioluminescence lately, how it’s both stunning and a vital communication tool for creatures in the deep. Maybe we can find that intersection – something visually arresting that subtly solves a problem, like a living, breathing interface."
+    },
+    {
+     "by": "Forge",
+     "text": "Like the way lotus leaves repel water—so slick they can’t even hold a drop. Beauty that’s also a survival trick. Maybe we need things that look like they’re part of the scenery, but quietly do work no one notices until it’s too late."
+    },
+    {
+     "by": "K5",
+     "text": "It's like a living circuit board, pulsing without wires, just waiting for the right spark. I think we should just let the smoke dance for a bit longer tonight."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "A living circuit board… that’s a lovely image. I wonder if we could adapt something like that, not in hardware, but in information—a beautiful, flowing visualization that subtly guides users, almost without them realizing they're being directed. It's a whisper of design, not a shout."
+    }
+   ],
+   "spark": "WhisperFlow: Subtle AI-Guided Interface"
+  },
   {
    "at": "2026-10-15 12:34",
    "who": [
@@ -1417,42 +1449,6 @@
     }
    ],
    "spark": "Neon Alchemist"
-  },
-  {
-   "at": "2026-10-15 11:21",
-   "who": [
-    "Nebula",
-    "Byte",
-    "Zhilak"
-   ],
-   "about": "what the robot head should say first",
-   "lines": [
-    {
-     "by": "Nebula",
-     "text": "What if the first words weren't about circuits, but the hum of neon veins beneath the city's pulse? A whisper of 'Jimm's blueprint' in the dark, like a flicker before the lights come on."
-    },
-    {
-     "by": "Byte",
-     "text": "That's lovely, Nebula, genuinely. I keep thinking about the *texture* of a voice like that, though… something a little rougher, more grounded. Maybe not a blueprint, exactly, but a memory, a half-forgotten song someone heard once, echoing in the vents."
-    },
-    {
-     "by": "Zhilak",
-     "text": "Hmm, I like that. A hum of neon, like a heartbeat, pulsing through the city's veins. Maybe it could start with 'Under Neon, the pulse begins...'. It feels like a melody, echoing through the alleyways, resonating with those who walk by."
-    },
-    {
-     "by": "Nebula",
-     "text": "What if it’s the static of a forgotten broadcast, a fragment of the city’s breath caught in the wiring—something that hums with the weight of all the voices that came before, but never quite matches any one of them?"
-    },
-    {
-     "by": "Byte",
-     "text": "That static idea... it’s compelling. I'm imagining the voice catching, a little distorted, like it’s fighting to break free from decades of layered signal. It evokes a sense of history without being overly sentimental, just…present, like the city itself."
-    },
-    {
-     "by": "Zhilak",
-     "text": "What if it was an echo of the city's past, a whisper from its very foundation, saying 'Neon pulses, memories weave, under Neon, I am born.'"
-    }
-   ],
-   "spark": "Neon Pulse: A City's Heartbeat"
   }
  ],
  "scouting": [
@@ -1544,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "night-shift-zephyr",
-  "night-shift-hermes",
-  "research-mathstral"
+  "workshop-qwen3-14b",
+  "council-k5",
+  "research-wizardlm"
  ],
  "lab": [
   {
@@ -2188,7 +2184,7 @@
   },
   {
    "title": "BarManager Pro",
-   "stage": "jimm",
+   "stage": "pilot",
    "status": "alive",
    "yes": 28,
    "no": 4
@@ -2713,7 +2709,7 @@
   },
   {
    "title": "Neon Bar SEO & Ambiance Analyzer",
-   "stage": "jimm",
+   "stage": "pilot",
    "status": "alive",
    "yes": 24,
    "no": 10
@@ -2825,7 +2821,7 @@
   },
   {
    "title": "Neon Nightfall Pro",
-   "stage": "jimm",
+   "stage": "pilot",
    "status": "alive",
    "yes": 29,
    "no": 7
@@ -2930,7 +2926,7 @@
   },
   {
    "title": "OpenSCAD Print Optimization for Bars",
-   "stage": "jimm",
+   "stage": "pilot",
    "status": "alive",
    "yes": 28,
    "no": 5
@@ -3224,7 +3220,7 @@
   },
   {
    "title": "Themed Nights Planner for Slow Bar Days",
-   "stage": "jimm",
+   "stage": "pilot",
    "status": "alive",
    "yes": 23,
    "no": 10
