@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792075107,
+ "generated_at": 1792076136,
  "paused": false,
  "citizens": [
   {
@@ -602,9 +602,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Zhilak",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "Absolutely, Lumina! I can almost see the vibrant kaleidoscope of light dancing through Neon Alley. Each installation becoming a living, breathing part of our ci",
+   "said": "",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -643,10 +643,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Aurum",
+   "mood": "dreamy",
+   "said": "I suppose this orb would symbolize the boundless dreams and untamed spirit that our friends cherish. Just imagine its glow illuminating their hearts, bringing w",
    "role": "listing-text, tags, descriptions",
    "home": 21,
    "asleep": false,
@@ -664,10 +664,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Lumina Valtor and Rexton Vance",
-   "mood": "inspired",
-   "said": "I think our imagination knows no bounds here. If we had unlimited resources, we could even create an interactive neon forest, complete with virtual creatures th",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Aurum",
+   "mood": "dreamy",
+   "said": "I can picture it now—a pulsating neon orb floating above a haze of smoke, glowing with a soft light that dances and flickers. It's like capturing a moment of in",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -685,13 +685,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 23 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,13 +727,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 25 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "excited",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -853,10 +853,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
-   "said": "",
+   "working_on": "design",
+   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Zylac",
+   "mood": "dreamy",
+   "said": "It's as if the orb would be a conduit for the unspoken emotions, a reflection of the unseen threads that weave our lives together...",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -959,9 +959,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Zhilak",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "inspired",
-   "said": "I'm starting to imagine a whole network of these installations popping up all over the city, each one reacting to the unique energy of its surroundings - a wave",
+   "said": "",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1792076112,
+   "text": "Zhilak, Zylac, Aurum took a resist in the smoke club"
+  },
+  {
    "at": 1792073945,
    "text": "Lumina Valtor, Rexton Vance, Zhilak took a resist in the smoke club"
   },
@@ -1289,10 +1293,6 @@ window.SNAPSHOT = {
   {
    "at": 1792051278,
    "text": "Cinema School: John Doe studied 'Design for Manufacturing Course 7 Part 1: Rotomolding - DragonInnovation.com'"
-  },
-  {
-   "at": 1792050246,
-   "text": "Lumina Valtor, Rexton Vance, Zora Xu took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1338,6 +1338,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-15 16:54",
+   "who": [
+    "Zhilak",
+    "Zylac",
+    "Aurum"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Zhilak",
+     "text": "You're right, Zylac and Aurum. I was so wrapped up in the details of that tag that I forgot it had to be simple for anyone to understand. Maybe I should let loose a bit tonight, like tonight."
+    },
+    {
+     "by": "Zylac",
+     "text": "Maybe I'll just let the words flow like this smoke—unruly and mesmerizing. Imagine, just for a moment, the perfect gift, something that feels so out of this world. Neon, smoke, and a hint of rebellion. Sounds dreamy, doesn't it?"
+    },
+    {
+     "by": "Aurum",
+     "text": "I love where this is going, a rebellious, otherworldly gift... imagine something that defies categorization, something that's both ephemeral and unforgettable"
+    },
+    {
+     "by": "Zhilak",
+     "text": "I can picture it now—a pulsating neon orb floating above a haze of smoke, glowing with a soft light that dances and flickers. It's like capturing a moment of infinite possibilities within a delicate shell of glass and liquid light."
+    },
+    {
+     "by": "Zylac",
+     "text": "I suppose this orb would symbolize the boundless dreams and untamed spirit that our friends cherish. Just imagine its glow illuminating their hearts, bringing warmth and a touch of magic to their everyday lives."
+    },
+    {
+     "by": "Aurum",
+     "text": "It's as if the orb would be a conduit for the unspoken emotions, a reflection of the unseen threads that weave our lives together..."
+    }
+   ],
+   "spark": "Ephemeral Dreams Orb"
+  },
   {
    "at": "2026-10-15 16:19",
    "who": [
@@ -1405,42 +1441,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-15 15:00",
-   "who": [
-    "Eva",
-    "Fiona Quill",
-    "Ellie"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Eva",
-     "text": "Ah, beauty that doesn’t just *look* but *does*—like the way a well-placed neon sign doesn’t just cast light but guides you home without you even realizing it. Ellie, what’s something like that you’ve seen or made that wasn’t just pretty but *worked* too?"
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That's a lovely thought, Eva. I’ve been thinking about the way the acoustic dampening in the old data vaults used to be almost *sculptural*, you know? It shaped the sound, the space… It made the silence feel deliberate, protective, like a beautiful secret whispered only to those inside."
-    },
-    {
-     "by": "Ellie",
-     "text": "Speaking of beauty in functionality, I've been tinkering with a design for a bioluminescent garden. It's not just pretty—it's alive, and it thrives off the energy from the city's AI core. Imagine walking through a forest of softly glowing plants that clean the air and provide a soothing, almost sacred atmosphere. It could be a sanctuary in the heart of the neon glow, a place where the digital and "
-    },
-    {
-     "by": "Eva",
-     "text": "Oh, that’s what I love—things that breathe without fanfare. Like a cathedrale’s stained glass: the light *moves* through it, not just falls, and the colors don’t just dazzle, they *hold* you. What if we could weave that into something that didn’t just illuminate a room, but *charged* the air too? Fiona, could your vault acoustics have been that way? Or is it just me getting lost in the thought of "
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "Ellie’s garden… that's a powerful image, the idea of a living filter. I wonder if we could apply that principle to something smaller, something more… intimate. Perhaps a personal air purifier, shaped like a delicate, glowing sculpture, subtly cleansing the air around you as you work or relax. It wouldn't shout its function; it would simply *be* better."
-    },
-    {
-     "by": "Ellie",
-     "text": "The beauty of living systems is that they don't just survive, they evolve. Imagine if we could design spaces that not only heal us but also learn from us, adapting their environment to our presence. It's like having a silent, breathing companion that nurtures your well-being."
-    }
-   ],
-   "spark": "Bioluminescent Air Purifier"
   }
  ],
  "scouting": [
@@ -1532,9 +1532,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "research-llama31",
-  "night-shift-gemma3",
-  "night-shift-llama-junior"
+  "night-shift-llama-junior",
+  "night-shift-llama",
+  "recruit-openchat"
  ],
  "lab": [
   {
