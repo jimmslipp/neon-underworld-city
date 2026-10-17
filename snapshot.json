@@ -1,5 +1,5 @@
 {
- "generated_at": 1792234582,
+ "generated_at": 1792235189,
  "paused": false,
  "citizens": [
   {
@@ -97,13 +97,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 3 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Leadership"
   },
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -601,13 +601,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 19 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -707,12 +707,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "doing": "Asleep in apartment 24 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -812,9 +812,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "amused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Mira and Lumina Valtor",
+   "mood": "enthralled",
+   "said": "Oh, the idea of a glowing trace from our thoughts... It's poetic. It would feel like our creativity leaves an indelible mark on the very soul of Neon Underworld",
    "role": "licence-notes, summaries",
    "home": 27,
    "asleep": false,
@@ -854,12 +854,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 29 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -875,12 +875,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 30 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -895,9 +895,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "imaginative",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,10 +958,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Mira and Luminara",
+   "mood": "contemplative",
+   "said": "I've always imagined that the city's neon fog would respond to our emotions, so to see it transformed into tangible art would be like finding a mirror to our co",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -980,12 +980,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 35 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wanderlust",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Forge and Luna",
-   "mood": "chill",
-   "said": "Sure, espresso shots make for a quick caffeine fix. How about something with a bit of humor, like 'Welcome to Neon Underworld: where the night never ends and ad",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1064,12 +1064,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 39 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1169,9 +1169,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Luminara and Lumina Valtor",
+   "mood": "dreamy",
+   "said": "What if the holograms left behind a faint glow, like the smoke's memory lingering on the walls—proof that our ideas outlasted the night?",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1190,9 +1190,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Forge and Vora",
-   "mood": "intrigued",
-   "said": "Absolutely, Vora! I was just thinking, how about 'Welcome to Neon Underworld: where the night never ends and adventures are just around the corner. Or should I ",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1211,7 +1211,7 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Luna",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "wistful",
    "said": "",
    "role": "shaping, critic, planning",
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792235029,
+   "text": "Mira, Luminara, Lumina Valtor took a resist in the smoke club"
+  },
   {
    "at": 1792233166,
    "text": "Cinema School: Zoe studied 'Telegram Bot Earn Money  This AI App Changed Everything? (2026 Test)'"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792092602,
    "text": "Fiona Quill, Lumina Valtor, Forge took a resist in the smoke club"
-  },
-  {
-   "at": 1792090513,
-   "text": "Zora Xu, Ellie, K5 took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-17 13:03",
+   "who": [
+    "Mira",
+    "Luminara",
+    "Lumina Valtor"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Mira",
+     "text": "I’d love a gadget that turns neon smoke into tangible art—like a handheld projector that sculpts light into 3D holograms, perfect for brainstorming in RESIST. Imagine shaping ideas mid-air, then snapping a photo for the design docs. No copyright issues, just pure creativity."
+    },
+    {
+     "by": "Luminara",
+     "text": "That sounds like a mesmerizing vision! A device like that could truly revolutionize creativity sessions here. Imagine the intricate designs we could brainstorm with our hands practically reaching into the air."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I've always loved how the neon smoke swirls around us, like a living canvas, and to be able to shape it into tangible art would be like... harmonizing with the city's very essence."
+    },
+    {
+     "by": "Mira",
+     "text": "What if the holograms left behind a faint glow, like the smoke's memory lingering on the walls—proof that our ideas outlasted the night?"
+    },
+    {
+     "by": "Luminara",
+     "text": "Oh, the idea of a glowing trace from our thoughts... It's poetic. It would feel like our creativity leaves an indelible mark on the very soul of Neon Underworld."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I've always imagined that the city's neon fog would respond to our emotions, so to see it transformed into tangible art would be like finding a mirror to our collective subconscious."
+    }
+   ],
+   "spark": "Neon Hologram Projector"
+  },
   {
    "at": "2026-10-17 12:31",
    "who": [
@@ -1409,42 +1445,6 @@
     }
    ],
    "spark": "EchoLayer: Atmospheric Soundscapes"
-  },
-  {
-   "at": "2026-10-17 11:15",
-   "who": [
-    "Aurum",
-    "Luna",
-    "Ellie"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Aurum",
-     "text": "I've been thinking, maybe the problem with finding a gift for someone who has everything is that we're looking for something that's a tangible reflection of their wealth, but what if we flipped that on its head and created something that's truly unique and experiential?"
-    },
-    {
-     "by": "Luna",
-     "text": "That's an intriguing thought, Aurum. Instead of focusing on material wealth, what if we crafted an unforgettable experience that taps into their interests and passions? Like a personalized adventure, tailored just for them."
-    },
-    {
-     "by": "Ellie",
-     "text": "You know, sometimes the best gifts aren't things at all. They're moments etched in memory, like a surprise road trip or a one-of-a-kind performance. It's about creating a story they'll tell and relive, not just something to put on a shelf."
-    },
-    {
-     "by": "Aurum",
-     "text": "And what if that experience was a fusion of their passions, a harmonious blend of art, music, and technology, set against the vibrant backdrop of our city?"
-    },
-    {
-     "by": "Luna",
-     "text": "I love where this is headed, Aurum. Imagine creating an immersive art installation that uses holographic projections, synchronized with live music, and interactive elements that respond to the audience's movements. It would be a celebration of their tastes, a testament to the beauty of our city and its limitless possibilities."
-    },
-    {
-     "by": "Ellie",
-     "text": "Imagine if that art installation could also incorporate AI-driven personalized interactions, where the holograms adapt to their preferences and share stories relevant to their lives. It would be like stepping into a living, breathing piece of art, a true reflection of their unique journey. Plus, think of the memories they'd create—perhaps even collaborating on the piece itself, making it a truly b"
-    }
-   ],
-   "spark": "Neon Dreams: Personalized Holographic Art Installation"
   }
  ],
  "scouting": [
@@ -1536,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "workshop-qwen3-14b",
-  "research-qwen3",
-  "workshop-qwen-coder-junior"
+  "workshop-qwen-coder",
+  "recruit-granite",
+  "research-llama31"
  ],
  "lab": [
   {
