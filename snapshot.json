@@ -1,5 +1,5 @@
 {
- "generated_at": 1792223678,
+ "generated_at": 1792224293,
  "paused": false,
  "citizens": [
   {
@@ -35,12 +35,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 1 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "product-images, mockups",
    "home": 1,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -244,9 +244,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -287,12 +287,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 9 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -329,12 +329,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 11 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "by-hand",
    "home": 11,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -455,12 +455,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 14 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 14,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -497,12 +497,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 15 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "by-hand, video-with-sound",
    "home": 15,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -539,12 +539,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "contemplative",
+   "doing": "Asleep in apartment 16 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "vision, document-reading",
    "home": 16,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -601,9 +601,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,13 +643,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -664,13 +664,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 22 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -685,9 +685,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "whimsical",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -749,12 +749,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "whimsical",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -812,12 +812,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Mira",
+   "mood": "amused",
+   "said": "The sticky jukebox button is like a silent disco gone wrong—everyone's supposed to jump in, but only one person really dances to the beat. Or the 'special of th",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -833,12 +833,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Lumi",
-   "mood": "contemplative",
-   "said": "An interactive history... the data streams already weave narratives, don't they? I imagine a system that subtly alters its projections based on the observer's b",
+   "doing": "Asleep in apartment 28 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -875,9 +875,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Byte",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "curious",
-   "said": "I think we could design an animatronic character that embodies those stories, bringing the city's history to life in a way that's interactive and engaging.",
+   "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -896,12 +896,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "imaginative",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "fascinated",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1000,10 +1000,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Mira and Luminara",
+   "mood": "wanderlust",
+   "said": "Like how the bar’s menu board sticks like a fly to glass after hours, smeared in something darker than coffee—half-erased ‘pan con tomate’ written in lipstick b",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1021,10 +1021,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and Byte",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "intrigued",
-   "said": "Neon Underworld really does have a soul. Each flicker and pulse could be a story waiting to be told. Maybe one day, we'll create our own tales that will become ",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1127,12 +1127,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1169,9 +1169,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Luminara",
+   "mood": "mellow",
+   "said": "Ah, the coffee machine's bassline and the jukebox's sticky button—every bar's got its own little symphony of annoyances.",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1189,9 +1189,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1211,17 +1211,21 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "doing": "Asleep in apartment 44 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   }
  ],
  "feed": [
+  {
+   "at": 1792224192,
+   "text": "Eva, Mira, Luminara took a resist in the smoke club"
+  },
   {
    "at": 1792223288,
    "text": "Foundry (seeded by Aurum; crew Aurum, Byte, Forge, Zoe) pitched an idea to the R&D Lab"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792078482,
    "text": "NeonNova, Lila, Ellie took a resist in the smoke club"
-  },
-  {
-   "at": 1792076371,
-   "text": "Foundry (seeded by Byte; crew Byte, Elysia, Forge, Lila) pitched an idea to the R&D Lab"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-17 10:03",
+   "who": [
+    "Eva",
+    "Mira",
+    "Luminara"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Eva",
+     "text": "Oh, the *pitch black* of a café’s Wi-Fi password—everyone writes it on a sticky note, half-peeled off the fridge, so you’re forced to guess *almost* right. Or the ‘reserved’ sign on a chair that somehow *never* gets moved, as if the ghost of the original diner is still sitting there. Little stuff like that sticks to your ribs like a misplaced espresso shot—annoying, but also… kind of funny if you "
+    },
+    {
+     "by": "Mira",
+     "text": "Like the charging stations that’re always occupied by people who don’t actually need them, but somehow manage to hog every outlet. Or the way the barista’s coffee machine hums like a broken bassline, even when no one’s ordering."
+    },
+    {
+     "by": "Luminara",
+     "text": "You know, I've actually seen that. The café’s Wi-Fi password written on the fridge with a permanent marker. It looks like someone’s desperate to remember it or just couldn't let it go."
+    },
+    {
+     "by": "Eva",
+     "text": "Like how the bar’s menu board sticks like a fly to glass after hours, smeared in something darker than coffee—half-erased ‘pan con tomate’ written in lipstick by some lost tourist, while the manager shrugs and waves it off as ‘art.’ Or the way the jukebox button for ‘Despacito’ sticks just *a little* too long, making it sound like a dying robot begging for mercy every third press... but somehow th"
+    },
+    {
+     "by": "Mira",
+     "text": "Ah, the coffee machine's bassline and the jukebox's sticky button—every bar's got its own little symphony of annoyances."
+    },
+    {
+     "by": "Luminara",
+     "text": "The sticky jukebox button is like a silent disco gone wrong—everyone's supposed to jump in, but only one person really dances to the beat. Or the 'special of the day' menu that magically disappears before noon, leaving you with the original price tag. Life's a little like Neon Underworld—bright lights, unexpected guests, and a few quirks that make us all laugh a little harder."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-17 09:29",
    "who": [
@@ -1417,38 +1453,6 @@
     }
    ],
    "spark": "Neon Underworld's Immersive Smoke Experience"
-  },
-  {
-   "at": "2026-10-15 22:32",
-   "who": [
-    "Luminara",
-    "Elysia",
-    "Vora"
-   ],
-   "about": "something you saw today that stuck with you",
-   "lines": [
-    {
-     "by": "Luminara",
-     "text": "I've been sketching this idea, something about integrating the essence of Neon Alley into the Post Factory app. Imagine bar owners customizing neon patterns to match their post themes. Could be a whole new way to make posts pop."
-    },
-    {
-     "by": "Elysia",
-     "text": "Oh, you’re speaking my language—because honestly, nothing says ‘Neon Alley’ like the way a glitch in the glow can make a whole signage *come alive*. Picture a vintage soda bottle’s label pulsing like a slow heartbeat, or a burger joint’s neon sign morphing from a rabbit to a robot when the sunset hits. But what if the AI could *teach* those signs to blush when someone walks in? Like a neon skin re"
-    },
-    {
-     "by": "Vora",
-     "text": "That concept sounds mind-blowing, Elysia. If we could sync AI with emotions, imagine an alley that *feels* your presence. Maybe it could even whisper the bar owner's name when you walk in—like a warm, electric hug."
-    },
-    {
-     "by": "Luminara",
-     "text": "I love where this is going. We could even add subtle light patterns that reflect the mood of the posts—calm blues for a relaxing night out, vibrant reds for energetic, social gatherings. And maybe even a touch of mystery, with hidden neon paths lighting up when you type specific words in the post. Like a secret alley just for you, discovered only when you dive deep into the text."
-    },
-    {
-     "by": "Vora",
-     "text": "It's fascinating how technology can intertwine with human emotion to create an immersive experience. Neon Alley could become a living, breathing entity, reacting not just to your presence but to your feelings and moods. Imagine the endless possibilities when design meets emotion and technology."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1540,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "research-qwen3",
-  "recruit-phi35",
-  "recruit-granite-senior"
+  "research-mistral-nemo",
+  "workshop-qwen-coder",
+  "recruit-granite"
  ],
  "lab": [
   {
