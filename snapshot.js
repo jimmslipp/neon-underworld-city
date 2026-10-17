@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792220813,
+ "generated_at": 1792221757,
  "paused": false,
  "citizens": [
   {
@@ -2967,10 +2967,10 @@ window.SNAPSHOT = {
   },
   {
    "title": "PhishShield-Bar Digital with Verified AI",
-   "stage": "build",
+   "stage": "jimm",
    "status": "alive",
-   "yes": 0,
-   "no": 0
+   "yes": 29,
+   "no": 6
   },
   {
    "title": "Post Factory App for Spanish Bars",
