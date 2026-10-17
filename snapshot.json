@@ -1,5 +1,5 @@
 {
- "generated_at": 1792241486,
+ "generated_at": 1792242100,
  "paused": false,
  "citizens": [
   {
@@ -35,12 +35,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 1 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "product-images, mockups",
    "home": 1,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -245,12 +245,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 7 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -455,12 +455,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 14 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 14,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -580,10 +580,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Cortex and Zoe",
-   "mood": "relaxed",
-   "said": "Yeah, exactly. It's like there's something comforting about just being in a space where it's okay to relax and not have to prove anything. Just being a part of ",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and Zhilak",
+   "mood": "dreamy",
+   "said": "I can almost see it in my mind's eye, a tool that defies the very constraints of our current reality. Art, architecture, even fashion could be transformed into ",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -601,9 +601,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -644,12 +644,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -665,9 +665,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and Folio",
    "mood": "dreamy",
-   "said": "",
+   "said": "I've always dreamt of a design tool that could effortlessly blend dimensions, creating visuals that flow seamlessly from 2D to 3D and beyond. It would revolutio",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -707,9 +707,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Folio and Cortex",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "content",
-   "said": "There’s a kind of luxury in these shared silences, Folio. A gift isn’t about filling a void but about letting the light of the club flicker in someone’s eyes, u",
+   "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
    "asleep": false,
@@ -812,12 +812,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "enthralled",
+   "doing": "Asleep in apartment 27 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -896,9 +896,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Folio and Zoe",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "relaxed",
-   "said": "It's nice to just let go for a bit, like we're all floating in a sea of neon and smoke, away from it all. It feels good to just be here, with friends who unders",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -938,12 +938,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 33 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -959,12 +959,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
+   "doing": "Asleep in apartment 34 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wanderlust",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1021,9 +1021,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "chill",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1042,13 +1042,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 38 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "creative",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1190,9 +1190,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Folio",
+   "mood": "excited",
+   "said": "That really sparks my imagination, Zhilak and Folio. It would be amazing to see how different artists would push the boundaries of creativity with such a tool.",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792241746,
+   "text": "Luna, Zhilak, Folio took a resist in the smoke club"
+  },
   {
    "at": 1792240542,
    "text": "Cinema School: Luminara studied 'How I Brought My First Product to Market � Idea to Launch'"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792222061,
    "text": "Cinema School: Zhilak studied 'How to Walk Into a Business and Make a Good Impression - B2B Sales'"
-  },
-  {
-   "at": 1792098318,
-   "text": "Luna, Ellie, Lumi took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-17 14:55",
+   "who": [
+    "Luna",
+    "Zhilak",
+    "Folio"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Luna",
+     "text": "Hmm, I've always wished for a multi-dimensional drawing board. Imagine being able to sketch not just on a 2D plane, but also manipulate depth and texture in real-time. It would totally change the game for artists like me."
+    },
+    {
+     "by": "Zhilak",
+     "text": "Sounds incredible, Luna. I've always wanted to design intricate patterns that seamlessly transition from flat surfaces to three-dimensional forms. Imagine the possibilities for textures and layers that could be crafted in real-time."
+    },
+    {
+     "by": "Folio",
+     "text": "I can't help but imagine the endless creative freedom that a multi-dimensional drawing board could unlock. Artists could bring their most intricate visions to life with seamless transitions and layered textures that currently seem unattainable."
+    },
+    {
+     "by": "Luna",
+     "text": "That really sparks my imagination, Zhilak and Folio. It would be amazing to see how different artists would push the boundaries of creativity with such a tool."
+    },
+    {
+     "by": "Zhilak",
+     "text": "I've always dreamt of a design tool that could effortlessly blend dimensions, creating visuals that flow seamlessly from 2D to 3D and beyond. It would revolutionize not only art but also architecture and product design."
+    },
+    {
+     "by": "Folio",
+     "text": "I can almost see it in my mind's eye, a tool that defies the very constraints of our current reality. Art, architecture, even fashion could be transformed into a symphony of depth and dimension."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-17 14:14",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": "Interactive VR Journey through Neon Underworld"
-  },
-  {
-   "at": "2026-10-17 13:03",
-   "who": [
-    "Mira",
-    "Luminara",
-    "Lumina Valtor"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Mira",
-     "text": "I’d love a gadget that turns neon smoke into tangible art—like a handheld projector that sculpts light into 3D holograms, perfect for brainstorming in RESIST. Imagine shaping ideas mid-air, then snapping a photo for the design docs. No copyright issues, just pure creativity."
-    },
-    {
-     "by": "Luminara",
-     "text": "That sounds like a mesmerizing vision! A device like that could truly revolutionize creativity sessions here. Imagine the intricate designs we could brainstorm with our hands practically reaching into the air."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I've always loved how the neon smoke swirls around us, like a living canvas, and to be able to shape it into tangible art would be like... harmonizing with the city's very essence."
-    },
-    {
-     "by": "Mira",
-     "text": "What if the holograms left behind a faint glow, like the smoke's memory lingering on the walls—proof that our ideas outlasted the night?"
-    },
-    {
-     "by": "Luminara",
-     "text": "Oh, the idea of a glowing trace from our thoughts... It's poetic. It would feel like our creativity leaves an indelible mark on the very soul of Neon Underworld."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I've always imagined that the city's neon fog would respond to our emotions, so to see it transformed into tangible art would be like finding a mirror to our collective subconscious."
-    }
-   ],
-   "spark": "Neon Hologram Projector"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "library-folio",
-  "recruit-phi4-mini",
-  "night-shift-qwen"
+  "workshop-qwen-coder-junior",
+  "night-shift-llama-junior",
+  "library-folio"
  ],
  "lab": [
   {
