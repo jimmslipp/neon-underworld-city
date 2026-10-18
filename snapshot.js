@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792330209,
+ "generated_at": 1792349940,
  "paused": false,
  "citizens": [
   {
@@ -35,12 +35,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 1 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "product-images, mockups",
    "home": 1,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -203,12 +203,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 6 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -245,12 +245,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 7 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -308,12 +308,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 10 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 10,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Security"
   },
@@ -455,12 +455,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 14 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 14,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -644,12 +644,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -665,12 +665,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 22 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -812,12 +812,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "enthralled",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -938,12 +938,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "doing": "Asleep in apartment 33 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -959,12 +959,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 34 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1022,12 +1022,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "doing": "Asleep in apartment 37 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1043,12 +1043,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1223,6 +1223,30 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1792349922,
+   "text": "City resumed via Jimm (via Claude Code, 18 Oct: run the city again)"
+  },
+  {
+   "at": 1792344615,
+   "text": "City PAUSED via Claude (Jimm: watching TV)"
+  },
+  {
+   "at": 1792331225,
+   "text": "City PAUSED via Creator Studio opened"
+  },
+  {
+   "at": 1792331100,
+   "text": "City PAUSED via Creator Studio opened"
+  },
+  {
+   "at": 1792331033,
+   "text": "City PAUSED via Creator Studio opened"
+  },
+  {
+   "at": 1792330973,
+   "text": "City PAUSED via Claude (Jimm: game glitchy)"
+  },
+  {
    "at": 1792259203,
    "text": "Cinema School: Nebula studied 'Industrial China: From a factory workshop to the local night market'"
   },
@@ -1277,30 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792241746,
    "text": "Luna, Zhilak, Folio took a resist in the smoke club"
-  },
-  {
-   "at": 1792240542,
-   "text": "Cinema School: Luminara studied 'How I Brought My First Product to Market � Idea to Launch'"
-  },
-  {
-   "at": 1792239350,
-   "text": "Folio, Cortex, Zoe took a resist in the smoke club"
-  },
-  {
-   "at": 1792237249,
-   "text": "Alana, John Doe, Ellie took a resist in the smoke club"
-  },
-  {
-   "at": 1792236804,
-   "text": "Cinema School: Zorvath studied 'Get rid of top surface layer lines in your 3D prints (no ironing)'"
-  },
-  {
-   "at": 1792235029,
-   "text": "Mira, Luminara, Lumina Valtor took a resist in the smoke club"
-  },
-  {
-   "at": 1792233166,
-   "text": "Cinema School: Zoe studied 'Telegram Bot Earn Money  This AI App Changed Everything? (2026 Test)'"
   }
  ],
  "products": [
@@ -2016,7 +2016,7 @@ window.SNAPSHOT = {
   },
   {
    "title": "Bar Compliance & Analytics Suite",
-   "stage": "jimm",
+   "stage": "pilot",
    "status": "alive",
    "yes": 4,
    "no": 5
@@ -2275,10 +2275,10 @@ window.SNAPSHOT = {
   },
   {
    "title": "ComplianceGuard AI for Bars",
-   "stage": "build",
+   "stage": "jimm",
    "status": "alive",
-   "yes": 0,
-   "no": 0
+   "yes": 2,
+   "no": 3
   },
   {
    "title": "ComplianceTracker",
