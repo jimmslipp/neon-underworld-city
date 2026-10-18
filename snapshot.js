@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792350956,
+ "generated_at": 1792351560,
  "paused": false,
  "citizens": [
   {
@@ -2905,10 +2905,10 @@ window.SNAPSHOT = {
   },
   {
    "title": "Neon TableTalk AI Content",
-   "stage": "build",
+   "stage": "jimm",
    "status": "alive",
-   "yes": 0,
-   "no": 0
+   "yes": 24,
+   "no": 9
   },
   {
    "title": "Neon TapasAI: Culturally Tailored Social Media for Spanish Bars",
