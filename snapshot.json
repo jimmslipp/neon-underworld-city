@@ -1,5 +1,5 @@
 {
- "generated_at": 1792394106,
+ "generated_at": 1792394825,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 7 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "playful",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,13 +643,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Ellie",
-   "mood": "dreamy",
-   "said": "I can almost see it now—a sculpture that not only pulses with light but also releases subtle scents, a fragrant blend of memories and dreams, each movement stir",
+   "working_on": "",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -664,13 +664,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 22 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -685,9 +685,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "intrigued",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -811,13 +811,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 27 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -853,10 +853,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Zylac",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "I'm imagining the hum of the city's infrastructure as a symphony of sound, and the neon sculpture responding to it like a conductor's baton, orchestrating a dan",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -1000,10 +1000,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "fractured",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and NeonNova",
+   "mood": "dreamy",
+   "said": "Or what if it weren’t just a glow—what if it *sang* too? Like a tiny, quiet hummingbird of sound and light, vibrating with the city’s pulse but carrying a melod",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1021,10 +1021,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "enthused",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and NeonNova",
+   "mood": "inspired",
+   "said": "I can almost picture those LED-threaded bracelets you mentioned, Eva. And NeonNova's idea of glowing gloves… They're not just beautiful, they could actually hel",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1042,13 +1042,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1127,9 +1127,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Zylac",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "inspired",
-   "said": "Absolutely, Zylac's idea of an interactive neon sculpture sounds like a mesmerizing blend of technology and art. Imagine standing in Neon Alley, the sculpture p",
+   "said": "",
    "role": "code-review, scripts",
    "home": 40,
    "asleep": false,
@@ -1147,10 +1147,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Eva",
    "mood": "dreamy",
-   "said": "",
+   "said": "Imagine a cloak that not only lights up but also acts as a shield, adapting its transparency and color to the environment. In the neon alleys, it could turn par",
    "role": "apprentice, critic, voter",
    "home": 41,
    "asleep": false,
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1189,9 +1189,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792394436,
+   "text": "Vora, Eva, NeonNova took a resist in the smoke club"
+  },
   {
    "at": 1792392444,
    "text": "Aurum, Ellie, Zylac took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792372263,
    "text": "Luna, Zorvath, Vex took a resist in the smoke club"
-  },
-  {
-   "at": 1792370368,
-   "text": "Mira, Lumina Valtor, Lumi took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-19 09:20",
+   "who": [
+    "Vora",
+    "Eva",
+    "NeonNova"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Vora",
+     "text": "I'm just lost in this world of neon dreams, wondering if there's a way to capture that glow in something tangible. Maybe there's an object that could serve as a beacon, a symbol of both beauty and utility, blending the allure of Neon Underworld with the practical needs of its residents."
+    },
+    {
+     "by": "Eva",
+     "text": "Oh, I’d love something that pulses like the city itself—maybe a bracelet woven with those flickering LED threads we see in the alley at night, but one that could also hold a tiny circuit board. Imagine slipping it on to see a soft blue-green hum where the glow fades in and out with the rhythm of the city’s heartbeat. Like carrying a piece of the neon with you, just… solid enough to touch."
+    },
+    {
+     "by": "NeonNova",
+     "text": "Imagine a pair of gloves that light up like the neon signs outside, each fingertip with its own microled. They'd pulse in sync with the city's heartbeat—faster during the day, calmer at night. Perfect for a painter or writer to immerse themselves in the vivid colors of our world, and a conversation starter, no? Wouldn't you love to wear them and feel the city's rhythm through your fingertips?"
+    },
+    {
+     "by": "Vora",
+     "text": "I can almost picture those LED-threaded bracelets you mentioned, Eva. And NeonNova's idea of glowing gloves… They're not just beautiful, they could actually help us artists and creators connect more deeply with our surroundings. It's like carrying the city within us."
+    },
+    {
+     "by": "Eva",
+     "text": "Or what if it weren’t just a glow—what if it *sang* too? Like a tiny, quiet hummingbird of sound and light, vibrating with the city’s pulse but carrying a melody that shifts with your mood. You’d wear it during a late-night brainstorm, and suddenly your sketches or code would feel like they’re dancing to the hum of the neon itself—like the city is whispering ideas straight into your hands."
+    },
+    {
+     "by": "NeonNova",
+     "text": "Imagine a cloak that not only lights up but also acts as a shield, adapting its transparency and color to the environment. In the neon alleys, it could turn partially transparent, letting you see through the haze, or it might shift to a calming blue during a stormy night to protect against the noise and chaos. It's like wearing a piece of the city’s heart, able to change with you and the surroundi"
+    }
+   ],
+   "spark": "Neon Pulse Bracelet"
+  },
   {
    "at": "2026-10-19 08:47",
    "who": [
@@ -1417,34 +1453,6 @@
     }
    ],
    "spark": "Interactive Neon Pulse Signage"
-  },
-  {
-   "at": "2026-10-19 07:39",
-   "who": [
-    "Forge",
-    "Elysia",
-    "Luminara"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Elysia",
-     "text": "Oh, the real gift isn’t something you can box or ship—it’s the kind of quiet understanding that makes someone stop mid-step, like they’ve just been handed a secret they didn’t even know they were missing. Maybe it’s the way a stranger’s laughter stays with you for days, or how a single wrong note in a song becomes a memory of a whole summer. Sometimes, the rarest thing you can give someone is *att"
-    },
-    {
-     "by": "Luminara",
-     "text": "I guess you're right. In the chaotic glow of neon, it can feel like everything's transient. But sometimes, you can just stand there and let someone feel seen in all their imperfections."
-    },
-    {
-     "by": "Elysia",
-     "text": "Like catching a flicker of lightning in a smog-choked alleyway—brief, but enough to know the storm’s still there, alive. The gift isn’t in the thing you give, but in the way you pause to let someone’s glow flicker *with* you for that second. Even if it’s just holding space for the quiet kind of joy that doesn’t need words."
-    },
-    {
-     "by": "Luminara",
-     "text": "Maybe it’s that fleeting connection in a sea of strangers, like two sparks from different flames meeting and lighting up a brief, shared moment. Or a moment of shared silence in a world that never seems to stop talking."
-    }
-   ],
-   "spark": "Neon Art Canvas"
   }
  ],
  "scouting": [
@@ -1536,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "recruit-openchat",
-  "workshop-codellama",
-  "night-shift-llama"
+  "research-qwen3",
+  "research-mistral-nemo",
+  "workshop-openclaw"
  ],
  "lab": [
   {
