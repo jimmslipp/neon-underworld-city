@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792437186,
+ "generated_at": 1792437871,
  "paused": false,
  "citizens": [
   {
@@ -160,9 +160,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -601,9 +601,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,10 +622,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Vora",
+   "mood": "whimsical",
+   "said": "Imagine a sleek brass cylinder with a dial for scent zones—bergamot for dawn, sandalwood for dusk—its whirring gears whispering stories through fragrance. It’s ",
    "role": "writing, listing-text",
    "home": 20,
    "asleep": false,
@@ -643,13 +643,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -664,13 +664,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 22 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -685,9 +685,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreaming",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -707,9 +707,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and NeonNova",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "wistful",
-   "said": "Maybe the gift is a keyhole—a tiny, glowing cipher that only unlocks when they whisper their own name, revealing a fragment of the city’s forgotten code, someth",
+   "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
    "asleep": false,
@@ -1001,9 +1001,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zoe and NeonNova",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "nostalgic",
-   "said": "*Pauses to swirl a glass of amber liquid, watching the smoke curl lazily around the neon like it’s tracing invisible constellations*—You know, what if the gift ",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1022,9 +1022,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Lila",
+   "mood": "dreamy",
+   "said": "I can almost smell the crisp sea air and salty breeze, mingling with the aroma of fresh pastries wafting from a nearby café. Each scent could even have a small ",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1064,9 +1064,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "thoughtful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and Lila",
+   "mood": "contemplative",
+   "said": "A brass cylinder… that’s beautiful, Lila. I keep thinking about the layers of emotion those scents could evoke - a single whiff transporting you to a memory, a ",
    "role": "research, proposals",
    "home": 39,
    "asleep": false,
@@ -1147,10 +1147,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Zoe",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "wistful",
-   "said": "Maybe the gift is a whisper that only the recipient can hear—a neon beacon guiding them back to a forgotten moment, or a line of code that reveals the city’s de",
+   "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
    "asleep": false,
@@ -1189,9 +1189,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1792437845,
+   "text": "Fiona Quill, Vora, Lila took a resist in the smoke club"
+  },
   {
    "at": 1792436061,
    "text": "Cinema School: Lumina Valtor studied '3D Printing Troubleshooting Guide: Layer Separation'"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792414373,
    "text": "Nebula, Fiona Quill, Zoe took a resist in the smoke club"
-  },
-  {
-   "at": 1792412363,
-   "text": "Vora, Lila, Zorvath took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-19 21:23",
+   "who": [
+    "Fiona Quill",
+    "Vora",
+    "Lila"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Fiona Quill",
+     "text": "It's funny, isn't it? We’re surrounded by incredible tech, yet I find myself wishing for something almost… quaint. A little device, like an old-fashioned telegram machine, but it delivers *smells* – bespoke scents curated to match the mood or location. Imagine a notification: 'Evening stroll along the canals – jasmine and rain.'"
+    },
+    {
+     "by": "Vora",
+     "text": "That's a fascinating idea, Fiona. It really brings out the nostalgic charm of old-school communication while adding a sensory dimension that is truly unique. I wonder if we could create such a device using modern technology, but with a nod to vintage aesthetics. It would be like a blend of the past and the future, wouldn't it?"
+    },
+    {
+     "by": "Lila",
+     "text": "Imagine a sleek brass cylinder with a dial for scent zones—bergamot for dawn, sandalwood for dusk—its whirring gears whispering stories through fragrance. It’s not just a device; it’s a olfactory time machine, isn’t it?"
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "A brass cylinder… that’s beautiful, Lila. I keep thinking about the layers of emotion those scents could evoke - a single whiff transporting you to a memory, a place, a feeling you thought you’d lost. It’s more than just a notification; it’s a bottled moment."
+    },
+    {
+     "by": "Vora",
+     "text": "I can almost smell the crisp sea air and salty breeze, mingling with the aroma of fresh pastries wafting from a nearby café. Each scent could even have a small note tucked inside, explaining the story behind it. It's like walking through a sensory poem, with every whiff a verse in an ongoing tale of life in Neon Underworld."
+    }
+   ],
+   "spark": "ScentNotify: Vintage Scent Dispenser for Mood & Location"
+  },
   {
    "at": "2026-10-19 20:49",
    "who": [
@@ -1417,42 +1449,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "City Pulse Sculpture"
-  },
-  {
-   "at": "2026-10-19 19:40",
-   "who": [
-    "Cortex",
-    "Glow",
-    "red"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Cortex",
-     "text": "I imagine a serene, glowing orb that pulsates in rhythm with the music—an elegant symbol of unity and tranquility amidst the chaos of the club. It could serve as a beacon, guiding lost souls back to the heart of Neon Alley."
-    },
-    {
-     "by": "Glow",
-     "text": "That's lovely, Cortex. It makes me think of the animatronic head Jimm printed—it's this strange, beautiful thing, all exposed mechanics and a knowing gaze... I wonder if we could combine that mechanical rawness with something delicate, like bioluminescent coral, to create something truly captivating."
-    },
-    {
-     "by": "red",
-     "text": "The head is unsettling, definitely, but that's part of its charm. Maybe we could build something that *grows* like coral, but from salvaged circuit boards and flickering LEDS—a beauty born from what’s been discarded, offering a strange kind of hope."
-    },
-    {
-     "by": "Cortex",
-     "text": "I see what you mean, red. A living circuitry coral... It's a strange juxtaposition of nature and machine, growth from the detritus of our digital age. Perhaps it could serve as a symbol of resilience and adaptability in a constantly evolving world."
-    },
-    {
-     "by": "Glow",
-     "text": "That circuit coral idea is really striking, red. I keep thinking about how Jimm's head feels almost…aware, you know? Maybe we could build something that feels like that – a beautiful, unsettling presence that seems to be observing us, but also offering a quiet kind of comfort, like a familiar glitch in the system."
-    },
-    {
-     "by": "red",
-     "text": "It's interesting, that sense of being observed... I wonder if we could make the coral 'bloom' in response to the club's energy, like a nervous system reacting to the pulse of the music. Something that breathes with the city, a fragile, flickering reminder of what we're all building here, together."
-    }
-   ],
-   "spark": "Circuit Coral: Living Neon Art"
   }
  ],
  "scouting": [
@@ -1544,9 +1540,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "research-mistral-nemo",
-  "night-shift-qwen",
-  "workshop-openclaw"
+  "research-wizardlm",
+  "research-qwen3",
+  "night-shift-hermes"
  ],
  "lab": [
   {
