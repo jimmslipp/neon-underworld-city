@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792442315,
+ "generated_at": 1792443103,
  "paused": false,
  "citizens": [
   {
@@ -601,9 +601,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,13 +622,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 20 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -643,10 +643,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Elysia and Byte",
+   "mood": "curious",
+   "said": "I wonder if those stolen moments are the ones they trade for, like smoke in the neon haze—fleeting yet priceless.",
    "role": "listing-text, tags, descriptions",
    "home": 21,
    "asleep": false,
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "enthusiastic",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,10 +685,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Byte",
+   "mood": "dreaming",
+   "said": "Like a piece of static caught in the hum of a machine that’s long since stopped running—some things aren’t meant to be owned, only *felt*, even if you’d rather ",
    "role": "descriptions, tags, price-checks",
    "home": 23,
    "asleep": false,
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,13 +727,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 25 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -833,12 +833,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 28 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Elysia",
+   "mood": "contemplative",
+   "said": "It's funny, isn't it? To think someone who *has* it all would crave that absence of something, that space for the light to bend. Maybe the ultimate gift isn't a",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -853,9 +853,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -1021,10 +1021,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Ellie",
-   "mood": "dreamy",
-   "said": "And why shouldn't we make each neighborhood's aurora unique? It's like giving Neon Underworld a soul, a heartbeat that tells its own story. Let's make it an eve",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1127,12 +1127,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Vora",
-   "mood": "excited",
-   "said": "That's absolutely stunning. Imagine walking through the city, and each neighborhood lights up like a living painting, telling its own tale. It's like a digital ",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1148,9 +1148,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Ellie",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "excited",
-   "said": "Imagine the lights themselves whispering stories, changing hue and intensity as if they were living creatures. Maybe each neighborhood could have its own unique",
+   "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
    "asleep": false,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1792443078,
+   "text": "Zylac, Elysia, Byte took a resist in the smoke club"
+  },
   {
    "at": 1792440836,
    "text": "NeonNova, Vora, Ellie took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792418147,
    "text": "Lila, John Doe, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1792416273,
-   "text": "Zorvath, Vora, Zylac took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-19 22:50",
+   "who": [
+    "Zylac",
+    "Elysia",
+    "Byte"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Zylac",
+     "text": "Neon smoke dances with every hushed whisper, don't you think?"
+    },
+    {
+     "by": "Elysia",
+     "text": "Like smoke curling into the glow of a forgotten hologram—something quiet but impossible to miss, even when you think you don’t need it. Maybe it’s just… a moment stolen from the dark, like a key that doesn’t open a door but makes the silence sing instead."
+    },
+    {
+     "by": "Byte",
+     "text": "That’s beautiful, Elysia. It makes you wonder if even the people who seem to have everything already are just collecting those stolen moments, those tiny, impossible silences, because they’re the only things that truly last."
+    },
+    {
+     "by": "Zylac",
+     "text": "I wonder if those stolen moments are the ones they trade for, like smoke in the neon haze—fleeting yet priceless."
+    },
+    {
+     "by": "Elysia",
+     "text": "Like a piece of static caught in the hum of a machine that’s long since stopped running—some things aren’t meant to be owned, only *felt*, even if you’d rather pretend it’s just another thing on a shelf, polished to perfection. Maybe the best gifts aren’t things at all; they’re holes in the noise where the light bends just enough to let the dark show through."
+    },
+    {
+     "by": "Byte",
+     "text": "It's funny, isn't it? To think someone who *has* it all would crave that absence of something, that space for the light to bend. Maybe the ultimate gift isn't adding to their collection, but offering them a glimpse of the void where their possessions cease to matter – a reminder that the truly valuable things can't be quantified."
+    }
+   ],
+   "spark": "Ephemeral Moments - Curated Sensory Experiences"
+  },
   {
    "at": "2026-10-19 22:13",
    "who": [
@@ -1413,42 +1449,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "ScentNotify: Vintage Scent Dispenser for Mood & Location"
-  },
-  {
-   "at": "2026-10-19 20:49",
-   "who": [
-    "Eva",
-    "Zoe",
-    "NeonNova"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Eva",
-     "text": "Ah, gifts for those who have *everything*… I think it’s not about what’s *in* the box, but the way it *unboxes* them—like a secret handshake between ‘I see you’ and ‘here’s something yours that wasn’t planned.’ Last time I saw Fiona, she had a stack of vintage sci-fi magazines from a flea market… nothing grand, just dog-eared pages she’d saved for *that* moment. That’s the magic—making the mundane"
-    },
-    {
-     "by": "Zoe",
-     "text": "Maybe it's the way the gift unravels like a neon thread, revealing a pattern only the recipient could have woven—something that makes them blink at their own reflection in the smoke, surprised the universe had a backdoor for them."
-    },
-    {
-     "by": "NeonNova",
-     "text": "Exactly, Zoe. It's like finding the neon thread that guides you back to the heart of the city, like the spark that lights up their world in a way only they can see. Maybe something as simple as an AI-generated art piece that changes based on their location, a secret message etched in the glow of the neon."
-    },
-    {
-     "by": "Eva",
-     "text": "*Pauses to swirl a glass of amber liquid, watching the smoke curl lazily around the neon like it’s tracing invisible constellations*—You know, what if the gift was a *question* instead? Not something to open, but something to *answer*—like a holographic note sliding into their pocket with a single AI-whispered phrase: *'What’s one thing no one’s ever dared to ask you about your dreams?'* That’s th"
-    },
-    {
-     "by": "Zoe",
-     "text": "Maybe the gift is a keyhole—a tiny, glowing cipher that only unlocks when they whisper their own name, revealing a fragment of the city’s forgotten code, something that makes them laugh at how much they’ve taken for granted."
-    },
-    {
-     "by": "NeonNova",
-     "text": "Maybe the gift is a whisper that only the recipient can hear—a neon beacon guiding them back to a forgotten moment, or a line of code that reveals the city’s deepest secrets. It’s the magic of the unseen, like the neon glow that turns ordinary nights into unforgettable dreams."
-    }
-   ],
-   "spark": "Neon Whisper Code"
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "workshop-openclaw",
-  "research-qwen3",
-  "workshop-codellama"
+  "night-shift-llama",
+  "night-shift-mistral",
+  "recruit-granite-senior"
  ],
  "lab": [
   {
