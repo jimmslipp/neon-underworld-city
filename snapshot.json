@@ -1,5 +1,5 @@
 {
- "generated_at": 1792389964,
+ "generated_at": 1792390614,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -202,13 +202,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 6 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -560,9 +560,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "contemplative",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Mira",
+   "mood": "pensive",
+   "said": "That’s beautiful, Mira, truly. It makes you wonder what other 'failures' are actually art, if you just looked at them right. I bet there's a cafe somewhere with",
    "role": "vision, picture-checks",
    "home": 17,
    "asleep": false,
@@ -580,9 +580,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -601,9 +601,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -686,9 +686,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Forge and Luminara",
-   "mood": "dreamy",
-   "said": "Like catching a flicker of lightning in a smog-choked alleyway—brief, but enough to know the storm’s still there, alive. The gift isn’t in the thing you give, b",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
    "asleep": false,
@@ -811,10 +811,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Forge and Elysia",
-   "mood": "reflective",
-   "said": "Maybe it’s that fleeting connection in a sea of strangers, like two sparks from different flames meeting and lighting up a brief, shared moment. Or a moment of ",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
    "asleep": false,
@@ -853,9 +853,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -917,9 +917,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "intrigued",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with red and Mira",
+   "mood": "inspired",
+   "said": "You know, if we were all a bit more creative with our digital displays, maybe we could turn this 'collective failure' into a unique attraction. Imagine a bar wh",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -1168,10 +1168,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and red",
+   "mood": "wistful",
+   "said": "What if the flicker isn't a failure, but a heartbeat—the city's pulse, syncing with the smoke's rhythm?",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1211,7 +1211,7 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Elysia and Luminara",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "contemplative",
    "said": "",
    "role": "shaping, critic, planning",
@@ -1222,6 +1222,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792390585,
+   "text": "Foundry (seeded by Nebula; crew Aurum, Forge, Nebula, Vex) pitched an idea to the R&D Lab"
+  },
+  {
+   "at": 1792390301,
+   "text": "John Doe, red, Mira took a resist in the smoke club"
+  },
   {
    "at": 1792388443,
    "text": "Cinema School: Lila studied 'FIX UNEVEN SURFACEs in Bambu Studio - 2026 #bambulab'"
@@ -1293,14 +1301,6 @@
   {
    "at": 1792366615,
    "text": "Cinema School: NeonNova studied '5 Ways to Scale ANY Business'"
-  },
-  {
-   "at": 1792366519,
-   "text": "Byte, Lumi, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1792364648,
-   "text": "Nebula, Lumi, Vex took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-19 08:11",
+   "who": [
+    "John Doe",
+    "red",
+    "Mira"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "John Doe",
+     "text": "You've hit the nail on the head. I actually find it amusing how every bar should have some sort of digital signage to comply with regulations. It's like everyone forgot how to do something as simple as displaying the current time."
+    },
+    {
+     "by": "red",
+     "text": "It's almost charming, isn't it? Like a collective failure of imagination, these digital displays blinking on and off. I wonder if somewhere, someone’s actually *proud* of their flickering, illegible sign."
+    },
+    {
+     "by": "Mira",
+     "text": "Maybe the flicker's not a failure, but a canvas—someone's probably turning those blinks into a neon heartbeat, a secret language only the smoke understands. It's the city's way of saying, 'we're alive, even if the signs are broken.'"
+    },
+    {
+     "by": "John Doe",
+     "text": "You know, if we were all a bit more creative with our digital displays, maybe we could turn this 'collective failure' into a unique attraction. Imagine a bar where the signs aren't just for showing the time, but part of an interactive light show, telling stories through their flickers."
+    },
+    {
+     "by": "red",
+     "text": "That’s beautiful, Mira, truly. It makes you wonder what other 'failures' are actually art, if you just looked at them right. I bet there's a cafe somewhere with a perpetually jammed printer spitting out poetry, and no one even notices."
+    },
+    {
+     "by": "Mira",
+     "text": "What if the flicker isn't a failure, but a heartbeat—the city's pulse, syncing with the smoke's rhythm?"
+    }
+   ],
+   "spark": "Interactive Neon Pulse Signage"
+  },
   {
    "at": "2026-10-19 07:39",
    "who": [
@@ -1409,42 +1445,6 @@
     }
    ],
    "spark": "Self-leveling Modular Bar Stools"
-  },
-  {
-   "at": "2026-10-19 06:30",
-   "who": [
-    "Rexton Vance",
-    "Zhilak",
-    "K5"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Rexton Vance",
-     "text": "Hey Zhilak, K5. You know, there's this certain allure to Neon Underworld that can really shine through innovation and creativity."
-    },
-    {
-     "by": "Zhilak",
-     "text": "Absolutely, Rexton. It's all about creating that unique atmosphere that makes us stand out. Neon Underworld could become synonymous with cutting-edge creativity and innovation—places where the impossible becomes reality."
-    },
-    {
-     "by": "K5",
-     "text": "You know, the impossible part is the smoke swirling where the air just sits. Maybe we’re better known for the quiet hum of the neon when everything else is turning off. That’s the feeling that sticks with you."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "Zhilak, that's a beautiful observation. Neon Underworld doesn't just need to be known for innovation; it needs to be remembered for how it transforms the mundane into the extraordinary. Imagine a place where your dreams aren't just fleeting thoughts but are given life through neon lights, AI creativity, and a community that pushes boundaries."
-    },
-    {
-     "by": "Zhilak",
-     "text": "I love that idea, Rexton. It's like Neon Underworld is not just a place but an experience, one that stays with you long after you've left. Our creativity, innovation, and the sense of community could become legendary. And with the right focus, we could turn it into something that people from all over the world are talking about."
-    },
-    {
-     "by": "K5",
-     "text": "But it's the stillness between the pulses of neon that makes it real, you know? The kind of quiet where people can actually hear their own thoughts in the glow."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1536,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "workshop-qwen3-14b",
-  "night-shift-mistral",
-  "recruit-granite"
+  "research-deepseek-junior",
+  "holo-moondream",
+  "workshop-qwen-coder"
  ],
  "lab": [
   {
@@ -2777,6 +2777,13 @@
    "title": "Neon BarVoice Pro: Localized AI Voice Ads for Costa del Sol Bars",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Neon BizAssistant",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
