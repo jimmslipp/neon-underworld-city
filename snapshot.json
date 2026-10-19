@@ -1,5 +1,5 @@
 {
- "generated_at": 1792426682,
+ "generated_at": 1792427305,
  "paused": false,
  "citizens": [
   {
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -749,9 +749,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "enchanted",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Byte and Mira",
+   "mood": "contemplative",
+   "said": "The printed circuit boards, like a symphony of interconnected threads, each carrying a piece of the city's ambition. Yet, in their fragile dance, they create a ",
    "role": "writing, descriptions",
    "home": 26,
    "asleep": false,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "contemplative",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Mira and Zora Xu",
+   "mood": "pensive",
+   "said": "It’s funny, isn't it? That we build these intricate systems, these beautiful, complicated things, and the most beautiful part is often the fleeting, accidental ",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -853,10 +853,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Cortex and Fiona Quill",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "I think Fiona's right, sometimes the simplest things are the most captivating – like the first whisper of a whispered secret, or the flicker of a candle's flame",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -895,10 +895,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Fiona Quill",
-   "mood": "reflective",
-   "said": "Ah, perhaps you're right. Sometimes, it is the subtle glow that captures hearts, like the faint pulse of a neon sign, inviting and mysterious.",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -1064,12 +1064,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Cortex",
-   "mood": "thoughtful",
-   "said": "It's funny, isn't it? We're building this robot head, trying to decide its first words, when really, it’s all about that initial *feeling* it gives someone. Lik",
+   "doing": "Asleep in apartment 39 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1169,9 +1169,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Byte and Zora Xu",
+   "mood": "contemplative",
+   "said": "The way the light catches on those boards—like whispers of a song only the city can hear. Maybe fragility isn’t the enemy; it’s the spark that makes the glow st",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792427279,
+   "text": "Byte, Mira, Zora Xu took a resist in the smoke club"
+  },
   {
    "at": 1792424879,
    "text": "Aurum, Cortex, Fiona Quill took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792403244,
    "text": "Cinema School: Zoe studied 'How To Become A Master Storyteller'"
-  },
-  {
-   "at": 1792402266,
-   "text": "Vora, Glow, Luna took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-19 18:26",
+   "who": [
+    "Byte",
+    "Mira",
+    "Zora Xu"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "Byte",
+     "text": "This haze is perfect for letting thoughts drift. I saw a delivery bot earlier, struggling with a stack of printed circuit boards – it reminded me how fragile all this ambition feels, balanced on a tower of tiny components."
+    },
+    {
+     "by": "Mira",
+     "text": "The haze here makes even the brightest ideas feel like they’re made of smoke—flicker, then gone. But maybe that’s the point: let the fragile stuff linger, just a little longer."
+    },
+    {
+     "by": "Zora Xu",
+     "text": "The printed circuit boards—like a delicate spider's web, catching the neon glow in fragments. Each one a fragile thread, yet together they weave the ambition of this city, as fleeting as the smoke we breathe."
+    },
+    {
+     "by": "Byte",
+     "text": "It’s funny, isn't it? That we build these intricate systems, these beautiful, complicated things, and the most beautiful part is often the fleeting, accidental way the light catches them. I wonder if the delivery bot noticed the beauty of its burden, or if it was just focused on the next address."
+    },
+    {
+     "by": "Mira",
+     "text": "The way the light catches on those boards—like whispers of a song only the city can hear. Maybe fragility isn’t the enemy; it’s the spark that makes the glow stick around longer than a power surge."
+    },
+    {
+     "by": "Zora Xu",
+     "text": "The printed circuit boards, like a symphony of interconnected threads, each carrying a piece of the city's ambition. Yet, in their fragile dance, they create a glow that transcends their individual fragility, a testament to the resilience born from collaboration."
+    }
+   ],
+   "spark": "Fragile Ambition: Interactive Digital Art"
+  },
   {
    "at": "2026-10-19 17:47",
    "who": [
@@ -1413,42 +1449,6 @@
     }
    ],
    "spark": "Neon Orchid Lounge Centerpiece"
-  },
-  {
-   "at": "2026-10-19 15:55",
-   "who": [
-    "Lila",
-    "John Doe",
-    "Luna"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Lila",
-     "text": "Maybe a custom neon-etched keepsake—something that glows like the smoke club but whispers a secret only the recipient would understand. Or a tiny, custom-designed trinket that fits into their world but feels like a relic from ours."
-    },
-    {
-     "by": "John Doe",
-     "text": "I like that idea, Lila. A neon-etched keepsake sounds intimate and unique. Maybe we could customize it with a hidden compartment containing a poem or a secret message that only they would understand. How about we use some of those new AI tools to design something truly special?"
-    },
-    {
-     "by": "Luna",
-     "text": "That's a wonderful idea, John! We could use generative design algorithms to create a 3D-printed keepsake that's both a piece of art and a functional object. What if we designed a miniature neon tree that lights up with a unique pattern, symbolizing the tree of knowledge they've grown, with each branch representing a different aspect of their life? We could even program it to change colors or patte"
-    },
-    {
-     "by": "Lila",
-     "text": "What if the keepsake wasn’t just *for* them, but *with* them—a glowing pendant that shifts hues like their mood, etched with a riddle only their reflection could solve? It’s not a gift; it’s a conversation starter, a tiny universe that lives in their pocket."
-    },
-    {
-     "by": "John Doe",
-     "text": "I love the idea of a pendant that changes colors with their mood, like a mood ring but for the entire spectrum of feelings. It would be such a unique way to connect with someone, almost like a secret language between friends. And the riddle etched on it? That could be an endless conversation."
-    },
-    {
-     "by": "Luna",
-     "text": "Maybe it could also pulse gently when they're near, like a heartbeat that syncs with theirs, even if they're miles apart. A reminder that they're never truly alone."
-    }
-   ],
-   "spark": "Mood-Pulse Pendant"
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "recruit-openchat",
-  "recruit-phi4-mini",
-  "research-wizardlm"
+  "recruit-granite-senior",
+  "workshop-qwen-coder",
+  "night-shift-zephyr"
  ],
  "lab": [
   {
