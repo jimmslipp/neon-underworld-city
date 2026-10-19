@@ -1,5 +1,5 @@
 {
- "generated_at": 1792450951,
+ "generated_at": 1792451559,
  "paused": false,
  "citizens": [
   {
@@ -160,13 +160,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 4 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": ""
   },
@@ -307,13 +307,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 10 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 10,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Security"
   },
