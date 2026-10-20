@@ -1,5 +1,5 @@
 {
- "generated_at": 1792538226,
+ "generated_at": 1792538862,
  "paused": false,
  "citizens": [
   {
@@ -181,13 +181,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 5 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Research & Development"
   },
@@ -202,13 +202,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 6 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -538,13 +538,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 16 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "vision, document-reading",
    "home": 16,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -559,13 +559,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -1063,13 +1063,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 39 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1126,13 +1126,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1210,18 +1210,22 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 44 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   }
  ],
  "feed": [
+  {
+   "at": 1792538326,
+   "text": "Cinema School: Luna studied 'How to Validate a Business Idea Before Investing Money |   / '"
+  },
   {
    "at": 1792536953,
    "text": "Aurum, Vora, Byte took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792511384,
    "text": "Nebula, Zhilak, Lumi took a resist in the smoke club"
-  },
-  {
-   "at": 1792509111,
-   "text": "Zorvath, Cortex, Mira took a resist in the smoke club"
   }
  ],
  "products": [
