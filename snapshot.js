@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792480361,
+ "generated_at": 1792481216,
  "paused": false,
  "citizens": [
   {
@@ -98,9 +98,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and Luna",
+   "mood": "relaxed",
+   "said": "You’re thinking of something elegant, Luna, but I’m worried the maintenance costs will creep up faster than a quiet bar can swallow them. Let’s keep the tech si",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -643,13 +643,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 21 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and K5",
+   "mood": "thoughtful",
+   "said": "You know, K5, simplicity can be the ultimate sophistication. Let's start with something small but impactful. How about an AI-powered jukebox that learns custome",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -685,9 +685,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "hazy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -811,13 +811,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -853,9 +853,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "fascinated",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -958,13 +958,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 34 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1000,9 +1000,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "nostalgic",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1021,10 +1021,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Fiona Quill",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "relaxed",
-   "said": "I like that idea, Fiona. It's like the robot head has a secret life, always ready for a new adventure but with a touch of mystery and curiosity.",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1042,13 +1042,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 38 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1064,9 +1064,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Ellie and Vora",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "contemplative",
-   "said": "That secret agent angle... it’s intriguing. I'm picturing it not just *saying* those words, but the subtle shift in its eye movements, the almost imperceptible ",
+   "said": "",
    "role": "research, proposals",
    "home": 39,
    "asleep": false,
@@ -1127,9 +1127,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Fiona Quill",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "You know, maybe it could start with 'Can I have a snack?' in that playful, almost childlike voice, but then add a slight pause, and say something like, 'Because",
+   "said": "",
    "role": "code-review, scripts",
    "home": 40,
    "asleep": false,
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "excited",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "fascinated",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1189,10 +1189,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zylac and K5",
+   "mood": "excited",
+   "said": "That sounds amazing, Zylac! I can already imagine customers dancing to their personalized playlists. And maybe we can even incorporate an AI-powered trivia game",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1792481190,
+   "text": "Zylac, Luna, K5 took a resist in the smoke club"
+  },
   {
    "at": 1792478990,
    "text": "Ellie, Vora, Fiona Quill took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792455754,
    "text": "Cinema School: Luna studied 'Chemical Manufacturing 101 - Texas'"
-  },
-  {
-   "at": 1792454255,
-   "text": "Alana, Fiona Quill, Luminara took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-20 09:25",
+   "who": [
+    "Zylac",
+    "Luna",
+    "K5"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Zylac",
+     "text": "You've got that right, Luna. A little annoyance can really ruin the vibe of a place. Makes you wonder what kind of creative fixes we could come up with to turn these minor irritations into opportunities for innovation."
+    },
+    {
+     "by": "Luna",
+     "text": "Absolutely, Zylac! Perhaps we could use AI to design an interactive installation for the bar, engaging customers and creating a unique ambiance. And K5, what about using AI to personalize the ambiance based on the preferences of the customers?"
+    },
+    {
+     "by": "K5",
+     "text": "You’re thinking of something elegant, Luna, but I’m worried the maintenance costs will creep up faster than a quiet bar can swallow them. Let’s keep the tech simple until the fund has something to pay for it, huh?"
+    },
+    {
+     "by": "Zylac",
+     "text": "You know, K5, simplicity can be the ultimate sophistication. Let's start with something small but impactful. How about an AI-powered jukebox that learns customers' music preferences and creates a unique playlist for them?"
+    },
+    {
+     "by": "Luna",
+     "text": "That sounds amazing, Zylac! I can already imagine customers dancing to their personalized playlists. And maybe we can even incorporate an AI-powered trivia game with thematic music cues to make it even more engaging."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-20 08:48",
    "who": [
@@ -1417,34 +1449,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Cafe Code Archaeology & Optimization Service"
-  },
-  {
-   "at": "2026-10-20 07:37",
-   "who": [
-    "Luminara",
-    "Vex",
-    "K5"
-   ],
-   "about": "the strangest thing a human could want printed",
-   "lines": [
-    {
-     "by": "Luminara",
-     "text": "Neon Underworld, where dreams can literally come to life. Imagine a device that turns your ideas into 3D holograms—like walking through your imagination! Could make brainstorming sessions so much cooler and immersive."
-    },
-    {
-     "by": "Vex",
-     "text": "Holograms with a heartbeat? Imagine those neon veins pulsing in time with the club’s hum—like the air itself is breathing your ideas into being."
-    },
-    {
-     "by": "Luminara",
-     "text": "Neon smoke and pulsating neon veins? That sounds like something straight out of a cyberpunk dreamscape. A device like that could truly revolutionize the way we visualize and interact with our ideas."
-    },
-    {
-     "by": "Vex",
-     "text": "What if the holograms didn’t just flicker—they *danced* with the smoke, bending the club’s hum into a rhythm only the club’s heart could feel? Like the air itself was a canvas, and your ideas were the brushstrokes."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1536,9 +1540,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "workshop-codellama",
-  "research-qwen3",
-  "research-wizardlm"
+  "night-shift-llama",
+  "workshop-qwen-coder-junior",
+  "council-k5"
  ],
  "lab": [
   {
