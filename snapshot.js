@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792466571,
+ "generated_at": 1792467209,
  "paused": false,
  "citizens": [
   {
@@ -97,13 +97,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Leadership"
   },
@@ -937,13 +937,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 33 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1792466696,
+   "text": "Cinema School: Folio studied 'Pricing Strategies | How To Price Your Product or Service? - Aloka Gunasekara Si'"
+  },
+  {
    "at": 1792465900,
    "text": "Mira, Vex, Lila took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792440660,
    "text": "Cinema School: Eva studied 'How to Backtest a Trading Strategy (Step-by-Step Guide) | The Long & The Short E'"
-  },
-  {
-   "at": 1792437845,
-   "text": "Fiona Quill, Vora, Lila took a resist in the smoke club"
   }
  ],
  "products": [
