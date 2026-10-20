@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792507727,
+ "generated_at": 1792508392,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -181,9 +181,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "thoughtful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "reflective",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,13 +685,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 23 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1792508265,
+   "text": "Foundry (seeded by red; crew Elysia, Forge, Lumina Valtor, red) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1792507620,
    "text": "Cinema School: Cortex studied 'dumb content strategy that made us millions'"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792487360,
    "text": "Vex, Zhilak, Eva took a resist in the smoke club"
-  },
-  {
-   "at": 1792485412,
-   "text": "Rexton Vance, John Doe, Glow took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2242,6 +2242,13 @@ window.SNAPSHOT = {
    "title": "BarSocial Content Studio",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "BarSocial Pro",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
