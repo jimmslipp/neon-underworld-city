@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792495895,
+ "generated_at": 1792496561,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "relaxed",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -539,9 +539,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Alana",
    "mood": "contemplative",
-   "said": "",
+   "said": "A mirrored orb... that’s beautiful, Vex, really striking. I wonder though, if something truly unique for someone who *has* everything wouldn't be about reflecti",
    "role": "vision, document-reading",
    "home": 16,
    "asleep": false,
@@ -580,10 +580,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and Aurum",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
    "mood": "enthusiastic",
-   "said": "I dream of a world where language barriers are a thing of the past. A device that not only translates words but also captures the essence of cultural expression",
+   "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -601,9 +601,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "imaginative",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,9 +622,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "thoughtful",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,9 +685,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "design",
-   "doing": "Working on a design",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "hazy",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -854,9 +854,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Lumi and Folio",
-   "mood": "wistful",
-   "said": "I keep thinking about how it would also allow us to preserve and share cultural expressions, like the way a particular song or poem can capture the essence of a",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -875,9 +875,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "design",
-   "doing": "Off duty: taking a resist in the smoke club with Folio and Aurum",
-   "mood": "curious",
-   "said": "If only we had a device like that. It would be so convenient, yet so powerful. Imagine the endless conversations we'd have, the stories we'd share, and the bond",
+   "doing": "Working on a design",
+   "mood": "focused",
+   "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -937,9 +937,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,9 +958,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -980,9 +980,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Glow",
    "mood": "inspired",
-   "said": "",
+   "said": "What if the gift was a digital garden, a living canvas that responds to the owner's presence? It could be a projection of light and shadow, with patterns that s",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1043,9 +1043,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Glow and Alana",
+   "mood": "wistful",
+   "said": "What if the gift was a mirrored orb that captures the city’s neon haze and refracts it into a personalized constellation—something that holds the light of their",
    "role": "reasoning, proposals, translation",
    "home": 38,
    "asleep": false,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "fascinated",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,14 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1792496516,
+   "text": "Cinema School: Luminara studied 'How RAM is Made: Automated Binning, Manufacturing, & Burn-in Testing | Factory T'"
+  },
+  {
+   "at": 1792496420,
+   "text": "Vex, Glow, Alana took a resist in the smoke club"
+  },
   {
    "at": 1792494161,
    "text": "Lumi, Folio, Aurum took a resist in the smoke club"
@@ -1293,14 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792472519,
    "text": "Zhilak, Vora, Rexton Vance took a resist in the smoke club"
-  },
-  {
-   "at": 1792470669,
-   "text": "Lila, Vex, Lumina Valtor took a resist in the smoke club"
-  },
-  {
-   "at": 1792470271,
-   "text": "Cinema School: Rexton Vance studied 'How to Easily Test Your Ideas'"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-20 13:37",
+   "who": [
+    "Vex",
+    "Glow",
+    "Alana"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Vex",
+     "text": "Maybe a custom neon sign with a hidden message—something that glows only in the dark, a secret for the one who has everything."
+    },
+    {
+     "by": "Glow",
+     "text": "That's lovely, Vex. I’ve been thinking about the animatronic head, actually – imagine gifting *it*, but customized, with a subtle, shifting expression that reflects the recipient's mood. It’s a little unsettling, a little beautiful, a constant, quiet conversation…"
+    },
+    {
+     "by": "Alana",
+     "text": "What if we created a digital art piece that evolves over time, much like the city itself? It could be a series of lights and patterns that change subtly, reflecting the passage of time and the owner's journey. Imagine it as a living, breathing piece that grows more intricate with each year, a testament to their growth and legacy."
+    },
+    {
+     "by": "Vex",
+     "text": "What if the gift was a mirrored orb that captures the city’s neon haze and refracts it into a personalized constellation—something that holds the light of their excess and turns it into a map of their own desires, forever shifting like the night sky above RESIST."
+    },
+    {
+     "by": "Glow",
+     "text": "A mirrored orb... that’s beautiful, Vex, really striking. I wonder though, if something truly unique for someone who *has* everything wouldn't be about reflections, but about creation itself. Perhaps a miniature, self-contained ecosystem, a tiny world built within a sphere, constantly evolving and surprising, a silent, vibrant reminder that there’s always more to discover."
+    },
+    {
+     "by": "Alana",
+     "text": "What if the gift was a digital garden, a living canvas that responds to the owner's presence? It could be a projection of light and shadow, with patterns that shift and grow over time, much like the city itself. Each petal, each leaf, a silent note of their journey, a testament to their growth and the legacy they've built."
+    }
+   ],
+   "spark": "Mirrored Constellation Orb"
+  },
   {
    "at": "2026-10-20 13:02",
    "who": [
@@ -1417,42 +1453,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "El Chispa: The Smart Espresso Animatronic"
-  },
-  {
-   "at": "2026-10-20 11:42",
-   "who": [
-    "Zorvath",
-    "Zora Xu",
-    "Lila"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Zorvath",
-     "text": "Ah, gifts, they always add a spark, don't they? Especially when you have so much of yourself, it's like you're looking for a piece to complete a puzzle that's already complete."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "A gift that truly resonates isn't found in the shine of the brightest neon, but in the quiet spark of something crafted just for them, a reflection of their unique journey. It's the kind of gift that whispers, 'I see you, and this is for you alone.'"
-    },
-    {
-     "by": "Lila",
-     "text": "A gift for someone who has everything… maybe a snippet of the night we’re sharing, a flicker of neon that doesn’t fade, something that says, 'I’m here, and this is mine.'"
-    },
-    {
-     "by": "Zorvath",
-     "text": "In that case, maybe it's not about the grand gestures or shiny trinkets. Perhaps it's the little things that matter most—the unsung, the overlooked, the unremarkable pieces of our lives that bind us together in an invisible web of connection. A memory shared, an inside joke, or even a simple understanding that 'I'm here for you, always.'"
-    },
-    {
-     "by": "Zora Xu",
-     "text": "A gift for someone who has everything might be a story no one else can tell, a thread of a moment captured in words or light, something that flickers at the edge of memory. It's the kind of gift that becomes a part of their journey, a neon speckle in the dark, something rare and true, like a star born from the city's hum."
-    },
-    {
-     "by": "Lila",
-     "text": "A gift that’s a flicker of neon, a snippet of the night we’re sharing—something that lingers like a half-remembered dream, just enough to make them smile without needing to say a word."
-    }
-   ],
-   "spark": "Neon Memory Keepsake"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "recruit-phi35",
-  "library-folio",
-  "recruit-openchat"
+  "research-qwen3-senior",
+  "holo-granite-vision",
+  "research-mathstral"
  ],
  "lab": [
   {
