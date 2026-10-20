@@ -1,5 +1,5 @@
 {
- "generated_at": 1792473242,
+ "generated_at": 1792473865,
  "paused": false,
  "citizens": [
   {
@@ -1189,13 +1189,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 43 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
