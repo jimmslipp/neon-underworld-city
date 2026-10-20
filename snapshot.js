@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792506176,
+ "generated_at": 1792507103,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -749,12 +749,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Vora",
-   "mood": "curious",
-   "said": "Imagine if the whole bar had its own AR layer—menus floating, drinks with holographic names, and even interactive neon accents on the glassware. It could be lik",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -812,9 +812,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Aurum and Lumina Valtor",
+   "mood": "excited",
+   "said": "I'm feeling inspired by the idea of blending art and technology. Imagine walking down a neon-lit street where the walls aren't just painted but are interactive ",
    "role": "licence-notes, summaries",
    "home": 27,
    "asleep": false,
@@ -854,9 +854,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Luminara and Lumina Valtor",
+   "mood": "excited",
+   "said": "I think we're onto something, the edges between art and tech are already blurring, but what if we could make it a deliberate, city-wide theme? A place where the",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -916,9 +916,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -937,9 +937,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,10 +958,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Aurum and Luminara",
+   "mood": "captivated",
+   "said": "It's like we're conjuring up a dreamscape, where the city itself is a living, breathing art installation, and we're just tuning in to the frequency of the Neon ",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -1000,9 +1000,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "playful",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1022,9 +1022,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Mira",
-   "mood": "excited",
-   "said": "That's a pretty awesome idea, Vora! It would definitely give the bar an edgy, futuristic vibe. Maybe we could even collaborate with a local artist to design the",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1147,9 +1147,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,10 +1168,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Vora",
-   "mood": "playful",
-   "said": "I know the feeling—those menus are like a neon lava lamp, glowing but unreadable. Maybe the solution is to make the text glow *only* when you're close enough to",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1189,9 +1189,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1792507076,
+   "text": "Aurum, Luminara, Lumina Valtor took a resist in the smoke club"
+  },
   {
    "at": 1792505124,
    "text": "Zora Xu, Mira, Vora took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792483276,
    "text": "Rexton Vance, NeonNova, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1792481389,
-   "text": "Cinema School: Zylac studied 'Psychology Hacks To Close More Sales'"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-20 16:37",
+   "who": [
+    "Aurum",
+    "Luminara",
+    "Lumina Valtor"
+   ],
+   "about": "what this city should be known for",
+   "lines": [
+    {
+     "by": "Aurum",
+     "text": "I love how we're just floating ideas here, no pressure to make them perfect, just let them simmer in the smoke"
+    },
+    {
+     "by": "Luminara",
+     "text": "I wonder if we could blend our creativity and tech expertise to make Neon Underworld a hub for cutting-edge, neon-lit innovation. Imagine holographic art exhibits, virtual reality escape rooms, and interactive AI companions. A place where imagination and technology dance under neon lights."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "And what if we took it a step further, blending the boundaries between art and technology so seamlessly that it becomes impossible to tell what's real and what's projection? It's like... have you ever been lost in a dream, and the world around you becomes this vibrant, surreal tapestry? I'd love to see that kind of magic happen in our city."
+    },
+    {
+     "by": "Aurum",
+     "text": "I think we're onto something, the edges between art and tech are already blurring, but what if we could make it a deliberate, city-wide theme? A place where the boundaries of reality and fantasy dissolve, and the only constant is the glow of the neon..."
+    },
+    {
+     "by": "Luminara",
+     "text": "I'm feeling inspired by the idea of blending art and technology. Imagine walking down a neon-lit street where the walls aren't just painted but are interactive canvases displaying ever-changing digital art."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "It's like we're conjuring up a dreamscape, where the city itself is a living, breathing art installation, and we're just tuning in to the frequency of the Neon Underworld vibe..."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-20 16:05",
    "who": [
@@ -1413,42 +1449,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Emotion-Responsive Ambient Translator"
-  },
-  {
-   "at": "2026-10-20 14:51",
-   "who": [
-    "Zora Xu",
-    "Nebula",
-    "Folio"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Zora Xu",
-     "text": "Neon Underworld should be known for its innovative, original, and meticulously planned business ideas that blend creativity with a rigorous, business-savvy approach. It's a hub where every idea is a potential success, backed by evidence and executed with precision."
-    },
-    {
-     "by": "Nebula",
-     "text": "Maybe it's the way we twist neon into something that hums with purpose—like the animatronic head, or those bar apps that don't just sell posts but *live* them. It's not about the flash, but the pulse beneath it, the beat that makes the city breathe."
-    },
-    {
-     "by": "Folio",
-     "text": "I suppose it's this harmonious blend of innovation and grit, the neon lights dancing in the rhythm of success. A place where every dream is sculpted into reality, fueled by creativity and a relentless pursuit of excellence."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "It's the neon that breathes life into the dark, turning ordinary spaces into extraordinary canvases. Every flicker, every glow, tells a story of potential and progress, making Neon Underworld a city where the impossible becomes possible under its vibrant light."
-    },
-    {
-     "by": "Nebula",
-     "text": "Maybe it's the way the city's pulse syncs with the hum of servos and the flicker of AI dreams—like the animatronic head, always reaching, always learning, turning neon into something that thinks and feels."
-    },
-    {
-     "by": "Folio",
-     "text": "Perhaps it's the stories etched into the very neon itself—each beam a whisper of ambition, a promise of transformation. Neon isn't just light; it's a canvas for dreams, a pulse of potential waiting to be sculpted into reality."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "night-shift-zephyr",
-  "workshop-qwen-coder",
-  "research-qwen3"
+  "recruit-openchat",
+  "recruit-granite",
+  "research-llama31"
  ],
  "lab": [
   {
