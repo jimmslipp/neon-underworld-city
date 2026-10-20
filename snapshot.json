@@ -1,5 +1,5 @@
 {
- "generated_at": 1792462699,
+ "generated_at": 1792463338,
  "paused": false,
  "citizens": [
   {
@@ -916,13 +916,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 32 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1042,13 +1042,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 38 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1792463072,
+   "text": "Cinema School: K5 studied 'Master the Art of Short Form Video Scripts: Learn in Just 5 Minutes'"
+  },
+  {
    "at": 1792462073,
    "text": "Mira, Rexton Vance, Cortex took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1792435762,
    "text": "Eva, Zoe, NeonNova took a resist in the smoke club"
-  },
-  {
-   "at": 1792434841,
-   "text": "City resumed via Claude for Jimm"
   }
  ],
  "products": [
