@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792458773,
+ "generated_at": 1792459445,
  "paused": false,
  "citizens": [
   {
@@ -727,13 +727,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1792459420,
+   "text": "Cinema School: Mira studied 'Furniture Flip from start to end - My process to buy, makeover, and resell (in 2'"
+  },
+  {
    "at": 1792458122,
    "text": "Folio, Zoe, Nebula took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792432166,
    "text": "Cinema School: Nebula studied 'How to Diagnose & Fix Serious Under Extrusion #FixMyPrint'"
-  },
-  {
-   "at": 1792431686,
-   "text": "Cortex, Glow, red took a resist in the smoke club"
   }
  ],
  "products": [
