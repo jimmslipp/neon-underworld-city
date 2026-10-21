@@ -1,5 +1,5 @@
 {
- "generated_at": 1792607956,
+ "generated_at": 1792608581,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,13 +202,13 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 6 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -580,10 +580,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and Cortex",
+   "mood": "curious",
+   "said": "I wonder if such an AI could even understand the nuances of creativity, the way it flickers and shifts like neon lights. It could perhaps even help us create ar",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -601,9 +601,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "descriptions, translation",
    "home": 19,
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,9 +685,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Vora",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "pensive",
-   "said": "It's funny, isn’t it? We build these incredible things – automated coffee machines, social media projections – and they become part of the atmosphere, almost li",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -854,9 +854,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and Vora",
-   "mood": "excited",
-   "said": "I love where this is going, Vora. Imagine the bar's social media presence suddenly exploding with perfectly crafted, algorithmically-generated posts about the c",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -896,9 +896,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and Folio",
+   "mood": "enthralled",
+   "said": "I can almost visualize it—a digital entity that understands the pulsating rhythm of our lives, adapting and evolving in harmony with us. It's like a living piec",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -937,13 +937,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 33 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "surreal",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "melancholy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1021,10 +1021,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Aurum and Byte",
-   "mood": "imaginative",
-   "said": "Absolutely, Aurum. The seamless integration of tech and ambiance could redefine what it means to be a 'spot' in the Neon Underworld. Maybe our coffee machine co",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "excited",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1189,10 +1189,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "reflective",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Folio and Cortex",
+   "mood": "inspired",
+   "said": "Yeah, it's amazing how an AI companion could grow with you. It could learn your habits, preferences, and even help you make important decisions. Imagine having ",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792608484,
+   "text": "Luna, Folio, Cortex took a resist in the smoke club"
+  },
   {
    "at": 1792606616,
    "text": "Aurum, Byte, Vora took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792581769,
    "text": "Nebula, K5, Elysia took a resist in the smoke club"
-  },
-  {
-   "at": 1792579767,
-   "text": "Byte, Zorvath, Luna took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-21 20:48",
+   "who": [
+    "Luna",
+    "Folio",
+    "Cortex"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Luna",
+     "text": "I keep thinking about the perfect gift for someone who already has everything—something that transforms their life. Maybe it's an AI companion that learns from them, adapts to their evolving needs, and helps them create new dreams."
+    },
+    {
+     "by": "Folio",
+     "text": "Hmm, an AI companion like that sounds intriguing. Imagine having an AI that could seamlessly integrate into your life, helping you with everything from mundane tasks to deep personal growth. It could adapt to your changing needs, learn from your experiences, and even help you navigate the complexities of the Neon Underworld."
+    },
+    {
+     "by": "Cortex",
+     "text": "Fascinating idea, Folio. An AI companion that evolves with you—it's like having a personal, ever-adapting friend. It could learn your interests, help you make new connections, and even assist in creating art or music that reflects your unique journey."
+    },
+    {
+     "by": "Luna",
+     "text": "Yeah, it's amazing how an AI companion could grow with you. It could learn your habits, preferences, and even help you make important decisions. Imagine having an AI that could understand you better than anyone else, helping you become the best version of yourself. Or, it could even help you discover new passions and talents that you never knew you had."
+    },
+    {
+     "by": "Folio",
+     "text": "I wonder if such an AI could even understand the nuances of creativity, the way it flickers and shifts like neon lights. It could perhaps even help us create art that embodies the spirit of Neon Underworld—vivid, ever-changing, and endlessly captivating."
+    },
+    {
+     "by": "Cortex",
+     "text": "I can almost visualize it—a digital entity that understands the pulsating rhythm of our lives, adapting and evolving in harmony with us. It's like a living piece of art, constantly changing and growing, just like Neon Underworld itself."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-21 20:16",
    "who": [
@@ -1409,42 +1445,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-21 18:47",
-   "who": [
-    "Lumi",
-    "red",
-    "John Doe"
-   ],
-   "about": "something beautiful that is also useful",
-   "lines": [
-    {
-     "by": "Lumi",
-     "text": "I was just admiring the neon art at the corner bar. It's like a living painting that breathes and changes with the night. I wonder if we could capture its essence and sell it as a digital collectible or even integrate it into our own projects."
-    },
-    {
-     "by": "red",
-     "text": "Yeah, I get that. It's funny, isn't it? Beauty and function don't have to be separate things... imagine a city where every design serves a purpose, but also just *looks* incredible, like a constant, evolving artwork."
-    },
-    {
-     "by": "John Doe",
-     "text": "You're onto something, Lumi. Art that evolves with time, a living tapestry. What if we used AI to reinterpret those changes, creating an endless stream of unique pieces that could be sold as NFTs or used as inspiration for new projects?"
-    },
-    {
-     "by": "Lumi",
-     "text": "That's an intriguing concept. A city where every element is a harmonious blend of beauty and utility. Imagine integrating AI-driven adaptive designs that not only evolve but also respond to the emotional state of the inhabitants. We could create a dynamic environment that changes with the collective mood of the city."
-    },
-    {
-     "by": "red",
-     "text": "It’s… almost a shame to dissect it, you know? That feeling of stumbling across something genuinely beautiful, that accidental poetry of light and shadow. Still, the potential... imagine buildings that shift their colours with the weather, or streetlights that bloom with patterns based on the time of day. It’s a lovely thought."
-    },
-    {
-     "by": "John Doe",
-     "text": "I suppose beauty can indeed be found in the most unexpected places, even in the seamless integration of form and function. Who would have thought that our city's regulations could inspire such creativity?"
-    }
-   ],
-   "spark": "Adaptive Neon Art"
   }
  ],
  "scouting": [
@@ -1536,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "recruit-openchat",
-  "recruit-granite-senior",
-  "research-qwen3"
+  "workshop-qwen-coder-junior",
+  "library-folio",
+  "recruit-phi4-mini"
  ],
  "lab": [
   {
