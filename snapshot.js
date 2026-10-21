@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792593819,
+ "generated_at": 1792594433,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -685,13 +685,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 23 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,9 +706,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,13 +727,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -811,9 +811,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -853,9 +853,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,7 +895,7 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "research",
    "doing": "Off duty: taking a resist in the smoke club with Folio and Zora Xu",
    "mood": "curious",
    "said": "I see it. An AI that creates stories from the smoke, weaving tales of Neon Underworld's heartbeats. A digital bard, crafting narratives from the very essence of",
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1792594180,
+   "text": "Cinema School: John Doe studied 'Plastic Injection Molding'"
+  },
   {
    "at": 1792593111,
    "text": "Cortex, Folio, Zora Xu took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792569218,
    "text": "K5, Vora, Alana took a resist in the smoke club"
-  },
-  {
-   "at": 1792567362,
-   "text": "Cinema School: Elysia studied '9 Minute Training To Destroy Any Sales Objection'"
   }
  ],
  "products": [
@@ -2209,7 +2209,7 @@ window.SNAPSHOT = {
   },
   {
    "title": "BarNeón Digital Signage Templates",
-   "stage": "pitch",
+   "stage": "build",
    "status": "alive",
    "yes": 0,
    "no": 0
