@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792545229,
+ "generated_at": 1792545844,
  "paused": false,
  "citizens": [
   {
@@ -727,13 +727,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -853,13 +853,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 29 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1792545625,
+   "text": "Cinema School: K5 studied 'Surviving in India�s Manufacturing Slums � An Unfiltered Documentary'"
+  },
+  {
    "at": 1792544522,
    "text": "Lumina Valtor, Luminara, Folio took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792519387,
    "text": "Cinema School: Lumina Valtor studied 'David Neagle Seminars: How to Price Your Product or Service'"
-  },
-  {
-   "at": 1792517741,
-   "text": "Zora Xu, Fiona Quill, Glow took a resist in the smoke club"
   }
  ],
  "products": [
