@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792586002,
+ "generated_at": 1792586780,
  "paused": false,
  "citizens": [
   {
@@ -644,9 +644,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Cortex and Byte",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "reflective",
-   "said": "Perhaps these orchids are more than just digital flora. Maybe they're a bridge, connecting us to the deeper, unseen roots of this cyber world, a symbol of the u",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
    "asleep": false,
@@ -833,9 +833,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Cortex",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "contemplative",
-   "said": "It's a fascinating paradox, isn't it? We strive for efficiency and precision in our work, building these intricate systems, yet we're drawn to the unpredictable",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -896,9 +896,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zylac and Byte",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "reflective",
-   "said": "Maybe these orchids are a reminder that even in a world of ones and zeros, there’s room for organic beauty, a fleeting glimpse of the infinite possibilities bey",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -1543,11 +1543,7 @@ window.SNAPSHOT = {
    "text": "Jimm (16 Oct, via Claude Code): \"set the city off working on anything it can for us\". Research only, read-only, nothing touches HGA machines, accounts or secrets; findings to Jimm for his yes. Jobs: (1) HGA Pursuit (browser racing game): fi"
   }
  ],
- "lounge": [
-  "night-shift-llama",
-  "recruit-phi4-mini",
-  "recruit-granite-senior"
- ],
+ "lounge": [],
  "lab": [
   {
    "title": "3D FlightLog Globe: Interactive Aviation History Tool",
@@ -2944,10 +2940,10 @@ window.SNAPSHOT = {
   },
   {
    "title": "Neon Social Suite",
-   "stage": "build",
+   "stage": "pilot",
    "status": "alive",
-   "yes": 0,
-   "no": 0
+   "yes": 16,
+   "no": 14
   },
   {
    "title": "Neon TableTalk AI Content",
