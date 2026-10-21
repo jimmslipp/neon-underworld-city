@@ -1,5 +1,5 @@
 {
- "generated_at": 1792623061,
+ "generated_at": 1792623677,
  "paused": false,
  "citizens": [
   {
@@ -853,13 +853,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 29 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -874,13 +874,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 30 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -895,13 +895,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 31 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1147,13 +1147,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 41 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1189,13 +1189,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 43 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792623649,
+   "text": "Cinema School: Mira studied 'Your Small Business Starter Kit: From Idea to First Customers.'"
+  },
   {
    "at": 1792623035,
    "text": "John Doe, Alana, Glow took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792597832,
    "text": "Cinema School: Nebula studied 'How Much Money Do Vending Machines Actually Make? Profit?'"
-  },
-  {
-   "at": 1792597297,
-   "text": "Zhilak, Aurum, Lumina Valtor took a resist in the smoke club"
   }
  ],
  "products": [
