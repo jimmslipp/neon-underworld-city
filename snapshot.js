@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792552453,
+ "generated_at": 1792553070,
  "paused": false,
  "citizens": [
   {
@@ -664,13 +664,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 22 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -1147,13 +1147,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 41 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1792552803,
+   "text": "Cinema School: Rexton Vance studied 'Social Media Marketing Strategies That Will Rule 2026'"
+  },
   {
    "at": 1792552427,
    "text": "Luna, Byte, Lila took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792526983,
    "text": "Cinema School: Vex studied 'This Is How We Opened Our Own ARCADE!'"
-  },
-  {
-   "at": 1792526195,
-   "text": "John Doe, Vex, Glow took a resist in the smoke club"
   }
  ],
  "products": [
