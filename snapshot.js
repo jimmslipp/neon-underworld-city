@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792589973,
+ "generated_at": 1792590660,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "nostalgic",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -727,9 +727,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -811,13 +811,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 27 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1792590612,
+   "text": "Cinema School: Cortex studied 'Sam Altman explains how to come up with a great startup idea'"
+  },
+  {
    "at": 1792588982,
    "text": "Mira, Luna, Nebula took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1792564774,
    "text": "Zora Xu, Lumi, NeonNova took a resist in the smoke club"
-  },
-  {
-   "at": 1792563921,
-   "text": "Cinema School: Zylac studied 'How to Test a Business Idea Before Building Anything'"
   }
  ],
  "products": [
