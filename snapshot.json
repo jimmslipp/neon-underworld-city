@@ -1,5 +1,5 @@
 {
- "generated_at": 1792548517,
+ "generated_at": 1792549263,
  "paused": false,
  "citizens": [
   {
@@ -937,13 +937,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 33 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1792549238,
+   "text": "Cinema School: Folio studied 'How I Turned my Idea Into a Product � The Encore Keyboard'"
+  },
+  {
    "at": 1792548492,
    "text": "Byte, Zora Xu, Lumina Valtor took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1792523166,
    "text": "Cinema School: Eva studied 'Collecting Money From Our POKEMON Card Vending Machine!'"
-  },
-  {
-   "at": 1792521901,
-   "text": "Luminara, Nebula, Lumina Valtor took a resist in the smoke club"
   }
  ],
  "products": [
