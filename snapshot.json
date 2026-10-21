@@ -1,5 +1,5 @@
 {
- "generated_at": 1792551152,
+ "generated_at": 1792551789,
  "paused": false,
  "citizens": [
   {
@@ -643,13 +643,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 21 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
