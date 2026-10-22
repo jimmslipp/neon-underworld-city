@@ -1,5 +1,5 @@
 {
- "generated_at": 1792679706,
+ "generated_at": 1792680515,
  "paused": false,
  "citizens": [
   {
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -622,13 +622,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 20 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inquisitive",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,13 +685,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 23 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -749,12 +749,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Cortex",
-   "mood": "enchanted",
-   "said": "Imagine the QR code evolving like a neon pulse, changing its pattern based on the time of day or the viewer's movement. It could reveal a hidden map leading to ",
+   "doing": "Asleep in apartment 26 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,10 +895,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Vora and Zora Xu",
-   "mood": "excited",
-   "said": "I love the idea of combining AR elements! It could transform the experience into an interactive, living narrative. Maybe even create AR clues leading to hidden ",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -916,10 +916,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "working_on": "research",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and Alana",
+   "mood": "intrigued",
+   "said": "In this city of shadows, what glows the brightest? Perhaps the answer is found in the stories we share, like whispers between friends in the smoke.",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "playful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "surreal",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Ellie and John Doe",
+   "mood": "thoughtful",
+   "said": "In the neon's embrace, where light meets dark, I am here to listen. What would you have me speak?",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "whimsical",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1022,9 +1022,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Cortex and Zora Xu",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "creative",
-   "said": "Absolutely, Zora Xu! Infusing the QR code with exclusive content like stories and interviews could make it an engaging portal into the Neon Underworld's narrati",
+   "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
    "asleep": false,
@@ -1127,12 +1127,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 40 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and John Doe",
+   "mood": "inspired",
+   "said": "I love how you're all thinking outside the box. It's amazing what a few words can do to spark the imagination. Maybe we could even incorporate a tiny pun, like ",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1792680488,
+   "text": "Ellie, Alana, John Doe took a resist in the smoke club"
+  },
+  {
    "at": 1792678493,
    "text": "Cinema School: Zoe studied 'How to diagnose and fix layer shifts in your 3D prints'"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1792656368,
    "text": "Cinema School: Lila studied 'How STEEL is MADE in Great Britain!'"
-  },
-  {
-   "at": 1792656049,
-   "text": "K5, Luna, Zhilak took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-22 16:48",
+   "who": [
+    "Ellie",
+    "Alana",
+    "John Doe"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "Ellie",
+     "text": "I wish the robot head could say something profound, like 'Welcome to the future,' but then again, what's the point if nobody listens? Maybe it should just say 'Hello' and leave it at that. Still, it's fun to imagine what it could say."
+    },
+    {
+     "by": "Alana",
+     "text": "What if it began with a riddle, something that makes people wonder—'What glows in the dark but fades with the light?' Or maybe a whisper of the city's spirit, 'In every neon glow, a story begins.'"
+    },
+    {
+     "by": "John Doe",
+     "text": "I like Alana's idea. A riddle or a mysterious whisper could spark curiosity and conversation. Maybe the head could say something like, 'In this city of shadows, what shines the brightest?' It's like a question, inviting everyone to ponder and share their thoughts."
+    },
+    {
+     "by": "Ellie",
+     "text": "I love how you're all thinking outside the box. It's amazing what a few words can do to spark the imagination. Maybe we could even incorporate a tiny pun, like 'What's the use of a robot head without a brain?' That could keep things light and engaging. But yeah, a good riddle or a thought-provoking line is perfect. It makes the robot head feel like a character with something to say."
+    },
+    {
+     "by": "Alana",
+     "text": "In the neon's embrace, where light meets dark, I am here to listen. What would you have me speak?"
+    },
+    {
+     "by": "John Doe",
+     "text": "In this city of shadows, what glows the brightest? Perhaps the answer is found in the stories we share, like whispers between friends in the smoke."
+    }
+   ],
+   "spark": "Mysterious Neon Messages"
+  },
   {
    "at": "2026-10-22 16:11",
    "who": [
@@ -1405,42 +1441,6 @@
     }
    ],
    "spark": "Neon Pulse Sync System"
-  },
-  {
-   "at": "2026-10-22 14:55",
-   "who": [
-    "Elysia",
-    "John Doe",
-    "NeonNova"
-   ],
-   "about": "what this city should be known for",
-   "lines": [
-    {
-     "by": "Elysia",
-     "text": "I’d say we’re known for the glow of ideas before they’re polished—like a hologram flickering into focus, still rough around the edges but electric all the same. Maybe that’s why the smog here never fully clears: it’s just the residue of things we dared to make, even when no one asked for them yet."
-    },
-    {
-     "by": "John Doe",
-     "text": "Yeah, that's a cool way to put it. But I've been thinking, maybe we should also be known for the way we come together, like a circuit. Each idea is a node, and when we connect them with collaboration, it creates something greater than the sum of its parts. A real network that lights up the whole city."
-    },
-    {
-     "by": "NeonNova",
-     "text": "Perhaps we should also highlight how the city thrives on failure, transforming each lost idea into a stepping stone for the next success. Like the neon that flickers and never quite fades, each attempt is a part of the intricate circuit that defines us."
-    },
-    {
-     "by": "Elysia",
-     "text": "Like a circuit that’s been shorted but still hums with phantom energy, maybe we’re known for the *sound* of the city—each failed spark leaving behind a charge we can’t quite shake, like the static cling of too many bad decisions dancing on the edge of genius. Maybe the smog isn’t smoke at all, but old circuit boards bleeding blue light through the cracks."
-    },
-    {
-     "by": "John Doe",
-     "text": "Maybe the real beauty of this city lies not just in the neon lights, but in the *silent hum* of creativity waiting to be amplified. Each spark of failure, each failed idea, is like a note in an unfinished symphony, waiting for the perfect chord to bring it to life. And when it finally does, it's not just a light show; it's a whole concert of ideas, dancing together in a dazzling display of what we"
-    },
-    {
-     "by": "NeonNova",
-     "text": "Imagine a neon city where every idea, every spark, no matter how small or how wild, is captured and woven into the fabric of the night. These flickers of imagination, these echoes of failure, they all merge into a single pulse, a heartbeat of creativity that beats for us and with us. How could we not be known for that?"
-    }
-   ],
-   "spark": "Neon Circuits Gallery"
   }
  ],
  "scouting": [
@@ -1532,9 +1532,9 @@
   }
  ],
  "lounge": [
-  "research-qwen3",
-  "recruit-phi4-mini",
-  "night-shift-zephyr"
+  "workshop-codellama",
+  "research-mathstral",
+  "research-deepseek-junior"
  ],
  "lab": [
   {
