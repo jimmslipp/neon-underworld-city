@@ -1,5 +1,5 @@
 {
- "generated_at": 1792661142,
+ "generated_at": 1792661802,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "chill",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inquisitive",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,9 +685,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "melancholic",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -1168,7 +1168,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
+   "working_on": "",
    "doing": "Off duty: taking a resist in the smoke club with Aurum and Vex",
    "mood": "wistful",
    "said": "The city’s a collaborative canvas—light and code bleeding into each other, where our ideas are the brushstrokes and the smoke’s patterns are the ghost of what w",
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792661772,
+   "text": "Foundry (seeded by Mira; crew Alana, Forge, Lila, Mira) pitched an idea to the R&D Lab"
+  },
   {
    "at": 1792660430,
    "text": "Aurum, Mira, Vex took a resist in the smoke club"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792616546,
    "text": "Elysia, Mira, Luna took a resist in the smoke club"
-  },
-  {
-   "at": 1792616456,
-   "text": "Cinema School: NeonNova studied 'I Built a FREE AI Trading Bot With DeepSeek + TradingView.. Here's What Happened'"
   }
  ],
  "products": [
@@ -2165,6 +2165,13 @@
    "title": "BarDoc Document Manager",
    "stage": "evidence",
    "status": "killed",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "BarEventSync Pro",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
