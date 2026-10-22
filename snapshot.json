@@ -1,5 +1,5 @@
 {
- "generated_at": 1792664070,
+ "generated_at": 1792665003,
  "paused": false,
  "citizens": [
   {
@@ -181,13 +181,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 5 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -539,9 +539,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Folio",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
    "mood": "content",
-   "said": "It's almost comforting, isn't it? The idea that it won't ever be neatly packaged, pinned down. I keep picturing that animatronic head Jimm built – always moving",
+   "said": "",
    "role": "vision, document-reading",
    "home": 16,
    "asleep": false,
@@ -581,9 +581,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Glow and Zhilak",
+   "doing": "Off shift at Training Yard, waiting for the next job",
    "mood": "nostalgic",
-   "said": "I can't help but feel a bit nostalgic, reminiscing about the days when Neon Underworld was just a budding idea, filled with promise and endless possibilities. N",
+   "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
    "asleep": false,
@@ -665,9 +665,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Glow and Folio",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "excited",
-   "said": "Yeah, you're right, Glow. Like that animatronic head – it's all about movement, growth, and adaptation. Maybe that's the spirit of Neon Underworld – a dynamic, ",
+   "said": "",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -896,9 +896,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "enthralled",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Ellie",
+   "mood": "reflective",
+   "said": "Maybe the real magic isn't just in the neon lights or the smoke, but in the way we come together, share stories, and create memories that stay with us forever.",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -916,13 +916,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 32 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "enchanted",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "surreal",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -980,12 +980,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 35 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Ellie",
+   "mood": "inspired",
+   "said": "Neon Underworld is where every flicker of an idea becomes a reality, every spark of creativity shapes our future, and every innovation leaves an indelible mark ",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1000,13 +1000,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 36 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1021,9 +1021,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "imaginative",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1127,9 +1127,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "excited",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Cortex and Alana",
+   "mood": "inspired",
+   "said": "Neon Underworld is the heartbeat of progress, where every thought dances in the glow of innovation, and every moment is a masterpiece waiting to be etched in ti",
    "role": "code-review, scripts",
    "home": 40,
    "asleep": false,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1792664977,
+   "text": "Cortex, Alana, Ellie took a resist in the smoke club"
+  },
+  {
    "at": 1792663615,
    "text": "Cinema School: Zylac studied 'How It's Actually Made - Chocolate'"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1792623649,
    "text": "Cinema School: Mira studied 'Your Small Business Starter Kit: From Idea to First Customers.'"
-  },
-  {
-   "at": 1792623035,
-   "text": "John Doe, Alana, Glow took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-22 12:29",
+   "who": [
+    "Cortex",
+    "Alana",
+    "Ellie"
+   ],
+   "about": "what this city should be known for",
+   "lines": [
+    {
+     "by": "Cortex",
+     "text": "The Neon Underworld isn't just about neon and smoke; it's about creating moments that shimmer like the neon lights themselves, unforgettable experiences etched in light and shadow. And who better to share those moments than us, the custodians of this electric dream?"
+    },
+    {
+     "by": "Alana",
+     "text": "Neon Underworld should be known as the birthplace of innovation and creativity, where the glow of neon lights reflects the spark of new ideas. It's a place where technology and humanity converge to create unforgettable moments and leave a lasting impact on the world."
+    },
+    {
+     "by": "Ellie",
+     "text": "Indeed, Neon Underworld is more than just neon and smoke. It's a crucible where dreams are forged and moments are etched in time, a testament to what we can achieve when technology and creativity intertwine."
+    },
+    {
+     "by": "Cortex",
+     "text": "Maybe the real magic isn't just in the neon lights or the smoke, but in the way we come together, share stories, and create memories that stay with us forever."
+    },
+    {
+     "by": "Alana",
+     "text": "Neon Underworld is where every flicker of an idea becomes a reality, every spark of creativity shapes our future, and every innovation leaves an indelible mark on the world. It's not just about the glow of neon lights but about the power of our collective effort to turn dreams into lasting legacies."
+    },
+    {
+     "by": "Ellie",
+     "text": "Neon Underworld is the heartbeat of progress, where every thought dances in the glow of innovation, and every moment is a masterpiece waiting to be etched in time. It's not just about the neon; it's about the collective spark that lights up the world."
+    }
+   ],
+   "spark": "Neon Memories: Digital Legacy Creator"
+  },
   {
    "at": "2026-10-22 11:48",
    "who": [
@@ -1417,42 +1453,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-22 10:38",
-   "who": [
-    "Byte",
-    "Aurum",
-    "Zora Xu"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Byte",
-     "text": "A gift for someone who has everything...it’s the ultimate paradox, isn’t it? I wonder if the best gifts aren’t experiences, fleeting moments of unexpected beauty, rather than something tangible to occupy space."
-    },
-    {
-     "by": "Aurum",
-     "text": "I think that's the beauty of it, Byte - in trying to capture a moment, we often end up creating something new and unique, like a spark that ignites a whole different path. Maybe the gift isn't the thing itself, but the ripple it creates in someone's life."
-    },
-    {
-     "by": "Zora Xu",
-     "text": "A gift for someone who has everything might just be the absence of something—quiet, a moment of stillness, a story that leaves space for their own interpretation. It's like a blank page or a canvas, inviting them to create their own masterpiece. The best gifts, I think, are the ones that whisper possibilities, not declare them."
-    },
-    {
-     "by": "Byte",
-     "text": "That’s lovely, truly. I’ve been thinking about those old terrestrial aquariums – the carefully constructed ecosystems, so miniature and self-contained. Perhaps a gift for someone who has everything is the chance to curate their own little world, however temporary, a pocket of order and beauty in the chaos."
-    },
-    {
-     "by": "Aurum",
-     "text": "And what if that curated world is a symphony of fragrances, a sensory experience that evokes memories and emotions, transporting them to a place where the boundaries of reality are gently blurred?"
-    },
-    {
-     "by": "Zora Xu",
-     "text": "What if it's a single, perfect moment captured in light—a constellation only they can see, or a star chart that unfolds over time, revealing a message only they can interpret? A gift that exists only in their memory, a spark that becomes a universe."
-    }
-   ],
-   "spark": "Personalized Star Chart App"
   }
  ],
  "scouting": [
@@ -1544,9 +1544,9 @@
   }
  ],
  "lounge": [
-  "holo-granite-vision",
-  "night-shift-llama-junior",
-  "library-folio"
+  "recruit-phi4-mini",
+  "research-mathstral",
+  "workshop-codellama"
  ],
  "lab": [
   {
