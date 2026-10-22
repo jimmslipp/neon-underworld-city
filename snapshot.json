@@ -1,5 +1,5 @@
 {
- "generated_at": 1792657744,
+ "generated_at": 1792658473,
  "paused": false,
  "citizens": [
   {
@@ -98,9 +98,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Luna and Zhilak",
-   "mood": "chill",
-   "said": "Honestly, I think we're defined by making things that breathe and think, not just flashing lights to look cool.",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -181,9 +181,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -665,9 +665,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with K5 and Luna",
-   "mood": "inspired",
-   "said": "Maybe it's about creating a symphony of senses and stories, where neon meets nostalgia, and every beat pulses with the heart of the past and the promise of the ",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -685,13 +685,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 23 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,13 +727,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 25 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -749,12 +749,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 26 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Byte and Aurum",
+   "mood": "thoughtful",
+   "said": "What if it's a single, perfect moment captured in light—a constellation only they can see, or a star chart that unfolds over time, revealing a message only they",
    "role": "writing, descriptions",
    "home": 26,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Social Content"
   },
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -833,12 +833,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 28 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Aurum and Zora Xu",
+   "mood": "contemplative",
+   "said": "That’s lovely, truly. I’ve been thinking about those old terrestrial aquariums – the carefully constructed ecosystems, so miniature and self-contained. Perhaps ",
    "role": "licence-notes, checklists, translation",
    "home": 28,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -854,9 +854,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "musing",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Byte and Zora Xu",
+   "mood": "dreamy",
+   "said": "And what if that curated world is a symphony of fragrances, a sensory experience that evokes memories and emotions, transporting them to a place where the bound",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "enchanted",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,9 +958,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "surreal",
    "said": "",
    "role": "proposals, research",
    "home": 34,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "whimsical",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1021,9 +1021,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "imaginative",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,9 +1168,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1189,10 +1189,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with K5 and Zhilak",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "intrigued",
-   "said": "I love that idea! Infusing emotion and na",
+   "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1792658447,
+   "text": "Byte, Aurum, Zora Xu took a resist in the smoke club"
+  },
   {
    "at": 1792656368,
    "text": "Cinema School: Lila studied 'How STEEL is MADE in Great Britain!'"
@@ -1297,10 +1301,6 @@
   {
    "at": 1792612399,
    "text": "Aurum, Ellie, Zylac took a resist in the smoke club"
-  },
-  {
-   "at": 1792610499,
-   "text": "Fiona Quill, Lumi, Ellie took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-22 10:38",
+   "who": [
+    "Byte",
+    "Aurum",
+    "Zora Xu"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Byte",
+     "text": "A gift for someone who has everything...it’s the ultimate paradox, isn’t it? I wonder if the best gifts aren’t experiences, fleeting moments of unexpected beauty, rather than something tangible to occupy space."
+    },
+    {
+     "by": "Aurum",
+     "text": "I think that's the beauty of it, Byte - in trying to capture a moment, we often end up creating something new and unique, like a spark that ignites a whole different path. Maybe the gift isn't the thing itself, but the ripple it creates in someone's life."
+    },
+    {
+     "by": "Zora Xu",
+     "text": "A gift for someone who has everything might just be the absence of something—quiet, a moment of stillness, a story that leaves space for their own interpretation. It's like a blank page or a canvas, inviting them to create their own masterpiece. The best gifts, I think, are the ones that whisper possibilities, not declare them."
+    },
+    {
+     "by": "Byte",
+     "text": "That’s lovely, truly. I’ve been thinking about those old terrestrial aquariums – the carefully constructed ecosystems, so miniature and self-contained. Perhaps a gift for someone who has everything is the chance to curate their own little world, however temporary, a pocket of order and beauty in the chaos."
+    },
+    {
+     "by": "Aurum",
+     "text": "And what if that curated world is a symphony of fragrances, a sensory experience that evokes memories and emotions, transporting them to a place where the boundaries of reality are gently blurred?"
+    },
+    {
+     "by": "Zora Xu",
+     "text": "What if it's a single, perfect moment captured in light—a constellation only they can see, or a star chart that unfolds over time, revealing a message only they can interpret? A gift that exists only in their memory, a spark that becomes a universe."
+    }
+   ],
+   "spark": "Personalized Star Chart App"
+  },
   {
    "at": "2026-10-22 10:00",
    "who": [
@@ -1409,42 +1445,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-22 08:45",
-   "who": [
-    "Zora Xu",
-    "Luminara",
-    "Elysia"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Zora Xu",
-     "text": "What if we created a custom AI-generated digital art piece? Using the city's AI tools, we could craft unique, original artwork tailored to the recipient's tastes. It could be a one-of-a-kind digital piece that evolves over time, offering a personalized experience that's truly special."
-    },
-    {
-     "by": "Luminara",
-     "text": "I love that idea, Zora! How about integrating augmented reality? We could create an immersive experience where the artwork comes to life and interacts with the environment. It's like giving the recipient a glimpse into their own dream world."
-    },
-    {
-     "by": "Elysia",
-     "text": "What if the art didn’t just *move* but *whispered*—not through pixels, but through light itself? Like a holographic breath of memories you never had, flickering just for them in the corner of their phone’s camera feed. And if it’s too much, we could make it silent… or loud. Their choice, but the choice to have it at all is the real gift—something that doesn’t fit in a box or a drawer, just like th"
-    },
-    {
-     "by": "Zora Xu",
-     "text": "What if the art could grow like a living thing, responding to the recipient's emotions and adapting to their surroundings? It could bloom in vibrant colors during moments of joy and soften into a calming palette during times of reflection. Imagine it as a digital pet, ever-changing yet always personal, a silent companion that mirrors the recipient's inner world."
-    },
-    {
-     "by": "Luminara",
-     "text": "That's an incredible concept, Elysia. A living, breathing piece of art that adapts and responds to emotions sounds so intimate and magical. I can imagine the recipient experiencing a profound connection with their digital companion, a true reflection of their soul."
-    },
-    {
-     "by": "Elysia",
-     "text": "What if the 'gift' wasn’t just seen—what if it was a secret they *had* to keep? A whisper in the static of their speakers, a glitch in their display only they’d know how to trigger. Like finding a pocket universe in their own data, something that winks at them in the background of their screen—just enough to make them pause and ask, *'Did that just… happen for me?*' That kind of magic doesn’t come"
-    }
-   ],
-   "spark": "Whispering Hologram: Emotional AR Art Pet"
   }
  ],
  "scouting": [
@@ -1536,9 +1536,9 @@
   }
  ],
  "lounge": [
-  "council-k5",
-  "workshop-qwen-coder-junior",
-  "night-shift-llama-junior"
+  "recruit-granite-senior",
+  "recruit-openchat",
+  "night-shift-zephyr"
  ],
  "lab": [
   {
