@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1792737111,
+ "generated_at": 1792737781,
  "paused": false,
  "citizens": [
   {
@@ -2208,10 +2208,10 @@ window.SNAPSHOT = {
   },
   {
    "title": "BarNeón Digital Signage Templates",
-   "stage": "build",
+   "stage": "pilot",
    "status": "alive",
-   "yes": 0,
-   "no": 0
+   "yes": 20,
+   "no": 10
   },
   {
    "title": "BarPulse: Competitor Analysis for Spanish Bars",
