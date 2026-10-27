@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793140441,
+ "generated_at": 1793141764,
  "paused": false,
  "citizens": [
   {
@@ -2150,10 +2150,10 @@ window.SNAPSHOT = {
   },
   {
    "title": "BarEventSync Pro",
-   "stage": "build",
+   "stage": "pilot",
    "status": "alive",
-   "yes": 0,
-   "no": 0
+   "yes": 22,
+   "no": 9
   },
   {
    "title": "BarFlow Lite: Queue Analytics & Social Auto-Posts",
