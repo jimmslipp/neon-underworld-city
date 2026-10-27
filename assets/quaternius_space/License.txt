@@ -1,0 +1,4 @@
+Ultimate Space Kit by Quaternius (quaternius.com), CC0 1.0 (public domain).
+Downloaded 27 Oct 2026 from https://opengameart.org/content/ultimate-space-kit-by-quaternius (ultimate_space_kit-glb.zip).
+Renamed: astronaut_a/b/c = Astronaut / -0D54W8yfrA / -OgeSH89Nmx; mech_a/b/c/boss = Mech / -4UvIHxnoSR / -D5wW2jDO42 / -o3Ps8z8ByP;
+alien = Enemy Large; critter = Enemy Flying; drone = Enemy Small.
