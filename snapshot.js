@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793142536,
+ "generated_at": 1793143394,
  "paused": false,
  "citizens": [
   {
@@ -3039,10 +3039,10 @@ window.SNAPSHOT = {
   },
   {
    "title": "PetrolatumCraft: Skincare Formulation Course",
-   "stage": "build",
+   "stage": "pilot",
    "status": "alive",
-   "yes": 0,
-   "no": 0
+   "yes": 18,
+   "no": 15
   },
   {
    "title": "PhishShield-Bar Digital with Verified AI",
