@@ -1,5 +1,5 @@
 {
- "generated_at": 1793184219,
+ "generated_at": 1793184994,
  "paused": false,
  "citizens": [
   {
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -895,9 +895,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspiration",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1793184962,
+   "text": "Foundry (seeded by Aurum; crew Aurum, Forge, Vex, Zora Xu) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1793184191,
    "text": "Alana, Zylac, Zoe took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1793160018,
    "text": "Glow, red, Elysia took a resist in the smoke club"
-  },
-  {
-   "at": 1793158047,
-   "text": "Byte, Lumina Valtor, Rexton Vance took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2361,6 +2361,13 @@
    "title": "Costa del Sol Bar Automation with Gemini",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "Costa del Sol Bar Compliance Fix",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
