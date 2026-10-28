@@ -1,5 +1,5 @@
 {
- "generated_at": 1793163853,
+ "generated_at": 1793164505,
  "paused": false,
  "citizens": [
   {
@@ -97,13 +97,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 3 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Leadership"
   },
@@ -853,13 +853,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 29 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
