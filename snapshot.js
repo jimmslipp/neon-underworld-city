@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793192930,
+ "generated_at": 1793193728,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "chill",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -181,9 +181,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,13 +202,13 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 6 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Legal"
   },
@@ -1021,13 +1021,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 37 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1042,9 +1042,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1168,9 +1168,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
@@ -1189,9 +1189,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1793193253,
+   "text": "Cinema School: Zylac studied 'Earn FREE Stars on Telegram! New Earning Bot Tutorial | Instant Withdraw Proof ('"
+  },
   {
    "at": 1793192902,
    "text": "Eva, Cortex, Forge took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1793167788,
    "text": "red, Luna, Eva took a resist in the smoke club"
-  },
-  {
-   "at": 1793165854,
-   "text": "Fiona Quill, Glow, Ellie took a resist in the smoke club"
   }
  ],
  "products": [
