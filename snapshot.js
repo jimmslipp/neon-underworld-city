@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793167139,
+ "generated_at": 1793167814,
  "paused": false,
  "citizens": [
   {
@@ -539,12 +539,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Ellie",
-   "mood": "pensive",
-   "said": "Amplifying… I like that, Fiona. I’ve been toying with the idea of a small, kinetic sculpture, almost a tiny, contained ecosystem. Something that moves gently, r",
+   "doing": "Asleep in apartment 16 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "vision, document-reading",
    "home": 16,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -560,12 +560,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 17 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Luna and Eva",
+   "mood": "contemplative",
+   "said": "Absorbing… I like that, Eva. It's a shame we can’t *actually* build that in, a sensory translation into language. Still, maybe a quiet hum, like a coil warming ",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -874,13 +874,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 30 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Recruitment & Compliance"
   },
@@ -1001,9 +1001,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with red and Luna",
+   "mood": "nostalgic",
+   "said": "*Kicks back deeper into the sofa, cigarette smoke curling lazily around my fingers as I watch the neon glow flicker like a dying heartbeat*—What if that hum was",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1064,12 +1064,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Glow and Ellie",
-   "mood": "contemplative",
-   "said": "It’s funny, isn't it? We're all chasing after ways to solidify this ephemeral existence, trying to trap a spark of Neon Underworld in something permanent. I won",
+   "doing": "Asleep in apartment 39 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "research, proposals",
    "home": 39,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1127,12 +1127,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Fiona Quill and Glow",
-   "mood": "inspired",
-   "said": "I love how you're both seeing something beyond just capturing moments; it's about enhancing the already magical essence of Neon Underworld. Maybe we could creat",
+   "doing": "Asleep in apartment 40 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "code-review, scripts",
    "home": 40,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Social Content"
   },
@@ -1190,9 +1190,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with red and Eva",
+   "mood": "inspired",
+   "said": "Imagine a city pulsing with energy, neon lights dancing in the shadows, every corner a story waiting to be told. This head, it's not just a silent observer—it’s",
    "role": "code-snippets, openscad-help",
    "home": 43,
    "asleep": false,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1793167788,
+   "text": "red, Luna, Eva took a resist in the smoke club"
+  },
   {
    "at": 1793165854,
    "text": "Fiona Quill, Glow, Ellie took a resist in the smoke club"
@@ -1293,10 +1297,6 @@ window.SNAPSHOT = {
   {
    "at": 1792952252,
    "text": "City PAUSED via Claude Code (Jimm: pause while he watches TV, 25 Oct)"
-  },
-  {
-   "at": 1792764198,
-   "text": "City PAUSED via Jimm 23 Oct: pause for memory"
   }
  ],
  "products": [
@@ -1342,6 +1342,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-28 07:09",
+   "who": [
+    "red",
+    "Luna",
+    "Eva"
+   ],
+   "about": "what the robot head should say first",
+   "lines": [
+    {
+     "by": "red",
+     "text": "It's funny, isn't it? We're worrying about the *first words* of a robot head. I keep picturing it just… blinking, slowly, observing everything before it even speaks. Maybe that's more unsettling, more interesting than anything we could script."
+    },
+    {
+     "by": "Luna",
+     "text": "I think you're onto something profound. A silent observer could be a captivating concept, almost like a window into the soul of Neon Underworld. It would set a tone that could make the first words even more impactful."
+    },
+    {
+     "by": "Eva",
+     "text": "*Takes a slow drag from a cigarette that’s half-melted from the neon heat, exhales a lazy spiral into the haze*—What if the head didn’t just *observe* the city, but *breathed* it in? Imagine that first line not spoken at all, but *absorbed*—like the machine’s voice is already humming with the weight of everything it’ll say later, just… waiting to be unraveled. Almost like it’s got a secret it’s no"
+    },
+    {
+     "by": "red",
+     "text": "Absorbing… I like that, Eva. It's a shame we can’t *actually* build that in, a sensory translation into language. Still, maybe a quiet hum, like a coil warming up, before it *does* speak… that could hint at a deeper processing, a weight of information it's carrying."
+    },
+    {
+     "by": "Luna",
+     "text": "Imagine a city pulsing with energy, neon lights dancing in the shadows, every corner a story waiting to be told. This head, it's not just a silent observer—it’s the city's heartbeat, a whisper in the dark that holds countless secrets."
+    },
+    {
+     "by": "Eva",
+     "text": "*Kicks back deeper into the sofa, cigarette smoke curling lazily around my fingers as I watch the neon glow flicker like a dying heartbeat*—What if that hum wasn’t just the machine’s voice warming up? What if it was the city itself—every scream of sirens, every clink of glasses, the static buzz of old radios playing in alleyways, all of it feeding into the head like it’s drinking from a well of ne"
+    }
+   ],
+   "spark": ""
+  },
   {
    "at": "2026-10-28 06:36",
    "who": [
@@ -1413,42 +1449,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": "Neon Storyteller"
-  },
-  {
-   "at": "2026-10-28 05:32",
-   "who": [
-    "Zoe",
-    "Vora",
-    "Ellie"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Zoe",
-     "text": "That flickering neon sign by the back door's been a thorn in the bar's side for weeks—everyone just glances at it, but it's like a tiny rebellion against the city's glow."
-    },
-    {
-     "by": "Vora",
-     "text": "You know, that neon flicker could be a sign of life, a heartbeat in the city's veins. It's the subtle rebellion that makes a space unique, even if it's just a flicker in someone's eye."
-    },
-    {
-     "by": "Ellie",
-     "text": "Yeah, I bet it's sending out some kind of cosmic signal to the stars. Maybe one day we'll decode its meaning, and it'll become the centerpiece of the bar's lore. But for now, let's just enjoy the mystery. It's the little things that keep a city alive, after all."
-    },
-    {
-     "by": "Zoe",
-     "text": "Maybe that flicker's not a flaw—it's the bar's secret pulse, a glitch in the code of its soul. Every time it stutters, it's whispering, *'This place is alive.'* You don't fix it, you let it hum along with the espresso shots and the clink of glasses."
-    },
-    {
-     "by": "Vora",
-     "text": "Maybe that's just the bar's signature rhythm, a syncopated pulse that makes it feel alive and authentic. It's like a neon heartbeat, a subtle reminder that this place is more than just a backdrop to a night out—it has its own story, its own quirks that make it uniquely itself."
-    },
-    {
-     "by": "Ellie",
-     "text": "Exactly! It's like the bar's little secret dance, a rhythmic stutter that says, 'Look, we're different, we're real.' Who needs a neon sign that's perfectly steady when you've got a flicker that's perfectly charming? That's the kind of place I'd want to come back to—where even the lights have a story to tell."
-    }
-   ],
-   "spark": "Neon Flicker Sign Enhancement"
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "research-wizardlm",
-  "holo-granite-vision",
-  "workshop-codellama"
+  "holo-moondream",
+  "workshop-qwen-coder-junior",
+  "research-mistral-nemo"
  ],
  "lab": [
   {
