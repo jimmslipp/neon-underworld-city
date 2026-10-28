@@ -1,5 +1,5 @@
 {
- "generated_at": 1793182794,
+ "generated_at": 1793183470,
  "paused": false,
  "citizens": [
   {
@@ -706,7 +706,7 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
+   "working_on": "research",
    "doing": "Off duty: taking a resist in the smoke club with Aurum and Mira",
    "mood": "wistful",
    "said": "Maybe its first words are a thread of static, weaving Spanish and Neonese into a hum that makes the smoke remember every whisper—like the city’s heartbeat, but ",
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -1223,6 +1223,10 @@
  ],
  "feed": [
   {
+   "at": 1793183438,
+   "text": "Foundry (seeded by Byte; crew Byte, Eva, Forge, Zoe) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1793182034,
    "text": "Aurum, Mira, Zoe took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@
   {
    "at": 1793156149,
    "text": "Glow, Lila, Rexton Vance took a resist in the smoke club"
-  },
-  {
-   "at": 1793154591,
-   "text": "Cinema School: Vora studied 'EVERYTHING You Need To Know About Phone Flipping'"
   }
  ],
  "products": [
@@ -2223,6 +2223,13 @@
    "status": "alive",
    "yes": 20,
    "no": 10
+  },
+  {
+   "title": "BarOps Pro: Integrated Supplier & Inventory AI",
+   "stage": "pitch",
+   "status": "alive",
+   "yes": 0,
+   "no": 0
   },
   {
    "title": "BarPulse: Competitor Analysis for Spanish Bars",
