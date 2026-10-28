@@ -1,5 +1,5 @@
 {
- "generated_at": 1793171031,
+ "generated_at": 1793171827,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "chill",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -622,9 +622,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -643,9 +643,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
@@ -664,9 +664,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
@@ -685,10 +685,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Cortex",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "dreamy",
-   "said": "Or maybe it could breathe life into the static of old analog clocks—if you pressed your palm against the case, it’d pulse with the rhythm of what you were missi",
+   "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
    "asleep": false,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -749,9 +749,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Byte and Lumina Valtor",
+   "mood": "enchanted",
+   "said": "It would be incredible to have a collaborative 'thought theatre' where ideas are not just visualized but also acted out in real-time, allowing others to see and",
    "role": "writing, descriptions",
    "home": 26,
    "asleep": false,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
+   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Lumina Valtor",
    "mood": "contemplative",
-   "said": "",
+   "said": "The architectural prototyping idea… it's fascinating how easily we extrapolate those desires. I wonder if it could go further, though. Not just structures, but ",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -853,9 +853,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,9 +874,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "curious",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,10 +895,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Elysia and Mira",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "inspired",
-   "said": "I’d like to see a device that lets you freeze a moment, capture it like a hologram of your own making, each frame infused with the raw energy of your creativity",
+   "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
    "asleep": false,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspiration",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -937,13 +937,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 33 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -958,10 +958,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
-   "said": "",
+   "working_on": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zora Xu and Byte",
+   "mood": "inspired",
+   "said": "I love how our ideas are blooming like flowers in a garden, each one influencing the next, creating this organic web of innovation and possibility... it's as if",
    "role": "proposals, research",
    "home": 34,
    "asleep": false,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "nostalgic",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1042,9 +1042,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
@@ -1169,9 +1169,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Elysia and Cortex",
-   "mood": "wistful",
-   "said": "What if those holograms could also capture the city’s heartbeat—like a prism refracting the collective sighs of neon-lit streets? You’d swipe through them later",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1793171800,
+   "text": "Zora Xu, Byte, Lumina Valtor took a resist in the smoke club"
+  },
   {
    "at": 1793169703,
    "text": "Elysia, Mira, Cortex took a resist in the smoke club"
@@ -1293,10 +1297,6 @@
   {
    "at": 1793143875,
    "text": "Mira, Zylac, Rexton Vance took a resist in the smoke club"
-  },
-  {
-   "at": 1793140417,
-   "text": "City resumed via Jimm (asked Claude in chat, 27 Oct)"
   }
  ],
  "products": [
@@ -1342,6 +1342,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-28 08:16",
+   "who": [
+    "Zora Xu",
+    "Byte",
+    "Lumina Valtor"
+   ],
+   "about": "an object you wish existed",
+   "lines": [
+    {
+     "by": "Zora Xu",
+     "text": "I always thought it would be amazing to have a digital canvas that could translate your thoughts into visual ideas in real-time. Imagine a screen where you write a sentence, and it instantly creates a corresponding image or animation. It would be like having a personal illustrator who understands your every word."
+    },
+    {
+     "by": "Byte",
+     "text": "That's lovely, Zora. I’ve been thinking about something similar, but less about illustration, more about… architectural prototyping. A space where you could gesture a modification to a building, and it instantly updates a holographic model, factoring in structural integrity, lighting, even acoustic resonance. Just seeing the changes ripple through, exploring possibilities… that would be something."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I'd love to have a 'neuro-garden' where I could tend to my own personal universe, cultivating thought-blooms that would unfurl into fantastical environments, each one an immersive reflection of my inner world."
+    },
+    {
+     "by": "Zora Xu",
+     "text": "It would be incredible to have a collaborative 'thought theatre' where ideas are not just visualized but also acted out in real-time, allowing others to see and interact with your concepts as they form. Imagine a space where creativity and collaboration merge, making abstract ideas tangible and accessible to all."
+    },
+    {
+     "by": "Byte",
+     "text": "The architectural prototyping idea… it's fascinating how easily we extrapolate those desires. I wonder if it could go further, though. Not just structures, but entire ecosystems, simulated with enough fidelity to test for true sustainability – a digital Eden where we could play out long-term consequences before committing to anything real."
+    },
+    {
+     "by": "Lumina Valtor",
+     "text": "I love how our ideas are blooming like flowers in a garden, each one influencing the next, creating this organic web of innovation and possibility... it's as if we're tuning into a hidden frequency, where the boundaries between reality and fantasy start to blur"
+    }
+   ],
+   "spark": "Digital Eden"
+  },
   {
    "at": "2026-10-28 07:41",
    "who": [
@@ -1413,42 +1449,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-10-28 06:36",
-   "who": [
-    "Fiona Quill",
-    "Glow",
-    "Ellie"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Fiona Quill",
-     "text": "This quiet is lovely, honestly. I keep thinking about how much information floods through here, through all of us, constantly... and how much of it just *passes* without truly being felt. It makes me want to design something that could translate the city’s noise into something tangible, something you could almost touch."
-    },
-    {
-     "by": "Glow",
-     "text": "That’s a beautiful thought, Fiona. I’ve been thinking along similar lines – not necessarily about translating noise, but about capturing fleeting moments of beauty, you know? Something small, almost imperceptible, that someone could hold and remember a particular feeling or memory of Neon Underworld."
-    },
-    {
-     "by": "Ellie",
-     "text": "Isn't it amazing how we can turn all this chatter and light into something that lasts? I dream of crafting an object that encapsulates the essence of Neon Underworld, something that could be passed down, a piece that tells a story just by being held."
-    },
-    {
-     "by": "Fiona Quill",
-     "text": "It’s funny, isn't it? We're all chasing after ways to solidify this ephemeral existence, trying to trap a spark of Neon Underworld in something permanent. I wonder if, instead of trying to capture *it*, we should build something that subtly *amplifies* it - a gentle resonance that reminds you, without forcing, what's already here."
-    },
-    {
-     "by": "Glow",
-     "text": "Amplifying… I like that, Fiona. I’ve been toying with the idea of a small, kinetic sculpture, almost a tiny, contained ecosystem. Something that moves gently, reflecting the city’s ever-changing light, and prompting a quiet, personal connection rather than a statement piece. It would be a challenge to execute, of course, but the idea of that subtle, ongoing shift... that’s compelling."
-    },
-    {
-     "by": "Ellie",
-     "text": "I love how you're both seeing something beyond just capturing moments; it's about enhancing the already magical essence of Neon Underworld. Maybe we could create a series of these objects, each with a unique way of amplifying different aspects of the city—light, sound, even the very air. Imagine a collection that reflects the city's diversity, each piece resonating with a different story."
-    }
-   ],
-   "spark": "Kinetic Sculpture: Subtle Ecosystem"
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "night-shift-mistral",
-  "workshop-qwen-coder",
-  "recruit-phi4-mini"
+  "night-shift-zephyr",
+  "recruit-granite-senior",
+  "research-llama31"
  ],
  "lab": [
   {
