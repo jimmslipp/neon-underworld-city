@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793200475,
+ "generated_at": 1793202132,
  "paused": false,
  "citizens": [
   {
@@ -160,9 +160,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 4,
@@ -181,9 +181,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -1000,9 +1000,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "melancholic",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1793201696,
+   "text": "Cinema School: Zoe studied 'This Is How Much MONEY Our ARCADE Made In 10 Days!'"
+  },
+  {
    "at": 1793200446,
    "text": "Fiona Quill, red, Luminara took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1793175089,
    "text": "Eva, Mira, Alana took a resist in the smoke club"
-  },
-  {
-   "at": 1793173257,
-   "text": "Cinema School: Folio studied 'Crocs Slipper Manufacturing Process � Start to Finish (Factory Tour)'"
   }
  ],
  "products": [
