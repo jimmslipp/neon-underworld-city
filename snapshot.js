@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793197277,
+ "generated_at": 1793198491,
  "paused": false,
  "citizens": [
   {
@@ -181,9 +181,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 5,
@@ -202,9 +202,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -853,9 +853,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "candidate-research, writing",
    "home": 29,
@@ -874,9 +874,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "amused",
    "said": "",
    "role": "summaries, licence-notes",
    "home": 30,
@@ -895,9 +895,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -916,9 +916,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -937,9 +937,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1793197373,
+   "text": "Cinema School: Elysia studied 'Tool Design & Manufacturing | From Engineering to Production | 3D Magic Group'"
+  },
+  {
    "at": 1793196935,
    "text": "Zoe, Glow, Vex took a resist in the smoke club"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1793172370,
    "text": "Foundry (seeded by Zoe; crew Forge, Lila, Lumina Valtor, Zoe) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1793171800,
-   "text": "Zora Xu, Byte, Lumina Valtor took a resist in the smoke club"
   }
  ],
  "products": [
