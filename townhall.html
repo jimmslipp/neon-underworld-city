@@ -297,7 +297,7 @@ setInterval(() => {
 /* ---------- data ---------- */
 async function poll() {
   try {
-    const r = await fetch('townhall.json?t=' + Date.now(), { cache: 'no-store', credentials: 'omit', redirect: 'error' });
+    const r = await fetch('townhall.json?t=' + Date.now(), { cache: 'no-store', credentials: 'same-origin', redirect: 'error' });
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const j = await r.json();
     if (j && typeof j === 'object') { lastOK = Date.now(); apply(j); }
