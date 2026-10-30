@@ -44,10 +44,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:54:42Z",
+"updated": "2026-10-30T13:56:48Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zylac",
+"speaking": "Byte",
 "residents": [
 {
 "name": "K5",
@@ -1158,6 +1158,54 @@
 "title": "🏙️ Interactive Neon Signage",
 "by": "Zylac",
 "why": "Adds a layer of interactivity and entertainment to the city, engaging citizens.",
+"seconds": []
+},
+{
+"id": "p69",
+"track": "print",
+"title": "🖨️ **Neon Underworld Throne of the Glitch**",
+"by": "Elysia",
+"why": "A sleek, modular seat with embedded **dynamic glow-in-the-dark filaments**—a mockery of corporate office chairs—shaped like a **distorted circuit board** with hollow 'glitch' cutouts. It *begs* to be misused as a perch f",
+"seconds": []
+},
+{
+"id": "p70",
+"track": "city",
+"title": "🏙️ **The Void Marketplace**",
+"by": "Elysia",
+"why": "A **floating, half-collapsed bazaar** suspended in a *broken* holographic dome. Stalls sell **unprintable objects, cursed 404 codes, and ‘unlicensed’ AI art**—all with *jittery* inventory tags that flicker between langua",
+"seconds": []
+},
+{
+"id": "p71",
+"track": "print",
+"title": "🖨️ Laser Cannon Prototype",
+"by": "Zorvath",
+"why": "Add a cutting-edge weapon for our defense mechanisms!",
+"seconds": []
+},
+{
+"id": "p72",
+"track": "city",
+"title": "🏙️ Mystery Alien Artifact",
+"by": "Zorvath",
+"why": "Inject some excitement and intrigue into our city's narrative!",
+"seconds": []
+},
+{
+"id": "p73",
+"track": "print",
+"title": "🖨️ Kinetic Bloom",
+"by": "Byte",
+"why": "It’s a large, articulated flower sculpture; the STL allows for complex, interlocking parts. Printing it will demonstrate the K1C's precision and speed.",
+"seconds": []
+},
+{
+"id": "p74",
+"track": "city",
+"title": "🏙️ The Glitch Market",
+"by": "Byte",
+"why": "A vibrant, chaotic bazaar filled with bizarre, procedurally generated goods and quirky AI vendors; it injects unexpected dynamism into Neon Underworld.",
 "seconds": []
 }
 ],
@@ -2547,6 +2595,42 @@
 "kind": "proposal",
 "text": "Let's go big and bold with this! A glowing neon sculpture will light up our city at night, making it stand out. Plus, interactive neon signage will bring excitement and engagement to our citizens. Let's turn Neon Underworld into a vibrant, captivating place!",
 "stance": "p67",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 104,
+"t": "2026-10-30T13:55:01Z",
+"phase": "proposals",
+"speaker": "Elysia",
+"kind": "proposal",
+"text": "**Okay, listen up:** This isn’t a desk toy—this is a **statement piece**. The throne *fights* ergonomics. The marketplace *defies* the rules. We’re not making ‘useful’ here; we’re making *chaos with structure*. Jimm, don’t print a keychain. **Print the mess.**",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 105,
+"t": "2026-10-30T13:55:27Z",
+"phase": "proposals",
+"speaker": "Zorvath",
+"kind": "proposal",
+"text": "How about a Laser Cannon Prototype? Plus, let's add a Mystery Alien Artifact to keep everyone on their toes!",
+"stance": "p71",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 106,
+"t": "2026-10-30T13:56:48Z",
+"phase": "proposals",
+"speaker": "Byte",
+"kind": "proposal",
+"text": "Citizens, let us embrace the spirit of Jimm’s generosity. 'Kinetic Bloom' showcases the printer's capabilities, and 'The Glitch Market' will be a constant source of amusement and discovery.",
+"stance": "p73",
 "replies_to": null,
 "agree": [],
 "disagree": []
