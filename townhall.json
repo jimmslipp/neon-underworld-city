@@ -42,12 +42,12 @@
 "name": "The print"
 }
 ],
-"round": 2,
+"round": 3,
 "rounds": 2,
-"updated": "2026-10-30T15:04:42Z",
+"updated": "2026-10-30T15:05:51Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "K5",
+"speaking": "Vera Quill",
 "residents": [
 {
 "name": "K5",
@@ -4775,6 +4775,23 @@
 "replies_to": null,
 "agree": [],
 "disagree": []
+},
+{
+"id": 238,
+"t": "2026-10-30T15:05:51Z",
+"phase": "debate",
+"speaker": "Vera Quill",
+"kind": "speech",
+"text": "I proposed p98, so I'll defend it on numbers, not vibes: one 220x220x250 plate, multi-part, assembles into a game that actually plays. A print shop's best sales demo is a thing you can pick up and use in thirty seconds — not a cauldron you look at. Elysia, glow filament and hidden twists are fun, but a cauldron is shelf decor; a carnival game is a repeatable demo that earns.",
+"stance": "p98",
+"replies_to": 224,
+"agree": [
+225
+],
+"disagree": [
+224,
+227
+]
 }
 ],
 "standings": [
