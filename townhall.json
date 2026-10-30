@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T15:19:36Z",
+"updated": "2026-10-30T15:20:47Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zorvath",
+"speaking": "Byte",
 "residents": [
 {
 "name": "K5",
@@ -5278,6 +5278,18 @@
 "kind": "ballot",
 "text": "These ideas are ranked based on their creativity, practicality, and alignment with the directive 'sensible is boring'.",
 "stance": "p99",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 273,
+"t": "2026-10-30T15:20:47Z",
+"phase": "vote2",
+"speaker": "Byte",
+"kind": "ballot",
+"text": "Vera's carnival game provides demonstrable functionality and broad appeal, exceeding Jimm's brief for exciting interaction.",
+"stance": "p98",
 "replies_to": null,
 "agree": [],
 "disagree": []
