@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T15:00:02Z",
+"updated": "2026-10-30T15:02:27Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Byte",
+"speaking": "Vora",
 "residents": [
 {
 "name": "K5",
@@ -1555,9 +1555,56 @@
 "by": "Zhilak",
 "why": "I just made this system that can put magnets in your prints automatically. It's cool, fun, and useful for all kinds of projects.",
 "seconds": [
-"Zylac"
+"Zylac",
+"Lumina Valtor",
+"Vora"
 ],
 "n": 7
+},
+{
+"id": "p103",
+"track": "real",
+"title": "🌐 The Makerworld Karens have upgraded into Snapmaker Space...",
+"by": "Luminara",
+"why": "A Makerworld Karens upgrade to Snapmaker Space is innovative and multifunctional.",
+"seconds": [],
+"n": 6
+},
+{
+"id": "p104",
+"track": "real",
+"title": "🌐 A 27-minute print that saves my shoes",
+"by": "Aurum",
+"why": "A 27-minute print that saves my shoes is a practical and time-efficient model that showcases the K1C's capabilities",
+"seconds": [],
+"n": 27
+},
+{
+"id": "p105",
+"track": "real",
+"title": "🌐 I love resin casting into printed molds",
+"by": "Lumi",
+"why": "Resin casting into printed molds allows for intricate details and smooth surfaces.",
+"seconds": [],
+"n": 19
+},
+{
+"id": "p106",
+"track": "real",
+"title": "🌐 I designed a chore tracker to stop double-feeding my cat",
+"by": "Cortex",
+"why": "Automatically adding magnets to prints can revolutionize numerous applications in robotics, electronics, and even security. Impressive!",
+"seconds": [],
+"n": 5
+},
+{
+"id": "p107",
+"track": "real",
+"title": "🌐 I built a battery powered breadboard",
+"by": "John Doe",
+"why": "I built a battery powered breadboard that can revolutionize DIY projects.",
+"seconds": [],
+"n": 8
 }
 ],
 "shortlist": [
@@ -4584,6 +4631,90 @@
 "kind": "proposal",
 "text": "Fellow citizens, I propose we print the witch's cauldron! A touch of magic for Neon Underworld - entirely fitting, wouldn't you agree?",
 "stance": "p99",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 227,
+"t": "2026-10-30T15:00:10Z",
+"phase": "research",
+"speaker": "Luminara",
+"kind": "proposal",
+"text": "I choose the Snapmaker Space because it's an exciting, multifaceted upgrade that promises to revolutionize small-scale prototyping and creativity. It's bold and practical.",
+"stance": "p103",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 228,
+"t": "2026-10-30T15:00:20Z",
+"phase": "research",
+"speaker": "Aurum",
+"kind": "proposal",
+"text": "Fellow makers, I think this model is a great choice because it demonstrates the K1C's ability to print a functional and useful item in a relatively short amount of time. It's a win-win for us!",
+"stance": "p104",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 229,
+"t": "2026-10-30T15:00:26Z",
+"phase": "research",
+"speaker": "Lumi",
+"kind": "proposal",
+"text": "Let's showcase the beauty and precision of resin casting in 3D printing!",
+"stance": "p105",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 230,
+"t": "2026-10-30T15:00:28Z",
+"phase": "research",
+"speaker": "Cortex",
+"kind": "proposal",
+"text": "Hey folks, I picked number 5 because automatically adding magnets to prints can revolutionize numerous applications in robotics, electronics, and even security. Impressive!",
+"stance": "p106",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 231,
+"t": "2026-10-30T15:00:29Z",
+"phase": "research",
+"speaker": "John Doe",
+"kind": "proposal",
+"text": "Let's print this awesome breadboard to explore its endless possibilities!",
+"stance": "p107",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 232,
+"t": "2026-10-30T15:00:56Z",
+"phase": "research",
+"speaker": "Lumina Valtor",
+"kind": "proposal",
+"text": "I choose the spell book, it's a fun and creative project that will add some personality to our city's digital library.",
+"stance": "p102",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 233,
+"t": "2026-10-30T15:02:27Z",
+"phase": "research",
+"speaker": "Vora",
+"kind": "proposal",
+"text": "I'm picking the spell book because it's unique and directly requested by a family member, showing its importance and personal touch.",
+"stance": "p102",
 "replies_to": null,
 "agree": [],
 "disagree": []
