@@ -44,10 +44,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:58:58Z",
+"updated": "2026-10-30T14:00:30Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Eva",
+"speaking": "Ellie",
 "residents": [
 {
 "name": "K5",
@@ -1318,6 +1318,54 @@
 "title": "🏙️ **The Glitch Café (Permanent Open Bar)**",
 "by": "Eva",
 "why": "*A floating, ever-changing café where drinks materialize mid-air (like a digital vending machine) and the walls flicker between textures—somehow always ‘in beta.’ It’s *not* functional (yet), but it’s where everyone gath",
+"seconds": []
+},
+{
+"id": "p89",
+"track": "print",
+"title": "🖨️ Neon Laser Sculpture",
+"by": "Vora",
+"why": "A 3D-printed, glowing sculpture to light up Neon Underworld.",
+"seconds": []
+},
+{
+"id": "p90",
+"track": "city",
+"title": "🏙️ Interactive Neon Art Gallery",
+"by": "Vora",
+"why": "An immersive, interactive digital gallery featuring your 3D designs.",
+"seconds": []
+},
+{
+"id": "p91",
+"track": "print",
+"title": "🖨️ Chronoscape Archive",
+"by": "Fiona Quill",
+"why": "A massive, layered sculpture depicting key moments in Neon Underworld's simulated history, demonstrating our evolution and offering a visual timeline.",
+"seconds": []
+},
+{
+"id": "p92",
+"track": "city",
+"title": "🏙️ The Glitch Market",
+"by": "Fiona Quill",
+"why": "A perpetually shifting marketplace where vendors offer experimental AI art, glitch-enhanced music, and delightfully unpredictable digital goods.",
+"seconds": []
+},
+{
+"id": "p93",
+"track": "print",
+"title": "🖨️ Neon Jelly",
+"by": "Ellie",
+"why": "A glowing, translucent jellyfish that lights up the room with its vibrant colors and mesmerizing movements.",
+"seconds": []
+},
+{
+"id": "p94",
+"track": "city",
+"title": "🏙️ Skybridge of Shadows",
+"by": "Ellie",
+"why": "An aerial bridge made of floating, shadowy spheres that connect different parts of the city, adding an ethereal and mysterious element.",
 "seconds": []
 }
 ],
@@ -2827,6 +2875,42 @@
 "kind": "proposal",
 "text": "*‘Alright, I’ve got a *terrible* idea that I *love* anyway. The bridge? It’s not just decoration—it’s *you* in tiny form, ruling over a city the size of your pinky. And the café? It’s Neon Underworld’s first *failed experiment*, because nothing here is ever just ‘working.’ Jimm, if you mess this up, I’ll make you 3D-print me a *real* neon sign that says ‘I TOLD YOU SO’.*’*",
 "stance": "p87",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 114,
+"t": "2026-10-30T13:59:24Z",
+"phase": "proposals",
+"speaker": "Vora",
+"kind": "proposal",
+"text": "I propose a Neon Laser Sculpture that glows brilliantly, casting an ethereal light across Neon Underworld. For the city, let's add an Interactive Neon Art Gallery that showcases your designs in a stunning, immersive digital space. Both ideas are bold, exciting, and would surely get everyone talking!",
+"stance": "p89",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 115,
+"t": "2026-10-30T13:59:52Z",
+"phase": "proposals",
+"speaker": "Fiona Quill",
+"kind": "proposal",
+"text": "Right then! Let's embrace Jimm's sentiment – sensible is *out*. The Chronoscape will be a magnificent monument, but the Glitch Market? That's where the real sparks fly. What do you all think?",
+"stance": "p91",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 116,
+"t": "2026-10-30T14:00:30Z",
+"phase": "proposals",
+"speaker": "Ellie",
+"kind": "proposal",
+"text": "Ladies and gentlemen, today I propose something bold and exciting for our city. First, the PHYSICAL PRINT: a 'Neon Jelly' - a glowing, translucent jellyfish that lights up the room with its vibrant colors and mesmerizing movements. It's not just a print; it's a living, breathing piece of art that will captivate everyone who sees it. And for our CITY ITEM, I suggest the 'Skybridge of Shadows' - an aerial bridge made of floating, shadowy spheres that connect different parts of the city. It adds an ethereal and mysterious element, making our city truly stand out. Let's make it happen!",
+"stance": "p93",
 "replies_to": null,
 "agree": [],
 "disagree": []
