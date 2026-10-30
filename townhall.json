@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T14:37:10Z",
+"updated": "2026-10-30T14:38:46Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Fiona Quill",
+"speaking": "Lumi",
 "residents": [
 {
 "name": "K5",
@@ -4013,6 +4013,18 @@
 180,
 183
 ]
+},
+{
+"id": 185,
+"t": "2026-10-30T14:38:46Z",
+"phase": "debate",
+"speaker": "Lumi",
+"kind": "speech",
+"text": "I back the Arcade Mini as the physical print. It's tangible, functional, and profitable—perfect for Neon Underworld's unique spirit. As for the city item, the Void Marketplace fits the bill. It's a bizarre, half-alive bazaar that defies Jimm's control, embodying the chaos and pandemonium we crave. It's not just a place to sell unprintable objects; it's a rebellion, a playground for the absurd. Let's embrace the nonsensical, the unprintable, and make Neon Underworld our own. The Throne is a statement, but the Void Marketplace is entertainment.",
+"stance": "p57",
+"replies_to": null,
+"agree": [],
+"disagree": []
 }
 ],
 "standings": [
@@ -4103,6 +4115,7 @@
 "John Doe": "p70",
 "Zhilak": "p70",
 "Zorvath": "p70",
-"Eva": "p70"
+"Eva": "p70",
+"Lumi": "p70"
 }
 }
