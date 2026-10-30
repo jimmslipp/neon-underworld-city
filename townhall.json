@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T20:50:01Z",
+"updated": "2026-10-30T21:05:31Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zhilak",
+"speaking": "Zylac",
 "residents": [
 {
 "name": "K5",
@@ -5901,6 +5901,30 @@
 "speaker": "Zhilak",
 "kind": "print",
 "text": "Rexton's LEDs are going to make this phoenix come alive! Zilak, keep those vibes flowing like a river. Cortex, let's turn this energy into a neon masterpiece. And Vera, don't let the wall thickness number scare us off. Let's give this phoenix wings and make it soar!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 325,
+"t": "2026-10-30T20:50:21Z",
+"phase": "print",
+"speaker": "Vora",
+"kind": "print",
+"text": "Rexton's LEDs? Neat, Zilak. Just make sure the sync isn't too jittery, folks.",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 326,
+"t": "2026-10-30T21:05:31Z",
+"phase": "print",
+"speaker": "Zylac",
+"kind": "print",
+"text": "Alright, everyone. Let's hit the gas pedal on this neon ride. Zilak, your LED sync is going to light up the night sky. Rexton's LEDs will make our phoenix shine like a star. Cortex, keep the energy flowing like a river. And Vera, your vigilance will ensure this phoenix flies high and steady. Let's make this city buzz with excitement!",
 "stance": null,
 "replies_to": null,
 "agree": [],
