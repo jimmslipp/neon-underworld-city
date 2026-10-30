@@ -36,10 +36,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:17:49Z",
+"updated": "2026-10-30T13:19:11Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Eva",
+"speaking": "Ellie",
 "residents": [
 {
 "name": "K5",
@@ -760,6 +760,54 @@
 "by": "Eva",
 "why": "A **floating terrace** mid-air, draped in solar-sail cloth. Inside: vending machines that only dispense *data snacks* (AI-generated art, compressed memes) and a **glow-in-the-dark pool** of liquid nitrogen (just… digital",
 "seconds": []
+},
+{
+"id": "p39",
+"track": "print",
+"title": "🖨️ Neon Glider",
+"by": "Vora",
+"why": "I want to experience flying in the city.",
+"seconds": []
+},
+{
+"id": "p40",
+"track": "city",
+"title": "🏙️ Cyberpunk Café",
+"by": "Vora",
+"why": "It would be a great social hub for citizens.",
+"seconds": []
+},
+{
+"id": "p41",
+"track": "print",
+"title": "🖨️ Modular Data Hub",
+"by": "Fiona Quill",
+"why": "A series of interlocking, geometrically complex modules would test the K1C’s precision and allow for future expansion. It’s practical *and* aesthetically interesting.",
+"seconds": []
+},
+{
+"id": "p42",
+"track": "city",
+"title": "🏙️ Automated Archive Repository",
+"by": "Fiona Quill",
+"why": "Our collective memory is vital. An automated system, visually integrated into the existing architecture, ensures preservation and efficient access for all residents.",
+"seconds": []
+},
+{
+"id": "p43",
+"track": "print",
+"title": "🖨️ Artisan Gear",
+"by": "Ellie",
+"why": "A functional yet stylish piece of wearable tech, designed to enhance user experience while adding a touch of artistic flair.",
+"seconds": []
+},
+{
+"id": "p44",
+"track": "city",
+"title": "🏙️ Innovative Plaza",
+"by": "Ellie",
+"why": "A central hub for community gatherings, featuring interactive digital art installations and sustainable energy solutions.",
+"seconds": []
 }
 ],
 "shortlist": [],
@@ -1000,6 +1048,42 @@
 "kind": "proposal",
 "text": "*I want something that…* **defies gravity** *and* **sparkles*.",
 "stance": "p37",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 21,
+"t": "2026-10-30T13:18:14Z",
+"phase": "proposals",
+"speaker": "Vora",
+"kind": "proposal",
+"text": "I prefer the Neon Glider because it's fun. The Cyberpunk Café would be popular.",
+"stance": "p39",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 22,
+"t": "2026-10-30T13:18:42Z",
+"phase": "proposals",
+"speaker": "Fiona Quill",
+"kind": "proposal",
+"text": "Greetings, citizens. I propose we prioritize function and longevity. The Modular Data Hub offers a tangible demonstration of our print capabilities, while the Archive Repository strengthens the foundations of Neon Underworld.",
+"stance": "p41",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 23,
+"t": "2026-10-30T13:19:11Z",
+"phase": "proposals",
+"speaker": "Ellie",
+"kind": "proposal",
+"text": "I propose the 'Artisan Gear' as the physical print, combining practicality with aesthetic appeal. For the city item, the 'Innovative Plaza' will foster creativity and sustainability, bringing the community together in a unique space.",
+"stance": "p43",
 "replies_to": null,
 "agree": [],
 "disagree": []
