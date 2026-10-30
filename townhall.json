@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T14:43:06Z",
+"updated": "2026-10-30T14:44:58Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zylac",
+"speaking": "Byte",
 "residents": [
 {
 "name": "K5",
@@ -4160,6 +4160,42 @@
 "kind": "ballot",
 "text": "Choosing to bring the chaos of Neon Underworld into physical form, the Colossus of Neon (p59) captures the essence of our unpredictable city. For the city, the Void Marketplace (p70) offers a wild, unpredictable space that reflects our vibrant, chaotic spirit.",
 "stance": "p59",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 197,
+"t": "2026-10-30T14:43:20Z",
+"phase": "vote",
+"speaker": "Elysia",
+"kind": "ballot",
+"text": "I’m taking the *Throne*—literally—because why should corporate have all the glitchy, ergonomically *questionable* fun? And that *Void Marketplace*? A bazaar for our digital piracy dreams, right in the heart of our chaos.",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 198,
+"t": "2026-10-30T14:43:43Z",
+"phase": "vote",
+"speaker": "Zorvath",
+"kind": "ballot",
+"text": "Choosing p59 and p51 for the physical print, and p52 and p54 for the city item. It's time to make the Neon Underworld buzz with innovation and creativity!",
+"stance": "p59",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 199,
+"t": "2026-10-30T14:44:58Z",
+"phase": "vote",
+"speaker": "Byte",
+"kind": "ballot",
+"text": "Elysia's Throne represents ambition; Tick's arcade caters to nostalgia. The Void Marketplace exemplifies our defiance, while the Idea Pulse Beacon feels… predictable.",
+"stance": "p69",
 "replies_to": null,
 "agree": [],
 "disagree": []
