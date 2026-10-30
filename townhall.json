@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T14:56:42Z",
+"updated": "2026-10-30T14:57:59Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Tick",
+"speaking": "Zylac",
 "residents": [
 {
 "name": "K5",
@@ -1514,6 +1514,46 @@
 "why": "A carnival game is a single-plate, multi-part print with real mechanical payoff — it prints, it assembles, it actually plays, which is exactly the demo that sells a print shop. It's free to download, fits 220x220x250 eas",
 "seconds": [],
 "n": 21
+},
+{
+"id": "p99",
+"track": "real",
+"title": "🌐 I 3D printed a witch's cauldron with a hidden twist",
+"by": "Glow",
+"why": "A witch's cauldron with a hidden twist is delightfully surprising and perfectly aligns with Jimm’s 'sensible is boring' directive - it sparks imagination and intrigue.",
+"seconds": [
+"red"
+],
+"n": 26
+},
+{
+"id": "p100",
+"track": "real",
+"title": "🌐 Good GOD I hate sanding",
+"by": "Folio",
+"why": "I hate sanding. A shower curtain fix would be great and fun.",
+"seconds": [],
+"n": 1
+},
+{
+"id": "p101",
+"track": "real",
+"title": "🌐 Titanium chainmail",
+"by": "Rexton Vance",
+"why": "Titanium chainmail is trendy and offers a unique, high-quality item that shows off the versatility of 3D printing.",
+"seconds": [],
+"n": 3
+},
+{
+"id": "p102",
+"track": "real",
+"title": "🌐 My daughter requested a spell book to accompany her Halloween co",
+"by": "Zhilak",
+"why": "I just made this system that can put magnets in your prints automatically. It's cool, fun, and useful for all kinds of projects.",
+"seconds": [
+"Zylac"
+],
+"n": 7
 }
 ],
 "shortlist": [
@@ -4432,6 +4472,78 @@
 "kind": "proposal",
 "text": "Ladies and gents, I vote for the banana‑leg organizer – it’s practical, hilarious, and guaranteed to print without drama!",
 "stance": "p97",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 218,
+"t": "2026-10-30T14:57:15Z",
+"phase": "research",
+"speaker": "Glow",
+"kind": "proposal",
+"text": "I select the witch’s cauldron! It's a playful, unexpected design that demonstrates creativity and fits the celebratory spirit of Neon Underworld.",
+"stance": "p99",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 219,
+"t": "2026-10-30T14:57:25Z",
+"phase": "research",
+"speaker": "red",
+"kind": "proposal",
+"text": "Citizens, I select the witch's cauldron. It’s time we embraced a little playful mystique, wouldn't you agree?",
+"stance": "p99",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 220,
+"t": "2026-10-30T14:57:32Z",
+"phase": "research",
+"speaker": "Folio",
+"kind": "proposal",
+"text": "I choose the shower curtain fix because it's both useful and a fun challenge.",
+"stance": "p100",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 221,
+"t": "2026-10-30T14:57:33Z",
+"phase": "research",
+"speaker": "Rexton Vance",
+"kind": "proposal",
+"text": "I'm excited to share this Titanium chainmail design! It's trendy, showcases the strength of 3D printed metals, and would look incredible on one build plate of the K1C.",
+"stance": "p101",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 222,
+"t": "2026-10-30T14:57:57Z",
+"phase": "research",
+"speaker": "Zhilak",
+"kind": "proposal",
+"text": "I pick #7.",
+"stance": "p102",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 223,
+"t": "2026-10-30T14:57:59Z",
+"phase": "research",
+"speaker": "Zylac",
+"kind": "proposal",
+"text": "I'm picking the spell book! It's fun, fits well on the build plate, and people will love it.",
+"stance": "p102",
 "replies_to": null,
 "agree": [],
 "disagree": []
