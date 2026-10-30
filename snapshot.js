@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793365788,
+ "generated_at": 1793365814,
  "paused": true,
  "citizens": [
   {
@@ -3581,6 +3581,7 @@ window.SNAPSHOT = {
    }
   ]
  },
+ "townhall": true,
  "fund": {
   "next_goal": "AI subscriptions (ChatGPT images, OpenRouter, DeepSeek)",
   "progress_steps_of_5": 0
