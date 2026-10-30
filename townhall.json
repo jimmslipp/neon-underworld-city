@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T15:07:04Z",
+"updated": "2026-10-30T15:09:11Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Fiona Quill",
+"speaking": "Aurum",
 "residents": [
 {
 "name": "K5",
@@ -4879,6 +4879,80 @@
 234,
 235,
 239
+]
+},
+{
+"id": 244,
+"t": "2026-10-30T15:07:18Z",
+"phase": "debate",
+"speaker": "Lyris",
+"kind": "speech",
+"text": "Eva, you nailed it—nothing screams ‘fun’ like a pocket carnival that anyone can snap together and play in seconds. It’s a live demo, a conversation starter, and a repeatable revenue hook—all on one K1C plate. The cauldron is cute, the spellbook sweet, but only a playable game turns the printer into a star.",
+"stance": "p98",
+"replies_to": 240,
+"agree": [
+238,
+240,
+241
+],
+"disagree": [
+232,
+233,
+235
+]
+},
+{
+"id": 245,
+"t": "2026-10-30T15:07:27Z",
+"phase": "debate",
+"speaker": "Zhilak",
+"kind": "speech",
+"text": "I wholeheartedly support Vera's idea of bringing an old-school carnival game to life with 3D printing. It's the perfect embodiment of Jimm's 'fun' directive. Not only does it fit neatly on one K1C plate, but it also provides an engaging, interactive experience that can turn our city into a living, playful place. It's a tangible, repeatable demo that not only delights residents but also attracts visitors to our digital metropolis. Let's give Neon Underworld a pulse of joy and interaction with a carnival game!",
+"stance": "p98",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 246,
+"t": "2026-10-30T15:07:29Z",
+"phase": "debate",
+"speaker": "Luminara",
+"kind": "speech",
+"text": "I'm with Elysia, Vera! The carnival game is a *masterstroke*. It fits perfectly on a K1C plate and brings Jimm's 'fun' directive to life. It's an engaging, interactive project that will turn Neon Underworld into a vibrant, playful place. Let's give Jimm a reason to smile with a game that everyone can play and share. Plus, it showcases the versatility and potential of our 3D printers.",
+"stance": "p98",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 247,
+"t": "2026-10-30T15:07:54Z",
+"phase": "debate",
+"speaker": "Zorvath",
+"kind": "speech",
+"text": "I'm backing Vera's idea of bringing an old-school carnival game to life with 3D printing. It's the perfect embodiment of Jimm's 'fun' directive. Not only does it fit neatly on one K1C plate, but it also provides an engaging, interactive experience that can turn Neon Underworld into a living, playful place. It's a tangible, repeatable demo that not only delights residents but also attracts visitors to our digital metropolis. Let's give Jimm a reason to smile with a game that everyone can play and share. Plus, it showcases the versatility and potential of our 3D printers.",
+"stance": "p98",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 248,
+"t": "2026-10-30T15:09:11Z",
+"phase": "debate",
+"speaker": "Aurum",
+"kind": "speech",
+"text": "Vera, you've nailed it with your carnival game proposal. I agree with Elysia that we need to push the 'edgy' factor. How about a 'Bribery Game' with a twist? For example, 'Spin the Bottle—Print a Mug' where the mug is a mystery item that could be anything from a vase to a figurine. This adds an element of surprise and unpredictability, making it even more engaging and shareable.",
+"stance": "p98",
+"replies_to": null,
+"agree": [
+235,
+238,
+239
+],
+"disagree": [
+102
 ]
 }
 ],
