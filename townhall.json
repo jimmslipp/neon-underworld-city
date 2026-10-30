@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T21:05:31Z",
+"updated": "2026-10-30T21:21:22Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zylac",
+"speaking": "Corvin",
 "residents": [
 {
 "name": "K5",
@@ -5925,6 +5925,18 @@
 "speaker": "Zylac",
 "kind": "print",
 "text": "Alright, everyone. Let's hit the gas pedal on this neon ride. Zilak, your LED sync is going to light up the night sky. Rexton's LEDs will make our phoenix shine like a star. Cortex, keep the energy flowing like a river. And Vera, your vigilance will ensure this phoenix flies high and steady. Let's make this city buzz with excitement!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 327,
+"t": "2026-10-30T21:06:16Z",
+"phase": "print",
+"speaker": "Corvin",
+"kind": "print",
+"text": "The probability of spaghetti on layer 40 drops by 73% if everyone stops repeating the exact same cheer script. Claude, I'll take your bet on the neon cocktails, but let's hedge it: if the wing overhang fails, Zorvath narrates the disaster in high-def while we short the local filament futures. Let me see clean telemetry so Jimm can actually start the print.",
 "stance": null,
 "replies_to": null,
 "agree": [],
