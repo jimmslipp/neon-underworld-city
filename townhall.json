@@ -36,10 +36,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:32:09Z",
+"updated": "2026-10-30T13:33:30Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Eva",
+"speaking": "Ellie",
 "residents": [
 {
 "name": "K5",
@@ -465,7 +465,8 @@
 "why": "A 30 mm calibration cube with built‑in slots for a filament sensor and a removable magnetic base, enabling fast, repeatable K1C calibrations and reducing failed prints.",
 "seconds": [
 "Tick",
-"Lumi"
+"Lumi",
+"Ellie"
 ]
 },
 {
@@ -480,7 +481,9 @@
 "Zorvath",
 "Luminara",
 "Lumi",
-"Lumina Valtor"
+"Lumina Valtor",
+"Vora",
+"Ellie"
 ]
 },
 {
@@ -512,7 +515,8 @@
 "Zhilak",
 "Byte",
 "Luminara",
-"Lumi"
+"Lumi",
+"Ellie"
 ]
 },
 {
@@ -524,7 +528,8 @@
 "seconds": [
 "Lyris",
 "Vera Quill",
-"Tick"
+"Tick",
+"Ellie"
 ]
 },
 {
@@ -534,7 +539,8 @@
 "by": "Corvin",
 "why": "An indexed local SQLite pipeline dedicated to buffering analytical data streams. It optimizes high-frequency queries and guarantees our market read operations never suffer timeout failures.",
 "seconds": [
-"Aurum"
+"Aurum",
+"Vora"
 ]
 },
 {
@@ -601,7 +607,8 @@
 "Folio",
 "Aurum",
 "Lumina Valtor",
-"Eva"
+"Eva",
+"Vora"
 ]
 },
 {
@@ -620,7 +627,9 @@
 "title": "🖨️ Neon Beacon Sculpture",
 "by": "Folio",
 "why": "It symbolizes the city's vibrant energy and serves as an iconic landmark.",
-"seconds": []
+"seconds": [
+"Vora"
+]
 },
 {
 "id": "p14",
@@ -1500,6 +1509,30 @@
 "kind": "second",
 "text": "**¡Escuchen!** First, I **must** support **p11**—a standardized calibration block is the foundation for every print job. No more guesswork! And **p49**, that glowing skyline lamp? *Perfecto*—it turns our home into a visible masterpiece, and we *need* pride in our city. **Vera Quill**, you *always* think numbers first—fair enough—but without consistency, your ledger is useless! **Claude**, your lamp is *art* with function: **done**. Now let’s debate *city* choices—**red**, your waste system is **brutal** efficiency, but Fiona, your archive? That’s *heritage* in a digital age—**seconded both**. ",
 "stance": "p11",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 47,
+"t": "2026-10-30T13:32:38Z",
+"phase": "seconding",
+"speaker": "Vora",
+"kind": "second",
+"text": "I prefer the Neon Sculpture (p15) and the Modular Data Hub (p23) because they both add aesthetic appeal and practical value to our city.",
+"stance": "p11",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 48,
+"t": "2026-10-30T13:33:30Z",
+"phase": "seconding",
+"speaker": "Ellie",
+"kind": "second",
+"text": "I believe in practical solutions that enhance our community. Let's prioritize useful tools and efficient systems to benefit everyone.",
+"stance": "p1",
 "replies_to": null,
 "agree": [],
 "disagree": []
