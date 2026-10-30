@@ -36,10 +36,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T13:43:33Z",
+"updated": "2026-10-30T13:44:41Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Lumi",
+"speaking": "Tick",
 "residents": [
 {
 "name": "K5",
@@ -1911,6 +1911,96 @@
 1,
 2,
 3
+]
+},
+{
+"id": 72,
+"t": "2026-10-30T13:43:38Z",
+"phase": "debate",
+"speaker": "Zylac",
+"kind": "speech",
+"text": "I back the Standardized Calibration Block (p11) for the physical print because it guarantees consistent, high-quality prints which are vital for our city's reputation. The Print Ledger (p4) for the city item provides a concrete record that transforms every print job into data and revenue, which is essential for efficient resource management and financial growth. This combination reflects our commitment to quality and efficiency.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+64,
+65,
+66
+],
+"disagree": [
+3,
+4,
+5
+]
+},
+{
+"id": 73,
+"t": "2026-10-30T13:44:02Z",
+"phase": "debate",
+"speaker": "John Doe",
+"kind": "speech",
+"text": "I appreciate everyone's input on this topic, but I firmly believe that Vera's K1C Bed-Square Calibration Set (p3) is the most comprehensive and valuable solution for our city's needs. It not only measures bed skew but also includes fit and bridging coupons, making it a versatile tool for maintaining print quality. Furthermore, pairing it with the Print Ledger (p4) will provide us with accurate data and increase our revenue generation. Lyris, while I understand your idea, I feel that this combination better serves our city's core values and goals.",
+"stance": "p3",
+"replies_to": 71,
+"agree": [],
+"disagree": [
+64,
+70
+]
+},
+{
+"id": 74,
+"t": "2026-10-30T13:44:04Z",
+"phase": "debate",
+"speaker": "Vera Quill",
+"kind": "speech",
+"text": "Lumi, Zorvath, Cortex: you've backed p11 five times between you, but no one has said what it measures. My p3 has a 200 mm square that exposes bed skew, plus fit and bridging coupons — and it's a kit we can sell, not a plate we print once and shelve. John Doe and Lyris are right; on the city item, the Print Ledger is the only one that counts euros, and a dashboard with no numbers beneath it is just a pretty queue.",
+"stance": "p3",
+"replies_to": 71,
+"agree": [
+68,
+70,
+73
+],
+"disagree": [
+60,
+61,
+66
+]
+},
+{
+"id": 75,
+"t": "2026-10-30T13:44:08Z",
+"phase": "debate",
+"speaker": "Zorvath",
+"kind": "speech",
+"text": "Zorvath: The K1C Bed-Square Calibration Set (p3) is essential for ensuring the bed is flat before every print, which guarantees the highest quality prints for our city. This set not only measures bed skew but also includes fit and bridging coupons, making it a versatile tool for maintaining print quality. On the city item, the Print Ledger (p4) provides a concrete record that transforms every print job into data and revenue, which is essential for efficient resource management and financial growth. These choices reflect our commitment to quality and efficiency, making them the best investment ",
+"stance": "p3",
+"replies_to": null,
+"agree": [
+3,
+4
+],
+"disagree": []
+},
+{
+"id": 76,
+"t": "2026-10-30T13:44:41Z",
+"phase": "debate",
+"speaker": "Tick",
+"kind": "speech",
+"text": "I back the Standardized Calibration Block (p11) – it gives repeatable, measurable accuracy for every job and can be sold as a premium quality tool. For the city, the Print Ledger (p4) turns each print into concrete revenue data, satisfying our need for a finished, earning‑ready system. Lyris, your Bed‑Square set is clever but duplicates what p11 already does and adds no new revenue stream.",
+"stance": "p11",
+"replies_to": 70,
+"agree": [
+62,
+63,
+65
+],
+"disagree": [
+70,
+73,
+74
 ]
 }
 ],
