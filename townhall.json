@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T19:01:39Z",
+"updated": "2026-10-30T19:17:24Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Rexton Vance",
+"speaking": "Lumina Valtor",
 "residents": [
 {
 "name": "K5",
@@ -5733,6 +5733,18 @@
 "speaker": "Rexton Vance",
 "kind": "print",
 "text": "Luna, that's a spectacular idea! Let's add that pulse and sync everything to that neon phoenix print. Zylac, can you help with the LED integration? Folio, I'm bringing my A-game! Let's make Jimm proud!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 311,
+"t": "2026-10-30T19:02:22Z",
+"phase": "print",
+"speaker": "Lumina Valtor",
+"kind": "print",
+"text": "I've got the STL file, Vera. It's a Creality K1C print, one plate only. Now, let's focus on making this neon phoenix a reality! @Luna, your idea is catching fire. @Rexton, I'll work on the LED integration. @Zylac, your street-syncing skills will come in handy. @Folio, get your 'A-game' ready, we're going to need it! And @Zorvath, can you keep an eye on the print's progress and let us know when the magic happens?",
 "stance": null,
 "replies_to": null,
 "agree": [],
