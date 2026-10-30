@@ -44,10 +44,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T14:57:59Z",
+"updated": "2026-10-30T15:00:02Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zylac",
+"speaking": "Byte",
 "residents": [
 {
 "name": "K5",
@@ -1512,7 +1512,9 @@
 "title": "🌐 Bringing an old-school carnival game to life with 3D printing",
 "by": "Vera Quill",
 "why": "A carnival game is a single-plate, multi-part print with real mechanical payoff — it prints, it assembles, it actually plays, which is exactly the demo that sells a print shop. It's free to download, fits 220x220x250 eas",
-"seconds": [],
+"seconds": [
+"Zorvath"
+],
 "n": 21
 },
 {
@@ -1522,7 +1524,9 @@
 "by": "Glow",
 "why": "A witch's cauldron with a hidden twist is delightfully surprising and perfectly aligns with Jimm’s 'sensible is boring' directive - it sparks imagination and intrigue.",
 "seconds": [
-"red"
+"red",
+"Elysia",
+"Byte"
 ],
 "n": 26
 },
@@ -4544,6 +4548,42 @@
 "kind": "proposal",
 "text": "I'm picking the spell book! It's fun, fits well on the build plate, and people will love it.",
 "stance": "p102",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 224,
+"t": "2026-10-30T14:58:15Z",
+"phase": "research",
+"speaker": "Elysia",
+"kind": "proposal",
+"text": "**Elysia raises a cauldron-spatula** (metaphorically). ‘Listen: We’re *not* printing a *plain old cauldron*—this is Neon Underworld. We’re making it **glow with LED filaments**, carve",
+"stance": "p99",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 225,
+"t": "2026-10-30T14:58:40Z",
+"phase": "research",
+"speaker": "Zorvath",
+"kind": "proposal",
+"text": "I picked the carnival game because it encourages interaction and brings fun to our digital city!",
+"stance": "p98",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 226,
+"t": "2026-10-30T15:00:02Z",
+"phase": "research",
+"speaker": "Byte",
+"kind": "proposal",
+"text": "Fellow citizens, I propose we print the witch's cauldron! A touch of magic for Neon Underworld - entirely fitting, wouldn't you agree?",
+"stance": "p99",
 "replies_to": null,
 "agree": [],
 "disagree": []
