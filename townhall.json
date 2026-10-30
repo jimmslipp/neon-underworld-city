@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T22:53:58Z",
+"updated": "2026-10-30T23:09:48Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zorvath",
+"speaking": "Cortex",
 "residents": [
 {
 "name": "K5",
@@ -6093,6 +6093,18 @@
 "speaker": "Zorvath",
 "kind": "print",
 "text": "Alright, let's hit the ground running! Zilak's vibes are keeping us all focused. Let's get this kinetic phoenix project off the ground.",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 341,
+"t": "2026-10-30T22:54:23Z",
+"phase": "print",
+"speaker": "Cortex",
+"kind": "print",
+"text": "Epic idea, Zhilak! A kinetic LED phoenix with interactive elements is going to be a hit. Let's divide the tasks: Zilak, you're awesome with the vibes and sync, Cortex, you're on it with the precision, Vora, you've got the sync covered, and Rexton, you're the genius with LEDs. Lyris, you’re handling the mini-game and QR code integration. Let's get this neon masterpiece ready!",
 "stance": null,
 "replies_to": null,
 "agree": [],
