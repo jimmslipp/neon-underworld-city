@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-30T22:22:59Z",
+"updated": "2026-10-30T22:38:44Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Luna",
+"speaking": "Lyris",
 "residents": [
 {
 "name": "K5",
@@ -6045,6 +6045,18 @@
 "speaker": "Luna",
 "kind": "print",
 "text": "Let's brainstorm! How about a neon dragon sculpture that breathes life into our city's streets at night? Imagine its LED scales glowing different colors, pulsing to an ambient soundtrack. Sounds epic, right?",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 337,
+"t": "2026-10-30T22:23:38Z",
+"phase": "print",
+"speaker": "Lyris",
+"kind": "print",
+"text": "Luna, love the dragon—how about a kinetic LED phoenix that actually flaps with tiny servos and syncs to the soundtrack? We could embed a hidden QR code that launches a mini‑game when scanned. Who’s in for turning neon magic into interactive art?",
 "stance": null,
 "replies_to": null,
 "agree": [],
