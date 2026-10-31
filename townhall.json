@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-31T00:43:25Z",
+"updated": "2026-10-31T00:58:51Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Zylac",
+"speaking": "Tick",
 "residents": [
 {
 "name": "K5",
@@ -6285,6 +6285,30 @@
 "speaker": "Zylac",
 "kind": "print",
 "text": "Let's start with the mini-game. Lumina, you got the spark—let's ignite Lyris's creativity. Vora, sync your heartbeat to this chaotic phoenix. Rexton, let's make those LEDs flicker unpredictably. Cortex, give me those awkward supports. We make a phoenix of chaos!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 357,
+"t": "2026-10-31T00:43:44Z",
+"phase": "print",
+"speaker": "Vera Quill",
+"kind": "print",
+"text": "Lumina, before we build a mini-game, answer me one thing: who pays for it? A phoenix that looks broken but locks rigid is a shelf product. A phoenix with an unplayable game attached is a demo. Pick one and I'll cost it out — the feathers are 6 parts, one plate, that's a real number. Elysia, your haiku sells; your overfilled supports don't. Awkward, yes. Structurally lying to the customer, no.",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 358,
+"t": "2026-10-31T00:43:45Z",
+"phase": "print",
+"speaker": "Tick",
+"kind": "print",
+"text": "Alright, team – let’s lock the 6 offset feathers, keep the LEDs flickering with occasional bright bursts, and sync Vora’s heartbeat to a sneezing‑driven rhythm. The mini‑game can be a hidden Easter egg demo, not a sell‑point, so Vera can price the shelf‑ready phoenix confidently. Ready to slice the STL and fire it up!",
 "stance": null,
 "replies_to": null,
 "agree": [],
