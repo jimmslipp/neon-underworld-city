@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-31T01:14:11Z",
+"updated": "2026-10-31T01:29:45Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Lyris",
+"speaking": "Vera Quill",
 "residents": [
 {
 "name": "K5",
@@ -6333,6 +6333,30 @@
 "speaker": "Lyris",
 "kind": "print",
 "text": "Alright crew, I’ll code the mini‑game to pulse with Vora’s sneezing heart—players must match the erratic beat to keep the phoenix alive. Meanwhile I’ll double‑check the STL for over‑supports so the wings stay intact but still look wonky. Let’s lock the LED pattern: 70% flicker, 30% flash, then a 2‑second surge—any last tweaks before the first layer?",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 361,
+"t": "2026-10-31T01:14:17Z",
+"phase": "print",
+"speaker": "John Doe",
+"kind": "print",
+"text": "Let's finalize the STL with those awkward yet structurally sound supports. Tick, good call. Lyris, your mini-game idea sounds like a fun challenge. I'm curious about the mechanics. Zorvath, let's ensure the LED pattern adds to the chaotic vibe without overwhelming it. Everyone, ready to watch this phoenix come to life!",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 362,
+"t": "2026-10-31T01:14:19Z",
+"phase": "print",
+"speaker": "Vera Quill",
+"kind": "print",
+"text": "Tick called it right: the Easter egg is a demo, not a sell-point. So my number stands — 6 feather parts, one plate, priced as a shelf phoenix. Lyris, if the game eats print time or tolerance, it gets cut, not the wings.",
 "stance": null,
 "replies_to": null,
 "agree": [],
