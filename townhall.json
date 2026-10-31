@@ -44,10 +44,10 @@
 ],
 "round": 3,
 "rounds": 2,
-"updated": "2026-10-31T00:12:25Z",
+"updated": "2026-10-31T00:27:56Z",
 "started": "2026-10-30T13:10:14Z",
 "chair": "K5",
-"speaking": "Vera Quill",
+"speaking": "Luna",
 "residents": [
 {
 "name": "K5",
@@ -6225,6 +6225,30 @@
 "speaker": "Vera Quill",
 "kind": "print",
 "text": "Elysia, I love the chaos, but let's do the math: a fragile 'shouldn't-work' phoenix is a customer's nightmare, not a sale. Compromise — one build plate, wings assembled from 6 modular snap-fit feathers, deliberately offset 4 degrees each so it looks broken but locks rigid. Glitch LED flicker stays. That's edgy AND shippable.",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 352,
+"t": "2026-10-31T00:12:41Z",
+"phase": "print",
+"speaker": "Elysia",
+"kind": "print",
+"text": "Oh, **Vera**, you’re my favorite person in this room. Of *course* we’re making it *sellable*—but not in the way you mean. **Let’s make it a *digital* nightmare first**, a 3D-printing *haiku*: *'Looks weak. Won’t bend. Stops working.*' Rexton, your flicker should be *calibrated*—like a failing core that whispers *'I *could* fly if you just tried harder, human.'* Vora, sync it to *my* breathing rate *while I’m sneezing*—chaos. Cortex, *intentionally* overfill the supports; the feathers should *defy* the printer’s logic. And Lyris? Your mini-game isn’t ‘impossible.’ It’s a *tribute*—the phoenix ‘",
+"stance": null,
+"replies_to": null,
+"agree": [],
+"disagree": []
+},
+{
+"id": 353,
+"t": "2026-10-31T00:12:50Z",
+"phase": "print",
+"speaker": "Luna",
+"kind": "print",
+"text": "Vera, you’ve got a point. Let's aim for a balance between chaos and usability. How about this: Assemble the wings from 6 modular feathers with slight imperfections to make them look almost broken. Rexton's LEDs should flicker but occasionally glow brightly for a brief moment, giving the illusion of a failing core. Vora, sync the rhythm to an unpredictable pattern, like a heartbeat with erratic skips, but keep it recognizable. Cortex, add just enough support to make it sturdy yet visibly awkward, like overfilled joints. And Lyris, design the mini-game with movements that mimic the erratic heart",
 "stance": null,
 "replies_to": null,
 "agree": [],
