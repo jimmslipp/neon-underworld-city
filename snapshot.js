@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793531281,
+ "generated_at": 1793532259,
  "paused": false,
  "citizens": [
   {
@@ -2642,10 +2642,10 @@ window.SNAPSHOT = {
   },
   {
    "title": "Legal 3D Signage Suite for Bars",
-   "stage": "build",
+   "stage": "pilot",
    "status": "alive",
-   "yes": 0,
-   "no": 0
+   "yes": 30,
+   "no": 2
   },
   {
    "title": "Legal Compliance & Scheduling Suite for Costa del Sol Bars",
