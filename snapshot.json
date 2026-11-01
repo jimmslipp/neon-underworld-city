@@ -1,5 +1,5 @@
 {
- "generated_at": 1793536571,
+ "generated_at": 1793537372,
  "paused": false,
  "citizens": [
   {
@@ -748,9 +748,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "enchanted",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
@@ -1000,9 +1000,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "mischievous",
    "said": "",
    "role": "proposals, market-notes, spanish",
    "home": 36,
