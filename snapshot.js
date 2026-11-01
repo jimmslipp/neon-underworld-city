@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793565568,
+ "generated_at": 1793566391,
  "paused": false,
  "citizens": [
   {
@@ -1523,16 +1523,16 @@ window.SNAPSHOT = {
  ],
  "proclamations": [
   {
-   "at": "16 Oct 2026 12:37",
-   "text": "Jimm (16 Oct, via Claude Code): \"set the city off working on anything it can for us\". Research only, read-only, nothing touches HGA machines, accounts or secrets; findings to Jimm for his yes. Jobs: (1) HGA Pursuit (browser racing game): fi"
-  },
-  {
    "at": "27 Oct 2026 09:18",
    "text": "Change the city so it works as an office, a fully functioning office: people on outreach and customer outreach, finance, a director, someone to advertise, someone for social media, and Claude to keep them all in check. (27 Oct: Claude revie"
   },
   {
    "at": "27 Oct 2026 10:01",
    "text": "New Business floor: somebody on new business acquisition (new venues for machines and screens, new advertisers), and somebody looking for forward products, new things to build and better things to put out under the HGA brand. (27 Oct)"
+  },
+  {
+   "at": "01 Nov 2026 21:45",
+   "text": "Jimm, 1 Nov 2026: \"Tighten up the city so it works as an actual, functional office. It should run on its own and I should be making director's decisions. The goal at the moment is HGA Media: the machines are fine, I need advertisers and peo"
   }
  ],
  "lounge": [],
