@@ -1,5 +1,5 @@
 {
- "generated_at": 1793554643,
+ "generated_at": 1793555562,
  "paused": false,
  "citizens": [
   {
@@ -685,9 +685,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "nostalgic",
    "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
@@ -706,9 +706,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "research, listing-text, translation",
    "home": 24,
@@ -727,9 +727,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "tags, short-text",
    "home": 25,
@@ -811,9 +811,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "curious",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "licence-notes, summaries",
    "home": 27,
@@ -1210,9 +1210,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "shaping, critic, planning",
    "home": 44,
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1793555003,
+   "text": "Cinema School: Mira studied 'Best Telegram Bot To Make Money 2026 � Free USDT Inside'"
+  },
   {
    "at": 1793554617,
    "text": "Mira, Zora Xu, Lumi took a resist in the smoke club"
@@ -1293,10 +1297,6 @@
   {
    "at": 1793533789,
    "text": "Cinema School: Luminara studied 'How It's Made: Ice Cream Factory Mega Factory Tour | Food Manufacturing Document'"
-  },
-  {
-   "at": 1793533644,
-   "text": "HGA check-up written by Vera Quill"
   }
  ],
  "products": [
