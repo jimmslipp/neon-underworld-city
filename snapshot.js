@@ -1,6 +1,6 @@
 window.SNAPSHOT = {
- "generated_at": 1793430710,
- "paused": true,
+ "generated_at": 1793529738,
+ "paused": false,
  "citizens": [
   {
    "id": "blender-render-studio",
@@ -203,12 +203,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 6 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Research Team, waiting for the next job",
+   "mood": "calm",
    "said": "",
    "role": "critic, voter, research-legwork",
    "home": 6,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Legal"
   },
@@ -371,12 +371,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "doing": "Asleep in apartment 12 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "decisions, critic, voter",
    "home": 12,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Security"
   },
@@ -560,12 +560,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Holo Studio, waiting for the next job",
-   "mood": "contemplative",
+   "doing": "Asleep in apartment 17 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "vision, picture-checks",
    "home": 17,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Holo Studio"
   },
@@ -581,12 +581,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Training Yard, waiting for the next job",
-   "mood": "reflective",
+   "doing": "Asleep in apartment 18 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -938,12 +938,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 33 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Workshop, waiting for the next job",
+   "mood": "wistful",
    "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1022,12 +1022,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 37 of the DataSanctuary",
-   "mood": "asleep",
+   "doing": "Off shift at Docks, waiting for the next job",
+   "mood": "intrigued",
    "said": "",
    "role": "reasoning, research, translation",
    "home": 37,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1148,12 +1148,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "doing": "Asleep in apartment 41 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "apprentice, critic, voter",
    "home": 41,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1169,12 +1169,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
+   "doing": "Asleep in apartment 42 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "openscad-help, code-review",
    "home": 42,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1190,12 +1190,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
+   "doing": "Asleep in apartment 43 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "code-snippets, openscad-help",
    "home": 43,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Engineering Workshop"
   },
@@ -1222,6 +1222,18 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1793529711,
+   "text": "City resumed via Jimm 1 Nov: restart the city, HGA Media ads need movement, past launch deadline"
+  },
+  {
+   "at": 1793452530,
+   "text": "City PAUSED via Creator Studio opened"
+  },
+  {
+   "at": 1793452481,
+   "text": "City PAUSED via Creator Studio opened"
+  },
   {
    "at": 1793208887,
    "text": "City PAUSED via claude code (Jimm 28 Oct night: pause the city)"
@@ -1289,18 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1793184962,
    "text": "Foundry (seeded by Aurum; crew Aurum, Forge, Vex, Zora Xu) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1793184191,
-   "text": "Alana, Zylac, Zoe took a resist in the smoke club"
-  },
-  {
-   "at": 1793183438,
-   "text": "Foundry (seeded by Byte; crew Byte, Eva, Forge, Zoe) pitched an idea to the R&D Lab"
-  },
-  {
-   "at": 1793182034,
-   "text": "Aurum, Mira, Zoe took a resist in the smoke club"
   }
  ],
  "products": [
@@ -2222,7 +2222,7 @@ window.SNAPSHOT = {
   },
   {
    "title": "BarOps Pro: Integrated Supplier & Inventory AI",
-   "stage": "pitch",
+   "stage": "build",
    "status": "alive",
    "yes": 0,
    "no": 0
@@ -2362,7 +2362,7 @@ window.SNAPSHOT = {
   },
   {
    "title": "Costa del Sol Bar Compliance Fix",
-   "stage": "pitch",
+   "stage": "build",
    "status": "alive",
    "yes": 0,
    "no": 0
@@ -2754,7 +2754,7 @@ window.SNAPSHOT = {
   },
   {
    "title": "NeónTesoroSecreto",
-   "stage": "pitch",
+   "stage": "build",
    "status": "alive",
    "yes": 0,
    "no": 0
