@@ -1,5 +1,5 @@
 {
- "generated_at": 1793532259,
+ "generated_at": 1793533572,
  "paused": false,
  "citizens": [
   {
@@ -3195,10 +3195,10 @@
   },
   {
    "title": "Real-Time Compliance Insights for Spanish Bars",
-   "stage": "build",
+   "stage": "pilot",
    "status": "alive",
-   "yes": 0,
-   "no": 0
+   "yes": 28,
+   "no": 4
   },
   {
    "title": "ReputaWatch: AI-Powered Reputation Monitor for Spanish Bars",
