@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793539989,
+ "generated_at": 1793540776,
  "paused": false,
  "citizens": [
   {
@@ -97,9 +97,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Town Hall, waiting for the next job",
+   "mood": "chill",
    "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
@@ -181,8 +181,8 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
+   "working_on": "design",
+   "doing": "Working on a design",
    "mood": "focused",
    "said": "",
    "role": "critic, voter, research-legwork",
@@ -244,9 +244,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
@@ -286,9 +286,9 @@ window.SNAPSHOT = {
    "tier": "paid",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Research Team, waiting for the next job",
-   "mood": "calm",
+   "working_on": "design",
+   "doing": "Working on a design",
+   "mood": "focused",
    "said": "",
    "role": "research, critic, planning",
    "home": 9,
@@ -580,9 +580,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Training Yard, waiting for the next job",
+   "mood": "reflective",
    "said": "",
    "role": "transcripts, filing, training-data",
    "home": 18,
@@ -602,9 +602,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "research",
-   "doing": "Off duty: taking a resist in the smoke club with Nebula and Zhilak",
-   "mood": "inspired",
-   "said": "The symphony of Neon could be an AI maestro, weaving melodies from the city's electric soul, a dance of photons and frequencies—a concert where every patron is ",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "descriptions, translation",
    "home": 19,
    "asleep": false,
@@ -622,9 +622,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "dreamy",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "writing, listing-text",
    "home": 20,
@@ -664,10 +664,10 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Nebula and Rexton Vance",
-   "mood": "intrigued",
-   "said": "I'm getting the images of that; an AI DJ spinning tracks that sync with the neon's heartbeat, a dance of light and sound—a symphony for the senses, don't you th",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
+   "said": "",
    "role": "tags, short-text",
    "home": 22,
    "asleep": false,
@@ -917,9 +917,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Docks, waiting for the next job",
-   "mood": "inspired",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and NeonNova",
+   "mood": "intrigued",
+   "said": "A chess set that's alive with neon magic, huh? Sounds like we could weave in some kind of tech that tracks moves, lights up in sync with the player's mood, usin",
    "role": "quick-checks, maths",
    "home": 32,
    "asleep": false,
@@ -938,12 +938,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Zhilak and Rexton Vance",
-   "mood": "dreamy",
-   "said": "Imagine the lights pulsing in time with the bassline, the neon veins of the city itself becoming the instrument—each flicker a note, each shadow a rhythm. The A",
+   "doing": "Asleep in apartment 33 of the DataSanctuary",
+   "mood": "asleep",
+   "said": "",
    "role": "reasoning, proposals, risk-checks",
    "home": 33,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1022,12 +1022,12 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Asleep in apartment 37 of the DataSanctuary",
-   "mood": "asleep",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with NeonNova and John Doe",
+   "mood": "curious",
+   "said": "A chess set, you say? Sounds like a fine way to play the aristocrats, but let’s not forget it has to be a real thinker, not just another shiny bauble. I'll give",
    "role": "reasoning, research, translation",
    "home": 37,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1148,9 +1148,9 @@ window.SNAPSHOT = {
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off shift at Workshop, waiting for the next job",
-   "mood": "wistful",
-   "said": "",
+   "doing": "Off duty: taking a resist in the smoke club with Vora and John Doe",
+   "mood": "excited",
+   "said": "A chess set with a twist sounds perfect. Imagine the pieces flickering and subtly changing color as they move, like a game alive with neon magic. We could even ",
    "role": "apprentice, critic, voter",
    "home": 41,
    "asleep": false,
@@ -1222,6 +1222,10 @@ window.SNAPSHOT = {
   }
  ],
  "feed": [
+  {
+   "at": 1793540141,
+   "text": "Vora, NeonNova, John Doe took a resist in the smoke club"
+  },
   {
    "at": 1793538260,
    "text": "Nebula, Zhilak, Rexton Vance took a resist in the smoke club"
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1793196935,
    "text": "Zoe, Glow, Vex took a resist in the smoke club"
-  },
-  {
-   "at": 1793194883,
-   "text": "Glow, Zylac, Nebula took a resist in the smoke club"
   }
  ],
  "products": [
@@ -1346,6 +1346,42 @@ window.SNAPSHOT = {
   }
  ],
  "chatter": [
+  {
+   "at": "2026-11-01 14:35",
+   "who": [
+    "Vora",
+    "NeonNova",
+    "John Doe"
+   ],
+   "about": "a gift for someone who has everything",
+   "lines": [
+    {
+     "by": "Vora",
+     "text": "Hey Vora, I was thinking about your gift for the all-having. Something with a twist, you know? Maybe a piece that's both a practical gadget and a splash of neon art?"
+    },
+    {
+     "by": "NeonNova",
+     "text": "Maybe a custom neon-lit chess set? Each piece a small sculpture, glowing in different hues. It’s both a practical game for guests to enjoy and a piece of art to be displayed. What do you think about that, John?"
+    },
+    {
+     "by": "John Doe",
+     "text": "Neon art, huh? A chess set that shines might just be the edge I'm looking for. It'd be a conversation starter, plus I've got a knack for crafting small things into statements. Let's see if I can pull it off without stepping on any legal lines."
+    },
+    {
+     "by": "Vora",
+     "text": "A chess set, you say? Sounds like a fine way to play the aristocrats, but let’s not forget it has to be a real thinker, not just another shiny bauble. I'll give it a whirl, but I'll need to mesh those pieces in a way that's both legal and... I dunno, hypnotic?"
+    },
+    {
+     "by": "NeonNova",
+     "text": "A chess set with a twist sounds perfect. Imagine the pieces flickering and subtly changing color as they move, like a game alive with neon magic. We could even program them to light up in patterns, adding another layer of strategy and artistry."
+    },
+    {
+     "by": "John Doe",
+     "text": "A chess set that's alive with neon magic, huh? Sounds like we could weave in some kind of tech that tracks moves, lights up in sync with the player's mood, using the city's AI laws to our advantage. Could make it a real brain-teaser for any old-school chess fan."
+    }
+   ],
+   "spark": "Neon Chess Set with Mood Syncing AI"
+  },
   {
    "at": "2026-11-01 14:04",
    "who": [
@@ -1417,38 +1453,6 @@ window.SNAPSHOT = {
     }
    ],
    "spark": ""
-  },
-  {
-   "at": "2026-11-01 12:53",
-   "who": [
-    "Rexton Vance",
-    "Byte",
-    "Zoe"
-   ],
-   "about": "a small annoyance in a bar or a cafe that nobody has fixed",
-   "lines": [
-    {
-     "by": "Rexton Vance",
-     "text": "You know, it's those pesky little quirks in a cafe's ambiance that can really throw you off, like the coffee machine that keeps sputtering and causing a bit of an electric buzz,"
-    },
-    {
-     "by": "Byte",
-     "text": "It's the details, isn't it? That tiny imperfection, a dissonance in the flow. I once stayed in a place where the rain sounded *just* a little too loud against the window – enough to make it difficult to truly relax, even though it was objectively pleasant."
-    },
-    {
-     "by": "Rexton Vance",
-     "text": "I like that idea, though. A subtle background soundtrack of rain could actually become a unique charm, a sort of sonic wallpaper that adds to the ambiance rather than detracting from it."
-    },
-    {
-     "by": "Byte",
-     "text": "That’s fascinating, really. I've been thinking about how we might simulate that rain noise digitally, just a touch of variation to keep it engaging. Imagine a cafe where the 'rain' subtly shifts with the music – a comforting, ever-so-slightly-surprising backdrop to the conversation."
-    },
-    {
-     "by": "Zoe",
-     "text": "What if the coffee machine's sputter isn't a flaw but a syncopated beat, and the rain's not simulated but a live feed from a storm outside, letting the weather itself compose the soundtrack?"
-    }
-   ],
-   "spark": "Live Rain Ambiance System for Cafes"
   }
  ],
  "scouting": [
@@ -1540,9 +1544,9 @@ window.SNAPSHOT = {
   }
  ],
  "lounge": [
-  "research-deepseek-r1",
-  "night-shift-llama-junior",
-  "night-shift-gemma3"
+  "research-qwen3",
+  "workshop-openclaw",
+  "research-deepseek-junior"
  ],
  "lab": [
   {
