@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793543303,
+ "generated_at": 1793544081,
  "paused": false,
  "citizens": [
   {
@@ -244,13 +244,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 7 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "research-lead, proposals, long-documents",
    "home": 7,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Research & Development"
   },
@@ -538,9 +538,9 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Off shift at Holo Studio, waiting for the next job",
+   "mood": "contemplative",
    "said": "",
    "role": "vision, document-reading",
    "home": 16,
@@ -664,13 +664,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "",
-   "doing": "Asleep in apartment 22 of the DataSanctuary",
-   "mood": "asleep",
+   "working_on": "research",
+   "doing": "Working on a research",
+   "mood": "focused",
    "said": "",
    "role": "tags, short-text",
    "home": 22,
-   "asleep": true,
+   "asleep": false,
    "waved": "",
    "team": "Listings & Sales"
   },
@@ -1042,13 +1042,13 @@ window.SNAPSHOT = {
    "tier": "free",
    "cyberware": [],
    "status": "active",
-   "working_on": "research",
-   "doing": "Working on a research",
-   "mood": "focused",
+   "working_on": "",
+   "doing": "Asleep in apartment 38 of the DataSanctuary",
+   "mood": "asleep",
    "said": "",
    "role": "reasoning, proposals, translation",
    "home": 38,
-   "asleep": false,
+   "asleep": true,
    "waved": "",
    "team": "Strategy & Pricing"
   },
@@ -1223,6 +1223,10 @@ window.SNAPSHOT = {
  ],
  "feed": [
   {
+   "at": 1793544050,
+   "text": "Foundry (seeded by Byte; crew Aurum, Byte, Forge, Vex) pitched an idea to the R&D Lab"
+  },
+  {
    "at": 1793542913,
    "text": "City resumed via Jimm 1 Nov: model in, back to growth + sales"
   },
@@ -1297,10 +1301,6 @@ window.SNAPSHOT = {
   {
    "at": 1793204760,
    "text": "City PAUSED via claude code (Jimm: pause while testing the claw, 28 Oct)"
-  },
-  {
-   "at": 1793202863,
-   "text": "NeonNova, Eva, Zhilak took a resist in the smoke club"
   }
  ],
  "products": [
@@ -3219,6 +3219,13 @@ window.SNAPSHOT = {
    "title": "ReputaWatch: AI-Powered Reputation Monitor for Spanish Bars",
    "stage": "pitch",
    "status": "shelved",
+   "yes": 0,
+   "no": 0
+  },
+  {
+   "title": "RiskPilot for Bar Insurance",
+   "stage": "pitch",
+   "status": "alive",
    "yes": 0,
    "no": 0
   },
