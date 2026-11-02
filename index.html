@@ -597,7 +597,7 @@ const everyone = SNAP.citizens.filter(c => c.kind === "resident" && BUILDINGS[c.
 // Jimm, 4 Oct: "the circuit board is for the active". Working residents are on the board; off shift they take a resist (6 seats per lounge) or are at home.
 const OFF = /^(Off shift|Off duty|Asleep|Benched|Resting)/i, working = c => !!c.working_on || !OFF.test(c.doing || "");
 const seatsTaken = {};
-const people = SNAP.townhall ? [] : everyone.filter(c => !c.asleep).sort(      // 30 Oct: during the town meeting the streets are empty (everyone is in the chamber)(a, b) => LOUNGE.includes(b.id) - LOUNGE.includes(a.id)).filter(c => {     // whoever is asleep is in its apartment in the DataSanctuary
+const people = SNAP.townhall ? [] : everyone.filter(c => !c.asleep).sort((a, b) => LOUNGE.includes(b.id) - LOUNGE.includes(a.id)).filter(c => {     // 30 Oct: during the town meeting the streets are empty (everyone is in the chamber); whoever is asleep is in its apartment in the DataSanctuary. 2 Nov: this comment had been pasted mid-line on 30 Oct and broke the whole page
   if (c.status !== "active" || working(c) || (IN_SESSION && c.building === "research-team") || SNAP.paused || DISTRICT(c.building) === "alley") return true;
   const room = DISTRICT(c.building) === "docks" ? "docks-resist" : "resist"; seatsTaken[room] = (seatsTaken[room] || 0) + 1;
   if ((c._lounge = seatsTaken[room] <= 6)) return true;
