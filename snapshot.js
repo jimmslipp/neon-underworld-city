@@ -1,5 +1,5 @@
 window.SNAPSHOT = {
- "generated_at": 1793582433,
+ "generated_at": 1793583036,
  "paused": false,
  "citizens": [
   {
