@@ -4,52 +4,62 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Neon Underworld</title>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Chakra+Petch:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root { --ground:#0B0716; --pink:#FF3DCB; --cyan:#2EE6FF; --amber:#FFB020; --green:#4CFF9A; }
-  html, body { margin:0; height:100%; background:var(--ground); color:#E9E4FF; font:15px/1.4 'Chakra Petch','Segoe UI',sans-serif; overflow:hidden; }
+  /* 2 Nov 2026, "GTA 3 -> GTA 6" (Jimm). A game HUD over a 3D world: clean white type, translucent dark pills, no neon glow on the UI
+     (the glow belongs to the city itself). Rules from Jimm's design skills: ui-ux-pro-max (44 px targets, 4.5:1 contrast, reduced motion,
+     "Modern Dark Cinema"), taste-skill (one accent, no ornament), see docs/DESIGN_SYSTEM.md. */
+  :root { --ground:#0a0a0c; --pink:#ff4f9a; --cyan:#4fd1c5; --amber:#ffb547; --green:#3fc07a; --glass:rgba(12,12,16,.58); --edge:rgba(255,255,255,.12); }
+  html, body { margin:0; height:100%; background:var(--ground); color:#f2f2f2; font:15px/1.45 Inter,'Segoe UI',system-ui,sans-serif; overflow:hidden; -webkit-font-smoothing:antialiased; }
   canvas { display:block; position:fixed; inset:0; touch-action:none; }
-  #top { position:fixed; left:0; right:0; top:0; padding:12px 14px; display:flex; justify-content:space-between; align-items:flex-start; gap:10px; pointer-events:none; z-index:3; }
-  h1 { font:800 20px Orbitron,'Segoe UI',sans-serif; letter-spacing:3px; margin:0; color:var(--pink); text-shadow:0 0 14px #FF3DCB99; }
-  #sub { color:#9A8FC2; font-size:12px; }
+  #top { position:fixed; left:0; right:0; top:0; padding:14px 16px; display:flex; justify-content:space-between; align-items:flex-start; gap:10px; pointer-events:none; z-index:3;
+         background:linear-gradient(rgba(10,10,12,.55), transparent); }
+  h1 { font:800 21px/1.05 Inter,sans-serif; letter-spacing:-.02em; margin:0; color:#fff; text-shadow:0 2px 14px rgba(0,0,0,.6); }
+  #sub { color:#c8c8c8; font-size:12.5px; margin-top:3px; text-shadow:0 1px 8px rgba(0,0,0,.7); }
   #districts { display:flex; gap:6px; pointer-events:auto; flex-wrap:wrap; justify-content:flex-end; }
-  button { min-height:44px; min-width:44px; padding:0 14px; border-radius:10px; border:1px solid #2B1D55; background:#150D2Bcc; color:#9A8FC2; font:600 13px 'Chakra Petch',sans-serif; cursor:pointer; }
-  button.on { color:var(--cyan); border-color:var(--cyan); box-shadow:0 0 12px #2EE6FF55; }
-  #bottom { position:fixed; left:0; right:0; bottom:0; padding:10px 14px calc(10px + env(safe-area-inset-bottom)); background:linear-gradient(transparent, #0B0716 40%); z-index:3; }
-  #fund { display:flex; align-items:center; gap:10px; font-size:12px; color:#9A8FC2; margin-bottom:8px; }
+  button { min-height:44px; min-width:44px; padding:0 16px; border-radius:999px; border:1px solid var(--edge); background:var(--glass); -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px);
+           color:#d6d6d6; font:600 13px Inter,sans-serif; cursor:pointer; transition:background .15s, color .15s, transform .1s; }
+  button:hover { color:#fff; background:rgba(30,30,36,.7); } button:active { transform:scale(.97); }
+  button.on { color:#fff; background:rgba(255,255,255,.16); border-color:rgba(255,255,255,.28); box-shadow:inset 0 -2px 0 var(--pink); }
+  button .new { display:inline-block; margin-left:7px; padding:2px 7px; border-radius:999px; background:var(--pink); color:#1c0010; font:700 10.5px/1.3 Inter,sans-serif; vertical-align:1px; }
+  #bottom { position:fixed; left:0; right:0; bottom:0; padding:12px 16px calc(12px + env(safe-area-inset-bottom)); background:linear-gradient(transparent, rgba(10,10,12,.82) 45%); z-index:3; }
+  #fund { display:flex; align-items:center; gap:10px; font-size:12.5px; color:#c8c8c8; margin-bottom:8px; }
   #fund b { color:var(--amber); font-weight:600; }
-  .step { width:26px; height:8px; border-radius:4px; background:#2B1D55; }
-  .step.lit { background:var(--amber); box-shadow:0 0 10px var(--amber); }
-  #ticker { white-space:nowrap; overflow:hidden; color:var(--green); font-size:13px; border-top:1px solid #2B1D55; padding-top:8px; }
-  #ticker span { display:inline-block; padding-left:100%; animation:run 60s linear infinite; }
+  .step { width:26px; height:6px; border-radius:3px; background:rgba(255,255,255,.14); }
+  .step.lit { background:var(--amber); }
+  #ticker { white-space:nowrap; overflow:hidden; color:#d9d9d9; font-size:13px; border-top:1px solid rgba(255,255,255,.1); padding-top:8px; }
+  #ticker span { display:inline-block; padding-left:100%; animation:run 70s linear infinite; }
   @keyframes run { to { transform:translateX(-100%); } }
-  .label { position:fixed; transform:translate(-50%,-100%); font:600 11px Orbitron,sans-serif; letter-spacing:1px; color:#E9E4FF; text-shadow:0 0 6px #000,0 0 10px #000; pointer-events:none; white-space:nowrap; z-index:1; }
-  .label small { display:block; font:400 10px 'Chakra Petch',sans-serif; color:#FF8A94; letter-spacing:0; text-align:center; }
+  @media (prefers-reduced-motion:reduce) { #ticker span { animation:none; padding-left:0; } }
+  .label { position:fixed; transform:translate(-50%,-100%); font:600 12px Inter,sans-serif; letter-spacing:-.005em; color:#fff; text-shadow:0 1px 3px rgba(0,0,0,.9),0 0 12px rgba(0,0,0,.65); pointer-events:none; white-space:nowrap; z-index:1; }
+  .label small { display:block; font:500 10.5px Inter,sans-serif; color:#ffb0b6; letter-spacing:0; text-align:center; }
   /* what a resident is doing or thinking, floating over its head */
   .bubble { position:fixed; transform:translate(-50%,-100%); pointer-events:none; z-index:2; text-align:center; }
-  .bubble i { display:inline-block; min-width:30px; padding:5px 8px; border-radius:10px; border:2px solid var(--c,#2EE6FF); background:#150D2Be6; color:#fff; font:700 15px 'Chakra Petch',sans-serif;
-              font-style:normal; box-shadow:0 0 12px var(--c,#2EE6FF); position:relative; }
-  .bubble i::after { content:""; position:absolute; left:50%; bottom:-8px; margin-left:-6px; border:6px solid transparent; border-top-color:var(--c,#2EE6FF); border-bottom:0; }
-  .bubble b { display:block; margin-top:9px; font:600 11px 'Chakra Petch',sans-serif; color:var(--c,#E9E4FF); text-shadow:0 0 6px #000,0 0 8px #000; }
-  #card { position:fixed; left:14px; right:14px; bottom:96px; max-width:420px; margin:auto; background:#150D2Bf2; border:1px solid var(--cyan); border-radius:14px; padding:14px; display:none; box-shadow:0 0 24px #2EE6FF33; z-index:4; }
+  .bubble i { display:inline-block; min-width:30px; padding:5px 9px; border-radius:12px; border:1.5px solid var(--c,#4fd1c5); background:rgba(12,12,16,.82); color:#fff; font:700 14px Inter,sans-serif;
+              font-style:normal; position:relative; box-shadow:0 6px 20px rgba(0,0,0,.35); }
+  .bubble i::after { content:""; position:absolute; left:50%; bottom:-8px; margin-left:-6px; border:6px solid transparent; border-top-color:var(--c,#4fd1c5); border-bottom:0; }
+  .bubble b { display:block; margin-top:9px; font:600 11px Inter,sans-serif; color:#fff; text-shadow:0 1px 3px rgba(0,0,0,.9); }
+  #card { position:fixed; left:14px; right:14px; bottom:100px; max-width:440px; margin:auto; background:rgba(14,14,18,.86); -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px);
+          border:1px solid var(--edge); border-radius:16px; padding:16px 18px; display:none; box-shadow:0 24px 80px rgba(0,0,0,.5); z-index:4; }
   #card { max-height:52vh; overflow-y:auto; }
-  #card h2 { font:800 15px Orbitron,sans-serif; letter-spacing:2px; margin:0 0 6px; color:var(--cyan); }
-  #card .who { margin:6px 0; } #card .dot { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:8px; }
-  #paused { position:fixed; top:74px; left:50%; transform:translateX(-50%); background:#FF5964; color:#fff; padding:8px 18px; border-radius:10px; font:800 13px Orbitron,sans-serif; letter-spacing:2px; display:none; z-index:3; }
-  #offline { position:fixed; inset:0; display:none; align-items:center; justify-content:center; text-align:center; color:#9A8FC2; padding:30px; pointer-events:none; z-index:2; }
+  #card h2 { font:700 17px Inter,sans-serif; letter-spacing:-.01em; margin:0 0 8px; color:#fff; }
+  #card .who { margin:6px 0; } #card .dot { display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:8px; }
+  #paused { position:fixed; top:80px; left:50%; transform:translateX(-50%); background:#ff5d5d; color:#fff; padding:8px 18px; border-radius:999px; font:700 13px Inter,sans-serif; display:none; z-index:3; }
+  #offline { position:fixed; inset:0; display:none; align-items:center; justify-content:center; text-align:center; color:#c8c8c8; padding:30px; pointer-events:none; z-index:2; }
+  @media (max-width:640px) { h1 { font-size:18px; } #top { flex-direction:column; } #districts { justify-content:flex-start; } button { padding:0 13px; font-size:12.5px; } }
 </style>
 </head>
 <body>
 <div id="top">
   <div><h1>NEON UNDERWORLD</h1><div id="sub">Motherboard City</div></div>
   <div id="districts">
-    <button data-d="downtown" class="on">Motherboard</button><button data-d="docks">CPU</button><button data-d="alley">Neon Alley</button>
-    <button id="askBtn" style="color:#FFB020;border-color:#FFB020" title="Ask the city to solve something">Ask the city</button>
-    <button id="consoleBtn" style="display:none;color:#FF3DCB;border-color:#FF3DCB">Console</button>
+    <button data-d="downtown" class="on">Motherboard</button><button data-d="docks">CPU</button><button data-d="alley">Neon Alley</button><button data-d="arcade">High Grade Arcade<span class="new">NEW</span></button>
+    <button id="askBtn" title="Ask the city to solve something">Ask the city</button>
+    <button id="consoleBtn" style="display:none">Console</button>
   </div>
 </div>
 <div id="paused">CITY PAUSED</div>
-<div id="offline"><div><b style="font:800 16px Orbitron,sans-serif;color:#FFB020;letter-spacing:2px">BOARD NOT POWERED</b><br><br>This district opens in a later phase.</div></div>
+<div id="offline"><div><b style="font:700 17px Inter,sans-serif;color:#fff">Board not powered</b><br><br>This district opens in a later phase.</div></div>
 <div id="card"><h2></h2><div id="cardBody"></div></div>
 <div id="bottom">
   <div id="fund"><span>Robot fund</span><span id="steps" style="display:flex;gap:4px"></span><span>next: <b id="goal"></b></span></div>
@@ -68,9 +78,11 @@
 <script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/EffectComposer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/RenderPass.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/objects/Sky.js"></script>
 <script src="assets/models.js"></script>
 <script src="snapshot.js"></script>
 <script>
+THREE.ColorManagement.legacyMode = false;          // 2 Nov 2026 (GTA 6 look): colours are sRGB, light is computed in linear space, film tone mapping at the end
 const SNAP = window.SNAPSHOT || { citizens: [], feed: [], fund: { next_goal: "", progress_steps_of_5: 0 }, paused: false };
 const MODELS = window.MODELS || {};
 const C = { ground: 0x0B0716, board: 0x1B0F3A, pink: 0xFF3DCB, cyan: 0x2EE6FF, amber: 0xFFB020, green: 0x4CFF9A, dim: 0x3A2B66, red: 0xFF5964 };
@@ -100,50 +112,140 @@ const BUILDINGS = {
   "security-office":  { name: "Security",         x: 31, z: 0, kind: "dip",    r: 3.4 },      // NEW 4 Oct: the Security department
   "docks-resist":     { name: "CPU RESIST",     x: 16, z: 8, kind: "lounge", r: 4.5, board: "docks", power: true },      // the Docks' own smoke club, so their residents take a resist at home
   "cinema":           { name: "Print Cinema",     x: 6, z: 7, kind: "cinema", r: 3.0, board: "alley" },      // Jimm, 4 Oct: the printer camera live, for the residents to relax in front of
-  "hga":              { name: "HGA · High Grade Arcade", x: -12, z: 7, kind: "arcade", r: 4.2, board: "alley" },   // Jimm, 5 Oct: Jimm's arcade business has a home in the city
+  "hga":              { name: "High Grade Arcade · Engineering Wing", x: 0, z: -1, kind: "wing", r: 12, board: "arcade" },   // Jimm, 5 Oct: a home in the city; 1-2 Nov: a separate business, its own district and building (Repair Desk, Engineering, Takings)
   "training-yard":    { name: "Training Yard",    x: 0, z: -6.2, kind: "chip",   r: 3.4, board: "alley", power: true },      // Neon Alley: where the city's own model will train on the Foundry's records one day
   "docks":            { name: "The Docks",        x: 0, z: 0, kind: "dip",    r: 6.5, board: "docks", power: true },      // the small models' station (Jimm, 4 Oct); its own board under "The Docks" button since 4 Oct, powered; its own machine, arcade004, later
 };
 
 // ---------------------------------------------------------------- scene, light, glow
+// 2 Nov 2026 (Jimm: "GTA 3 to GTA 6"): a dusk sky over the desk (Preetham model), sunlight to match, image-based light from that sky,
+// HDR buffers, bloom on the neon only, and a film grade (ACES tone mapping, warm highlights / cool shadows, vignette, fine grain).
+// Phones: lower resolution, cheaper shadows, half-size bloom, and a governor that trades sharpness for smoothness when frames drop.
+const PHONE = matchMedia("(pointer: coarse)").matches || Math.min(innerWidth, innerHeight) < 700;
+const HAZE = 0x4a2e48;
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(C.ground);
-scene.fog = new THREE.Fog(C.ground, 75, 170);
-const camera = new THREE.PerspectiveCamera(48, innerWidth / innerHeight, 0.1, 500);
-camera.position.set(-6, 40, 58);
-const renderer = new THREE.WebGLRenderer({ antialias: true });
-renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+scene.background = new THREE.Color(HAZE);
+scene.fog = new THREE.Fog(HAZE, 80, 250);
+const camera = new THREE.PerspectiveCamera(48, innerWidth / innerHeight, 0.1, 1200);
+camera.position.set(-6, 30, 66);
+const renderer = new THREE.WebGLRenderer({ antialias: false, powerPreference: "high-performance" });
+const PR_MAX = Math.min(devicePixelRatio, PHONE ? 1.5 : 2);
+renderer.setPixelRatio(PR_MAX);
 renderer.setSize(innerWidth, innerHeight);
-renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = PHONE ? THREE.PCFShadowMap : THREE.PCFSoftShadowMap;
+if (PHONE) renderer.shadowMap.autoUpdate = false;                     // phones redraw shadows every third frame (see frame())
 document.body.prepend(renderer.domElement);
 const controls = new THREE.OrbitControls(camera, renderer.domElement);      // drag to rotate, pinch or scroll to zoom
-controls.enableDamping = true; controls.maxPolarAngle = Math.PI * 0.47; controls.minDistance = 3;      // Jimm, 7 Oct: zoom right in on what he taps controls.maxDistance = 120; controls.target.set(0, 1, 0);
-scene.add(new THREE.HemisphereLight(0xb9a8ff, 0x1a0f3a, 0.95));
-const sun = new THREE.DirectionalLight(0xffffff, 1.05); sun.position.set(26, 46, 22); sun.castShadow = true;
-sun.shadow.mapSize.set(2048, 2048); Object.assign(sun.shadow.camera, { left: -52, right: 52, top: 40, bottom: -40, near: 1, far: 130 }); sun.shadow.bias = -0.0006; scene.add(sun);
-const pinkLamp = new THREE.PointLight(C.pink, 1.2, 70); pinkLamp.position.set(-26, 12, -18); scene.add(pinkLamp);
-const cyanLamp = new THREE.PointLight(C.cyan, 1.2, 70); cyanLamp.position.set(28, 12, 20); scene.add(cyanLamp);
-// neon glow: only the bright neon parts bloom, the lit plastic does not
-const composer = new THREE.EffectComposer(renderer);
+controls.enableDamping = true; controls.maxPolarAngle = Math.PI * 0.47; controls.minDistance = 3; controls.maxDistance = 140; controls.target.set(0, 1, 0);   // Jimm, 7 Oct: zoom right in on what he taps (2 Nov: this line's comment had swallowed the zoom limit)
+const sky = new THREE.Sky(); sky.scale.setScalar(900);
+{ const u = sky.material.uniforms; u.turbidity.value = 10; u.rayleigh.value = 3.4; u.mieCoefficient.value = 0.006; u.mieDirectionalG.value = 0.8;
+  u.sunPosition.value.setFromSphericalCoords(1, THREE.MathUtils.degToRad(87), THREE.MathUtils.degToRad(250)); }     // a low sun off to the left: the sky ahead turns pink and violet
+{ const pmrem = new THREE.PMREMGenerator(renderer), envScene = new THREE.Scene(); envScene.add(sky);
+  scene.environment = pmrem.fromScene(envScene, 0.04, 0.1, 2000).texture; pmrem.dispose(); }   // the sky lights and reflects on everything
+scene.add(sky); scene.background = null;
+const ENV = 0.3;                                                        // how much of the sky's light the surfaces take
+scene.add(new THREE.HemisphereLight(0x9db2ff, 0x3a1f2c, 0.45));
+const sun = new THREE.DirectionalLight(0xffcfa0, 1.6); sun.position.set(26, 46, 22); sun.castShadow = true;
+sun.shadow.mapSize.set(PHONE ? 1024 : 2048, PHONE ? 1024 : 2048); Object.assign(sun.shadow.camera, { left: -52, right: 52, top: 40, bottom: -40, near: 1, far: 130 }); sun.shadow.bias = -0.0006; sun.shadow.normalBias = 0.02; scene.add(sun);
+const pinkLamp = new THREE.PointLight(C.pink, 1.3, 70); pinkLamp.position.set(-26, 12, -18); scene.add(pinkLamp);
+const cyanLamp = new THREE.PointLight(C.cyan, 1.3, 70); cyanLamp.position.set(28, 12, 20); scene.add(cyanLamp);
+// HDR render targets (MSAA on desktop), bloom at half size, then the grade does the tone mapping and the sRGB output
+const composer = new THREE.EffectComposer(renderer, new THREE.WebGLRenderTarget(innerWidth * PR_MAX, innerHeight * PR_MAX, { type: THREE.HalfFloatType, samples: PHONE ? 0 : 4 }));
 composer.addPass(new THREE.RenderPass(scene, camera));
-const bloom = new THREE.UnrealBloomPass(new THREE.Vector2(innerWidth, innerHeight), 0.7, 0.5, 0.9);
+const bloom = new THREE.UnrealBloomPass(new THREE.Vector2(innerWidth / 2, innerHeight / 2), 0.5, 0.5, 0.7);
+{ const set = bloom.setSize.bind(bloom); bloom.setSize = (w, h) => set(Math.max(1, Math.round(w / 2)), Math.max(1, Math.round(h / 2))); }
 composer.addPass(bloom);
+const grade = new THREE.ShaderPass({
+  uniforms: { tDiffuse: { value: null }, exposure: { value: 0.66 }, time: { value: 0 }, res: { value: new THREE.Vector2(innerWidth, innerHeight) } },
+  vertexShader: "varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }",
+  fragmentShader: `uniform sampler2D tDiffuse; uniform float exposure; uniform float time; uniform vec2 res; varying vec2 vUv;
+    vec3 fit(vec3 v){ vec3 a = v * (v + 0.0245786) - 0.000090537; vec3 b = v * (0.983729 * v + 0.4329510) + 0.238081; return a / b; }
+    vec3 aces(vec3 c){ const mat3 I = mat3(vec3(0.59719, 0.07600, 0.02840), vec3(0.35458, 0.90834, 0.13383), vec3(0.04823, 0.01566, 0.83777));
+      const mat3 O = mat3(vec3(1.60475, -0.10208, -0.00327), vec3(-0.53108, 1.10813, -0.07276), vec3(-0.07367, -0.00605, 1.07602));
+      return clamp(O * fit(I * c), 0.0, 1.0); }
+    vec3 srgb(vec3 c){ return mix(c * 12.92, 1.055 * pow(c, vec3(1.0 / 2.4)) - 0.055, step(vec3(0.0031308), c)); }
+    void main(){
+      vec3 c = texture2D(tDiffuse, vUv).rgb * exposure / 0.6;
+      float l = dot(c, vec3(0.2126, 0.7152, 0.0722));
+      c *= mix(vec3(0.93, 0.99, 1.08), vec3(1.0), smoothstep(0.0, 0.35, l));          // cool, teal-ish shadows
+      c *= mix(vec3(1.0), vec3(1.07, 0.99, 0.91), smoothstep(0.45, 1.6, l));         // warm sunset highlights
+      c = aces(c);
+      vec2 q = vUv - 0.5; c *= 1.0 - dot(q, q) * 0.62;                                // vignette
+      c = srgb(c);
+      float n = fract(sin(dot(floor(vUv * res) + fract(time) * 97.0, vec2(12.9898, 78.233))) * 43758.5453);
+      gl_FragColor = vec4(c + (n - 0.5) * 0.022, 1.0);                                 // fine film grain
+    }`
+});
+composer.addPass(grade);
+composer.setPixelRatio(PR_MAX); composer.setSize(innerWidth, innerHeight);        // a composer given its own target starts at ratio 1: set it properly
+const GOV = { t: 0, n: 0, pr: PR_MAX, last: performance.now(), frame: 0 };
+function govern() {                                                      // adaptive quality: keep the city smooth on any phone
+  const now = performance.now(), dt = (now - GOV.last) / 1000; GOV.last = now; GOV.frame++;
+  if (PHONE && GOV.frame % 3 === 0) renderer.shadowMap.needsUpdate = true;
+  grade.uniforms.time.value = now / 1000;
+  if (document.visibilityState !== "visible" || dt > 0.25) return;          // a hidden or throttled tab says nothing about speed
+  GOV.t += dt; GOV.n++;
+  if (GOV.t < 2) return;
+  const fps = GOV.n / GOV.t; GOV.t = 0; GOV.n = 0;
+  const pr = fps < 40 ? Math.max(PHONE ? 0.75 : 1, GOV.pr - 0.25) : fps > 57 ? Math.min(PR_MAX, GOV.pr + 0.1) : GOV.pr;
+  if (Math.abs(pr - GOV.pr) > 0.01) { GOV.pr = pr; renderer.setPixelRatio(pr); composer.setPixelRatio(pr); }
+}
+// textures: CC0 from Poly Haven (assets/tex/CREDITS.md) and a printed circuit board drawn in code for this city
+const TL = new THREE.TextureLoader(), ANISO = Math.min(8, renderer.capabilities.getMaxAnisotropy());
+const tex = (name, rep, colour) => { const t = TL.load("assets/tex/" + name); t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(rep[0], rep[1]); t.anisotropy = ANISO; if (colour) t.encoding = THREE.sRGBEncoding; return t; };
+const pbr = (set, rep, extra) => new THREE.MeshStandardMaterial(Object.assign({ map: tex(set + "_diff_1k.jpg", rep, true), normalMap: tex(set + "_nor_gl_1k.jpg", rep), roughnessMap: tex(set + "_rough_1k.jpg", rep), envMapIntensity: ENV }, extra || {}));
+function pcb(w, d, seed) {                                               // the board itself: solder mask, copper traces under it, gold vias, white silkscreen
+  const S = PHONE ? 1024 : 2048, W = S, H = Math.round(S * d / w), k = S / 2048;
+  const c = document.createElement("canvas"); c.width = W; c.height = H; const g = c.getContext("2d");
+  const bc = document.createElement("canvas"); bc.width = W; bc.height = H; const h = bc.getContext("2d");
+  let r = seed || 7; const rnd = () => (r = (r * 16807) % 2147483647) / 2147483647;
+  g.fillStyle = "#1b0f3a"; g.fillRect(0, 0, W, H); h.fillStyle = "#000"; h.fillRect(0, 0, W, H);
+  g.lineCap = h.lineCap = "round"; g.lineJoin = h.lineJoin = "round";
+  for (let i = 0; i < 300; i++) {
+    let x = rnd() * W, y = rnd() * H; const lw = (2 + Math.floor(rnd() * 3) * 2) * k;
+    g.strokeStyle = rnd() < 0.8 ? "#2b1b5c" : "#3b2678"; g.lineWidth = lw; h.strokeStyle = "#fff"; h.lineWidth = lw;
+    g.beginPath(); h.beginPath(); g.moveTo(x, y); h.moveTo(x, y);
+    for (let s2 = 0; s2 < 4; s2++) {
+      const len = (40 + rnd() * 280) * k, dir = Math.floor(rnd() * 4);
+      if (rnd() < 0.45) { const j = (18 + rnd() * 40) * k; x += dir < 2 ? j : -j; y += dir % 2 ? j : -j; }
+      else if (dir < 2) x += dir ? len : -len; else y += dir === 3 ? len : -len;
+      g.lineTo(x, y); h.lineTo(x, y);
+    }
+    g.stroke(); h.stroke();
+    g.fillStyle = "#b8963a"; g.beginPath(); g.arc(x, y, lw + 3 * k, 0, 7); g.fill(); g.fillStyle = "#0b0716"; g.beginPath(); g.arc(x, y, lw * 0.55, 0, 7); g.fill();
+    h.fillStyle = "#fff"; h.beginPath(); h.arc(x, y, lw + 3 * k, 0, 7); h.fill();
+  }
+  g.fillStyle = "rgba(226,218,255,.5)"; g.font = "600 " + Math.round(22 * k) + "px Consolas, monospace";
+  for (let i = 0; i < 80; i++) g.fillText("RCUQLJD"[Math.floor(rnd() * 7)] + (1 + Math.floor(rnd() * 99)), rnd() * W, rnd() * H);
+  g.font = "700 " + Math.round(40 * k) + "px Consolas, monospace"; g.fillText("NEON UNDERWORLD  MB-2026  REV 2.0  CE", 60 * k, H - 50 * k);
+  const ct = (cv, colour) => { const t = new THREE.CanvasTexture(cv); t.anisotropy = ANISO; if (colour) t.encoding = THREE.sRGBEncoding; return t; };
+  return new THREE.MeshStandardMaterial({ map: ct(c, true), bumpMap: ct(bc), bumpScale: 0.6, roughness: 0.5, metalness: 0.15, envMapIntensity: ENV });
+}
+const STEEL = pbr("metal_plate", [1.5, 1.5], { color: 0x8a8299, metalness: 0.6 });   // the building pads
+const CONCRETE = pbr("concrete_floor_worn_001", [3, 3], { color: 0xb8aebc });
+const IRON = pbr("corrugated_iron_02", [3, 1.2], { color: 0x9aa3ad, metalness: 0.5 });
 
 const city = new THREE.Group(); scene.add(city);
-const glow = (colour) => new THREE.MeshBasicMaterial({ color: colour });
-const solid = (colour, emissive) => new THREE.MeshStandardMaterial({ color: colour, emissive: emissive || 0x000000, roughness: 0.6, metalness: 0.25 });
+const glow = (colour) => { const c = new THREE.Color(colour); return new THREE.MeshBasicMaterial({ color: Math.max(c.r, c.g, c.b) > 0.55 ? c.multiplyScalar(2.3) : c }); };   // bright neon is HDR, so only it blooms
+const solid = (colour, emissive) => new THREE.MeshStandardMaterial({ color: colour, emissive: emissive || 0x000000, roughness: 0.55, metalness: 0.25, envMapIntensity: ENV });
 const shade = (m) => { m.castShadow = true; m.receiveShadow = true; return m; };
 const box = (w, h, d, mat, x, y, z) => { const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), mat); m.position.set(x || 0, y || 0, z || 0); return mat.isMeshStandardMaterial ? shade(m) : m; };
 const cyl = (r, h, mat, x, y, z, seg) => { const m = new THREE.Mesh(new THREE.CylinderGeometry(r, r, h, seg || 24), mat); m.position.set(x || 0, y || 0, z || 0); return mat.isMeshStandardMaterial ? shade(m) : m; };
+const PAD_GEO = new THREE.CylinderGeometry(0.16, 0.16, 0.05, 10), PAD_MAT = glow(C.dim);
+function padGrid(g, x0, x1, dx, z0, z1, dz) {                         // the solder pads: one instanced mesh per board instead of a hundred meshes (2 Nov: speed)
+  const at = []; for (let i = x0; i <= x1; i += dx) for (let j = z0; j <= z1; j += dz) at.push([i, j]);
+  const m = new THREE.InstancedMesh(PAD_GEO, PAD_MAT, at.length), o = new THREE.Object3D();
+  at.forEach(([x, z], k) => { o.position.set(x, 0.03, z); o.updateMatrix(); m.setMatrixAt(k, o.matrix); }); g.add(m); return m;
+}
 
 // ---------------------------------------------------------------- the desk it sits on, and the board
-const desk = new THREE.Mesh(new THREE.PlaneGeometry(420, 420), new THREE.MeshStandardMaterial({ color: 0x0d0820, roughness: 0.9 }));
+const desk = new THREE.Mesh(new THREE.PlaneGeometry(420, 420), pbr("wood_table_001", [14, 14], { color: 0x9a7f84 }));
 desk.rotation.x = -Math.PI / 2; desk.position.y = -1.6; desk.receiveShadow = true; scene.add(desk);
-const grid = new THREE.GridHelper(420, 70, 0x2B1D55, 0x1a1036); grid.position.y = -1.58; scene.add(grid);
-city.add(box(76, 1.5, 50, solid(C.board), 0, -0.75, 0));
+const grid = new THREE.GridHelper(420, 70, 0x2B1D55, 0x1a1036); grid.position.y = -1.58; grid.visible = false;      // 2 Nov: the wooden desk replaces the synthwave grid
+city.add(box(76, 1.5, 50, pcb(76, 50, 7), 0, -0.75, 0));
 const edge = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(76, 1.5, 50)), new THREE.LineBasicMaterial({ color: C.pink }));
 edge.position.y = -0.75; city.add(edge);
-for (let i = -35; i <= 35; i += 5) for (let j = -22; j <= 22; j += 5.5) city.add(cyl(0.16, 0.05, glow(C.dim), i, 0.03, j, 10));       // solder pads
+padGrid(city, -35, 35, 5, -22, 22, 5.5);       // solder pads
 for (const [x, z] of [[-36, -23], [36, -23], [-36, 23], [36, 23]]) { city.add(cyl(1.1, 0.2, solid(0x565c7a), x, 0.1, z)); city.add(cyl(0.5, 0.25, solid(0x06040e), x, 0.12, z)); }   // mounting holes
 
 // ---------------------------------------------------------------- side districts: each its own powered board, shown by its button at the top
@@ -152,9 +254,9 @@ let SHOWING = "downtown";                             // which board is on scree
 const BOARDS = { downtown: city }, POWER = {}, jackTags = [];
 function sideBoard(d, w, depth, edge, jackAt, lamps) {
   const g = new THREE.Group(); g.visible = false; scene.add(g); BOARDS[d] = g;
-  g.add(box(w, 1.5, depth, solid(C.board), 0, -0.75, 0));
+  g.add(box(w, 1.5, depth, pcb(w, depth, w * 31 + depth), 0, -0.75, 0));
   const e = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(w, 1.5, depth)), new THREE.LineBasicMaterial({ color: edge })); e.position.y = -0.75; g.add(e);
-  for (let i = -w / 2 + 3; i <= w / 2 - 3; i += 5) for (let j = -depth / 2 + 3; j <= depth / 2 - 3; j += 5.2) g.add(cyl(0.16, 0.05, glow(C.dim), i, 0.03, j, 10));
+  padGrid(g, -w / 2 + 3, w / 2 - 3, 5, -depth / 2 + 3, depth / 2 - 3, 5.2);
   for (const [x, z] of [[-w / 2 + 2, -depth / 2 + 2], [w / 2 - 2, -depth / 2 + 2], [-w / 2 + 2, depth / 2 - 2], [w / 2 - 2, depth / 2 - 2]]) { g.add(cyl(1.1, 0.2, solid(0x565c7a), x, 0.1, z)); g.add(cyl(0.5, 0.25, solid(0x06040e), x, 0.12, z)); }
   POWER[d] = { at: jackAt, colour: edge };                                // the jack the district draws from; the live rail runs from here to its building
   g.add(box(3.2, 2.2, 3.6, solid(0x2a2a3a), jackAt[0], 1.1, jackAt[1]));
@@ -166,6 +268,7 @@ function sideBoard(d, w, depth, edge, jackAt, lamps) {
 }
 const dock = sideBoard("docks", 70, 44, C.amber, [-31, 19.5], [[C.amber, 0, 12, 4], [C.cyan, 18, 10, -8], [C.pink, -20, 10, 6]]);     // the CPU board (was the Docks), 4 Oct: bigger, 9 buildings
 const alley = sideBoard("alley", 62, 20, C.pink, [-27, 6], [[C.pink, -14, 7, 0], [C.cyan, 14, 7, 0], [C.amber, 0, 9, 6]]);
+const wingBoard = sideBoard("arcade", 66, 40, 0x4fd1c5, [-30, 16], [[0xffb547, -16, 9, 6], [0x4fd1c5, 17, 9, -6], [0xffc48a, 0, 12, 10]]);   // 2 Nov: High Grade Arcade, a separate business with its own building
 // Neon Alley's street: a glowing lane down the middle and two rows of shopfronts with neon signs. Scenery only: nobody lives here yet.
 alley.add(box(56, 0.06, 3.2, glow(0x2a1650), 0, 0.04, 0)); alley.add(box(56, 0.08, 0.18, glow(C.pink), 0, 0.06, 1.7)); alley.add(box(56, 0.08, 0.18, glow(C.cyan), 0, 0.06, -1.7));
 const SIGNS = [C.pink, C.cyan, C.amber, C.green, 0xB06CFF];
@@ -270,7 +373,7 @@ function build(key) {
   const neon = broken ? C.red : alive ? C.cyan : C.dim;
   const dark = solid(0x1c1238, alive ? 0x071c26 : 0x000000);
   // the pad: a raised hexagon with a neon rim, so every building has its own plot
-  const pad = shade(new THREE.Mesh(new THREE.CylinderGeometry(b.r, b.r + 0.5, PAD, 6), solid(0x24184a))); pad.position.y = PAD / 2; g.add(pad);
+  const pad = shade(new THREE.Mesh(new THREE.CylinderGeometry(b.r, b.r + 0.5, PAD, 6), b.kind === "wing" ? CONCRETE : STEEL)); pad.position.y = PAD / 2; g.add(pad);
   const rim = new THREE.Mesh(new THREE.CylinderGeometry(b.r + 0.05, b.r + 0.05, 0.12, 6, 1, true), glow(neon)); rim.position.y = PAD + 0.02; g.add(rim);
   const top = new THREE.Group(); top.position.y = PAD; g.add(top);
   const homes = key === "docks" && SNAP.docks_homes && (SNAP.docks_homes.parts || []).length ? SNAP.docks_homes : null;
@@ -374,6 +477,44 @@ function build(key) {
   } else if (b.kind === "resistor") {
     const r = cyl(0.75, 3.2, solid(0xd8b47a), 0, 1.0, 0); r.rotation.z = Math.PI / 2; top.add(r);
     for (const [i, col] of [[-0.85, C.pink], [0, C.cyan], [0.85, C.amber]]) { const band = cyl(0.79, 0.32, glow(alive ? col : C.dim), i, 1.0, 0); band.rotation.z = Math.PI / 2; top.add(band); }
+  } else if (b.kind === "wing") {                                         // 2 Nov: High Grade Arcade · Engineering Wing (Kenney Factory Kit + Mini Arcade, CC0)
+    const KF = "assets/kenney_factory/", KA = "assets/kenney_arcade/", wing = lit.wing = lit.wing || [];
+    const GL = new THREE.GLTFLoader(), kit = (file, height, x, y, z, turn, then) => GL.load(file, gltf => { const m = prop(gltf, height, x, y, z, turn, top); m.traverse(o => { if (o.material) o.material.envMapIntensity = ENV; }); if (then) then(m); });
+    const hall = new THREE.Group(); top.add(hall);                        // the workshop hall at the back: corrugated walls, steel roof, a wide door
+    hall.add(box(17, 6.4, 0.3, IRON, 0, 3.2, -8.2)); hall.add(box(0.3, 6.4, 7.4, IRON, -8.4, 3.2, -4.6)); hall.add(box(0.3, 6.4, 7.4, IRON, 8.4, 3.2, -4.6));
+    hall.add(box(5.6, 6.4, 0.3, IRON, -5.8, 3.2, -1.0)); hall.add(box(5.6, 6.4, 0.3, IRON, 5.8, 3.2, -1.0)); hall.add(box(6.0, 1.6, 0.3, IRON, 0, 5.6, -1.0));
+    hall.add(box(17.6, 0.35, 8.2, STEEL, 0, 6.55, -4.6));
+    hall.add(box(5.9, 4.8, 0.08, new THREE.MeshStandardMaterial({ color: 0x0b0d12, roughness: 0.3, metalness: 0.1, emissive: 0x0a2a2a, envMapIntensity: ENV }), 0, 2.4, -1.2));   // the open door: lit inside
+    for (let k = -1; k <= 1; k++) hall.add(box(4.2, 0.12, 0.25, glow(0xbff6f0), k * 5.2, 6.25, -4.6));   // strip lights under the roof
+    for (const x of [-8.2, 8.2]) for (const z of [-1.0, -8.0]) hall.add(box(0.5, 6.8, 0.5, solid(0xffb547), x, 3.4, z));   // yellow structure columns
+    const strip = document.createElement("canvas"); strip.width = 256; strip.height = 32; const sg = strip.getContext("2d");      // hazard stripes along the hall's foot
+    for (let i = -32; i < 256; i += 32) { sg.fillStyle = "#ffb547"; sg.beginPath(); sg.moveTo(i, 32); sg.lineTo(i + 16, 0); sg.lineTo(i + 32, 0); sg.lineTo(i + 16, 32); sg.fill(); }
+    const st = new THREE.CanvasTexture(strip); st.encoding = THREE.sRGBEncoding; st.wrapS = THREE.RepeatWrapping; st.repeat.set(8, 1);
+    hall.add(box(17.2, 0.5, 0.05, new THREE.MeshStandardMaterial({ map: st, color: 0xffffff, roughness: 0.6, envMapIntensity: ENV }), 0, 0.25, -0.82));
+    const sign = document.createElement("canvas"); sign.width = 1024; sign.height = 256;              // the roof sign
+    const drawSign = () => { const x = sign.getContext("2d"); x.clearRect(0, 0, 1024, 256); x.textAlign = "center";
+      let fs = 118; do { x.font = "800 " + fs + "px Inter, 'Segoe UI', Helvetica, Arial, sans-serif"; fs -= 4; } while (x.measureText("HIGH GRADE ARCADE").width > 960 && fs > 40);
+      x.fillStyle = "#ffffff"; x.fillText("HIGH GRADE ARCADE", 512, 128);
+      x.font = "700 52px Inter, 'Segoe UI', Helvetica, Arial, sans-serif"; x.fillStyle = "#4fd1c5"; x.fillText("ENGINEERING WING", 512, 210); signTex.needsUpdate = true; };
+    const signTex = new THREE.CanvasTexture(sign); signTex.encoding = THREE.sRGBEncoding; drawSign(); if (document.fonts) document.fonts.ready.then(drawSign);
+    const signMat = new THREE.MeshBasicMaterial({ map: signTex, transparent: true, color: new THREE.Color(1.9, 1.9, 1.9) });
+    const signMesh = new THREE.Mesh(new THREE.PlaneGeometry(13, 3.25), signMat); signMesh.position.set(0, 8.9, -1.6); top.add(signMesh);
+    top.add(box(13.6, 3.6, 0.22, solid(0x101014), 0, 8.9, -1.78));                                  // the sign's dark backing, readable against any sky
+    top.add(box(13.4, 0.18, 0.4, solid(0x2a2a33), 0, 7.2, -1.6)); for (const x of [-5.5, 5.5]) top.add(box(0.18, 1.5, 0.18, solid(0x2a2a33), x, 7.9, -1.7));
+    // the repair yard in front: benches with cabinets on them, robot arms working, a conveyor out of the door, a gantry crane over it
+    [[-6.2, 3.2], [0, 4.8], [6.2, 3.2]].forEach(([x, z]) => top.add(box(3.4, 0.9, 2.0, STEEL, x, 0.45, z)));
+    kit(KA + "arcade-machine.glb", 2.5, -6.6, 0.9, 3.2, 0); kit(KA + "pinball.glb", 1.5, 0, 0.9, 4.8, 0); kit(KA + "claw-machine.glb", 2.7, 6.6, 0.9, 3.2, 0);
+    kit(KF + "robot-arm-a.glb", 2.6, -4.6, 0, 3.4, -Math.PI / 2, m => wing.push(t => m.rotation.y = -Math.PI / 2 + Math.sin(t * 0.9) * 0.6));
+    kit(KF + "robot-arm-b.glb", 2.6, 4.6, 0, 3.4, Math.PI / 2, m => wing.push(t => m.rotation.y = Math.PI / 2 + Math.sin(t * 0.8 + 1.2) * 0.6));
+    kit(KF + "robot-arm-a.glb", 2.4, 2.0, 0, 6.6, Math.PI, m => wing.push(t => m.rotation.y = Math.PI + Math.sin(t * 1.1 + 2.0) * 0.5));
+    kit(KF + "conveyor-long.glb", 0.7, 0, 0, 0.9, Math.PI / 2); kit(KF + "conveyor-long.glb", 0.7, 0, 0, -2.4, Math.PI / 2);
+    kit(KF + "hopper-high-round.glb", 4.0, 10.0, 0, -6.4, 0); kit(KF + "machine.glb", 2.6, 10.0, 0, 0.4, -Math.PI / 2);
+    kit(KF + "box-large.glb", 1.3, -10.2, 0, -3.0, 0.3); kit(KF + "box-large.glb", 1.3, -10.6, 1.3, -3.2, 1.1); kit(KF + "box-long.glb", 1.0, -9.6, 0, -0.6, 0);
+    [[-2.6, 8.2], [0, 8.6], [2.6, 8.2]].forEach(([x, z]) => kit(KF + "cone.glb", 0.8, x, 0, z, 0));
+    kit(KA + "dance-machine.glb", 2.5, -4.4, 0, -5.4, 0); kit(KA + "arcade-machine.glb", 2.5, -1.4, 0, -6.2, 0); kit(KA + "gambling-machine.glb", 2.5, 1.6, 0, -6.2, 0); kit(KA + "vending-machine.glb", 2.6, 4.6, 0, -5.6, 0);
+    kit(KF + "screen-wide.glb", 1.6, 0, 3.6, -7.7, 0);
+    const lamp = new THREE.PointLight(0xffc48a, 2.0, 30); lamp.position.set(0, 7, 4); top.add(lamp);
+    const inside = new THREE.PointLight(0x7fe8de, 1.6, 22); inside.position.set(0, 4.5, -4.6); top.add(inside);
   } else if (b.kind === "arcade") {                                       // HGA: an arcade hall, three cabinets under a neon sign, facing the street
     top.add(box(8.6, 0.2, 4.4, solid(0x15102a), 0, 0.1, 0.4));
     [-2.7, 0, 2.7].forEach((cx, k) => {
@@ -631,12 +772,13 @@ if (window.CONSOLE_URL) {                // only set when the Boss Console itsel
 document.querySelectorAll("#districts button[data-d]").forEach(btn => btn.onclick = () => {
   document.querySelectorAll("#districts button[data-d]").forEach(x => x.classList.toggle("on", x === btn));
   const d = btn.dataset.d, live = !!BOARDS[d]; SHOWING = d;
-  if (d === "docks") camera.position.set(-4, 34, 50); else if (d === "alley") camera.position.set(-8, 16, -25); else camera.position.set(-6, 40, 58); controls.target.set(0, 1, 0);
+  if (d === "docks") camera.position.set(-4, 34, 50); else if (d === "alley") camera.position.set(-8, 16, -25); else if (d === "arcade") camera.position.set(-16, 12, 35); else camera.position.set(-6, 30, 66); controls.target.set(0, d === "arcade" ? 3 : 1, 0);
   Object.entries(BOARDS).forEach(([k, g]) => g.visible = k === d);
   if (BOARDS[d]) movers.forEach(o => { if (o.kind === "flyer" && o.m.parent !== BOARDS[d]) { BOARDS[d].add(o.m); o.arrive = 1; } });   // Solder's ship flies to the district too (Jimm, 4 Oct) document.getElementById("offline").style.display = live ? "none" : "flex";
   document.querySelectorAll(".label, .bubble").forEach(l => l.style.visibility = (l.dataset.d || "downtown") === d || l.dataset.d === "fleet" ? "visible" : "hidden"); document.getElementById("card").style.display = "none";
 });
-const opening = (location.hash.match(/^#(docks|alley)/) || [])[1]; if (opening) document.querySelector('#districts button[data-d="' + opening + '"]').click();      // a link can open a district: .../city/#docks or #alley
+const opening = (location.hash.match(/^#(docks|alley|arcade)/) || [])[1]; if (opening) document.querySelector('#districts button[data-d="' + opening + '"]').click();
+else if (!localStorage.getItem("seen-arcade-wing")) { localStorage.setItem("seen-arcade-wing", "1"); document.querySelector('#districts button[data-d="arcade"]').click(); }   // 2 Nov: the first visit shows the new building      // a link can open a district: .../city/#docks or #alley
 const ray = new THREE.Raycaster(), tap = new THREE.Vector2(); let downAt = null;                    // tap a building: who lives there
 renderer.domElement.addEventListener("pointerdown", e => { downAt = [e.clientX, e.clientY]; });
 renderer.domElement.addEventListener("pointerup", e => {
@@ -669,7 +811,7 @@ renderer.domElement.addEventListener("pointerup", e => {
     '<div class="who" style="color:#9A8FC2">' + (d.key === "training-yard" ? "Neon Alley's Training Yard. The city's own model will train here one day, on the Foundry's records. Nobody lives in the Alley yet." : d.key === "hangar" ? "Empty socket. The robot gets built here when the fund can buy its parts." : d.key === "resist" || d.key === "docks-resist" ? "The smoke club. Residents drift in when the board is empty." : d.key === "datasanctuary" ? "Everyone is up. Amber window = asleep, blue = out. Designed by Byte, Zhilak, Aurum and NeonNova." : "Nobody here yet.") + "</div>";
   card.style.display = "block";
 });
-addEventListener("resize", () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); composer.setSize(innerWidth, innerHeight); });
+addEventListener("resize", () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); composer.setSize(innerWidth, innerHeight); grade.uniforms.res.value.set(innerWidth, innerHeight); });
 
 // ---------------------------------------------------------------- every frame
 const clock = new THREE.Clock(), v = new THREE.Vector3();
@@ -722,7 +864,7 @@ function frame() {
       const seg = d < 2 * X ? [-X + d, -Z, 0] : d < 2 * X + 2 * Z ? [X, -Z + (d - 2 * X), 1] : d < 4 * X + 2 * Z ? [X - (d - 2 * X - 2 * Z), Z, 2] : [-X, Z - (d - 4 * X - 2 * Z), 3];
       o.m.position.x = seg[0]; o.m.position.z = seg[1]; o.m.rotation.y = [Math.PI / 2, 0, -Math.PI / 2, Math.PI][seg[2]];
     } else {
-      const [RX, RZ] = { downtown: [30, 20], docks: [28, 17], alley: [26, 7] }[SHOWING] || [30, 20];     // a loop that fits the board it is over
+      const [RX, RZ] = { downtown: [30, 20], docks: [28, 17], alley: [26, 7], arcade: [28, 16] }[SHOWING] || [30, 20];     // a loop that fits the board it is over
       o.arrive = Math.max(0, (o.arrive || 0) - dt * 0.6);                                                   // after a jump to another district: swoop down from high up
       o.m.position.set(Math.cos(o.t * 0.35) * RX, 13 + Math.sin(o.t * 0.9) * 1.2 + o.arrive * o.arrive * 30, Math.sin(o.t * 0.35) * RZ); o.m.rotation.y = -o.t * 0.35;
     }
@@ -750,7 +892,8 @@ function frame() {
   }
   jackTags.forEach(([t, at]) => place(t, at[0], 3.4, at[1]));
   built.forEach(g => place(g.userData.label, g.position.x, g.userData.height, g.position.z));
-  controls.update(); composer.render(); requestAnimationFrame(frame);
+  if (lit.wing) lit.wing.forEach(f => f(now));
+  govern(); controls.update(); composer.render(); requestAnimationFrame(frame);
 }
 frame();
 </script>
